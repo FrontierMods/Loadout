@@ -1,0 +1,192 @@
+[
+	{
+		"id": "sight_trijicon_rmr",
+		"copy-from": "sight_rds",
+		"type": "GUNMOD",
+
+		"//source": ["https://www.trijicon.com/products/details/rm01-c-700600"],
+
+		"name": {
+			"str": "Trijicon RMR red dot sight"
+		},
+		"description": "TBD",
+
+		"weight": "34 g",
+		"//trim": "40% trim for shape",
+		"volume": "20 ml",
+		"longest_side": "46 mm",
+
+		"sight_dispersion": 13,
+
+		"location": "RMR mount",
+
+		"//power": {
+			"source": "CR2032",
+			"lifetime": "2 years"
+		},
+
+		"price": "649 USD"
+	},
+
+	{
+		"id": "sight_holosun_507k",
+		"copy-from": "sight_rds",
+		"type": "GUNMOD",
+
+		"//source": ["https://holosun.com/products/reflex-sight/507/hs507k-x2.html"],
+
+		"name": {
+			"str": "Holosun 507K red dot sight"
+		},
+		"description": "TBD",
+
+		"weight": "28 g",
+		"//trim": "40% trim for shape",
+		"volume": "15 ml",
+		"longest_side": "41 mm",
+
+		"sight_dispersion": 8,
+
+		"location": "Holosun mount",
+
+		"//power": {
+			"source": "CR1632",
+			"lifetime": "50000 hours"
+		},
+
+		"price": "341 USD"
+	},
+
+	{
+		"id": "sight_aimpoint_micro_t2",
+		"copy-from": "sight_rds",
+		"type": "GUNMOD",
+
+		"//source": [
+			"https://www.aimpoint.com/products/red-dot-sights/micro-t-2-2-moa-red-dot-reflex-sight-without-mount",
+			"https://www.opticsplanet.com/aimpoint-micro-t-2-red-dot-sight-200170.html"
+		],
+
+		"name": {
+			"str": "Aimpoint Micro T-2 red dot sight"
+		},
+		"description": "TBD",
+
+		"weight": "94 g",
+		"//trim": "7% trim for shape",
+		"volume": "100 ml",
+		"longest_side": "68 mm",
+
+		"sight_dispersion": 8,
+
+		"location": "Micro mount",
+
+		"//power": {
+			"source": "CR2032",
+			"lifetime": "50000 hours"
+		},
+
+		"price": "967 USD"
+	},
+
+	{
+		"id": "sight_vortex_strikefire_ii",
+		"copy-from": "sight_rds",
+		"type": "GUNMOD",
+
+		"//source": [
+			"https://vortexoptics.com/vortex-strikefire-2-red-dot+reticle-Red",
+			"https://www.opticsplanet.com/vortex-strikefire-ii-red-dot-sight-w-led-upgrade-4-moa.html"
+		],
+
+		"name": {
+			"str": "Vortex Strikefire II red dot sight"
+		},
+		"description": "TBD",
+
+		"weight": "204 g",
+		"//volume": "from cylinder calculations",
+		"//trim": "-15% trim for shape",
+		"volume": "115 ml",
+		"longest_side": "142 mm",
+
+		"sight_dispersion": 16,
+
+		"location": "30mm mount",
+
+		"//power": {
+			"source": "CR2",
+			"lifetime": "80000 hours"
+		},
+
+		"price": "275 USD"
+	},
+
+	{
+		"id": "sight_sigsauer_romeo5x",
+		"copy-from": "sight_rds",
+		"type": "GUNMOD",
+
+		"//source": [
+			"https://www.sigsauer.com/romeo5x-1x20-mm.html",
+			"https://www.optics-trade.eu/en/sig-sauer-romeo5x-1x20.html"
+		],
+
+		"name": {
+			"str": "Sig Sauer Romeo5X red dot sight"
+		},
+		"description": "TBD",
+
+		"//NOTE": "this model seems to only come together with a riser",
+		"//NOTE2": "there are also two models of risers: 1.41” and 1.63”",
+
+		"//TODO": "research standalone sight and risers",
+
+		"//weight": "listed as 159 g with 1.41” riser and alkaline AAA battery",
+		"//weight2": "typical alkaline AAA battery weighs 11.5 g ≈ 12 g",
+		"weight": "147 g",
+		"//trim": "20% trim for shape",
+		"volume": "119 ml",
+		"longest_side": "66 mm",
+
+		"sight_dispersion": 8,
+
+		"//power": {
+			"source": "AAA",
+			"lifetime": "50000 hours"
+		},
+
+		"price": "220 USD"
+	},
+
+	{
+		"id": "sight_holosun_aems",
+		"copy-from": "sight_rds",
+		"type": "GUNMOD",
+
+		"//source": [
+			"https://holosun.com/products/reflex-sight/aems/aems-red.html",
+			"https://www.optics-trade.eu/en/sig-sauer-romeo5x-1x20.html"
+		],
+
+		"name": {
+			"str": "Holosun AEMS red dot sight"
+		},
+		"description": "TBD",
+
+		"weight": "110 g",
+		"//trim": "5% trim for shape",
+		"volume": "89 ml",
+		"longest_side": "56 mm",
+
+		"sight_dispersion": 8,
+
+		"//power": {
+			"source": "CR2032",
+			"lifetime": "50000 hours",
+			"note": "also solar"
+		},
+
+		"price": "470 USD"
+	}
+]
