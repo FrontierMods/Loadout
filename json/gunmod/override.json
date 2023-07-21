@@ -1,0 +1,63 @@
+[
+	{
+		"id": "grip",
+		"copy-from": "grip",
+		"type": "GUNMOD",
+
+		"//source": [
+			"https://danieldefense.com/daniel-defense-vertical-foregrip-daniel-defense-tornado.html"
+		],
+
+		"name": {
+			"str": "Daniel Defense Tornado vertical grip"
+		},
+		"//description": "TBD",
+
+		"weight": "68 g",
+		"//trim": "30% trim due to shape",
+		"volume": "143 ml",
+		"longest_side": "114 mm",
+
+		"material": ["plastic", "rubber"],
+
+		"//interface": ["Picatinny"],
+
+		"handling_modifier": 7,
+
+		"mod_targets": ["pistol", "smg", "rifle", "shotgun", "launcher", "crossbow"],
+
+		"price": "34 USD"
+	},
+
+	{
+		"id": "bipod",
+		"copy-from": "bipod",
+		"type": "GUNMOD",
+
+		"//source": [
+			"https://www.at3tactical.com/products/harris-engineering-rotating-bipod-picatinny-and-mlok"
+		],
+
+		"name": {
+			"str": "Harris bipod"
+		},
+		"//description": "TBD",
+
+		"weight": "369 g",
+		"//trim": "40% trim due to shape",
+		"//volume": "highly eyeballed from image and leg length, 6″",
+		"//dimensions": "8×1.75×1.5″",
+		"volume": "206 ml",
+		"longest_side": "203 mm",
+
+		"material": ["aluminum", "steel", "rubber"],
+
+		"//interface": ["Picatinny"],
+
+		"handling_modifier": 18,
+
+		"mod_targets": ["pistol", "smg", "rifle", "shotgun", "launcher", "crossbow"],
+
+		"price": "169 USD"
+	}
+]
