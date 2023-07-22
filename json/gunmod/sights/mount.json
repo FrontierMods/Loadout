@@ -115,5 +115,53 @@
 		"add_mod": [["Micro mount", 1]],
 
 		"price": "47 USD"
+	},
+
+	{
+		"id": "sight_mount_acog_trijicon",
+		"copy-from": "sight_mount_abstract",
+		"type": "GUNMOD",
+
+		"//source": ["https://www.trijicon.com/products/details/ta51"],
+
+		"name": {
+			"str": "Trijicon ACOG TA51 mount"
+		},
+		"description": "TBD",
+
+		"weight": "113 g",
+		"//dimensions": "eyeballed from available length to be 3.5 × 1 × 0.5 in.",
+		"//trim": "10% trim from shape",
+		"volume": "26 ml",
+		"longest_side": "89 mm",
+
+		"add_mod": [["ACOG mount", 1]],
+
+		"price": "83 USD"
+	},
+
+	{
+		"id": "sight_mount_34mm_leapers",
+		"copy-from": "sight_mount_34mm",
+		"type": "GUNMOD",
+
+		"//source": [
+			"https://www.leapers.com/utg-accusync-34mm-high-profile-50mm-offset-picatinny-rings-black-air42250.html",
+			"https://www.adorama.com/utair42250.html"
+		],
+
+		"name": {
+			"str": "Leapers UTG 34mm ring mount"
+		},
+		"description": "TBD",
+
+		"weight": "171 g",
+		"//dimensions": "eyeballed: 130mm (base length × 130%) × 78mm (center height × 2) × 24mm (Picatinny rail width × 1.125)",
+		"//volume": "243 mm",
+		"//trim": "80% trim from shape",
+		"volume": "49 ml",
+		"longest_side": "130 mm",
+
+		"price": "55 USD"
 	}
 ]
