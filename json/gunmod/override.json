@@ -59,5 +59,169 @@
 		"mod_targets": ["pistol", "smg", "rifle", "shotgun", "launcher", "crossbow"],
 
 		"price": "169 USD"
+	},
+
+	{
+		"id": "holo_sight",
+		"copy-from": "holo_sight",
+		"type": "GUNMOD",
+
+		"//source": [
+			"https://www.eotechinc.com/eotech-hws-xps3",
+			"https://www.bhphotovideo.com/c/product/1179431-REG/eotech_xps3_0_holographic_weapon_sight.html/specs"
+		],
+
+		"name": {
+			"str": "EOTech XPS3 holographic sight"
+		},
+		"//description": "TBD",
+
+		"//trim": "40% trim due to shape",
+		"volume": "196 ml",
+
+		"sight_dispersion": 4,
+		"//field_of_view": "29.9m @ 100yd",
+		"field_of_view": 1114,
+
+		"mod_targets": ["pistol", "smg", "rifle", "shotgun", "launcher", "crossbow"],
+
+		"//power": {
+			"source": "CR123",
+			"lifetime": "1000 hours"
+		},
+
+		"price": "735 USD"
+	},
+
+	{
+		"id": "red_dot_sight",
+		"copy-from": "red_dot_sight",
+		"type": "GUNMOD",
+
+		"//source": [
+			"https://www.ncstar.com/optics-acc/reflex-optics/heads-up/d4rgb-dot4retrd-grwvr-mtblk",
+			"https://www.amazon.com/NcSTAR-Sight-TACTICAL-DIFFERENT-RETICLES/dp/B001COQOZI",
+			"https://www.opticsplanet.com/nc-star-d4rgb-tactical-double-illumination-red-dot-sight.html",
+			"https://www.amazon.com/Pinty-Holographic-Tactical-Riflescope-Patterns/dp/B01BF5LYGW"
+		],
+
+		"//note": "comes with a Picatinny mount",
+
+		"name": {
+			"str": "NcSTAR red dot sight"
+		},
+		"//description": "TBD",
+
+		"//trim": "45% trim due to shape",
+		"volume": "319 ml",
+
+		"material": ["aluminum"],
+
+		"sight_dispersion": 12,
+		"//field_of_view": "52 feet @ 100 yards",
+		"//field_of_view2": "assumed from a Pinty sight that looks remarkably like the NcSTAR one, none available for the original",
+		"field_of_view": 594,
+
+		"mod_targets": ["pistol", "smg", "rifle", "shotgun", "launcher", "crossbow"],
+
+		"//power": {
+			"source": "CR2032",
+			"lifetime": "???"
+		},
+
+		"price": "73 USD"
+	},
+
+	{
+		"id": "rifle_scope",
+		"copy-from": "rifle_scope",
+		"type": "GUNMOD",
+
+		"//source": [
+			"https://www.leupold.com/mark-6-3-18x44-m5b2-ffp-mil-dot-riflescope"
+		],
+
+		"name": {
+			"str": "Leupold Mark 6 3-18x44 rifle scope"
+		},
+		"//description": "TBD",
+
+		"//volume": "three parts calculated separately, then combined",
+		"volume": "352 ml",
+
+		"material": ["aluminum"],
+
+		"sight_dispersion": 1,
+		"//field_of_view": "36.8 ft @ 100 yards @ 3x magnification",
+		"field_of_view": 421,
+
+		"location": "34 mm scope mount",
+
+		"//power": {
+			"source": "CR2032",
+			"lifetime": "???"
+		},
+
+		"price": "73 USD"
+	},
+
+	{
+		"id": "acog_scope",
+		"copy-from": "acog_scope",
+		"type": "GUNMOD",
+
+		"//source": [
+			"https://www.trijicon.com/products/details/ta01-c-100317",
+			"https://www.trijicon.com/products/details/ta01law"
+		],
+
+		"//note": "the second source is a model of ACOG that comes without a mount by default, for dimensions reference",
+
+		"name": {
+			"str": "Trijicon ACOG 4×32 scope"
+		},
+		"//description": "TBD",
+
+		"//trim": "40% trim due to shape",
+		"volume": "262 ml",
+
+		"sight_dispersion": 1,
+		"//field_of_view": "36.8 feet @ 100 yards",
+		"field_of_view": 421,
+
+		"location": "ACOG mount",
+
+		"//power": {
+			"source": "tritium",
+			"lifetime": "12 years"
+		},
+
+		"price": "1539 USD"
+	},
+
+	{
+		"id": "holo_magnifier",
+		"copy-from": "holo_magnifier",
+		"type": "GUNMOD",
+
+		"//source": ["https://www.eotechinc.com/eotech-magnifier-g43"],
+
+		"name": {
+			"str": "EOTech G43 magnifier"
+		},
+		"//description": "TBD",
+
+		"//dimensions": "78.7 × 58.4 × 83.8 mm",
+		"//volume": "385 mm",
+		"//trim": "25% trim due to shape",
+		"volume": "289 ml",
+
+		"material": ["aluminum", "glass"],
+
+		"//sight_dispersion": "on the assumption that it would magnify the center-of-aim point a size or two",
+		"//sight_dispersion2": "ideally it should, of course, coordinate with the sight in magnifies",
+		"sight_dispersion": 12,
+
+		"price": "649 USD"
 	}
 ]
