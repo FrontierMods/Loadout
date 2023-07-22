@@ -1,6 +1,6 @@
 [
 	{
-		"id": "sight_mount_scalarworks_leap4",
+		"id": "sight_mount_rmr_scalarworks_leap4",
 		"copy-from": "sight_mount_rmr",
 		"type": "GUNMOD",
 
@@ -23,7 +23,7 @@
 	},
 
 	{
-		"id": "sight_mount_trijicon_rm33",
+		"id": "sight_mount_rmr_trijicon_rm33",
 		"copy-from": "sight_mount_rmr",
 		"type": "GUNMOD",
 
@@ -79,7 +79,7 @@
 		],
 
 		"name": {
-			"str": "Holosun 407/507k adapter for RMR"
+			"str": "Holosun 407/507k adapter for RMR mount"
 		},
 		"description": "TBD",
 
