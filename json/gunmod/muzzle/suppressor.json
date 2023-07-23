@@ -4,9 +4,7 @@
 		"copy-from": "suppressor",
 		"type": "GUNMOD",
 
-		"//source": [
-			"https://www.surefire.com/socom556-rc2/"
-		],
+		"//source": ["https://www.surefire.com/socom556-rc2/"],
 
 		"name": {
 			"str": "Surefire SOCOM556-RC2 suppressor"
