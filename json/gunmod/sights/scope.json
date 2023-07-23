@@ -1,83 +1,83 @@
 [
-	{
-		"id": "sight_eotech_vudu",
-		"copy-from": "sight_30mm",
-		"type": "GUNMOD",
+  {
+    "id": "sight_eotech_vudu",
+    "copy-from": "sight_30mm",
+    "type": "GUNMOD",
 
-		"//source": [
-			"https://www.eotechinc.com/eotech-vudu-1-6x24-ffp",
-			"https://xtremetactical.co.uk/products/eotech-vdu1-6ffsr3"
-		],
+    "//source": [
+      "https://www.eotechinc.com/eotech-vudu-1-6x24-ffp",
+      "https://xtremetactical.co.uk/products/eotech-vdu1-6ffsr3"
+    ],
 
-		"name": {
-			"str": "EOTech Vudu 1—6×24 30mm scope"
-		},
-		"description": "TBD",
+    "name": {
+      "str": "EOTech Vudu 1—6×24 30mm scope"
+    },
+    "description": "TBD",
 
-		"weight": "570 g",
-		"//volume": "from cylinder calculations",
-		"//trim": "20% trim for shape",
-		"volume": "153 ml",
-		"longest_side": "97 mm",
+    "weight": "570 g",
+    "//volume": "from cylinder calculations",
+    "//trim": "20% trim for shape",
+    "volume": "153 ml",
+    "longest_side": "97 mm",
 
-		"sight_dispersion": 4,
+    "sight_dispersion": 4,
 
-		"//power": {
-			"source": "CR2032",
-			"lifetime": "500 hours"
-		},
+    "//power": {
+      "source": "CR2032",
+      "lifetime": "500 hours"
+    },
 
-		"price": "1400 USD"
-	},
+    "price": "1400 USD"
+  },
 
-	{
-		"id": "sight_trijicon_huron",
-		"copy-from": "sight_30mm",
-		"type": "GUNMOD",
+  {
+    "id": "sight_trijicon_huron",
+    "copy-from": "sight_30mm",
+    "type": "GUNMOD",
 
-		"//source": ["https://www.trijicon.com/products/details/hr1240-c-2700003"],
+    "//source": ["https://www.trijicon.com/products/details/hr1240-c-2700003"],
 
-		"name": {
-			"str": "Trijicon Huron 3—12×40 30mm scope"
-		},
-		"description": "TBD",
+    "name": {
+      "str": "Trijicon Huron 3—12×40 30mm scope"
+    },
+    "description": "TBD",
 
-		"weight": "505 g",
-		"//volume": "from cylinder calculations",
-		"//trim": "20% trim for shape",
-		"volume": "180 ml",
-		"longest_side": "318 mm",
+    "weight": "505 g",
+    "//volume": "from cylinder calculations",
+    "//trim": "20% trim for shape",
+    "volume": "180 ml",
+    "longest_side": "318 mm",
 
-		"sight_dispersion": 1,
+    "sight_dispersion": 1,
 
-		"price": "700 USD"
-	},
+    "price": "700 USD"
+  },
 
-	{
-		"id": "sight_trijicon_tenmile",
-		"copy-from": "sight_30mm",
-		"type": "GUNMOD",
+  {
+    "id": "sight_trijicon_tenmile",
+    "copy-from": "sight_30mm",
+    "type": "GUNMOD",
 
-		"//source": ["https://www.trijicon.com/products/details/tm62450-c-3000005"],
+    "//source": ["https://www.trijicon.com/products/details/tm62450-c-3000005"],
 
-		"name": {
-			"str": "Trijicon Tenmile 6—24×50 30mm scope"
-		},
-		"description": "TBD",
+    "name": {
+      "str": "Trijicon Tenmile 6—24×50 30mm scope"
+    },
+    "description": "TBD",
 
-		"weight": "705 g",
-		"//volume": "from cylinder calculations; assumes 40mm diameter to compensate for wide front lens frame",
-		"//trim": "30% trim for shape",
-		"volume": "323 ml",
-		"longest_side": "367 mm",
+    "weight": "705 g",
+    "//volume": "from cylinder calculations; assumes 40mm diameter to compensate for wide front lens frame",
+    "//trim": "30% trim for shape",
+    "volume": "323 ml",
+    "longest_side": "367 mm",
 
-		"sight_dispersion": 1,
+    "sight_dispersion": 1,
 
-		"//power": {
-			"source": "CR2032",
-			"lifetime": "39 hours"
-		},
+    "//power": {
+      "source": "CR2032",
+      "lifetime": "39 hours"
+    },
 
-		"price": "1400 USD"
-	}
+    "price": "1400 USD"
+  }
 ]

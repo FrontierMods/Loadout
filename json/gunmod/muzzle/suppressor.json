@@ -1,230 +1,230 @@
 [
-	{
-		"id": "suppressor_surefire_socom556",
-		"copy-from": "suppressor",
-		"type": "GUNMOD",
+  {
+    "id": "suppressor_surefire_socom556",
+    "copy-from": "suppressor",
+    "type": "GUNMOD",
 
-		"//source": ["https://www.surefire.com/socom556-rc2/"],
+    "//source": ["https://www.surefire.com/socom556-rc2/"],
 
-		"name": {
-			"str": "Surefire SOCOM556-RC2 suppressor"
-		},
-		"description": "TBD",
+    "name": {
+      "str": "Surefire SOCOM556-RC2 suppressor"
+    },
+    "description": "TBD",
 
-		"weight": "482 g",
-		"volume": "180 ml",
-		"longest_side": "162 mm",
-		"//added_length": "97 mm",
+    "weight": "482 g",
+    "volume": "180 ml",
+    "longest_side": "162 mm",
+    "//added_length": "97 mm",
 
-		"damage_modifier": {
-			"damage_type": "bullet",
-			"amount": 2
-		},
+    "damage_modifier": {
+      "damage_type": "bullet",
+      "amount": 2
+    },
 
-		"//calibers": ["556"],
+    "//calibers": ["556"],
 
-		"//sound_lower": "134 dB @ 16 in. w/ M855",
+    "//sound_lower": "134 dB @ 16 in. w/ M855",
 
-		"loudness_modifier": -55,
+    "loudness_modifier": -55,
 
-		"price": "1100 USD"
-	},
+    "price": "1100 USD"
+  },
 
-	{
-		"id": "suppressor_thunderbeast_dominus",
-		"copy-from": "suppressor",
-		"type": "GUNMOD",
+  {
+    "id": "suppressor_thunderbeast_dominus",
+    "copy-from": "suppressor",
+    "type": "GUNMOD",
 
-		"//source": ["https://thunderbeastarms.com/products/dominus-sr"],
+    "//source": ["https://thunderbeastarms.com/products/dominus-sr"],
 
-		"name": {
-			"str": "Thunder Beast Arms Dominus-SR suppressor"
-		},
-		"description": "TBD",
+    "name": {
+      "str": "Thunder Beast Arms Dominus-SR suppressor"
+    },
+    "description": "TBD",
 
-		"weight": "354 g",
-		"volume": "290 ml",
-		"longest_side": "177 mm",
-		"//added_length": "162 mm",
+    "weight": "354 g",
+    "volume": "290 ml",
+    "longest_side": "177 mm",
+    "//added_length": "162 mm",
 
-		"damage_modifier": {
-			"damage_type": "bullet",
-			"amount": 2
-		},
+    "damage_modifier": {
+      "damage_type": "bullet",
+      "amount": 2
+    },
 
-		"material": ["titanium", "steel"],
+    "material": ["titanium", "steel"],
 
-		"//calibers": [
-			"556",
-			"300BLK",
-			"65grendel",
-			"65PRC",
-			"300win",
-			"68SPC",
-			"762soviet",
-			"65creedmoor",
-			"308win"
-		],
+    "//calibers": [
+      "556",
+      "300BLK",
+      "65grendel",
+      "65PRC",
+      "300win",
+      "68SPC",
+      "762soviet",
+      "65creedmoor",
+      "308win"
+    ],
 
-		"//sound_lower": "137 dB @ 20 in. w/ .308",
+    "//sound_lower": "137 dB @ 20 in. w/ .308",
 
-		"loudness_modifier": -50,
+    "loudness_modifier": -50,
 
-		"price": "1495 USD"
-	},
+    "price": "1495 USD"
+  },
 
-	{
-		"id": "suppressor_thunderbeast_ultra9",
-		"copy-from": "suppressor",
-		"type": "GUNMOD",
+  {
+    "id": "suppressor_thunderbeast_ultra9",
+    "copy-from": "suppressor",
+    "type": "GUNMOD",
 
-		"//source": ["https://thunderbeastarms.com/products/ultra-9"],
+    "//source": ["https://thunderbeastarms.com/products/ultra-9"],
 
-		"name": {
-			"str": "Thunder Beast Arms Ultra 9 Gen 2 suppressor"
-		},
-		"description": "TBD",
+    "name": {
+      "str": "Thunder Beast Arms Ultra 9 Gen 2 suppressor"
+    },
+    "description": "TBD",
 
-		"weight": "335 g",
-		"volume": "375 ml",
-		"longest_side": "229 mm",
-		"//added_length": "?? mm",
+    "weight": "335 g",
+    "volume": "375 ml",
+    "longest_side": "229 mm",
+    "//added_length": "?? mm",
 
-		"damage_modifier": {
-			"damage_type": "bullet",
-			"amount": 3
-		},
+    "damage_modifier": {
+      "damage_type": "bullet",
+      "amount": 3
+    },
 
-		"material": ["titanium", "steel"],
+    "material": ["titanium", "steel"],
 
-		"//calibers": [
-			"556",
-			"300BLK",
-			"65grendel",
-			"65PRC",
-			"300win",
-			"68SPC",
-			"762soviet",
-			"65creedmoor",
-			"308win"
-		],
+    "//calibers": [
+      "556",
+      "300BLK",
+      "65grendel",
+      "65PRC",
+      "300win",
+      "68SPC",
+      "762soviet",
+      "65creedmoor",
+      "308win"
+    ],
 
-		"//sound_lower": "135 dB @ 20 in. w/ .308",
+    "//sound_lower": "135 dB @ 20 in. w/ .308",
 
-		"loudness_modifier": -55,
+    "loudness_modifier": -55,
 
-		"price": "1145 USD"
-	},
+    "price": "1145 USD"
+  },
 
-	{
-		"id": "suppressor_silentlegion_223",
-		"copy-from": "suppressor",
-		"type": "GUNMOD",
+  {
+    "id": "suppressor_silentlegion_223",
+    "copy-from": "suppressor",
+    "type": "GUNMOD",
 
-		"//source": ["https://thunderbeastarms.com/products/ultra-9"],
+    "//source": ["https://thunderbeastarms.com/products/ultra-9"],
 
-		"name": {
-			"str": "Silent Legion 5.56mm suppressor"
-		},
-		"description": "TBD",
+    "name": {
+      "str": "Silent Legion 5.56mm suppressor"
+    },
+    "description": "TBD",
 
-		"weight": "439 g",
-		"volume": "292 ml",
-		"longest_side": "178 mm",
-		"//added_length": "?? mm",
+    "weight": "439 g",
+    "volume": "292 ml",
+    "longest_side": "178 mm",
+    "//added_length": "?? mm",
 
-		"damage_modifier": {
-			"damage_type": "bullet",
-			"amount": 2
-		},
+    "damage_modifier": {
+      "damage_type": "bullet",
+      "amount": 2
+    },
 
-		"//material": "actual material for the steel part is inconel",
-		"material": ["titanium", "steel"],
+    "//material": "actual material for the steel part is inconel",
+    "material": ["titanium", "steel"],
 
-		"//calibers": ["556", "300BLK"],
+    "//calibers": ["556", "300BLK"],
 
-		"//sound_reduction": "32 dB",
+    "//sound_reduction": "32 dB",
 
-		"loudness_modifier": -50,
+    "loudness_modifier": -50,
 
-		"price": "1120 USD"
-	},
+    "price": "1120 USD"
+  },
 
-	{
-		"id": "suppressor_banish_30",
-		"copy-from": "suppressor",
-		"type": "GUNMOD",
+  {
+    "id": "suppressor_banish_30",
+    "copy-from": "suppressor",
+    "type": "GUNMOD",
 
-		"//note": "short 7 in. version without tube extension",
+    "//note": "short 7 in. version without tube extension",
 
-		"//source": ["https://www.silencercentral.com/products/banish-30/"],
+    "//source": ["https://www.silencercentral.com/products/banish-30/"],
 
-		"name": {
-			"str": "Banish 30 suppressor"
-		},
-		"description": "TBD",
+    "name": {
+      "str": "Banish 30 suppressor"
+    },
+    "description": "TBD",
 
-		"weight": "284 g",
-		"volume": "292 ml",
-		"longest_side": "178 mm",
-		"//added_length": "?? mm",
+    "weight": "284 g",
+    "volume": "292 ml",
+    "longest_side": "178 mm",
+    "//added_length": "?? mm",
 
-		"damage_modifier": {
-			"damage_type": "bullet",
-			"amount": 2
-		},
+    "damage_modifier": {
+      "damage_type": "bullet",
+      "amount": 2
+    },
 
-		"material": ["titanium", "steel"],
+    "material": ["titanium", "steel"],
 
-		"//calibers": [
-			"556",
-			"300BLK",
-			"308",
-			"300weatherby",
-			"300winmag",
-			"17",
-			"22-50",
-			"204"
-		],
+    "//calibers": [
+      "556",
+      "300BLK",
+      "308",
+      "300weatherby",
+      "300winmag",
+      "17",
+      "22-50",
+      "204"
+    ],
 
-		"//sound_reduction": "34 dB",
+    "//sound_reduction": "34 dB",
 
-		"loudness_modifier": -55,
+    "loudness_modifier": -55,
 
-		"price": "979 USD"
-	},
+    "price": "979 USD"
+  },
 
-	{
-		"id": "suppressor_eliteiron_bravo1lite",
-		"copy-from": "suppressor",
-		"type": "GUNMOD",
+  {
+    "id": "suppressor_eliteiron_bravo1lite",
+    "copy-from": "suppressor",
+    "type": "GUNMOD",
 
-		"//source": ["https://www.eliteiron.com/product/bravo-1-lite-suppressor/"],
+    "//source": ["https://www.eliteiron.com/product/bravo-1-lite-suppressor/"],
 
-		"name": {
-			"str": "Elite Iron Bravo 1 Lite suppressor"
-		},
-		"description": "TBD",
+    "name": {
+      "str": "Elite Iron Bravo 1 Lite suppressor"
+    },
+    "description": "TBD",
 
-		"weight": "366 g",
-		"volume": "268 ml",
-		"longest_side": "200 mm",
-		"//added_length": "?? mm",
+    "weight": "366 g",
+    "volume": "268 ml",
+    "longest_side": "200 mm",
+    "//added_length": "?? mm",
 
-		"damage_modifier": {
-			"damage_type": "bullet",
-			"amount": 2
-		},
+    "damage_modifier": {
+      "damage_type": "bullet",
+      "amount": 2
+    },
 
-		"//material": "actual material for the steel part is inconel",
-		"material": ["titanium", "steel"],
+    "//material": "actual material for the steel part is inconel",
+    "material": ["titanium", "steel"],
 
-		"//calibers": ["556", "300BLK", "308", "30-06"],
+    "//calibers": ["556", "300BLK", "308", "30-06"],
 
-		"//sound_reduction": "23 dB",
+    "//sound_reduction": "23 dB",
 
-		"loudness_modifier": -40,
+    "loudness_modifier": -40,
 
-		"price": "1095 USD"
-	}
+    "price": "1095 USD"
+  }
 ]

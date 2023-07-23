@@ -1,28 +1,28 @@
 [
-	{
-		"id": "sight_eotech_xps2",
-		"copy-from": "sight_holo",
-		"type": "GUNMOD",
+  {
+    "id": "sight_eotech_xps2",
+    "copy-from": "sight_holo",
+    "type": "GUNMOD",
 
-		"//source": ["https://www.eotechinc.com/eotech-hws-xps2"],
+    "//source": ["https://www.eotechinc.com/eotech-hws-xps2"],
 
-		"name": {
-			"str": "EOTech XPS2 holographic sight"
-		},
-		"description": "TBD",
+    "name": {
+      "str": "EOTech XPS2 holographic sight"
+    },
+    "description": "TBD",
 
-		"weight": "255 g",
-		"//volume": "30% trim for shape",
-		"volume": "229 ml",
-		"longest_side": "97 mm",
+    "weight": "255 g",
+    "//volume": "30% trim for shape",
+    "volume": "229 ml",
+    "longest_side": "97 mm",
 
-		"sight_dispersion": 4,
+    "sight_dispersion": 4,
 
-		"//power": {
-			"source": "CR123",
-			"lifetime": "1000 hours"
-		},
+    "//power": {
+      "source": "CR123",
+      "lifetime": "1000 hours"
+    },
 
-		"price": "629 USD"
-	}
+    "price": "629 USD"
+  }
 ]
