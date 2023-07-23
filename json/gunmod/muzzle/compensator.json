@@ -1,0 +1,184 @@
+[
+	{
+		"id": "muzzle_brake_precision_hypertap",
+		"copy-from": "muzzle_brake",
+		"type": "GUNMOD",
+
+		"//source": [
+			"https://www.wingtactical.com/firearm-parts/ar-15-parts/muzzle-devices/precision-armament-hypertap-muzzle-brake-5-56-223/"
+		],
+
+		"name": {
+			"str": "Precision Armament Hypertap muzzle brake"
+		},
+		"description": "TBD",
+
+		"weight": "87 g",
+		"volume": "24 ml",
+		"longest_side": "65 mm",
+
+		"//calibers": ["556"],
+
+		"//recoil_reduction_note": "could be bogus",
+		"//recoil_reduction": "84%",
+
+		"//recoil_modifier": -420,
+		"handling_modifier": 42,
+
+		"price": "180 USD"
+	},
+
+	{
+		"id": "muzzle_brake_sjc_titan",
+		"copy-from": "muzzle_brake",
+		"type": "GUNMOD",
+
+		"//source": ["https://stores.sjcguns.com/223-5-56-sjc-titan-cs-black/"],
+
+		"name": {
+			"str": "S&J Customs Titan muzzle brake"
+		},
+		"description": "TBD",
+
+		"weight": "87 g",
+		"volume": "33 ml",
+		"longest_side": "70 mm",
+
+		"//calibers": ["556"],
+
+		"//recoil_reduction": "78%",
+		"//recoil_distance": "2.4688 in.",
+
+		"//recoil_modifier": -400,
+		"handling_modifier": 40,
+
+		"price": "100 USD"
+	},
+
+	{
+		"id": "muzzle_brake_v7",
+		"copy-from": "muzzle_brake",
+		"type": "GUNMOD",
+
+		"//source": [
+			"https://www.vsevenweaponsystems.com/v7-muzzle-brake/",
+			"https://www.thetruthaboutguns.com/ar-15-muzzle-brake-shootout-3/"
+		],
+
+		"name": {
+			"str": "V Seven muzzle brake"
+		},
+		"description": "TBD",
+
+		"weight": "76 g",
+		"volume": "22 ml",
+		"longest_side": "53 mm",
+
+		"material": ["titanium"],
+
+		"//calibers": ["556"],
+
+		"//recoil_reduction": "56.35%",
+		"//recoil_distance": "4.9375 in.",
+
+		"//recoil_modifier": -275,
+		"handling_modifier": 28,
+
+		"price": "91 USD"
+	},
+
+	{
+		"id": "muzzle_brake_v7_furion",
+		"copy-from": "muzzle_brake",
+		"type": "GUNMOD",
+
+		"//source": [
+			"https://www.vsevenweaponsystems.com/furion/",
+			"https://www.thetruthaboutguns.com/ar-15-muzzle-brake-shootout-3/"
+		],
+
+		"name": {
+			"str": "V Seven FURION muzzle brake"
+		},
+		"description": "TBD",
+
+		"weight": "47 g",
+		"//trim": "trimmed slightly for empty spaces",
+		"volume": "24 ml",
+		"longest_side": "58 mm",
+
+		"material": ["titanium"],
+
+		"//calibers": ["556"],
+
+		"//recoil_reduction": "64.36%",
+		"//recoil_distance": "4.0313 in.",
+
+		"//recoil_modifier": -325,
+		"handling_modifier": 33,
+
+		"price": "145 USD"
+	},
+
+	{
+		"id": "muzzle_brake_apex",
+		"copy-from": "muzzle_brake",
+		"type": "GUNMOD",
+
+		"//source": [
+			"https://www.apextactical.com/apex-enhanced-stabilization-attachment",
+			"https://www.thetruthaboutguns.com/ar-15-muzzle-brake-shootout-3/"
+		],
+
+		"name": {
+			"str": "Apex Enhanced Stabilization Attachment muzzle brake"
+		},
+		"description": "TBD",
+
+		"weight": "63 g",
+		"//trim": "trimmed slightly for empty spaces",
+		"volume": "17 ml",
+		"longest_side": "66 mm",
+
+		"//calibers": ["556"],
+
+		"//recoil_reduction": "60.50%",
+		"//recoil_distance": "4.4688 in.",
+
+		"//recoil_modifier": -300,
+		"handling_modifier": 30,
+
+		"price": "60 USD"
+	},
+
+	{
+		"id": "muzzle_brake_deadair_keymount",
+		"copy-from": "muzzle_brake",
+		"type": "GUNMOD",
+
+		"//source": [
+			"https://deadairsilencers.com/product/keymount-muzzle-brake-2/",
+			"https://www.thetruthaboutguns.com/ar-15-muzzle-brake-shootout-3/"
+		],
+
+		"name": {
+			"str": "Dead Air KeyMount muzzle brake"
+		},
+		"description": "TBD",
+
+		"weight": "116 g",
+		"//trim": "trimmed slightly for empty spaces",
+		"volume": "37 ml",
+		"longest_side": "66 mm",
+
+		"//calibers": ["556"],
+
+		"//recoil_reduction": "56.63%",
+		"//recoil_distance": "4.9063 in.",
+
+		"//recoil_modifier": -275,
+		"handling_modifier": 28,
+
+		"price": "89 USD"
+	}
+]
