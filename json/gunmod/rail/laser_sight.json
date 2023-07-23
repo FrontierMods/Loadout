@@ -1,0 +1,123 @@
+[
+  {
+    "id": "laser_sight_firefield",
+    "copy-from": "laser_sight_red",
+    "type": "GUNMOD",
+
+    "//source": [
+      "https://palmettostatearmory.com/firefield-charge-ar-red-laser-sight-for-rifles-ff25006.html",
+      "https://www.opticsplanet.com/firefield-ff25006-charge-ar-red-las.html"
+    ],
+
+    "name": {
+      "str": "Firefield Charge red laser sight"
+    },
+    "description": "TBD",
+
+    "weight": "68 g",
+    "volume": "66 ml",
+    "longest_side": "56 mm",
+
+    "sight_dispersion": 12,
+
+    "//power": {
+      "source": "CR2",
+      "lifetime": "40 hours"
+    },
+
+    "//laser": {
+      "class": "3R",
+      "power": "5 mW",
+      "divergence": "2.86 MOA",
+      "range": {
+        "day": "20 yards"
+      }
+    },
+
+    "price": "30 USD"
+  },
+
+  {
+    "id": "laser_sight_steiner",
+    "copy-from": "laser_sight_green",
+    "type": "GUNMOD",
+
+    "//source": [
+      "https://palmettostatearmory.com/steiner-tor-mini-green-laser-sight-7003.html",
+      "https://www.steiner-optics.com/laser-devices/tor-mini"
+    ],
+
+    "name": {
+      "str": "Steiner TOR Mini green laser sight"
+    },
+    "description": "TBD",
+
+    "weight": "60 g",
+    "//volume": "10% trim for shape",
+    "volume": "48 ml",
+    "longest_side": "56 mm",
+
+    "sight_dispersion": 12,
+
+    "//power": {
+      "source": "CR1/3N",
+      "lifetime": "???"
+    },
+
+    "//laser": {
+      "class": "3R",
+      "power": "5 mW",
+      "divergence": "2.86 MOA",
+      "range": {
+        "day": "???"
+      }
+    },
+
+    "price": "287 USD"
+  },
+
+  {
+    "id": "laser_sight_l3harris",
+    "copy-from": "laser_sight_red",
+    "type": "GUNMOD",
+
+    "//source": [
+      "https://palmettostatearmory.com/eotech-atpial-an-peq-15-commercial-laser-aiming-system-w-ir-and-visible-aim-laser-atp-000-a58.html",
+      "https://www.midwayusa.com/product/1868370417/",
+      "https://anvsinc.com/product/eotech-atpial-an-peq-15-aiming-laser/",
+      "https://www.l3harris.com/all-capabilities/advanced-target-pointer-illuminator-aiming-laser-atpial-an-peq-15"
+    ],
+
+    "//note": "AN/PEQ-15 is US military nomeclature for this laser sight",
+    "//note2": "The C in ATPIAL-C denotes that this is a commercial, civilian-legal variant",
+
+    "name": {
+      "str": "L3Harris ATPIAL-C red laser sight"
+    },
+    "description": "TBD",
+
+    "weight": "213 g",
+    "//volume": "10% trim for shape",
+    "volume": "304 ml",
+    "longest_side": "117 mm",
+
+    "//sight_dispersion": "based on visible laser beam diverge of 0.5 mrad ≈ 1.72 MoA",
+    "sight_dispersion": 7,
+
+    "//power": {
+      "source": "CR123",
+      "lifetime": "6 hours"
+    },
+
+    "//laser": {
+      "class": "3R",
+      "power": "4.6 mW",
+      "divergence": "1.72 MOA",
+      "range": {
+        "day": "25 meters"
+      }
+    },
+
+    "price": "1787 USD"
+  }
+]
