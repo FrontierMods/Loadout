@@ -25,7 +25,7 @@
 
     "//sound_lower": "134 dB @ 16 in. w/ M855",
 
-    "loudness_modifier": -55,
+    "loudness_modifier": -45,
 
     "price": "1100 USD"
   },
@@ -68,7 +68,7 @@
 
     "//sound_lower": "137 dB @ 20 in. w/ .308",
 
-    "loudness_modifier": -50,
+    "loudness_modifier": -40,
 
     "price": "1495 USD"
   },
@@ -111,7 +111,7 @@
 
     "//sound_lower": "135 dB @ 20 in. w/ .308",
 
-    "loudness_modifier": -55,
+    "loudness_modifier": -45,
 
     "price": "1145 USD"
   },
@@ -145,7 +145,7 @@
 
     "//sound_reduction": "32 dB",
 
-    "loudness_modifier": -50,
+    "loudness_modifier": -40,
 
     "price": "1120 USD"
   },
@@ -189,7 +189,7 @@
 
     "//sound_reduction": "34 dB",
 
-    "loudness_modifier": -55,
+    "loudness_modifier": -45,
 
     "price": "979 USD"
   },
@@ -223,7 +223,7 @@
 
     "//sound_reduction": "23 dB",
 
-    "loudness_modifier": -40,
+    "loudness_modifier": -30,
 
     "price": "1095 USD"
   }
