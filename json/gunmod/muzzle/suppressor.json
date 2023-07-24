@@ -1,7 +1,7 @@
 [
   {
     "id": "suppressor_surefire_socom556",
-    "copy-from": "suppressor",
+    "copy-from": "suppressor_abstract",
     "type": "GUNMOD",
 
     "//source": ["https://www.surefire.com/socom556-rc2/"],
@@ -32,7 +32,7 @@
 
   {
     "id": "suppressor_thunderbeast_dominus",
-    "copy-from": "suppressor",
+    "copy-from": "suppressor_abstract",
     "type": "GUNMOD",
 
     "//source": ["https://thunderbeastarms.com/products/dominus-sr"],
@@ -75,7 +75,7 @@
 
   {
     "id": "suppressor_thunderbeast_ultra9",
-    "copy-from": "suppressor",
+    "copy-from": "suppressor_abstract",
     "type": "GUNMOD",
 
     "//source": ["https://thunderbeastarms.com/products/ultra-9"],
@@ -152,7 +152,7 @@
 
   {
     "id": "suppressor_banish_30",
-    "copy-from": "suppressor",
+    "copy-from": "suppressor_abstract",
     "type": "GUNMOD",
 
     "//note": "short 7 in. version without tube extension",
@@ -196,7 +196,7 @@
 
   {
     "id": "suppressor_eliteiron_bravo1lite",
-    "copy-from": "suppressor",
+    "copy-from": "suppressor_abstract",
     "type": "GUNMOD",
 
     "//source": ["https://www.eliteiron.com/product/bravo-1-lite-suppressor/"],
