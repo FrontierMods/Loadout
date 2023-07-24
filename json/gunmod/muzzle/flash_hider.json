@@ -1,0 +1,29 @@
+[
+  {
+    "id": "flash_hider_silentlegion_qd5",
+    "copy-from": "flash_hider",
+    "type": "GUNMOD",
+
+    "//source": [
+      "https://silentlegion.com/products/quick-detach-flash-hiders",
+      "https://silentlegion.com/sites/default/files/8827%20-%20SL%20Owner%20Manuals_5RQ_web.pdf"
+    ],
+
+    "name": {
+      "str": "Silent Legion QD-5 flash hider"
+    },
+    "description": "TBD",
+
+    "weight": "116 g",
+    "//dimensions": "eyeballed to be 2″ × 0.6″ diameter",
+    "//trim": "trimmed slightly for empty spaces",
+    "volume": "9 ml",
+    "longest_side": "51 mm",
+
+    "//calibers": ["556"],
+
+    "add_mod": [["Silent Legion muzzle mount", 1]],
+
+    "price": "99 USD"
+  }
+]
