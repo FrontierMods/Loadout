@@ -118,10 +118,12 @@
 
   {
     "id": "suppressor_silentlegion_223",
-    "copy-from": "suppressor",
+    "copy-from": "suppressor_abstract",
     "type": "GUNMOD",
 
-    "//source": ["https://thunderbeastarms.com/products/ultra-9"],
+    "//source": [
+      "https://silentlegion.com/products/223556mm-quick-detach-removable-core"
+    ],
 
     "name": {
       "str": "Silent Legion 5.56mm suppressor"
@@ -138,6 +140,8 @@
       "amount": 2
     },
 
+    "location": "Silent Legion muzzle mount",
+
     "//material": "actual material for the steel part is inconel",
     "material": ["titanium", "steel"],
 
@@ -147,7 +151,7 @@
 
     "loudness_modifier": -40,
 
-    "price": "1120 USD"
+    "price": "1119 USD"
   },
 
   {
