@@ -46,7 +46,7 @@
   },
 
   {
-    "abstract": "suppressor",
+    "abstract": "suppressor_abstract",
     "copy-from": "muzzle_abstract",
     "type": "GUNMOD",
 
