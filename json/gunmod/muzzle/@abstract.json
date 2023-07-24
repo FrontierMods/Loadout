@@ -83,5 +83,21 @@
       "str": "muzzle adapter"
     },
     "description": "idea of a muzzle adapter"
+  },
+
+  {
+    "abstract": "flash_hider",
+    "copy-from": "muzzle_abstract",
+    "type": "GUNMOD",
+
+    "name": {
+      "str": "flash hider"
+    },
+    "description": "idea of a flash hider",
+
+    "handling_modifier": 5,
+
+    "//loudness_modifier": "apparently some shooters claim flash hiders to reduce sound signature slightly",
+    "loudness_modifier": -5
   }
 ]
