@@ -42,7 +42,14 @@
     "description": "idea of a muzzle brake",
 
     "//recoil_modifier": -500,
-    "handling_modifier": 50
+    "handling_modifier": 50,
+
+    "//dispersion_modifier": "muzzle brakes do not affect accuracy",
+    "dispersion_modifier": 0,
+
+    "//loudness_modifier": "muzzle brakes make the gun much, much louder",
+    "//loudness_modifier2": "the default value is derived from the negative loudness value of suppressors",
+    "loudness_modifier": 40
   },
 
   {
