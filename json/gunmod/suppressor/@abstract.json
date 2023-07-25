@@ -1,0 +1,41 @@
+{
+  "abstract": "suppressor_cover",
+  "type": "GUNMOD",
+
+  "//note": "the main purpose of a suppressor cover is to be able to handle a hot suppressor with bare hands safely",
+  "//note2": "given that this isn't – and will likely never be – modelled in-game, the primary benefit is further shot volume reduction",
+
+  "name": {
+    "str": "suppressor cover"
+  },
+  "description": "idea of a suppressor cover",
+
+  "weight": "90 g",
+  "//volume": "assumed from the HTP cover",
+  "volume": "62 ml",
+  "//longest_side": "7 inches, a common length",
+  "longest_side": "178 mm",
+
+  "material": ["kevlar", "nylon"],
+
+  "symbol": ":",
+  "color": "dark_gray",
+
+  "location": "suppressor cover",
+  "install_time": "30 s",
+
+  "mod_targets": [
+    "pistol",
+    "smg",
+    "shotgun",
+    "rifle",
+    "bow",
+    "crossbow",
+    "launcher"
+  ],
+
+  "//loudness_modifier": "apparently reduces sound signature of the weapon slightly",
+  "//loudness_modifier2": "to make things varied, each cover will be rated for volume reduction from its heat tolerance",
+  "//loudness_modifier3": "every 500°F rounded up = -1 to volume",
+  "loudness_modifier": -5
+}

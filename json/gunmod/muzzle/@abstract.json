@@ -71,7 +71,9 @@
       "amount": 2
     },
     "//dispersion_modifier": "basic suppressor effect",
-    "dispersion_modifier": 1
+    "dispersion_modifier": 1,
+
+    "add_mod": [["suppressor cover", 1]]
   },
 
   {
