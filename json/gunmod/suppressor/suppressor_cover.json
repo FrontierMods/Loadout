@@ -1,0 +1,156 @@
+[
+  {
+    "id": "suppressor_cover_coletac_htp",
+    "copy-from": "suppressor_cover",
+    "type": "GUNMOD",
+
+    "//note": "config tool on the American site has a whole lot more visual options",
+    "//note2": "https://www.cole-tac.com/suppressor-cover-builder/configure/9128/",
+
+    "//source": [
+      "https://coletac.eu/collections/suppressor-covers/products/htp-suppressor-cover",
+      "https://www.cole-tac.com/product/htp-suppressor-cover/"
+    ],
+
+    "name": {
+      "str": "Coletac HTP suppressor cover"
+    },
+    "description": "TBD",
+
+    "weight": "153 g",
+    "longest_side": "203 mm",
+
+    "material": ["nylon"],
+
+    "//heat_tolerance": "3000°F",
+    "loudness_modifier": -6,
+
+    "price": "95 USD"
+  },
+
+  {
+    "id": "suppressor_cover_coletac_corset",
+    "copy-from": "suppressor_cover",
+    "type": "GUNMOD",
+
+    "//source": ["https://www.cole-tac.com/product/corset-suppressor-cover/"],
+
+    "name": {
+      "str": "Coletac Corset suppressor cover"
+    },
+    "description": "TBD",
+
+    "//weight": "listed as 0.25 oz / inch, or 0.28 g / mm",
+    "//weight2": "we assume a standard 7-inch length",
+    "weight": "50 g",
+
+    "//material": "source also lists carbon fiber, but as of 0.G it isn't in the game",
+    "material": ["kevlar", "nomex"],
+
+    "//heat_tolerance": "3150°F",
+    "loudness_modifier": -7,
+
+    "price": "125 USD"
+  },
+
+  {
+    "id": "suppressor_cover_silentlegion_sc7",
+    "copy-from": "suppressor_cover",
+    "type": "GUNMOD",
+
+    "//source": ["https://silentlegion.com/products/suppressor-covers"],
+
+    "name": {
+      "str": "Silent Legion SC-7 suppressor cover"
+    },
+    "description": "TBD",
+
+    "//heat_tolerance": "1800°F",
+    "loudness_modifier": -4,
+
+    "price": "70 USD"
+  },
+
+  {
+    "id": "suppressor_cover_armageddon_gear",
+    "copy-from": "suppressor_cover",
+    "type": "GUNMOD",
+
+    "//source": ["https://armageddongear.com/product/suppressor-cover-2/"],
+
+    "name": {
+      "str": "Armageddon Gear suppressor cover"
+    },
+    "description": "TBD",
+
+    "//weight": "source lists as 0.81 lbs, which seems too high, but what do I know",
+    "weight": "230 g",
+
+    "//heat_tolerance": "800°F",
+    "loudness_modifier": -2,
+
+    "price": "87 USD"
+  },
+
+  {
+    "id": "suppressor_cover_liberty_defense",
+    "copy-from": "suppressor_cover",
+    "type": "GUNMOD",
+
+    "//source": [
+      "https://libertysdefense.com/shop/ols/products/straightjacket-thermal-attenuator-kevlar-outer-material"
+    ],
+
+    "name": {
+      "str": "Liberty Defense suppressor cover"
+    },
+    "description": "TBD",
+
+    "//weight": "source lists as 0.81 lbs, which seems too high, but what do I know",
+    "weight": "230 g",
+
+    "//heat_tolerance": "2000°F",
+    "loudness_modifier": -4,
+
+    "price": "322 USD"
+  },
+
+  {
+    "id": "suppressor_cover_bpg_heavy",
+    "copy-from": "suppressor_cover",
+    "type": "GUNMOD",
+
+    "//source": ["https://www.burnproofgear.com/product/bpg-sc-h/"],
+
+    "name": {
+      "str": "BPG heavy suppressor cover"
+    },
+    "description": "TBD",
+
+    "weight": "99 g",
+
+    "//heat_tolerance": "1000°F",
+    "//heat_tolerance2": "assumes one of the higher-temp models",
+    "loudness_modifier": -2,
+
+    "price": "150 USD"
+  },
+
+  {
+    "id": "suppressor_cover_ro_mad",
+    "copy-from": "suppressor_cover",
+    "type": "GUNMOD",
+
+    "//source": ["https://riflesonly.com/mad-suppressor-cover/"],
+
+    "name": {
+      "str": "Rifles Only MAD suppressor cover"
+    },
+    "description": "TBD",
+
+    "//heat_tolerance": "2000°F",
+    "loudness_modifier": -4,
+
+    "price": "85 USD"
+  }
+]
