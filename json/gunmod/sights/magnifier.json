@@ -1,0 +1,102 @@
+[
+  {
+    "id": "magnifier_bushnell_3x",
+    "copy-from": "magnifier_abstract",
+    "type": "GUNMOD",
+
+    "//source": [
+      "https://www.bushnell.com/red-dots/shop-all-red-dots/transition-3x-magnifier/BU-AR731304.html",
+      "https://www.optics-trade.eu/en/bushnell-ar-optics-3x-magnifier.html",
+      "https://ts2.shop/bg/blog/post/bushnell-transition-3x-magnifier.html"
+    ],
+
+    "name": {
+      "str": "Bushnell 3× sight magnifier"
+    },
+    "//description": "TBD",
+
+    "//weight": "producer source says the weight is 13 oz ≈ 369 g, OpticsTrade says 374 g",
+    "weight": "369 g",
+    "//dimensions": "117 × 73.5 × 24 mm",
+    "//dimensions2": "depth (24 mm) assumed from Picatinny rail width × 1.125",
+    "//volume": "206 mm",
+    "//trim": "35% trim due to shape",
+    "volume": "134 ml",
+    "longest_side": "117 mm",
+
+    "material": ["plastic", "glass"],
+
+    "//sight_dispersion": "see abstract for reasoning behind sight dispersion",
+    "sight_dispersion": 24,
+    "//field_of_view": "75 feet @ 100 yards = 854.97 MoA",
+    "field_of_view": 855,
+
+    "price": "156 USD"
+  },
+
+  {
+    "id": "magnifier_leapers_3x",
+    "copy-from": "magnifier_abstract",
+    "type": "GUNMOD",
+
+    "//source": [
+      "https://www.leapers.com/utg-3x-magnifier-with-fliptoside-qd-mount-we-adjustable-scp-mf3weqs.html",
+      "https://www.optics-trade.eu/en/bushnell-ar-optics-3x-magnifier.html"
+    ],
+
+    "name": {
+      "str": "Leapers UTG 3× sight magnifier"
+    },
+    "//description": "TBD",
+
+    "weight": "335 g",
+    "//dimensions": "104 × 44 × 24 mm",
+    "//dimensions2": "depth (24 mm) assumed from Picatinny rail width × 1.125",
+    "//volume": "110 mm",
+    "//trim": "40% trim due to shape",
+    "volume": "66 ml",
+    "longest_side": "104 mm",
+
+    "material": ["plastic", "glass"],
+
+    "//sight_dispersion": "on the assumption that it would magnify the center-of-aim point a size or two",
+    "//sight_dispersion2": "ideally it should, of course, coordinate with the sight in magnifies",
+    "sight_dispersion": 24,
+    "//field_of_view": "45 feet @ 100 yards = 514.63 MoA",
+    "field_of_view": 515,
+
+    "price": "95 USD"
+  },
+
+  {
+    "id": "magnifier_vortex_3x",
+    "copy-from": "magnifier_abstract",
+    "type": "GUNMOD",
+
+    "//source": ["https://vortexoptics.com/vortex-micro-3x-magnifier.html"],
+
+    "name": {
+      "str": "Vortex Micro 3× sight magnifier"
+    },
+    "//description": "TBD",
+
+    "//weight": "with mount; 6.9 oz ≈ 195 g without",
+    "weight": "271 g",
+    "//dimensions": "74 × 44 × 24 mm",
+    "//dimensions2": "depth (24 mm) assumed from Picatinny rail width × 1.125",
+    "//volume": "110 mm",
+    "//trim": "40% trim due to shape",
+    "volume": "66 ml",
+    "longest_side": "74 mm",
+
+    "material": ["plastic", "glass"],
+
+    "//sight_dispersion": "on the assumption that it would magnify the center-of-aim point a size or two",
+    "//sight_dispersion2": "ideally it should, of course, coordinate with the sight in magnifies",
+    "sight_dispersion": 24,
+    "//field_of_view": "7.28° = 436.8 MoA",
+    "field_of_view": 439,
+
+    "price": "450 USD"
+  }
+]
