@@ -43,7 +43,9 @@
 
     "//sight_dispersion": "3 MOA in quarter-MOA / 15 arc seconds per point",
     "sight_dispersion": 12,
-    "aim_speed": 6
+    "aim_speed": 6,
+
+    "add_mod": [["magnifier", 1]]
   },
 
   {
@@ -58,7 +60,9 @@
 
     "//sight_dispersion": "2 MOA in quarter-MOA / 15 arc seconds per point",
     "sight_dispersion": 8,
-    "aim_speed": 6
+    "aim_speed": 6,
+
+    "add_mod": [["magnifier", 1]]
   },
 
   {
@@ -202,5 +206,26 @@
     "//sight_dispersion": "8 MOA in quarter-MOA / 15 arc seconds per point",
     "sight_dispersion": 32,
     "aim_speed": 8
+  },
+
+  {
+    "abstract": "magnifier_abstract",
+    "copy-from": "sight_abstract",
+    "type": "GUNMOD",
+
+    "name": {
+      "str": "sight magnifier"
+    },
+    "description": "idea of a sight magnifier",
+
+    "//weight": "one of the notable features of magnifier is that they add quite a bit of heft to the weapon",
+    "weight": "250 g",
+
+    "//sight_dispersion": "6 MOA in quarter-MOA / 15 arc seconds per point",
+    "//sight_dispersion2": "assumes 3× magnification on a 2 MoA dot in front of the magnifier",
+    "sight_dispersion": 24,
+    "aim_speed": 2,
+
+    "location": "magnifier"
   }
 ]
