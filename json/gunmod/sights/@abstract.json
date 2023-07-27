@@ -18,7 +18,7 @@
     "color": "dark_gray",
 
     "location": "sights",
-    "install_time": "30 s",
+    "install_time": "5 m",
 
     "mod_targets": [
       "pistol",
@@ -178,7 +178,7 @@
     "color": "dark_gray",
 
     "location": "iron sights",
-    "install_time": "30 s",
+    "install_time": "2 m",
 
     "mod_targets": ["rifle", "smg", "shotgun", "crossbow", "launcher"],
 
