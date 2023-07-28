@@ -20,6 +20,11 @@
     "location": "underbarrel",
     "install_time": "30 s",
 
+    "//mod_targets": "the only reason pistols aren't allowed here is because there's no way to control where the attachment goes",
+    "//mod_targets2": "pistols that do have a rail famously don't have enough of a rail to attach another item to it after the grip",
+    "//mod_targets3": "ideally, when installed on a pistol, the grip would not add another slot",
+    "//mod_targets4": "then again, ideally the game would allow using multiple Picatinny slots per item, thus eliminating this issue entirely",
+    "//mod_targets5": "it's the end of the world; equip a foregrip on a pistol if that helps you survive",
     "mod_targets": ["rifle", "smg", "shotgun", "crossbow", "launcher"],
 
     "//add_mod": "simulates the idea of having enough space to install a rail attachment",
