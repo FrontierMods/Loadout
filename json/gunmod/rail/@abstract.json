@@ -59,5 +59,50 @@
     "//stats": "green laser is attested to be slightly more visible than red laser",
     "sight_dispersion": 12,
     "aim_speed": 5
+  },
+
+  {
+    "abstract": "flashlight_abstract",
+    "type": "GUNMOD",
+
+    "name": {
+      "str": "flashlight"
+    },
+    "description": "idea of a flashlight",
+
+    "weight": "150 g",
+    "volume": "150 ml",
+    "longest_side": "150 mm",
+
+    "material": ["aluminum"],
+
+    "symbol": ":",
+    "color": "dark_gray",
+
+    "location": "rail",
+    "install_time": "30 s",
+
+    "mod_targets": [
+      "pistol",
+      "rifle",
+      "smg",
+      "shotgun",
+      "bow",
+      "crossbow",
+      "launcher"
+    ]
+  },
+
+  {
+    "abstract": "flashlight_mounted",
+    "copy-from": "flashlight_abstract",
+    "type": "GUNMOD",
+
+    "name": {
+      "str": "pistol flashlight"
+    },
+    "description": "idea of a pistol flashlight",
+
+    "location": "1-inch mount"
   }
 ]
