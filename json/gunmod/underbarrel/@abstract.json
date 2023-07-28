@@ -59,6 +59,9 @@
     "volume": "200 ml",
     "longest_side": "200 mm",
 
+    "location": "underbarrel",
+    "install_time": "30 s",
+
     "handling_modifier": 18
   }
 ]
