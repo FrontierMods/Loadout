@@ -180,5 +180,40 @@
     "handling_modifier": 28,
 
     "price": "89 USD"
+  },
+
+  {
+    "id": "muzzle_brake_thunder_beast_sr",
+    "copy-from": "muzzle_brake",
+    "type": "GUNMOD",
+
+    "//source": [
+      "https://thunderbeastarms.com/products/dominus-sr",
+      "https://thunderbeastarms.com/products/accessories",
+      "https://escapefromtarkov.fandom.com/wiki/AR-15_Thunder_Beast_Arms_223CB_5.56x45_muzzle_brake"
+    ],
+
+    "name": {
+      "str": "Thunder Beast Arms SR muzzle brake"
+    },
+    "description": "TBD",
+
+    "//weight": "Dominus SR description states the weight of the brake to be 3.5 oz ≈ 100 g",
+    "weight": "100 g",
+    "//dimensions": "2.86 (approximate from visual reference) × 1.53 (diameter of Dominus SR - 15%) in.",
+    "//trim": "10% trim for shape",
+    "volume": "77 ml",
+    "longest_side": "73 mm",
+
+    "//calibers": ["556"],
+
+    "//recoil_reduction": "???",
+
+    "//handling_modifier": "purely a guess based on similar-style brakes",
+    "handling_modifier": 28,
+
+    "add_mod": [["Thunder Beast SR mount", 1]],
+
+    "price": "145 USD"
   }
 ]
