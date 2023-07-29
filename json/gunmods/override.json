@@ -1,227 +1,304 @@
 [
-	{
-		"id": "grip",
-		"copy-from": "grip",
-		"type": "GUNMOD",
+  {
+    "id": "grip",
+    "copy-from": "grip",
+    "type": "GUNMOD",
 
-		"//source": [
-			"https://danieldefense.com/daniel-defense-vertical-foregrip-daniel-defense-tornado.html"
-		],
+    "//source": [
+      "https://danieldefense.com/daniel-defense-vertical-foregrip-daniel-defense-tornado.html"
+    ],
 
-		"name": {
-			"str": "Daniel Defense Tornado vertical grip"
-		},
-		"//description": "TBD",
+    "name": {
+      "str": "Daniel Defense Tornado vertical grip"
+    },
+    "//description": "TBD",
 
-		"weight": "68 g",
-		"//trim": "30% trim due to shape",
-		"volume": "143 ml",
-		"longest_side": "114 mm",
+    "weight": "68 g",
+    "//trim": "30% trim due to shape",
+    "volume": "143 ml",
+    "longest_side": "114 mm",
 
-		"material": ["plastic", "rubber"],
+    "material": ["plastic", "rubber"],
 
-		"//interface": ["Picatinny"],
+    "//interface": ["Picatinny"],
 
-		"handling_modifier": 7,
+    "handling_modifier": 7,
 
-		"mod_targets": ["pistol", "smg", "rifle", "shotgun", "launcher", "crossbow"],
+    "mod_targets": [
+      "pistol",
+      "smg",
+      "rifle",
+      "shotgun",
+      "launcher",
+      "crossbow"
+    ],
 
-		"price": "34 USD"
-	},
+    "price": "34 USD"
+  },
 
-	{
-		"id": "bipod",
-		"copy-from": "bipod",
-		"type": "GUNMOD",
+  {
+    "id": "bipod",
+    "copy-from": "bipod",
+    "type": "GUNMOD",
 
-		"//source": [
-			"https://www.at3tactical.com/products/harris-engineering-rotating-bipod-picatinny-and-mlok"
-		],
+    "//source": [
+      "https://www.at3tactical.com/products/harris-engineering-rotating-bipod-picatinny-and-mlok"
+    ],
 
-		"name": {
-			"str": "Harris bipod"
-		},
-		"//description": "TBD",
+    "name": {
+      "str": "Harris bipod"
+    },
+    "//description": "TBD",
 
-		"weight": "369 g",
-		"//dimensions": "8 × 1.75 × 1.5″",
-		"//volume": "highly eyeballed from image and the leg length of 6″",
-		"//trim": "40% trim due to shape",
-		"volume": "206 ml",
-		"longest_side": "203 mm",
+    "weight": "369 g",
+    "//dimensions": "8 × 1.75 × 1.5″",
+    "//volume": "highly eyeballed from image and the leg length of 6″",
+    "//trim": "40% trim due to shape",
+    "volume": "206 ml",
+    "longest_side": "203 mm",
 
-		"material": ["aluminum", "steel", "rubber"],
+    "material": ["aluminum", "steel", "rubber"],
 
-		"//interface": ["Picatinny"],
+    "//interface": ["Picatinny"],
 
-		"handling_modifier": 18,
+    "handling_modifier": 18,
 
-		"mod_targets": ["pistol", "smg", "rifle", "shotgun", "launcher", "crossbow"],
+    "mod_targets": [
+      "pistol",
+      "smg",
+      "rifle",
+      "shotgun",
+      "launcher",
+      "crossbow"
+    ],
 
-		"price": "169 USD"
-	},
+    "price": "169 USD"
+  },
 
-	{
-		"id": "holo_sight",
-		"copy-from": "holo_sight",
-		"type": "GUNMOD",
+  {
+    "id": "holo_sight",
+    "copy-from": "holo_sight",
+    "type": "GUNMOD",
 
-		"//source": [
-			"https://www.eotechinc.com/eotech-hws-xps3",
-			"https://www.bhphotovideo.com/c/product/1179431-REG/eotech_xps3_0_holographic_weapon_sight.html/specs"
-		],
+    "//source": [
+      "https://www.eotechinc.com/eotech-hws-xps3",
+      "https://www.bhphotovideo.com/c/product/1179431-REG/eotech_xps3_0_holographic_weapon_sight.html/specs"
+    ],
 
-		"name": {
-			"str": "EOTech XPS3 holographic sight"
-		},
-		"//description": "TBD",
+    "name": {
+      "str": "EOTech XPS3 holographic sight"
+    },
+    "//description": "TBD",
 
-		"//trim": "40% trim due to shape",
-		"volume": "196 ml",
+    "//trim": "40% trim due to shape",
+    "volume": "196 ml",
 
-		"sight_dispersion": 4,
-		"//field_of_view": "29.9m @ 100yd",
-		"field_of_view": 1114,
+    "sight_dispersion": 4,
+    "//field_of_view": "29.9m @ 100yd",
+    "field_of_view": 1114,
 
-		"mod_targets": ["pistol", "smg", "rifle", "shotgun", "launcher", "crossbow"],
+    "mod_targets": [
+      "pistol",
+      "smg",
+      "rifle",
+      "shotgun",
+      "launcher",
+      "crossbow"
+    ],
 
-		"//power": {
-			"source": "CR123",
-			"lifetime": "1000 hours"
-		},
+    "//power": {
+      "source": "CR123",
+      "lifetime": "1000 hours"
+    },
 
-		"price": "735 USD"
-	},
+    "price": "735 USD"
+  },
 
-	{
-		"id": "red_dot_sight",
-		"copy-from": "red_dot_sight",
-		"type": "GUNMOD",
+  {
+    "id": "red_dot_sight",
+    "copy-from": "red_dot_sight",
+    "type": "GUNMOD",
 
-		"//source": [
-			"https://www.ncstar.com/optics-acc/reflex-optics/heads-up/d4rgb-dot4retrd-grwvr-mtblk",
-			"https://www.amazon.com/NcSTAR-Sight-TACTICAL-DIFFERENT-RETICLES/dp/B001COQOZI",
-			"https://www.opticsplanet.com/nc-star-d4rgb-tactical-double-illumination-red-dot-sight.html",
-			"https://www.amazon.com/Pinty-Holographic-Tactical-Riflescope-Patterns/dp/B01BF5LYGW"
-		],
+    "//source": [
+      "https://www.ncstar.com/optics-acc/reflex-optics/heads-up/d4rgb-dot4retrd-grwvr-mtblk",
+      "https://www.amazon.com/NcSTAR-Sight-TACTICAL-DIFFERENT-RETICLES/dp/B001COQOZI",
+      "https://www.opticsplanet.com/nc-star-d4rgb-tactical-double-illumination-red-dot-sight.html",
+      "https://www.amazon.com/Pinty-Holographic-Tactical-Riflescope-Patterns/dp/B01BF5LYGW"
+    ],
 
-		"//note": "comes with a Picatinny mount",
+    "//note": "comes with a Picatinny mount",
 
-		"name": {
-			"str": "NcSTAR red dot sight"
-		},
-		"//description": "TBD",
+    "name": {
+      "str": "NcSTAR red dot sight"
+    },
+    "//description": "TBD",
 
-		"//trim": "45% trim due to shape",
-		"volume": "319 ml",
+    "//trim": "45% trim due to shape",
+    "volume": "319 ml",
 
-		"material": ["aluminum"],
+    "material": ["aluminum"],
 
-		"sight_dispersion": 12,
-		"//field_of_view": "52 feet @ 100 yards",
-		"//field_of_view2": "assumed from a Pinty sight that looks remarkably like the NcSTAR one, none available for the original",
-		"field_of_view": 594,
+    "sight_dispersion": 12,
+    "//field_of_view": "52 feet @ 100 yards",
+    "//field_of_view2": "assumed from a Pinty sight that looks remarkably like the NcSTAR one, none available for the original",
+    "field_of_view": 594,
 
-		"mod_targets": ["pistol", "smg", "rifle", "shotgun", "launcher", "crossbow"],
+    "mod_targets": [
+      "pistol",
+      "smg",
+      "rifle",
+      "shotgun",
+      "launcher",
+      "crossbow"
+    ],
 
-		"//power": {
-			"source": "CR2032",
-			"lifetime": "???"
-		},
+    "//power": {
+      "source": "CR2032",
+      "lifetime": "???"
+    },
 
-		"price": "73 USD"
-	},
+    "price": "73 USD"
+  },
 
-	{
-		"id": "rifle_scope",
-		"copy-from": "rifle_scope",
-		"type": "GUNMOD",
+  {
+    "id": "rifle_scope",
+    "copy-from": "rifle_scope",
+    "type": "GUNMOD",
 
-		"//source": [
-			"https://www.leupold.com/mark-6-3-18x44-m5b2-ffp-mil-dot-riflescope"
-		],
+    "//source": [
+      "https://www.leupold.com/mark-6-3-18x44-m5b2-ffp-mil-dot-riflescope"
+    ],
 
-		"name": {
-			"str": "Leupold Mark 6 3-18x44 rifle scope"
-		},
-		"//description": "TBD",
+    "name": {
+      "str": "Leupold Mark 6 3-18x44 rifle scope"
+    },
+    "//description": "TBD",
 
-		"//volume": "three parts calculated separately, then combined",
-		"volume": "352 ml",
+    "//volume": "three parts calculated separately, then combined",
+    "volume": "352 ml",
 
-		"material": ["aluminum"],
+    "material": ["aluminum"],
 
-		"sight_dispersion": 1,
-		"//field_of_view": "36.8 ft @ 100 yards @ 3x magnification",
-		"field_of_view": 421,
+    "sight_dispersion": 1,
+    "//field_of_view": "36.8 ft @ 100 yards @ 3x magnification",
+    "field_of_view": 421,
 
-		"location": "34 mm scope mount",
+    "location": "34 mm scope mount",
 
-		"//power": {
-			"source": "CR2032",
-			"lifetime": "???"
-		},
+    "//power": {
+      "source": "CR2032",
+      "lifetime": "???"
+    },
 
-		"price": "73 USD"
-	},
+    "price": "73 USD"
+  },
 
-	{
-		"id": "acog_scope",
-		"copy-from": "acog_scope",
-		"type": "GUNMOD",
+  {
+    "id": "acog_scope",
+    "copy-from": "acog_scope",
+    "type": "GUNMOD",
 
-		"//source": [
-			"https://www.trijicon.com/products/details/ta01-c-100317",
-			"https://www.trijicon.com/products/details/ta01law"
-		],
+    "//source": [
+      "https://www.trijicon.com/products/details/ta01-c-100317",
+      "https://www.trijicon.com/products/details/ta01law"
+    ],
 
-		"//note": "the second source is a model of ACOG that comes without a mount by default, for dimensions reference",
+    "//note": "the second source is a model of ACOG that comes without a mount by default, for dimensions reference",
 
-		"name": {
-			"str": "Trijicon ACOG 4×32 scope"
-		},
-		"//description": "TBD",
+    "name": {
+      "str": "Trijicon ACOG 4×32 scope"
+    },
+    "//description": "TBD",
 
-		"//trim": "40% trim due to shape",
-		"volume": "262 ml",
+    "//trim": "40% trim due to shape",
+    "volume": "262 ml",
 
-		"sight_dispersion": 1,
-		"//field_of_view": "36.8 feet @ 100 yards",
-		"field_of_view": 421,
+    "sight_dispersion": 1,
+    "//field_of_view": "36.8 feet @ 100 yards",
+    "field_of_view": 421,
 
-		"location": "ACOG mount",
+    "location": "ACOG mount",
 
-		"//power": {
-			"source": "tritium",
-			"lifetime": "12 years"
-		},
+    "//power": {
+      "source": "tritium",
+      "lifetime": "12 years"
+    },
 
-		"price": "1539 USD"
-	},
+    "price": "1539 USD"
+  },
 
-	{
-		"id": "holo_magnifier",
-		"copy-from": "holo_magnifier",
-		"type": "GUNMOD",
+  {
+    "id": "holo_magnifier",
+    "copy-from": "holo_magnifier",
+    "type": "GUNMOD",
 
-		"//source": ["https://www.eotechinc.com/eotech-magnifier-g43"],
+    "//source": ["https://www.eotechinc.com/eotech-magnifier-g43"],
 
-		"name": {
-			"str": "EOTech G43 magnifier"
-		},
-		"//description": "TBD",
+    "name": {
+      "str": "EOTech G43 magnifier"
+    },
+    "//description": "TBD",
 
-		"//dimensions": "78.7 × 58.4 × 83.8 mm",
-		"//volume": "385 mm",
-		"//trim": "25% trim due to shape",
-		"volume": "289 ml",
+    "//dimensions": "78.7 × 58.4 × 83.8 mm",
+    "//volume": "385 mm",
+    "//trim": "25% trim due to shape",
+    "volume": "289 ml",
 
-		"material": ["aluminum", "glass"],
+    "material": ["aluminum", "glass"],
 
-		"//sight_dispersion": "on the assumption that it would magnify the center-of-aim point a size or two",
-		"//sight_dispersion2": "ideally it should, of course, coordinate with the sight in magnifies",
-		"sight_dispersion": 12,
+    "//sight_dispersion": "on the assumption that it would magnify the center-of-aim point a size or two",
+    "//sight_dispersion2": "ideally it should, of course, coordinate with the sight in magnifies",
+    "sight_dispersion": 12,
 
-		"price": "649 USD"
-	}
+    "price": "649 USD"
+  },
+
+  {
+    "id": "suppressor",
+    "copy-from": "suppressor",
+    "type": "GUNMOD",
+
+    "//source": ["https://silencerco.com/silencers/hybrid-46/"],
+
+    "name": {
+      "str": "SilencerCo Hybrid 46 suppressor"
+    },
+    "//description": "TBD",
+
+    "//weight": "latest weight listed on the SilencerCo page for Hybrid 46 is 14.1 oz ≈ 400 g",
+    "weight": "400 g",
+    "//dimensions": "7.6 × 1.57 in",
+    "volume": "241 ml",
+
+    "damage_modifier": {
+      "damage_type": "bullet",
+      "amount": 2
+    },
+
+    "//material": "also inconel",
+    "material": ["titanium", "steel"],
+
+    "//calibers": [
+      "9mm",
+      "45ACP",
+      "556",
+      "300BLK",
+      "65grendel",
+      "65PRC",
+      "300win",
+      "68SPC",
+      "762soviet",
+      "65creedmoor",
+      "308win",
+      "338LM"
+    ],
+
+    "//sound_lower": "130.4 dB w/ 5.56mm",
+
+    "loudness_modifier": -50,
+
+    "location": "SilencerCo direct thread mount",
+
+    "price": "939 USD"
+  }
 ]
