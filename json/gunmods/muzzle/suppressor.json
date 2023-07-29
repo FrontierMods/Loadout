@@ -17,20 +17,16 @@
     "weight": "482 g",
     "volume": "180 ml",
     "longest_side": "162 mm",
-    "//added_length": "97 mm",
-
-    "damage_modifier": {
-      "damage_type": "bullet",
-      "amount": 2
-    },
+    "//integral_length": "from source: 'Actual length may vary, depending on which SureFire adapter is used'",
+    "integral_length": "97 mm",
 
     "//calibers": ["556"],
 
-    "//sound_lower": "134 dB @ 16 in. w/ M855",
+    "//sound_lower": "134 dB @ 16 in. w/ 5.56mm M855",
 
     "loudness_modifier": -45,
 
-    "price": "1100 USD"
+    "price": "1199 USD"
   },
 
   {
@@ -38,7 +34,10 @@
     "copy-from": "suppressor_abstract",
     "type": "GUNMOD",
 
-    "//source": ["https://thunderbeastarms.com/products/dominus-sr"],
+    "//source": [
+      "https://thunderbeastarms.com/products/dominus-sr",
+      "https://buddysarmory.com/dominus-sr"
+    ],
 
     "name": {
       "str": "Thunder Beast Arms Dominus-SR suppressor"
@@ -48,12 +47,7 @@
     "weight": "354 g",
     "volume": "290 ml",
     "longest_side": "177 mm",
-    "//added_length": "162 mm",
-
-    "damage_modifier": {
-      "damage_type": "bullet",
-      "amount": 2
-    },
+    "integral_length": "162 mm",
 
     "material": ["titanium", "steel"],
 
@@ -73,7 +67,7 @@
 
     "loudness_modifier": -40,
 
-    "price": "1495 USD"
+    "price": "1610 USD"
   },
 
   {
@@ -91,7 +85,7 @@
     "weight": "335 g",
     "volume": "375 ml",
     "longest_side": "229 mm",
-    "//added_length": "?? mm",
+    "//integral_length": "?? mm",
 
     "damage_modifier": {
       "damage_type": "bullet",
@@ -136,12 +130,7 @@
     "weight": "439 g",
     "volume": "292 ml",
     "longest_side": "178 mm",
-    "//added_length": "?? mm",
-
-    "damage_modifier": {
-      "damage_type": "bullet",
-      "amount": 2
-    },
+    "//integral_length": "?? mm",
 
     "location": "Silent Legion muzzle mount",
 
@@ -176,11 +165,6 @@
     "longest_side": "178 mm",
     "//added_length": "?? mm",
 
-    "damage_modifier": {
-      "damage_type": "bullet",
-      "amount": 2
-    },
-
     "material": ["titanium", "steel"],
 
     "//calibers": [
@@ -198,7 +182,7 @@
 
     "loudness_modifier": -45,
 
-    "price": "979 USD"
+    "price": "999 USD"
   },
 
   {
@@ -217,11 +201,6 @@
     "volume": "268 ml",
     "longest_side": "200 mm",
     "//added_length": "?? mm",
-
-    "damage_modifier": {
-      "damage_type": "bullet",
-      "amount": 2
-    },
 
     "//material": "actual material for the steel part is inconel",
     "material": ["titanium", "steel"],
