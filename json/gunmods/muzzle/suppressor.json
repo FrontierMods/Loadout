@@ -4,6 +4,9 @@
     "copy-from": "suppressor_abstract",
     "type": "GUNMOD",
 
+    "//TODO": "https://www.surefire.com/socom-muzzle-brake/",
+    "//TODO2": "Tarkov uses the Warcomp flash hider, but there's no muzzle flash in CDDA, so it would be a pointless addition",
+
     "//source": ["https://www.surefire.com/socom556-rc2/"],
 
     "name": {
