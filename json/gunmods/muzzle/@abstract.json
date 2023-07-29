@@ -134,5 +134,34 @@
 
     "//loudness_modifier": "apparently some shooters claim flash hiders to reduce sound signature slightly",
     "loudness_modifier": -5
+  },
+
+  {
+    "abstract": "thread_mount",
+    "copy-from": "muzzle_abstract",
+    "type": "GUNMOD",
+
+    "name": {
+      "str": "thread mount"
+    },
+    "description": "idea of a thread mount",
+
+    "//weight": "based on SilencerCo Hybrid 46 direct thread mount's weight",
+    "//weight_source": "https://escapefromtarkov.fandom.com/wiki/SilencerCo_Hybrid_46_Direct_Thread_Mount_adapter",
+    "weight": "140 g",
+    "//volume": "based on SilencerCo Hybrid 46",
+    "volume": "16 ml",
+    "//longest_side": "based on length of thread from a 5/8 in. × 24-threaded barrel",
+    "//longest_side2": "some adapters and threaded barrel extensions in this thread config provide a 0.7 in. ≈ 18 mm thread",
+    "//longest_side_source": "https://www.pikearms.com/catalog/product/id-5146",
+    "longest_side": "16 mm",
+
+    "material": ["steel"],
+
+    "symbol": ":",
+    "color": "dark_gray",
+
+    "location": "muzzle",
+    "install_time": "30 s"
   }
 ]
