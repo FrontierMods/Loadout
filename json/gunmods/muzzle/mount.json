@@ -1,0 +1,32 @@
+[
+  {
+    "id": "thread_mount_silencerco_bravo",
+    "copy-from": "thread_mount",
+    "type": "GUNMOD",
+
+    "//source": [
+      "https://silencerco.com/shop/bravo-direct-thread-mount/",
+      "https://www.snipershide.com/shooting/threads/silencerco-bravo-thread-dimension.7004658/",
+      "https://escapefromtarkov.fandom.com/wiki/SilencerCo_Hybrid_46_Direct_Thread_Mount_adapter"
+    ],
+
+    "name": {
+      "str": "SilencerCo Bravo direct thread mount"
+    },
+    "description": "TBD",
+
+    "weight": "140 g",
+    "volume": "16 ml",
+    "//longest_side": "based on length of thread from a 5/8 in. × 24-threaded barrel",
+    "//longest_side2": "assumes that the 'tail end' of the mount is accounted for in the length of thread",
+    "longest_side": "16 mm",
+
+    "add_mod": [["SilencerCo direct thread mount", 1]],
+
+    "price": "109 USD"
+  },
+
+  {
+    "//TODO": "https://www.silencercentral.com/products/tpi-thread-protector/"
+  }
+]
