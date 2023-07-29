@@ -20,20 +20,25 @@
     "location": "muzzle",
     "install_time": "30 s",
 
-    "mod_targets": [
-      "pistol",
-      "smg",
-      "shotgun",
-      "rifle",
-      "bow",
-      "crossbow",
-      "launcher"
-    ]
+    "mod_targets": ["pistol", "smg", "shotgun", "rifle"]
+  },
+
+  {
+    "abstract": "muzzle_universal_abstract",
+    "copy-from": "muzzle_abstract",
+    "type": "GUNMOD",
+
+    "name": {
+      "str": "universal muzzle device"
+    },
+    "description": "idea of a universal muzzle device (i.e. for most threads, excluding shotguns)",
+
+    "mod_targets": ["pistol", "smg", "rifle"]
   },
 
   {
     "abstract": "muzzle_brake",
-    "copy-from": "muzzle_abstract",
+    "copy-from": "muzzle_universal_abstract",
     "type": "GUNMOD",
 
     "name": {
@@ -49,12 +54,14 @@
 
     "//loudness_modifier": "muzzle brakes make the gun much, much louder",
     "//loudness_modifier2": "the default value is derived from the negative loudness value of suppressors",
-    "loudness_modifier": 40
+    "loudness_modifier": 40,
+
+    "mod_targets": ["pistol", "smg", "rifle"]
   },
 
   {
     "abstract": "suppressor_abstract",
-    "copy-from": "muzzle_abstract",
+    "copy-from": "muzzle_universal_abstract",
     "type": "GUNMOD",
 
     "name": {
@@ -70,26 +77,52 @@
       "damage_type": "bullet",
       "amount": 2
     },
-    "//dispersion_modifier": "basic suppressor effect",
+    "//dispersion_modifier": "suppressors generally have a minor effect on accuracy",
     "dispersion_modifier": 1,
+
+    "mod_targets": ["pistol", "smg", "rifle"],
 
     "add_mod": [["suppressor cover", 1]]
   },
 
   {
-    "abstract": "muzzle_adapter",
+    "abstract": "muzzle_shotgun_abstract",
     "copy-from": "muzzle_abstract",
     "type": "GUNMOD",
 
     "name": {
-      "str": "muzzle adapter"
+      "str": "shotgun muzzle device"
     },
-    "description": "idea of a muzzle adapter"
+    "description": "idea of a shotgun muzzle device",
+
+    "mod_targets": ["shotgun"]
+  },
+
+  {
+    "abstract": "suppressor_shotgun_abstract",
+    "copy-from": "muzzle_shotgun_abstract",
+    "type": "GUNMOD",
+
+    "name": {
+      "str": "shotgun suppressor"
+    },
+    "description": "idea of a shotgun suppressor",
+
+    "loudness_modifier": -40,
+    "//damage_modifier": "average for a 7 in. suppressor",
+    "damage_modifier": {
+      "damage_type": "bullet",
+      "amount": 2
+    },
+    "//dispersion_modifier": "basic suppressor effect",
+    "dispersion_modifier": 1,
+
+    "mod_targets": ["shotgun"]
   },
 
   {
     "abstract": "flash_hider",
-    "copy-from": "muzzle_abstract",
+    "copy-from": "muzzle_universal_abstract",
     "type": "GUNMOD",
 
     "name": {
