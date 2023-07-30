@@ -300,5 +300,284 @@
     "location": "SilencerCo direct thread mount",
 
     "price": "939 USD"
+  },
+
+  {
+    "id": "suppressor_compact",
+    "copy-from": "suppressor_compact",
+    "type": "GUNMOD",
+
+    "//note": "technically mounts on a QD device, but given that the source has no separate information about, we'll pretend it's a direct-thread mount",
+
+    "//source": [
+      "https://wittmachine.net/product/mod-1-quick-disconnect-ultra-compact-suppressor/",
+      "https://www.watchwpsn.com/videos/witt-machine-mod1-compact-silencer-test-review"
+    ],
+
+    "name": {
+      "str": "Witt Machine Mod-1 compact suppressor"
+    },
+    "//description": "TBD",
+
+    "//weight": "the review says the weight is 15 oz ≈ 425 g",
+    "weight": "425 g",
+    "//dimensions": "5.25 × 1.625 in",
+    "//volume": "178 ml",
+    "//trim": "2.5% trim for tapering at the muzzle",
+    "volume": "174 ml",
+    "longest_side": "133 mm",
+
+    "damage_modifier": {
+      "damage_type": "bullet",
+      "amount": 1
+    },
+
+    "material": ["steel"],
+
+    "//calibers": ["9mm", "45ACP", "556", "300BLK"],
+
+    "//sound_lower": "141.3 dB w/ .300 BLK subsonic",
+
+    "loudness_modifier": -25,
+
+    "price": "499 USD"
+  },
+
+  {
+    "id": "shot_suppressor",
+    "copy-from": "shot_suppressor",
+    "type": "GUNMOD",
+
+    "//note": "technically mounts on a choke adapter, but given that the source has no separate information about, we'll pretend it's a direct-thread mount much like a rifle",
+    "//note2": "assumes the longest variant at 12.5 in.",
+    "//note3": "theoretically modular, in that it allows adjusting the length of the suppressor, but not in the field",
+
+    "//source": [
+      "https://silencerco.com/silencers/salvo-12/",
+      "https://www.thefirearmblog.com/blog/2016/04/26/review-silencerco-salvo-12-shotgun-suppressor/"
+    ],
+
+    "name": {
+      "str": "SilencerCo Salvo 12 shotgun suppressor"
+    },
+    "//description": "TBD",
+
+    "weight": "975 g",
+    "//dimensions": "12.5 × 2.21 × 2.96 in",
+    "//volume": "1340 ml",
+    "//trim": "10% trim for shape",
+    "volume": "1206 ml",
+    "longest_side": "318 mm",
+
+    "damage_modifier": {
+      "damage_type": "bullet",
+      "amount": 4
+    },
+
+    "material": ["aluminum", "steel"],
+
+    "//calibers": ["12gauge"],
+
+    "//sound_lower": "136.8 dB w/ 12 gauge",
+    "//sound_without": "160 dB w/ 12 gauge",
+
+    "loudness_modifier": -40,
+    "//handling_modifier": "reduces recoil significantly, according to the spec sheet and the review",
+    "handling_modifier": 10,
+
+    "price": "1169 USD"
+  },
+
+  {
+    "id": "muzzle_brake",
+    "copy-from": "muzzle_brake",
+    "type": "GUNMOD",
+
+    "//note": "assumes the 5.56mm model",
+
+    "//source": [
+      "https://www.surefire.com/procomp/",
+      "https://www.thetruthaboutguns.com/556-muzzle-device-shootout/",
+      "https://www.calguns.net/calgunforum/showthread.php?t=1276996"
+    ],
+
+    "name": {
+      "str": "Surefire Procomp muzzle brake"
+    },
+    "description": "TBD",
+
+    "weight": "96 g",
+    "//dimensions": "2.5 × 0.866 in.",
+    "//dimensions2": "same outer diameter as A2 birdcage, which accepts NATO 22 mm rifle grenades",
+    "//volume": "24 ml",
+    "//trim": "5% trim for space",
+    "volume": "23 ml",
+    "longest_side": "63 mm",
+
+    "//calibers": ["556"],
+
+    "//recoil_reduction": "59.79%",
+    "//recoil_distance": "3.71875 in.",
+
+    "//recoil_modifier": -300,
+    "handling_modifier": 30,
+
+    "price": "99 USD"
+  },
+
+  {
+    "id": "offset_sights",
+    "copy-from": "offset_sights",
+    "type": "GUNMOD",
+
+    "//source": [
+      "https://magpul.com/mbus-pro-offset-sight-rear.html",
+      "https://magpul.com/mbus-pro-offset-sight-front.html"
+    ],
+
+    "name": {
+      "str": "Magpul MBUS offset iron sights"
+    },
+    "//description": "TBD",
+
+    "//weight": "2 oz + 1.8 oz = 3.8 oz ≈ 108 g",
+    "weight": "108 g",
+    "//dimensions": "copied from the `iron_sights_abstract` item; actual dimensions welcome",
+    "volume": "95 ml",
+    "longest_side": "63 mm",
+
+    "material": ["steel"],
+
+    "//sight_dispersion": "move them closer to the default Loadout iron sight balancing",
+    "sight_dispersion": 32,
+
+    "//price": "120 + 100 USD",
+    "price": "220 USD"
+  },
+
+  {
+    "id": "rail_laser_sight",
+    "copy-from": "rail_laser_sight",
+    "type": "GUNMOD",
+
+    "//source": [
+      "https://www.leapers.com/utg-combat-tactical-we-adjustable-red-laser-with-rings-scp-ls268.html"
+    ],
+
+    "name": {
+      "str": "Leapers UTG red laser sight"
+    },
+    "//description": "TBD",
+
+    "//weight": "with 4 × LR44s",
+    "weight": "28 g",
+    "//dimensions": "2.64 × 0.55 in.",
+    "volume": "10 ml",
+    "longest_side": "67 mm",
+
+    "//sight_dispersion": "based on beam divergence of 0.6 in. @ 16 yds = 1.0471 MRAD = 3.581 MOA",
+    "sight_dispersion": 14,
+
+    "//power": {
+      "source": "LR44 × 4",
+      "lifetime": "80 mins"
+    },
+
+    "//laser": {
+      "class": "3R",
+      "power": "3.1 mW",
+      "divergence": "3.581 MOA",
+      "range": {
+        "day": "500 m"
+      }
+    },
+
+    "price": "40 USD"
+  },
+
+  {
+    "id": "improve_sights",
+    "copy-from": "improve_sights",
+    "type": "GUNMOD",
+
+    "//source": [
+      "https://danieldefense.com/ar-15-iron-sight-set.html",
+      "https://www.wingtactical.com/accessories/optics-sights/sights/daniel-defense-ar-15-fixed-iron-sights/"
+    ],
+
+    "name": {
+      "str": "Daniel Defense iron sights"
+    },
+    "//description": "TBD",
+
+    "weight": "79 g",
+    "//dimensions": "61 × 44 × 24 mm for a pair",
+    "//dimensions2": "height (44 mm) assumed from height of the taller (rear) sight (39 mm) + 5 mm of the base gripping around the rail",
+    "//volume": "64 ml",
+    "//trim": "30% trim for shape",
+    "volume": "45 ml",
+    "longest_side": "61 mm",
+
+    "material": ["steel"],
+
+    "//sight_dispersion": "move them closer to the default Loadout iron sight balancing",
+    "sight_dispersion": 32,
+
+    "price": "142 USD"
+  },
+
+  {
+    "id": "offset_sight_rail",
+    "copy-from": "offset_sight_rail",
+    "type": "GUNMOD",
+
+    "//source": [
+      "https://www.wingtactical.com/accessories/optics-sights/optic-sight-mounts/strike-industries-ambush-45-degree-offset-optic-mount/"
+    ],
+
+    "name": {
+      "str": "SI offset sight mount"
+    },
+    "//description": "TBD",
+
+    "weight": "51 g",
+    "//dimensions": "2.05 × 1.05 × 2.47 in.",
+    "//volume": "87 ml",
+    "//trim": "70% trim for shape",
+    "volume": "26 ml",
+    "longest_side": "52 mm",
+
+    "material": ["steel", "aluminum"],
+
+    "price": "75 USD"
+  },
+
+  {
+    "id": "pistol_scope",
+    "copy-from": "pistol_scope",
+    "type": "GUNMOD",
+
+    "//source": [
+      "https://www.burrisoptics.com/riflescopes/handgun-scope-2x20mm"
+    ],
+
+    "name": {
+      "str": "Burris 2×20 handgun scope"
+    },
+    "//description": "TBD",
+
+    "weight": "199 g",
+    "//dimensions": "8.9 in. × 35 mm",
+    "//trim": "assumes the excess space covers adjustment knobs etc.",
+    "volume": "218 ml",
+    "longest_side": "226 mm",
+
+    "sight_dispersion": 1,
+    "//field_of_view": "21 feet @ 100 yards",
+    "field_of_view": 240,
+
+    "location": "1-inch sight mount",
+
+    "price": "312 USD"
   }
 ]
