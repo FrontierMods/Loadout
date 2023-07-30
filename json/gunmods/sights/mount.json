@@ -163,5 +163,29 @@
     "longest_side": "130 mm",
 
     "price": "55 USD"
+  },
+
+  {
+    "id": "sight_mount_1in_warne",
+    "copy-from": "sight_mount_1in",
+    "type": "GUNMOD",
+
+    "//source": [
+      "https://warnescopemounts.com/v4001m-1-inch-1-piece-msr-mount-matte/"
+    ],
+
+    "name": {
+      "str": "Warne 1-inch ring mount"
+    },
+    "description": "TBD",
+
+    "weight": "133 g",
+    "//dimensions": "eyeballed: (3.05 + 0.75 × 2 + 0.375 in. = 4.925 in.) × (1.4 in. + 20% = 1.68 in.) × 24mm (Picatinny rail width × 1.125)",
+    "//volume": "128 mm",
+    "//trim": "80% trim from shape",
+    "volume": "26 ml",
+    "longest_side": "125 mm",
+
+    "price": "80 USD"
   }
 ]

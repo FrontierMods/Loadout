@@ -157,6 +157,19 @@
   },
 
   {
+    "abstract": "sight_mount_1in",
+    "copy-from": "sight_mount_abstract",
+    "type": "GUNMOD",
+
+    "name": {
+      "str": "1-inch sight mount"
+    },
+    "description": "idea of a 1-inch sight mount",
+
+    "add_mod": [["1-inch sight mount", 1]]
+  },
+
+  {
     "abstract": "iron_sights_abstract",
     "type": "GUNMOD",
 
