@@ -37,7 +37,7 @@
   },
 
   {
-    "abstract": "muzzle_brake",
+    "abstract": "muzzle_brake_abstract",
     "copy-from": "muzzle_universal_abstract",
     "type": "GUNMOD",
 

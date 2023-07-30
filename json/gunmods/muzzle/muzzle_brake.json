@@ -1,7 +1,7 @@
 [
   {
     "id": "muzzle_brake_precision_hypertap",
-    "copy-from": "muzzle_brake",
+    "copy-from": "muzzle_brake_abstract",
     "type": "GUNMOD",
 
     "//source": [
@@ -30,7 +30,7 @@
 
   {
     "id": "muzzle_brake_sjc_titan",
-    "copy-from": "muzzle_brake",
+    "copy-from": "muzzle_brake_abstract",
     "type": "GUNMOD",
 
     "//source": ["https://stores.sjcguns.com/223-5-56-sjc-titan-cs-black/"],
@@ -57,7 +57,7 @@
 
   {
     "id": "muzzle_brake_v7",
-    "copy-from": "muzzle_brake",
+    "copy-from": "muzzle_brake_abstract",
     "type": "GUNMOD",
 
     "//source": [
@@ -89,7 +89,7 @@
 
   {
     "id": "muzzle_brake_v7_furion",
-    "copy-from": "muzzle_brake",
+    "copy-from": "muzzle_brake_abstract",
     "type": "GUNMOD",
 
     "//source": [
@@ -122,7 +122,7 @@
 
   {
     "id": "muzzle_brake_apex",
-    "copy-from": "muzzle_brake",
+    "copy-from": "muzzle_brake_abstract",
     "type": "GUNMOD",
 
     "//source": [
@@ -153,7 +153,7 @@
 
   {
     "id": "muzzle_brake_deadair_keymount",
-    "copy-from": "muzzle_brake",
+    "copy-from": "muzzle_brake_abstract",
     "type": "GUNMOD",
 
     "//source": [
@@ -184,7 +184,7 @@
 
   {
     "id": "muzzle_brake_thunder_beast_sr",
-    "copy-from": "muzzle_brake",
+    "copy-from": "muzzle_brake_abstract",
     "type": "GUNMOD",
 
     "//source": [
