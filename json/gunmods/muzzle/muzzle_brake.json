@@ -49,8 +49,8 @@
     "//recoil_reduction": "78%",
     "//recoil_distance": "2.4688 in.",
 
-    "//recoil_modifier": -400,
-    "handling_modifier": 40,
+    "//recoil_modifier": -390,
+    "handling_modifier": 39,
 
     "price": "100 USD"
   },
@@ -81,7 +81,7 @@
     "//recoil_reduction": "56.35%",
     "//recoil_distance": "4.9375 in.",
 
-    "//recoil_modifier": -275,
+    "//recoil_modifier": -280,
     "handling_modifier": 28,
 
     "price": "91 USD"
@@ -115,7 +115,7 @@
     "//recoil_distance": "4.0313 in.",
 
     "//recoil_modifier": -325,
-    "handling_modifier": 33,
+    "handling_modifier": 32,
 
     "price": "145 USD"
   },
@@ -176,7 +176,7 @@
     "//recoil_reduction": "56.63%",
     "//recoil_distance": "4.9063 in.",
 
-    "//recoil_modifier": -275,
+    "//recoil_modifier": -280,
     "handling_modifier": 28,
 
     "price": "89 USD"
@@ -190,7 +190,8 @@
     "//source": [
       "https://thunderbeastarms.com/products/dominus-sr",
       "https://thunderbeastarms.com/products/accessories",
-      "https://escapefromtarkov.fandom.com/wiki/AR-15_Thunder_Beast_Arms_223CB_5.56x45_muzzle_brake"
+      "https://escapefromtarkov.fandom.com/wiki/AR-15_Thunder_Beast_Arms_223CB_5.56x45_muzzle_brake",
+      "https://www.thetruthaboutguns.com/ar-15-muzzle-brake-shootout-3/"
     ],
 
     "name": {
@@ -209,8 +210,8 @@
 
     "//recoil_reduction": "???",
 
-    "//handling_modifier": "purely a guess based on similar-style brakes",
-    "handling_modifier": 28,
+    "//handling_modifier": "its 5.56mm cousin reduces recoil by 72.93%, so let's assume this one performs only slightly worse, at a completely-fictional 70.62%",
+    "handling_modifier": 35,
 
     "add_mod": [["Thunder Beast SR mount", 1]],
 
