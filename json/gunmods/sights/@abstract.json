@@ -86,6 +86,19 @@
   },
 
   {
+    "abstract": "sight_34mm",
+    "copy-from": "sight_30mm",
+    "type": "GUNMOD",
+
+    "name": {
+      "str": "34mm scope"
+    },
+    "description": "idea of a 34mm scope",
+
+    "location": "34mm mount"
+  },
+
+  {
     "abstract": "sight_mount_abstract",
     "type": "GUNMOD",
 
