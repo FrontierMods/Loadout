@@ -445,7 +445,7 @@
 
     "//weight": "2 oz + 1.8 oz = 3.8 oz ≈ 108 g",
     "weight": "108 g",
-    "//dimensions": "copied from the `iron_sights_abstract` item; actual dimensions welcome",
+    "//dimensions": "copied from the `iron_sights_abstract` item; actual dimensions not readily available",
     "volume": "95 ml",
     "longest_side": "63 mm",
 
@@ -628,7 +628,7 @@
     "copy-from": "brass_catcher",
     "type": "GUNMOD",
 
-    "//note": "the nylon catcher part is not *technically* rigid, but it's shaped enough by the metal skeleton to effectively retain its shape",
+    "//note": "the nylon catcher part is not *technically* rigid, but it's shaped enough by the metal skeleton to effectively retain its shape throughout the filling process",
 
     "//source": [
       "https://www.amazon.com/Caldwell-Brass-Catcher-Picatinny-Resistant/dp/B00EB5OU0Q",
