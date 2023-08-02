@@ -45,6 +45,40 @@
   },
 
   {
+    "id": "sight_mount_rmr_trijicon_rm35",
+    "copy-from": "sight_mount_rmr",
+    "type": "GUNMOD",
+
+    "//source": [
+      "https://www.trijicon.com/products/details/rm35",
+      "https://www.amazon.com/Trijicon-Ruggedized-Miniature-Reflex-Bosses/dp/B0036J4U5S",
+      "https://escapefromtarkov.fandom.com/wiki/Trijicon_RMR_mount_for_ACOG_scopes",
+      "https://www.waffen-ferkinghoff.com/english/rmr-mount-acog-3.5x/5-5x/4x"
+    ],
+
+    "name": {
+      "str": "Trijicon RM35 RMR mount for ACOG"
+    },
+    "description": "TBD",
+
+    "//weight": "Amazon lists weight as 0.1 lbs ≈ 45 g, Tarkov lists it as ~20 g, the German reseller lists 55 g",
+    "weight": "55 g",
+    "//dimensions": "1.78 × 1.485 (1.32 RM33 width × 1.125) × 1.04 (0.52 RM33 height × 2) in.",
+    "//dimensions2": "assumes Amazon dimensions are packaging, as they often are for firearm accessories",
+    "//dimensions3": "current dimensions replicate those of a very-similar RM33 mount",
+    "//volume": "45 ml",
+    "//trim": "55% trim for shape",
+    "volume": "20 ml",
+    "longest_side": "45 mm",
+
+    "location": "ACOG bosses",
+
+    "add_mod": [["RMR mount", 1]],
+
+    "price": "106 USD"
+  },
+
+  {
     "id": "sight_mount_30mm_aero",
     "copy-from": "sight_mount_30mm",
     "type": "GUNMOD",

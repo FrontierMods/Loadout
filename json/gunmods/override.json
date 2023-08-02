@@ -219,6 +219,9 @@
 
     "location": "ACOG mount",
 
+    "//add_mod": "bosses are small mounting arms near viewport, which an RMR mount would attach to",
+    "add_mod": [["ACOG bosses", 1]],
+
     "//power": {
       "source": "tritium",
       "lifetime": "12 years"
