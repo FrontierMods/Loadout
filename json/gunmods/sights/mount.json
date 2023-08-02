@@ -27,23 +27,21 @@
     "copy-from": "sight_mount_rmr",
     "type": "GUNMOD",
 
-    "//source": [
-      "https://www.trijicon.com/products/details/rm33",
-      "https://www.amazon.com/Trijicon-RM33-Mount-Adapter-Profile/dp/B002KFSI6G"
-    ],
+    "//source": ["https://www.trijicon.com/products/details/rm33"],
 
     "name": {
       "str": "Trijicon RM33 RMR mount"
     },
     "description": "TBD",
 
-    "weight": "68 g",
-    "//volume": "assumes length and width of the RMR sight",
-    "//volume2": "assumes height of 0.768 in. (distance from top of rail to optical center) minus 0.5 × 1 in. (half the height = optical center of RMR) = 0.268 in.",
-    "volume": "9 ml",
-    "longest_side": "53 mm",
+    "weight": "34 g",
+    "//dimensions": "1.78 × 1.32 × 0.52 in.",
+    "//volume": "20 ml",
+    "//trim": "10% trim from shape",
+    "volume": "18 ml",
+    "longest_side": "45 mm",
 
-    "price": "104 USD"
+    "price": "109 USD"
   },
 
   {
