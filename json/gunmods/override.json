@@ -827,5 +827,98 @@
     "install_time": "5 s",
 
     "price": "20 USD"
+  },
+
+  {
+    "id": "pistol_stock",
+    "copy-from": "pistol_stock",
+    "type": "GUNMOD",
+
+    "//note": "technically the Cobra also comes with 2 adapters (17- or 19-sized) × 2 variants each, but it comes standard with a latest-gen-fitting adapter pre-installed",
+    "//note2": "installs folded",
+
+    "//source": [
+      "https://www.fab-defense.co.il/en/category-buttstocks/id-2459/quick-deployment-folding-glock-stock.html",
+      "https://www.youtube.com/watch?v=9WivZAVyZFI",
+      "https://israeldefensestore.com/cobra-quick-deployment-folding-glock-stock.html"
+    ],
+
+    "name": {
+      "str": "FAB Defense Glock pistol stock (folded)",
+      "str_pl": "FAB Defense Glock pistol stocks (folded)"
+    },
+    "//description": "TBD",
+
+    "weight": "328 g",
+    "//dimensions": "240 × 42 × 140 mm",
+    "//volume": "1411 ml",
+    "//trim": "90% trim for shape",
+    "volume": "141 ml",
+    "longest_side": "240 mm",
+    "//integral_longest_side": "no matter the model, the stock pokes out of both front and back when folded",
+    "integral_longest_side": "40 mm",
+
+    "//material": "advertised as 'fiberglass reinforced polymer'",
+    "material": ["steel", "plastic"],
+
+    "mod_targets": ["glock_17", "glock_19", "glock_22", "glock_31"],
+
+    "//install_time": "slides in very tight, so requires a bit of force and a slap",
+    "install_time": "10 s",
+
+    "//handling_modifier": "no bonus while folded",
+    "handling_modifier": 0,
+
+    "//tools": {
+      "to install adapter": "flat screwdriver"
+    },
+
+    "//use_action": "one of the main selling points is the stock's ability to deploy rapidly",
+    "use_action": {
+      "type": "transform",
+
+      "msg": "You unfold the stock.",
+      "menu_text": "Unfold",
+
+      "target": "pistol_stock_unfolded",
+
+      "moves": 100
+    },
+
+    "//price": "prices vary per store, within 40 USD of each other",
+    "price": "113 USD"
+  },
+
+  {
+    "id": "pistol_stock_unfolded",
+    "copy-from": "pistol_stock",
+    "type": "GUNMOD",
+
+    "name": {
+      "str": "FAB Defense Glock pistol stock"
+    },
+    "//description": "TBD",
+
+    "//dimensions": "332 × 42 × 153 mm",
+    "//volume": "2133 ml",
+    "//trim": "90% trim for shape",
+    "volume": "213 ml",
+    "longest_side": "332 mm",
+    "//integral_longest_side": "shaved off a few millimeters for the fact that a tiny part of the length is always under the grip, thus not affecting the overall length of the pistol",
+    "integral_longest_side": "322 mm",
+
+    "handling_modifier": 6,
+
+    "//use_action": "rapid collapse is not required, thus we afford the player character the time to fold the stock back in",
+    "use_action": {
+      "type": "transform",
+
+      "msg": "You fold the stock.",
+      "menu_text": "Fold",
+
+      "target": "pistol_stock",
+
+      "moves": 300
+    }
   }
 ]
