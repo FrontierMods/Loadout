@@ -714,9 +714,6 @@
     "copy-from": "shoulder_strap",
     "type": "GUNMOD",
 
-    "//note": "turn this into a commercial strap, and make crafting produce a new, handmade one",
-    "//id_front": "shoulder_strap_front",
-
     "//source": [
       "https://www.amazon.com/Tactical-Hero-Point-Rifle-Sling/dp/B01C6F7NJ2",
       "https://www.colsontaskforce.org/best-ar-15-slings/"
