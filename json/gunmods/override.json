@@ -920,5 +920,128 @@
 
       "moves": 300
     }
+  },
+
+  {
+    "id": "arredondo_chute",
+    "copy-from": "arredondo_chute",
+    "type": "GUNMOD",
+
+    "//note": "source also recommends installing a replacement lifter, but that appears to be not directly relevant to the operation of the speedloader chute itself",
+
+    "//source": [
+      "https://www.arredondoaccessories.com/product/speed-loader-assist/",
+      "https://forums.brianenos.com/topic/171331-mossberg-930-arredondo-speedloader-assist/",
+      "https://www.midwayusa.com/product/1005253477"
+    ],
+
+    "name": { "str": "Arredondo speedloader chute for Mossberg 930" },
+    "//description": "TBD",
+
+    "//weight": "source description says 4.7 oz ≈ 133 g, source additional information says 4.2 oz ≈ 119 g",
+    "weight": "119 g",
+    "//dimensions": "3.33 (visual reference) × 1.72 (barrel outer diameter = 0.86 × 2 → width) × 2.6 (visual reference) in.",
+    "//volume": "244 ml",
+    "//trim": "80% trim for shape",
+    "volume": "49 ml",
+    "//integral_volume": "80% of volume due to a lot of the 'volume' being 'hidden' inside the shotgun after attaching the speedloader",
+    "integral_volume": "39 ml",
+    "longest_side": "85 mm",
+    "integral_longest_side": "0 mm",
+
+    "material": ["aluminum"],
+
+    "mod_targets": ["mossberg_930"],
+
+    "price": "164 USD"
+  },
+
+  {
+    "id": "masterkey",
+    "copy-from": "masterkey",
+    "type": "GUNMOD",
+
+    "//note": "the actual KAC Masterkey appears nowhere to be found (the only sell points available online are sketchy and/or lacking in info), so we're replacing it with a temporary shotgun solution based on Remington Tac-14 sans the grip, plus the UBS-12 adapter",
+    "//note2": "this arrangement supports any Remington 870 clones",
+    "//note3": "shot spread: 7-in. @ 100 yds w/ 00 Federal ammo",
+    "//note3_source": "https://www.pewpewtactical.com/remington-tac-14-review/",
+
+    "//source": [
+      "https://www.lockharttactical.com/ubs12",
+      "https://www.lockharttactical.com/release",
+      "https://www.remarms.com/other-products/model-870-tac-14",
+      "https://shockwavetechnologies.com/product/raptor-grip-for-remington-870/",
+      "https://www.pewpewtactical.com/remington-tac-14-review/"
+    ],
+
+    "name": {
+      "str": "Lockhart Tactical UBS-12 underbarrel shotgun"
+    },
+    "//description": "TBD",
+
+    "//weight": "Tac-14 (5.6 lbs = 2540 g) - Raptor grip (10 oz ≈ 284 g) + UBS-12 mount (0.2 lbs ≈ 91 g) = 2347 g",
+    "weight": "2347 g",
+    "//dimensions_note": "Tac-14 is measured without the Raptor grip, since that's how it is attached to the mount",
+    "//dimensions_shotgun": "21.3 (from visual reference) × 1.5 × 3.52 (from visual reference) in.",
+    "//volume_shotgun": "1843 ml",
+    "//trim_shotgun": "20% trim for shape",
+    "//volume_shotgun_result": "1474 ml",
+    "//dimensions_mount": "7 × 1.25 × 2.75 in.",
+    "//volume_mount": "394 ml",
+    "//trim_mount": "80% trim for shape",
+    "//volume_mount_result": "79 ml",
+    "volume": "1922 ml",
+    "//longest_side": "overall length of Tac-14 + attached mount is ~22.3 in. ≈ 556 mm",
+    "longest_side": "566 mm",
+    "//integral_longest_side": "we're going to assume that it doesn't poke out from underneath the barrel",
+    "integral_longest_side": "0 mm",
+
+    "//material": "only the UBS-12 mount is aluminium",
+    "material": ["steel", "plastic", "aluminum"],
+
+    "//mod_targets": "generally speaking, only modern rifles with metal handguards would have a strong-enough rail to mount this thing on",
+    "mod_targets": ["rifle"],
+
+    "//install_time": "merely a guess, since no reviews or tutorials seem to be available; real value welcome",
+    "install_time": "10 m",
+
+    "//price": "Tac-14 (420 USD) - Raptor grip (25 USD) + UBS-12 mount (395 CAD ≈ 295 USD) = 690 USD",
+    "//price_note": "applied a 15% discount for (in this fictional situation) coming as a complete package, and rounded up to the nearest 25 USD mark",
+    "price": "600 USD"
+  },
+
+  {
+    "id": "cheek_pad",
+    "copy-from": "cheek_pad",
+    "type": "GUNMOD",
+
+    "//note": "this particular model is specifically one without cartridge loops on the side",
+
+    "//source": [
+      "https://www.beartooth-products.com/collections/comb-raising-kit-gun-cover-cheek-pad-weld-piece-riser/products/comb-raising-kit-no-loop-black",
+      "https://www.amazon.com/Beartooth-Raising-Improve-Accuracy-Neoprene/dp/B01FL9JKRI",
+      "https://ukoutdoorstore.co.uk/shop/beartooth-comb-raising-kit-2-0-rifle-shotgun-neoprene-stock-guard-inserts/"
+    ],
+
+    "name": { "str": "Beartooth Comb Raising Kit 2.0 cheek pad" },
+    "//description": "TBD",
+
+    "//weight": "Amazon says 0.09 kg = 90 g, the UK source says 0.200 kg = 200 g",
+    "weight": "200 g",
+    "//dimensions": "7 × 0.15 (assumed) × 4.5 (visual reference) in.",
+    "//dimensions_note": "length of sleeve of 7 inches is stated in source, yet the sleeve covers an entire stock when put on",
+    "//dimensions_note2": "most stocks' length of pull is 13.5 in.",
+    "//dimensions_note3": "we are left to assume a high degree of stretchiness",
+    "//volume": "81 ml",
+    "//trim": "no trim",
+    "volume": "81 ml",
+    "longest_side": "178 mm",
+    "integral_longest_side": "0 mm",
+
+    "material": ["neoprene"],
+
+    "mod_targets": ["rifle", "shotgun"],
+
+    "price": "164 USD"
   }
 ]
