@@ -1043,5 +1043,33 @@
     "mod_targets": ["rifle", "shotgun"],
 
     "price": "164 USD"
+  },
+
+  {
+    "id": "choke",
+    "copy-from": "choke",
+    "type": "GUNMOD",
+
+    "//note": "specifically the 'passing' variant, which is said to be comparable to improved modified or full choke",
+    "//note2": "this variant allows shooting slugs",
+
+    "//source": [
+      "https://mullerchokes.com/collections/remington-choke-tubes/products/12-gauge-remchoke-waterfowl?variant=946375717",
+      "https://www.shotgunworld.com/threads/how-much-lighter-are-muller-chokes.307413/"
+    ],
+
+    "name": { "str": "Müller passing choke for Remington shotguns" },
+    "//description": "TBD",
+
+    "weight": "19 g",
+    "//dimensions": "4.3125 × 0.86 in",
+    "volume": "41 ml",
+    "longest_side": "110 mm",
+    "//integral_longest_side": "part of the choke covers the thread",
+    "integral_longest_side": "91 mm",
+
+    "//compatibility": ["870", "887", "11-87", "1100", "V3"],
+
+    "price": "135 USD"
   }
 ]
