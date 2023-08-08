@@ -165,7 +165,7 @@
     "weight": "284 g",
     "volume": "292 ml",
     "longest_side": "178 mm",
-    "//added_length": "?? mm",
+    "//integral_length": "?? mm",
 
     "material": ["titanium", "steel"],
 
@@ -202,7 +202,7 @@
     "weight": "366 g",
     "volume": "268 ml",
     "longest_side": "200 mm",
-    "//added_length": "?? mm",
+    "//integral_length": "?? mm",
 
     "//material": "actual material for the steel part is inconel",
     "material": ["titanium", "steel"],
