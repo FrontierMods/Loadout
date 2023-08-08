@@ -704,6 +704,7 @@
       "HELMET_HEAD_ATTACHMENT"
     ]
   },
+
   {
     "id": "flashlight_modlight_pl350",
     "copy-from": "flashlight_abstract",
