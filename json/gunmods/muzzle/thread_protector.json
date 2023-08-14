@@ -1,0 +1,29 @@
+[
+  {
+    "id": "thread_protector_silencercentral",
+    "copy-from": "thread_protector",
+    "type": "GUNMOD",
+
+    "//source": [
+      "https://www.egwguns.com/thread-protector-carbon-steel-5-8-x-24",
+      "https://www.brownells.co.uk/THREAD-PROTECTOR-5/8-24-Blued-EGW-Stainless-Steel-AR-15-296000105",
+      "https://www.optics-trade.eu/en/egw-thread-protector-5-8-x-24.html"
+    ],
+
+    "name": {
+      "str": "EGW thread protector"
+    },
+    "description": "TBD",
+
+    "//weight": "Brownells UK lists 'delivery weight' at 0.041 kg = 41 g",
+    "//weight2": "Optics Trade shows that the protector comes in a small plastic bag, which we assume the weight of to be ~5 g",
+    "weight": "36 g",
+    "//dimensions": "0.8 × 0.95 in.",
+    "//volume": "9 ml",
+    "//trim": "no trim",
+    "volume": "9 ml",
+    "longest_side": "24 mm",
+
+    "price": "15 USD"
+  }
+]

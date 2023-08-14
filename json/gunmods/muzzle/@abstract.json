@@ -158,6 +158,23 @@
     "longest_side": "16 mm"
   },
 
+  {
+    "abstract": "thread_protector",
+    "copy-from": "muzzle_abstract",
+    "type": "GUNMOD",
 
+    "name": {
+      "str": "thread protector"
+    },
+    "description": "idea of a thread protector",
+
+    "//weight": "based on stated 'delivery weight' of EGW thread protector minus 5 g for the plastic bag",
+    "//weight_source": "https://www.brownells.co.uk/THREAD-PROTECTOR-5/8-24-Blued-EGW-Stainless-Steel-AR-15-296000105",
+    "//weight_source2": "https://www.optics-trade.eu/en/egw-thread-protector-5-8-x-24.html",
+    "weight": "36 g",
+    "//volume": "based on EGW thread protector",
+    "volume": "9 ml",
+    "//longest_side": "based on length of EGW thread protector for a 5/8 in. × 24-threaded barrel",
+    "longest_side": "24 mm"
   }
 ]
