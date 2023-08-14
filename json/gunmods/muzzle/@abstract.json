@@ -155,14 +155,9 @@
     "//longest_side": "based on length of thread from a 5/8 in. × 24-threaded barrel",
     "//longest_side2": "some adapters and threaded barrel extensions in this thread config provide a 0.7 in. ≈ 18 mm thread",
     "//longest_side_source": "https://www.pikearms.com/catalog/product/id-5146",
-    "longest_side": "16 mm",
+    "longest_side": "16 mm"
+  },
 
-    "material": ["steel"],
 
-    "symbol": ":",
-    "color": "dark_gray",
-
-    "location": "muzzle",
-    "install_time": "30 s"
   }
 ]
