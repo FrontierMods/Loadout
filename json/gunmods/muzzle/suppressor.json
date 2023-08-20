@@ -1,7 +1,7 @@
 [
   {
     "id": "suppressor_surefire_socom556",
-    "copy-from": "suppressor_abstract",
+    "copy-from": "suppressor_abstract_no_cover",
     "type": "GUNMOD",
 
     "//TODO": "https://www.surefire.com/socom-muzzle-brake/",
@@ -218,7 +218,7 @@
 
   {
     "id": "suppressor_jk_105ccx",
-    "copy-from": "suppressor_abstract",
+    "copy-from": "suppressor_abstract_no_cover",
     "type": "GUNMOD",
 
     "//note": "this one assumes maximum-length configuration of 4.6 in., though the suppressor is configurable all the way down to 1.9 in.",
