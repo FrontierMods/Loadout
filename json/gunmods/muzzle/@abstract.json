@@ -70,6 +70,7 @@
     },
     "description": "idea of a suppressor",
 
+    "//longest_side": "a typical suppressor is 7 in. long",
     "longest_side": "178 mm",
 
     "loudness_modifier": -40,
@@ -84,6 +85,26 @@
     "mod_targets": ["pistol", "smg", "rifle"],
 
     "add_mod": [["suppressor cover", 1]]
+  },
+
+  {
+    "abstract": "suppressor_abstract_no_cover",
+    "copy-from": "muzzle_universal_abstract",
+    "type": "GUNMOD",
+
+    "name": {
+      "str": "shorter suppressor"
+    },
+    "description": "idea of a shorter suppressor",
+
+    "//longest_side": "we assume this suppressor is shorter than 7 in., making it average 6 in.",
+    "longest_side": "152 mm",
+
+    "loudness_modifier": -35,
+    "//damage_modifier": "default is same as for a 7 in. suppressor",
+
+    "//add_mod": "this one specifically doesn't add a slot for suppressor cover",
+    "//add_mod2": "covers often require a suppressor with a minimum of 7 in. of length"
   },
 
   {
