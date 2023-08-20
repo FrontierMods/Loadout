@@ -24,14 +24,11 @@
   "location": "suppressor cover",
   "install_time": "30 s",
 
+  "//mod_targets": "not quite as permissive due to the range of suppressors that can take a cover being rather limited",
+  "//mod_targets2": "size being the primary consideration: typical suppressor cover requires a suppressor of 7 in. or longer",
   "mod_targets": [
-    "pistol",
     "smg",
-    "shotgun",
-    "rifle",
-    "bow",
-    "crossbow",
-    "launcher"
+    "rifle"
   ],
 
   "//loudness_modifier": "apparently reduces sound signature of the weapon slightly",
