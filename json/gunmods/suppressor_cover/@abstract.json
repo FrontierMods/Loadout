@@ -3,7 +3,7 @@
   "type": "GUNMOD",
 
   "//note": "the main purpose of a suppressor cover is to be able to handle a hot suppressor with bare hands safely",
-  "//note2": "given that this isn't – and will likely never be – modelled in-game, the primary benefit is further shot volume reduction",
+  "//note2": "given that this isn't – and will likely never be – modelled in-game, the item's primary benefit in the game becomes to further, though slightly, reduce shot volume",
 
   "name": {
     "str": "suppressor cover"
