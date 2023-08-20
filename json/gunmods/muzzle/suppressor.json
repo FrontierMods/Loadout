@@ -248,7 +248,7 @@
 
     "//sound_reduction": "?? dB",
 
-    "//loudness_modifier": "-25 should be effective for 9mm, given that (as of 2023-08-08) 9mm JHP's loudness is 80",
+    "//loudness_modifier": "-25 should be effective for 9mm, given that (as of 2023-08-08) 9mm JHP's computed loudness is 80",
     "//loudness_modifier2": "anecdotal evidence suggests that this suppressor is not that effective, though video tests show quite the opposite",
     "loudness_modifier": -25,
 

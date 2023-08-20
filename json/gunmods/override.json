@@ -615,7 +615,7 @@
     "integral_volume": "5 ml",
     "longest_side": "69 mm",
 
-    "//mod_targets": "while similar Techna clips exist for other listed `mod_targets`, they're sufficiently different per model of the pistol to make them separate items",
+    "//mod_targets": "while similar Techna clips exist for other listed `mod_targets`, they're sufficiently different per model of pistol to make them separate items",
     "mod_targets": ["rugerlcp"],
     "//install_time": "installation time is literally part of the ad for this thing",
     "install_time": "5 m",
@@ -834,7 +834,7 @@
     "copy-from": "pistol_stock",
     "type": "GUNMOD",
 
-    "//note": "technically the Cobra also comes with 2 adapters (17- or 19-sized) × 2 variants each, but it comes standard with a latest-gen-fitting adapter pre-installed",
+    "//note": "technically the Cobra also comes with 2 adapters (Glock 17- or 19-sized) × 2 variants each, but it comes standard with a latest-gen-fitting adapter pre-installed",
     "//note2": "installs folded",
 
     "//source": [
@@ -882,6 +882,7 @@
 
       "target": "pistol_stock_unfolded",
 
+      "//moves": "eyeballed from video source",
       "moves": 100
     },
 
@@ -928,6 +929,7 @@
     "type": "GUNMOD",
 
     "//note": "source also recommends installing a replacement lifter, but that appears to be not directly relevant to the operation of the speedloader chute itself",
+    "//note2": "much like with the Techna belt clip, this comes available for a variety of models, each sufficiently-different to warrant a separate item per variant",
 
     "//source": [
       "https://www.arredondoaccessories.com/product/speed-loader-assist/",
@@ -963,7 +965,7 @@
 
     "//note": "the actual KAC Masterkey appears nowhere to be found (the only sell points available online are sketchy and/or lacking in info), so we're replacing it with a temporary shotgun solution based on Remington Tac-14 sans the grip, plus the UBS-12 adapter",
     "//note2": "this arrangement supports any Remington 870 clones",
-    "//note3": "shot spread: 7-in. @ 100 yds w/ 00 Federal ammo",
+    "//note3": "shot spread: 7 in. @ 100 yds w/ 00 Federal ammo",
     "//note3_source": "https://www.pewpewtactical.com/remington-tac-14-review/",
 
     "//source": [

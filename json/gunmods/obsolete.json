@@ -46,7 +46,7 @@
       "tail_hook_stock": [
         "while a neat piece of firearm accessory, it's currently not very useful for the purpose it's designed to fulfill",
         "its main goal is to help fire a 'pistol' (including AR pistols) or an SMG one-handed, with the hook bracing against the shooter's arm to maintain stability",
-        "since handedness is currently not implemented, there's no way to really use this functionality",
+        "since handedness (i.e. differentiation between which hand is being used) is currently not implemented, there's no way to really use this functionality",
         "beyond that, it's not even a full stock – it's a stock plate (or a stock hook, one would suppose) – and thus requires the rest of the tube to install onto, something that isn't currently implemented",
         "something like this would be a better fit for Gunsmith, with its intricate gunmod system overhaul"
       ],
@@ -56,7 +56,8 @@
         "even then, it must be subject to consideration",
         "most modern firearms feature Picatinny rails, which by default accept any compatible equipment",
         "and in case of muzzle devices, the threads they mount onto are standardized",
-        "though worth noting that one cannot attach any device on any thread: instead, most devices are made for a range of threads common on their target platform(s)",
+        "for muzzle devices, worth noting that one cannot attach any device on any thread:",
+        "instead, most devices are made for a range of threads common on their target platform(s)",
         "the only consideration for rail devices (top, side, and bottom) is the amount of space they take on the rail, which will hopefully get implemented by the next stable release"
       ]
     }
