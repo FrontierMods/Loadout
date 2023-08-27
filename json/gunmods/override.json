@@ -938,7 +938,8 @@
     "//description": "TBD",
 
     "//weight": "source description says 4.7 oz ≈ 133 g, source additional information says 4.2 oz ≈ 119 g",
-    "weight": "119 g",
+    "//weight2": "using the larger number to be on the safe side",
+    "weight": "133 g",
     "//dimensions": "3.33 (visual reference) × 1.72 (barrel outer diameter = 0.86 × 2 → width) × 2.6 (visual reference) in.",
     "//volume": "244 ml",
     "//trim": "80% trim for shape",
