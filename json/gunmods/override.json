@@ -589,38 +589,35 @@
     "copy-from": "belt_clip",
     "type": "GUNMOD",
 
-    "//source": [
-      "https://www.amazon.com/Techna-Clip-LCP-380-Conceal-Right-Side/dp/B014E26Z62"
-    ],
+    "//source": ["https://www.clipdraw.com/product/sa-b-black-s-silver/"],
 
     "name": {
-      "str": "Techna clip for Ruger LCP",
-      "str_pl": "Techna clips for Ruger LCP"
+      "str": "Clipdraw universal belt clip"
     },
     "//description": "TBD",
 
-    "//weight": "while not definitive, Amazon lists weight in 'product dimensions' as 0.96 oz ≈ 27 g, which seems appropriate",
+    "//weight": "Amazon lists weight in 'product dimensions' for a similar product as 0.96 oz ≈ 27 g, which seems appropriate",
+    "//weight_source": "https://www.amazon.com/Techna-Clip-LCP-380-Conceal-Right-Side/dp/B014E26Z62",
     "//weight2": "this may include the Allen wrench that comes with the clip",
     "//weight3": "according to source, an Allen wrench weighs around 5 g",
     "//weight3_source": "https://www.amazon.com/Allen-Wrench-Tool-Stainless-Steel/dp/B0167HI1FA",
     "//weight4": "assumes the weight of the second (spare) screw is irrelevant for the total grammage",
     "weight": "22 g",
-    "//dimensions": "2.71 × 0.57 × 0.2 in.",
-    "//dimensions2": "similar to source but double-checked against known dimensions of Luger LCP",
-    "//volume": "5 ml",
-    "//trim": "90% trim for shape, to the minimum of 1 ml",
+    "//dimensions": "3 × 0.25 × 0.25 in.",
+    "//dimensions2": "height assumed from visuals",
+    "//volume": "3 ml",
+    "//trim": "80% trim for shape, to the minimum of 1 ml",
     "volume": "1 ml",
     "//integral_volume": "while the clip itself is very thin, it arches against the body of the pistol, adding unfillable volume",
     "//integral_volume2": "uses untrimmed volume, since that's just about how much volume gets added",
-    "integral_volume": "5 ml",
-    "longest_side": "69 mm",
+    "integral_volume": "3 ml",
+    "longest_side": "76 mm",
 
-    "//mod_targets": "while similar Techna clips exist for other listed `mod_targets`, they're sufficiently different per model of pistol to make them separate items",
-    "mod_targets": ["rugerlcp"],
-    "//install_time": "installation time is literally part of the ad for this thing",
-    "install_time": "5 m",
+    "//mod_targets": "this one is specifically universal and does not require any manipulations specific to a particular model",
+    "mod_targets": ["pistol"],
+    "install_time": "2 m",
 
-    "price": "30 USD"
+    "price": "25 USD"
   },
 
   {
