@@ -1,0 +1,30 @@
+[
+  {
+    "id": "speedloader_arredondo_remington_1100",
+    "copy-from": "arredondo_chute",
+    "type": "GUNMOD",
+
+    "//note": "see also: notes for `arredondo_chute`",
+
+    "//source": [
+      "https://www.arredondoaccessories.com/product/speed-loader-assist/",
+      "https://babblestorm462.wordpress.com/2013/06/22/benelliremington-speedloader-assist-bracket-benelli-speedloader-assist/"
+    ],
+
+    "name": { "str": "Arredondo speedloader chute for Remington 1100" },
+    "description": "TBD",
+
+    "//weight": "source description says 4.7 oz ≈ 133 g, source additional information says 4.2 oz ≈ 119 g",
+    "weight": "133 g",
+    "//dimensions": "5 × 1.825 × 2 in.",
+    "//volume": "299 ml",
+    "//trim": "80% trim for shape",
+    "volume": "60 ml",
+    "//integral_volume": "80% of volume due to a lot of the 'volume' being 'hidden' inside the shotgun after attaching the speedloader",
+    "integral_volume": "40 ml",
+    "longest_side": "127 mm",
+    "integral_longest_side": "0 mm",
+
+    "mod_targets": ["remington_1100"]
+  }
+]
