@@ -4,7 +4,7 @@
     "copy-from": "muzzle_brake_abstract",
     "type": "GUNMOD",
 
-    "//source": [
+    "//sources": [
       "https://www.wingtactical.com/firearm-parts/ar-15-parts/muzzle-devices/precision-armament-hypertap-muzzle-brake-5-56-223/"
     ],
 
@@ -30,7 +30,7 @@
     "copy-from": "muzzle_brake_abstract",
     "type": "GUNMOD",
 
-    "//source": ["https://stores.sjcguns.com/223-5-56-sjc-titan-cs-black/"],
+    "//sources": ["https://stores.sjcguns.com/223-5-56-sjc-titan-cs-black/"],
 
     "name": {
       "str": "S&J Customs Titan muzzle brake"
@@ -55,7 +55,7 @@
     "copy-from": "muzzle_brake_abstract",
     "type": "GUNMOD",
 
-    "//source": [
+    "//sources": [
       "https://www.vsevenweaponsystems.com/muzzle-devices/v7-muzzle-brake",
       "https://www.thetruthaboutguns.com/ar-15-muzzle-brake-shootout-3/"
     ],
@@ -86,7 +86,7 @@
     "copy-from": "muzzle_brake_abstract",
     "type": "GUNMOD",
 
-    "//source": [
+    "//sources": [
       "https://www.vsevenweaponsystems.com/muzzle-devices/furion/",
       "https://www.thetruthaboutguns.com/ar-15-muzzle-brake-shootout-3/"
     ],
@@ -118,7 +118,7 @@
     "copy-from": "muzzle_brake_abstract",
     "type": "GUNMOD",
 
-    "//source": [
+    "//sources": [
       "https://www.apextactical.com/apex-enhanced-stabilization-attachment",
       "https://www.thetruthaboutguns.com/ar-15-muzzle-brake-shootout-3/"
     ],
@@ -148,7 +148,7 @@
     "copy-from": "muzzle_brake_abstract",
     "type": "GUNMOD",
 
-    "//source": [
+    "//sources": [
       "https://deadairsilencers.com/product/keymount-muzzle-brake/",
       "https://www.thetruthaboutguns.com/ar-15-muzzle-brake-shootout-3/",
       "https://deadairsilencers.com/dead-air-armament-shipping-keymount-muzzle-brake-for-sandman-suppressors-2/"
@@ -178,7 +178,7 @@
     "copy-from": "muzzle_brake_abstract",
     "type": "GUNMOD",
 
-    "//source": [
+    "//sources": [
       "https://thunderbeastarms.com/products/dominus-sr",
       "https://thunderbeastarms.com/products/accessories",
       "https://escapefromtarkov.fandom.com/wiki/AR-15_Thunder_Beast_Arms_223CB_5.56x45_muzzle_brake",

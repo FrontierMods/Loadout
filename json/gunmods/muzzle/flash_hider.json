@@ -4,7 +4,7 @@
     "copy-from": "flash_hider",
     "type": "GUNMOD",
 
-    "//source": [
+    "//sources": [
       "https://silentlegion.com/products/quick-detach-flash-hiders",
       "https://silentlegion.com/sites/default/files/8827%20-%20SL%20Owner%20Manuals_5RQ_web.pdf"
     ],

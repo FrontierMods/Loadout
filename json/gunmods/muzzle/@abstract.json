@@ -52,8 +52,10 @@
     "//dispersion_modifier": "muzzle brakes do not affect accuracy",
     "dispersion_modifier": 0,
 
-    "//loudness_modifier": "muzzle brakes make the gun much, much louder",
-    "//loudness_modifier2": "the default value is derived from the negative loudness value of suppressors",
+    "//loudness_modifier": [
+      "muzzle brakes make the gun much, much louder",
+      "the default value is derived from the negative loudness value of suppressors"
+    ],
     "loudness_modifier": 40,
 
     "mod_targets": ["pistol", "smg", "rifle"]
@@ -101,8 +103,10 @@
 
     "loudness_modifier": -35,
 
-    "//add_mod": "this one specifically doesn't add a slot for suppressor cover",
-    "//add_mod2": "covers often require a suppressor with a minimum of 7 in. of length"
+    "//add_mod": [
+      "this one specifically doesn't add a slot for suppressor cover",
+      "covers often require a suppressor with a minimum of 7 in. of length"
+    ]
   },
 
   {
@@ -166,14 +170,18 @@
     },
     "description": "idea of a thread mount",
 
-    "//weight": "based on SilencerCo Hybrid 46 direct thread mount's weight",
-    "//weight_source": "https://escapefromtarkov.fandom.com/wiki/SilencerCo_Hybrid_46_Direct_Thread_Mount_adapter",
+    "//weight": [
+      "based on SilencerCo Hybrid 46 direct thread mount's weight",
+      "https://escapefromtarkov.fandom.com/wiki/SilencerCo_Hybrid_46_Direct_Thread_Mount_adapter"
+    ],
     "weight": "140 g",
     "//volume": "based on SilencerCo Hybrid 46",
     "volume": "16 ml",
-    "//longest_side": "based on length of thread from a 5/8 in. × 24-threaded barrel",
-    "//longest_side2": "some adapters and threaded barrel extensions in this thread config provide a 0.7 in. ≈ 18 mm thread",
-    "//longest_side_source": "https://www.pikearms.com/catalog/product/id-5146",
+    "//longest_side": [
+      "based on length of thread from a 5/8 in. × 24-threaded barrel",
+      "some adapters and threaded barrel extensions in this thread config provide a 0.7 in. ≈ 18 mm thread",
+      "https://www.pikearms.com/catalog/product/id-5146"
+    ],
     "longest_side": "16 mm"
   },
 
@@ -187,9 +195,11 @@
     },
     "description": "idea of a thread protector",
 
-    "//weight": "based on stated 'delivery weight' of EGW thread protector minus 5 g for the plastic bag",
-    "//weight_source": "https://www.brownells.co.uk/THREAD-PROTECTOR-5/8-24-Blued-EGW-Stainless-Steel-AR-15-296000105",
-    "//weight_source2": "https://www.optics-trade.eu/en/egw-thread-protector-5-8-x-24.html",
+    "//weight": [
+      "based on stated 'delivery weight' of EGW thread protector minus 5 g for the plastic bag",
+      "https://www.brownells.co.uk/THREAD-PROTECTOR-5/8-24-Blued-EGW-Stainless-Steel-AR-15-296000105",
+      "https://www.optics-trade.eu/en/egw-thread-protector-5-8-x-24.html"
+    ],
     "weight": "36 g",
     "//volume": "based on EGW thread protector",
     "volume": "9 ml",
