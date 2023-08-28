@@ -153,9 +153,9 @@
     "copy-from": "suppressor_abstract",
     "type": "GUNMOD",
 
-    "//note": "short 7 in. version without tube extension",
-
     "//source": ["https://www.silencercentral.com/products/banish-30/"],
+
+    "//notes": ["short 7 in. version without tube extension"],
 
     "name": {
       "str": "Silencer Central Banish 30 suppressor"
@@ -223,9 +223,11 @@
     "copy-from": "suppressor_abstract_no_cover",
     "type": "GUNMOD",
 
-    "//note": "this one assumes maximum-length configuration of 4.6 in., though the suppressor is configurable all the way down to 1.9 in.",
-
     "//source": ["https://jkarmament.com/products/jk-105-ccxtm-9mm/"],
+
+    "//notes": [
+      "this one assumes maximum-length configuration of 4.6 in., though the suppressor is configurable all the way down to 1.9 in."
+    ],
 
     "name": {
       "str": "JK 105 CCX 9mm suppressor"
