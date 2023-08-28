@@ -56,7 +56,7 @@
     "type": "GUNMOD",
 
     "//source": [
-      "https://www.vsevenweaponsystems.com/v7-muzzle-brake/",
+      "https://www.vsevenweaponsystems.com/muzzle-devices/v7-muzzle-brake",
       "https://www.thetruthaboutguns.com/ar-15-muzzle-brake-shootout-3/"
     ],
 
@@ -86,7 +86,7 @@
     "type": "GUNMOD",
 
     "//source": [
-      "https://www.vsevenweaponsystems.com/furion/",
+      "https://www.vsevenweaponsystems.com/muzzle-devices/furion/",
       "https://www.thetruthaboutguns.com/ar-15-muzzle-brake-shootout-3/"
     ],
 
@@ -146,8 +146,9 @@
     "type": "GUNMOD",
 
     "//source": [
-      "https://deadairsilencers.com/product/keymount-muzzle-brake-2/",
-      "https://www.thetruthaboutguns.com/ar-15-muzzle-brake-shootout-3/"
+      "https://deadairsilencers.com/product/keymount-muzzle-brake/",
+      "https://www.thetruthaboutguns.com/ar-15-muzzle-brake-shootout-3/",
+      "https://deadairsilencers.com/dead-air-armament-shipping-keymount-muzzle-brake-for-sandman-suppressors-2/"
     ],
 
     "name": {
