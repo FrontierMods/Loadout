@@ -4,7 +4,7 @@
     "copy-from": "grip",
     "type": "GUNMOD",
 
-    "//source": [
+    "//sources": [
       "https://danieldefense.com/daniel-defense-vertical-foregrip-daniel-defense-tornado.html"
     ],
 
@@ -14,13 +14,19 @@
     "//description": "TBD",
 
     "weight": "68 g",
-    "//trim": "30% trim due to shape",
-    "volume": "143 ml",
+    "//dimensions": {
+      "length": "4.5 in",
+      "width": "2 in",
+      "height": "1.38 in",
+      "raw": "203 ml",
+      "trim": 0.35
+    },
+    "volume": "132 ml",
     "longest_side": "114 mm",
 
     "material": ["plastic", "rubber"],
 
-    "//interface": ["Picatinny"],
+    "//interfaces": ["Picatinny"],
 
     "handling_modifier": 7,
 
@@ -41,7 +47,7 @@
     "copy-from": "bipod",
     "type": "GUNMOD",
 
-    "//source": [
+    "//sources": [
       "https://www.at3tactical.com/products/harris-engineering-rotating-bipod-picatinny-and-mlok"
     ],
 
@@ -51,9 +57,14 @@
     "//description": "TBD",
 
     "weight": "369 g",
-    "//dimensions": "8 × 1.75 × 1.5″",
-    "//volume": "highly eyeballed from image and the leg length of 6″",
-    "//trim": "40% trim due to shape",
+    "//dimensions": {
+      "length": "8 in",
+      "width": "1.75 in",
+      "height": "1.5 in",
+      "raw": "344 ml",
+      "trim": 0.4,
+      "notes": ["dimensions very much eyeballed"]
+    },
     "volume": "206 ml",
     "longest_side": "203 mm",
 
@@ -80,7 +91,7 @@
     "copy-from": "holo_sight",
     "type": "GUNMOD",
 
-    "//source": [
+    "//sources": [
       "https://www.eotechinc.com/eotech-hws-xps3",
       "https://www.bhphotovideo.com/c/product/1179431-REG/eotech_xps3_0_holographic_weapon_sight.html/specs"
     ],
@@ -90,8 +101,15 @@
     },
     "//description": "TBD",
 
-    "//trim": "40% trim due to shape",
+    "//dimensions": {
+      "length": "3.8 in",
+      "width": "2.1 in",
+      "height": "2.5 in",
+      "raw": "327 ml",
+      "trim": 0.4
+    },
     "volume": "196 ml",
+    "longest_side": "97 ml",
 
     "sight_dispersion": 4,
     "//field_of_view": "29.9m @ 100yd",
@@ -119,28 +137,41 @@
     "copy-from": "red_dot_sight",
     "type": "GUNMOD",
 
-    "//source": [
+    "//sources": [
       "https://www.ncstar.com/optics-acc/reflex-optics/heads-up/d4rgb-dot4retrd-grwvr-mtblk",
       "https://www.amazon.com/NcSTAR-Sight-TACTICAL-DIFFERENT-RETICLES/dp/B001COQOZI",
       "https://www.opticsplanet.com/nc-star-d4rgb-tactical-double-illumination-red-dot-sight.html",
       "https://www.amazon.com/Pinty-Holographic-Tactical-Riflescope-Patterns/dp/B01BF5LYGW"
     ],
 
-    "//note": "comes with a Picatinny mount",
+    "//notes": ["comes with a Picatinny mount"],
 
     "name": {
       "str": "NcSTAR red dot sight"
     },
     "//description": "TBD",
 
-    "//trim": "45% trim due to shape",
-    "volume": "319 ml",
+    "//dimensions": {
+      "length": "3.25 in",
+      "width": "1.33 in",
+      "height": "2.18 in",
+      "raw": "154 ml",
+      "trim": 0.5,
+      "notes": [
+        "length is known from sources",
+        "other dimensions acquired from visual reference"
+      ]
+    },
+    "volume": "77 ml",
+    "longest_side": "83 ml",
 
     "material": ["aluminum"],
 
     "sight_dispersion": 12,
-    "//field_of_view": "52 feet @ 100 yards",
-    "//field_of_view2": "assumed from a Pinty sight that looks remarkably like the NcSTAR one, none available for the original",
+    "//field_of_view": [
+      "52 feet @ 100 yards",
+      "assumed from a Pinty sight that looks remarkably like the NcSTAR one, none available for the original"
+    ],
     "field_of_view": 594,
 
     "mod_targets": [
@@ -165,22 +196,59 @@
     "copy-from": "rifle_scope",
     "type": "GUNMOD",
 
-    "//source": [
+    "//sources": [
       "https://www.leupold.com/mark-6-3-18x44-m5b2-ffp-mil-dot-riflescope"
     ],
 
     "name": {
-      "str": "Leupold Mark 6 3-18x44 rifle scope"
+      "str": "Leupold Mark 6 3-18×44 rifle scope"
     },
     "//description": "TBD",
 
-    "//volume": "three parts calculated separately, then combined",
-    "volume": "352 ml",
+    "//volume": "three parts calculated separately, then their volumes combined",
+    "//dimensions": [
+      {
+        "description": "objective",
+
+        "length": "2.7 in",
+        "diameter": "2.1 in",
+        "raw": "153 ml",
+        "trim": 0.2,
+        "volume": "122 ml"
+      },
+      {
+        "description": "mounting space",
+
+        "length": "5.9 in",
+        "diameter": "34 mm",
+        "raw": "136 ml",
+        "trim": -0.25,
+        "volume": "170 ml",
+        "notes": [
+          "the adjustment knobs' volume is reflected in the negative trim value",
+          "angle images of the actual scope reflect the volume the knobs take up"
+        ]
+      },
+      {
+        "description": "eyepiece",
+
+        "length": "3.2 in",
+        "diameter": "1.7 in",
+        "raw": "119 ml",
+        "trim": 0.025,
+        "volume": "122 ml",
+        "notes": [
+          "the zoom dial looks much smaller on angle images than it does on the blueprint in source"
+        ]
+      }
+    ],
+    "volume": "414 ml",
+    "longest_side": "300 mm",
 
     "material": ["aluminum"],
 
     "sight_dispersion": 1,
-    "//field_of_view": "36.8 ft @ 100 yards @ 3x magnification",
+    "//field_of_view": "36.8 ft @ 100 yards @ 3× magnification",
     "field_of_view": 421,
 
     "location": "34 mm scope mount",
@@ -198,20 +266,29 @@
     "copy-from": "acog_scope",
     "type": "GUNMOD",
 
-    "//source": [
+    "//sources": [
       "https://www.trijicon.com/products/details/ta01-c-100317",
       "https://www.trijicon.com/products/details/ta01law"
     ],
 
-    "//note": "the second source is a model of ACOG that comes without a mount by default, for dimensions reference",
+    "//notes": [
+      "the second source is a model of ACOG that comes without a mount by default, for dimensions reference"
+    ],
 
     "name": {
       "str": "Trijicon ACOG 4×32 scope"
     },
     "//description": "TBD",
 
-    "//trim": "40% trim due to shape",
+    "//dimensions": {
+      "length": "5.8 in",
+      "width": "2 in",
+      "height": "2.3 in",
+      "raw": "437 ml",
+      "trim": 0.4
+    },
     "volume": "262 ml",
+    "longest_side": "147 mm",
 
     "sight_dispersion": 1,
     "//field_of_view": "36.8 feet @ 100 yards",
@@ -235,17 +312,22 @@
     "copy-from": "holo_magnifier",
     "type": "GUNMOD",
 
-    "//source": ["https://www.eotechinc.com/eotech-magnifier-g43"],
+    "//sources": ["https://www.eotechinc.com/eotech-magnifier-g43"],
 
     "name": {
       "str": "EOTech G43 magnifier"
     },
     "//description": "TBD",
 
-    "//dimensions": "78.7 × 58.4 × 83.8 mm",
-    "//volume": "385 mm",
-    "//trim": "25% trim due to shape",
+    "//dimensions": {
+      "length": "3.1 in",
+      "width": "2.3 in",
+      "height": "3.3 in",
+      "raw": "385 ml",
+      "trim": 0.25
+    },
     "volume": "289 ml",
+    "longest_side": "84 ml",
 
     "material": ["aluminum", "glass"],
 
@@ -261,7 +343,7 @@
     "copy-from": "suppressor",
     "type": "GUNMOD",
 
-    "//source": ["https://silencerco.com/silencers/hybrid-46/"],
+    "//sources": ["https://silencerco.com/silencers/hybrid-46/"],
 
     "name": {
       "str": "SilencerCo Hybrid 46 suppressor"
@@ -273,6 +355,7 @@
     "//dimensions": {
       "length": "7.6 in",
       "diameter": "1.57 in",
+      "raw": "241 ml",
       "trim": 0
     },
     "volume": "241 ml",
@@ -320,11 +403,13 @@
     "copy-from": "suppressor_compact",
     "type": "GUNMOD",
 
-    "//note": "technically mounts on a QD device, but given that the source has no separate information about, we'll pretend it's a direct-thread mount",
-
-    "//source": [
+    "//sources": [
       "https://wittmachine.net/product/mod-1-quick-disconnect-ultra-compact-suppressor/",
       "https://www.watchwpsn.com/videos/witt-machine-mod1-compact-silencer-test-review"
+    ],
+
+    "//notes": [
+      "technically mounts on a QD device, but given that the source has no separate information about, we'll pretend it's a direct-thread mount"
     ],
 
     "name": {
@@ -334,9 +419,12 @@
 
     "//weight": "the review says the weight is 15 oz ≈ 425 g",
     "weight": "425 g",
-    "//dimensions": "5.25 × 1.625 in",
-    "//volume": "178 ml",
-    "//trim": "2.5% trim for tapering at the muzzle",
+    "//dimensions": {
+      "length": "5.25 in",
+      "diameter": "1.625 in",
+      "raw": "178 ml",
+      "trim": 0.025
+    },
     "volume": "174 ml",
     "longest_side": "133 mm",
 
@@ -361,13 +449,15 @@
     "copy-from": "shot_suppressor",
     "type": "GUNMOD",
 
-    "//note": "technically mounts on a choke adapter, but given that the source has no separate information about, we'll pretend it's a direct-thread mount much like a rifle",
-    "//note2": "assumes the longest variant at 12.5 in.",
-    "//note3": "theoretically modular, in that it allows adjusting the length of the suppressor, but not in the field",
-
-    "//source": [
+    "//sources": [
       "https://silencerco.com/silencers/salvo-12/",
       "https://www.thefirearmblog.com/blog/2016/04/26/review-silencerco-salvo-12-shotgun-suppressor/"
+    ],
+
+    "//notes": [
+      "technically mounts on a choke adapter, but given that the source has no separate information about, we'll pretend it's a direct-thread mount much like a rifle",
+      "assumes the longest variant at 12.5 in.",
+      "theoretically modular, in that it allows adjusting the length of the suppressor, but not in the field"
     ],
 
     "name": {
@@ -376,9 +466,13 @@
     "//description": "TBD",
 
     "weight": "975 g",
-    "//dimensions": "12.5 × 2.21 × 2.96 in",
-    "//volume": "1340 ml",
-    "//trim": "10% trim for shape",
+    "//dimensions": {
+      "length": "12.5 in",
+      "width": "2.21 in",
+      "height": "2.96 in",
+      "raw": "1340 ml",
+      "trim": 0.1
+    },
     "volume": "1206 ml",
     "longest_side": "318 mm",
 
@@ -408,22 +502,27 @@
 
     "//note": "assumes the 5.56mm model",
 
-    "//source": [
+    "//sources": [
       "https://www.surefire.com/procomp/",
       "https://www.thetruthaboutguns.com/556-muzzle-device-shootout/",
       "https://www.calguns.net/calgunforum/showthread.php?t=1276996"
     ],
 
     "name": {
-      "str": "Surefire Procomp muzzle brake"
+      "str": "SureFire Procomp muzzle brake"
     },
     "description": "TBD",
 
     "weight": "96 g",
-    "//dimensions": "2.5 × 0.866 in.",
-    "//dimensions2": "same outer diameter as A2 birdcage, which accepts NATO 22 mm rifle grenades",
-    "//volume": "24 ml",
-    "//trim": "5% trim for space",
+    "//dimensions": {
+      "length": "2.5 in",
+      "diameter": "0.866 in",
+      "raw": "24 ml",
+      "trim": 0.05,
+      "notes": [
+        "same outer diameter as A2 birdcage, which accepts NATO 22 mm rifle grenades"
+      ]
+    },
     "volume": "23 ml",
     "longest_side": "63 mm",
 
@@ -443,7 +542,7 @@
     "copy-from": "offset_sights",
     "type": "GUNMOD",
 
-    "//source": [
+    "//sources": [
       "https://magpul.com/mbus-pro-offset-sight-rear.html",
       "https://magpul.com/mbus-pro-offset-sight-front.html"
     ],
@@ -473,7 +572,7 @@
     "copy-from": "rail_laser_sight",
     "type": "GUNMOD",
 
-    "//source": [
+    "//sources": [
       "https://www.leapers.com/utg-combat-tactical-we-adjustable-red-laser-with-rings-scp-ls268.html"
     ],
 
@@ -484,7 +583,12 @@
 
     "//weight": "with 4 × LR44s",
     "weight": "28 g",
-    "//dimensions": "2.64 × 0.55 in.",
+    "//dimensions": {
+      "length": "2.64 in",
+      "diameter": "0.55 in",
+      "raw": "10 ml",
+      "trim": 0
+    },
     "volume": "10 ml",
     "longest_side": "67 mm",
 
@@ -513,7 +617,7 @@
     "copy-from": "improve_sights",
     "type": "GUNMOD",
 
-    "//source": [
+    "//sources": [
       "https://danieldefense.com/ar-15-iron-sight-set.html",
       "https://www.wingtactical.com/accessories/optics-sights/sights/daniel-defense-ar-15-fixed-iron-sights/"
     ],
@@ -524,10 +628,17 @@
     "//description": "TBD",
 
     "weight": "79 g",
-    "//dimensions": "61 × 44 × 24 mm for a pair",
-    "//dimensions2": "height (44 mm) assumed from height of the taller (rear) sight (39 mm) + 5 mm of the base gripping around the rail",
-    "//volume": "64 ml",
-    "//trim": "30% trim for shape",
+    "//dimensions": {
+      "length": "61 mm",
+      "width": "44 mm",
+      "height": "24 mm",
+      "raw": "64 ml",
+      "trim": 0.3,
+      "notes": [
+        "dimensions given for a pair of corresponding sights stacked together",
+        "height (44 mm) assumed from height of the taller (rear) sight (39 mm) + 5 mm of the base gripping around the rail"
+      ]
+    },
     "volume": "45 ml",
     "longest_side": "61 mm",
 
@@ -544,7 +655,7 @@
     "copy-from": "offset_sight_rail",
     "type": "GUNMOD",
 
-    "//source": [
+    "//sources": [
       "https://www.wingtactical.com/accessories/optics-sights/optic-sight-mounts/strike-industries-ambush-45-degree-offset-optic-mount/"
     ],
 
@@ -554,11 +665,15 @@
     "//description": "TBD",
 
     "weight": "51 g",
-    "//dimensions": "2.05 × 1.05 × 2.47 in.",
-    "//volume": "87 ml",
-    "//trim": "70% trim for shape",
+    "//dimensions": {
+      "length": "2.05 in",
+      "width": "1.05 in",
+      "height": "2.47 in",
+      "raw": "87 ml",
+      "trim": 0.7
+    },
     "volume": "26 ml",
-    "longest_side": "52 mm",
+    "longest_side": "63 mm",
 
     "material": ["steel", "aluminum"],
 
@@ -570,7 +685,7 @@
     "copy-from": "pistol_scope",
     "type": "GUNMOD",
 
-    "//source": [
+    "//sources": [
       "https://www.burrisoptics.com/riflescopes/handgun-scope-2x20mm"
     ],
 
@@ -580,8 +695,13 @@
     "//description": "TBD",
 
     "weight": "199 g",
-    "//dimensions": "8.9 in. × 35 mm",
-    "//trim": "assumes the excess space covers adjustment knobs etc.",
+    "//dimensions": {
+      "length": "8.9 in",
+      "diameter": "35 mm",
+      "raw": "218 ml",
+      "trim": 0,
+      "notes": ["assumes the excess space covers adjustment knobs etc."]
+    },
     "volume": "218 ml",
     "longest_side": "226 mm",
 
@@ -599,27 +719,38 @@
     "copy-from": "belt_clip",
     "type": "GUNMOD",
 
-    "//source": ["https://www.clipdraw.com/product/sa-b-black-s-silver/"],
+    "//sources": ["https://www.clipdraw.com/product/sa-b-black-s-silver/"],
 
     "name": {
       "str": "Clipdraw universal belt clip"
     },
     "//description": "TBD",
 
-    "//weight": "Amazon lists weight in 'product dimensions' for a similar product as 0.96 oz ≈ 27 g, which seems appropriate",
-    "//weight_source": "https://www.amazon.com/Techna-Clip-LCP-380-Conceal-Right-Side/dp/B014E26Z62",
-    "//weight2": "this may include the Allen wrench that comes with the clip",
-    "//weight3": "according to source, an Allen wrench weighs around 5 g",
-    "//weight3_source": "https://www.amazon.com/Allen-Wrench-Tool-Stainless-Steel/dp/B0167HI1FA",
-    "//weight4": "assumes the weight of the second (spare) screw is irrelevant for the total grammage",
+    "//weight": [
+      "Amazon lists weight in 'product dimensions' for a similar product as 0.96 oz ≈ 27 g, which seems appropriate",
+      "https://www.amazon.com/Techna-Clip-LCP-380-Conceal-Right-Side/dp/B014E26Z62",
+      "this may include the Allen wrench that comes with the clip",
+      "according to source, an Allen wrench weighs around 5 g",
+      "https://www.amazon.com/Allen-Wrench-Tool-Stainless-Steel/dp/B0167HI1FA",
+      "assumes the weight of the second (spare) screw is irrelevant for the total grammage"
+    ],
     "weight": "22 g",
-    "//dimensions": "3 × 0.25 × 0.25 in.",
-    "//dimensions2": "height assumed from visuals",
-    "//volume": "3 ml",
-    "//trim": "80% trim for shape, to the minimum of 1 ml",
+    "//dimensions": {
+      "length": "3 in",
+      "width": "0.25 in",
+      "height": "0.25 in",
+      "raw": "3 ml",
+      "trim": 0.8,
+      "notes": [
+        "height assumed from visuals",
+        "trim is applied up to a minimum volume of 1 ml"
+      ]
+    },
     "volume": "1 ml",
-    "//integral_volume": "while the clip itself is very thin, it arches against the body of the pistol, adding unfillable volume",
-    "//integral_volume2": "uses untrimmed volume, since that's just about how much volume gets added",
+    "//integral_volume": [
+      "while the clip itself is very thin, it arches against the body of the pistol, adding unfillable volume",
+      "uses untrimmed volume, since that's just about how much volume gets added"
+    ],
     "integral_volume": "3 ml",
     "longest_side": "76 mm",
 
@@ -635,20 +766,26 @@
     "copy-from": "brass_catcher",
     "type": "GUNMOD",
 
-    "//note": "the nylon catcher part is not *technically* rigid, but it's shaped enough by the metal skeleton to effectively retain its shape throughout the filling process",
-
-    "//source": [
+    "//sources": [
       "https://www.amazon.com/Caldwell-Brass-Catcher-Picatinny-Resistant/dp/B00EB5OU0Q",
       "https://www.caldwellshooting.com/range-gear/brass-catchers/ar-pic-rail-brass-catcher/530143.html"
+    ],
+
+    "//notes": [
+      "the nylon catcher part is not technically rigid, but it's shaped enough by the metal skeleton to effectively retain its shape throughout the filling process"
     ],
 
     "name": { "str": "Caldwell AR-15 brass catcher" },
     "//description": "TBD",
 
     "weight": "136 g",
-    "//dimensions": "4.5 × 5.5 × 3.5 in.",
-    "//volume": "1420 ml",
-    "//trim": "20% trim for shape",
+    "//dimensions": {
+      "length": "4.5 in",
+      "width": "5.5 in",
+      "height": "3.5 in",
+      "raw": "1420 ml",
+      "trim": 0.2
+    },
     "volume": "1136 ml",
     "longest_side": "140 mm",
 
@@ -676,7 +813,7 @@
     "copy-from": "laser_sight",
     "type": "GUNMOD",
 
-    "//source": [
+    "//sources": [
       "https://sightmark.eu/collections/laser-sights/products/readyfire-lw-r5-red-laser-sight",
       "https://www.opticsplanet.com/sightmark-readyfire-laser-sight.html"
     ],
@@ -687,9 +824,13 @@
     "//description": "TBD",
 
     "weight": "65 g",
-    "//dimensions": "2.4 × 1.1 × 1.1 in.",
-    "//volume": "48 ml",
-    "//trim": "10% trim for shape",
+    "//dimensions": {
+      "length": "2.4 in",
+      "width": "1.1 in",
+      "height": "1.1 in",
+      "raw": "48 ml",
+      "trim": 0.1
+    },
     "volume": "43 ml",
     "longest_side": "61 mm",
 
@@ -721,7 +862,7 @@
     "copy-from": "shoulder_strap",
     "type": "GUNMOD",
 
-    "//source": [
+    "//sources": [
       "https://www.amazon.com/Tactical-Hero-Point-Rifle-Sling/dp/B01C6F7NJ2",
       "https://www.colsontaskforce.org/best-ar-15-slings/"
     ],
@@ -729,16 +870,26 @@
     "name": { "str": "Tactical Hero 2-point rifle sling" },
     "//description": "TBD",
 
-    "//weight": "does not appear to be available online, so calculations were made from a different sling",
-    "//weight2": "220 g / 74 in. (70 in. adjustable length + 2 in. on each side) ≈ 3 g / in.",
-    "//weight3": "this one is 60 in. long (56 in. adjustable length + 2 in. on each side), therefore ~180 g",
-    "//weight_source": "https://tactx.no/en-eu/products/qd-2-point-sling",
+    "//weight": [
+      "does not appear to be available online, so calculations were made from a different sling",
+      "220 g / 74 in. (70 in. adjustable length + 2 in. on each side) ≈ 3 g / in.",
+      "this one is 60 in. long (56 in. adjustable length + 2 in. on each side), therefore ~180 g",
+      "https://tactx.no/en-eu/products/qd-2-point-sling"
+    ],
     "weight": "180 g",
-    "//dimensions": "60 × 1.2 × 0.05 in.",
-    "//volume": "59 ml",
-    "//trim": "-10% trim to compensate for buckles etc.",
+    "//dimensions": {
+      "length": "60 in",
+      "width": "1.2 in",
+      "height": "0.05 in",
+      "raw": "59 ml",
+      "trim": -0.1,
+      "notes": ["negative trim compensates for buckles etc."]
+    },
     "volume": "65 ml",
-    "//longest_side": "assumes it's folded three times when carried, from 60 in. ≈ 1524 mm / 8 = 190.5 mm ≈ 191 mm",
+    "//longest_side": [
+      "assumes it's folded three times when carried",
+      "60 in. ≈ 1524 mm / 8 = 190.5 mm ≈ 191 mm"
+    ],
     "longest_side": "191 mm",
 
     "material": ["nylon"],
@@ -811,7 +962,7 @@
     "copy-from": "pistol_bayonet",
     "type": "GUNMOD",
 
-    "//source": ["https://www.midwayusa.com/product/1978319879"],
+    "//sources": ["https://www.midwayusa.com/product/1978319879"],
 
     "name": {
       "str": "LaserLyte pistol bayonet"
@@ -819,9 +970,14 @@
     "//description": "TBD",
 
     "weight": "74 g",
-    "//dimensions": "5.75 × 1.71 (from visual reference) × 0.63 (assumed) in.",
-    "//volume": "98 ml",
-    "//trim": "40% trim for shape",
+    "//dimensions": {
+      "length": "5.75 in",
+      "width": "1.71 in",
+      "height": "0.63 in",
+      "raw": "98 ml",
+      "trim": 0.4,
+      "notes": ["width taken from visual reference", "height assumed"]
+    },
     "volume": "59 ml",
     "longest_side": "146 mm",
     "//integral_longest_side": "blade length, assuming the 'handle' is entirely under the barrel",
@@ -841,13 +997,15 @@
     "copy-from": "pistol_stock",
     "type": "GUNMOD",
 
-    "//note": "technically the Cobra also comes with 2 adapters (Glock 17- or 19-sized) × 2 variants each, but it comes standard with a latest-gen-fitting adapter pre-installed",
-    "//note2": "installs folded",
-
-    "//source": [
+    "//sources": [
       "https://www.fab-defense.co.il/en/category-buttstocks/id-2459/quick-deployment-folding-glock-stock.html",
       "https://www.youtube.com/watch?v=9WivZAVyZFI",
       "https://israeldefensestore.com/cobra-quick-deployment-folding-glock-stock.html"
+    ],
+
+    "//notes": [
+      "technically the Cobra also comes with 2 adapters (Glock 17- or 19-sized) × 2 variants each, but it comes standard with a latest-gen-fitting adapter pre-installed",
+      "installs folded"
     ],
 
     "name": {
@@ -857,9 +1015,13 @@
     "//description": "TBD",
 
     "weight": "328 g",
-    "//dimensions": "240 × 42 × 140 mm",
-    "//volume": "1411 ml",
-    "//trim": "90% trim for shape",
+    "//dimensions": {
+      "length": "240 mm",
+      "width": "42 mm",
+      "height": "140 mm",
+      "raw": "1411 ml",
+      "trim": 0.9
+    },
     "volume": "141 ml",
     "longest_side": "240 mm",
     "//integral_longest_side": "no matter the model, the stock pokes out of both front and back when folded",
@@ -907,9 +1069,13 @@
     },
     "//description": "TBD",
 
-    "//dimensions": "332 × 42 × 153 mm",
-    "//volume": "2133 ml",
-    "//trim": "90% trim for shape",
+    "//dimensions": {
+      "length": "332 mm",
+      "width": "42 mm",
+      "height": "153 mm",
+      "raw": "2133 ml",
+      "trim": 0.9
+    },
     "volume": "213 ml",
     "longest_side": "332 mm",
     "//integral_longest_side": "shaved off a few millimeters for the fact that a tiny part of the length is always under the grip, thus not affecting the overall length of the pistol",
@@ -935,24 +1101,37 @@
     "copy-from": "arredondo_chute",
     "type": "GUNMOD",
 
-    "//note": "source also recommends installing a replacement lifter, but that appears to be not directly relevant to the operation of the speedloader chute itself",
-    "//note2": "this comes available for a variety of models, each sufficiently-different to warrant a separate item per variant",
-
-    "//source": [
+    "//sources": [
       "https://www.arredondoaccessories.com/product/speed-loader-assist/",
       "https://forums.brianenos.com/topic/171331-mossberg-930-arredondo-speedloader-assist/",
       "https://www.midwayusa.com/product/1005253477"
     ],
 
+    "//notes": [
+      "source also recommends installing a replacement lifter, but that appears to be not directly relevant to the operation of the speedloader chute itself",
+      "this comes available for a variety of models, each sufficiently-different to warrant a separate item per variant"
+    ],
+
     "name": { "str": "Arredondo speedloader chute for Mossberg 930" },
     "//description": "TBD",
 
-    "//weight": "source description says 4.7 oz ≈ 133 g, source additional information says 4.2 oz ≈ 119 g",
-    "//weight2": "using the larger number to be on the safe side",
+    "//weight": [
+      "source description says 4.7 oz ≈ 133 g, source additional information says 4.2 oz ≈ 119 g",
+      "using the larger number to be on the safe side"
+    ],
     "weight": "133 g",
-    "//dimensions": "3.33 (visual reference) × 1.72 (barrel outer diameter = 0.86 × 2 → width) × 2.6 (visual reference) in.",
-    "//volume": "244 ml",
-    "//trim": "80% trim for shape",
+    "//dimensions": {
+      "length": "3.33 in",
+      "width": "1.72 in",
+      "height": "2.6 in",
+      "raw": "244 ml",
+      "trim": 0.8,
+      "notes": [
+        "length is taken from visual reference relative to the length of the gun",
+        "width is calculated as outer diameter of the barrel (0.86 in.) × 2",
+        "height is taken from visual reference relative to the length of the gun"
+      ]
+    },
     "volume": "49 ml",
     "//integral_volume": "80% of volume due to a lot of the 'volume' being 'hidden' inside the shotgun after attaching the speedloader",
     "integral_volume": "39 ml",
@@ -971,16 +1150,18 @@
     "copy-from": "masterkey",
     "type": "GUNMOD",
 
-    "//note": "the actual KAC Masterkey appears nowhere to be found (the only sell points available online are sketchy and/or lacking in info), so we're replacing it with a temporary shotgun solution based on Remington Tac-14 sans the grip, plus the UBS-12 adapter",
-    "//note2": "this arrangement supports any Remington 870 clones",
-    "//note3": "shot spread: 7 in. @ 100 yds w/ 00 Federal ammo",
-    "//note3_source": "https://www.pewpewtactical.com/remington-tac-14-review/",
-
-    "//source": [
+    "//sources": [
       "https://www.lockharttactical.com/ubs12",
       "https://www.lockharttactical.com/release",
       "https://www.remarms.com/other-products/model-870-tac-14",
       "https://shockwavetechnologies.com/product/raptor-grip-for-remington-870/",
+      "https://www.pewpewtactical.com/remington-tac-14-review/"
+    ],
+
+    "//notes": [
+      "the actual KAC Masterkey appears nowhere to be found (the only sell points available online are sketchy and/or lacking in info), so we're replacing it with a temporary shotgun solution based on Remington Tac-14 sans the grip, plus the UBS-12 adapter",
+      "this arrangement supports any Remington 870 clones",
+      "shot spread: 7 in. @ 100 yds w/ 00 Federal ammo",
       "https://www.pewpewtactical.com/remington-tac-14-review/"
     ],
 
@@ -991,16 +1172,34 @@
 
     "//weight": "Tac-14 (5.6 lbs = 2540 g) - Raptor grip (10 oz ≈ 284 g) + UBS-12 mount (0.2 lbs ≈ 91 g) = 2347 g",
     "weight": "2347 g",
-    "//dimensions_note": "Tac-14 is measured without the Raptor grip, since that's how it is attached to the mount",
-    "//dimensions_shotgun": "21.3 (from visual reference) × 1.5 × 3.52 (from visual reference) in.",
-    "//volume_shotgun": "1843 ml",
-    "//trim_shotgun": "20% trim for shape",
-    "//volume_shotgun_result": "1474 ml",
-    "//dimensions_mount": "7 × 1.25 × 2.75 in.",
-    "//volume_mount": "394 ml",
-    "//trim_mount": "80% trim for shape",
-    "//volume_mount_result": "79 ml",
-    "volume": "1922 ml",
+    "//dimensions": [
+      {
+        "description": "shotgun",
+
+        "length": "21.3 in",
+        "width": "1.5 in",
+        "height": "3.52 in",
+        "raw": "1843 ml",
+        "trim": 0.2,
+        "volume": "1474 ml",
+        "notes": [
+          "Tac-14 is measured without the Raptor grip, since that's how it's attached to the mount",
+          "length is taken from visual reference",
+          "height is taken from visual reference relative to the length of the gun"
+        ]
+      },
+      {
+        "description": "mount",
+
+        "length": "7 in",
+        "width": "1.25 in",
+        "height": "2.75 in",
+        "raw": "394 ml",
+        "trim": 0.8,
+        "volume": "79 ml"
+      }
+    ],
+    "volume": "1553 ml",
     "//longest_side": "overall length of Tac-14 + attached mount is ~22.3 in. ≈ 556 mm",
     "longest_side": "566 mm",
     "//integral_longest_side": "we're going to assume that it doesn't poke out from underneath the barrel",
@@ -1015,8 +1214,10 @@
     "//install_time": "merely a guess, since no reviews or tutorials seem to be available; real value welcome",
     "install_time": "10 m",
 
-    "//price": "Tac-14 (420 USD) - Raptor grip (25 USD) + UBS-12 mount (395 CAD ≈ 295 USD) = 690 USD",
-    "//price_note": "applied a 15% discount for (in this fictional situation) coming as a complete package, and rounded up to the nearest 25 USD mark",
+    "//price": [
+      "Tac-14 (420 USD) - Raptor grip (25 USD) + UBS-12 mount (395 CAD ≈ 295 USD) = 690 USD",
+      "applied a 15% discount for (in this fictional situation) coming as a complete package, and rounded up to the nearest 25 USD mark"
+    ],
     "price": "600 USD"
   },
 
@@ -1025,25 +1226,35 @@
     "copy-from": "cheek_pad",
     "type": "GUNMOD",
 
-    "//note": "this particular model is specifically one without cartridge loops on the side",
-
-    "//source": [
+    "//sources": [
       "https://www.beartooth-products.com/collections/comb-raising-kit-gun-cover-cheek-pad-weld-piece-riser/products/comb-raising-kit-no-loop-black",
       "https://www.amazon.com/Beartooth-Raising-Improve-Accuracy-Neoprene/dp/B01FL9JKRI",
       "https://ukoutdoorstore.co.uk/shop/beartooth-comb-raising-kit-2-0-rifle-shotgun-neoprene-stock-guard-inserts/"
+    ],
+
+    "//notes": [
+      "this particular model is specifically one without cartridge loops on the side"
     ],
 
     "name": { "str": "Beartooth Comb Raising Kit 2.0 cheek pad" },
     "//description": "TBD",
 
     "//weight": "Amazon says 0.09 kg = 90 g, the UK source says 0.200 kg = 200 g",
-    "weight": "200 g",
-    "//dimensions": "7 × 0.15 (assumed) × 4.5 (visual reference) in.",
-    "//dimensions_note": "length of sleeve of 7 inches is stated in source, yet the sleeve covers an entire stock when put on",
-    "//dimensions_note2": "most stocks' length of pull is 13.5 in.",
-    "//dimensions_note3": "we are left to assume a high degree of stretchiness",
-    "//volume": "81 ml",
-    "//trim": "no trim",
+    "weight": "90 g",
+    "//dimensions": {
+      "length": "7 in",
+      "width": "0.15 in",
+      "height": "4.5 in",
+      "raw": "81 ml",
+      "trim": 0,
+      "notes": [
+        "length of sleeve of 7 inches is stated in source, yet the sleeve covers an entire stock when put on",
+        "most stocks' length of pull is 13.5 in.",
+        "we are left to assume a high degree of stretchiness",
+        "width is assumed",
+        "height is taken from visual reference relative to the length of the stock"
+      ]
+    },
     "volume": "81 ml",
     "longest_side": "178 mm",
     "integral_longest_side": "0 mm",
@@ -1060,19 +1271,26 @@
     "copy-from": "choke",
     "type": "GUNMOD",
 
-    "//note": "specifically the 'passing' variant, which is said to be comparable to improved modified or full choke",
-    "//note2": "this variant allows shooting slugs",
-
-    "//source": [
+    "//sources": [
       "https://mullerchokes.com/collections/remington-choke-tubes/products/12-gauge-remchoke-waterfowl?variant=946375717",
       "https://www.shotgunworld.com/threads/how-much-lighter-are-muller-chokes.307413/"
+    ],
+
+    "//notes": [
+      "specifically the 'passing' variant, which is said to be comparable to improved modified or full choke",
+      "this variant allows shooting slugs"
     ],
 
     "name": { "str": "Müller passing choke for Remington shotguns" },
     "//description": "TBD",
 
     "weight": "19 g",
-    "//dimensions": "4.3125 × 0.86 in",
+    "//dimensions": {
+      "length": "4.3125 in",
+      "diameter": "0.86 in",
+      "raw": "41 ml",
+      "trim": 0
+    },
     "volume": "41 ml",
     "longest_side": "110 mm",
     "//integral_longest_side": "part of the choke covers the thread",
