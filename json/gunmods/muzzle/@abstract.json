@@ -73,12 +73,12 @@
     "//longest_side": "a typical suppressor is 7 in. long",
     "longest_side": "178 mm",
 
-    "loudness_modifier": -40,
     "//damage_modifier": "average for a 7 in. suppressor",
     "damage_modifier": {
       "damage_type": "bullet",
       "amount": 2
     },
+    "loudness_modifier": -40,
     "//dispersion_modifier": "suppressors generally only have a minor effect on accuracy",
     "dispersion_modifier": 1,
 
@@ -129,12 +129,12 @@
     },
     "description": "idea of a shotgun suppressor",
 
-    "loudness_modifier": -40,
     "//damage_modifier": "average for a 7 in. suppressor",
     "damage_modifier": {
       "damage_type": "bullet",
       "amount": 2
     },
+    "loudness_modifier": -40,
     "//dispersion_modifier": "basic suppressor effect",
     "dispersion_modifier": 1,
 
