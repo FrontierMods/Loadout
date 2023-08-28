@@ -19,7 +19,6 @@
 
     "//calibers": ["556"],
 
-    "//recoil_reduction_note": "could be bogus",
     "//recoil_reduction": "84%",
     "handling_modifier": 42,
 
