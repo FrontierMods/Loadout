@@ -1,6 +1,6 @@
 [
   {
-    "id": "flash_hider_silentlegion_qd5",
+    "id": "flash_hider_silentlegion_qd7",
     "copy-from": "flash_hider",
     "type": "GUNMOD",
 
@@ -10,7 +10,7 @@
     ],
 
     "name": {
-      "str": "Silent Legion QD-5 flash hider"
+      "str": "Silent Legion QD-7 flash hider"
     },
     "description": "TBD",
 
