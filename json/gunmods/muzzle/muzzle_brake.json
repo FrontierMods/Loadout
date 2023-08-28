@@ -114,7 +114,7 @@
   },
 
   {
-    "id": "muzzle_brake_apex",
+    "id": "muzzle_brake_apex_esa",
     "copy-from": "muzzle_brake_abstract",
     "type": "GUNMOD",
 
@@ -144,7 +144,7 @@
   },
 
   {
-    "id": "muzzle_brake_deadair_keymount",
+    "id": "muzzle_brake_dead_air_keymount",
     "copy-from": "muzzle_brake_abstract",
     "type": "GUNMOD",
 
