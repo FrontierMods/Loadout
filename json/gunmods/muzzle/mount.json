@@ -19,6 +19,7 @@
     "//dimensions": {
       "length": "0.9375 in",
       "diameter": "1.375 in",
+      "raw": "23 ml",
       "trim": 0.3,
       "notes": [
         "length eyeballed to be 1.5 × minimum thread length for 1/2 in. × 28-threaded barrel",
@@ -29,7 +30,6 @@
         "we're using 0.625 in. as the length of thread"
       ]
     },
-    "//volume_sans_trim": "23 ml",
     "volume": "16 ml",
     "longest_side": "24 mm",
     "//integral_longest_side": "length of mount (0.9375 in. ≈ 24 mm) - length of thread (0.625 in. ≈ 16 mm) = 7.9375 mm ≈ 8 mm",
