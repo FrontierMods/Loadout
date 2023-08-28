@@ -17,9 +17,9 @@
     "//dimensions": {
       "length": "2.54 in",
       "diameter": "0.86 in",
+      "raw": "24 ml",
       "trim": 0.05
     },
-    "//volume_sans_trim": "24 ml",
     "volume": "23 ml",
     "longest_side": "65 mm",
 
@@ -48,9 +48,9 @@
       "length": "2.75 in",
       "width": "0.98 in",
       "height": "0.75 in",
+      "raw": "33 ml",
       "trim": 0.1
     },
-    "//volume_sans_trim": "33 ml",
     "volume": "30 ml",
     "longest_side": "70 mm",
 
@@ -83,9 +83,9 @@
       "length": "2.1 in",
       "diameter": "0.95 in",
       "trim": 0.1,
+      "raw": "24 ml",
       "notes": ["diameter assumed from V Seven FURION"]
     },
-    "//volume_sans_trim": "24 ml",
     "volume": "22 ml",
     "longest_side": "53 mm",
 
@@ -120,9 +120,9 @@
     "//dimensions": {
       "length": "2.3 in",
       "diameter": "0.95 in",
+      "raw": "27 ml",
       "trim": 0.15
     },
-    "//volume_sans_trim": "27 ml",
     "volume": "23 ml",
     "longest_side": "58 mm",
 
@@ -159,9 +159,9 @@
       "length": "2.6 in",
       "width": "0.75 in",
       "height": "0.75 in",
+      "raw": "24 ml",
       "trim": 0.05
     },
-    "//volume_sans_trim": "24 ml",
     "volume": "23 ml",
     "longest_side": "66 mm",
 
@@ -196,9 +196,9 @@
     "//dimensions": {
       "length": "2.6 in",
       "diameter": "1.08 in",
+      "raw": "39 ml",
       "trim": 0.15
     },
-    "//volume_sans_trim": "39 ml",
     "volume": "33 ml",
     "longest_side": "66 mm",
 
@@ -233,13 +233,13 @@
     "//dimensions": {
       "length": "2.86 in",
       "diameter": "1.17 in",
+      "raw": "50 ml",
       "trim": 0.1,
       "notes": [
         "length approximated from visual reference",
         "diameter is assumed to be diameter of Dominus SR suppressor - 35%"
       ]
     },
-    "//volume_sans_trim": "50 ml",
     "volume": "45 ml",
     "longest_side": "73 mm",
     "//integral_longest_side": "assumes mounting onto a standard length of thread for 1/2 in. × 28-threaded barrel (16 mm)",
@@ -276,13 +276,13 @@
     "//dimensions": {
       "length": "2.6 in",
       "diameter": "0.9 in",
+      "raw": "27 ml",
       "trim": 0,
       "notes": [
         "assumes that the dips and bumps even out",
         "diameter is assumed based on similar muzzle brakes"
       ]
     },
-    "//volume_sans_trim": "27 ml",
     "volume": "27 ml",
     "longest_side": "66 mm",
     "//integral_longest_side": "assumes mounting onto a standard length of thread for 1/2 in. × 28-threaded barrel (16 mm)",

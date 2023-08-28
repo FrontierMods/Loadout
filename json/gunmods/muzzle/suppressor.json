@@ -15,12 +15,12 @@
     "//dimensions": {
       "length": "6.40 in",
       "diameter": "1.50 in",
+      "raw": "185 ml",
       "trim": -0.025,
       "notes": [
         "the higher-diameter collar is reflected in the negative trim value"
       ]
     },
-    "//volume_sans_trim": "185 ml",
     "volume": "190 ml",
     "longest_side": "163 mm",
     "//integral_longest_side": "absorbs the length of the SureFire SOCOM muzzle brake it mounts onto (66 mm)",
@@ -56,12 +56,12 @@
     "//dimensions": {
       "length": "6.95 in",
       "diameter": "1.80 in",
+      "raw": "290 ml",
       "trim": -0.025,
       "notes": [
         "the higher-diameter collar is reflected in the negative trim value"
       ]
     },
-    "//volume_sans_trim": "290 ml",
     "volume": "297 ml",
     "longest_side": "177 mm",
     "//integral_longest_side": "Dominus-SR covers the muzzle brake it mounts on completely, absorbing its length (57 mm)",
@@ -111,10 +111,10 @@
     "//dimensions": {
       "length": "9.00 in",
       "diameter": "1.50 in",
+      "raw": "261 ml",
       "trim": 0.025,
       "notes": ["the lower-diameter collar is reflected in the trim value"]
     },
-    "//volume_sans_trim": "261 ml",
     "volume": "268 ml",
     "longest_side": "229 mm",
     "//integral_longest_side": "being direct-thread-mounted, absorbs the regular 16 mm of threading on a 1/2 in. × 28-threaded barrel",
@@ -164,9 +164,9 @@
     "//dimensions": {
       "length": "7.00 in",
       "diameter": "1.50 in",
+      "raw": "203 ml",
       "trim": 0
     },
-    "//volume_sans_trim": "203 ml",
     "volume": "203 ml",
     "longest_side": "178 mm",
     "//integral_longest_side": "absorbs the length of the Silent Legion QD-7 flash hider (35 mm)",
@@ -204,10 +204,10 @@
     "//dimensions": {
       "length": "7.00 in",
       "diameter": "1.50 in",
+      "raw": "203 ml",
       "trim": 0.025,
       "notes": ["the lower-diameter collar is reflected in the trim value"]
     },
-    "//volume_sans_trim": "203 ml",
     "volume": "208 ml",
     "longest_side": "178 mm",
     "//integral_longest_side": "being direct-thread-mounted, absorbs the regular 16 mm of threading on a 1/2 in. × 28-threaded barrel",
@@ -258,9 +258,9 @@
     "//dimensions": {
       "length": "7.875 in",
       "diameter": "1.625 in",
+      "raw": "268 ml",
       "trim": 0
     },
-    "//volume_sans_trim": "268 ml",
     "volume": "268 ml",
     "longest_side": "200 mm",
     "//integral_longest_side": "being direct-thread-mounted, absorbs the regular 16 mm of threading on a 1/2 in. × 28-threaded barrel",
@@ -299,9 +299,9 @@
     "//dimensions": {
       "length": "4.6 in",
       "diameter": "1.05 in",
+      "raw": "65 ml",
       "trim": 0.025
     },
-    "//volume_sans_trim": "65 ml",
     "volume": "63 ml",
     "longest_side": "117 mm",
     "//integral_longest_side": [

@@ -18,6 +18,7 @@
     "//dimensions": {
       "length": "2 in",
       "diameter": "0.875 in",
+      "raw": "20 ml",
       "trim": 0,
       "notes": [
         "length eyeballed",
@@ -26,7 +27,6 @@
         "trim assumes the dips and bumps even each other out"
       ]
     },
-    "//volume_sans_trim": "20 ml",
     "volume": "20 ml",
     "longest_side": "51 mm",
     "//integral_longest_side": "absorbs 16 mm of regular threading on a 1/2 in. × 24-threaded barrel",
