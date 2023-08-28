@@ -17,8 +17,8 @@
     "weight": "482 g",
     "volume": "180 ml",
     "longest_side": "162 mm",
-    "//integral_length": "from source: 'Actual length may vary, depending on which SureFire adapter is used'",
-    "integral_length": "97 mm",
+    "//integral_longest_side": "from source: 'Actual length may vary, depending on which SureFire adapter is used'",
+    "integral_longest_side": "97 mm",
 
     "//calibers": ["556"],
 
@@ -87,7 +87,7 @@
     "weight": "335 g",
     "volume": "375 ml",
     "longest_side": "229 mm",
-    "//integral_length": "?? mm",
+    "//integral_longest_side": "?? mm",
 
     "damage_modifier": {
       "damage_type": "bullet",
@@ -132,7 +132,7 @@
     "weight": "439 g",
     "volume": "292 ml",
     "longest_side": "178 mm",
-    "//integral_length": "?? mm",
+    "//integral_longest_side": "?? mm",
 
     "location": "Silent Legion muzzle mount",
 
@@ -165,7 +165,7 @@
     "weight": "284 g",
     "volume": "292 ml",
     "longest_side": "178 mm",
-    "//integral_length": "?? mm",
+    "//integral_longest_side": "?? mm",
 
     "material": ["titanium", "steel"],
 
@@ -202,7 +202,7 @@
     "weight": "366 g",
     "volume": "268 ml",
     "longest_side": "200 mm",
-    "//integral_length": "?? mm",
+    "//integral_longest_side": "?? mm",
 
     "//material": "actual material for the steel part is inconel",
     "material": ["titanium", "steel"],
@@ -237,10 +237,10 @@
     "//trim": "2.5% trim for tapering at the muzzle",
     "volume": "63 ml",
     "longest_side": "117 mm",
-    "//integral_length": "source says the suppressor covers the entire thread",
-    "//integral_length2": "specifically the M13.5×1LH thread, which sets length of thread to 0.400-0.438 in.",
-    "//integral_length3": "we assume the maximum of 0.438 in. ≈ 11 mm",
-    "integral_length": "106 mm",
+    "//integral_longest_side": "source says the suppressor covers the entire thread",
+    "//integral_longest_side2": "specifically the M13.5×1LH thread, which sets length of thread to 0.400-0.438 in.",
+    "//integral_longest_side3": "we assume the maximum of 0.438 in. ≈ 11 mm",
+    "integral_longest_side": "106 mm",
 
     "material": ["aluminum"],
 
