@@ -72,7 +72,7 @@
 
     "//interface": ["Picatinny"],
 
-    "handling_modifier": 18,
+    "//handling_modifier": 18,
 
     "mod_targets": [
       "pistol",
