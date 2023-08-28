@@ -149,7 +149,7 @@
   },
 
   {
-    "id": "suppressor_banish_30",
+    "id": "suppressor_silencer_central_banish_30",
     "copy-from": "suppressor_abstract",
     "type": "GUNMOD",
 
@@ -158,7 +158,7 @@
     "//source": ["https://www.silencercentral.com/products/banish-30/"],
 
     "name": {
-      "str": "Banish 30 suppressor"
+      "str": "Silencer Central Banish 30 suppressor"
     },
     "description": "TBD",
 
