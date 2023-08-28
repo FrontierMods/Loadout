@@ -15,9 +15,18 @@
     "description": "TBD",
 
     "weight": "482 g",
-    "volume": "180 ml",
-    "longest_side": "162 mm",
-    "//integral_longest_side": "from source: 'Actual length may vary, depending on which SureFire adapter is used'",
+    "//dimensions": {
+      "length": "6.40 in",
+      "diameter": "1.50 in",
+      "trim": -0.025,
+      "notes": [
+        "the higher-diameter collar is reflected in the negative trim value"
+      ]
+    },
+    "//volume_sans_trim": "185 ml",
+    "volume": "190 ml",
+    "longest_side": "163 mm",
+    "//integral_longest_side": "absorbs the length of the SureFire SOCOM muzzle brake it mounts onto (66 mm)",
     "integral_longest_side": "97 mm",
 
     "//calibers": ["556"],
@@ -25,6 +34,8 @@
     "//sound_lower": "134 dB @ 16 in. w/ 5.56mm M855",
 
     "loudness_modifier": -45,
+
+    "location": "SureFire muzzle mount",
 
     "price": "1199 USD"
   },
@@ -45,9 +56,19 @@
     "description": "TBD",
 
     "weight": "354 g",
-    "volume": "290 ml",
-    "longest_side": "178 mm",
-    "integral_length": "162 mm",
+    "//dimensions": {
+      "length": "6.95 in",
+      "diameter": "1.80 in",
+      "trim": -0.025,
+      "notes": [
+        "the higher-diameter collar is reflected in the negative trim value"
+      ]
+    },
+    "//volume_sans_trim": "290 ml",
+    "volume": "297 ml",
+    "longest_side": "177 mm",
+    "//integral_longest_side": "Dominus-SR covers the muzzle brake it mounts on completely, absorbing its length (57 mm)",
+    "integral_longest_side": "120 mm",
 
     "material": ["titanium", "steel"],
 
@@ -85,9 +106,17 @@
     "description": "TBD",
 
     "weight": "335 g",
-    "volume": "375 ml",
+    "//dimensions": {
+      "length": "9.00 in",
+      "diameter": "1.50 in",
+      "trim": 0.025,
+      "notes": ["the lower-diameter collar is reflected in the trim value"]
+    },
+    "//volume_sans_trim": "261 ml",
+    "volume": "268 ml",
     "longest_side": "229 mm",
-    "//integral_longest_side": "?? mm",
+    "//integral_longest_side": "being direct-thread-mounted, absorbs the regular 16 mm of threading on a 1/2 in. × 28-threaded barrel",
+    "integral_longest_side": "213 mm",
 
     "damage_modifier": {
       "damage_type": "bullet",
@@ -130,11 +159,16 @@
     "description": "TBD",
 
     "weight": "439 g",
-    "volume": "292 ml",
+    "//dimensions": {
+      "length": "7.00 in",
+      "diameter": "1.50 in",
+      "trim": 0
+    },
+    "//volume_sans_trim": "203 ml",
+    "volume": "203 ml",
     "longest_side": "178 mm",
-    "//integral_longest_side": "?? mm",
-
-    "location": "Silent Legion muzzle mount",
+    "//integral_longest_side": "absorbs the length of the Silent Legion QD-7 flash hider (35 mm)",
+    "integral_longest_side": "143 mm",
 
     "//material": "actual material for the steel part is inconel",
     "material": ["titanium", "steel"],
@@ -162,10 +196,18 @@
     },
     "description": "TBD",
 
-    "weight": "284 g",
-    "volume": "292 ml",
+    "weight": "318 g",
+    "//dimensions": {
+      "length": "7.00 in",
+      "diameter": "1.50 in",
+      "trim": 0.025,
+      "notes": ["the lower-diameter collar is reflected in the trim value"]
+    },
+    "//volume_sans_trim": "203 ml",
+    "volume": "208 ml",
     "longest_side": "178 mm",
-    "//integral_longest_side": "?? mm",
+    "//integral_longest_side": "being direct-thread-mounted, absorbs the regular 16 mm of threading on a 1/2 in. × 28-threaded barrel",
+    "integral_longest_side": "162 mm",
 
     "material": ["titanium", "steel"],
 
@@ -202,9 +244,16 @@
     "description": "TBD",
 
     "weight": "366 g",
+    "//dimensions": {
+      "length": "7.875 in",
+      "diameter": "1.625 in",
+      "trim": 0
+    },
+    "//volume_sans_trim": "268 ml",
     "volume": "268 ml",
     "longest_side": "200 mm",
-    "//integral_longest_side": "?? mm",
+    "//integral_longest_side": "being direct-thread-mounted, absorbs the regular 16 mm of threading on a 1/2 in. × 28-threaded barrel",
+    "integral_longest_side": "184 mm",
 
     "//material": "actual material for the steel part is inconel",
     "material": ["titanium", "steel"],
@@ -236,15 +285,19 @@
 
     "//weight": "2.5 oz ≈ 71 g in the 4.6 in. configuration",
     "weight": "71 g",
-    "//dimensions": "4.6 × 1.05 in.",
-    "//volume": "65 ml",
-    "//trim": "2.5% trim for tapering at the muzzle",
+    "//dimensions": {
+      "length": "4.6 in",
+      "diameter": "1.05 in",
+      "trim": 0.025
+    },
+    "//volume_sans_trim": "65 ml",
     "volume": "63 ml",
     "longest_side": "117 mm",
-    "//integral_longest_side": "source says the suppressor covers the entire thread",
-    "//integral_longest_side2": "specifically the M13.5×1LH thread, which sets length of thread to 0.400-0.438 in.",
-    "//integral_longest_side3": "we assume the maximum of 0.438 in. ≈ 11 mm",
-    "integral_longest_side": "106 mm",
+    "//integral_longest_side": [
+      "comes with an optional adapter for the M13.5×1LH thread, where thread length is between 0.400 and 0.438 in. ≈ 10 mm and 11 mm",
+      "defaults to a 1/2 in. × 28 mount, making thread length 16 mm"
+    ],
+    "integral_longest_side": "101 mm",
 
     "material": ["aluminum"],
 

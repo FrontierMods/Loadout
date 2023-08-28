@@ -15,10 +15,22 @@
     "description": "TBD",
 
     "weight": "116 g",
-    "//dimensions": "eyeballed to be 2″ × 0.6″ diameter",
-    "//trim": "trimmed slightly for empty spaces",
-    "volume": "9 ml",
+    "//dimensions": {
+      "length": "2 in",
+      "diameter": "0.875 in",
+      "trim": 0,
+      "notes": [
+        "length eyeballed",
+        "diameter assumed from a visually-similar flash hider",
+        "https://ultradyneusa.com/product/cloak/",
+        "trim assumes the dips and bumps even each other out"
+      ]
+    },
+    "//volume_sans_trim": "20 ml",
+    "volume": "20 ml",
     "longest_side": "51 mm",
+    "//integral_longest_side": "absorbs 16 mm of regular threading on a 1/2 in. × 24-threaded barrel",
+    "integral_longest_side": "35 mm",
 
     "//calibers": ["556"],
 
