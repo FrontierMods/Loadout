@@ -52,7 +52,7 @@
     "material": ["titanium", "steel"],
 
     "//calibers": [
-      "556",
+      "223",
       "300BLK",
       "65grendel",
       "65PRC",
@@ -97,7 +97,7 @@
     "material": ["titanium", "steel"],
 
     "//calibers": [
-      "556",
+      "223",
       "300BLK",
       "65grendel",
       "65PRC",
@@ -170,7 +170,7 @@
     "material": ["titanium", "steel"],
 
     "//calibers": [
-      "556",
+      "223",
       "300BLK",
       "308",
       "300weatherby",
@@ -207,7 +207,7 @@
     "//material": "actual material for the steel part is inconel",
     "material": ["titanium", "steel"],
 
-    "//calibers": ["556", "300BLK", "308", "30-06"],
+    "//calibers": ["223", "300BLK", "308", "30-06"],
 
     "//sound_reduction": "23 dB",
 
