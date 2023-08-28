@@ -242,6 +242,13 @@
 
     "//source": ["https://www.eliteiron.com/product/bravo-1-lite-suppressor/"],
 
+    "//notes": [
+      "comes with and mounts onto Elite Iron Bravo 1 muzzle brake",
+      "given that there's very little information about the brake, and since the suppressor comes with the brake, we pretend it's a direct-thread mount",
+      "for future reference: the muzzle brake's length (from visual reference) is 2.55 in.",
+      "https://www.snipershide.com/shooting/threads/elite-iron-bravo.212740/"
+    ],
+
     "name": {
       "str": "Elite Iron Bravo 1 Lite suppressor"
     },
