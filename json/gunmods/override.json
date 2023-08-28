@@ -1297,6 +1297,7 @@
     "integral_longest_side": "91 mm",
 
     "//compatibility": ["870", "887", "11-87", "1100", "V3"],
+    "mod_targets": ["remington_870", "remington_1100"],
 
     "price": "135 USD"
   }
