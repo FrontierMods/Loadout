@@ -270,8 +270,18 @@
 
     "//weight": "latest weight listed on the SilencerCo page for Hybrid 46 is 14.1 oz ≈ 400 g",
     "weight": "400 g",
-    "//dimensions": "7.6 × 1.57 in",
+    "//dimensions": {
+      "length": "7.6 in",
+      "diameter": "1.57 in",
+      "trim": 0
+    },
     "volume": "241 ml",
+    "longest_side": "193 mm",
+    "//integral_longest_side": [
+      "to account for the length of mount",
+      "see item: `thread_mount_silencerco_bravo`"
+    ],
+    "integral_longest_side": "185 mm",
 
     "damage_modifier": {
       "damage_type": "bullet",
