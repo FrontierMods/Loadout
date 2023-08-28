@@ -97,6 +97,11 @@
 
     "//source": ["https://thunderbeastarms.com/products/ultra-9"],
 
+    "//notes": [
+      "for now, we assume this to be a direct-thread model of Ultra 9 Gen 2",
+      "if the HUB interface expansion kicks off in Loadout or Gunsmith, we'll move it to HUB"
+    ],
+
     "name": {
       "str": "Thunder Beast Arms Ultra 9 Gen 2 suppressor"
     },
