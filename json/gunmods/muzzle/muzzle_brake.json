@@ -14,7 +14,13 @@
     "description": "TBD",
 
     "weight": "87 g",
-    "volume": "24 ml",
+    "//dimensions": {
+      "length": "2.54 in",
+      "diameter": "0.86 in",
+      "trim": 0.05
+    },
+    "//volume_sans_trim": "24 ml",
+    "volume": "23 ml",
     "longest_side": "65 mm",
 
     "//calibers": ["556"],
@@ -38,7 +44,14 @@
     "description": "TBD",
 
     "weight": "87 g",
-    "volume": "33 ml",
+    "//dimensions": {
+      "length": "2.75 in",
+      "width": "0.98 in",
+      "height": "0.75 in",
+      "trim": 0.1
+    },
+    "//volume_sans_trim": "33 ml",
+    "volume": "30 ml",
     "longest_side": "70 mm",
 
     "//calibers": ["556"],
@@ -65,7 +78,14 @@
     },
     "description": "TBD",
 
-    "weight": "76 g",
+    "weight": "74 g",
+    "//dimensions": {
+      "length": "2.1 in",
+      "diameter": "0.95 in",
+      "trim": 0.1,
+      "notes": ["diameter assumed from V Seven FURION"]
+    },
+    "//volume_sans_trim": "24 ml",
     "volume": "22 ml",
     "longest_side": "53 mm",
 
@@ -96,9 +116,14 @@
     },
     "description": "TBD",
 
-    "weight": "47 g",
-    "//trim": "trimmed slightly for empty spaces",
-    "volume": "24 ml",
+    "weight": "45 g",
+    "//dimensions": {
+      "length": "2.3 in",
+      "diameter": "0.95 in",
+      "trim": 0.15
+    },
+    "//volume_sans_trim": "27 ml",
+    "volume": "23 ml",
     "longest_side": "58 mm",
 
     "material": ["titanium"],
@@ -128,9 +153,16 @@
     },
     "description": "TBD",
 
-    "weight": "63 g",
-    "//trim": "trimmed slightly for empty spaces",
-    "volume": "17 ml",
+    "//weight": "without crush washer",
+    "weight": "98 g",
+    "//dimensions": {
+      "length": "2.6 in",
+      "width": "0.75 in",
+      "height": "0.75 in",
+      "trim": 0.05
+    },
+    "//volume_sans_trim": "24 ml",
+    "volume": "23 ml",
     "longest_side": "66 mm",
 
     "//calibers": ["556"],
@@ -159,9 +191,15 @@
     },
     "description": "TBD",
 
-    "weight": "116 g",
-    "//trim": "trimmed slightly for empty spaces",
-    "volume": "37 ml",
+    "//weight": "going with the lowest number listed in primary source on assumption that weight scales with threading and, therefore, with caliber rating, with higher calibers requiring more metal to keep quiet",
+    "weight": "105 g",
+    "//dimensions": {
+      "length": "2.6 in",
+      "diameter": "1.08 in",
+      "trim": 0.15
+    },
+    "//volume_sans_trim": "39 ml",
+    "volume": "33 ml",
     "longest_side": "66 mm",
 
     "//calibers": ["556"],
@@ -192,10 +230,20 @@
 
     "//weight": "Dominus SR description states the weight of the brake to be 3.5 oz ≈ 100 g",
     "weight": "100 g",
-    "//dimensions": "2.86 (approximate from visual reference) × 1.53 (diameter of Dominus SR - 15%) in.",
-    "//trim": "10% trim for shape",
-    "volume": "77 ml",
+    "//dimensions": {
+      "length": "2.86 in",
+      "diameter": "1.17 in",
+      "trim": 0.1,
+      "notes": [
+        "length approximated from visual reference",
+        "diameter is assumed to be diameter of Dominus SR suppressor - 35%"
+      ]
+    },
+    "//volume_sans_trim": "50 ml",
+    "volume": "45 ml",
     "longest_side": "73 mm",
+    "//integral_longest_side": "assumes mounting onto a standard length of thread for 1/2 in. × 28-threaded barrel (16 mm)",
+    "integral_longest_side": "57 mm",
 
     "//calibers": ["556"],
 
