@@ -51,6 +51,8 @@
       "https://www.at3tactical.com/products/harris-engineering-rotating-bipod-picatinny-and-mlok"
     ],
 
+    "//notes": ["M-LOK version available, 11.6 oz"],
+
     "name": {
       "str": "Harris bipod"
     },
