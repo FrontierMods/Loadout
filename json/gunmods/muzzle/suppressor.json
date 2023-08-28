@@ -30,7 +30,7 @@
   },
 
   {
-    "id": "suppressor_thunderbeast_dominus",
+    "id": "suppressor_thunder_beast_dominus",
     "copy-from": "suppressor_abstract",
     "type": "GUNMOD",
 
@@ -73,7 +73,7 @@
   },
 
   {
-    "id": "suppressor_thunderbeast_ultra9",
+    "id": "suppressor_thunder_beast_ultra9",
     "copy-from": "suppressor_abstract",
     "type": "GUNMOD",
 
@@ -116,7 +116,7 @@
   },
 
   {
-    "id": "suppressor_silentlegion_223",
+    "id": "suppressor_silent_legion_556",
     "copy-from": "suppressor_abstract",
     "type": "GUNMOD",
 
@@ -190,7 +190,7 @@
   },
 
   {
-    "id": "suppressor_eliteiron_bravo1lite",
+    "id": "suppressor_elite_iron_bravo1_lite",
     "copy-from": "suppressor_abstract",
     "type": "GUNMOD",
 
