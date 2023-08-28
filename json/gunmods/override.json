@@ -591,13 +591,6 @@
     "volume": "10 ml",
     "longest_side": "67 mm",
 
-    "sight_dispersion": 14,
-
-    "//power": {
-      "source": "LR44 × 4",
-      "lifetime": "80 mins"
-    },
-
     "//laser": {
       "class": "3R",
       "power": "3.1 mW",
@@ -605,6 +598,13 @@
       "range": {
         "day": "500 m"
       }
+    },
+
+    "sight_dispersion": 14,
+
+    "//power": {
+      "source": "LR44 × 4",
+      "lifetime": "80 mins"
     },
 
     "price": "40 USD"
@@ -835,13 +835,6 @@
     "//material": "actually glass-filled nylon",
     "material": ["plastic"],
 
-    "sight_dispersion": 23,
-
-    "//power": {
-      "source": "2 × LR44",
-      "lifetime": "7 hours"
-    },
-
     "//laser": {
       "class": "3R",
       "power": "5 mW",
@@ -850,6 +843,13 @@
         "day": "20 yards",
         "night": "300 yards"
       }
+    },
+
+    "sight_dispersion": 23,
+
+    "//power": {
+      "source": "2 × LR44",
+      "lifetime": "7 hours"
     },
 
     "price": "48 USD"
