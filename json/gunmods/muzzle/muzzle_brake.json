@@ -254,5 +254,49 @@
     "add_mod": [["Thunder Beast SR mount", 1]],
 
     "price": "145 USD"
+  },
+
+  {
+    "id": "muzzle_brake_surefire_socom",
+    "copy-from": "muzzle_brake_abstract",
+    "type": "GUNMOD",
+
+    "//sources": ["https://www.surefire.com/socom-muzzle-brake/"],
+
+    "//notes": [
+      "SureFire SOCOM devices are not compatible with earlier SureFire Fast Attach devices"
+    ],
+
+    "name": {
+      "str": "SureFire SOCOM muzzle brake"
+    },
+    "description": "TBD",
+
+    "weight": "111 g",
+    "//dimensions": {
+      "length": "2.6 in",
+      "diameter": "0.9 in",
+      "trim": 0,
+      "notes": [
+        "assumes that the dips and bumps even out",
+        "diameter is assumed based on similar muzzle brakes"
+      ]
+    },
+    "//volume_sans_trim": "27 ml",
+    "volume": "27 ml",
+    "longest_side": "66 mm",
+    "//integral_longest_side": "assumes mounting onto a standard length of thread for 1/2 in. × 28-threaded barrel (16 mm)",
+    "integral_longest_side": "50 mm",
+
+    "//calibers": ["223"],
+
+    "//recoil_reduction": "???",
+    "//handling_modifier": "there's no accurate testing available for this brake, but it looks average enough, so we make up 51.62% recoil reduction",
+    "handling_modifier": 25,
+
+    "add_mod": [["SureFire muzzle mount", 1]],
+
+    "//price": "presumed to be the price for the smaller caliber (.223 / 5.56mm)",
+    "price": "169 USD"
   }
 ]
