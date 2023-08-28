@@ -79,7 +79,7 @@
       "damage_type": "bullet",
       "amount": 2
     },
-    "//dispersion_modifier": "suppressors generally have a minor effect on accuracy",
+    "//dispersion_modifier": "suppressors generally only have a minor effect on accuracy",
     "dispersion_modifier": 1,
 
     "mod_targets": ["pistol", "smg", "rifle"],
