@@ -23,7 +23,7 @@
     "volume": "23 ml",
     "longest_side": "65 mm",
 
-    "//calibers": ["556"],
+    "//calibers": ["223"],
 
     "//recoil_reduction": "84%",
     "handling_modifier": 42,
@@ -54,7 +54,7 @@
     "volume": "30 ml",
     "longest_side": "70 mm",
 
-    "//calibers": ["556"],
+    "//calibers": ["223"],
 
     "//recoil_reduction": "78%",
     "//recoil_distance": "2.4688 in",
@@ -91,7 +91,7 @@
 
     "material": ["steel"],
 
-    "//calibers": ["556"],
+    "//calibers": ["223"],
 
     "//recoil_reduction": "56.35%",
     "//recoil_distance": "4.9375 in.",
@@ -128,7 +128,7 @@
 
     "material": ["titanium"],
 
-    "//calibers": ["556"],
+    "//calibers": ["223"],
 
     "//recoil_reduction": "64.36%",
     "//recoil_distance": "4.0313 in.",
@@ -165,7 +165,7 @@
     "volume": "23 ml",
     "longest_side": "66 mm",
 
-    "//calibers": ["556"],
+    "//calibers": ["223"],
 
     "//recoil_reduction": "60.50%",
     "//recoil_distance": "4.4688 in.",
@@ -202,7 +202,7 @@
     "volume": "33 ml",
     "longest_side": "66 mm",
 
-    "//calibers": ["556"],
+    "//calibers": ["223"],
 
     "//recoil_reduction": "56.63%",
     "//recoil_distance": "4.9063 in.",
@@ -245,7 +245,7 @@
     "//integral_longest_side": "assumes mounting onto a standard length of thread for 1/2 in. × 28-threaded barrel (16 mm)",
     "integral_longest_side": "57 mm",
 
-    "//calibers": ["556"],
+    "//calibers": ["223"],
 
     "//recoil_reduction": "???",
     "//handling_modifier": "its 5.56mm cousin reduces recoil by 72.93%, so let's assume this one performs only slightly worse, at a completely-fictional 70.62%",
