@@ -139,7 +139,7 @@
     "//material": "actual material for the steel part is inconel",
     "material": ["titanium", "steel"],
 
-    "//calibers": ["556", "300BLK"],
+    "//calibers": ["223", "300BLK"],
 
     "//sound_reduction": "32 dB",
 
