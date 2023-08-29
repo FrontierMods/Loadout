@@ -12,15 +12,21 @@
     "description": "TBD",
 
     "weight": "255 g",
-    "//volume": "30% trim for shape",
+    "//dimensions": {
+      "length": "3.8 in",
+      "width": "2.1 in",
+      "height": "2.5 in",
+      "raw": "327 ml",
+      "trim": 0.3
+    },
     "volume": "229 ml",
     "longest_side": "97 mm",
 
     "sight_dispersion": 4,
 
     "//power": {
-      "source": "CR123",
-      "lifetime": "1000 hours"
+      "source": [["CR123"]],
+      "lifetime": "1000 h"
     },
 
     "price": "629 USD"
