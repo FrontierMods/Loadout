@@ -4,12 +4,12 @@
     "copy-from": "arredondo_chute",
     "type": "GUNMOD",
 
-    "//note": "see also: notes for `arredondo_chute`",
-
-    "//source": [
+    "//sources": [
       "https://www.arredondoaccessories.com/product/speed-loader-assist/",
       "https://babblestorm462.wordpress.com/2013/06/22/benelliremington-speedloader-assist-bracket-benelli-speedloader-assist/"
     ],
+
+    "//notes": ["see also: notes for `arredondo_chute`"],
 
     "name": { "str": "Arredondo speedloader chute for Remington 1100" },
     "description": "TBD",
