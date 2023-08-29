@@ -4,7 +4,7 @@
     "copy-from": "flashlight_abstract",
     "type": "GUNMOD",
 
-    "//source": ["https://olightworld.com/product/odin_mini"],
+    "//sources": ["https://olightworld.com/product/odin_mini"],
 
     "name": {
       "str": "Olight Odin Mini tactical light (off)",
@@ -14,12 +14,20 @@
 
     "material": ["aluminum"],
 
-    "//weight": "source says the weight is 176 g including battery",
-    "//weight2": "an average 18500 battery weighs 33.5 g ≈ 34 g",
+    "//weight": [
+      "source says the weight is 176 g including battery",
+      "an average 18500 battery weighs 33.5 g ≈ 34 g"
+    ],
     "weight": "142 g",
-    "//dimensions": "116 mm × 29 mm diameter",
-    "//volume": "71 ml",
-    "//trim": "assumes that whatever excess volume covers the rail mount",
+    "//dimensions": {
+      "length": "116 mm",
+      "diameter": "29 mm",
+      "raw": "71 ml",
+      "trim": 0,
+      "notes": [
+        "trim assumes that whatever excess volume covers the rail mount"
+      ]
+    },
     "volume": "71 ml",
     "longest_side": "116 mm",
 
@@ -28,7 +36,7 @@
 
     "flags": ["WATER_BREAK_ACTIVE", "HELMET_HEAD_ATTACHMENT"],
 
-    "//interface": ["M-LOK"],
+    "//interfaces": ["M-LOK"],
 
     "use_action": {
       "type": "transform",
@@ -62,20 +70,21 @@
     },
 
     "//power": {
-      "source": "custom high-capacity 18500 battery",
-      "voltage": "3.2V (presumed)",
+      "source": [["18500"]],
+      "voltage": "3.2 V",
       "capacity": "2040 mAh",
-      "runtime": "5 hours"
+      "runtime": "5 h",
+      "notes": ["voltage is presumed"]
+    },
+
+    "//light": {
+      "output": "1250 lm",
+      "intensity": "14400 cd",
+      "throw_distance": "240 m"
     },
 
     "power_draw": "1 W",
     "revert_to": "flashlight_olight_odin_mini",
-
-    "//light": {
-      "output": "1250 lumens",
-      "intensity": "14400 candela",
-      "throw_distance": "240 m"
-    },
 
     "use_action": {
       "menu_text": "Turn off",
@@ -99,7 +108,7 @@
     "copy-from": "flashlight_abstract",
     "type": "GUNMOD",
 
-    "//source": ["https://www.surefire.com/m600u-scout-light-weaponlight/"],
+    "//sources": ["https://www.surefire.com/m600u-scout-light-weaponlight/"],
 
     "name": {
       "str": "Surefire M600U tactical light (off)",
@@ -109,12 +118,20 @@
 
     "material": ["aluminum"],
 
-    "//weight": "source says the weight is 136 g including batteries",
-    "//weight2": "CR123A from Surefire weighs 17 g × 2 = 34 g",
+    "//weight": [
+      "source says the weight is 136 g including batteries",
+      "CR123A from Surefire weighs 17 g × 2 = 34 g"
+    ],
     "weight": "102 g",
-    "//dimensions": "139 mm × 29 mm diameter",
-    "//volume": "92 ml",
-    "//trim": "assumes that whatever excess volume covers the rail mount",
+    "//dimensions": {
+      "length": "139 mm",
+      "diameter": "29 mm",
+      "raw": "92 ml",
+      "trim": 0,
+      "notes": [
+        "trim assumes that whatever excess volume covers the rail mount"
+      ]
+    },
     "volume": "92 ml",
     "longest_side": "139 mm",
 
@@ -123,7 +140,7 @@
 
     "flags": ["WATER_BREAK_ACTIVE", "HELMET_HEAD_ATTACHMENT"],
 
-    "//interface": ["M-LOK"],
+    "//interfaces": ["M-LOK"],
 
     "use_action": {
       "type": "transform",
@@ -164,20 +181,21 @@
     },
 
     "//power": {
-      "source": "2× CR123A batteries",
-      "voltage": "3V",
-      "capacity": "1550 mAh each (from Surefire's own brand of CR123As)",
-      "runtime": "75 mins"
+      "source": [["CR123A", "CR123A"]],
+      "voltage": "3 V",
+      "capacity": "1550 mAh",
+      "runtime": "75 m",
+      "notes": ["capacity noted from SureFire's own brand of CR123As"]
+    },
+
+    "//light": {
+      "output": "1000 lm",
+      "intensity": "11300 cd",
+      "throw_distance": "213 m"
     },
 
     "power_draw": "7 W",
     "revert_to": "flashlight_surefire_m600u",
-
-    "//light": {
-      "output": "1000 lumens",
-      "intensity": "11300 candela",
-      "throw_distance": "213 m"
-    },
 
     "use_action": {
       "menu_text": "Turn off",
@@ -201,7 +219,7 @@
     "copy-from": "flashlight_abstract",
     "type": "GUNMOD",
 
-    "//source": [
+    "//sources": [
       "https://www.streamlight.com/products/detail/protac-rail-mount-2",
       "https://www.batteryjunction.com/12pk-streamlight-cr123a.html"
     ],
@@ -214,12 +232,20 @@
 
     "material": ["aluminum"],
 
-    "//weight": "source says the weight is 142 g including(?) batteries",
-    "//weight2": "CR123A from Surefire weighs 17 g × 2 = 34 g",
+    "//weight": [
+      "source says the weight is 142 g including(?) batteries",
+      "CR123A from SureFire weighs 17 g × 2 = 34 g"
+    ],
     "weight": "142 g",
-    "//dimensions": "127 mm × 29 mm diameter",
-    "//volume": "84 ml",
-    "//trim": "assumes that whatever excess volume covers the rail mount",
+    "//dimensions": {
+      "length": "127 mm",
+      "diameter": "29 mm",
+      "raw": "84 ml",
+      "trim": 0,
+      "notes": [
+        "trim assumes that whatever excess volume covers the rail mount"
+      ]
+    },
     "volume": "84 ml",
     "longest_side": "127 mm",
 
@@ -228,7 +254,7 @@
 
     "flags": ["WATER_BREAK_ACTIVE", "HELMET_HEAD_ATTACHMENT"],
 
-    "//interface": ["Picatinny"],
+    "//interfaces": ["Picatinny"],
 
     "use_action": {
       "type": "transform",
@@ -269,20 +295,21 @@
     },
 
     "//power": {
-      "source": "2× CR123A batteries",
-      "voltage": "3V",
-      "capacity": "1400 mAh each (from Streamlight's own brand of CR123As)",
-      "runtime": "2 hours"
+      "source": [["CR123A", "CR123A"]],
+      "voltage": "3 V",
+      "capacity": "1400 mAh",
+      "runtime": "2 h",
+      "notes": ["capacity noted from Streamlight's own brand of CR123As"]
+    },
+
+    "//light": {
+      "output": "625 lm",
+      "intensity": "22000 cd",
+      "throw_distance": "297 m"
     },
 
     "power_draw": "4 W",
     "revert_to": "flashlight_protac_rail_mount_2",
-
-    "//light": {
-      "output": "625 lumens",
-      "intensity": "22000 candela",
-      "throw_distance": "297 m"
-    },
 
     "use_action": {
       "menu_text": "Turn off",
@@ -306,7 +333,7 @@
     "copy-from": "flashlight_abstract",
     "type": "GUNMOD",
 
-    "//source": ["https://www.surefire.com/m300c/"],
+    "//sources": ["https://www.surefire.com/m300c/"],
 
     "name": {
       "str": "Surefire M300C tactical light (off)",
@@ -316,12 +343,20 @@
 
     "material": ["aluminum"],
 
-    "//weight": "source says the weight is 116 g including battery",
-    "//weight2": "CR123A from Surefire weighs 17 g",
+    "//weight": [
+      "source says the weight is 116 g including battery",
+      "CR123A from SureFire weighs 17 g"
+    ],
     "weight": "99 g",
-    "//dimensions": "104 mm × 29 mm diameter",
-    "//volume": "69 ml",
-    "//trim": "assumes that whatever excess volume covers the rail mount",
+    "//dimensions": {
+      "length": "104 mm",
+      "diameter": "29 mm",
+      "raw": "69 ml",
+      "trim": 0,
+      "notes": [
+        "trim assumes that whatever excess volume covers the rail mount"
+      ]
+    },
     "volume": "69 ml",
     "longest_side": "104 mm",
 
@@ -330,7 +365,7 @@
 
     "flags": ["WATER_BREAK_ACTIVE", "HELMET_HEAD_ATTACHMENT"],
 
-    "//interface": ["M-LOK"],
+    "//interfaces": ["M-LOK"],
 
     "use_action": {
       "type": "transform",
@@ -360,25 +395,26 @@
     "type": "GUNMOD",
 
     "name": {
-      "str": "Surefire M300C tactical light (on)",
-      "str_pl": "Surefire M300C tactical lights (on)"
+      "str": "SureFire M300C tactical light (on)",
+      "str_pl": "SureFire M300C tactical lights (on)"
     },
 
     "//power": {
-      "source": "CR123A battery",
-      "voltage": "3V",
-      "capacity": "1550 mAh each (from Surefire's own brand of CR123As)",
-      "runtime": "1 hour"
+      "source": [["CR123A"]],
+      "voltage": "3 V",
+      "capacity": "1550 mAh",
+      "runtime": "1 h",
+      "notes": ["capacity noted from SureFire's own brand of CR123As"]
+    },
+
+    "//light": {
+      "output": "500 lm",
+      "intensity": "7600 cd",
+      "throw_distance": "175 m"
     },
 
     "power_draw": "7 W",
     "revert_to": "flashlight_surefire_m300c",
-
-    "//light": {
-      "output": "500 lumens",
-      "intensity": "7600 candela",
-      "throw_distance": "175 m"
-    },
 
     "use_action": {
       "menu_text": "Turn off",
@@ -402,11 +438,13 @@
     "copy-from": "flashlight_abstract",
     "type": "GUNMOD",
 
-    "//source": [
+    "//sources": [
       "https://inforcelights.com/products/rifle-light-black-800-lumens-2-hours-runtime"
     ],
 
-    "//note": "not to be confused with its smaller, less-powerful brother WML Gen 2 below",
+    "//notes": [
+      "not to be confused with its smaller, less-powerful brother WML Gen 2 below"
+    ],
 
     "name": {
       "str": "Inforce WMLx Gen 2 tactical light (off)",
@@ -417,12 +455,20 @@
     "//material": "actually glass-filled nylon",
     "material": ["plastic"],
 
-    "//weight": "source says the weight is 125 g including batteries",
-    "//weight2": "CR123A generic weighs 17 g × 2 = 34 g",
+    "//weight": [
+      "source says the weight is 125 g including batteries",
+      "CR123A generic weighs 17 g × 2 = 34 g"
+    ],
     "weight": "91 g",
-    "//dimensions": "135 mm × 29 mm diameter",
-    "//volume": "89 ml",
-    "//trim": "assumes that whatever excess volume covers the rail mount",
+    "//dimensions": {
+      "length": "135 mm",
+      "diameter": "29 mm",
+      "raw": "89 ml",
+      "trim": 0,
+      "notes": [
+        "trim assumes that whatever excess volume covers the rail mount"
+      ]
+    },
     "volume": "89 ml",
     "longest_side": "135 mm",
 
@@ -432,7 +478,7 @@
     "//flags": "waterproof up to 20 meters, therefore no WATER_BREAK_ACTIVE",
     "flags": ["HELMET_HEAD_ATTACHMENT"],
 
-    "//interface": ["Picatinny"],
+    "//interfaces": ["Picatinny"],
 
     "use_action": {
       "type": "transform",
@@ -472,20 +518,20 @@
     },
 
     "//power": {
-      "source": "2× CR123A batteries",
-      "voltage": "3V",
-      "capacity": "1550 mAh each (assumed from generic search results)",
-      "runtime": "2 hours"
+      "source": [["CR123A", "CR123A"]],
+      "voltage": "3 V",
+      "capacity": "1550 mAh",
+      "runtime": "2 h"
+    },
+
+    "//light": {
+      "output": "800 lm",
+      "intensity": "10000 cd",
+      "throw_distance": "200 m"
     },
 
     "power_draw": "5 W",
     "revert_to": "flashlight_inforce_wmlx_gen2",
-
-    "//light": {
-      "output": "800 lumens",
-      "intensity": "10000 candela",
-      "throw_distance": "200 m"
-    },
 
     "use_action": {
       "menu_text": "Turn off",
@@ -509,11 +555,13 @@
     "copy-from": "flashlight_abstract",
     "type": "GUNMOD",
 
-    "//source": [
+    "//sources": [
       "https://inforcelights.com/products/rifle-light-black-400-lumens-1-5-hours-runtime"
     ],
 
-    "//note": "not to be confused with its larger, more-powerful brother WMLx Gen 2 above",
+    "//notes": [
+      "not to be confused with its larger, more-powerful brother WMLx Gen 2 above"
+    ],
 
     "name": {
       "str": "Inforce WML Gen 2 tactical light (off)",
@@ -524,12 +572,20 @@
     "//material": "actually glass-filled nylon",
     "material": ["plastic"],
 
-    "//weight": "source says the weight is 91 g including battery",
-    "//weight2": "CR123A generic weighs 17 g",
+    "//weight": [
+      "source says the weight is 91 g including battery",
+      "CR123A generic weighs 17 g"
+    ],
     "weight": "74 g",
-    "//dimensions": "107 mm × 29 mm diameter",
-    "//volume": "71 ml",
-    "//trim": "assumes that whatever excess volume covers the rail mount",
+    "//dimensions": {
+      "length": "107 mm",
+      "diameter": "29 mm",
+      "raw": "71 ml",
+      "trim": 0,
+      "notes": [
+        "trim assumes that whatever excess volume covers the rail mount"
+      ]
+    },
     "volume": "71 ml",
     "longest_side": "107 mm",
 
@@ -539,7 +595,7 @@
     "//flags": "waterproof up to 20 meters, therefore no WATER_BREAK_ACTIVE",
     "flags": ["HELMET_HEAD_ATTACHMENT"],
 
-    "//interface": ["Picatinny"],
+    "//interfaces": ["Picatinny"],
 
     "use_action": {
       "type": "transform",
@@ -573,20 +629,20 @@
     },
 
     "//power": {
-      "source": "CR123A battery",
-      "voltage": "3V",
-      "capacity": "1550 mAh (assumed from generic search results)",
-      "runtime": "90 mins"
+      "source": [["CR123A"]],
+      "voltage": "3 V",
+      "capacity": "1550 mAh",
+      "runtime": "90 m"
+    },
+
+    "//light": {
+      "output": "400 lm",
+      "intensity": "4000 cd",
+      "throw_distance": "126 m"
     },
 
     "power_draw": "3 W",
     "revert_to": "flashlight_inforce_wml_gen2",
-
-    "//light": {
-      "output": "400 lumens",
-      "intensity": "4000 candela",
-      "throw_distance": "126 m"
-    },
 
     "use_action": {
       "menu_text": "Turn off",
@@ -605,7 +661,7 @@
     "copy-from": "flashlight_abstract",
     "type": "GUNMOD",
 
-    "//source": [
+    "//sources": [
       "https://www.clouddefensive.com/product/owl/",
       "https://www.clouddefensive.com/product/cloud-defensive-rechargeable-18650-battery/"
     ],
@@ -618,12 +674,18 @@
 
     "material": ["aluminum"],
 
-    "//weight": "source says the weight is 11 oz ≈ 312 g including battery",
-    "//weight2": "18650 battery from Cloud Defensive weighs 48 g",
+    "//weight": [
+      "source says the weight is 11 oz ≈ 312 g including battery",
+      "18650 battery from Cloud Defensive weighs 48 g"
+    ],
     "weight": "264 g",
-    "//dimensions": "5.255 in × 2.76 in × 1.26 in",
-    "//volume": "300 ml",
-    "//trim": "25% trim for shape",
+    "//dimensions": {
+      "length": "5.255 in",
+      "width": "2.76 in",
+      "height": "1.26 in",
+      "raw": "300 ml",
+      "trim": 0.25
+    },
     "volume": "225 ml",
     "longest_side": "134 mm",
 
@@ -633,7 +695,7 @@
     "//flags": "waterproof up to 200 feet, therefore no WATER_BREAK_ACTIVE",
     "flags": ["HELMET_HEAD_ATTACHMENT"],
 
-    "//interface": ["M-LOK"],
+    "//interfaces": ["M-LOK"],
 
     "use_action": {
       "type": "transform",
@@ -668,20 +730,22 @@
     },
 
     "//power": {
-      "source": "18650 battery",
-      "voltage": "3.2V",
-      "capacity": "3000 mAh each (from Cloud Defensive's own brand of 18650s)",
-      "runtime": "1 hour"
+      "source": [["18650"]],
+      "voltage": "3.2 V",
+      "capacity": "3000 mAh",
+      "runtime": "1 h",
+      "notes": ["capacity noted from Cloud Defensive's own brand of 18650s"]
+    },
+
+    "//light": {
+      "output": "1200 lm",
+      "intensity": "80000 cd",
+      "throw_distance": "200 m",
+      "notes": ["throw distance is presumed"]
     },
 
     "power_draw": "6 W",
     "revert_to": "flashlight_cloud_owl",
-
-    "//light": {
-      "output": "1200 lumens",
-      "intensity": "80000 candela",
-      "throw_distance": "200 m (presumed)"
-    },
 
     "use_action": {
       "menu_text": "Turn off",
@@ -705,7 +769,7 @@
     "copy-from": "flashlight_abstract",
     "type": "GUNMOD",
 
-    "//source": [
+    "//sources": [
       "https://modlite.com/products/modlite-pl350-pistol-light/",
       "https://modlite.com/collections/batteries/products/modlite-18350-1200mah-protected-cell-1"
     ],
@@ -720,9 +784,15 @@
 
     "//weight": "source says the weight is 4.6 oz ≈ 130 g without battery",
     "weight": "130 g",
-    "//dimensions": "4 in × 1.25 in diameter",
-    "//volume": "80 ml",
-    "//trim": "-5% trim for shape",
+    "//dimensions": {
+      "length": "4 in",
+      "diameter": "1.25 in",
+      "raw": "80 ml",
+      "trim": -0.05,
+      "notes": [
+        "trim assumes that whatever excess volume covers the rail mount"
+      ]
+    },
     "volume": "84 ml",
     "longest_side": "102 mm",
 
@@ -731,7 +801,7 @@
 
     "flags": ["WATER_BREAK_ACTIVE", "HELMET_HEAD_ATTACHMENT"],
 
-    "//interface": ["Picatinny"],
+    "//interfaces": ["Picatinny"],
 
     "use_action": {
       "type": "transform",
@@ -766,21 +836,25 @@
     },
 
     "//power": {
-      "source": "18350 battery",
-      "//voltage": "page says 3.6V, battery cover says 3.7V",
-      "voltage": "3.7V",
-      "capacity": "1200 mAh each (from Modlight's own brand of of 18350s)",
-      "runtime": "40 mins"
+      "source": [["18350"]],
+      "voltage": "3.7 V",
+      "capacity": "1200 mAh",
+      "runtime": "40 m",
+      "notes": [
+        "page says 3.6V, battery cover says 3.7V",
+        "capacity noted from Modlight's own brand of of 18350s"
+      ]
+    },
+
+    "//light": {
+      "output": "1350 lm",
+      "intensity": "54000 cd",
+      "throw_distance": "250 m",
+      "notes": ["throw distance is presumed"]
     },
 
     "power_draw": "7 W",
     "revert_to": "flashlight_modlight_pl350",
-
-    "//light": {
-      "output": "1350 lumens",
-      "intensity": "54000 candela",
-      "throw_distance": "250 m (presumed)"
-    },
 
     "use_action": {
       "menu_text": "Turn off",
@@ -804,7 +878,7 @@
     "copy-from": "flashlight_abstract",
     "type": "GUNMOD",
 
-    "//source": [
+    "//sources": [
       "https://www.clouddefensive.com/product/rein-3-0/",
       "https://www.clouddefensive.com/rein-weapon-light/ref/10/"
     ],
@@ -817,13 +891,18 @@
 
     "material": ["aluminum"],
 
-    "//weight": "REIN 3.0 w/ remote switch + battery = 6.91 oz ≈ 196 g",
-    "//weight2": "18650 battery from Cloud Defensive weighs 48 g",
-    "//weight3": "remote switch weighs 1.41 oz ≈ 40 g; might not be the same switch",
+    "//weight": [
+      "REIN 3.0 w/ remote switch + battery = 6.91 oz ≈ 196 g",
+      "18650 battery from Cloud Defensive weighs 48 g",
+      "remote switch weighs 1.41 oz ≈ 40 g; might not be the same switch"
+    ],
     "weight": "108 g",
-    "//dimensions": "6.17 in × 1.3 in diameter",
-    "//volume": "134 ml",
-    "//trim": "15% trim for shape",
+    "//dimensions": {
+      "length": "6.17 in",
+      "diameter": "1.3 in",
+      "raw": "134 ml",
+      "trim": 0.15
+    },
     "volume": "114 ml",
     "longest_side": "157 mm",
 
@@ -833,7 +912,7 @@
     "//flags": "rated IPX8, so we count this as waterproof",
     "flags": ["HELMET_HEAD_ATTACHMENT"],
 
-    "//interface": ["Picatinny"],
+    "//interfaces": ["Picatinny"],
 
     "use_action": {
       "type": "transform",
@@ -867,20 +946,22 @@
     },
 
     "//power": {
-      "source": "18650 battery",
-      "voltage": "3.2V",
-      "capacity": "3000 mAh (from Cloud Defensive's own brand of 18650s)",
-      "runtime": "95 mins"
+      "source": [["18650"]],
+      "voltage": "3.2 V",
+      "capacity": "3000 mAh",
+      "runtime": "95 m",
+      "notes": ["capacity noted from Cloud Defensive's own brand of 18650s"]
+    },
+
+    "//light": {
+      "output": "1250 lm",
+      "intensity": "100000 cd",
+      "throw_distance": "250 m",
+      "notes": ["throw distance is presumed"]
     },
 
     "power_draw": "6 W",
     "revert_to": "flashlight_cloud_rein",
-
-    "//light": {
-      "output": "1250 lumens",
-      "intensity": "100000 candela",
-      "throw_distance": "250 m (presumed)"
-    },
 
     "use_action": {
       "menu_text": "Turn off",

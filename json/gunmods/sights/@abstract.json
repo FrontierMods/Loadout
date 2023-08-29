@@ -247,8 +247,10 @@
     "//weight": "one of the notable features of magnifier is that they add quite a bit of heft to the weapon",
     "weight": "250 g",
 
-    "//sight_dispersion": "6 MOA in quarter-MOA / 15 arc seconds per point",
-    "//sight_dispersion2": "assumes 3× magnification on a 2 MoA dot in front of the magnifier",
+    "//sight_dispersion": [
+      "6 MOA in quarter-MOA / 15 arc seconds per point",
+      "assumes 3× magnification on a 2 MoA dot in front of the magnifier"
+    ],
     "sight_dispersion": 24,
     "aim_speed": 2,
 
