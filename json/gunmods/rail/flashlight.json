@@ -86,7 +86,7 @@
     },
 
     "flags": [
-      "LIGHT_313",
+      "LIGHT_208",
       "CHARGEDIM",
       "TRADER_AVOID",
       "WATER_BREAK",
@@ -188,7 +188,7 @@
     },
 
     "flags": [
-      "LIGHT_250",
+      "LIGHT_167",
       "CHARGEDIM",
       "TRADER_AVOID",
       "WATER_BREAK",
@@ -293,7 +293,7 @@
     },
 
     "flags": [
-      "LIGHT_156",
+      "LIGHT_104",
       "CHARGEDIM",
       "TRADER_AVOID",
       "WATER_BREAK",
@@ -389,7 +389,7 @@
     },
 
     "flags": [
-      "LIGHT_125",
+      "LIGHT_83",
       "CHARGEDIM",
       "TRADER_AVOID",
       "WATER_BREAK",
@@ -497,7 +497,7 @@
 
     "//flags": "waterproof up to 20 meters, therefore no WATER_BREAK",
     "flags": [
-      "LIGHT_200",
+      "LIGHT_133",
       "CHARGEDIM",
       "TRADER_AVOID",
       "HELMET_HEAD_ATTACHMENT"
@@ -597,12 +597,7 @@
     },
 
     "//flags": "waterproof up to 20 meters, therefore no WATER_BREAK",
-    "flags": [
-      "LIGHT_100",
-      "CHARGEDIM",
-      "TRADER_AVOID",
-      "HELMET_HEAD_ATTACHMENT"
-    ]
+    "flags": ["LIGHT_67", "CHARGEDIM", "TRADER_AVOID", "HELMET_HEAD_ATTACHMENT"]
   },
 
   {
@@ -698,7 +693,7 @@
 
     "//flags": "waterproof up to 200 feet, therefore no WATER_BREAK",
     "flags": [
-      "LIGHT_300",
+      "LIGHT_200",
       "CHARGEDIM",
       "TRADER_AVOID",
       "HELMET_HEAD_ATTACHMENT"
@@ -796,7 +791,7 @@
     },
 
     "flags": [
-      "LIGHT_338",
+      "LIGHT_225",
       "CHARGEDIM",
       "TRADER_AVOID",
       "WATER_BREAK",
@@ -897,7 +892,7 @@
 
     "//flags": "rated IPX8, so we count this as waterproof",
     "flags": [
-      "LIGHT_313",
+      "LIGHT_208",
       "CHARGEDIM",
       "TRADER_AVOID",
       "HELMET_HEAD_ATTACHMENT"
