@@ -20,9 +20,9 @@
       "length": "5 in",
       "width": "1.825 in",
       "height": "2 in",
+      "raw": "299 ml",
       "trim": 0.2
     },
-    "//volume_sans_trim": "299 ml",
     "volume": "60 ml",
     "//integral_volume": "80% of volume due to a lot of the 'volume' being 'hidden' inside the shotgun after attaching the speedloader",
     "integral_volume": "40 ml",
