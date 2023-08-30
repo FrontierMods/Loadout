@@ -263,8 +263,12 @@
 
     "//interfaces": ["M-LOK"],
 
+    "//handling_modifier": {
+      "handstop": 1
     },
+    "handling_modifier": 1,
 
+    "price": "12 USD"
   },
 
   {
@@ -486,9 +490,13 @@
 
     "//interface": ["M-LOK"],
 
+    "//handling_modifier": {
+      "handstop": 1,
+      "finger_shelf": 1
     },
     "handling_modifier": 2,
 
+    "price": "49 USD"
   },
 
   {
