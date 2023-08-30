@@ -364,34 +364,6 @@
   },
 
   {
-    "id": "foregrip_seekins_m20",
-    "copy-from": "foregrip_abstract",
-    "type": "GUNMOD",
-
-    "//source": [
-      "https://www.wingtactical.com/firearm-parts/ar-15/grips-foregrips/foregrips/seekins-precision-m20-m-lok-angled-grip/"
-    ],
-
-    "name": {
-      "str": "Seekins Precision M20 angled grip"
-    },
-    "description": "TBD",
-
-    "weight": "56 g",
-    "//volume": "30% trim due to shape",
-    "volume": "55 ml",
-    "longest_side": "132 mm",
-
-    "material": ["aluminum"],
-
-    "//interface": ["M-LOK"],
-
-    "handling_modifier": 3,
-
-    "price": "49 USD"
-  },
-
-  {
     "id": "foregrip_odin_b1",
     "copy-from": "foregrip_abstract",
     "type": "GUNMOD",
@@ -638,32 +610,6 @@
     "handling_modifier": 8,
 
     "price": "25 USD"
-  },
-
-  {
-    "id": "foregrip_ergo_surestop",
-    "copy-from": "foregrip_abstract",
-    "type": "GUNMOD",
-
-    "//source": [
-      "https://www.wingtactical.com/firearm-parts/ar-15-parts/grips-foregrips/foregrips/ergo-surestop-tactical-rail-hand-stop/"
-    ],
-
-    "name": {
-      "str": "ERGO SURESTOP handstop"
-    },
-    "description": "TBD",
-
-    "weight": "28 g",
-    "//volume": "40% trim due to shape",
-    "volume": "38 ml",
-    "longest_side": "57 mm",
-
-    "//interface": ["Picatinny"],
-
-    "handling_modifier": 1,
-
-    "price": "14 USD"
   },
 
   {
