@@ -71,16 +71,23 @@
   },
 
   {
-    "id": "suppressor_cover_silentlegion_sc7",
+    "id": "suppressor_cover_silent_legion_sc7",
     "copy-from": "suppressor_cover",
     "type": "GUNMOD",
 
-    "//source": ["https://silentlegion.com/products/suppressor-covers"],
+    "//sources": ["https://silentlegion.com/products/suppressor-covers"],
 
     "name": {
       "str": "Silent Legion SC-7 suppressor cover"
     },
     "description": "TBD",
+
+    "//weight": [
+      "none listed in source",
+      "however, we can infer that it's heavier than the default weight because it shares a similar construction to the Cole-TAC HTP cover",
+      "we err on the side of caution and use a similar, though slightly-smaller, weight for SC-7"
+    ],
+    "weight": "146 g",
 
     "//heat_tolerance": "1800°F",
     "loudness_modifier": -4,
