@@ -4,7 +4,7 @@
     "copy-from": "foregrip_abstract",
     "type": "GUNMOD",
 
-    "//source": [
+    "//sources": [
       "https://www.wingtactical.com/firearm-parts/ar-15-parts/grips-foregrips/foregrips/iron-city-rifle-works-reversible-m-lok-handstop/"
     ],
 
@@ -14,14 +14,25 @@
     "description": "TBD",
 
     "weight": "19 g",
-    "//volume": "50% trim due to shape",
+    "//dimensions": {
+      "length": "1.86 in",
+      "width": "0.61 in",
+      "height": "1.01 in",
+      "raw": "19 ml",
+      "trim": 0.5
+    },
     "volume": "10 ml",
-    "longest_side": "64 mm",
+    "longest_side": "47 mm",
 
     "material": ["aluminum"],
 
-    "//interface": ["M-LOK"],
+    "//interfaces": ["M-LOK"],
 
+    "//handling_modifier": {
+      "handstop": 1,
+      "texture": 1,
+      "rough": 1
+    },
     "handling_modifier": 3,
 
     "price": "35 USD"
@@ -32,8 +43,9 @@
     "copy-from": "foregrip_abstract",
     "type": "GUNMOD",
 
-    "//source": [
-      "https://www.wingtactical.com/firearm-parts/ar-15-parts/grips-foregrips/foregrips/strike-industries-picatinny-angled-vertical-grip-w-cable-management/"
+    "//sources": [
+      "https://www.wingtactical.com/firearm-parts/ar-15-parts/grips-foregrips/foregrips/strike-industries-picatinny-angled-vertical-grip-w-cable-management/",
+      "https://www.strikeindustries.com/si-ar-cmag-rail.html"
     ],
 
     "name": {
@@ -42,15 +54,26 @@
     "description": "TBD",
 
     "weight": "48 g",
-    "//volume": "30% trim due to shape",
+    "//dimensions": {
+      "length": "1.75 in",
+      "width": "1.37 in",
+      "height": "2.50 in",
+      "raw": "98 ml",
+      "trim": 0.3
+    },
     "volume": "67 ml",
     "longest_side": "64 mm",
 
-    "//interface": ["Picatinny"],
+    "//interfaces": ["Picatinny"],
 
+    "//handling_modifier": {
+      "short": 2,
+      "texture": 1,
+      "texture_sides": 1
+    },
     "handling_modifier": 4,
 
-    "price": "20 USD"
+    "price": "18 USD"
   },
 
   {
@@ -58,8 +81,9 @@
     "copy-from": "foregrip_abstract",
     "type": "GUNMOD",
 
-    "//source": [
-      "https://www.wingtactical.com/firearm-parts/ar-15-parts/grips-foregrips/foregrips/ergo-pop-bottle-vertical-forward-grip-vfg/"
+    "//sources": [
+      "https://www.wingtactical.com/firearm-parts/ar-15-parts/grips-foregrips/foregrips/ergo-pop-bottle-vertical-forward-grip-vfg/",
+      "https://www.ergogrips.net/shop/ergo-pop-bottle-vertical-forward-grip/"
     ],
 
     "name": {
@@ -68,15 +92,25 @@
     "description": "TBD",
 
     "weight": "58 g",
-    "//volume": "30% trim due to shape",
+    "//dimensions": {
+      "length": "1.80 in",
+      "width": "1.43 in",
+      "height": "3.66 in",
+      "raw": "154 ml",
+      "trim": 0.3
+    },
     "volume": "108 ml",
     "longest_side": "93 mm",
 
-    "//interface": ["Picatinny"],
+    "//interfaces": ["Picatinny"],
 
+    "//handling_modifier": {
+      "grip": 4,
+      "grooves_bottom": 1
+    },
     "handling_modifier": 5,
 
-    "price": "22 USD"
+    "price": "19 USD"
   },
 
   {
@@ -84,7 +118,7 @@
     "copy-from": "foregrip_abstract",
     "type": "GUNMOD",
 
-    "//source": [
+    "//sources": [
       "https://www.wingtactical.com/firearm-parts/ar-15/grips-accessories/foregrips/tyrant-designs-mod-foregrip-fit-both-keymod-and-m-lok/"
     ],
 
@@ -94,14 +128,25 @@
     "description": "TBD",
 
     "weight": "48 g",
-    "//volume": "40% trim due to shape",
+    "//dimensions": {
+      "length": "5.50 in",
+      "width": "0.625 in",
+      "height": "1.425 in",
+      "raw": "80 ml",
+      "trim": 0.4
+    },
     "volume": "48 ml",
     "longest_side": "140 mm",
 
     "material": ["aluminum", "plastic"],
 
-    "//interface": ["KeyMod", "M-LOK"],
+    "//interfaces": ["KeyMod", "M-LOK"],
 
+    "//handling_modifier": {
+      "angled": 2,
+      "finger_grooves": 2,
+      "finger_shelf": 1
+    },
     "handling_modifier": 5,
 
     "price": "75 USD"
@@ -112,7 +157,7 @@
     "copy-from": "foregrip_abstract",
     "type": "GUNMOD",
 
-    "//source": [
+    "//sources": [
       "https://www.wingtactical.com/firearm-parts/ar-15-parts/grips-foregrips/foregrips/tyrant-designs-mod-v2-foregrip-fit-both-keymod-and-m-lok/"
     ],
 
@@ -122,14 +167,26 @@
     "description": "TBD",
 
     "weight": "83 g",
-    "//volume": "30% trim due to shape",
+    "//dimensions": {
+      "length": "5.807 in",
+      "width": "0.653 in",
+      "height": "1.427 in",
+      "raw": "89 ml",
+      "trim": 0.3
+    },
     "volume": "62 ml",
     "longest_side": "148 mm",
 
     "material": ["aluminum", "plastic"],
 
-    "//interface": ["KeyMod", "M-LOK"],
+    "//interfaces": ["KeyMod", "M-LOK"],
 
+    "//handling_modifier": {
+      "angled": 2,
+      "rubber": 2,
+      "finger_shelf": 1,
+      "rough": 1
+    },
     "handling_modifier": 6,
 
     "price": "70 USD"
@@ -140,7 +197,7 @@
     "copy-from": "foregrip_abstract",
     "type": "GUNMOD",
 
-    "//source": [
+    "//sources": [
       "https://www.wingtactical.com/firearm-parts/ar-15-parts/grips-foregrips/foregrips/daniel-defense-enhanced-m-lok-vertical-foregrip/"
     ],
 
@@ -150,15 +207,30 @@
     "description": "TBD",
 
     "weight": "52 g",
-    "//volume": "10% trim due to shape",
+    "//dimensions": {
+      "length": "1.59 in",
+      "width": "1.11 in",
+      "height": "3.27 in",
+      "raw": "95 ml",
+      "trim": 0.1
+    },
     "volume": "86 ml",
     "longest_side": "83 mm",
 
     "material": ["plastic", "rubber"],
 
-    "//interface_note": "could be any: Daniel Defense produces for all three major interfaces",
-    "//interface": ["M-LOK"],
+    "//interfaces": {
+      "list": ["M-LOK"],
+      "notes": [
+        "Daniel Defense produces for all three major interfaces, but they are separate models"
+      ]
+    },
 
+    "//handling_modifier": {
+      "short": 2,
+      "rubber": 2,
+      "texture_sides": 1
+    },
     "handling_modifier": 5,
 
     "price": "32 USD"
@@ -169,23 +241,27 @@
     "copy-from": "foregrip_abstract",
     "type": "GUNMOD",
 
-    "//note": "assumes 1× handstop",
-
-    "//source": [
+    "//sources": [
       "https://www.wingtactical.com/firearm-parts/ar-15-parts/grips-foregrips/foregrips/strike-industries-bikini-hand-stop-2-pack/"
     ],
 
     "name": {
-      "str": "Strike Industries Bikini handstop"
+      "str": "Strike Industries Bikini fingerstop pair"
     },
     "description": "TBD",
 
     "weight": "6 g",
-    "//volume": "30% trim due to shape",
+    "//dimensions": {
+      "length": "1.348 in",
+      "width": "0.609 in",
+      "height": "0.730 in",
+      "raw": "10 ml",
+      "trim": 0.3
+    },
     "volume": "7 ml",
     "longest_side": "34 mm",
 
-    "//interface": ["M-LOK"],
+    "//interfaces": ["M-LOK"],
 
     "handling_modifier": 2,
 
@@ -225,7 +301,7 @@
     "copy-from": "foregrip_abstract",
     "type": "GUNMOD",
 
-    "//source": [
+    "//sources": [
       "https://www.wingtactical.com/firearm-parts/ar-15/grips-foregrips/foregrips/arisaka-defense-keymod-vertical-grip/"
     ],
 
@@ -235,15 +311,24 @@
     "description": "TBD",
 
     "weight": "53 g",
-    "//volume": "from cylinder volume",
-    "volume": "55 ml",
+    "//dimensions": {
+      "length": "2.505 in",
+      "diameter": "1.30 in",
+      "raw": "55 ml",
+      "trim": 0.05
+    },
+    "volume": "52 ml",
     "longest_side": "64 mm",
 
     "material": ["aluminum"],
 
-    "//interface": ["KeyMod"],
+    "//interfaces": ["KeyMod"],
 
-    "handling_modifier": 5,
+    "//handling_modifier": {
+      "short": 2,
+      "finger_grooves": 2
+    },
+    "handling_modifier": 4,
 
     "price": "53 USD"
   },
@@ -263,13 +348,25 @@
     "description": "TBD",
 
     "weight": "17 g",
-    "//volume": "60% trim due to shape",
+    "//dimensions": {
+      "length": "2.957 in",
+      "width": "0.855 in",
+      "height": "1.06 in",
+      "raw": "44 ml",
+      "trim": 0.6
+    },
     "volume": "18 ml",
     "longest_side": "75 mm",
 
-    "//interface": ["KeyMod", "M-LOK"],
+    "//interfaces": ["KeyMod", "M-LOK"],
 
-    "handling_modifier": 6,
+    "//handling_modifier": {
+      "handstop": 1,
+      "finger_shelf": 1,
+      "texture": 1,
+      "rough": 1
+    },
+    "handling_modifier": 4,
 
     "price": "15 USD"
   },
@@ -279,27 +376,34 @@
     "copy-from": "foregrip_abstract",
     "type": "GUNMOD",
 
-    "//note": "mod 1",
-
-    "//source": [
+    "//sources": [
       "https://www.wingtactical.com/firearm-parts/ar-15/grips-foregrips/foregrips/slr-rifleworks-keymod-barricade-handstop/"
     ],
 
     "name": {
-      "str": "SLR Rifleworks Barricade handstop"
+      "str": "SLR Rifleworks Mod 2 Barricade handstop"
     },
     "description": "TBD",
 
-    "weight": "20 g",
-    "//volume": "50% trim due to shape",
+    "weight": "19 g",
+    "//dimensions": {
+      "length": "1.95 in",
+      "width": "0.60 in",
+      "height": "1.00 in",
+      "raw": "19 ml",
+      "trim": 0.5
+    },
     "volume": "10 ml",
     "longest_side": "50 mm",
 
     "material": ["aluminum"],
 
-    "//interface": ["KeyMod"],
+    "//interfaces": ["KeyMod"],
 
-    "handling_modifier": 2,
+    "//handling_modifier": {
+      "handstop": 1
+    },
+    "handling_modifier": 1,
 
     "price": "36 USD"
   },
@@ -309,11 +413,11 @@
     "copy-from": "foregrip_abstract",
     "type": "GUNMOD",
 
-    "//note": "barrier face",
-
-    "//source": [
+    "//sources": [
       "https://www.wingtactical.com/firearm-parts/ar-15/grips-foregrips/foregrips/impact-weapons-components-m-lok-hand-stop/"
     ],
+
+    "//notes": ["Barrier Face style"],
 
     "name": {
       "str": "Impact Weapons Components handstop"
@@ -321,14 +425,24 @@
     "description": "TBD",
 
     "weight": "20 g",
-    "//volume": "40% trim due to shape",
+    "//dimensions": {
+      "length": "1.348 in",
+      "width": "0.60 in",
+      "height": "1.115 in",
+      "raw": "15 ml",
+      "trim": 0.4
+    },
     "volume": "9 ml",
     "longest_side": "34 mm",
 
     "material": ["aluminum"],
 
-    "//interface": ["M-LOK"],
+    "//interfaces": ["M-LOK"],
 
+    "//handling_modifier": {
+      "handstop": 1,
+      "texture": 1
+    },
     "handling_modifier": 2,
 
     "price": "27 USD"
@@ -339,7 +453,7 @@
     "copy-from": "foregrip_abstract",
     "type": "GUNMOD",
 
-    "//source": [
+    "//sources": [
       "https://www.wingtactical.com/firearm-parts/ar-15-parts/grips-foregrips/foregrips/slr-rifleworks-m-lok-finger-stop/"
     ],
 
@@ -349,15 +463,24 @@
     "description": "TBD",
 
     "weight": "9 g",
-    "//volume": "40% trim due to shape",
-    "//dimensions": "width assumed from previous entry; length assumed from visuals to be 1.5× height",
-    "volume": "6 ml",
-    "longest_side": "31 mm",
+    "//dimensions": {
+      "length": "1.50 in",
+      "width": "0.65 in",
+      "height": "0.80 in",
+      "raw": "13 ml",
+      "trim": 0.4,
+      "notes": ["length and width acquired from visual reference"]
+    },
+    "volume": "8 ml",
+    "longest_side": "38 mm",
 
     "material": ["aluminum"],
 
-    "//interface": ["M-LOK"],
+    "//interfaces": ["M-LOK"],
 
+    "//handling_modifier": {
+      "handstop": 1
+    },
     "handling_modifier": 1,
 
     "price": "36 USD"
@@ -378,7 +501,13 @@
     "description": "TBD",
 
     "weight": "34 g",
-    "//volume": "30% trim due to shape",
+    "//dimensions": {
+      "length": "2.38 in",
+      "width": "0.90 in",
+      "height": "1.15 in",
+      "raw": "40 ml",
+      "trim": 0.3
+    },
     "volume": "28 ml",
     "longest_side": "61 mm",
 
