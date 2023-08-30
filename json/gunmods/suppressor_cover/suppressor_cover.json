@@ -4,12 +4,17 @@
     "copy-from": "suppressor_cover",
     "type": "GUNMOD",
 
-    "//note": "config tool on the American site has a whole lot more visual options",
-    "//note2": "https://www.cole-tac.com/suppressor-cover-builder/configure/9128/",
-
-    "//source": [
+    "//sources": [
       "https://coletac.eu/collections/suppressor-covers/products/htp-suppressor-cover",
-      "https://www.cole-tac.com/product/htp-suppressor-cover/"
+      "https://www.cole-tac.com/product/htp-suppressor-cover/",
+      "https://www.pewpewtactical.com/best-suppressor-covers/"
+    ],
+
+    "//notes": [
+      "config tool on the American site has a whole lot more visual options",
+      "https://www.cole-tac.com/suppressor-cover-builder/configure/9128/",
+      "though configurable in length and diameter upon manufacture, we assume set dimensions and calculate the entire cover as a cylinder",
+      "these dimensions appear to be within reason for the product: 7 in. is a common suppressor length, and an average diameter between 1 in. and 2 in. would be 1.5 in."
     ],
 
     "name": {
@@ -18,7 +23,17 @@
     "description": "TBD",
 
     "weight": "153 g",
-    "longest_side": "203 mm",
+    "//dimensions": {
+      "length": "7 in",
+      "diameter": "2.15 in",
+      "raw": "417 ml",
+      "trim": 0.6,
+      "notes": [
+        "diameter acquired from visual reference",
+        "trim applies to the internal part of the cover, where a suppressor would be, a space that would otherwise be empty and folded through"
+      ]
+    },
+    "volume": "167 ml",
 
     "material": ["nylon"],
 
@@ -33,15 +48,17 @@
     "copy-from": "suppressor_cover",
     "type": "GUNMOD",
 
-    "//source": ["https://www.cole-tac.com/product/corset-suppressor-cover/"],
+    "//sources": ["https://www.cole-tac.com/product/corset-suppressor-cover/"],
 
     "name": {
       "str": "Coletac Corset suppressor cover"
     },
     "description": "TBD",
 
-    "//weight": "listed as 0.25 oz / inch, or 0.28 g / mm",
-    "//weight2": "we assume a standard 7-inch length",
+    "//weight": [
+      "listed as 0.25 oz / in., or 0.28 g / mm",
+      "we assume a standard 7-in. length"
+    ],
     "weight": "50 g",
 
     "//material": "source also lists carbon fiber, but as of 0.G it isn't in the game",
@@ -76,15 +93,35 @@
     "copy-from": "suppressor_cover",
     "type": "GUNMOD",
 
-    "//source": ["https://armageddongear.com/product/suppressor-cover-2/"],
+    "//sources": [
+      "https://armageddongear.com/product/suppressor-cover-2/",
+      "https://www.capitolarmory.com/armageddon-gear-suppressor-mirage-cover-tbac-338ba-1-85-x-10.html",
+      "https://www.pewpewtactical.com/best-suppressor-covers/"
+    ],
 
     "name": {
       "str": "Armageddon Gear suppressor cover"
     },
     "description": "TBD",
 
-    "//weight": "source lists as 0.81 lbs, which seems too high, but what do I know",
-    "weight": "230 g",
+    "//weight": [
+      "source lists as 0.81 lbs, which seems too high",
+      "right now, this cover is the worst possible choice for a gun, with its low bonuses and high weight",
+      "for the purposes of balance, we assume that 0.81 lbs is the weight of the largest possible length: 10.375 in.",
+      "from that, we extrapolate the weight of this 7-in. cover: 0.81 lbs ≈ 230 g / 10.375 ≈ 22.17 * 7 ≈ 155 g"
+    ],
+    "weight": "155 g",
+    "//dimensions": {
+      "length": "7 in",
+      "diameter": "1.97 in",
+      "raw": "350 ml",
+      "trim": 0.6,
+      "notes": [
+        "diameter acquired from visual reference",
+        "trim applies to the internal part of the cover, where a suppressor would be, a space that would otherwise be empty and folded through"
+      ]
+    },
+    "volume": "140 ml",
 
     "//heat_tolerance": "800°F",
     "loudness_modifier": -2,
@@ -97,8 +134,9 @@
     "copy-from": "suppressor_cover",
     "type": "GUNMOD",
 
-    "//source": [
-      "https://libertysdefense.com/shop/ols/products/straightjacket-thermal-attenuator-kevlar-outer-material"
+    "//sources": [
+      "https://libertysdefense.com/shop/ols/products/straightjacket-thermal-attenuator-kevlar-outer-material",
+      "https://img1.wsimg.com/blobby/go/45776147-ccb8-450f-8bb9-824b181fd92a/downloads/straightJacket.pdf?ver=1633205039244"
     ],
 
     "name": {
@@ -106,8 +144,12 @@
     },
     "description": "TBD",
 
-    "//weight": "source lists as 0.81 lbs, which seems too high, but what do I know",
-    "weight": "230 g",
+    "//weight": [
+      "PDF source provides a listing of weights for specific models of suppressors, because a cover is generally bespoke",
+      "to make it more generic, we can calculate an approximate weight for a 7-in. suppressor of similar construction",
+      "taking Dead Air Nomad 30 suppressor as the starting point: 7.7 oz / 6.5 in ≈ 1.19 * 7 in. ≈ 8.3 oz ≈ 235 g"
+    ],
+    "weight": "235 g",
 
     "//heat_tolerance": "2000°F",
     "loudness_modifier": -4,
@@ -120,7 +162,10 @@
     "copy-from": "suppressor_cover",
     "type": "GUNMOD",
 
-    "//source": ["https://www.burnproofgear.com/product/bpg-sc-h/"],
+    "//sources": [
+      "https://www.burnproofgear.com/product/bpg-sc-h/",
+      "https://www.pewpewtactical.com/best-suppressor-covers/"
+    ],
 
     "name": {
       "str": "BPG heavy suppressor cover"
@@ -128,6 +173,20 @@
     "description": "TBD",
 
     "weight": "99 g",
+    "//dimensions": {
+      "length": "7 in",
+      "diameter": "1.98 in",
+      "raw": "353 ml",
+      "trim": 0.6,
+      "notes": [
+        "diameter acquired from visual reference",
+        "trim applies to the internal part of the cover, where a suppressor would be, a space that would otherwise be empty and folded through"
+      ]
+    },
+    "volume": "141 ml",
+
+    "//material": "inner shell is fiberglass",
+    "material": ["kevlar", "nylon"],
 
     "//heat_tolerance": "1000°F",
     "//heat_tolerance2": "assumes one of the higher-temp models",
