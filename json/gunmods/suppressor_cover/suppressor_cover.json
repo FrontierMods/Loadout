@@ -130,7 +130,7 @@
   },
 
   {
-    "id": "suppressor_cover_liberty_defense",
+    "id": "suppressor_cover_libertys_defense",
     "copy-from": "suppressor_cover",
     "type": "GUNMOD",
 
@@ -140,7 +140,7 @@
     ],
 
     "name": {
-      "str": "Liberty Defense suppressor cover"
+      "str": "Liberty's Defense straightJacket suppressor cover"
     },
     "description": "TBD",
 
@@ -151,8 +151,8 @@
     ],
     "weight": "235 g",
 
-    "//heat_tolerance": "2000°F",
-    "loudness_modifier": -4,
+    "//heat_tolerance": "3000°F",
+    "loudness_modifier": -6,
 
     "price": "322 USD"
   },
