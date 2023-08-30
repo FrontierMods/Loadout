@@ -31,7 +31,7 @@
     "//handling_modifier": {
       "handstop": 1,
       "texture": 1,
-      "rough": 1
+      "texture_rough": 1
     },
     "handling_modifier": 3,
 
@@ -67,7 +67,7 @@
     "//interfaces": ["Picatinny"],
 
     "//handling_modifier": {
-      "short": 2,
+      "grip_short": 2,
       "texture": 1,
       "texture_sides": 1
     },
@@ -105,7 +105,7 @@
     "//interfaces": ["Picatinny"],
 
     "//handling_modifier": {
-      "grip": 4,
+      "grip_tall": 4,
       "grooves_bottom": 1
     },
     "handling_modifier": 5,
@@ -143,7 +143,7 @@
     "//interfaces": ["KeyMod", "M-LOK"],
 
     "//handling_modifier": {
-      "angled": 2,
+      "grip_angled": 2,
       "finger_grooves": 2,
       "finger_shelf": 1
     },
@@ -182,10 +182,10 @@
     "//interfaces": ["KeyMod", "M-LOK"],
 
     "//handling_modifier": {
-      "angled": 2,
+      "grip_angled": 2,
       "rubber": 2,
       "finger_shelf": 1,
-      "rough": 1
+      "texture_rough": 1
     },
     "handling_modifier": 6,
 
@@ -227,7 +227,7 @@
     },
 
     "//handling_modifier": {
-      "short": 2,
+      "grip_short": 2,
       "rubber": 2,
       "texture_sides": 1
     },
@@ -300,7 +300,7 @@
     "//interfaces": ["KeyMod"],
 
     "//handling_modifier": {
-      "short": 2,
+      "grip_short": 2,
       "finger_grooves": 2
     },
     "handling_modifier": 4,
@@ -339,7 +339,7 @@
       "handstop": 1,
       "finger_shelf": 1,
       "texture": 1,
-      "rough": 1
+      "texture_rough": 1
     },
     "handling_modifier": 4,
 
