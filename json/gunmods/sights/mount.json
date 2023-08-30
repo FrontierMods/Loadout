@@ -207,13 +207,13 @@
     "weight": "113 g",
     "//dimensions": {
       "length": "3.50 in",
-      "width": "1.50 in",
-      "height": "0.50 in",
-      "raw": "43 ml",
+      "width": "1.60 in",
+      "height": "0.40 in",
+      "raw": "37 ml",
       "trim": 0.3,
-      "notes": ["dimensions eyeballed"]
+      "notes": ["height and width acquired through visual reference"]
     },
-    "volume": "30 ml",
+    "volume": "26 ml",
     "longest_side": "89 mm",
 
     "add_mod": [["ACOG mount", 1]],
