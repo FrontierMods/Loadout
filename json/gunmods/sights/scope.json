@@ -15,16 +15,41 @@
     "description": "TBD",
 
     "weight": "570 g",
-    "//volume": "from cylinder calculations",
-    "//trim": "20% trim for shape",
-    "volume": "153 ml",
-    "longest_side": "97 mm",
+    "//dimensions": [
+      {
+        "description": "objective",
 
+        "length": "30.00 mm",
+        "diameter": "166.2 mm",
+        "raw": "118 ml",
+        "trim": -0.15,
+        "volume": "136 ml",
+        "notes": ["negative trim value should account for adjustment knobs"]
+      },
+      {
+        "description": "eyepiece",
+
+        "length": "103.50 mm",
+        "diameter": "43.60 mm",
+        "raw": "155 ml",
+        "trim": 0,
+        "volume": "155 ml",
+        "notes": ["trim should account for dips, bumps, and zoom dial"]
+      }
+    ],
+    "volume": "291 ml",
+    "longest_side": "270 mm",
+
+    "//field_of_view": [
+      "102.40 ft @ 100 yds @ 1× magnification = 1162.20 MOA",
+      "16.70 ft @ 100 yds @ 6× magnification = 191.32 MOA"
+    ],
+    "field_of_view": 1162,
     "sight_dispersion": 4,
 
     "//power": {
-      "source": "CR2032",
-      "lifetime": "500 hours"
+      "source": [["CR2032"]],
+      "lifetime": "500 h"
     },
 
     "price": "1400 USD"
@@ -43,11 +68,48 @@
     "description": "TBD",
 
     "weight": "505 g",
-    "//volume": "from cylinder calculations",
-    "//trim": "20% trim for shape",
-    "volume": "180 ml",
-    "longest_side": "318 mm",
+    "//dimensions": [
+      {
+        "description": "objective",
 
+        "length": "3.3 in",
+        "diameter": "1.9 in",
+        "raw": "153 ml",
+        "trim": 0.35,
+        "volume": "100 ml"
+      },
+      {
+        "description": "mounting space",
+
+        "length": "5.9 in",
+        "diameter": "30 mm",
+        "raw": "106 ml",
+        "trim": -0.2,
+        "volume": "127 ml",
+        "notes": [
+          "the adjustment knobs' volume is reflected in the negative trim value",
+          "angle images of the actual scope reflect the volume the knobs take up"
+        ]
+      },
+      {
+        "description": "eyepiece",
+
+        "length": "3.4 in",
+        "diameter": "40 mm",
+        "raw": "109 ml",
+        "trim": -0.025,
+        "volume": "112 ml",
+        "notes": ["negative trim value should account for the zoom dial"]
+      }
+    ],
+    "volume": "339 ml",
+    "longest_side": "319 mm",
+
+    "//field_of_view": [
+      "6.93° @ 3× magnification = 415.80 MOA",
+      "1.74° @ 12× magnification = 104.40 MOA"
+    ],
+    "field_of_view": 416,
     "sight_dispersion": 1,
 
     "price": "700 USD"
@@ -66,18 +128,55 @@
     "description": "TBD",
 
     "weight": "705 g",
-    "//volume": "from cylinder calculations; assumes 40mm diameter to compensate for wide front lens frame",
-    "//trim": "30% trim for shape",
-    "volume": "323 ml",
-    "longest_side": "367 mm",
+    "//dimensions": [
+      {
+        "description": "objective",
 
+        "length": "5.00 in",
+        "diameter": "2.30 in",
+        "raw": "340 ml",
+        "trim": 0.35,
+        "volume": "221 ml"
+      },
+      {
+        "description": "mounting space",
+
+        "length": "5.7 in",
+        "diameter": "30 mm",
+        "raw": "102 ml",
+        "trim": -0.2,
+        "volume": "122 ml",
+        "notes": [
+          "the adjustment knobs' volume is reflected in the negative trim value",
+          "angle images of the actual scope reflect the volume the knobs take up"
+        ]
+      },
+      {
+        "description": "eyepiece",
+
+        "length": "3.60 in",
+        "diameter": "40 mm",
+        "raw": "115 ml",
+        "trim": -0.05,
+        "volume": "121 ml",
+        "notes": ["negative trim value should account for the dials present"]
+      }
+    ],
+    "volume": "464 ml",
+    "longest_side": "363 mm",
+
+    "//field_of_view": [
+      "6.93° @ 6× magnification = 217.20 MOA",
+      "0.91° @ 24× magnification = 54.60 MOA"
+    ],
+    "field_of_view": 217,
     "sight_dispersion": 1,
 
     "//power": {
-      "source": "CR2032",
+      "source": [["CR2032"]],
       "lifetime": "39 hours"
     },
 
-    "price": "1400 USD"
+    "price": "1470 USD"
   }
 ]
