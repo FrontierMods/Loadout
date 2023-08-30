@@ -263,37 +263,8 @@
 
     "//interfaces": ["M-LOK"],
 
-    "handling_modifier": 2,
-
-    "price": "12 USD"
-  },
-
-  {
-    "id": "foregrip_fortis_shift_handstop",
-    "copy-from": "foregrip_abstract",
-    "type": "GUNMOD",
-
-    "//source": [
-      "https://www.wingtactical.com/firearm-parts/ar-15-parts/grips-foregrips/foregrips/fortis-shift-m-lok-reversible-carbon-fiber-handstop/"
-    ],
-
-    "name": {
-      "str": "Fortis Shift reversible handstop"
     },
-    "description": "TBD",
 
-    "weight": "31 g",
-    "//volume": "40% trim due to shape",
-    "volume": "20 ml",
-    "longest_side": "60 mm",
-
-    "material": ["aluminum"],
-
-    "//interface": ["M-LOK"],
-
-    "handling_modifier": 4,
-
-    "price": "53 USD"
   },
 
   {
@@ -515,65 +486,9 @@
 
     "//interface": ["M-LOK"],
 
+    },
     "handling_modifier": 2,
 
-    "price": "49 USD"
-  },
-
-  {
-    "id": "foregrip_ascend",
-    "copy-from": "foregrip_abstract",
-    "type": "GUNMOD",
-
-    "//source": [
-      "https://www.wingtactical.com/firearm-parts/ar-15/grips-foregrips/foregrips/ascend-armory-aluminum-m-lok-angled-foregrip/"
-    ],
-
-    "name": {
-      "str": "Ascend Armory angled grip"
-    },
-    "description": "TBD",
-
-    "weight": "20 g",
-    "//volume": "40% trim due to shape",
-    "volume": "18 ml",
-    "longest_side": "76 mm",
-
-    "material": ["aluminum"],
-
-    "//interface": ["M-LOK"],
-
-    "handling_modifier": 4,
-
-    "price": "39 USD"
-  },
-
-  {
-    "id": "foregrip_p5_micro",
-    "copy-from": "foregrip_abstract",
-    "type": "GUNMOD",
-
-    "//source": [
-      "https://www.wingtactical.com/firearm-parts/ar-15-parts/grips-foregrips/foregrips/phase-5-m-lok-micro-handstop/"
-    ],
-
-    "name": {
-      "str": "Phase 5 Micro handstop"
-    },
-    "description": "TBD",
-
-    "weight": "15 g",
-    "//volume": "40% trim due to shape",
-    "volume": "9 ml",
-    "longest_side": "39 mm",
-
-    "material": ["aluminum"],
-
-    "//interface": ["M-LOK"],
-
-    "handling_modifier": 2,
-
-    "price": "35 USD"
   },
 
   {
