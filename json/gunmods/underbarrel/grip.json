@@ -106,7 +106,7 @@
 
     "//handling_modifier": {
       "grip_tall": 4,
-      "grooves_bottom": 1
+      "bottom_grooves": 1
     },
     "handling_modifier": 5,
 
@@ -569,7 +569,7 @@
     "//handling_modifier": {
       "grip_tall": 4,
       "texture": 1,
-      "grooves_bottom": 1
+      "bottom_grooves": 1
     },
     "handling_modifier": 6,
 
@@ -805,7 +805,7 @@
       "grip_angled": 2,
       "texture": 1,
       "finger_shelf": 1,
-      "grooves_bottom": 1
+      "bottom_grooves": 1
     },
     "handling_modifier": 5,
 
