@@ -217,7 +217,41 @@
 
     "//heat_tolerance": "2000°F",
     "loudness_modifier": -4,
+  },
+
+  {
+    "id": "suppressor_cover_manta_v2",
+    "copy-from": "suppressor_cover",
+    "type": "GUNMOD",
+
+    "//sources": [
+      "https://mantadefense.com/product/manta-v2-suppressor-cover/"
+    ],
+
+    "name": {
+      "str": "Manta Defense V2 suppressor cover"
+    },
+    "description": "TBD",
+
+    "weight": "203 g",
+    "//dimensions": {
+      "length": "7 in",
+      "diameter": "2.25 in",
+      "raw": "456 ml",
+      "trim": 0.6,
+      "notes": [
+        "trim applies to the internal part of the cover, where a suppressor would be, a space that would otherwise be empty",
+        "while this model doesn't appear to fold or compress, we can assume that the extra space could be filled with smaller items"
+      ]
+    },
+    "volume": "182 ml",
+
+    "material": ["rubber"],
+
+    "//heat_tolerance": ["3000°F", "presumed, based on advertised qualities"],
+    "loudness_modifier": -6,
 
     "price": "85 USD"
+    "price": "80 USD"
   }
 ]
