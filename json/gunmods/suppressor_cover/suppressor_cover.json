@@ -40,6 +40,7 @@
 
     "//heat_tolerance": "3000°F",
     "loudness_modifier": -6,
+    "dispersion_modifier": -3,
 
     "price": "95 USD"
   },
@@ -67,6 +68,7 @@
 
     "//heat_tolerance": "3150°F",
     "loudness_modifier": -7,
+    "dispersion_modifier": -4,
 
     "price": "125 USD"
   },
@@ -92,6 +94,7 @@
 
     "//heat_tolerance": "1800°F",
     "loudness_modifier": -4,
+    "dispersion_modifier": -2,
 
     "price": "70 USD"
   },
@@ -133,6 +136,7 @@
 
     "//heat_tolerance": "800°F",
     "loudness_modifier": -2,
+    "dispersion_modifier": -1,
 
     "price": "87 USD"
   },
@@ -161,6 +165,7 @@
 
     "//heat_tolerance": "3000°F",
     "loudness_modifier": -6,
+    "dispersion_modifier": -3,
 
     "price": "322 USD"
   },
@@ -196,9 +201,9 @@
     "//material": "inner shell is fiberglass",
     "material": ["kevlar", "nylon"],
 
-    "//heat_tolerance": "1000°F",
-    "//heat_tolerance2": "assumes one of the higher-temp models",
+    "//heat_tolerance": ["1000°F", "assumes one of the higher-temp models"],
     "loudness_modifier": -2,
+    "dispersion_modifier": -1,
 
     "price": "150 USD"
   },
@@ -232,6 +237,7 @@
 
     "//heat_tolerance": "3000°F",
     "loudness_modifier": -6,
+    "dispersion_modifier": -3,
 
     "price": "95 USD"
   },
@@ -267,6 +273,7 @@
 
     "//heat_tolerance": ["3000°F", "presumed, based on advertised qualities"],
     "loudness_modifier": -6,
+    "dispersion_modifier": -3,
 
     "price": "80 USD"
   }

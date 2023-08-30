@@ -47,5 +47,12 @@
     "to make things varied, each cover will be rated for volume reduction based on its heat tolerance",
     "every 500°F rounded up = -1 to volume"
   ],
-  "loudness_modifier": -5
+  "loudness_modifier": -3,
+
+  "//dispersion_modifier": [
+    "covers reduce heat mirage from weapon, thus theoretically aiding in accuracy overall",
+    "to make things varied, each cover will be rated for dispersion reduction based on its heat tolerance",
+    "every 1000°F rounded up = -1 to dispersion"
+  ],
+  "dispersion_modifier": -2
 }
