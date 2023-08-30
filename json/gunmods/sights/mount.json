@@ -288,5 +288,45 @@
     "longest_side": "125 mm",
 
     "price": "80 USD"
+  },
+
+  {
+    "id": "sight_mount_romeo_sig_sauer",
+    "copy-from": "sight_mount_abstract",
+    "type": "GUNMOD",
+
+    "//sources": [
+      "https://www.sigsauer.com/romeo5x-1x20-mm.html",
+      "https://www.sigsauer.com/romeo5-low-mount-graphite.html"
+    ],
+
+    "name": {
+      "str": "Sig Sauer Romeo 5 mount"
+    },
+    "description": "TBD",
+
+    "//weight": [
+      "assumed to be the same as Aimpoint Micro mount due to similar dimensions",
+      "there seem to be no sources for the mount's dimensions online"
+    ],
+    "weight": "48 g",
+    "//dimensions": {
+      "length": "50.40 mm",
+      "width": "35.6 mm",
+      "height": "0.5 in",
+      "raw": "23 ml",
+      "trim": 0.2,
+      "notes": [
+        "length assumed from visual reference",
+        "width assumed to be same as width of sight",
+        "height assumed to be same as Aimpoint Micro"
+      ]
+    },
+    "volume": "15 ml",
+    "longest_side": "50 mm",
+
+    "add_mod": [["Romeo 5 mount", 1]],
+
+    "price": "95 USD"
   }
 ]
