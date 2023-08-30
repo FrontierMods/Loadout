@@ -204,19 +204,36 @@
   },
 
   {
-    "id": "suppressor_cover_ro_mad",
+    "id": "suppressor_cover_rifles_only_had",
     "copy-from": "suppressor_cover",
     "type": "GUNMOD",
 
-    "//source": ["https://riflesonly.com/mad-suppressor-cover/"],
+    "//sources": [
+      "https://riflesonly.com/had-suppressor-cover/",
+      "https://www.pewpewtactical.com/best-suppressor-covers/"
+    ],
 
     "name": {
-      "str": "Rifles Only MAD suppressor cover"
+      "str": "Rifles Only HAD suppressor cover"
     },
     "description": "TBD",
 
-    "//heat_tolerance": "2000°F",
-    "loudness_modifier": -4,
+    "//dimensions": {
+      "length": "7 in",
+      "diameter": "2.41 in",
+      "raw": "523 ml",
+      "trim": 0.6,
+      "notes": [
+        "diameter acquired from visual reference",
+        "trim applies to the internal part of the cover, where a suppressor would be, a space that would otherwise be empty and folded through"
+      ]
+    },
+    "volume": "209 ml",
+
+    "//heat_tolerance": "3000°F",
+    "loudness_modifier": -6,
+
+    "price": "95 USD"
   },
 
   {
@@ -251,7 +268,6 @@
     "//heat_tolerance": ["3000°F", "presumed, based on advertised qualities"],
     "loudness_modifier": -6,
 
-    "price": "85 USD"
     "price": "80 USD"
   }
 ]
