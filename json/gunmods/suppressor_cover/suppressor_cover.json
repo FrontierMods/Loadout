@@ -35,7 +35,8 @@
     },
     "volume": "167 ml",
 
-    "material": ["nylon"],
+    "//material": "while kevlar isn't clearly stated in the source, this appears to be the material of the bottom layer touching the suppressor in other models",
+    "material": ["kevlar", "nylon"],
 
     "//heat_tolerance": "3000°F",
     "loudness_modifier": -6,
