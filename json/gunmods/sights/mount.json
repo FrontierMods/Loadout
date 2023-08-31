@@ -239,7 +239,7 @@
     "weight": "171 g",
     "//dimensions": {
       "length": "130 mm",
-      "width": "24 mm",
+      "width": "32 mm",
       "height": "78 mm",
       "raw": "243 ml",
       "trim": 0.65,
@@ -247,7 +247,7 @@
         "dimensions eyeballed from available dimensions",
         "length is assumed to be length of base × 130%",
         "height is assumed to be 2× center height",
-        "width is assumed to be Picatinny rail width × 1.125"
+        "width is assumed to be Picatinny rail width × 1.5, accounting for the ring width"
       ]
     },
     "volume": "85 ml",
@@ -273,7 +273,7 @@
     "weight": "133 g",
     "//dimensions": {
       "length": "4.925 in",
-      "width": "24 mm",
+      "width": "32 mm",
       "height": "1.68 in",
       "raw": "128 ml",
       "trim": 0.65,
@@ -281,7 +281,7 @@
         "dimensions eyeballed from available dimensions",
         "length is calculated as 3.05 (space between rings) + 0.75 (length of ring) × 2 + 0.375 (half of ring length before back ring) in",
         "height is assumed to be 1.2× center height",
-        "width is assumed to be Picatinny rail width × 1.125"
+        "width is assumed to be Picatinny rail width × 1.5, accounting for the ring width"
       ]
     },
     "volume": "45 ml",
