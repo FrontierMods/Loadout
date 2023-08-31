@@ -328,5 +328,74 @@
     "add_mod": [["Romeo 5 mount", 1]],
 
     "price": "95 USD"
+  },
+
+  {
+    "id": "sight_mount_30mm_jp",
+    "copy-from": "sight_mount_30mm",
+    "type": "GUNMOD",
+
+    "//sources": ["https://www.jprifles.com/buy.php?item=JPFTSM-30/1"],
+
+    "name": {
+      "str": "JP Enterprises 30mm ring mount"
+    },
+    "description": "TBD",
+
+    "weight": "196 g",
+    "//dimensions": {
+      "length": "155 mm",
+      "width": "32 mm",
+      "height": "78 mm",
+      "raw": "369 ml",
+      "trim": 0.675,
+      "notes": [
+        "dimensions assumed from Leapers UTG 34mm ring mount due to measuring dimensions of this scope proving difficult",
+        "we add ~1 in. (25 mm) to the overall length to account for the front-ring sight mount"
+      ]
+    },
+    "volume": "120 ml",
+    "longest_side": "155 mm",
+
+    "add_mod": [["JPoint mount", 1]],
+
+    "price": "335 USD"
+  },
+
+  {
+    "id": "sight_mount_adapter_jpoint_rmr",
+    "copy-from": "sight_mount_abstract",
+    "type": "GUNMOD",
+
+    "//sources": [
+      "https://www.arredondoaccessories.com/product/rmr-mount-adapter-2/",
+      "https://www.speedshooter.com/product/arredondo-rmr-adapter-to-j-point-optic-pattern/"
+    ],
+
+    "name": {
+      "str": "Arredondo RMR adapter for JPoint mount"
+    },
+    "description": "TBD",
+
+    "weight": "43 g",
+    "//dimensions": {
+      "length": "1.78 in",
+      "width": "1.32 in",
+      "height": "0.52 in",
+      "raw": "20 ml",
+      "trim": 0,
+      "notes": [
+        "here, we assume dimensions of RM33",
+        "measuring the dimensions of this adapter has proven difficult, and the nature of the two items is similar enough"
+      ]
+    },
+    "volume": "20 ml",
+    "longest_side": "45 mm",
+
+    "location": "JPoint mount",
+
+    "add_mod": [["RMR mount", 1]],
+
+    "price": "39 USD"
   }
 ]
