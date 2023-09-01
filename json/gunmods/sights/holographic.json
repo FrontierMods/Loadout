@@ -4,7 +4,7 @@
     "copy-from": "sight_holo",
     "type": "GUNMOD",
 
-    "//source": ["https://www.eotechinc.com/eotech-hws-xps2"],
+    "//sources": ["https://www.eotechinc.com/eotech-hws-xps2"],
 
     "name": {
       "str": "EOTech XPS2 holographic sight"
