@@ -30,5 +30,48 @@
     },
 
     "price": "629 USD"
+  },
+
+  {
+    "id": "sight_vortex_uh1",
+    "copy-from": "sight_holo",
+    "type": "GUNMOD",
+
+    "//sources": [
+      "https://vortexoptics.com/vortex-amg-uh1-gen2-holographic-sight.html",
+      "https://www.bhphotovideo.com/c/product/1570039-REG/vortex_amg_hs02_amg_uh_1_gen_ii.html/specs",
+      "https://www.recoilweb.com/vortex-uh-1-gen-ii-review-170457.html"
+    ],
+
+    "//notes": ["has a 14-hour auto-shutoff feature"],
+
+    "name": {
+      "str": "Vortex Optics AMG UH-1 Gen II holographic sight"
+    },
+    "description": "TBD",
+
+    "weight": "329 g",
+    "//dimensions": {
+      "length": "3.88 in",
+      "width": "2.1 in",
+      "height": "2.65 in",
+      "raw": "356 ml",
+      "trim": 0.15,
+      "notes": [
+        "width likely to be slightly inaccurate, because the BH Photo & Video round up each dimensions to the first decimal, and overview of the sight in the manufacturer source suggests these dimensions may have a significant second decimal"
+      ]
+    },
+    "volume": "303 ml",
+    "longest_side": "99 mm",
+
+    "sight_dispersion": 4,
+
+    "//power": {
+      "source": [["CR123A"]],
+      "lifetime": "1500 h",
+      "notes": ["battery life estimated by RECOIL source"]
+    },
+
+    "price": "899 USD"
   }
 ]
