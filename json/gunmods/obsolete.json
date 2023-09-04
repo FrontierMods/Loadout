@@ -2,7 +2,7 @@
   {
     "type": "ITEM_BLACKLIST",
     "whitelist": false,
-    
+
     "items": [
       "hybrid_sight_4x",
       "rifle_scope_high_end_mount",
