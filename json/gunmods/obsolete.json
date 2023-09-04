@@ -9,6 +9,18 @@
       "u_shotgun",
       "stabilizer",
       "tail_hook_stock",
+      "sights_mount_launcher",
+
+      "barrel_small",
+      "retool_ar15_300blk",
+      "light_grip",
+      "glocksear",
+      "tec9_auto_parts",
+      "waterproof_gunmod",
+      "m249semi",
+      "m240semi",
+      "grip_mount",
+      "stock_mount",
 
       "muzzle_brake_mod",
       "gun_crossbow_mod",
@@ -50,6 +62,43 @@
         "since handedness (i.e. differentiation between which hand is being used) is currently not implemented, there's no way to really use this functionality",
         "beyond that, it's not even a full stock – it's a stock plate (or a stock hook, one would suppose) – and thus requires the rest of the tube to install onto, something that isn't currently implemented",
         "something like this would be a better fit for Gunsmith, with its intricate gunmod system overhaul"
+      ],
+      "sights_mount_launcher": [
+        "attaching a plastic mount with screws only makes sense for a small number of launchers",
+        "e.g. M79 (has wooden stock grip to drill into), China Lake launcher (likewise)",
+        "even then, their construction makes the installation likely to be flimsy",
+        "beyond that, research yields no authentic attempts at installing anything remotely similar"
+      ],
+
+      "barrel_small": [
+        "one of those 'replace thing into the ether' thing we're trying to avoid"
+      ],
+      "retool_ar15_300blk": [
+        "one of those 'replace thing into the ether' thing we're trying to avoid"
+      ],
+      "light_grip": [
+        "one of those 'replace thing into the ether' thing we're trying to avoid"
+      ],
+      "glocksear": [
+        "one of those 'replace thing into the ether' thing we're trying to avoid"
+      ],
+      "tec9_auto_parts": [
+        "one of those 'replace thing into the ether' thing we're trying to avoid"
+      ],
+      "waterproof_gunmod": [
+        "one of those 'replace thing into the ether' thing we're trying to avoid"
+      ],
+      "m249semi": [
+        "one of those 'replace thing into the ether' thing we're trying to avoid"
+      ],
+      "m240semi": [
+        "one of those 'replace thing into the ether' thing we're trying to avoid"
+      ],
+      "grip_mount": [
+        "one of those 'replace thing into the ether' thing we're trying to avoid"
+      ],
+      "stock_mount": [
+        "one of those 'replace thing into the ether' thing we're trying to avoid"
       ],
 
       "*_mod": [
