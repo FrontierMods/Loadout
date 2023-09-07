@@ -10,6 +10,7 @@
       "stabilizer",
       "tail_hook_stock",
       "sights_mount_launcher",
+      "underbarrel_mount",
 
       "barrel_small",
       "light_grip",
@@ -70,6 +71,11 @@
         "e.g. M79 (has wooden stock grip to drill into), China Lake launcher (likewise)",
         "even then, their construction makes the installation likely to be flimsy",
         "beyond that, research yields no authentic attempts at installing anything remotely similar"
+      ],
+      "underbarrel_mount": [
+        "presently obsoleted due to usefulness concerns",
+        "this could be reimagined as an interface adapter (e.g. M-LOK to Picatinny)",
+        "such would require an extensive rework of both weapons and attachments (none specifically target M-LOK or KeyMod right now)"
       ],
 
       "barrel_small": [
