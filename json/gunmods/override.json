@@ -1298,5 +1298,43 @@
     "mod_targets": ["remington_870", "remington_1100"],
 
     "price": "135 USD"
+  },
+
+  {
+    "id": "butt_hook",
+    "copy-from": "butt_hook",
+    "type": "GUNMOD",
+
+    "//sources": [
+      "https://tec-hro.de/schiesssport/en/butt-plate-hook-cap/278-buttplate-butt-plate-butt-plate-tec-hro-fusion.html",
+      "https://oberleenterprises.com/product/tec-hro-fusion-buttplate/",
+      "https://www.intershoot.co.uk/product/tec-hro-fusion-hook/",
+      "https://pardini.it/en/accessories/b653-pardini-butt-plate/"
+    ],
+
+    "name": { "str": "TEC-HRO Fusion butt hook plate" },
+    "//description": "TBD",
+
+    "//weight": [
+      "unknown, but definitely above 100 g",
+      "Intershoot source lists hook separately as 0.3 kg = 300 g",
+      "we extrapolate visually and put total weight of the plate and the hook at 800 g"
+    ],
+    "weight": "800 g",
+    "//dimensions": {
+      "length": "18.58 cm",
+      "width": "1.5 cm",
+      "height": "17.91 cm",
+      "raw": "499 ml",
+      "trim": 0.8,
+      "notes": [
+        "dimensions acquired visually from a similar product: B653 Pardini butt plate",
+        "width assumed from visuals"
+      ]
+    },
+    "volume": "100 ml",
+    "longest_side": "186 mm",
+
+    "price": "349 USD"
   }
 ]
