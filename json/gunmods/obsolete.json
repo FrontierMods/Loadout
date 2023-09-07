@@ -43,10 +43,11 @@
     "//notes": {
       "hybrid_sight_4x": [
         "assumed to be Trijicon ACOG sight with a mount for RMR",
+        "it's a popular model in the films, and is also favored by the military over offset sights",
         "effectively replaced with giving the fleshed-out ACOG a separate mount for RMR"
       ],
       "rifle_scope_high_end_mount": [
-        "replaced by a sight mount with a rail on top of one of the rings"
+        "replaced by JP Enterprises 30 mm sight mount, which features a top rail over the front ring that could fit a sight"
       ],
       "u_shotgun": [
         "this one appears to be pure fiction and is thus disposed with",
@@ -87,7 +88,8 @@
         "one of those 'replace thing into the ether' thing we're trying to avoid"
       ],
       "waterproof_gunmod": [
-        "one of those 'replace thing into the ether' thing we're trying to avoid"
+        "one of those 'replace thing into the ether' thing we're trying to avoid",
+        "besides, there appears to be nothing of the sort that's generic enough to apply to multiple weapons"
       ],
       "m249semi": [
         "one of those 'replace thing into the ether' thing we're trying to avoid"
