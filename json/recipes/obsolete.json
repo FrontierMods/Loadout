@@ -1,0 +1,25 @@
+[
+  {
+    "type": "recipe",
+    "result": "adjustable_stock",
+    "obsolete": true
+  },
+	
+	{
+    "type": "recipe",
+    "result": "pistol_grip",
+    "obsolete": true
+  },
+	
+	{
+    "type": "recipe",
+    "result": "folding_stock",
+    "obsolete": true
+  },
+	
+	{
+    "type": "recipe",
+    "result": "recoil_stock",
+    "obsolete": true
+  }
+]
