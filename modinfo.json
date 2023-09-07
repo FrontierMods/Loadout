@@ -14,7 +14,7 @@
 		
     "dependencies": [ 
       "dda", 
-      "frontier_mods" 
+      "frontier_core" 
     ], 
     
     "path": "json" 
