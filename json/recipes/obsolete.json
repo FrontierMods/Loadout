@@ -21,5 +21,23 @@
     "type": "recipe",
     "result": "recoil_stock",
     "obsolete": true
+  },
+	
+	{
+    "type": "recipe",
+    "result": "sights_mount",
+    "obsolete": true
+  },
+	
+	{
+    "type": "recipe",
+    "result": "underbarrel_mount",
+    "obsolete": true
+  },
+	
+	{
+    "type": "recipe",
+    "result": "rail_mount",
+    "obsolete": true
   }
 ]
