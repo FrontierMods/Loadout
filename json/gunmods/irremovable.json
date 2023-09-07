@@ -1,0 +1,65 @@
+[
+  {
+    "id": "adjustable_stock",
+    "copy-from": "adjustable_stock",
+    "type": "GUNMOD",
+
+    "extend": {
+      "flags": ["IRREMOVABLE"]
+    }
+  },
+  {
+    "id": "pistol_grip",
+    "copy-from": "pistol_grip",
+    "type": "GUNMOD",
+
+    "extend": {
+      "flags": ["IRREMOVABLE"]
+    }
+  },
+  {
+    "id": "match_trigger",
+    "copy-from": "match_trigger",
+    "type": "GUNMOD",
+
+    "extend": {
+      "flags": ["IRREMOVABLE"]
+    }
+  },
+  {
+    "id": "folding_stock",
+    "copy-from": "folding_stock",
+    "type": "GUNMOD",
+
+    "extend": {
+      "flags": ["IRREMOVABLE"]
+    }
+  },
+  {
+    "id": "high_end_folding_stock",
+    "copy-from": "high_end_folding_stock",
+    "type": "GUNMOD",
+
+    "extend": {
+      "flags": ["IRREMOVABLE"]
+    }
+  },
+  {
+    "id": "recoil_stock",
+    "copy-from": "recoil_stock",
+    "type": "GUNMOD",
+
+    "extend": {
+      "flags": ["IRREMOVABLE"]
+    }
+  },
+  {
+    "id": "retool_ar15_300blk",
+    "copy-from": "retool_ar15_300blk",
+    "type": "GUNMOD",
+
+    "extend": {
+      "flags": ["IRREMOVABLE"]
+    }
+  }
+]
