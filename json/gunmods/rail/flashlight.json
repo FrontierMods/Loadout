@@ -34,7 +34,7 @@
     "charges_per_use": 1,
     "ammo": ["battery"],
 
-    "flags": ["WATER_BREAK_ACTIVE", "HELMET_HEAD_ATTACHMENT"],
+    "flags": ["WATER_BREAK_ACTIVE"],
 
     "//interfaces": ["M-LOK"],
 
@@ -98,8 +98,7 @@
       "LIGHT_208",
       "CHARGEDIM",
       "TRADER_AVOID",
-      "WATER_BREAK",
-      "HELMET_HEAD_ATTACHMENT"
+      "WATER_BREAK"
     ]
   },
 
@@ -138,7 +137,7 @@
     "charges_per_use": 1,
     "ammo": ["battery"],
 
-    "flags": ["WATER_BREAK_ACTIVE", "HELMET_HEAD_ATTACHMENT"],
+    "flags": ["WATER_BREAK_ACTIVE"],
 
     "//interfaces": ["M-LOK"],
 
@@ -209,8 +208,7 @@
       "LIGHT_167",
       "CHARGEDIM",
       "TRADER_AVOID",
-      "WATER_BREAK",
-      "HELMET_HEAD_ATTACHMENT"
+      "WATER_BREAK"
     ]
   },
 
@@ -252,7 +250,7 @@
     "charges_per_use": 1,
     "ammo": ["battery"],
 
-    "flags": ["WATER_BREAK_ACTIVE", "HELMET_HEAD_ATTACHMENT"],
+    "flags": ["WATER_BREAK_ACTIVE"],
 
     "//interfaces": ["Picatinny"],
 
@@ -323,8 +321,7 @@
       "LIGHT_104",
       "CHARGEDIM",
       "TRADER_AVOID",
-      "WATER_BREAK",
-      "HELMET_HEAD_ATTACHMENT"
+      "WATER_BREAK"
     ]
   },
 
@@ -363,7 +360,7 @@
     "charges_per_use": 1,
     "ammo": ["battery"],
 
-    "flags": ["WATER_BREAK_ACTIVE", "HELMET_HEAD_ATTACHMENT"],
+    "flags": ["WATER_BREAK_ACTIVE"],
 
     "//interfaces": ["M-LOK"],
 
@@ -428,8 +425,7 @@
       "LIGHT_83",
       "CHARGEDIM",
       "TRADER_AVOID",
-      "WATER_BREAK",
-      "HELMET_HEAD_ATTACHMENT"
+      "WATER_BREAK"
     ]
   },
 
@@ -476,7 +472,7 @@
     "ammo": ["battery"],
 
     "//flags": "waterproof up to 20 meters, therefore no WATER_BREAK_ACTIVE",
-    "flags": ["HELMET_HEAD_ATTACHMENT"],
+    "flags": [],
 
     "//interfaces": ["Picatinny"],
 
@@ -545,8 +541,7 @@
     "flags": [
       "LIGHT_133",
       "CHARGEDIM",
-      "TRADER_AVOID",
-      "HELMET_HEAD_ATTACHMENT"
+      "TRADER_AVOID"
     ]
   },
 
@@ -593,7 +588,7 @@
     "ammo": ["battery"],
 
     "//flags": "waterproof up to 20 meters, therefore no WATER_BREAK_ACTIVE",
-    "flags": ["HELMET_HEAD_ATTACHMENT"],
+    "flags": [],
 
     "//interfaces": ["Picatinny"],
 
@@ -653,7 +648,7 @@
     },
 
     "//flags": "waterproof up to 20 meters, therefore no WATER_BREAK",
-    "flags": ["LIGHT_67", "CHARGEDIM", "TRADER_AVOID", "HELMET_HEAD_ATTACHMENT"]
+    "flags": ["LIGHT_67", "CHARGEDIM", "TRADER_AVOID"]
   },
 
   {
@@ -693,7 +688,7 @@
     "ammo": ["battery"],
 
     "//flags": "waterproof up to 200 feet, therefore no WATER_BREAK_ACTIVE",
-    "flags": ["HELMET_HEAD_ATTACHMENT"],
+    "flags": [],
 
     "//interfaces": ["M-LOK"],
 
@@ -759,8 +754,7 @@
     "flags": [
       "LIGHT_200",
       "CHARGEDIM",
-      "TRADER_AVOID",
-      "HELMET_HEAD_ATTACHMENT"
+      "TRADER_AVOID"
     ]
   },
 
@@ -799,7 +793,7 @@
     "charges_per_use": 1,
     "ammo": ["battery"],
 
-    "flags": ["WATER_BREAK_ACTIVE", "HELMET_HEAD_ATTACHMENT"],
+    "flags": ["WATER_BREAK_ACTIVE"],
 
     "//interfaces": ["Picatinny"],
 
@@ -868,8 +862,7 @@
       "LIGHT_225",
       "CHARGEDIM",
       "TRADER_AVOID",
-      "WATER_BREAK",
-      "HELMET_HEAD_ATTACHMENT"
+      "WATER_BREAK"
     ]
   },
 
@@ -910,7 +903,7 @@
     "ammo": ["battery"],
 
     "//flags": "rated IPX8, so we count this as waterproof",
-    "flags": ["HELMET_HEAD_ATTACHMENT"],
+    "flags": [],
 
     "//interfaces": ["Picatinny"],
 
@@ -975,8 +968,7 @@
     "flags": [
       "LIGHT_208",
       "CHARGEDIM",
-      "TRADER_AVOID",
-      "HELMET_HEAD_ATTACHMENT"
+      "TRADER_AVOID"
     ]
   }
 ]
