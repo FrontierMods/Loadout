@@ -337,6 +337,12 @@
 
     "//sources": ["https://www.jprifles.com/buy.php?item=JPFTSM-30/1"],
 
+    "//notes": [
+      "for the sake of player comfort AND our promise to replace gunmods, we'll pretend that this mount has a Picatinny rail",
+      "in reality, the top of the front ring can be replaced with a proprietary JPoint sight mount: https://jprifles.com/buy.php?item=JPA-SM30/1C",
+      "but who has time to figure out complex mounting mechanisms, there are two zombies behind you right now!!"
+    ],
+
     "name": {
       "str": "JP Enterprises 30mm ring mount"
     },
@@ -357,7 +363,7 @@
     "volume": "120 ml",
     "longest_side": "155 mm",
 
-    "add_mod": [["JPoint mount", 1]],
+    "add_mod": [["sights", 1]],
 
     "price": "335 USD"
   },
@@ -370,6 +376,12 @@
     "//sources": [
       "https://www.arredondoaccessories.com/product/rmr-mount-adapter-2/",
       "https://www.speedshooter.com/product/arredondo-rmr-adapter-to-j-point-optic-pattern/"
+    ],
+
+    "//notes": [
+      "we'll reuse this one in Gunsmith or something",
+      "for now, do not spawn it, since it is useless",
+      "see JP Enterprises 30 mm sight mount for reason of this item's existence"
     ],
 
     "name": {
