@@ -111,7 +111,7 @@
       "trim": 0.4
     },
     "volume": "196 ml",
-    "longest_side": "97 ml",
+    "longest_side": "97 mm",
 
     "sight_dispersion": 4,
     "//field_of_view": "29.9m @ 100yd",
@@ -164,7 +164,7 @@
       ]
     },
     "volume": "77 ml",
-    "longest_side": "83 ml",
+    "longest_side": "83 mm",
 
     "material": ["aluminum"],
 
@@ -328,7 +328,7 @@
       "trim": 0.25
     },
     "volume": "289 ml",
-    "longest_side": "84 ml",
+    "longest_side": "84 mm",
 
     "material": ["aluminum", "glass"],
 
