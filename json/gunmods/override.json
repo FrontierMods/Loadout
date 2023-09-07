@@ -1336,5 +1336,74 @@
     "longest_side": "186 mm",
 
     "price": "349 USD"
+  },
+
+  {
+    "id": "sights_mount_pistol",
+    "copy-from": "sights_mount_pistol",
+    "type": "GUNMOD",
+
+    "//sources": [
+      "https://www.umtactical.com/store/p36/UM3%28X%29_Sight_Mount.html",
+      "https://www.tactical-survivalist.com/um-tactical-um3-scope-mount-review/",
+      "https://www.shootingillustrated.com/content/um-tactical-um3-sight-mount/"
+    ],
+
+    "//notes": [
+      "has a list of pistol models it supports",
+      "the UM3(X) specifically is the model with the widest support",
+      "for now, we assume that any pistol with an underbarrel rail would comfortably install this mount",
+      "top rail has 6 slots"
+    ],
+
+    "name": { "str": "UM Tactical UM3(X) pistol sight mount" },
+    "//description": "TBD",
+
+    "weight": "71 g",
+    "//dimensions": {
+      "length": "3.50 in",
+      "width": "1.13 in",
+      "height": "2.84 in",
+      "raw": "184 ml",
+      "trim": 0.65,
+      "notes": [
+        "dimensions acquired from visual reference",
+        "trim is meant to accomodate both shape and hollow interior"
+      ]
+    },
+    "volume": "64 ml",
+    "longest_side": "89 mm",
+
+    "material": ["aluminum"],
+
+    "add_mod": [
+      ["sights", 1],
+      ["underbarrel", 1]
+    ],
+    "//install_time": [
+      "review says it installs in seconds",
+      "manufacturer says it installs in under 30 secs",
+      "we err on the side of caution by assuming 20 secs"
+    ],
+    "install_time": "20 s",
+    "//min_skills": "does not appear to require any special skill in gunsmithing",
+    "min_skills": [["gun", 1]],
+
+    "extend": {
+      "flags": ["DISABLE_SIGHTS"],
+      "//notes": [
+        "on most pistols, the top rail covers sights entirely",
+        "we pretend this is true for all models"
+      ]
+    },
+    "delete": {
+      "flags": ["INSTALL_DIFFICULT"],
+      "//notes": [
+        "installation is said to be very easy and quick",
+        "this is doubly true now that this item is not intended to be screwed on or in"
+      ]
+    },
+
+    "price": "130 USD"
   }
 ]
