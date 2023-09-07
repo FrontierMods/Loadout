@@ -20,6 +20,8 @@
       "m240semi",
       "grip_mount",
       "stock_mount",
+      "bipod_handguard",
+      "modern_handguard",
 
       "muzzle_brake_mod",
       "gun_crossbow_mod",
@@ -97,6 +99,12 @@
         "one of those 'replace thing into the ether' thing we're trying to avoid"
       ],
       "stock_mount": [
+        "one of those 'replace thing into the ether' thing we're trying to avoid"
+      ],
+      "bipod_handguard": [
+        "one of those 'replace thing into the ether' thing we're trying to avoid"
+      ],
+      "modern_handguard": [
         "one of those 'replace thing into the ether' thing we're trying to avoid"
       ],
 
