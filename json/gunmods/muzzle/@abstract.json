@@ -74,7 +74,10 @@
     "//longest_side": "a typical suppressor is 7 in. long",
     "longest_side": "178 mm",
 
-    "//damage_modifier": "average for a 7 in. suppressor",
+    "//damage_modifier": [
+      "average for a 7 in. suppressor",
+      "assumes the classic C:DDA '±1 dmg / 3 in' formula"
+    ],
     "damage_modifier": {
       "damage_type": "bullet",
       "amount": 2
@@ -82,6 +85,12 @@
     "loudness_modifier": -40,
     "//dispersion_modifier": "suppressors generally only have a minor effect on accuracy",
     "dispersion_modifier": 1,
+    "//handling_modifier": [
+      "while suppressors are known to add some degree of handling to the firearm, we're assuming that QD suppressors and their muzzle brake/flash hider counterparts even this value out between them, so we're not adding another modifier to a suppressor unless it mounts directly onto a thread",
+      "the default value is '+1 / 1 in', rounded",
+      "baseline is assumed to be 7 in."
+    ],
+    "handling_modifier": 7,
 
     "mod_targets": ["pistol", "smg", "rifle"],
 
