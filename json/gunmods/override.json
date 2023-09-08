@@ -394,6 +394,7 @@
     "//sound_lower": "130.4 dB w/ 5.56mm",
 
     "loudness_modifier": -50,
+    "handling_modifier": 8,
 
     "location": "SilencerCo direct thread mount",
 
@@ -444,6 +445,7 @@
     "//sound_lower": "141.3 dB w/ .300 BLK subsonic",
 
     "loudness_modifier": -25,
+    "handling_modifier": 5,
 
     "price": "499 USD"
   },
