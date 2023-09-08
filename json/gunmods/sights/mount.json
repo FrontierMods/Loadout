@@ -351,7 +351,7 @@
     ],
 
     "name": {
-      "str": "JP Enterprises 30mm ring mount"
+      "str": "JP Enterprises 30mm scope mount"
     },
     "description": "TBD",
 
@@ -370,7 +370,10 @@
     "volume": "120 ml",
     "longest_side": "155 mm",
 
-    "add_mod": [["sights", 1]],
+    "add_mod": [
+      ["sights", 1],
+      ["30mm scope mount", 1]
+    ],
 
     "price": "335 USD"
   },
