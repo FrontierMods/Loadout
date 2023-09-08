@@ -79,7 +79,7 @@
     "sight_dispersion": 1,
     "aim_speed": 32,
 
-    "location": "30mm mount",
+    "location": "30mm scope mount",
     "install_time": "30 s",
 
     "flags": ["ZOOM"]
@@ -95,7 +95,7 @@
     },
     "description": "idea of a 34mm scope",
 
-    "location": "34mm mount"
+    "location": "34mm scope mount"
   },
 
   {
