@@ -186,17 +186,30 @@
     "abstract": "iron_sights_abstract",
     "type": "GUNMOD",
 
+    "//sources": [
+      "https://www.wingtactical.com/accessories/optics-sights/sights/diamondhead-polymer-integrated-sighting-system-with-nitebrite/"
+    ],
+
     "name": {
       "str": "iron sights"
     },
     "description": "idea of a set of iron sights",
 
-    "weight": "100 g",
-    "//volume": "from dimensions of the source, rounded",
-    "//note": "width doubled to emulate both sights stacked together in the inventory",
-    "//source": "https://www.wingtactical.com/accessories/optics-sights/sights/diamondhead-polymer-integrated-sighting-system-with-nitebrite/",
-    "volume": "95 ml",
-    "longest_side": "63 mm",
+    "//weight": "1.2 oz + 1.35 oz = 2.55 oz ≈ 72 g",
+    "weight": "72 g",
+    "//dimensions": {
+      "length": "2.642 in",
+      "width": "1.24 in",
+      "height": "1.778 in",
+      "raw": "96 ml",
+      "trim": 0.35,
+      "//notes": [
+        "stats for raised sights",
+        "length doubled (1.321 × 2) to emulate both sights stacked together in the inventory"
+      ]
+    },
+    "volume": "62 ml",
+    "longest_side": "67 mm",
 
     "material": ["aluminum"],
 
