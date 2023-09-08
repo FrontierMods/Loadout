@@ -75,9 +75,9 @@
     },
     "description": "idea of a 30mm scope",
 
-    "//sight_dispersion": "0.5 MOA in quarter-MOA / 15 arc seconds per point",
-    "sight_dispersion": 2,
-    "aim_speed": 24,
+    "//sight_dispersion": "0.25 MOA in quarter-MOA / 15 arc seconds per point",
+    "sight_dispersion": 1,
+    "aim_speed": 32,
 
     "location": "30mm mount",
     "install_time": "30 s",
