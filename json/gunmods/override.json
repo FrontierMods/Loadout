@@ -368,11 +368,6 @@
     ],
     "integral_longest_side": "185 mm",
 
-    "damage_modifier": {
-      "damage_type": "bullet",
-      "amount": 2
-    },
-
     "//material": "also inconel",
     "material": ["titanium", "steel"],
 
@@ -393,6 +388,10 @@
 
     "//sound_lower": "130.4 dB w/ 5.56mm",
 
+    "damage_modifier": {
+      "damage_type": "bullet",
+      "amount": 2
+    },
     "loudness_modifier": -50,
     "handling_modifier": 8,
 
@@ -433,17 +432,16 @@
     "volume": "174 ml",
     "longest_side": "133 mm",
 
-    "damage_modifier": {
-      "damage_type": "bullet",
-      "amount": 1
-    },
-
     "material": ["steel"],
 
     "//calibers": ["9mm", "45ACP", "556", "300BLK"],
 
     "//sound_lower": "141.3 dB w/ .300 BLK subsonic",
 
+    "damage_modifier": {
+      "damage_type": "bullet",
+      "amount": 1
+    },
     "loudness_modifier": -25,
     "handling_modifier": 5,
 
