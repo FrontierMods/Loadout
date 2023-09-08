@@ -16,7 +16,10 @@
     },
     "description": "TBD",
 
-    "//weight": "manufacturer source says 2.72 oz ≈ 77 g, Wings Tactical says 1.51 oz ≈ 43 g",
+    "//weight": [
+      "manufacturer source says 2.72 oz ≈ 77 g",
+      "Wings Tactical says 1.51 oz ≈ 43 g"
+    ],
     "weight": "77 g",
     "//dimensions": {
       "length": "2.08 in",
@@ -74,7 +77,11 @@
     },
     "description": "TBD",
 
-    "//weight": "Amazon lists weight as 0.1 lbs ≈ 45 g, Tarkov lists it as ~20 g, the German reseller lists 55 g",
+    "//weight": [
+      "Amazon lists weight as 0.1 lbs ≈ 45 g",
+      "Tarkov lists it as ~20 g",
+      "the German reseller lists 55 g"
+    ],
     "weight": "55 g",
     "//dimensions": {
       "length": "1.78 in",
