@@ -28,7 +28,9 @@
       "bow",
       "crossbow",
       "launcher"
-    ]
+    ],
+
+    "flags": ["DISABLE_SIGHTS"]
   },
 
   {
@@ -41,9 +43,11 @@
     },
     "description": "idea of a red dot sight",
 
+    "//field_of_view": "small default value (`red_dot_sight`'s `field_of_view` × 0.6), since most of the red dot sights are small",
+    "field_of_view": 378,
     "//sight_dispersion": "3 MOA in quarter-MOA / 15 arc seconds per point",
     "sight_dispersion": 12,
-    "aim_speed": 6,
+    "aim_speed_modifier": 10,
 
     "add_mod": [["magnifier", 1]]
   },
@@ -58,9 +62,10 @@
     },
     "description": "idea of a holographic sight",
 
+    "field_of_view": 1000,
     "//sight_dispersion": "2 MOA in quarter-MOA / 15 arc seconds per point",
     "sight_dispersion": 8,
-    "aim_speed": 6,
+    "aim_speed_modifier": 12,
 
     "add_mod": [["magnifier", 1]]
   },
@@ -75,9 +80,12 @@
     },
     "description": "idea of a 30mm scope",
 
+    "//field_of_view": "what low-magnification scopes have @ 1× magnification",
+    "field_of_view": 1000,
     "//sight_dispersion": "0.25 MOA in quarter-MOA / 15 arc seconds per point",
     "sight_dispersion": 1,
-    "aim_speed": 32,
+    "//aim_speed_modifier": "emulates having to aim that much more carefully with a sight this precise",
+    "aim_speed_modifier": 0,
 
     "location": "30mm scope mount",
     "install_time": "30 s",
@@ -127,7 +135,9 @@
       "bow",
       "crossbow",
       "launcher"
-    ]
+    ],
+
+    "flags": ["DISABLE_SIGHTS"]
   },
 
   {
@@ -225,7 +235,10 @@
 
     "//sight_dispersion": "8 MOA in quarter-MOA / 15 arc seconds per point",
     "sight_dispersion": 32,
-    "aim_speed": 8
+    "//aim_speed_modifier": "minor bonus for better-than-default sights",
+    "aim_speed_modifier": 2,
+
+    "flags": ["DISABLE_SIGHTS"]
   },
 
   {
@@ -246,9 +259,10 @@
     "//add_mod": "reset adding another sight location for pistols",
     "add_mod": [],
 
-    "//sight_dispersion": "8 MOA in quarter-MOA / 15 arc seconds per point",
-    "sight_dispersion": 32,
-    "aim_speed": 8
+    "//sight_dispersion": "4 MOA in quarter-MOA / 15 arc seconds per point",
+    "sight_dispersion": 16,
+    "//aim_speed_modifier": "for pistols, custom sights probably allow much-quicker aiming",
+    "aim_speed_modifier": 4
   },
 
   {
@@ -269,7 +283,8 @@
       "assumes 3× magnification on a 2 MoA dot in front of the magnifier"
     ],
     "sight_dispersion": 24,
-    "aim_speed": 2,
+    "//aim_speed_modifier": "compensating for high sight dispersion",
+    "aim_speed_modifier": 12,
 
     "location": "magnifier"
   }
