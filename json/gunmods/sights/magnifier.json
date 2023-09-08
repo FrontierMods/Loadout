@@ -87,14 +87,17 @@
     "copy-from": "magnifier_abstract",
     "type": "GUNMOD",
 
-    "//sources": ["https://vortexoptics.com/vortex-micro-3x-magnifier.html"],
+    "//sources": [
+      "https://vortexoptics.com/vortex-micro-3x-magnifier.html",
+      "https://gritroutdoors.com/vortex-micro-3x-magnifier-v3xm"
+    ],
 
     "name": {
       "str": "Vortex Micro 3× sight magnifier"
     },
     "//description": "TBD",
 
-    "//weight": ["with mount", "6.9 oz ≈ 195 g without"],
+    "//weight": ["9.55 oz ≈ 271 g with mount", "6.9 oz ≈ 196 g without"],
     "weight": "271 g",
     "//dimensions": {
       "length": "74.00 mm",
