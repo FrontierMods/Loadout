@@ -216,8 +216,10 @@
     "symbol": ":",
     "color": "dark_gray",
 
-    "location": "iron sights",
-    "install_time": "2 m",
+    "location": "sights",
+    "install_time": "30 s",
+    "//add_mod": "emulates possibly having another sight, e.g. a red dot sight, along with iron sights",
+    "add_mod": [["sights", 1]],
 
     "mod_targets": ["rifle", "smg", "shotgun", "crossbow", "launcher"],
 
@@ -241,6 +243,8 @@
     "longest_side": "5 mm",
 
     "mod_targets": ["pistol"],
+    "//add_mod": "reset adding another sight location for pistols",
+    "add_mod": [],
 
     "//sight_dispersion": "8 MOA in quarter-MOA / 15 arc seconds per point",
     "sight_dispersion": 32,
