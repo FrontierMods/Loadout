@@ -171,7 +171,8 @@
     "sight_dispersion": 12,
     "//field_of_view": [
       "52 feet @ 100 yards",
-      "assumed from a Pinty sight that looks remarkably like the NcSTAR one, none available for the original"
+      "assumed from a Pinty sight that looks remarkably like the NcSTAR one",
+      "no stats available for the original"
     ],
     "field_of_view": 594,
 
@@ -410,7 +411,9 @@
     ],
 
     "//notes": [
-      "technically mounts on a QD device, but given that the source has no separate information about, we'll pretend it's a direct-thread mount"
+      "technically mounts on a QD device, but given that the source has no separate information about, we'll pretend it's a direct-thread mount",
+      "for what it's worth, visual reference reveals the QD device to ~2.035 in., a few hairs above the length of a .308 casing",
+      "https://bkingsfirearms.com/shop/suppressors/witt-machine-and-tool-co-mod-1-quick-disconnect-ultra-compact-suppressor-1-2x28/"
     ],
 
     "name": {
@@ -501,13 +504,13 @@
     "copy-from": "muzzle_brake",
     "type": "GUNMOD",
 
-    "//note": "assumes the 5.56mm model",
-
     "//sources": [
       "https://www.surefire.com/procomp/",
       "https://www.thetruthaboutguns.com/556-muzzle-device-shootout/",
       "https://www.calguns.net/calgunforum/showthread.php?t=1276996"
     ],
+
+    "//notes": ["assumes the 5.56mm model"],
 
     "name": {
       "str": "SureFire Procomp muzzle brake"
