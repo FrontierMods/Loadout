@@ -119,9 +119,7 @@
     },
     "description": "TBD",
 
-    "weight": "72 g",
-    "volume": "48 ml",
-    "longest_side": "65 mm",
+    "//dimensions": "duplicate abstract",
 
     "material": ["plastic"],
 
