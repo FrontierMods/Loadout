@@ -216,7 +216,7 @@
 
     "material": ["titanium", "steel"],
 
-    "//thread": "5/8×24",
+    "//threads": ["5/8×24"],
 
     "//calibers": [
       "223",
