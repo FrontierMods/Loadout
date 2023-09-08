@@ -804,6 +804,14 @@
     "//material": "steel is presumed to be the material for the hinge",
     "material": ["nylon", "steel"],
 
+    "//mod_targets": [
+      "removes pistols from possible targets because",
+      "(1) the catcher is just too large for a regular pistol",
+      "(2) it would likely prevent a pistol from functioning correctly, given that the slide has to move",
+      "(so either the catcher's nylon latch cuts, or the slide is slowed down, thus not ejecting or chambering correctly)"
+    ],
+    "mod_targets": ["shotgun", "smg", "rifle", "launcher"],
+
     "pocket_data": [
       {
         "pocket_type": "CONTAINER",
