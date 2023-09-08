@@ -10,6 +10,7 @@
       "stabilizer",
       "tail_hook_stock",
       "sights_mount_launcher",
+      "gun_crossbow",
 
       "barrel_small",
       "light_grip",
@@ -70,6 +71,10 @@
         "e.g. M79 (has wooden stock grip to drill into), China Lake launcher (likewise)",
         "even then, their construction makes the installation likely to be flimsy",
         "beyond that, research yields no authentic attempts at installing anything remotely similar"
+      ],
+      "gun_crossbow": [
+        "this item appears to be pure fiction",
+        "besides, mounting a crossbow powerful-enough to be effective under the barrel (let alone on a side rail) of a rifle would likely make the gun (1) much too heavy, (2) much too unwieldy (due to balance issues), (3) not fit into any possible holster or case"
       ],
 
       "barrel_small": [
