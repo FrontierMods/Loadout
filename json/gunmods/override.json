@@ -811,6 +811,7 @@
       "(so either the catcher's nylon latch cuts, or the slide is slowed down, thus not ejecting or chambering correctly)"
     ],
     "mod_targets": ["shotgun", "smg", "rifle", "launcher"],
+    "install_time": "10 s",
 
     "pocket_data": [
       {
