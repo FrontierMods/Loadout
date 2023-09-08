@@ -253,7 +253,7 @@
     "//field_of_view": "36.8 ft @ 100 yards @ 3× magnification",
     "field_of_view": 421,
 
-    "location": "34 mm scope mount",
+    "location": "34mm scope mount",
 
     "//power": {
       "source": "CR2032",
