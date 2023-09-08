@@ -54,6 +54,7 @@
     },
     "description": "TBD",
 
+    "//weight": "0.94 oz + 1.45 oz = 2.39 oz ≈ 68 g",
     "weight": "68 g",
 
     "material": ["aluminum", "steel"],
@@ -214,8 +215,10 @@
     "description": "TBD",
 
     "weight": "71 g",
-    "//volume": "width assumed from previous entry",
-    "//volume2": "slightly inaccurate, since it assumes total height is height from top of rail to aperture",
+    "//volume": [
+      "width assumed from previous entry",
+      "slightly inaccurate, since it assumes total height is height from top of rail to aperture"
+    ],
     "volume": "88 ml",
     "longest_side": "76 mm",
 
@@ -241,8 +244,10 @@
     "description": "TBD",
 
     "weight": "94 g",
-    "//volume": "width and length assumed from previous entry",
-    "//volume2": "slightly inaccurate, since it assumes total height is height from top of rail to aperture",
+    "//volume": [
+      "width and length assumed from previous entry",
+      "slightly inaccurate, since it assumes total height is height from top of rail to aperture"
+    ],
     "volume": "87 ml",
     "longest_side": "76 mm",
 
