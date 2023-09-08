@@ -771,45 +771,54 @@
     "type": "GUNMOD",
 
     "//sources": [
-      "https://www.amazon.com/Caldwell-Brass-Catcher-Picatinny-Resistant/dp/B00EB5OU0Q",
-      "https://www.caldwellshooting.com/range-gear/brass-catchers/ar-pic-rail-brass-catcher/530143.html"
+      "https://www.caldwellshooting.com/range-gear/brass-catchers/universal-brass-catcher/110038.html",
+      "https://www.amazon.com/Caldwell-Universal-Resistant-Convenient-Collection/dp/B07795P5MK",
+      "https://www.midwayusa.com/product/1019605476"
     ],
 
     "//notes": [
       "the nylon catcher part is not technically rigid, but it's shaped enough by the metal skeleton to effectively retain its shape throughout the filling process"
     ],
 
-    "name": { "str": "Caldwell AR-15 brass catcher" },
+    "name": { "str": "Caldwell universal brass catcher" },
     "//description": "TBD",
 
-    "weight": "136 g",
+    "weight": "200 g",
     "//dimensions": {
-      "length": "4.5 in",
-      "width": "5.5 in",
-      "height": "3.5 in",
-      "raw": "1420 ml",
-      "trim": 0.2
+      "length": "5 in",
+      "width": "2.75 in",
+      "height": "5 in",
+      "raw": "1127 ml",
+      "trim": 0.4,
+      "notes": [
+        "a review on MidwayUSA says the opening (the window through which spent cases drop into the bag) is about 2.5 × 6 in.",
+        "from these dimensions, we can assume the length of the entire catcher is 6 in.",
+        "we can also assume that height is 2 × 2.5 in. = 5 in.",
+        "width/depth seems to be roughly the height of the opening, so 2.5 in. as well",
+        "we add another 0.25 in. to width to account for the hinge and the straps"
+      ]
     },
-    "volume": "1136 ml",
-    "longest_side": "140 mm",
+    "volume": "676 ml",
+    "longest_side": "127 mm",
 
-    "material": ["nylon"],
+    "//material": "steel is presumed to be the material for the hinge",
+    "material": ["nylon", "steel"],
 
-    "//mod_targets": "this version is crucially only usable on the AR-15 platform because of its unique charging handle positioning",
-    "mod_targets": [
-      "ar15",
-      "ar_pistol",
-      "m27_assault_rifle",
-      "m4_carbine",
-      "m16a4",
-      "m16_auto_rifle",
-      "m231pfw",
-      "ar15_retool_300blk",
-      "hk417_13",
-      "mk47"
+    "pocket_data": [
+      {
+        "pocket_type": "CONTAINER",
+        "rigid": true,
+        "//max_contains_volume": [
+          "this catcher is rated for 100 .223/5.56mm casings",
+          "visually, it seems as though only 45% of the catcher's overall capacity is devoted to the casings",
+          "this would prevent new casins from overflowing back towards the bolt, potentially jamming the gun"
+        ],
+        "max_contains_volume": "304 ml",
+        "max_contains_weight": "1 kg"
+      }
     ],
 
-    "price": "40 USD"
+    "price": "30 USD"
   },
 
   {
