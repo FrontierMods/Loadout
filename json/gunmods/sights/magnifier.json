@@ -18,14 +18,16 @@
     "//weight": "manufacturer source says the weight is 13 oz ≈ 369 g, OpticsTrade says 374 g",
     "weight": "369 g",
     "//dimensions": {
-      "length": "117 mm",
-      "width": "73.5 mm",
-      "height": "24 mm",
-      "raw": "206 ml",
+      "length": "117.00 mm",
+      "width": "73.50 mm",
+      "height": "44.50 mm",
+      "raw": "383 ml",
       "trim": 0.35,
-      "notes": ["height assumed from Picatinny rail width × 1.125"]
+      "notes": [
+        "height assumed to be absolute co-witness height (1.46 in.) × 1.2"
+      ]
     },
-    "volume": "134 ml",
+    "volume": "249 ml",
     "longest_side": "117 mm",
 
     "material": ["plastic", "glass"],
@@ -55,14 +57,16 @@
 
     "weight": "335 g",
     "//dimensions": {
-      "length": "104 mm",
-      "width": "44 mm",
-      "height": "24 mm",
-      "raw": "110 ml",
+      "length": "104.00 mm",
+      "width": "44.00 mm",
+      "height": "44.50 mm",
+      "raw": "204 ml",
       "trim": 0.4,
-      "notes": ["height assumed from Picatinny rail width × 1.125"]
+      "notes": [
+        "height assumed to be absolute co-witness height (1.46 in.) × 1.2"
+      ]
     },
-    "volume": "66 ml",
+    "volume": "122 ml",
     "longest_side": "104 mm",
 
     "material": ["plastic", "glass"],
@@ -93,14 +97,16 @@
     "//weight": ["with mount", "6.9 oz ≈ 195 g without"],
     "weight": "271 g",
     "//dimensions": {
-      "length": "74 mm",
-      "width": "44 mm",
-      "height": "24 mm",
-      "raw": "78 ml",
+      "length": "74.00 mm",
+      "width": "44.00 mm",
+      "height": "44.50 mm",
+      "raw": "145 ml",
       "trim": 0.4,
-      "notes": ["height assumed from Picatinny rail width × 1.125"]
+      "notes": [
+        "height assumed to be absolute co-witness height (1.46 in.) × 1.2"
+      ]
     },
-    "volume": "45 ml",
+    "volume": "87 ml",
     "longest_side": "74 mm",
 
     "material": ["plastic", "glass"],
