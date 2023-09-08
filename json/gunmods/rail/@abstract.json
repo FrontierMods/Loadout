@@ -28,7 +28,9 @@
       "bow",
       "crossbow",
       "launcher"
-    ]
+    ],
+
+    "flags": ["LASER_SIGHT"]
   },
 
   {
