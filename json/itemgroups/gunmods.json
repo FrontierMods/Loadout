@@ -3,9 +3,15 @@
     "type": "item_group",
     "id": "gunmod_common",
 
-    "//notes": [
-      "removed `pistol_grip`: spawns as a built-in mod for some weapons, but shouldn't be installable onto others",
-      "removed `match_trigger`: spawns as a built-in mod for some weapons, but shouldn't be installable onto others"
+    "//removed": [
+      [
+        "pistol_grip",
+        "spawns as a built-in mod for some weapons, but shouldn't be installable onto others"
+      ],
+      [
+        "match_trigger",
+        "spawns as a built-in mod for some weapons, but shouldn't be installable onto others"
+      ]
     ],
 
     "items": [
@@ -28,14 +34,34 @@
     "type": "item_group",
     "id": "gunmod_rare",
 
-    "//notes": [
-      "removed `barrel_ported`: comes pre-installed on some guns, but isn't meant to be an item that can be carried",
-      "having `barrel_ported` to be craftable on the gun itself (as opposed to an abstract object) would be a great compromise",
-      "removed `folding_stock`: spawns as a built-in mod for some weapons, but shouldn't be installable onto others",
-      "removed `high_end_folding_stock`: spawns as a built-in mod for some weapons, but shouldn't be installable onto others",
-      "removed `recoil_stock`: spawns as a built-in mod for some weapons, but shouldn't be installable onto others",
-      "removed `retool_ar15_300blk`: spawns as a built-in mod for some weapons, but shouldn't be installable onto others",
-      "removed `adjustable_stock`: spawns as a built-in mod for some weapons, but shouldn't be installable onto others"
+    "//removed": [
+      [
+        "barrel_ported",
+        [
+          "comes pre-installed on some guns, but isn't meant to be an item that can be carried",
+          "having `barrel_ported` to be craftable on the gun itself (as opposed to an abstract object) would be a great compromise"
+        ]
+      ],
+      [
+        "folding_stock",
+        "spawns as a built-in mod for some weapons, but shouldn't be installable onto others"
+      ],
+      [
+        "high_end_folding_stock",
+        "spawns as a built-in mod for some weapons, but shouldn't be installable onto others"
+      ],
+      [
+        "recoil_stock",
+        "spawns as a built-in mod for some weapons, but shouldn't be installable onto others"
+      ],
+      [
+        "retool_ar15_300blk",
+        "spawns as a built-in mod for some weapons, but shouldn't be installable onto others"
+      ],
+      [
+        "adjustable_stock",
+        "spawns as a built-in mod for some weapons, but shouldn't be installable onto others"
+      ]
     ],
 
     "items": [
