@@ -4,7 +4,10 @@
     "copy-from": "sight_holo",
     "type": "GUNMOD",
 
-    "//sources": ["https://www.eotechinc.com/eotech-hws-xps2"],
+    "//sources": [
+      "https://www.eotechinc.com/eotech-hws-xps2",
+      "https://www.eotechinc.com/media/wysiwyg/Product/Product_Manual/XP1956_XPS2_HWS_user_Manual_Rev_B.pdf"
+    ],
 
     "name": {
       "str": "EOTech XPS2 holographic sight"
@@ -23,6 +26,8 @@
     "longest_side": "97 mm",
 
     "sight_dispersion": 4,
+    "field_of_view": 1024,
+    "aim_speed_modifier": 12,
 
     "//power": {
       "source": [["CR123"]],
@@ -40,7 +45,8 @@
     "//sources": [
       "https://vortexoptics.com/vortex-amg-uh1-gen2-holographic-sight.html",
       "https://www.bhphotovideo.com/c/product/1570039-REG/vortex_amg_hs02_amg_uh_1_gen_ii.html/specs",
-      "https://www.recoilweb.com/vortex-uh-1-gen-ii-review-170457.html"
+      "https://www.recoilweb.com/vortex-uh-1-gen-ii-review-170457.html",
+      "https://www.badassoptic.com/review-vortex-razor-amg-uh-1-gen-2-holographic-sight/"
     ],
 
     "//notes": ["has a 14-hour auto-shutoff feature"],
@@ -65,6 +71,9 @@
     "longest_side": "99 mm",
 
     "sight_dispersion": 4,
+    "//field_of_view": "BadassOptic review says FOV of this sight is comparable to an EOTech sight, but possibly slightly worse",
+    "field_of_view": 922,
+    "aim_speed_modifier": 12,
 
     "//power": {
       "source": [["CR123A"]],
