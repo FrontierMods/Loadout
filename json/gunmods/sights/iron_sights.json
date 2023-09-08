@@ -28,7 +28,8 @@
     ],
 
     "name": {
-      "str": "Ultradyne C4 iron sights"
+      "str": "Ultradyne C4 iron sights",
+      "str_pl": "pairs of Ultradyne C4 iron sights"
     },
     "description": "TBD",
 
@@ -50,7 +51,8 @@
     ],
 
     "name": {
-      "str": "Scalarworks PEAK iron sights"
+      "str": "Scalarworks PEAK iron sights",
+      "str_pl": "pairs of Scalarworks PEAK iron sights"
     },
     "description": "TBD",
 
@@ -73,7 +75,8 @@
     ],
 
     "name": {
-      "str": "SI Sidewinder II offset iron sights"
+      "str": "SI Sidewinder II offset iron sights",
+      "str_pl": "pairs of SI Sidewinder II offset iron sights"
     },
     "description": "TBD",
 
@@ -94,7 +97,8 @@
     ],
 
     "name": {
-      "str": "SI Sidewinder offset iron sights"
+      "str": "SI Sidewinder offset iron sights",
+      "str_pl": "pairs of SI Sidewinder offset iron sights"
     },
     "description": "TBD",
 
@@ -115,11 +119,12 @@
     ],
 
     "name": {
-      "str": "Diamondhead iron sights"
+      "str": "Diamondhead iron sights",
+      "str_pl": "pairs of Diamondhead iron sights"
     },
     "description": "TBD",
 
-    "//dimensions": "duplicate abstract",
+    "//dimensions": "duplicates the abstract",
 
     "material": ["plastic"],
 
@@ -136,7 +141,8 @@
     ],
 
     "name": {
-      "str": "Ultradyne C2 iron sights"
+      "str": "Ultradyne C2 iron sights",
+      "str_pl": "pairs of Ultradyne C2 iron sights"
     },
     "description": "TBD",
 
@@ -158,7 +164,8 @@
     ],
 
     "name": {
-      "str": "Spike's Tactical micro iron sights"
+      "str": "Spike's Tactical micro iron sights",
+      "str_pl": "pairs of Spike's Tactical micro iron sights"
     },
     "description": "TBD",
 
@@ -183,7 +190,8 @@
     ],
 
     "name": {
-      "str": "Troy Industries iron sights"
+      "str": "Troy Industries iron sights",
+      "str_pl": "pairs of Troy Industries iron sights"
     },
     "description": "TBD",
 
@@ -208,7 +216,8 @@
     ],
 
     "name": {
-      "str": "Magpul MBUS iron sights"
+      "str": "Magpul MBUS iron sights",
+      "str_pl": "pairs of Magpul MBUS iron sights"
     },
     "description": "TBD",
 
@@ -237,7 +246,8 @@
     ],
 
     "name": {
-      "str": "Magpul MBUS Pro iron sights"
+      "str": "Magpul MBUS Pro iron sights",
+      "str_pl": "pairs of Magpul MBUS Pro iron sights"
     },
     "description": "TBD",
 
