@@ -7,19 +7,7 @@
 
   {
     "type": "recipe",
-    "result": "pistol_grip",
-    "obsolete": true
-  },
-
-  {
-    "type": "recipe",
     "result": "folding_stock",
-    "obsolete": true
-  },
-
-  {
-    "type": "recipe",
-    "result": "recoil_stock",
     "obsolete": true
   },
 
@@ -38,6 +26,102 @@
   {
     "type": "recipe",
     "result": "rail_mount",
+    "obsolete": true
+  },
+
+  {
+    "type": "recipe",
+    "result": "arredondo_chute",
+    "obsolete": true
+  },
+
+  {
+    "type": "recipe",
+    "result": "improve_sights",
+    "obsolete": true
+  },
+
+  {
+    "type": "recipe",
+    "result": "offset_sights",
+    "obsolete": true
+  },
+
+  {
+    "type": "recipe",
+    "result": "sights_mount_pistol",
+    "obsolete": true
+  },
+
+  {
+    "type": "recipe",
+    "result": "shoulder_strap",
+    "obsolete": true
+  },
+
+  {
+    "type": "recipe",
+    "result": "suppressor",
+    "obsolete": true
+  },
+
+  {
+    "type": "recipe",
+    "result": "brass_catcher",
+    "obsolete": true
+  },
+
+  {
+    "type": "recipe",
+    "result": "folding_stock",
+    "obsolete": true
+  },
+
+  {
+    "type": "recipe",
+    "result": "barrel_ported",
+    "obsolete": true
+  },
+
+  {
+    "type": "recipe",
+    "result": "bipod",
+    "obsolete": true
+  },
+
+  {
+    "type": "recipe",
+    "result": "grip",
+    "obsolete": true
+  },
+
+  {
+    "type": "recipe",
+    "result": "muzzle_brake",
+    "obsolete": true
+  },
+
+  {
+    "type": "recipe",
+    "result": "pistol_grip",
+    "obsolete": true
+  },
+
+  {
+    "type": "recipe",
+    "result": "pistol_stock",
+    "obsolete": true
+  },
+
+  {
+    "type": "recipe",
+    "result": "recoil_stock",
+    "obsolete": true
+  },
+
+  {
+    "type": "recipe",
+    "result": "choke",
     "obsolete": true
   }
 ]
