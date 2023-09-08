@@ -120,11 +120,6 @@
     "//integral_longest_side": "being direct-thread-mounted, absorbs the regular 16 mm of threading on a 1/2 in. × 28-threaded barrel",
     "integral_longest_side": "213 mm",
 
-    "damage_modifier": {
-      "damage_type": "bullet",
-      "amount": 3
-    },
-
     "material": ["titanium", "steel"],
 
     "//calibers": [
@@ -141,6 +136,10 @@
 
     "//sound_lower": "135 dB @ 20 in. w/ .308",
 
+    "damage_modifier": {
+      "damage_type": "bullet",
+      "amount": 3
+    },
     "loudness_modifier": -45,
     "//handling_modifier": "currently presumed to mount directly onto the thread, thus earning a bonus to handling",
     "handling_modifier": 7,
