@@ -255,10 +255,11 @@
     "//add_mod": "emulates possibly having another sight, e.g. a red dot sight, along with iron sights",
     "add_mod": [["sights", 1]],
 
-    "mod_targets": ["rifle", "smg", "shotgun", "crossbow", "launcher"],
+    "mod_targets": ["rifle", "smg", "shotgun", "launcher"],
 
-    "//sight_dispersion": "8 MOA in quarter-MOA / 15 arc seconds per point",
-    "sight_dispersion": 32,
+    "field_of_view": 360,
+    "//sight_dispersion": "6 MOA in quarter-MOA / 15 arc seconds per point",
+    "sight_dispersion": 24,
     "//aim_speed_modifier": "minor bonus for better-than-default sights",
     "aim_speed_modifier": 2,
 
