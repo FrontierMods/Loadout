@@ -92,9 +92,14 @@
     ],
     "handling_modifier": 7,
 
+    "//consume_divisor": "default taken from base-game `suppressor`",
+    "consume_divisor": 840,
+
     "mod_targets": ["pistol", "smg", "rifle"],
 
-    "add_mod": [["suppressor cover", 1]]
+    "add_mod": [["suppressor cover", 1]],
+
+    "flags": ["CONSUMABLE"]
   },
 
   {

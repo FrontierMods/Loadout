@@ -32,6 +32,8 @@
 
     "loudness_modifier": -45,
 
+    "consume_divisor": 860,
+
     "location": "SureFire muzzle mount",
 
     "price": "1199 USD"
@@ -84,6 +86,8 @@
     "//sound_lower": "137 dB @ 20 in. w/ .308",
 
     "loudness_modifier": -40,
+
+    "consume_divisor": 1020,
 
     "location": "Thunder Beast SR mount",
 
@@ -144,6 +148,8 @@
     "//handling_modifier": "currently presumed to mount directly onto the thread, thus earning a bonus to handling",
     "handling_modifier": 7,
 
+    "consume_divisor": 960,
+
     "price": "1290 USD"
   },
 
@@ -181,6 +187,8 @@
     "//sound_reduction": "32 dB",
 
     "loudness_modifier": -40,
+
+    "consume_divisor": 800,
 
     "location": "Silent Legion muzzle mount",
 
@@ -234,6 +242,8 @@
     "loudness_modifier": -45,
     "handling_modifier": 7,
 
+    "consume_divisor": 920,
+
     "price": "999 USD"
   },
 
@@ -277,6 +287,8 @@
 
     "loudness_modifier": -30,
     "handling_modifier": 7,
+
+    "consume_divisor": 820,
 
     "price": "1035 USD"
   },
@@ -323,6 +335,8 @@
     "//loudness_modifier2": "anecdotal evidence suggests that this suppressor is not that effective, though video tests show quite the opposite",
     "loudness_modifier": -25,
     "handling_modifier": 5,
+
+    "consume_divisor": 740,
 
     "price": "399 USD"
   }
