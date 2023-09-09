@@ -1439,5 +1439,44 @@
     },
 
     "price": "130 USD"
+  },
+
+  {
+    "id": "single_sling",
+    "copy-from": "single_sling",
+    "type": "GUNMOD",
+
+    "//sources": [
+      "https://magpul.com/ms3-single-qd-sling-gen-2.html",
+      "https://gunfire.com/en/products/ms3-r-single-qd-sling-gen-2-ranger-green-1152218760.html"
+    ],
+
+    "name": { "str": "Magpul MS3 single-point rifle sling" },
+    "//description": "TBD",
+
+    "weight": "240 g",
+    "//dimensions": {
+      "length": "48 in",
+      "width": "1.25 in",
+      "height": "0.05 in",
+      "raw": "49 ml",
+      "trim": -0.1,
+      "notes": [
+        "for slickness' sake, we assume the shortest overall length of 48 in.",
+        "height/thickness is presumed"
+      ]
+    },
+    "volume": "54 ml",
+    "//longest_side": [
+      "assumes it's folded three times when carried",
+      "48 in. ≈ 1219 mm / 8 = 152.375 mm ≈ 152 mm"
+    ],
+    "longest_side": "152 mm",
+
+    "material": ["nylon", "steel", "plastic"],
+
+    "install_time": "10 s",
+
+    "price": "60 USD"
   }
 ]
