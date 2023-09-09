@@ -9,7 +9,7 @@
     "name": {
       "str": "SureFire SOCOM556-RC2 suppressor"
     },
-    "description": "TBD",
+    "description": "A popular and capable suppressor, it reduces report (i.e., loudness of shot) by a considerable amount, though far from muffling the sound completely.  This model is rated for 5.56mm NATO.  Being somewhat shorter than most suppressors, it cannot accept suppressor covers.  This one also cannot be mounted directly onto muzzle threading.  Instead, it mounts onto a SOCOM muzzle brake, also from SureFire.  The main purpose of a suppressor is to reduce report to safe levels, allowing the shooter to sustain fire without damaging their hearing.",
 
     "weight": "482 g",
     "//dimensions": {
@@ -28,7 +28,7 @@
 
     "//calibers": ["556"],
 
-    "//sound_lower": "134 dB @ 16 in. w/ 5.56mm M855",
+    "//sound_lower": "134.70 dB @ 16 in. w/ 5.56mm M855",
 
     "loudness_modifier": -45,
 
@@ -52,7 +52,7 @@
     "name": {
       "str": "Thunder Beast Arms Dominus-SR suppressor"
     },
-    "description": "TBD",
+    "description": "A large, potent suppressor, it reduces report (i.e., loudness of shot) by a considerable amount, though far from muffling the sound completely.  This model is rated for a wide variety of rifle cartridges, from 5.56mm NATO to .308 Winchester Magnum.  It cannot be mounted directly onto muzzle threading.  Instead, it mounts onto the SR muzzle brake, also from Thunder Beast Arms.  The main purpose of a suppressor is to reduce report to safe levels, allowing the shooter to sustain fire without damaging their hearing.",
 
     "weight": "354 g",
     "//dimensions": {
@@ -85,7 +85,7 @@
 
     "//sound_lower": "137 dB @ 20 in. w/ .308",
 
-    "loudness_modifier": -40,
+    "loudness_modifier": -50,
 
     "consume_divisor": 1020,
 
@@ -109,7 +109,7 @@
     "name": {
       "str": "Thunder Beast Arms Ultra 9 Gen 2 suppressor"
     },
-    "description": "TBD",
+    "description": "A slim yet capable suppressor, it reduces report (i.e., loudness of shot) by a considerable amount, though far from muffling the sound completely.  This model is rated for a wide variety of rifle cartridges, from 5.56mm NATO to .308 Winchester Magnum.  It mounts directly onto muzzle threading, without requiring an adapter.  The main purpose of a suppressor is to reduce report to safe levels, allowing the shooter to sustain fire without damaging their hearing.",
 
     "weight": "335 g",
     "//dimensions": {
@@ -144,7 +144,7 @@
       "damage_type": "bullet",
       "amount": 3
     },
-    "loudness_modifier": -45,
+    "loudness_modifier": -55,
     "//handling_modifier": "currently presumed to mount directly onto the thread, thus earning a bonus to handling",
     "handling_modifier": 7,
 
@@ -165,7 +165,7 @@
     "name": {
       "str": "Silent Legion 5.56mm suppressor"
     },
-    "description": "TBD",
+    "description": "An unassuming model of a suppressor, it reduces report (i.e., loudness of shot) by a considerable amount, though far from muffling the sound completely.  This model is rated primarily for 5.56mm NATO and .300 Blackout.  It cannot be mounted directly onto muzzle threading.  Instead, it mounts onto the QD-7 flash hider, also from Silent Legion.  The main purpose of a suppressor is to reduce report to safe levels, allowing the shooter to sustain fire without damaging their hearing.",
 
     "weight": "439 g",
     "//dimensions": {
@@ -207,7 +207,7 @@
     "name": {
       "str": "Silencer Central Banish 30 suppressor"
     },
-    "description": "TBD",
+    "description": "A slim and potent suppressor, it reduces report (i.e., loudness of shot) by a considerable amount, though far from muffling the sound completely.  This model is primarily rated for .308 cal., but it can handle anything between .17 cal. and .300 Weatherby.  It mounts directly onto muzzle threading, without requiring an adapter.  The main purpose of a suppressor is to reduce report to safe levels, allowing the shooter to sustain fire without damaging their hearing.",
 
     "weight": "318 g",
     "//dimensions": {
@@ -264,7 +264,7 @@
     "name": {
       "str": "Elite Iron Bravo 1 Lite suppressor"
     },
-    "description": "TBD",
+    "description": "An unassuming suppressor made of titanium, it reduces report (i.e., loudness of shot) by a considerable amount, though far from muffling the sound completely.  This model is rated for a range of calibers between 5.56mm NATO and .308 cal..  It comes with an embedded muzzle brake that allows it to be installed directly onto muzzle threading.  The main purpose of a suppressor is to reduce report to safe levels, allowing the shooter to sustain fire without damaging their hearing.",
 
     "weight": "366 g",
     "//dimensions": {
@@ -307,7 +307,7 @@
     "name": {
       "str": "JK 105 CCX 9mm suppressor"
     },
-    "description": "TBD",
+    "description": "A uniquely-designed suppressor, it reduces report (i.e., loudness of shot) by a noticable amount, though far from muffling the sound completely.  This model is rated primarily for pistol calibers, such as 9×19mm Parabellum, .30 Super Carry, and .357 Magnum.  It mounts directly onto muzzle threading, without requiring an adapter.  The main purpose of a suppressor is to reduce report to safe levels, allowing the shooter to sustain fire without damaging their hearing.",
 
     "//weight": "2.5 oz ≈ 71 g in the 4.6 in. configuration",
     "weight": "71 g",
