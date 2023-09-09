@@ -568,7 +568,7 @@
     "material": ["steel"],
 
     "//sight_dispersion": "move them closer to the default Loadout iron sight balancing",
-    "sight_dispersion": 32,
+    "sight_dispersion": 24,
 
     "//price": "120 + 100 USD",
     "price": "220 USD"
@@ -651,7 +651,9 @@
     "material": ["steel"],
 
     "//sight_dispersion": "move them closer to the default Loadout iron sight balancing",
-    "sight_dispersion": 32,
+    "sight_dispersion": 24,
+    "//aim_speed_modifier": "minor bonus for better-than-default sights",
+    "aim_speed_modifier": 2,
 
     "price": "142 USD"
   },
