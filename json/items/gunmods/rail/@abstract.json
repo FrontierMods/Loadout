@@ -20,6 +20,8 @@
     "location": "rail",
     "install_time": "30 s",
 
+    "field_of_view": 3000,
+
     "mod_targets": [
       "pistol",
       "rifle",
@@ -45,7 +47,7 @@
 
     "//sight_dispersion": "vague attempt at balancing this to be somewhere between iron sights and standalone sights",
     "sight_dispersion": 12,
-    "aim_speed": 6
+    "aim_speed_modifier": 15
   },
 
   {
@@ -60,7 +62,7 @@
 
     "//sight_dispersion": "green laser is attested to be slightly more visible than red laser",
     "sight_dispersion": 12,
-    "aim_speed": 5
+    "aim_speed_modifier": 17
   },
 
   {
