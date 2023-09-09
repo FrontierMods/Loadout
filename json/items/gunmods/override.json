@@ -1404,6 +1404,12 @@
 
     "material": ["aluminum"],
 
+    "//location": [
+      "this attachment is meant for pistols with underbarrel rail, which is what it mounts onto",
+      "other types of pistols will require custom solutions"
+    ],
+    "location": "underbarrel",
+
     "add_mod": [
       ["sights", 1],
       ["underbarrel", 1]
