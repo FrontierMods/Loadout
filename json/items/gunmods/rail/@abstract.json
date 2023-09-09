@@ -98,7 +98,7 @@
   },
 
   {
-    "abstract": "flashlight_mounted",
+    "abstract": "flashlight_1in",
     "copy-from": "flashlight_abstract",
     "type": "GUNMOD",
 
@@ -107,6 +107,18 @@
     },
     "description": "idea of a pistol flashlight",
 
-    "location": "1-inch mount"
+    "gunmod_data": {
+      "location": "1-inch mount",
+      "install_time": "30 s",
+
+      "mod_targets": [
+        "pistol",
+        "rifle",
+        "smg",
+        "shotgun",
+        "crossbow",
+        "launcher"
+      ]
+    }
   }
 ]
