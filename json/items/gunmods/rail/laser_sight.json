@@ -83,13 +83,13 @@
     "//laser": {
       "class": "3R",
       "power": "5 mW",
-      "divergence": "2.86 MOA",
+      "divergence": "0.477 MOA",
       "range": {
         "day": "???"
       }
     },
 
-    "sight_dispersion": 12,
+    "sight_dispersion": 2,
 
     "//power": {
       "source": [["CR1/3N"]],
