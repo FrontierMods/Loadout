@@ -94,7 +94,7 @@
       "ammo_scale": 0
     },
 
-    "flags": ["LIGHT_208", "CHARGEDIM", "TRADER_AVOID", "WATER_BREAK"]
+    "flags": ["LIGHT_156", "CHARGEDIM", "TRADER_AVOID", "WATER_BREAK"]
   },
 
   {
@@ -194,7 +194,7 @@
       "ammo_scale": 0
     },
 
-    "flags": ["LIGHT_167", "CHARGEDIM", "TRADER_AVOID", "WATER_BREAK"]
+    "flags": ["LIGHT_125", "CHARGEDIM", "TRADER_AVOID", "WATER_BREAK"]
   },
 
   {
@@ -297,7 +297,7 @@
       "ammo_scale": 0
     },
 
-    "flags": ["LIGHT_104", "CHARGEDIM", "TRADER_AVOID", "WATER_BREAK"]
+    "flags": ["LIGHT_78", "CHARGEDIM", "TRADER_AVOID", "WATER_BREAK"]
   },
 
   {
@@ -396,7 +396,7 @@
       "ammo_scale": 0
     },
 
-    "flags": ["LIGHT_83", "CHARGEDIM", "TRADER_AVOID", "WATER_BREAK"]
+    "flags": ["LIGHT_63", "CHARGEDIM", "TRADER_AVOID", "WATER_BREAK"]
   },
 
   {
@@ -503,7 +503,7 @@
     },
 
     "//flags": "waterproof up to 20 meters, therefore no WATER_BREAK",
-    "flags": ["LIGHT_133", "CHARGEDIM", "TRADER_AVOID"]
+    "flags": ["LIGHT_100", "CHARGEDIM", "TRADER_AVOID"]
   },
 
   {
@@ -609,7 +609,7 @@
     },
 
     "//flags": "waterproof up to 20 meters, therefore no WATER_BREAK",
-    "flags": ["LIGHT_67", "CHARGEDIM", "TRADER_AVOID"]
+    "flags": ["LIGHT_50", "CHARGEDIM", "TRADER_AVOID"]
   },
 
   {
@@ -712,7 +712,7 @@
     },
 
     "//flags": "waterproof up to 200 feet, therefore no WATER_BREAK",
-    "flags": ["LIGHT_200", "CHARGEDIM", "TRADER_AVOID"]
+    "flags": ["LIGHT_150", "CHARGEDIM", "TRADER_AVOID"]
   },
 
   {
@@ -815,7 +815,7 @@
       "ammo_scale": 0
     },
 
-    "flags": ["LIGHT_225", "CHARGEDIM", "TRADER_AVOID", "WATER_BREAK"]
+    "flags": ["LIGHT_169", "CHARGEDIM", "TRADER_AVOID", "WATER_BREAK"]
   },
 
   {
@@ -917,6 +917,6 @@
     },
 
     "//flags": "rated IPX8, so we count this as waterproof",
-    "flags": ["LIGHT_208", "CHARGEDIM", "TRADER_AVOID"]
+    "flags": ["LIGHT_156", "CHARGEDIM", "TRADER_AVOID"]
   }
 ]
