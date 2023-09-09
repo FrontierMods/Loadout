@@ -1164,8 +1164,6 @@
     "longest_side": "85 mm",
     "integral_longest_side": "0 mm",
 
-    "material": ["aluminum"],
-
     "mod_targets": ["mossberg_930"],
 
     "price": "164 USD"
