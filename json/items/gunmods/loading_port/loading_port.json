@@ -12,7 +12,7 @@
     "//notes": ["see also: notes for `arredondo_chute`"],
 
     "name": { "str": "Arredondo speedloader chute for Remington 1100" },
-    "description": "TBD",
+    "description": "A small metal ramp that mounts just behind the loading port of a shotgun.  It allows the use of a speedloader tube, thus fascilitating faster reloading.  This variant is for Remington 1100.",
 
     "//weight": "source description says 4.7 oz ≈ 133 g, source additional information says 4.2 oz ≈ 119 g",
     "weight": "133 g",
