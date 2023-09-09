@@ -67,7 +67,7 @@
 
   {
     "abstract": "flashlight_abstract",
-    "type": "GUNMOD",
+    "type": "TOOL",
 
     "name": {
       "str": "flashlight"
@@ -83,18 +83,19 @@
     "symbol": ":",
     "color": "dark_gray",
 
-    "location": "rail",
-    "install_time": "30 s",
+    "gunmod_data": {
+      "location": "rail",
+      "install_time": "30 s",
 
-    "mod_targets": [
-      "pistol",
-      "rifle",
-      "smg",
-      "shotgun",
-      "bow",
-      "crossbow",
-      "launcher"
-    ]
+      "mod_targets": [
+        "pistol",
+        "rifle",
+        "smg",
+        "shotgun",
+        "crossbow",
+        "launcher"
+      ]
+    }
   },
 
   {

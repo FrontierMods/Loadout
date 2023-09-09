@@ -2,7 +2,7 @@
   {
     "id": "flashlight_olight_odin_mini",
     "copy-from": "flashlight_abstract",
-    "type": "GUNMOD",
+    "type": "TOOL",
 
     "//sources": ["https://olightworld.com/product/odin_mini"],
 
@@ -62,7 +62,7 @@
   {
     "id": "flashlight_olight_odin_mini_on",
     "copy-from": "flashlight_olight_odin_mini",
-    "type": "GUNMOD",
+    "type": "TOOL",
 
     "name": {
       "str": "Olight Odin Mini tactical light (on)",
@@ -100,13 +100,13 @@
   {
     "id": "flashlight_surefire_m600u",
     "copy-from": "flashlight_abstract",
-    "type": "GUNMOD",
+    "type": "TOOL",
 
     "//sources": ["https://www.surefire.com/m600u-scout-light-weaponlight/"],
 
     "name": {
-      "str": "Surefire M600U tactical light (off)",
-      "str_pl": "Surefire M600U tactical lights (off)"
+      "str": "SureFire M600U tactical light (off)",
+      "str_pl": "SureFire M600U tactical lights (off)"
     },
     "description": "TBD",
 
@@ -114,7 +114,7 @@
 
     "//weight": [
       "source says the weight is 136 g including batteries",
-      "CR123A from Surefire weighs 17 g × 2 = 34 g"
+      "CR123A from SureFire weighs 17 g × 2 = 34 g"
     ],
     "weight": "102 g",
     "//dimensions": {
@@ -151,7 +151,7 @@
         "rigid": true,
         "flag_restriction": ["BATTERY_LIGHT"],
         "default_magazine": "light_disposable_cell",
-        "ammo_restriction": { "light_disposable_cell": 2 }
+        "//notes": ["should run off of two batteries simultaneously"]
       }
     ],
 
@@ -162,11 +162,11 @@
   {
     "id": "flashlight_surefire_m600u_on",
     "copy-from": "flashlight_surefire_m600u",
-    "type": "GUNMOD",
+    "type": "TOOL",
 
     "name": {
-      "str": "Surefire M600U tactical light (on)",
-      "str_pl": "Surefire M600U tactical lights (on)"
+      "str": "SureFire M600U tactical light (on)",
+      "str_pl": "SureFire M600U tactical lights (on)"
     },
 
     "//power": {
@@ -200,7 +200,7 @@
   {
     "id": "flashlight_protac_rail_mount_2",
     "copy-from": "flashlight_abstract",
-    "type": "GUNMOD",
+    "type": "TOOL",
 
     "//sources": [
       "https://www.streamlight.com/products/detail/protac-rail-mount-2",
@@ -254,7 +254,7 @@
         "rigid": true,
         "flag_restriction": ["BATTERY_LIGHT"],
         "default_magazine": "light_disposable_cell",
-        "ammo_restriction": { "light_disposable_cell": 2 }
+        "//notes": ["should run off of two batteries simultaneously"]
       }
     ],
 
@@ -265,7 +265,7 @@
   {
     "id": "flashlight_protac_rail_mount_2_on",
     "copy-from": "flashlight_protac_rail_mount_2",
-    "type": "GUNMOD",
+    "type": "TOOL",
 
     "name": {
       "str": "ProTac Rail Mount 2 tactical light (on)",
@@ -303,13 +303,13 @@
   {
     "id": "flashlight_surefire_m300c",
     "copy-from": "flashlight_abstract",
-    "type": "GUNMOD",
+    "type": "TOOL",
 
     "//sources": ["https://www.surefire.com/m300c/"],
 
     "name": {
-      "str": "Surefire M300C tactical light (off)",
-      "str_pl": "Surefire M300C tactical lights (off)"
+      "str": "SureFire M300C tactical light (off)",
+      "str_pl": "SureFire M300C tactical lights (off)"
     },
     "description": "TBD",
 
@@ -364,7 +364,7 @@
   {
     "id": "flashlight_surefire_m300c_on",
     "copy-from": "flashlight_surefire_m300c",
-    "type": "GUNMOD",
+    "type": "TOOL",
 
     "name": {
       "str": "SureFire M300C tactical light (on)",
@@ -402,7 +402,7 @@
   {
     "id": "flashlight_inforce_wmlx_gen2",
     "copy-from": "flashlight_abstract",
-    "type": "GUNMOD",
+    "type": "TOOL",
 
     "//sources": [
       "https://inforcelights.com/products/rifle-light-black-800-lumens-2-hours-runtime"
@@ -461,7 +461,7 @@
         "rigid": true,
         "flag_restriction": ["BATTERY_LIGHT"],
         "default_magazine": "light_disposable_cell",
-        "ammo_restriction": { "light_disposable_cell": 2 }
+        "//notes": ["should run off of two batteries simultaneously"]
       }
     ],
 
@@ -471,7 +471,7 @@
   {
     "id": "flashlight_inforce_wmlx_gen2_on",
     "copy-from": "flashlight_inforce_wmlx_gen2",
-    "type": "GUNMOD",
+    "type": "TOOL",
 
     "name": {
       "str": "Inforce WMLx Gen 2 tactical light (on)",
@@ -509,7 +509,7 @@
   {
     "id": "flashlight_inforce_wml_gen2",
     "copy-from": "flashlight_abstract",
-    "type": "GUNMOD",
+    "type": "TOOL",
 
     "//sources": [
       "https://inforcelights.com/products/rifle-light-black-400-lumens-1-5-hours-runtime"
@@ -577,7 +577,7 @@
   {
     "id": "flashlight_inforce_wml_gen2_on",
     "copy-from": "flashlight_inforce_wml_gen2",
-    "type": "GUNMOD",
+    "type": "TOOL",
 
     "name": {
       "str": "Inforce WML Gen 2 tactical light (on)",
@@ -615,7 +615,7 @@
   {
     "id": "flashlight_cloud_owl",
     "copy-from": "flashlight_abstract",
-    "type": "GUNMOD",
+    "type": "TOOL",
 
     "//sources": [
       "https://www.clouddefensive.com/product/owl/",
@@ -678,7 +678,7 @@
   {
     "id": "flashlight_cloud_owl_on",
     "copy-from": "flashlight_cloud_owl",
-    "type": "GUNMOD",
+    "type": "TOOL",
 
     "name": {
       "str": "Cloud Defensive OWL tactical light (on)",
@@ -718,7 +718,7 @@
   {
     "id": "flashlight_modlight_pl350",
     "copy-from": "flashlight_abstract",
-    "type": "GUNMOD",
+    "type": "TOOL",
 
     "//sources": [
       "https://modlite.com/products/modlite-pl350-pistol-light/",
@@ -779,7 +779,7 @@
   {
     "id": "flashlight_modlight_pl350_on",
     "copy-from": "flashlight_modlight_pl350",
-    "type": "GUNMOD",
+    "type": "TOOL",
 
     "name": {
       "str": "Modlight PL350 tactical light (on)",
@@ -821,7 +821,7 @@
   {
     "id": "flashlight_cloud_rein",
     "copy-from": "flashlight_abstract",
-    "type": "GUNMOD",
+    "type": "TOOL",
 
     "//sources": [
       "https://www.clouddefensive.com/product/rein-3-0/",
@@ -883,7 +883,7 @@
   {
     "id": "flashlight_cloud_rein_on",
     "copy-from": "flashlight_cloud_rein",
-    "type": "GUNMOD",
+    "type": "TOOL",
 
     "name": {
       "str": "Cloud Defensive Rein 3.0 tactical light (on)",
