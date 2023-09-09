@@ -15,7 +15,7 @@
     "name": {
       "str": "EGW thread protector"
     },
-    "description": "TBD",
+    "description": "A thread protector, intended to cover muzzle threading and protect it from dirt, damage, and the elements.  It does not confer any benefits, but you really should be taking care of your gun.",
 
     "//weight": "Brownells UK lists 'delivery weight' at 0.041 kg = 41 g",
     "//weight2": "Optics Trade shows that the protector comes in a small plastic bag, which we assume the weight of to be ~5 g",

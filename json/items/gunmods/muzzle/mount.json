@@ -13,7 +13,7 @@
     "name": {
       "str": "SilencerCo Bravo direct thread mount"
     },
-    "description": "TBD",
+    "description": "This adapter serves as the mounting point for Bravo-compatible suppressors from SilencerCo.  In particular, it can be used to mount SilencerCo Hybrid 46.  It confers no other benefits.",
 
     "weight": "140 g",
     "//dimensions": {

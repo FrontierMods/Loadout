@@ -11,7 +11,7 @@
     "name": {
       "str": "Precision Armament Hypertap muzzle brake"
     },
-    "description": "TBD",
+    "description": "A highly-potent, modern- and clean-looking muzzle brake, capable of reducing recoil of a firearm up to 84%.  This model is rated for 5.56mm NATO.  Like any muzzle brake, it makes sound signature (i.e., noise from firing) much louder.  Remember to wear hearing protection.",
 
     "weight": "87 g",
     "//dimensions": {
@@ -41,7 +41,7 @@
     "name": {
       "str": "S&J Customs Titan muzzle brake"
     },
-    "description": "TBD",
+    "description": "A flattened, heavy-looking muzzle brake, this one is among the most potent ones, with recoil reduction of up to 78%.  Despite the name, it's not made of titanium.  This model is rated for 5.56mm NATO.  Like any muzzle brake, it makes sound signature (i.e., noise from firing) much louder.  Remember to wear hearing protection.",
 
     "weight": "87 g",
     "//dimensions": {
@@ -76,7 +76,7 @@
     "name": {
       "str": "V Seven muzzle brake"
     },
-    "description": "TBD",
+    "description": "A skinny, shiny steel-gray muzzle brake capable of reducing recoil by more than 56%.  This model is rated for 5.56mm NATO.  Like any muzzle brake, it makes sound signature (i.e., noise from firing) much louder.  Remember to wear hearing protection.",
 
     "weight": "74 g",
     "//dimensions": {
@@ -114,7 +114,7 @@
     "name": {
       "str": "V Seven FURION muzzle brake"
     },
-    "description": "TBD",
+    "description": "A skinny, shiny muzzle brake capable of reducing recoil by as much as 64%.  This model is rated for 5.56mm NATO, and is made of titanium, making it lightweight without sacrificing structural integrity.  Like any muzzle brake, it makes sound signature (i.e., noise from firing) much louder.  Remember to wear hearing protection.",
 
     "weight": "45 g",
     "//dimensions": {
@@ -151,7 +151,7 @@
     "name": {
       "str": "Apex Tactical ESA muzzle brake"
     },
-    "description": "TBD",
+    "description": "ESA, or Enhanced Stabilization Attachment, from Apex Tactical is a square, shiny dark-gray muzzle brake with two-and-a-half large cavities.  It's capable of reducing recoil by up to 60%.  This one is rated for 5.56mm NATO.  Like any muzzle brake, it makes sound signature (i.e., noise from firing) much louder.  Remember to wear hearing protection.",
 
     "//weight": "without crush washer",
     "weight": "98 g",
@@ -189,7 +189,7 @@
     "name": {
       "str": "Dead Air KeyMount muzzle brake"
     },
-    "description": "TBD",
+    "description": "Looking like something you'd see in a movie, this muzzle brake is capable of reducing recoil by more than 56%.  This one is rated for 5.56mm NATO.  Like any muzzle brake, it makes sound signature (i.e., noise from firing) much louder.  Remember to wear hearing protection.",
 
     "//weight": "going with the lowest number listed in primary source on assumption that weight scales with threading and, therefore, with caliber rating, with higher calibers requiring more metal to keep quiet",
     "weight": "105 g",
@@ -226,7 +226,7 @@
     "name": {
       "str": "Thunder Beast Arms SR muzzle brake"
     },
-    "description": "TBD",
+    "description": "An unassuming but highly-capable muzzle brake, this one is capable of reducing recoil by more than 70%.  It's rated for .30 cal.  It can also serve as a mount for an equally-capable Dominus-SR suppressor, also from Thunder Beast Arms.  Like any muzzle brake, it makes sound signature (i.e., noise from firing) much louder.  Remember to wear hearing protection.",
 
     "//weight": "Dominus SR description states the weight of the brake to be 3.5 oz ≈ 100 g",
     "weight": "100 g",
@@ -245,7 +245,7 @@
     "//integral_longest_side": "assumes mounting onto a standard length of thread for 1/2 in. × 28-threaded barrel (16 mm)",
     "integral_longest_side": "57 mm",
 
-    "//calibers": ["223"],
+    "//calibers": ["223", "30"],
 
     "//recoil_reduction": "???",
     "//handling_modifier": "its 5.56mm cousin reduces recoil by 72.93%, so let's assume this one performs only slightly worse, at a completely-fictional 70.62%",
@@ -270,7 +270,7 @@
     "name": {
       "str": "SureFire SOCOM muzzle brake"
     },
-    "description": "TBD",
+    "description": "A fairly-standard muzzle brake, capable of reducing recoil by over 51%.  It can also serve as a mount for the SOCOM556-RC2 suppressor, also from SureFire.  Like any muzzle brake, it makes sound signature (i.e., noise from firing) much louder.  Remember to wear hearing protection.",
 
     "weight": "111 g",
     "//dimensions": {
