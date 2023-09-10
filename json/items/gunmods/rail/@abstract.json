@@ -101,7 +101,7 @@
   {
     "abstract": "flashlight_1in",
     "copy-from": "flashlight_abstract",
-    "type": "GUNMOD",
+    "type": "TOOL",
 
     "name": {
       "str": "pistol flashlight"
