@@ -11,7 +11,7 @@
     "name": {
       "str": "Iron City Rifle Works reversible handstop"
     },
-    "description": "TBD",
+    "description": "A compact, reversible handstop.  Allows for better handling of the firearm.  Has a grooved texture, though its effect is diminished by the small size factor of the handstop.",
 
     "weight": "19 g",
     "//dimensions": {
@@ -51,7 +51,7 @@
     "name": {
       "str": "Strike Industries short vertical grip"
     },
-    "description": "TBD",
+    "description": "A short polymer vertical grip.  Allows for better handling of the firearm.  Has ribbed texture on the front and the back, and two islands of texture on the sides.",
 
     "weight": "48 g",
     "//dimensions": {
@@ -89,7 +89,7 @@
     "name": {
       "str": "ERGO Pop Bottle vertical grip"
     },
-    "description": "TBD",
+    "description": "A plain, bottleneck-shaped vertical grip.  Allows for better handling of the firearm.  Has grooves at the bottom, preventing the user's hand from slipping.",
 
     "weight": "58 g",
     "//dimensions": {
@@ -125,7 +125,7 @@
     "name": {
       "str": "Tyrant Designs MOD foregrip"
     },
-    "description": "TBD",
+    "description": "A metal foregrip with a unique, aggressive skeletonized design.  Allows for better handling of the firearm.  Its somewhat-ergonomic design combined with its length make it a good choice for a foregrip.",
 
     "weight": "48 g",
     "//dimensions": {
@@ -164,7 +164,7 @@
     "name": {
       "str": "Tyrant Designs MOD V2 foregrip"
     },
-    "description": "TBD",
+    "description": "A metal foregrip with a unique, aggressive skeletonized design.  Allows for better handling of the firearm.  An improvement upon a previous design by Tyrant Designs, it remains a good choice of a foregrip, with its rubber pad, usable length, and ergonomic shape.",
 
     "weight": "83 g",
     "//dimensions": {
@@ -204,7 +204,7 @@
     "name": {
       "str": "Daniel Defense short vertical grip"
     },
-    "description": "TBD",
+    "description": "A short polymer vertical grip.  Allows for better handling of the firearm.  Has ribbed texture on the front and the back, and two islands of tire-like texture on the sides.",
 
     "weight": "52 g",
     "//dimensions": {
@@ -248,7 +248,7 @@
     "name": {
       "str": "Strike Industries Bikini fingerstop pair"
     },
-    "description": "TBD",
+    "description": "A pair of tiny metal fingerstops, adjustable in position and length.  Allow for better handling of the firearm.  These don't offer a major improvement due to their miniature size, but they're still better than nothing.",
 
     "weight": "6 g",
     "//dimensions": {
@@ -283,7 +283,7 @@
     "name": {
       "str": "Arisaka Defense vertical grip"
     },
-    "description": "TBD",
+    "description": "A short metal vertical grip.  Allows for better handling of the firearm.  Its hollow design make it ligther than the metal alternatives.  Deep grooves along the entire length offer good grip.",
 
     "weight": "53 g",
     "//dimensions": {
@@ -320,7 +320,7 @@
     "name": {
       "str": "Strike Industries LINK handstop"
     },
-    "description": "TBD",
+    "description": "A compact handstop.  Allows for better handling of the firearm.  Has a grooved texture, though its effect is diminished by the small size factor of the handstop.",
 
     "weight": "17 g",
     "//dimensions": {
@@ -358,7 +358,7 @@
     "name": {
       "str": "SLR Rifleworks Mod 2 Barricade handstop"
     },
-    "description": "TBD",
+    "description": "A metal handstop, adjustable in position and distance as befits the user.  Allows for better handling of the firearm.  While its effect is minimal due to its size, it's better than nothing.",
 
     "weight": "19 g",
     "//dimensions": {
@@ -397,7 +397,7 @@
     "name": {
       "str": "Impact Weapons Components handstop"
     },
-    "description": "TBD",
+    "description": "A compact metal handstop.  Allows for better handling of the firearm.  Textured, thus offering slightly better performance over its competitors of similar size.",
 
     "weight": "20 g",
     "//dimensions": {
@@ -435,7 +435,7 @@
     "name": {
       "str": "ODIN Works B1 handstop"
     },
-    "description": "TBD",
+    "description": "A small, skeletonized handstop.  Allows for better handling of the firearm.  Its ergonomic design allows it to stand up to competition of similar size.",
 
     "weight": "34 g",
     "//dimensions": {
@@ -473,7 +473,7 @@
     "name": {
       "str": "Tyrant Desings HALO handstop"
     },
-    "description": "TBD",
+    "description": "A short, skeletonized vertical grip, comparable in size to a handstop.  Allows for better handling of the firearm.  An aggressive, ergonomic design helps it perform on par with competition, while saving on weight.",
 
     "weight": "26 g",
     "//dimensions": {
@@ -511,7 +511,7 @@
     "name": {
       "str": "Tyrant Designs HALO MiniVert grip"
     },
-    "description": "TBD",
+    "description": "A vertical grip with an aggressive, skeletonized design.  Allows for better handling of the firearm.  Ergonomic and lightweight, it performs on par or better than competition.",
 
     "weight": "71 g",
     "//dimensions": {
@@ -550,7 +550,7 @@
     "name": {
       "str": "Fortis Shift vertical grip"
     },
-    "description": "TBD",
+    "description": "A metal vertical grip with a starkly-skeletonized design.  Allows for better handling of the firearm.  Performs better than average, while saving on weight.",
 
     "weight": "108 g",
     "//dimensions": {
@@ -588,7 +588,7 @@
     "name": {
       "str": "Fortis Shift angled grip"
     },
-    "description": "TBD",
+    "description": "A metal angled grip with a starkly-skeletonized design.  Allows for better handling of the firearm.  Performs on par with competition, while saving on weight.",
 
     "weight": "71 g",
     "//dimensions": {
@@ -626,7 +626,7 @@
     "name": {
       "str": "Strike Industries Cobra angled grip"
     },
-    "description": "TBD",
+    "description": "A multi-modal polymer angled grip.  Allows for better handling of the firearm.  Can be used in a variety of ways as befits the situation, thanks to its ergonomic design.",
 
     "weight": "40 g",
     "//dimensions": {
@@ -669,7 +669,7 @@
     "name": {
       "str": "Mission First Tactical React vertical grip"
     },
-    "description": "TBD",
+    "description": "A plain vertical grip.  Allows for better handling of the firearm.  Textured surface and deliberate finger grooves provide for excellent control over recoil.",
 
     "weight": "65 g",
     "//dimensions": {
@@ -709,7 +709,7 @@
     "name": {
       "str": "Mission First Tactical React folding vertical grip"
     },
-    "description": "TBD",
+    "description": "A compact full-sized vertical grip.  Allows for better handling of the firearm.  Can be folded to save space.  Grooves at the bottom prevent hands from slipping.",
 
     "weight": "106 g",
     "//dimensions": {
@@ -748,7 +748,7 @@
     "name": {
       "str": "Magpul AFG2 angled grip"
     },
-    "description": "TBD",
+    "description": "A slim angled grip.  Allows for better handling of the firearm.  Ergonomic design provides a good degree of control over recoil.",
 
     "weight": "72 g",
     "//dimensions": {
@@ -788,7 +788,7 @@
     "name": {
       "str": "FAB Defense folding vertical grip"
     },
-    "description": "TBD",
+    "description": "A folding polymer vertical grip, with several available angles.  Allows for better handling of the firearm.  Aggressive texture on most of the surface provides good grip.",
 
     "weight": "133 g",
     "//dimensions": {
@@ -829,7 +829,7 @@
     "name": {
       "str": "Magpul short vertical grip"
     },
-    "description": "TBD",
+    "description": "A short polymer vertical grip.  Allows for better handling of the firearm.  Has ribbed texture on the front and the back, and two islands of texture on the sides.",
 
     "weight": "78 g",
     "//dimensions": {
@@ -866,7 +866,7 @@
     "name": {
       "str": "F-1 Firearms skeletonized angled grip"
     },
-    "description": "TBD",
+    "description": "An angled grip with an exceptional amount of material removed.  Allows for better handling of the firearm.  Performs well against competition, while also saving on weight.",
 
     "weight": "62 g",
     "//dimensions": {
