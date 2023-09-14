@@ -187,62 +187,46 @@
   },
 
   {
-    "id": "iron_sights_magpul_mbus",
+    "id": "iron_sights_magpul_mbus_gen3",
     "copy-from": "iron_sights_abstract",
     "type": "GUNMOD",
 
-    "//source": [
-      "https://www.wingtactical.com/accessories/optics-sights/sights/magpul-back-up-front-sight-mbus/",
-      "https://www.wingtactical.com/accessories/optics-sights/sights/magpul-back-up-rear-sight-mbus/"
+    "//sources": [
+      "https://www.wingtactical.com/accessories/optics-sights/sights/magpul-back-up-sight-mbus-3-front/",
+      "https://www.wingtactical.com/accessories/optics-sights/sights/magpul-back-up-sight-mbus-3-rear/",
+      "https://www.trex-arms.com/store/magpul-mbus-3-sight-front/",
+      "https://www.trex-arms.com/store/magpul-mbus-3-sight-rear/",
+      "https://www.wingtactical.com/accessories/optics-sights/sights/magpul-back-up-rear-sight-mbus/",
+      "https://www.wingtactical.com/accessories/optics-sights/sights/magpul-back-up-front-sight-mbus/"
     ],
+
+    "//notes": ["come in black, FDE, and OD green color schemes"],
 
     "name": {
-      "str": "Magpul MBUS iron sights",
-      "str_pl": "pairs of Magpul MBUS iron sights"
+      "str": "Magpul MBUS 3 iron sights",
+      "str_pl": "pairs of Magpul MBUS 3 iron sights"
     },
-    "description": "TBD",
+    "description": "A pair of folding iron sights made of impact-resistant polymer.  The material makes these sights lightweight, without sacrificing durable, as proven by the long-standing popularity of this design.  Can be flipped down to allow use of other sights.",
 
-    "weight": "71 g",
-    "//volume": [
-      "width assumed from previous entry",
-      "slightly inaccurate, since it assumes total height is height from top of rail to aperture"
-    ],
-    "volume": "88 ml",
+    "weight": "55 g",
+    "//dimensions": {
+      "length": "3 in",
+      "width": "1.38 in",
+      "height": "1.551 in",
+      "raw": "105 ml",
+      "trim": 0.25,
+      "//notes": [
+        "stats for raised sights",
+        "length when deployed is assumed from a previous model in the series, then added (1.5 + 1.5 in.) to emulate both sights stacked together in the inventory",
+        "height is calculated as 1.41 in. (centerline height of these sights) × 1.1 (to add the remaining height above rail + rough height of rail mount)"
+      ]
+    },
+    "volume": "78 ml",
     "longest_side": "76 mm",
 
     "material": ["plastic"],
 
-    "//price": "40 USD + 58 USD",
-    "price": "98 USD"
-  },
-
-  {
-    "id": "iron_sights_magpul_pro",
-    "copy-from": "iron_sights_abstract",
-    "type": "GUNMOD",
-
-    "//source": [
-      "https://www.wingtactical.com/accessories/optics-sights/sights/magpul-mbus-pro-front-sight/",
-      "https://www.wingtactical.com/accessories/optics-sights/sights/magpul-back-up-rear-sight-mbus-pro/"
-    ],
-
-    "name": {
-      "str": "Magpul MBUS Pro iron sights",
-      "str_pl": "pairs of Magpul MBUS Pro iron sights"
-    },
-    "description": "TBD",
-
-    "weight": "94 g",
-    "//volume": [
-      "width and length assumed from previous entry",
-      "slightly inaccurate, since it assumes total height is height from top of rail to aperture"
-    ],
-    "volume": "87 ml",
-    "longest_side": "76 mm",
-
-    "material": ["plastic"],
-
-    "//price": "85 USD + 105 USD",
-    "price": "190 USD"
+    "//price": "40 USD + 60 USD",
+    "price": "100 USD"
   }
 ]
