@@ -239,8 +239,11 @@
     "mod_targets": ["rifle", "smg", "shotgun", "launcher"],
 
     "field_of_view": 360,
-    "//sight_dispersion": "6 MOA in quarter-MOA / 15 arc seconds per point",
-    "sight_dispersion": 24,
+    "//sight_dispersion": [
+      "8 MOA in quarter-MOA / 15 arc seconds per point",
+      "based on front post width of ~0.53 in."
+    ],
+    "sight_dispersion": 32,
     "//aim_speed_modifier": "minor bonus for better-than-default sights",
     "aim_speed_modifier": 2,
 

@@ -47,6 +47,11 @@
       "16.70 ft @ 100 yds @ 6× magnification = 191.32 MOA"
     ],
     "field_of_view": 1162,
+    "//aim_speed_modifier": [
+      "at 1× magnification",
+      "somewhere between a magnified scope and a red dot sight"
+    ],
+    "aim_speed_modifier": 6,
 
     "//power": {
       "source": [["CR2032"]],
