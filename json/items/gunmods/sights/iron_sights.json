@@ -1,24 +1,5 @@
 [
   {
-    "id": "iron_sights_aero",
-    "copy-from": "iron_sights_abstract",
-    "type": "GUNMOD",
-
-    "//source": [
-      "https://www.wingtactical.com/accessories/optics-sights/sights/aero-precision-low-profile-flip-up-iron-sight-set/"
-    ],
-
-    "name": {
-      "str": "Aero Precision low-profile iron sights"
-    },
-    "description": "TBD",
-
-    "weight": "96 g",
-
-    "price": "106 USD"
-  },
-
-  {
     "id": "iron_sights_ultradyne_c4",
     "copy-from": "iron_sights_abstract",
     "type": "GUNMOD",
