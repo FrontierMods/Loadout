@@ -20,7 +20,7 @@
     "name": {
       "str": "Cole-TAC HTP suppressor cover"
     },
-    "description": "TBD",
+    "description": "A soft-sleeve suppressor cover.  \"HTP\" stands for \"High Temperature Python\", referencing a previous model by the same company.  The inner core is rated for 3000°F, or around 1650°C.  Three Velcro straps supposed with plastic buckles allow for a high degree of diameter adjustment.  Company logo -- \"Cole-TAC\", with the initial C looking like a scope reticle -- is sewn onto a leaf, just before the farthest strap.  Like other suppressor covers, it requires a suppressor of at least 7 in. in length.",
 
     "weight": "153 g",
     "//dimensions": {
@@ -55,7 +55,7 @@
     "name": {
       "str": "Cole-TAC Corset suppressor cover"
     },
-    "description": "TBD",
+    "description": "A soft-sleeve suppressor cover.  It has a clean and unassuming design.  The cover is rated for 3150°F, or around 1730°C, making it the highest-rated cover on the market.  An elaborate system of cords allows for a high degree of diameter adjustment.  Company logo -- \"Cole-TAC\", with the initial C looking like a scope reticle -- is sewn onto a leaf, on the side closer to the muzzle.  Like other suppressor covers, it requires a suppressor of at least 7 in. in length.",
 
     "//weight": [
       "listed as 0.25 oz / in., or 0.28 g / mm",
@@ -83,7 +83,7 @@
     "name": {
       "str": "Silent Legion SC-7 suppressor cover"
     },
-    "description": "TBD",
+    "description": "A soft-sleeve suppressor cover.  It has a clean and unassuming design.  The entire cover is rated for 1800°F, or around 980°C.  Three Velcro straps over the sleeve allow for a high degree of diameter adjustment.  Company logo -- a Spartan-looking helmet, with the eyeholes in the shape of two suppressed pistols -- is sewn next to the farthest strap.  Like other suppressor covers, it requires a suppressor of at least 7 in. in length.",
 
     "//weight": [
       "none listed in source",
@@ -113,7 +113,7 @@
     "name": {
       "str": "Armageddon Gear suppressor cover"
     },
-    "description": "TBD",
+    "description": "A soft-sleeve suppressor cover.  It has a clean and unassuming design.  The entire cover is rated for 800°F, or around 430°C.  Cords over the sleeve allow for a high degree of diameter adjustment.  Like other suppressor covers, it requires a suppressor of at least 7 in. in length.",
 
     "//weight": [
       "source lists as 0.81 lbs, which seems too high",
@@ -154,7 +154,7 @@
     "name": {
       "str": "Liberty's Defense straightJacket suppressor cover"
     },
-    "description": "TBD",
+    "description": "A soft-sleeve suppressor cover.  It has a rugged-looking, almost jury-rigged design, with Liberty's Defense logo -- a simplified figure of an archer with a large bow -- near the front of the cover.  Its mineral-based inner core is rated for 3000°F, or around 1650°C, while the Kevlar outer sleeve is rated for 2000°F, or around 1100°C.  Stainless steel cord over the sleeve allow for a high degree of diameter adjustment.  Like other suppressor covers, it requires a suppressor of at least 7 in. in length.",
 
     "//weight": [
       "PDF source provides a listing of weights for specific models of suppressors, because a cover is generally bespoke",
@@ -183,7 +183,7 @@
     "name": {
       "str": "BPG heavy suppressor cover"
     },
-    "description": "TBD",
+    "description": "A soft-sleeve suppressor cover, from Burn Proof Gear.  Its fiberglass inner core is rated for 2000°F, or around 1100°C, while the Nomex outer sleeve is rated for 1000°F, or around 540°C.  Cords over the sleeve allow for a high degree of diameter adjustment.  Like other suppressor covers, it requires a suppressor of at least 7 in. in length.",
 
     "weight": "99 g",
     "//dimensions": {
@@ -221,7 +221,7 @@
     "name": {
       "str": "Rifles Only HAD suppressor cover"
     },
-    "description": "TBD",
+    "description": "A soft-sleeve suppressor cover.  HAD stands for \"Heat Abatement Device\".  Its inner core is rated for 3000°F, or around 1650°C, while the outer sleeve is rated for 2000°F, or around 1100°C.  Cords over the sleeve allow for a high degree of diameter adjustment.  Like other suppressor covers, it requires a suppressor of at least 7 in. in length.",
 
     "//dimensions": {
       "length": "7 in",
@@ -254,7 +254,7 @@
     "name": {
       "str": "Manta Defense V2 suppressor cover"
     },
-    "description": "TBD",
+    "description": "A rubber suppressor cover.  Its unique design and material offer V2 an interesting feel, without sacrificing performance.  On top of deep grooves molded into the cover, a flat logo of Manta Defense is printed.  Like other suppressor covers, it requires a suppressor of at least 7 in. in length.",
 
     "weight": "203 g",
     "//dimensions": {
