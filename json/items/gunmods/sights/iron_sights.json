@@ -69,20 +69,15 @@
   },
 
   {
-    "copy-from": "iron_sights_abstract",
-    "type": "GUNMOD",
-
-    "//sources": [
-    ],
-
-
-  {
     "id": "iron_sights_diamondhead",
     "copy-from": "iron_sights_abstract",
     "type": "GUNMOD",
 
-    "//source": [
-      "https://www.wingtactical.com/accessories/optics-sights/sights/diamondhead-polymer-integrated-sighting-system-with-nitebrite/"
+    "//sources": [
+      "https://www.wingtactical.com/accessories/optics-sights/sights/diamondhead-polymer-integrated-sighting-system-with-nitebrite/",
+      "https://www.bauer-precision.com/diamondhead-front-rear-integrated-sighting-system-iss-flip-up-sight-set/"
+    ],
+
     "//notes": [
       "comes in black and FDE color schemes",
       "tritium front post is an optional accessory, but we assume it comes as a default for this particular model",
