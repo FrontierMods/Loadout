@@ -4,7 +4,7 @@
     "copy-from": "sight_30mm",
     "type": "GUNMOD",
 
-    "//source": [
+    "//sources": [
       "https://www.eotechinc.com/eotech-vudu-1-6x24-ffp",
       "https://xtremetactical.co.uk/products/eotech-vdu1-6ffsr3"
     ],
@@ -61,7 +61,7 @@
     "copy-from": "sight_30mm",
     "type": "GUNMOD",
 
-    "//source": ["https://www.trijicon.com/products/details/hr1240-c-2700003"],
+    "//sources": ["https://www.trijicon.com/products/details/hr1240-c-2700003"],
 
     "name": {
       "str": "Trijicon Huron 3—12×40 30mm scope"
@@ -121,7 +121,9 @@
     "copy-from": "sight_30mm",
     "type": "GUNMOD",
 
-    "//source": ["https://www.trijicon.com/products/details/tm62450-c-3000005"],
+    "//sources": [
+      "https://www.trijicon.com/products/details/tm62450-c-3000005"
+    ],
 
     "name": {
       "str": "Trijicon Tenmile 6—24×50 30mm scope"
