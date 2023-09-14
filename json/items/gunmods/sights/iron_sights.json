@@ -69,26 +69,12 @@
   },
 
   {
-    "id": "iron_sights_strike_sidewinder",
     "copy-from": "iron_sights_abstract",
     "type": "GUNMOD",
 
-      "https://www.wingtactical.com/accessories/optics-sights/sights/strike-industries-sidewinder-45-degree-offset-co-witness-flip-up-sights/"
     "//sources": [
     ],
 
-    "name": {
-      "str": "SI Sidewinder offset iron sights",
-      "str_pl": "pairs of SI Sidewinder offset iron sights"
-    },
-    "description": "TBD",
-
-    "weight": "96 g",
-
-    "material": ["aluminum", "steel"],
-
-    "price": "160 USD"
-  },
 
   {
     "id": "iron_sights_diamondhead",
@@ -97,6 +83,10 @@
 
     "//source": [
       "https://www.wingtactical.com/accessories/optics-sights/sights/diamondhead-polymer-integrated-sighting-system-with-nitebrite/"
+    "//notes": [
+      "comes in black and FDE color schemes",
+      "tritium front post is an optional accessory, but we assume it comes as a default for this particular model",
+      "takes standard A2 front posts, giving these sights around 10 MOA of dispersion"
     ],
 
     "name": {
