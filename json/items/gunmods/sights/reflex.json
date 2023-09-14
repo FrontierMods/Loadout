@@ -25,6 +25,7 @@
     "longest_side": "46 mm",
 
     "sight_dispersion": 13,
+    "aim_speed_modifier": 11,
 
     "location": "RMR mount",
 
@@ -62,6 +63,7 @@
     "longest_side": "41 mm",
 
     "sight_dispersion": 8,
+    "aim_speed_modifier": 8,
 
     "location": "Holosun mount",
 
@@ -100,6 +102,7 @@
     "longest_side": "69 mm",
 
     "sight_dispersion": 8,
+    "aim_speed_modifier": 8,
 
     "location": "Micro mount",
 
@@ -139,6 +142,7 @@
     "longest_side": "142 mm",
 
     "sight_dispersion": 16,
+    "aim_speed_modifier": 12,
 
     "location": "30mm mount",
 
@@ -226,6 +230,7 @@
     "longest_side": "64 mm",
 
     "sight_dispersion": 8,
+    "aim_speed_modifier": 8,
 
     "//power": {
       "source": [["CR2032"]],

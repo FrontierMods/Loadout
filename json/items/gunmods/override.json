@@ -113,9 +113,10 @@
     "volume": "196 ml",
     "longest_side": "97 mm",
 
-    "sight_dispersion": 4,
     "//field_of_view": "29.9m @ 100yd",
     "field_of_view": 1114,
+    "sight_dispersion": 4,
+    "aim_speed_modifier": 14,
 
     "mod_targets": [
       "pistol",
@@ -168,13 +169,14 @@
 
     "material": ["aluminum"],
 
-    "sight_dispersion": 12,
     "//field_of_view": [
       "52 feet @ 100 yards",
       "assumed from a Pinty sight that looks remarkably like the NcSTAR one",
       "no stats available for the original"
     ],
     "field_of_view": 594,
+    "sight_dispersion": 12,
+    "aim_speed_modifier": 10,
 
     "mod_targets": [
       "pistol",
@@ -249,9 +251,9 @@
 
     "material": ["aluminum"],
 
-    "sight_dispersion": 1,
     "//field_of_view": "36.8 ft @ 100 yards @ 3× magnification",
     "field_of_view": 421,
+    "sight_dispersion": 1,
 
     "location": "34mm scope mount",
 
@@ -292,9 +294,12 @@
     "volume": "262 ml",
     "longest_side": "147 mm",
 
-    "sight_dispersion": 1,
     "//field_of_view": "36.8 feet @ 100 yards",
     "field_of_view": 421,
+    "//sight_dispersion": "0.4 MOA, rounded up",
+    "sight_dispersion": 2,
+    "//aim_speed_modifier": "somewhere between a scope and a red dot sight",
+    "aim_speed_modifier": 4,
 
     "location": "ACOG mount",
 
@@ -335,7 +340,8 @@
 
     "//sight_dispersion": "on the assumption that it would magnify the center-of-aim point a size or two",
     "//sight_dispersion2": "ideally it should, of course, coordinate with the sight in magnifies",
-    "sight_dispersion": 12,
+    "sight_dispersion": 24,
+    "aim_speed_modifier": 16,
 
     "price": "649 USD"
   },
