@@ -36,7 +36,7 @@
 
     "items": [
       "suppressor_silent_legion_556",
-      ["flash_hider_silent_legion_qd7", 90]
+      ["flash_hider_silent_legion_qd7", 80]
     ]
   },
 
@@ -48,7 +48,7 @@
 
     "items": [
       "suppressor",
-      ["thread_mount_silencerco_bravo", 90]
+      ["thread_mount_silencerco_bravo", 80]
     ]
   }
 ]
