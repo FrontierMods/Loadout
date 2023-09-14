@@ -235,8 +235,6 @@
 
     "location": "sights",
     "install_time": "30 s",
-    "//add_mod": "emulates possibly having another sight, e.g. a red dot sight, along with iron sights",
-    "add_mod": [["sights", 1]],
 
     "mod_targets": ["rifle", "smg", "shotgun", "launcher"],
 
@@ -247,6 +245,20 @@
     "aim_speed_modifier": 2,
 
     "flags": ["DISABLE_SIGHTS"]
+  },
+
+  {
+    "abstract": "iron_sights_offset_abstract",
+    "copy-from": "iron_sights_abstract",
+    "type": "GUNMOD",
+
+    "name": {
+      "str": "offset iron sights"
+    },
+    "description": "idea of a set of offset iron sights",
+
+    "//add_mod": "emulates possibly having another sight, e.g. a red dot sight, along with iron sights",
+    "add_mod": [["sights", 1]]
   },
 
   {
