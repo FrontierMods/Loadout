@@ -55,5 +55,19 @@
     "subtype": "collection",
 
     "items": ["thread_protector_silencer_central"]
+  },
+
+  {
+    "type": "item_group",
+    "id": "loadout_all_muzzle_devices",
+
+    "subtype": "collection",
+
+    "groups": [
+      "loadout_suppressors_qd",
+      "loadout_suppressors_direct",
+      "loadout_muzzle_brakes",
+      "loadout_thread_protectors"
+    ]
   }
 ]
