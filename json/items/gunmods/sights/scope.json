@@ -45,8 +45,6 @@
       "16.70 ft @ 100 yds @ 6× magnification = 191.32 MOA"
     ],
     "field_of_view": 1162,
-    "//sight_dispersion": "using the SR1 reticle @ 1 MOA dot, though SR3 (for 5.56mm) @ 1.5 MOA dot might be more appropriate",
-    "sight_dispersion": 4,
 
     "//power": {
       "source": [["CR2032"]],
@@ -111,7 +109,6 @@
       "1.74° @ 12× magnification = 104.40 MOA"
     ],
     "field_of_view": 416,
-    "sight_dispersion": 1,
 
     "price": "700 USD"
   },
@@ -173,7 +170,6 @@
       "0.91° @ 24× magnification = 54.60 MOA"
     ],
     "field_of_view": 217,
-    "sight_dispersion": 1,
 
     "//power": {
       "source": [["CR2032"]],
