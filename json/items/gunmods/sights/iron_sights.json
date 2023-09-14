@@ -23,7 +23,7 @@
     "copy-from": "iron_sights_abstract",
     "type": "GUNMOD",
 
-    "//source": [
+    "//sources": [
       "https://www.wingtactical.com/accessories/optics-sights/sights/ultradyne-c4-flip-up-front-and-rear-sight/"
     ],
 
@@ -46,7 +46,7 @@
     "copy-from": "iron_sights_abstract",
     "type": "GUNMOD",
 
-    "//source": [
+    "//sources": [
       "https://www.wingtactical.com/accessories/optics-sights/sights/scalarworks-peak-fixed-iron-sights-set/"
     ],
 
@@ -70,7 +70,7 @@
     "copy-from": "iron_sights_abstract",
     "type": "GUNMOD",
 
-    "//source": [
+    "//sources": [
       "https://www.wingtactical.com/accessories/optics-sights/sights/strike-industries-sidewinder-ii-45-degree-offset-inline-flip-up-sights/"
     ],
 
@@ -92,8 +92,8 @@
     "copy-from": "iron_sights_abstract",
     "type": "GUNMOD",
 
-    "//source": [
       "https://www.wingtactical.com/accessories/optics-sights/sights/strike-industries-sidewinder-45-degree-offset-co-witness-flip-up-sights/"
+    "//sources": [
     ],
 
     "name": {
@@ -158,7 +158,7 @@
     "copy-from": "iron_sights_abstract",
     "type": "GUNMOD",
 
-    "//source": [
+    "//sources": [
       "https://www.wingtactical.com/accessories/optics-sights/sights/spikes-tactical-micro-front-sight/",
       "https://www.wingtactical.com/accessories/optics-sights/sights/spikes-tactical-micro-rear-sight/"
     ],
@@ -184,7 +184,7 @@
     "copy-from": "iron_sights_abstract",
     "type": "GUNMOD",
 
-    "//source": [
+    "//sources": [
       "https://www.wingtactical.com/accessories/optics-sights/sights/troy-industries-m4-flip-up-front-battle-sight/",
       "https://www.wingtactical.com/accessories/optics-sights/sights/troy-industries-folding-rear-battle-sight/"
     ],
