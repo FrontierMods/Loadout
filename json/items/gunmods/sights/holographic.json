@@ -25,9 +25,7 @@
     "volume": "229 ml",
     "longest_side": "97 mm",
 
-    "sight_dispersion": 4,
     "field_of_view": 1024,
-    "aim_speed_modifier": 12,
 
     "//power": {
       "source": [["CR123"]],
@@ -70,10 +68,8 @@
     "volume": "303 ml",
     "longest_side": "99 mm",
 
-    "sight_dispersion": 4,
     "//field_of_view": "BadassOptic review says FOV of this sight is comparable to an EOTech sight, but possibly slightly worse",
     "field_of_view": 922,
-    "aim_speed_modifier": 12,
 
     "//power": {
       "source": [["CR123A"]],
