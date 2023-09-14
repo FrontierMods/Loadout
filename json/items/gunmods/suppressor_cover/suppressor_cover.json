@@ -201,9 +201,9 @@
     "//material": "inner shell is fiberglass",
     "material": ["kevlar", "nylon"],
 
-    "//heat_tolerance": ["1000°F", "assumes one of the higher-temp models"],
-    "loudness_modifier": -2,
-    "dispersion_modifier": -1,
+    "//heat_tolerance": ["2000°F", "assumes one of the higher-temp models"],
+    "loudness_modifier": -4,
+    "dispersion_modifier": -2,
 
     "price": "150 USD"
   },
