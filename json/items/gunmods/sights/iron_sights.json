@@ -112,26 +112,6 @@
     "price": "118 USD"
   },
 
-  {
-    "id": "iron_sights_ultradyne_c2",
-    "copy-from": "iron_sights_abstract",
-    "type": "GUNMOD",
-
-    "//source": [
-      "https://www.wingtactical.com/accessories/optics-sights/sights/ultradyne-c2-flip-up-front-and-rear-sight-combo/"
-    ],
-
-    "name": {
-      "str": "Ultradyne C2 iron sights",
-      "str_pl": "pairs of Ultradyne C2 iron sights"
-    },
-    "description": "TBD",
-
-    "weight": "96 g",
-
-    "material": ["aluminum", "steel"],
-
-    "price": "199 USD"
   },
 
   {
