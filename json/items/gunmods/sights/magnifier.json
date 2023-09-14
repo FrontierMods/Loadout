@@ -32,8 +32,6 @@
 
     "material": ["plastic", "glass"],
 
-    "//sight_dispersion": "see abstract for reasoning behind sight dispersion",
-    "sight_dispersion": 24,
     "//field_of_view": "75 feet @ 100 yards = 854.97 MOA",
     "field_of_view": 855,
 
@@ -71,11 +69,6 @@
 
     "material": ["plastic", "glass"],
 
-    "//sight_dispersion": [
-      "on the assumption that it would magnify the center-of-aim point a size or two",
-      "ideally it should, of course, coordinate with the sight in magnifies"
-    ],
-    "sight_dispersion": 24,
     "//field_of_view": "45 feet @ 100 yards = 514.63 MOA",
     "field_of_view": 515,
 
@@ -114,11 +107,6 @@
 
     "material": ["plastic", "glass"],
 
-    "//sight_dispersion": [
-      "on the assumption that it would magnify the center-of-aim point a size or two",
-      "ideally it should, of course, coordinate with the sight in magnifies"
-    ],
-    "sight_dispersion": 24,
     "//field_of_view": "7.28° = 436.8 MOA",
     "field_of_view": 439,
 
