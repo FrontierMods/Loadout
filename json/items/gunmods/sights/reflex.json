@@ -230,6 +230,8 @@
     "volume": "117 ml",
     "longest_side": "64 mm",
 
+    "location": "sights",
+
     "sight_dispersion": 8,
     "aim_speed_modifier": 8,
 
