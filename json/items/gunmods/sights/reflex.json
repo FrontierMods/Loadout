@@ -144,7 +144,7 @@
     "sight_dispersion": 16,
     "aim_speed_modifier": 12,
 
-    "location": "30mm mount",
+    "location": "single 30mm mount",
 
     "//power": {
       "source": [["CR2"]],

@@ -415,5 +415,42 @@
     "add_mod": [["RMR mount", 1]],
 
     "price": "39 USD"
+  },
+
+  {
+    "id": "sight_mount_30mm_single_aero",
+    "copy-from": "sight_mount_abstract",
+    "type": "GUNMOD",
+
+    "//sources": [
+      "https://www.wingtactical.com/accessories/optics-sights/optic-sight-mounts/aero-precision-cantilever-30mm-red-dot-scope-mount/"
+    ],
+
+    "//notes": [
+      "we'll reuse this one in Gunsmith or something",
+      "for now, do not spawn it, since it is useless",
+      "see notes for JP Enterprises 30 mm sight mount for reason of this item's existence"
+    ],
+
+    "name": {
+      "str": "Aero Precision cantilever 30mm red dot scope mount"
+    },
+    "description": "TBD",
+
+    "weight": "46 g",
+    "//dimensions": {
+      "length": "2.60 in",
+      "width": "1.30 in",
+      "height": "2.35 in",
+      "raw": "130 ml"
+    },
+    "volume": "39 ml",
+    "longest_side": "66 mm",
+
+    "location": "sights",
+
+    "add_mod": [["single 30mm mount", 1]],
+
+    "price": "85 USD"
   }
 ]
