@@ -14,7 +14,7 @@
     "name": {
       "str": "Scalarworks LEAP-04 RMR mount"
     },
-    "description": "TBD",
+    "description": "A lightweight mount for a popular Trijicon RMR red dot sight.  Raises the sight point significantly.  The skeletal construction of the mount allows it to save a lot of weight.",
 
     "//weight": [
       "manufacturer source says 2.72 oz ≈ 77 g",
@@ -44,7 +44,7 @@
     "name": {
       "str": "Trijicon RM33 RMR mount"
     },
-    "description": "TBD",
+    "description": "An adapter allowing one to install a popular Trijicon RMR red dot sight onto a common Picatinny rail.  This being a low mount, it allows the user to reduce the amount of space their gun takes, in exchange for slightly more effort while aiming.",
 
     "weight": "34 g",
     "//dimensions": {
@@ -75,7 +75,7 @@
     "name": {
       "str": "Trijicon RM35 RMR mount for ACOG"
     },
-    "description": "TBD",
+    "description": "A specialized mount allowing one to install a popular Trijicon RMR red dot sight on top of an equally-popular Trijicon ACOG sight.  This enables usage of different sights for different distances, potentially making aiming quicker and more precise overall.",
 
     "//weight": [
       "Amazon lists weight as 0.1 lbs ≈ 45 g",
@@ -118,7 +118,7 @@
     "name": {
       "str": "Aero Precision Ultralight 30mm scope mount"
     },
-    "description": "TBD",
+    "description": "A set of two rings on top of a single large platform, accomodating a single 30mm scope.",
 
     "//weight": "manufacturer source says weight is 3.27 oz ≈ 93 g, 0.03 oz above the Wings Tactical source, enough to swing the grammage",
     "weight": "93 g",
@@ -148,7 +148,7 @@
     "name": {
       "str": "Holosun 407/507k adapter for RMR mount"
     },
-    "description": "TBD",
+    "description": "This adapter mounts on top of any RMR mount, enabling installation of a compatible Holosun red dot sight instead.",
 
     "weight": "28 g",
     "//dimensions": {
@@ -181,7 +181,7 @@
     "name": {
       "str": "Aimpoint Micro mount"
     },
-    "description": "TBD",
+    "description": "A low Micro-series mount for compatible Aimpoint red dot sights: T-1 and T-2.  Installs on top of a common Picatinny rail, found on most large modern firearms.",
 
     "weight": "48 g",
     "//dimensions": {
@@ -209,7 +209,7 @@
     "name": {
       "str": "Trijicon ACOG TA51 mount"
     },
-    "description": "TBD",
+    "description": "A fairly-large mount for installing a popular Trijicon ACOG sight onto any common Picatinny rail.",
 
     "weight": "113 g",
     "//dimensions": {
@@ -241,7 +241,7 @@
     "name": {
       "str": "Leapers UTG 34mm ring mount"
     },
-    "description": "TBD",
+    "description": "A set of two rings on top of a single large platform, accomodating a single 34mm scope.",
 
     "weight": "171 g",
     "//dimensions": {
@@ -275,7 +275,7 @@
     "name": {
       "str": "Warne 1-inch ring mount"
     },
-    "description": "TBD",
+    "description": "A set of two rings on top of a single large platform, accomodating a single 1-in. scope.",
 
     "weight": "133 g",
     "//dimensions": {
@@ -310,7 +310,7 @@
     "name": {
       "str": "Sig Sauer Romeo 5 mount"
     },
-    "description": "TBD",
+    "description": "A low mount for installing compatible compact Sig Sauer red dot sights -- namely, Romeo5X -- onto any common Picatinny rail.",
 
     "//weight": [
       "assumed to be the same as Aimpoint Micro mount due to similar dimensions",
@@ -353,7 +353,7 @@
     "name": {
       "str": "JP Enterprises 30mm scope mount"
     },
-    "description": "TBD",
+    "description": "A set of two rings on top of a single large platform, accomodating a single 30mm scope.  This mount also features a single short Picatinny rail above the rings, allowing the user to install a second small sight.",
 
     "weight": "196 g",
     "//dimensions": {

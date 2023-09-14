@@ -12,7 +12,7 @@
     "name": {
       "str": "EOTech Vudu 1—6×24 30mm scope"
     },
-    "description": "TBD",
+    "description": "A slim, versatile 30mm scope with magnification ranging from 1× to 6×.  Its award-winning design and perfomance make it a popular low-magnification scope for a variety of tasks, including hunting, competitive shooting, and law-enforcement operations.",
 
     "weight": "570 g",
     "//dimensions": [
@@ -64,7 +64,7 @@
     "name": {
       "str": "Trijicon Huron 3—12×40 30mm scope"
     },
-    "description": "TBD",
+    "description": "A large 30mm scope with magnification ranging from 3× to 12×, primarily intended for hunting large game.  Like other scopes from Trijicon, Huron is appreciated for its quality and performance, with aircraft-grade aluminum and combat-grade glass similar to that used in the famous ACOG sight.",
 
     "weight": "505 g",
     "//dimensions": [
@@ -125,7 +125,7 @@
     "name": {
       "str": "Trijicon Tenmile 6—24×50 30mm scope"
     },
-    "description": "TBD",
+    "description": "A large 30mm scope with magnification ranging from 6× to 24×, intended for hunting large game.  With a large degree of adjustments and unparalleled performance in the field, this scope allows its user to shoot accurately from a very long range.",
 
     "weight": "705 g",
     "//dimensions": [

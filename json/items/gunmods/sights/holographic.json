@@ -12,7 +12,7 @@
     "name": {
       "str": "EOTech XPS2 holographic sight"
     },
-    "description": "TBD",
+    "description": "A modern classic of a holographic sight.  Holographic sights enable quicker and, often, more-precise aiming than iron sights, due to the simplicity of a single-point aim.  They are also an improvement over red dot sights, though the difference is less significant than it is between red-dots and iron sights.  On the other hand, holographic sights heavier, bulkier, and more-expensive than red-dots.",
 
     "weight": "255 g",
     "//dimensions": {
@@ -52,7 +52,7 @@
     "name": {
       "str": "Vortex Optics AMG UH-1 Gen II holographic sight"
     },
-    "description": "TBD",
+    "description": "A boxy, futuristic-looking holographic sight.  Holographic sights enable quicker and, often, more-precise aiming than iron sights, due to the simplicity of a single-point aim.  They are also an improvement over red dot sights, though the difference is less significant than it is between red-dots and iron sights.  On the other hand, holographic sights heavier, bulkier, and more-expensive than red-dots.",
 
     "weight": "329 g",
     "//dimensions": {

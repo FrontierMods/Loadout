@@ -11,7 +11,7 @@
     "name": {
       "str": "Trijicon RMR red dot sight"
     },
-    "description": "TBD",
+    "description": "A popular red dot sight, known for its minuscule dimensions.  Its large dot allows for quicker target acquisition, which results in the sight being somewhat less precise.  Installation requires an adapter.  With one of such adapters, it can be installed on top of a similarly-popular Trijicon ACOG sight, allowing the user to have two sights at the same time.",
 
     "weight": "34 g",
     "//dimensions": {
@@ -49,7 +49,7 @@
     "name": {
       "str": "Holosun 507K red dot sight"
     },
-    "description": "TBD",
+    "description": "A compact red dot sight, a good fit for pistols and similar small firearms. Smaller dot for a reticle makes the sight slightly more accurate at longer ranges, though sacrificing speed of target acquisition.  Installation requires an adapter.",
 
     "weight": "28 g",
     "//dimensions": {
@@ -88,7 +88,7 @@
     "name": {
       "str": "Aimpoint Micro T-2 red dot sight"
     },
-    "description": "TBD",
+    "description": "A compact, circular red dot sight, advertised for its ruggedness and clarity.  Has lens covers that open upwards, allowing the user to protect the sight from the elements when not in use.  Smaller dot makes the sight more precise at longer ranges, which slightly sacrifices target acquisition speed.  Installation requires an adapter.",
 
     "weight": "94 g",
     "//dimensions": {
@@ -126,7 +126,7 @@
     "name": {
       "str": "Vortex Strikefire II red dot sight"
     },
-    "description": "TBD",
+    "description": "A large red dot sight, looking more like a scope than a more-popular square form factor.  Large dot allows for quicker target acquisition, in exchange for making the sight less-precise at longer ranges.  Installs onto a single-ring 30mm mount.",
 
     "weight": "204 g",
     "//dimensions": {
@@ -164,7 +164,7 @@
     "name": {
       "str": "Sig Sauer Romeo5X red dot sight"
     },
-    "description": "TBD",
+    "description": "A relatively-compact red dot sight, an improved version of Romeo5.  The battery compartment under the lens makes this sight taller than most compact red dot sights. The small reticle dot makes aiming at longer distances more precise, while also making target acquisition slightly more difficult.  Installation requires an adapter.",
 
     "//weight": [
       "listed as 159 g with an alkaline AAA battery",
@@ -216,7 +216,7 @@
     "name": {
       "str": "Holosun AEMS red dot sight"
     },
-    "description": "TBD",
+    "description": "A large, futuristic-looking red dot sight that is surprisingly light for its bulk.  Smaller dot makes the sight more precise at longer distances, exchanging it for slightly slower target acquisition.  Installs directly onto Picatinny rail, since it comes with an embedded adapter.",
 
     "weight": "110 g",
     "//dimensions": {
