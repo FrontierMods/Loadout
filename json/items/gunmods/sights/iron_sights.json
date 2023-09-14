@@ -124,7 +124,20 @@
     "description": "A pair of compact folding iron sights.  Front sight features a thin post, enabling more accurate shots at longer distances, without the usual disadvantages of slower target acquisition.  Can be flipped down to allow use of other sights.",
 
     "weight": "64 g",
-    "volume": "60 ml",
+    "//dimensions": {
+      "length": "1.734 in",
+      "width": "1.37 in",
+      "height": "1.537 in",
+      "raw": "60 ml",
+      "trim": 0.4,
+      "//notes": [
+        "stats for raised sights",
+        "length of both sights added (0.854 + 0.88 in.) to emulate both sights stacked together in the inventory",
+        "height is taken from the tallest (rear) sight of the pair",
+        "slightly inaccurate, since it assumes total height is height from top of rail to aperture"
+      ]
+    },
+    "volume": "36 ml",
     "longest_side": "44 mm",
 
     "material": ["aluminum", "steel"],
@@ -156,7 +169,21 @@
     "description": "A pair of folding iron sights, with a design reminiscent of the classic M1 Garand sights.  Can be flipped down to allow use of other sights.",
 
     "weight": "89 g",
-    "volume": "70 ml",
+    "//dimensions": {
+      "length": "2.127 in",
+      "width": "1.259 in",
+      "height": "1.586 in",
+      "raw": "70 ml",
+      "trim": 0.3,
+      "//notes": [
+        "stats for raised sights",
+        "width is taken from the widest (rear) sight of the pair",
+        "length of both sights added (1.064 + 1.063 in.) to emulate both sights stacked together in the inventory",
+        "height is taken from the tallest (rear) sight of the pair",
+        "slightly inaccurate, since it assumes total height is height from top of rail to aperture"
+      ]
+    },
+    "volume": "49 ml",
     "longest_side": "54 mm",
 
     "material": ["aluminum", "steel"],
