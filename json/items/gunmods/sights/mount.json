@@ -16,11 +16,7 @@
     },
     "description": "A lightweight mount for a popular Trijicon RMR red dot sight.  Raises the sight point significantly.  The skeletal construction of the mount allows it to save a lot of weight.",
 
-    "//weight": [
-      "manufacturer source says 2.72 oz ≈ 77 g",
-      "Wings Tactical says 1.51 oz ≈ 43 g"
-    ],
-    "weight": "77 g",
+    "weight": "43 g",
     "//dimensions": {
       "length": "2.08 in",
       "width": "1.34 in",
@@ -31,7 +27,7 @@
     "volume": "55 ml",
     "longest_side": "53 mm",
 
-    "price": "589 USD"
+    "price": "149 USD"
   },
 
   {
