@@ -163,6 +163,13 @@
     ],
     "weight": "235 g",
 
+    "//material": [
+      "inner core is a combination of Kevlar, basalt, amorphous silica, and aluminized silica",
+      "outer shell is Kevlar",
+      "adjustment cord is stainless steel"
+    ],
+    "material": ["kevlar", "nylon", "steel"],
+
     "//heat_tolerance": "3000°F",
     "loudness_modifier": -6,
     "dispersion_modifier": -3,
