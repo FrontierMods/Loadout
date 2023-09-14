@@ -9,6 +9,8 @@
       "https://xtremetactical.co.uk/products/eotech-vdu1-6ffsr3"
     ],
 
+    "//notes": ["dot size @ 6× magnification with SR 1 reticle = 1 MOA"],
+
     "name": {
       "str": "EOTech Vudu 1—6×24 30mm scope"
     },
