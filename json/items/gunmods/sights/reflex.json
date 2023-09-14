@@ -186,6 +186,7 @@
     "longest_side": "66 mm",
 
     "sight_dispersion": 8,
+    "aim_speed_modifier": 8,
 
     "location": "Romeo 5 mount",
 

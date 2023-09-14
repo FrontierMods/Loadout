@@ -16,8 +16,10 @@
 
     "weight": "133 g",
 
-    "//sight_dispersion": "12 MOA",
+    "//sight_dispersion": "12 MOA front post aperture",
     "sight_dispersion": 48,
+    "//aim_speed_modifier": "+3 for unique design allowing for faster target acquisition",
+    "aim_speed_modifier": 5,
 
     "price": "249 USD"
   },
@@ -41,6 +43,9 @@
     "weight": "68 g",
 
     "material": ["aluminum", "steel"],
+
+    "//aim_speed_modifier": "+1 for advertised performance",
+    "aim_speed_modifier": 3,
 
     "//price": "129 USD per front/rear sight separately",
     "price": "258 USD"
@@ -96,6 +101,10 @@
 
     "price": "118 USD"
   },
+    "//sight_dispersion": "10 MOA front post aperture",
+    "sight_dispersion": 40,
+    "//aim_speed_modifier": "+2 for tritium illumination",
+    "aim_speed_modifier": 4,
 
   },
 
@@ -120,6 +129,12 @@
     "longest_side": "44 mm",
 
     "material": ["aluminum", "steel"],
+
+    "//sight_dispersion": [
+      "5 MOA front post aperture",
+      "front post width is presumed from visuals to be 0.35 in."
+    ],
+    "sight_dispersion": 20,
 
     "//price": "105 USD + 125 USD",
     "price": "230 USD"
