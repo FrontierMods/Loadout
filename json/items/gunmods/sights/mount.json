@@ -303,6 +303,11 @@
       "https://www.sigsauer.com/romeo5-low-mount-graphite.html"
     ],
 
+    "//notes": [
+      "this appears to be a different mount from what Romeo5X is using, but for now, we pretend this to be a minor detail",
+      "this mount is supposed to be also compatible with Aimpoint T-1 sights, but we cannot implement this layer of interoperability at this stage without making the gameplay too clunky"
+    ],
+
     "name": {
       "str": "Sig Sauer Romeo5 mount"
     },
@@ -387,7 +392,7 @@
     "//notes": [
       "we'll reuse this one in Gunsmith or something",
       "for now, do not spawn it, since it is useless",
-      "see JP Enterprises 30 mm sight mount for reason of this item's existence"
+      "see notes for JP Enterprises 30 mm sight mount for reason of this item's existence"
     ],
 
     "name": {
