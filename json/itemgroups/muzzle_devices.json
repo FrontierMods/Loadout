@@ -64,10 +64,10 @@
     "subtype": "collection",
 
     "groups": [
-      "loadout_suppressors_qd",
-      "loadout_suppressors_direct",
-      "loadout_muzzle_brakes",
-      "loadout_thread_protectors"
+      ["loadout_suppressors_qd", 60],
+      ["loadout_suppressors_direct", 50],
+      ["loadout_muzzle_brakes", 70],
+      ["loadout_thread_protectors", 20]
     ]
   }
 ]
