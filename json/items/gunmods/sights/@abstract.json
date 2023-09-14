@@ -81,7 +81,7 @@
     },
     "description": "idea of a 30mm scope",
 
-    "//field_of_view": "what low-magnification scopes have @ 1× magnification",
+    "//field_of_view": "what low-magnification scopes have (after strong rounding) @ 1× magnification",
     "field_of_view": 1000,
     "//sight_dispersion": "0.25 MOA in quarter-MOA / 15 arc seconds per point",
     "sight_dispersion": 1,
