@@ -279,8 +279,6 @@
     "longest_side": "5 mm",
 
     "mod_targets": ["pistol"],
-    "//add_mod": "reset adding another sight location for pistols",
-    "add_mod": [],
 
     "//sight_dispersion": "4 MOA in quarter-MOA / 15 arc seconds per point",
     "sight_dispersion": 16,
