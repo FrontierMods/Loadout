@@ -13,7 +13,7 @@
     "name": {
       "str": "Bushnell 3× sight magnifier"
     },
-    "//description": "TBD",
+    "description": "This bulky sight attaches in front of a present red dot or holographic sight, magnifying the sight picture by a factor of 3.  This allows you to aim at a further distance reliably, without changing sights.  The main disadvantage of a magnifier is the weight it adds to a firearm, making it that much less ergonomic.",
 
     "//weight": "manufacturer source says the weight is 13 oz ≈ 369 g, OpticsTrade says 374 g",
     "weight": "369 g",
@@ -51,7 +51,7 @@
     "name": {
       "str": "Leapers UTG 3× sight magnifier"
     },
-    "//description": "TBD",
+    "description": "This bulky sight attaches in front of a present red dot or holographic sight, magnifying the sight picture by a factor of 3.  This allows you to aim at a further distance reliably, without changing sights.  The main disadvantage of a magnifier is the weight it adds to a firearm, making it that much less ergonomic.",
 
     "weight": "335 g",
     "//dimensions": {
@@ -88,7 +88,7 @@
     "name": {
       "str": "Vortex Micro 3× sight magnifier"
     },
-    "//description": "TBD",
+    "description": "This somewhat-compact sight attaches in front of a present red dot or holographic sight, magnifying the sight picture by a factor of 3.  This allows you to aim at a further distance reliably, without changing sights.  The main disadvantage of a magnifier is the weight it adds to a firearm, making it that much less ergonomic.",
 
     "//weight": ["9.55 oz ≈ 271 g with mount", "6.9 oz ≈ 196 g without"],
     "weight": "271 g",

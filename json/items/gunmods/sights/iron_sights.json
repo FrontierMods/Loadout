@@ -12,7 +12,7 @@
       "str": "Ultradyne C4 iron sights",
       "str_pl": "pairs of Ultradyne C4 iron sights"
     },
-    "description": "TBD",
+    "description": "A pair of uniquely-designed folding iron sights, with both posts using concentric circles for faster target acquisition, sacrificing precision at range.  Can be flipped down to allow use of other sights.",
 
     "weight": "133 g",
 
@@ -35,7 +35,7 @@
       "str": "Scalarworks PEAK iron sights",
       "str_pl": "pairs of Scalarworks PEAK iron sights"
     },
-    "description": "TBD",
+    "description": "A pair of fixed iron sights.  Touted as being some of the best fixed sights in the world, this pair offers a sillouette of the classic AR-15 iron sights, while refining the overall design for performance, lower weight, and build quality.",
 
     "//weight": "0.94 oz + 1.45 oz = 2.39 oz ≈ 68 g",
     "weight": "68 g",
@@ -59,7 +59,7 @@
       "str": "SI Sidewinder II offset iron sights",
       "str_pl": "pairs of SI Sidewinder II offset iron sights"
     },
-    "description": "TBD",
+    "description": "A pair of offset iron sights that could be flipped down or inline, to make them behave more like regular iron sights.  Offset iron sights can be used alongside other sights and scopes.",
 
     "weight": "101 g",
 
@@ -88,7 +88,7 @@
       "str": "Diamondhead iron sights",
       "str_pl": "pairs of Diamondhead iron sights"
     },
-    "description": "TBD",
+    "description": "A pair of folding iron sights, with a unique diamond-shape design.  Tritium-illuminated posts and a relatively-large rear-sight aperture allow for faster target acquisition.  Can be flipped down to allow use of other sights.",
 
     "//dimensions": "duplicates the abstract",
 
@@ -113,7 +113,7 @@
       "str": "Spike's Tactical micro iron sights",
       "str_pl": "pairs of Spike's Tactical micro iron sights"
     },
-    "description": "TBD",
+    "description": "A pair of compact folding iron sights.  Front sight features a thin post, enabling more accurate shots at longer distances, without the usual disadvantages of slower target acquisition.  Can be flipped down to allow use of other sights.",
 
     "weight": "64 g",
     "volume": "60 ml",
@@ -139,7 +139,7 @@
       "str": "Troy Industries iron sights",
       "str_pl": "pairs of Troy Industries iron sights"
     },
-    "description": "TBD",
+    "description": "A pair of folding iron sights, with a design reminiscent of the classic M1 Garand sights.  Can be flipped down to allow use of other sights.",
 
     "weight": "89 g",
     "volume": "70 ml",
