@@ -308,7 +308,7 @@
 
     "//power": {
       "source": "tritium",
-      "lifetime": "12 years"
+      "lifetime": "12 y"
     },
 
     "price": "1539 USD"
@@ -338,8 +338,10 @@
 
     "material": ["aluminum", "glass"],
 
-    "//sight_dispersion": "on the assumption that it would magnify the center-of-aim point a size or two",
-    "//sight_dispersion2": "ideally it should, of course, coordinate with the sight in magnifies",
+    "//sight_dispersion": [
+      "3× magnification of a (presumed) 2 MOA dot in front of the magnifier",
+      "ideally it should, of course, coordinate with the sight in magnifies"
+    ],
     "sight_dispersion": 24,
     "aim_speed_modifier": 16,
 
