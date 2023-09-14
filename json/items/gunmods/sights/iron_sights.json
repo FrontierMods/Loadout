@@ -48,7 +48,7 @@
 
   {
     "id": "iron_sights_strike_sidewinder2",
-    "copy-from": "iron_sights_abstract",
+    "copy-from": "iron_sights_offset_abstract",
     "type": "GUNMOD",
 
     "//sources": [
