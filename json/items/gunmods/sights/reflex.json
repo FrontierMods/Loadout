@@ -188,7 +188,7 @@
     "sight_dispersion": 8,
     "aim_speed_modifier": 8,
 
-    "location": "Romeo 5 mount",
+    "location": "Romeo5 mount",
 
     "//power": {
       "source": [["AAA"]],
