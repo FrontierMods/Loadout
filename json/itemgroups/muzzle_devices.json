@@ -61,6 +61,10 @@
     "type": "item_group",
     "id": "loadout_all_muzzle_devices",
 
+    "//notes": [
+      "for gun stores and other locations where you may see a variety of different attachments"
+    ],
+
     "subtype": "collection",
 
     "groups": [
