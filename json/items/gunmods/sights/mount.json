@@ -304,7 +304,7 @@
     ],
 
     "name": {
-      "str": "Sig Sauer Romeo 5 mount"
+      "str": "Sig Sauer Romeo5 mount"
     },
     "description": "A low mount for installing compatible compact Sig Sauer red dot sights -- namely, Romeo5X -- onto any common Picatinny rail.",
 
@@ -328,7 +328,7 @@
     "volume": "15 ml",
     "longest_side": "50 mm",
 
-    "add_mod": [["Romeo 5 mount", 1]],
+    "add_mod": [["Romeo5 mount", 1]],
 
     "price": "95 USD"
   },
