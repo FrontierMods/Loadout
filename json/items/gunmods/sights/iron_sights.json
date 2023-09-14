@@ -99,13 +99,12 @@
 
     "material": ["plastic"],
 
-    "price": "118 USD"
-  },
     "//sight_dispersion": "10 MOA front post aperture",
     "sight_dispersion": 40,
     "//aim_speed_modifier": "+2 for tritium illumination",
     "aim_speed_modifier": 4,
 
+    "price": "118 USD"
   },
 
   {
