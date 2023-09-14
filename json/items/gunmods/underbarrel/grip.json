@@ -424,44 +424,6 @@
   },
 
   {
-    "id": "foregrip_slr_fingerstop",
-    "copy-from": "foregrip_abstract",
-    "type": "GUNMOD",
-
-    "//sources": [
-      "https://www.wingtactical.com/firearm-parts/ar-15-parts/grips-foregrips/foregrips/slr-rifleworks-m-lok-finger-stop/"
-    ],
-
-    "name": {
-      "str": "SLR Rifleworks fingerstop"
-    },
-    "description": "TBD",
-
-    "weight": "9 g",
-    "//dimensions": {
-      "length": "1.50 in",
-      "width": "0.65 in",
-      "height": "0.80 in",
-      "raw": "13 ml",
-      "trim": 0.4,
-      "notes": ["length and width acquired from visual reference"]
-    },
-    "volume": "8 ml",
-    "longest_side": "38 mm",
-
-    "material": ["aluminum"],
-
-    "//interfaces": ["M-LOK"],
-
-    "//handling_modifier": {
-      "handstop": 1
-    },
-    "handling_modifier": 1,
-
-    "price": "36 USD"
-  },
-
-  {
     "id": "foregrip_odin_b1",
     "copy-from": "foregrip_abstract",
     "type": "GUNMOD",
