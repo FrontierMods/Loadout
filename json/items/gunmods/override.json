@@ -408,15 +408,18 @@
     "copy-from": "suppressor_compact",
     "type": "GUNMOD",
 
+    "//TODO": [
+      "https://www.reardenmfg.com/product/spb-ht-muzzle-brake/",
+      "https://www.reardenmfg.com/product/atlas-ht-thread-adapter/"
+    ],
+
     "//sources": [
       "https://wittmachine.net/product/mod-1-quick-disconnect-ultra-compact-suppressor/",
       "https://www.watchwpsn.com/videos/witt-machine-mod1-compact-silencer-test-review"
     ],
 
     "//notes": [
-      "technically mounts on a QD device, but given that the source has no separate information about, we'll pretend it's a direct-thread mount",
-      "for what it's worth, visual reference reveals the QD device to ~2.035 in., a few hairs above the length of a .308 casing",
-      "https://bkingsfirearms.com/shop/suppressors/witt-machine-and-tool-co-mod-1-quick-disconnect-ultra-compact-suppressor-1-2x28/"
+      "while we're in the process of adding the muzzle device and the adapter, we pretend the suppressor comes with those inherently, pre-attached"
     ],
 
     "name": {
