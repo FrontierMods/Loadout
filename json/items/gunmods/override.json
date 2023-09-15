@@ -68,7 +68,7 @@
 
     "material": ["aluminum", "steel", "rubber"],
 
-    "//interface": ["Picatinny"],
+    "//interfaces": ["Picatinny"],
 
     "//handling_modifier": 18,
 
