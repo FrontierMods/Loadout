@@ -198,7 +198,7 @@
     ],
 
     "name": {
-      "str": "Leupold Mark 6 3-18×44 rifle scope"
+      "str": "Leupold Mark 6 3-18×44 34mm scope"
     },
     "//description": "TBD",
 
@@ -273,7 +273,7 @@
     ],
 
     "name": {
-      "str": "Trijicon ACOG 4×32 scope"
+      "str": "Trijicon ACOG TA01 4×32 scope"
     },
     "//description": "TBD",
 
@@ -556,7 +556,7 @@
     ],
 
     "name": {
-      "str": "Magpul MBUS offset iron sights"
+      "str": "Magpul MBUS Pro offset iron sights"
     },
     "//description": "TBD",
 
@@ -669,7 +669,7 @@
     ],
 
     "name": {
-      "str": "SI offset sight mount"
+      "str": "Strike Industries Ambush offset sight mount"
     },
     "//description": "TBD",
 
@@ -1036,8 +1036,8 @@
     ],
 
     "name": {
-      "str": "FAB Defense Glock pistol stock (folded)",
-      "str_pl": "FAB Defense Glock pistol stocks (folded)"
+      "str": "FAB Defense Cobra Glock pistol stock (folded)",
+      "str_pl": "FAB Defense Cobra Glock pistol stocks (folded)"
     },
     "//description": "TBD",
 
