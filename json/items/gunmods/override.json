@@ -1347,7 +1347,15 @@
     "//integral_longest_side": "part of the choke covers the thread",
     "integral_longest_side": "91 mm",
 
-    "//compatibility": ["870", "887", "11-87", "1100", "V3"],
+    "//shot_spread_multiplier_modifier": [
+      "on the assumption that this model is between an improved modified choke and a full choke, in terms of performance",
+      "at 40 yards, Beretta estimates an average of 65% of choke constriction for improved modified chokes, and 70% for full chokes",
+      "https://www.gmk.co.uk/pdf/choke-constriction-chart.pdf",
+      "taking an average of 67.5% for the Müller passing choke, and the 40% value for a cylinder choke (i.e., unconstricted shotgun barrel) at 40 yards, we get 0.4 / 0.675 ≈ 0.59"
+    ],
+    "shot_spread_multiplier_modifier": -0.41,
+
+    "//compatibility": { "remington": ["870", "887", "11-87", "1100", "V3"] },
     "mod_targets": ["remington_870", "remington_1100"],
 
     "price": "135 USD"
