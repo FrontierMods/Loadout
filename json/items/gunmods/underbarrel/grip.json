@@ -51,7 +51,7 @@
     "name": {
       "str": "Strike Industries short vertical grip"
     },
-    "description": "A short polymer vertical grip.  Allows for better handling of the firearm.  Has ribbed texture on the front and the back, and two islands of texture on the sides.",
+    "description": "A short polymer foregrip.  Allows for better handling of the firearm.  Has ribbed texture on the front and the back, and two islands of texture on the sides.",
 
     "weight": "48 g",
     "//dimensions": {
@@ -89,7 +89,7 @@
     "name": {
       "str": "ERGO Pop Bottle vertical grip"
     },
-    "description": "A plain, bottleneck-shaped vertical grip.  Allows for better handling of the firearm.  Has grooves at the bottom, preventing the user's hand from slipping.",
+    "description": "A plain, bottleneck-shaped foregrip.  Allows for better handling of the firearm.  Has grooves at the bottom, preventing the user's hand from slipping.",
 
     "weight": "58 g",
     "//dimensions": {
@@ -204,7 +204,7 @@
     "name": {
       "str": "Daniel Defense short vertical grip"
     },
-    "description": "A short polymer vertical grip.  Allows for better handling of the firearm.  Has ribbed texture on the front and the back, and two islands of tire-like texture on the sides.",
+    "description": "A short polymer foregrip.  Allows for better handling of the firearm.  Has ribbed texture on the front and the back, and two islands of tire-like texture on the sides.",
 
     "weight": "52 g",
     "//dimensions": {
@@ -283,7 +283,7 @@
     "name": {
       "str": "Arisaka Defense vertical grip"
     },
-    "description": "A short metal vertical grip.  Allows for better handling of the firearm.  Its hollow design make it ligther than the metal alternatives.  Deep grooves along the entire length offer good grip.",
+    "description": "A short metal foregrip.  Allows for better handling of the firearm.  Its hollow design make it ligther than the metal alternatives.  Deep grooves along the entire length offer good grip.",
 
     "weight": "53 g",
     "//dimensions": {
@@ -473,7 +473,7 @@
     "name": {
       "str": "Tyrant Desings HALO handstop"
     },
-    "description": "A short, skeletonized vertical grip, comparable in size to a handstop.  Allows for better handling of the firearm.  An aggressive, ergonomic design helps it perform on par with competition, while saving on weight.",
+    "description": "A short, skeletonized foregrip, comparable in size to a handstop.  Allows for better handling of the firearm.  An aggressive, ergonomic design helps it perform on par with competition, while saving on weight.",
 
     "weight": "26 g",
     "//dimensions": {
@@ -511,7 +511,7 @@
     "name": {
       "str": "Tyrant Designs HALO MiniVert grip"
     },
-    "description": "A vertical grip with an aggressive, skeletonized design.  Allows for better handling of the firearm.  Ergonomic and lightweight, it performs on par or better than competition.",
+    "description": "A metal foregrip with an aggressive, skeletonized design.  Allows for better handling of the firearm.  Ergonomic and lightweight, it performs on par or better than competition.",
 
     "weight": "71 g",
     "//dimensions": {
@@ -550,7 +550,7 @@
     "name": {
       "str": "Fortis Shift vertical grip"
     },
-    "description": "A metal vertical grip with a starkly-skeletonized design.  Allows for better handling of the firearm.  Performs better than average, while saving on weight.",
+    "description": "A metal foregrip with a starkly-skeletonized design.  Allows for better handling of the firearm.  Performs better than average, while saving on weight.",
 
     "weight": "108 g",
     "//dimensions": {
@@ -588,7 +588,7 @@
     "name": {
       "str": "Fortis Shift angled grip"
     },
-    "description": "A metal angled grip with a starkly-skeletonized design.  Allows for better handling of the firearm.  Performs on par with competition, while saving on weight.",
+    "description": "A metal angled foregrip with a starkly-skeletonized design.  Allows for better handling of the firearm.  Performs on par with competition, while saving on weight.",
 
     "weight": "71 g",
     "//dimensions": {
@@ -626,7 +626,7 @@
     "name": {
       "str": "Strike Industries Cobra angled grip"
     },
-    "description": "A multi-modal polymer angled grip.  Allows for better handling of the firearm.  Can be used in a variety of ways as befits the situation, thanks to its ergonomic design.",
+    "description": "A multi-modal polymer angled foregrip.  Allows for better handling of the firearm.  Can be used in a variety of ways as befits the situation, thanks to its ergonomic design.",
 
     "weight": "40 g",
     "//dimensions": {
@@ -669,7 +669,7 @@
     "name": {
       "str": "Mission First Tactical React vertical grip"
     },
-    "description": "A plain vertical grip.  Allows for better handling of the firearm.  Textured surface and deliberate finger grooves provide for excellent control over recoil.",
+    "description": "An unassuming-looking foregrip.  Allows for better handling of the firearm.  Textured surface and deliberate finger grooves provide for excellent control over recoil.",
 
     "weight": "65 g",
     "//dimensions": {
@@ -709,7 +709,7 @@
     "name": {
       "str": "Mission First Tactical React folding vertical grip"
     },
-    "description": "A compact full-sized vertical grip.  Allows for better handling of the firearm.  Can be folded to save space.  Grooves at the bottom prevent hands from slipping.",
+    "description": "A compact full-sized foregrip.  Allows for better handling of the firearm.  Can be folded to save space.  Grooves at the bottom prevent hands from slipping.",
 
     "weight": "106 g",
     "//dimensions": {
@@ -748,7 +748,7 @@
     "name": {
       "str": "Magpul AFG2 angled grip"
     },
-    "description": "A slim angled grip.  Allows for better handling of the firearm.  Ergonomic design provides a good degree of control over recoil.",
+    "description": "A slim angled foregrip.  Allows for better handling of the firearm.  Ergonomic design provides a good degree of control over recoil.",
 
     "weight": "72 g",
     "//dimensions": {
@@ -788,7 +788,7 @@
     "name": {
       "str": "FAB Defense folding vertical grip"
     },
-    "description": "A folding polymer vertical grip, with several available angles.  Allows for better handling of the firearm.  Aggressive texture on most of the surface provides good grip.",
+    "description": "A folding polymer foregrip, with several available angles.  Allows for better handling of the firearm.  Aggressive texture on most of the surface provides good grip.",
 
     "weight": "133 g",
     "//dimensions": {
@@ -829,7 +829,7 @@
     "name": {
       "str": "Magpul short vertical grip"
     },
-    "description": "A short polymer vertical grip.  Allows for better handling of the firearm.  Has ribbed texture on the front and the back, and two islands of texture on the sides.",
+    "description": "A short polymer foregrip.  Allows for better handling of the firearm.  Has ribbed texture on the front and the back, and two islands of texture on the sides.",
 
     "weight": "78 g",
     "//dimensions": {
@@ -866,7 +866,7 @@
     "name": {
       "str": "F-1 Firearms skeletonized angled grip"
     },
-    "description": "An angled grip with an exceptional amount of material removed.  Allows for better handling of the firearm.  Performs well against competition, while also saving on weight.",
+    "description": "An angled foregrip with an exceptional amount of material removed.  Allows for better handling of the firearm.  Performs well against competition, while also saving on weight.",
 
     "weight": "62 g",
     "//dimensions": {
