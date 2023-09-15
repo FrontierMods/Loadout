@@ -595,9 +595,12 @@
       "length": "2.64 in",
       "diameter": "0.55 in",
       "raw": "10 ml",
-      "trim": 0
+      "trim": -0.75,
+      "notes": [
+        "negative trim value compensates for Picatinny mount, wires, and activation button"
+      ]
     },
-    "volume": "10 ml",
+    "volume": "18 ml",
     "longest_side": "67 mm",
 
     "//laser": {
