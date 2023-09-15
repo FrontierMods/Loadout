@@ -1304,6 +1304,12 @@
     "longest_side": "178 mm",
     "integral_longest_side": "0 mm",
 
+    "//melee_damage": [
+      "the least amount of damage of possible, without making it totally harmless",
+      "getting hit by this is like getting hit by a puffy glove"
+    ],
+    "melee_damage": { "bash": 1 },
+
     "material": ["neoprene"],
 
     "mod_targets": ["rifle", "shotgun"],
