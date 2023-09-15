@@ -679,6 +679,12 @@
       "https://www.wingtactical.com/accessories/optics-sights/optic-sight-mounts/strike-industries-ambush-45-degree-offset-optic-mount/"
     ],
 
+    "//notes": [
+      "for now, we pretend that this is a generic Picatinny offset rail",
+      "here is where multi-modality for gunmod slots could really come in handy",
+      "this mount actually offers several common screw locations for popular red dot sights"
+    ],
+
     "name": {
       "str": "Strike Industries Ambush offset sight mount"
     },
