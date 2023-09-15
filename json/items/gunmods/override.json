@@ -47,28 +47,24 @@
     "copy-from": "bipod",
     "type": "GUNMOD",
 
-    "//sources": [
-      "https://www.at3tactical.com/products/harris-engineering-rotating-bipod-picatinny-and-mlok"
-    ],
-
-    "//notes": ["M-LOK version available, 11.6 oz"],
+    "//sources": ["https://www.harrisbipods.com/product/s-l2p-bipod/"],
 
     "name": {
-      "str": "Harris bipod"
+      "str": "Harris Engineering S-L2P bipod"
     },
     "//description": "TBD",
 
-    "weight": "369 g",
+    "weight": "397 g",
     "//dimensions": {
-      "length": "8 in",
+      "length": "9 in",
       "width": "1.75 in",
       "height": "1.5 in",
       "raw": "344 ml",
       "trim": 0.4,
       "notes": ["dimensions very much eyeballed"]
     },
-    "volume": "206 ml",
-    "longest_side": "203 mm",
+    "volume": "232 ml",
+    "longest_side": "229 mm",
 
     "material": ["aluminum", "steel", "rubber"],
 
@@ -76,16 +72,13 @@
 
     "//handling_modifier": 18,
 
-    "mod_targets": [
-      "pistol",
-      "smg",
-      "rifle",
-      "shotgun",
-      "launcher",
-      "crossbow"
+    "//mod_targets": [
+      "rather than use a generic `pistol` target, this bipod should target only longer pistol-caliber firearms known to be used in a marksman capacity",
+      "e.g. Manurhin MR 73, used by GIGN"
     ],
+    "mod_targets": ["smg", "rifle", "shotgun", "launcher", "crossbow"],
 
-    "price": "169 USD"
+    "price": "129 USD"
   },
 
   {
