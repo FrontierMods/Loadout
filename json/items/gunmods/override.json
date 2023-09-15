@@ -11,7 +11,7 @@
     "name": {
       "str": "Daniel Defense Tornado vertical grip"
     },
-    "//description": "TBD",
+    "description": "A full-sized polymer foregrip.  Allows for better handling of the firearm.  Has ribbed grooves on the front and the back, and two islands of tire-like texture on the sides.",
 
     "weight": "68 g",
     "//dimensions": {
@@ -52,7 +52,7 @@
     "name": {
       "str": "Harris Engineering S-L2P bipod"
     },
-    "//description": "TBD",
+    "description": "This bipod can be attached directly to the bottom Picatinny rail of a firearm.  When prone or standing against an obstacle of sufficient height, such a bipod can be used to stabilize the gun, making aiming and recoil management significantly easier.  The two obvious disadvantages to attaching a bipod is weight and extra volume.  For these reasons, some shooters prefer to carry their bipod in a gun bag or a specialized MOLLE pocket, and attach it in the field when necessary.",
 
     "weight": "397 g",
     "//dimensions": {
@@ -94,7 +94,7 @@
     "name": {
       "str": "EOTech XPS3 holographic sight"
     },
-    "//description": "TBD",
+    "description": "The next version of a modern classic in sighting devices.  Holographic sights enable quicker and, often, more-precise aiming than iron sights, due to the simplicity of a single-point aim.  They are also an improvement over red dot sights, though the difference is less significant than it is between red-dots and iron sights.  On the other hand, holographic sights heavier, bulkier, and more-expensive than red-dots.",
 
     "//dimensions": {
       "length": "3.8 in",
@@ -144,7 +144,7 @@
     "name": {
       "str": "NcSTAR red dot sight"
     },
-    "//description": "TBD",
+    "description": "A red dot sight largely made popular by video games.  Average sighting performance, though there are reports of it holding zero very poorly.  Installs directly onto Picatinny rail, since it comes with an embedded adapter.",
 
     "//dimensions": {
       "length": "3.25 in",
@@ -200,7 +200,7 @@
     "name": {
       "str": "Leupold Mark 6 3-18×44 34mm scope"
     },
-    "//description": "TBD",
+    "description": "A compact (for its features) 34mm scope with magnification ranging from 3× to 18×.  Quality-made and intended to survive harsh conditions, this scope has earned its popularity fairly.",
 
     "//volume": "three parts calculated separately, then their volumes combined",
     "//dimensions": [
@@ -275,7 +275,7 @@
     "name": {
       "str": "Trijicon ACOG TA01 4×32 scope"
     },
-    "//description": "TBD",
+    "description": "One of the most popular combat sights in the world and, for the longest time, the primary choice of several branches of the US Armed Forces, the TA01 is a 4× magnified, tritium-illuminated sight.  Though it had been eventually replaced by a more-modern sight, the ACOG continues to be a reliable optic after the end of the world.  Can optionally be augmented with a rear iron sight (forming a complete pair with an embedded front post) or an RM35 mount, allowing installation of a compact RMR red dot sight.",
 
     "//dimensions": {
       "length": "5.8 in",
@@ -317,7 +317,7 @@
     "name": {
       "str": "EOTech G43 magnifier"
     },
-    "//description": "TBD",
+    "description": "This compact sight attaches in front of a present red dot or holographic sight, magnifying the sight picture by a factor of 3.  This allows you to aim at a further distance reliably, without changing sights.  The main disadvantage of a magnifier is the weight it adds to a firearm, making it that much less ergonomic.",
 
     "//dimensions": {
       "length": "3.1 in",
@@ -351,7 +351,7 @@
     "name": {
       "str": "SilencerCo Hybrid 46 suppressor"
     },
-    "//description": "TBD",
+    "description": "A large and heavy suppressor, it reduces report (i.e., loudness of shot) by a considerable amount, though far from muffling the sound completely.  This model is rated for a very wide range of calibers, from pistol calibers like 9mm and .45 ACP, to rifle calibers like 5.56mm NATO and .45-70 Gov't, and anything in-between.  It cannot be mounted directly onto muzzle threading.  Instead, it mounts onto the Bravo direct thread mount, also from SilencerCo.  The main purpose of a suppressor is to reduce report to safe levels, allowing the shooter to sustain fire without damaging their hearing.",
 
     "//weight": "latest weight listed on the SilencerCo page for Hybrid 46 is 14.1 oz ≈ 400 g",
     "weight": "400 g",
@@ -427,7 +427,7 @@
     "name": {
       "str": "Witt Machine Mod-1 compact suppressor"
     },
-    "//description": "TBD",
+    "description": "A compact suppressor, it reduces report (i.e., loudness of shot) by a noticable amount, though far from muffling the sound completely.  This model is rated for a variety of calibers, from 9mm to .30 cal..  It comes with an embedded muzzle brake that allows it to be installed directly onto muzzle threading.  The main purpose of a suppressor is to reduce report to safe levels, allowing the shooter to sustain fire without damaging their hearing.",
 
     "//weight": "the review says the weight is 15 oz ≈ 425 g",
     "weight": "425 g",
@@ -475,7 +475,7 @@
     "name": {
       "str": "SilencerCo Salvo 12 shotgun suppressor"
     },
-    "//description": "TBD",
+    "description": "A unique design, this shotgun suppressor reduces report (i.e., loudness of shot) by a considerable amount, though far from muffling the sound completely.  This model is also reported to reduce felt recoil significantly.  It comes with an embedded choke adapter that allows it to be installed directly onto muzzle threading.  The main purpose of a suppressor is to reduce report to safe levels, allowing the shooter to sustain fire without damaging their hearing.",
 
     "weight": "975 g",
     "//dimensions": {
@@ -526,7 +526,7 @@
     "name": {
       "str": "SureFire Procomp muzzle brake"
     },
-    "description": "TBD",
+    "description": "An unassuming but capable muzzle brake, this one is capable of reducing recoil by almost 60%.  It's rated for 5.56mm NATO.  Like any muzzle brake, it makes sound signature (i.e., noise from firing) much louder.  Remember to wear hearing protection.",
 
     "weight": "96 g",
     "//dimensions": {
@@ -563,7 +563,7 @@
     "name": {
       "str": "Magpul MBUS Pro offset iron sights"
     },
-    "//description": "TBD",
+    "description": "A pair of offset iron sights that could be flipped down.  Offset iron sights can be used alongside other sights and scopes.",
 
     "//weight": "2 oz + 1.8 oz = 3.8 oz ≈ 108 g",
     "weight": "108 g",
@@ -595,7 +595,7 @@
     "name": {
       "str": "Leapers UTG red laser sight"
     },
-    "//description": "TBD",
+    "description": "A round-body, compact laser sight that mounts on a Picatinny rail, providing the shooter with reliable aim at shorter distances.  This one emits red laser: the most common kind of lasers.  Ineffective at longer ranges and in bright environments.",
 
     "//weight": "with 4 × LR44s",
     "weight": "28 g",
@@ -643,7 +643,7 @@
     "name": {
       "str": "Daniel Defense iron sights"
     },
-    "//description": "TBD",
+    "description": "A pair of fixed iron sights.  Advertised as \"A1.5\" sights, they combine the best of both worlds: the precision of A1, an earlier model of AR-15 sights, and the adjustability of A2.",
 
     "weight": "79 g",
     "//dimensions": {
@@ -688,7 +688,7 @@
     "name": {
       "str": "Strike Industries Ambush offset sight mount"
     },
-    "//description": "TBD",
+    "description": "A compact adapter that adds a short Picatinny rail at a 45-degree offset from the top rail.  This rail can be used to install a small secondary red dot sight, to be used in conjunction with a larger scope.  Having two sights, each for a different distance, should allow you to engage threats at these distances quicker.",
 
     "weight": "51 g",
     "//dimensions": {
@@ -718,7 +718,7 @@
     "name": {
       "str": "Burris 2×20 handgun scope"
     },
-    "//description": "TBD",
+    "description": "A compact 1-inch scope with a fixed magnification of 2×.  Though advertised as a handgun scope, it's frequently mounted on stock-less rifles.  Primarily intended for hunting, this rugged, durable scope will stay true no matter which caliber you use.",
 
     "weight": "199 g",
     "//dimensions": {
@@ -750,7 +750,7 @@
     "name": {
       "str": "Clipdraw universal belt clip"
     },
-    "//description": "TBD",
+    "description": "A belt clip is a metal clip that, when attached to pistol, allows carrying said pistol concealed under your belt, eliminating the need for a holster.  This particular belt clip is unique because it's universal: that is, it can be easily attached to any pistol, regardless of make, model, or size.",
 
     "//weight": [
       "Amazon lists weight in 'product dimensions' for a similar product as 0.96 oz ≈ 27 g, which seems appropriate",
@@ -803,7 +803,7 @@
     ],
 
     "name": { "str": "Caldwell universal brass catcher" },
-    "//description": "TBD",
+    "description": "A brass catcher is a bag that straps onto a firearm and catches empty casings (which are often made of brass), rather than let them drop on the ground.  On a gun range, it's useful because it means less clean-up.  In a post-apocalyptic survival situation, it means retaining material for reloading your own ammunition.  This catcher can be attached to any large firearm.  It's rated for 100 casings of 5.56mm NATO, which only covers about half the bag; this is so that the casings wouldn't fall back into the ejection port and cause a jam.",
 
     "weight": "200 g",
     "//dimensions": {
@@ -865,7 +865,7 @@
     "name": {
       "str": "Sightmark ReadyFire red laser sight"
     },
-    "//description": "TBD",
+    "description": "A boxy, compact laser sight that mounts on a Picatinny rail, providing the shooter with reliable aim at shorter distances.  This one emits red laser: the most common kind of lasers.  Ineffective at longer ranges and in bright environments.",
 
     "weight": "65 g",
     "//dimensions": {
@@ -912,7 +912,7 @@
     ],
 
     "name": { "str": "Tactical Hero 2-point rifle sling" },
-    "//description": "TBD",
+    "description": "This nylon sling can be attached to a rifle or other large gun type and let you carry the gun over your shoulder, freeing your hands.  Not the most convenient way to transport a large firearm, but better than nothing.  Being a strap of thin nylon, this sling provides barely any protection; you better pray the bastards don't hit the gun.  Right now, the sling is strapped onto your back.  Activate to move it to the front.",
 
     "//weight": [
       "does not appear to be available online, so calculations were made from a different sling",
@@ -975,7 +975,7 @@
       "str": "Tactical Hero 2-point rifle sling (front)",
       "str_pl": "Tactical Hero 2-point rifle slings (front)"
     },
-    "//description": "TBD",
+    "description": "This nylon sling can be attached to a rifle or other large gun type and let you carry the gun over your shoulder, freeing your hands.  Not the most convenient way to transport a large firearm, but better than nothing.  Being a strap of thin nylon, this sling provides barely any protection; you better pray the bastards don't hit the gun.  Right now, the sling is strapped onto your front.  Activate to move it to the back.",
 
     "use_action": {
       "type": "transform",
@@ -1011,7 +1011,7 @@
     "name": {
       "str": "LaserLyte pistol bayonet"
     },
-    "//description": "TBD",
+    "description": "A tiny blade with a mock plastic handle resembling that of a Ka-Bar knife, this \"bayonet\" is intended to be attached to the underbarrel rail of a pistol and serve as a convenient melee weapon in case of a zombie apocalypse.  That's right: the manufacturer of this thing called it on the whole \"zombies everywhere\" thing.  Doesn't make this weapon any more effective, but hey: pistol bayonet, right?",
 
     "weight": "74 g",
     "//dimensions": {
@@ -1056,7 +1056,7 @@
       "str": "FAB Defense Cobra Glock pistol stock (folded)",
       "str_pl": "FAB Defense Cobra Glock pistol stocks (folded)"
     },
-    "//description": "TBD",
+    "description": "A folding stock for Glock pistols, by FAB Defense.  Installs into the grip hole behild the magazine well.  It weaves like a snake when unfolded, and -- at least in theory -- should allow you to carry your Glock in a holster when folded.  When unfolded, helps with recoil significantly.  Manufacturer recommends installing Cobra folded.  Activate to unfold.",
 
     "weight": "328 g",
     "//dimensions": {
@@ -1111,7 +1111,7 @@
     "name": {
       "str": "FAB Defense Glock pistol stock"
     },
-    "//description": "TBD",
+    "description": "A folding stock for Glock pistols, by FAB Defense.  Installs into the grip hole behild the magazine well.  It weaves like a snake when unfolded, and -- at least in theory -- should allow you to carry your Glock in a holster when folded.  Currently unfolded and, when installed, helps with recoil significantly.  Activate to fold again.",
 
     "//dimensions": {
       "length": "332 mm",
@@ -1157,7 +1157,7 @@
     ],
 
     "name": { "str": "Arredondo speedloader chute for Mossberg 930" },
-    "//description": "TBD",
+    "description": "A small metal ramp that mounts just behind the loading port of a shotgun.  It allows the use of a speedloader tube, thus fascilitating faster reloading.  This variant is for Mossberg 930.",
 
     "//weight": [
       "source description says 4.7 oz ≈ 133 g, source additional information says 4.2 oz ≈ 119 g",
@@ -1210,7 +1210,7 @@
     "name": {
       "str": "Lockhart Tactical UBS-12 underbarrel shotgun"
     },
-    "//description": "TBD",
+    "description": "A short-barreled Remington 870, relieved of its grip and attached to a unique mount.  This Canadian product is a modern iteration of the idea of a \"masterkey\" shotgun: a secondary, attached weapon designed specifically for breaking locks or hinges off a locked door.  Heavy and bulky, it's still a full-powered shotgun that can still blow a hinge -- or a head -- off.",
 
     "//weight": "Tac-14 (5.6 lbs = 2540 g) - Raptor grip (10 oz ≈ 284 g) + UBS-12 mount (0.2 lbs ≈ 91 g) = 2347 g",
     "weight": "2347 g",
@@ -1282,7 +1282,7 @@
     ],
 
     "name": { "str": "Beartooth Comb Raising Kit 2.0 cheek pad" },
-    "//description": "TBD",
+    "description": "A neoprene cover for most one-piece rifle or shotgun stocks.  It adds a padded cushion to the top of the stock, where your cheek would rest during aiming, providing comfort and relief from recoil, in effect improving your aim.",
 
     "//weight": "Amazon says 0.09 kg = 90 g, the UK source says 0.200 kg = 200 g",
     "weight": "90 g",
@@ -1333,7 +1333,7 @@
     ],
 
     "name": { "str": "Müller passing choke for Remington shotguns" },
-    "//description": "TBD",
+    "description": "A choke for Remington-manufactured shotguns.  Noticably reduces spread of shot, shaping it towards longer range and higher accuracy.  Classed as \"passing\", which is stated to be comparable to a traditional \"improved modified\" or \"full\" choke.",
 
     "weight": "19 g",
     "//dimensions": {
@@ -1374,7 +1374,7 @@
     ],
 
     "name": { "str": "TEC-HRO Fusion butt hook plate" },
-    "//description": "TBD",
+    "description": "An ergonomic butt plate, which attachs to the buttstock of a firearm in order to spread recoil slightly wider across the shoulder.  Similar butt plates are more often found on airguns used in competitive shooting, such as biathlon, but zombie apocalypse takes no hostages.  This model is equipped with a butt hook: an adjustable metal rod that goes under your armpit during aiming, with the goal of improving stability and, therefore, accuracy.",
 
     "//weight": [
       "unknown, but definitely above 100 g",
@@ -1418,7 +1418,7 @@
     ],
 
     "name": { "str": "UM Tactical UM3(X) pistol sight mount" },
-    "//description": "TBD",
+    "description": "A metal frame that attaches to the underbarrel rail of a pistol, adding a top rail for sights to any modern pistol.  The UM3(X) model has support for a wider variety of models of pistol, making it practically-universal.  Also features its own underbarrel rail, thus not depriving you of the option to install a tactical light or a laser sight.",
 
     "weight": "71 g",
     "//dimensions": {
@@ -1485,7 +1485,7 @@
     ],
 
     "name": { "str": "Magpul MS3 single-point rifle sling" },
-    "//description": "TBD",
+    "description": "This nylon sling can be attached to a rifle or other large gun type and let you carry the gun over your shoulder, freeing your hands.  Even less convenient than a two- or three-point sling because it doesn't prevent the gun to swing wildly while hanging, but still better than nothing.  Being a strap of thin nylon, this sling provides barely any protection; you better pray the bastards don't hit the gun.",
 
     "weight": "240 g",
     "//dimensions": {
