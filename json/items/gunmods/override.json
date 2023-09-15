@@ -169,7 +169,7 @@
     ],
     "field_of_view": 594,
     "sight_dispersion": 12,
-    "aim_speed_modifier": 10,
+    "//aim_speed_modifier": 10,
 
     "mod_targets": [
       "pistol",
