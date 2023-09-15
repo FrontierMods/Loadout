@@ -1253,7 +1253,10 @@
     "//mod_targets": "generally speaking, only modern rifles with metal handguards would have a strong-enough rail to mount this thing on",
     "mod_targets": ["rifle"],
 
-    "//install_time": "merely a guess, since no reviews or tutorials seem to be available; real value welcome",
+    "//install_time": [
+      "merely a guess, since no reviews or tutorials seem to be available",
+      "real value welcome"
+    ],
     "install_time": "10 m",
 
     "//price": [
