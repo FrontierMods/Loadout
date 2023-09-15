@@ -1108,7 +1108,7 @@
     "//integral_longest_side": "shaved off a few millimeters for the fact that a tiny part of the length is always under the grip, thus not affecting the overall length of the pistol",
     "integral_longest_side": "322 mm",
 
-    "handling_modifier": 6,
+    "handling_modifier": 10,
 
     "//use_action": "rapid collapse is not required, thus we afford the player character the time to fold the stock back in",
     "use_action": {
