@@ -400,12 +400,6 @@
       "https://www.wingtactical.com/accessories/optics-sights/optic-sight-mounts/aero-precision-cantilever-30mm-red-dot-scope-mount/"
     ],
 
-    "//notes": [
-      "we'll reuse this one in Gunsmith or something",
-      "for now, do not spawn it, since it is useless",
-      "see notes for JP Enterprises 30 mm sight mount for reason of this item's existence"
-    ],
-
     "name": {
       "str": "Aero Precision cantilever 30mm red dot scope mount"
     },
