@@ -1074,7 +1074,8 @@
     "//material": "advertised as 'fiberglass reinforced polymer'",
     "material": ["steel", "plastic"],
 
-    "mod_targets": ["glock_17", "glock_19", "glock_22", "glock_31"],
+    "//mod_targets": "let's pretend for a moment that the Rivtech gun has the same grip slot",
+    "mod_targets": ["glock_17", "glock_19", "glock_22", "glock_31", "rm228"],
 
     "//install_time": "slides in very tight, so requires a bit of force and a slap",
     "install_time": "10 s",
