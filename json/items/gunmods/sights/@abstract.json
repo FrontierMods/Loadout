@@ -54,6 +54,23 @@
   },
 
   {
+    "abstract": "sight_rds_no_magnifier",
+    "copy-from": "sight_rds",
+    "type": "GUNMOD",
+
+    "name": {
+      "str": "red dot sight without magnifier slot"
+    },
+    "description": "idea of a red dot sight without space for a magnifier",
+
+    "//add_mod": [
+      "the magnifier slot may be unavailable on a particular red dot sight due to its height, or for any other reason",
+      "ideally, there would be a way to coordinate either having a riser (for either sight or magnifier), or eye height in general (where misaligning the two would make aiming very difficult"
+    ],
+    "add_mod": []
+  },
+
+  {
     "abstract": "sight_holo",
     "copy-from": "sight_abstract",
     "type": "GUNMOD",

@@ -116,7 +116,7 @@
 
   {
     "id": "sight_vortex_strikefire_ii",
-    "copy-from": "sight_rds",
+    "copy-from": "sight_rds_no_magnifier",
     "type": "GUNMOD",
 
     "//sources": [
@@ -200,7 +200,7 @@
 
   {
     "id": "sight_holosun_aems",
-    "copy-from": "sight_rds",
+    "copy-from": "sight_rds_no_magnifier",
     "type": "GUNMOD",
 
     "//sources": [
