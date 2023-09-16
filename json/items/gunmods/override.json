@@ -1477,7 +1477,7 @@
   {
     "id": "single_sling",
     "copy-from": "single_sling",
-    "type": "GUNMOD",
+    "type": "ARMOR",
 
     "//sources": [
       "https://magpul.com/ms3-single-qd-sling-gen-2.html",
