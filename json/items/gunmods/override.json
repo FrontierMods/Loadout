@@ -396,7 +396,7 @@
       "amount": 2
     },
     "loudness_modifier": -50,
-    "handling_modifier": 8,
+    "handling_modifier": 10,
 
     "add_mod": [["suppressor cover", 1]],
 
@@ -451,7 +451,7 @@
       "amount": 1
     },
     "loudness_modifier": -25,
-    "handling_modifier": 5,
+    "handling_modifier": 7,
 
     "price": "499 USD"
   },
@@ -500,12 +500,12 @@
     "//sound_lower": "136.8 dB w/ 12 gauge",
     "//sound_without": "160 dB w/ 12 gauge",
 
-    "loudness_modifier": -40,
+    "loudness_modifier": -45,
     "//handling_modifier": [
       "reduces recoil significantly, according to the spec sheet and the review",
       "we hope you appreciate the pun"
     ],
-    "handling_modifier": 12,
+    "handling_modifier": 14,
 
     "price": "1169 USD"
   },
