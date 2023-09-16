@@ -23,7 +23,21 @@
       ["cheek_pad", 25],
       ["rail_laser_sight", 40],
       ["red_dot_sight", 70],
-      ["choke", 50]
+      ["choke", 50],
+
+      ["laser_sight_firefield", 30]
+    ],
+
+    "groups": [
+      ["loadout_all_iron_sights", 35],
+      ["loadout_all_red_dot_sights", 40],
+
+      ["loadout_foregrips_tall", 35],
+      ["loadout_foregrips_short", 25],
+
+      ["loadout_all_misc_gunmods", 5],
+
+      ["loadout_all_muzzle_devices", 30]
     ]
   },
   {
@@ -55,33 +69,50 @@
           "to be reviewed after v1.0",
           "after an audit and a rethinking, it could be re-added to survivalist (and survivalist zombie) spawn lists"
         ]
+      ],
+      [
+        [
+          "waterproof_gunmod",
+          "stabilizer",
+          "gun_crossbow",
+          "light_grip",
+          "u_shotgun",
+          "tail_hook_stock",
+          "hybrid_sight_4x",
+          "rifle_scope_high_end_mount",
+          "modern_handguard"
+        ],
+        "obsoleted items, removed for clarity"
       ]
     ],
 
     "items": [
       ["bipod", 20],
       ["grip", 80],
-      ["waterproof_gunmod", 40],
-      ["gun_crossbow", 20],
-      ["stabilizer", 10],
       ["laser_sight", 40],
-      ["light_grip", 50],
       ["pistol_bayonet", 10],
       ["pistol_scope", 10],
       ["pistol_stock", 10],
-      ["tail_hook_stock", 30],
       ["butt_hook", 20],
       ["arredondo_chute", 20],
       ["shot_suppressor", 10],
-      ["u_shotgun", 60],
       ["suppressor", 60],
       ["suppressor_compact", 40],
       ["acog_scope", 40],
       ["holo_sight", 50],
       ["holo_magnifier", 30],
-      ["hybrid_sight_4x", 30],
-      ["rifle_scope_high_end_mount", 20],
-      ["modern_handguard", 20]
+
+      ["laser_sight_steiner", 20],
+      ["laser_sight_l3harris", 25]
+    ],
+
+    "groups": [
+      ["loadout_all_enhanced_sights", 40],
+
+      ["loadout_foregrips_tiny", 20],
+      ["loadout_foregrips_angled", 30],
+
+      ["loadout_all_muzzle_devices", 40]
     ]
   }
 ]
