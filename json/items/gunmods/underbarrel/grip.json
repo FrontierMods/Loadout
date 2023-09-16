@@ -9,7 +9,7 @@
     ],
 
     "name": {
-      "str": "Iron City Rifle Works reversible handstop"
+      "str": "Iron City Rifle Works handstop"
     },
     "description": "A compact, reversible handstop.  Allows for better handling of the firearm.  Has a grooved texture, though its effect is diminished by the small size factor of the handstop.",
 
@@ -49,7 +49,7 @@
     ],
 
     "name": {
-      "str": "Strike Industries short vertical grip"
+      "str": "Strike Industries short vertical foregrip"
     },
     "description": "A short polymer foregrip.  Allows for better handling of the firearm.  Has ribbed texture on the front and the back, and two islands of texture on the sides.",
 
@@ -87,7 +87,7 @@
     ],
 
     "name": {
-      "str": "ERGO Pop Bottle vertical grip"
+      "str": "ERGO Pop Bottle vertical foregrip"
     },
     "description": "A plain, bottleneck-shaped foregrip.  Allows for better handling of the firearm.  Has grooves at the bottom, preventing the user's hand from slipping.",
 
@@ -202,7 +202,7 @@
     ],
 
     "name": {
-      "str": "Daniel Defense short vertical grip"
+      "str": "Daniel Defense short vertical foregrip"
     },
     "description": "A short polymer foregrip.  Allows for better handling of the firearm.  Has ribbed texture on the front and the back, and two islands of tire-like texture on the sides.",
 
@@ -246,7 +246,7 @@
     ],
 
     "name": {
-      "str": "Strike Industries Bikini fingerstop pair"
+      "str_sp": "Strike Industries Bikini fingerstops"
     },
     "description": "A pair of tiny metal fingerstops, adjustable in position and length.  Allow for better handling of the firearm.  These don't offer a major improvement due to their miniature size, but they're still better than nothing.",
 
@@ -281,7 +281,7 @@
     ],
 
     "name": {
-      "str": "Arisaka Defense short vertical grip"
+      "str": "Arisaka Defense short vertical foregrip"
     },
     "description": "A short metal foregrip.  Allows for better handling of the firearm.  Its hollow design make it ligther than the metal alternatives.  Deep grooves along the entire length offer good grip.",
 
@@ -471,7 +471,7 @@
     ],
 
     "name": {
-      "str": "Tyrant Desings HALO short vertical grip"
+      "str": "Tyrant Desings HALO short vertical foregrip"
     },
     "description": "A short, skeletonized foregrip, comparable in size to a handstop.  Allows for better handling of the firearm.  An aggressive, ergonomic design helps it perform on par with competition, while saving on weight.",
 
@@ -509,7 +509,7 @@
     ],
 
     "name": {
-      "str": "Tyrant Designs HALO MiniVert grip"
+      "str": "Tyrant Designs HALO MiniVert foregrip"
     },
     "description": "A metal foregrip with an aggressive, skeletonized design.  Allows for better handling of the firearm.  Ergonomic and lightweight, it performs on par or better than competition.",
 
@@ -548,7 +548,7 @@
     ],
 
     "name": {
-      "str": "Fortis Shift vertical grip"
+      "str": "Fortis Shift vertical foregrip"
     },
     "description": "A metal foregrip with a starkly-skeletonized design.  Allows for better handling of the firearm.  Performs better than average, while saving on weight.",
 
@@ -586,7 +586,7 @@
     ],
 
     "name": {
-      "str": "Fortis Shift angled grip"
+      "str": "Fortis Shift angled foregrip"
     },
     "description": "A metal angled foregrip with a starkly-skeletonized design.  Allows for better handling of the firearm.  Performs on par with competition, while saving on weight.",
 
@@ -624,7 +624,7 @@
     ],
 
     "name": {
-      "str": "Strike Industries Cobra angled grip"
+      "str": "Strike Industries Cobra angled foregrip"
     },
     "description": "A multi-modal polymer angled foregrip.  Allows for better handling of the firearm.  Can be used in a variety of ways as befits the situation, thanks to its ergonomic design.",
 
@@ -667,7 +667,7 @@
     "//TODO": ["storage compartment"],
 
     "name": {
-      "str": "Mission First Tactical React vertical grip"
+      "str": "Mission First React vertical foregrip"
     },
     "description": "An unassuming-looking foregrip.  Allows for better handling of the firearm.  Textured surface and deliberate finger grooves provide for excellent control over recoil.",
 
@@ -707,7 +707,7 @@
     "//TODO": ["storage compartment", "folding capability"],
 
     "name": {
-      "str": "Mission First Tactical React folding vertical grip"
+      "str": "Mission First React folding vertical foregrip"
     },
     "description": "A compact full-sized foregrip.  Allows for better handling of the firearm.  Can be folded to save space.  Grooves at the bottom prevent hands from slipping.",
 
@@ -746,7 +746,7 @@
     ],
 
     "name": {
-      "str": "Magpul AFG2 angled grip"
+      "str": "Magpul AFG2 angled foregrip"
     },
     "description": "A slim angled foregrip.  Allows for better handling of the firearm.  Ergonomic design provides a good degree of control over recoil.",
 
@@ -786,7 +786,7 @@
     "//TODO": ["storage compartment", "folding capability"],
 
     "name": {
-      "str": "FAB Defense folding vertical grip"
+      "str": "FAB Defense folding vertical foregrip"
     },
     "description": "A folding polymer foregrip, with several available angles.  Allows for better handling of the firearm.  Aggressive texture on most of the surface provides good grip.",
 
@@ -827,7 +827,7 @@
     ],
 
     "name": {
-      "str": "Magpul RVG short vertical grip"
+      "str": "Magpul RVG short vertical foregrip"
     },
     "description": "A short polymer foregrip.  Allows for better handling of the firearm.  Has ribbed texture on the front and the back, and two islands of texture on the sides.",
 
@@ -864,7 +864,7 @@
     ],
 
     "name": {
-      "str": "F-1 Firearms skeletonized angled grip"
+      "str": "F-1 Firearms skeletonized angled foregrip"
     },
     "description": "An angled foregrip with an exceptional amount of material removed.  Allows for better handling of the firearm.  Performs well against competition, while also saving on weight.",
 
