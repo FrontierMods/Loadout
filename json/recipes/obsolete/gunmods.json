@@ -127,12 +127,6 @@
 
   {
     "type": "recipe",
-    "result": "pistol_stock",
-    "obsolete": true
-  },
-
-  {
-    "type": "recipe",
     "result": "dias",
     "obsolete": true
   },
