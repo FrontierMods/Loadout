@@ -131,5 +131,22 @@
       ["loadout_sights_holographic", 28],
       ["loadout_sights_scopes_mounted", 18]
     ]
+  },
+
+  {
+    "type": "item_group",
+    "id": "loadout_all_sights",
+
+    "//notes": [
+      "all new sights",
+      "for gun stores and other locations where you may see a variety of different attachments"
+    ],
+
+    "subtype": "collection",
+
+    "groups": [
+      ["loadout_all_iron_sights", 64],
+      ["loadout_all_enhanced_sights", 36]
+    ]
   }
 ]
