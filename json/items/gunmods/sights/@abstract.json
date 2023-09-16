@@ -102,8 +102,11 @@
     "field_of_view": 1000,
     "//sight_dispersion": "0.25 MOA in quarter-MOA / 15 arc seconds per point",
     "sight_dispersion": 1,
-    "//aim_speed_modifier": "emulates having to aim that much more carefully with a sight this precise",
-    "aim_speed_modifier": 0,
+    "//aim_speed_modifier": [
+      "emulates having to aim that much more carefully with a sight this precise",
+      "still better than aiming with no sights"
+    ],
+    "aim_speed_modifier": 3,
 
     "location": "30mm scope mount",
     "install_time": "30 s",
