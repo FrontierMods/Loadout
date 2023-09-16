@@ -123,9 +123,9 @@
     ],
 
     "name": {
-      "str": "Tyrant Designs MOD foregrip"
+      "str": "Tyrant Designs MOD angled foregrip"
     },
-    "description": "A metal foregrip with a unique, aggressive skeletonized design.  Allows for better handling of the firearm.  Its somewhat-ergonomic design combined with its length make it a good choice for a foregrip.",
+    "description": "An angled metal foregrip with a unique, aggressive skeletonized design.  Allows for better handling of the firearm.  Its somewhat-ergonomic design combined with its length make it a good choice for a foregrip.",
 
     "weight": "48 g",
     "//dimensions": {
@@ -162,9 +162,9 @@
     ],
 
     "name": {
-      "str": "Tyrant Designs MOD V2 foregrip"
+      "str": "Tyrant Designs MOD V2 angled foregrip"
     },
-    "description": "A metal foregrip with a unique, aggressive skeletonized design.  Allows for better handling of the firearm.  An improvement upon a previous design by Tyrant Designs, it remains a good choice of a foregrip, with its rubber pad, usable length, and ergonomic shape.",
+    "description": "An angled metal foregrip with a unique, aggressive skeletonized design.  Allows for better handling of the firearm.  An improvement upon a previous design by Tyrant Designs, it remains a good choice of a foregrip, with its rubber pad, usable length, and ergonomic shape.",
 
     "weight": "83 g",
     "//dimensions": {
@@ -281,7 +281,7 @@
     ],
 
     "name": {
-      "str": "Arisaka Defense vertical grip"
+      "str": "Arisaka Defense short vertical grip"
     },
     "description": "A short metal foregrip.  Allows for better handling of the firearm.  Its hollow design make it ligther than the metal alternatives.  Deep grooves along the entire length offer good grip.",
 
@@ -471,7 +471,7 @@
     ],
 
     "name": {
-      "str": "Tyrant Desings HALO handstop"
+      "str": "Tyrant Desings HALO short vertical grip"
     },
     "description": "A short, skeletonized foregrip, comparable in size to a handstop.  Allows for better handling of the firearm.  An aggressive, ergonomic design helps it perform on par with competition, while saving on weight.",
 
@@ -827,7 +827,7 @@
     ],
 
     "name": {
-      "str": "Magpul short vertical grip"
+      "str": "Magpul RVG short vertical grip"
     },
     "description": "A short polymer foregrip.  Allows for better handling of the firearm.  Has ribbed texture on the front and the back, and two islands of texture on the sides.",
 
