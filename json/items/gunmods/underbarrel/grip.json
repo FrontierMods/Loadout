@@ -656,7 +656,7 @@
   },
 
   {
-    "id": "foregrip_missionfirst",
+    "id": "foregrip_mission_first",
     "copy-from": "foregrip_abstract",
     "type": "GUNMOD",
 
@@ -696,7 +696,7 @@
   },
 
   {
-    "id": "foregrip_missionfirst_folding",
+    "id": "foregrip_mission_first_folding",
     "copy-from": "foregrip_abstract",
     "type": "GUNMOD",
 
