@@ -43,24 +43,16 @@
         ]
       ],
       [
-        "folding_stock",
+        [
+          "folding_stock",
+          "high_end_folding_stock",
+          "recoil_stock",
+          "retool_ar15_300blk",
+          "adjustable_stock"
+        ],
         "spawns as a built-in mod for some weapons, but shouldn't be installable onto others"
       ],
       [
-        "high_end_folding_stock",
-        "spawns as a built-in mod for some weapons, but shouldn't be installable onto others"
-      ],
-      [
-        "recoil_stock",
-        "spawns as a built-in mod for some weapons, but shouldn't be installable onto others"
-      ],
-      [
-        "retool_ar15_300blk",
-        "spawns as a built-in mod for some weapons, but shouldn't be installable onto others"
-      ],
-      [
-        "adjustable_stock",
-        "spawns as a built-in mod for some weapons, but shouldn't be installable onto others"
       ]
     ],
 
