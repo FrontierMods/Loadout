@@ -111,9 +111,9 @@
     ],
 
     "name": {
-      "str": "Holosun 407/507k adapter for RMR mount"
+      "str": "Holosun 407/507K adapter for RMR mount"
     },
-    "description": "This adapter mounts on top of any RMR mount, enabling installation of a compatible Holosun red dot sight instead.",
+    "description": "This adapter mounts on top of any RMR mount, enabling installation of a compatible Holosun red dot sight -- namely, 507K -- instead.",
 
     "weight": "28 g",
     "//dimensions": {
@@ -128,7 +128,7 @@
 
     "location": "RMR mount",
 
-    "add_mod": [["Holosun mount", 1]],
+    "add_mod": [["Holosun 407/507K mount", 1]],
 
     "price": "47 USD"
   },

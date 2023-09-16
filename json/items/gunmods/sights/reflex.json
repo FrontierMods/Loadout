@@ -65,7 +65,7 @@
     "sight_dispersion": 8,
     "aim_speed_modifier": 8,
 
-    "location": "Holosun mount",
+    "location": "Holosun 407/507K mount",
 
     "//power": {
       "source": [["CR1632"]],
