@@ -5,11 +5,7 @@
 
     "//removed": [
       [
-        "pistol_grip",
-        "spawns as a built-in mod for some weapons, but shouldn't be installable onto others"
-      ],
-      [
-        "match_trigger",
+        ["pistol_grip", "match_trigger"],
         "spawns as a built-in mod for some weapons, but shouldn't be installable onto others"
       ]
     ],
