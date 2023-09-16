@@ -53,13 +53,18 @@
         "spawns as a built-in mod for some weapons, but shouldn't be installable onto others"
       ],
       [
+        "wooden_grip",
+        [
+          "is a stick with a nail through it, yet had a chance to spawn in gunstores etc.",
+          "to be reviewed after v1.0",
+          "after an audit and a rethinking, it could be re-added to survivalist (and survivalist zombie) spawn lists"
+        ]
       ]
     ],
 
     "items": [
       ["bipod", 20],
       ["grip", 80],
-      ["wooden_grip", 5],
       ["waterproof_gunmod", 40],
       ["gun_crossbow", 20],
       ["stabilizer", 10],
