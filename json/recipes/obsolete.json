@@ -123,5 +123,137 @@
     "type": "recipe",
     "result": "choke",
     "obsolete": true
+  },
+
+  {
+    "type": "recipe",
+    "result": "pistol_stock",
+    "obsolete": true
+  },
+
+  {
+    "type": "recipe",
+    "result": "dias",
+    "obsolete": true
+  },
+
+  {
+    "type": "recipe",
+    "result": "gun_crossbow",
+    "obsolete": true
+  },
+
+  {
+    "type": "recipe",
+    "result": "ugl_buttstock",
+    "obsolete": true
+  },
+
+  {
+    "type": "recipe",
+    "result": "pistol_bayonet",
+    "obsolete": true
+  },
+
+  {
+    "type": "recipe",
+    "result": "bipod_mod",
+    "obsolete": true
+  },
+
+  {
+    "type": "recipe",
+    "result": "grip_mod",
+    "obsolete": true
+  },
+
+  {
+    "type": "recipe",
+    "result": "m203_mod",
+    "obsolete": true
+  },
+
+  {
+    "type": "recipe",
+    "result": "m320_mod_mod",
+    "obsolete": true
+  },
+
+  {
+    "type": "recipe",
+    "result": "masterkey_mod",
+    "obsolete": true
+  },
+
+  {
+    "type": "recipe",
+    "result": "m26_mass_mod",
+    "obsolete": true
+  },
+
+  {
+    "type": "recipe",
+    "result": "rm121aux_mod",
+    "obsolete": true
+  },
+
+  {
+    "type": "recipe",
+    "result": "u_shotgun_mod",
+    "obsolete": true
+  },
+
+  {
+    "type": "recipe",
+    "result": "knife_combat_mod",
+    "obsolete": true
+  },
+
+  {
+    "type": "recipe",
+    "result": "sword_bayonet_mod",
+    "obsolete": true
+  },
+
+  {
+    "type": "recipe",
+    "result": "offset_sight_rail_mod",
+    "obsolete": true
+  },
+
+  {
+    "type": "recipe",
+    "result": "stabilizer_mod",
+    "obsolete": true
+  },
+
+  {
+    "type": "recipe",
+    "result": "muzzle_brake_mod",
+    "obsolete": true
+  },
+
+  {
+    "type": "recipe",
+    "result": "rifle_scope_mod",
+    "obsolete": true
+  },
+
+  {
+    "type": "recipe",
+    "result": "acog_scope_mod",
+    "obsolete": true
+  },
+
+  {
+    "type": "recipe",
+    "result": "acog_scope_mod",
+    "obsolete": true
+  },
+
+  {
+    "type": "recipe",
+    "result": "offset_sights_mod",
+    "obsolete": true
   }
 ]
