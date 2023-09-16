@@ -27,6 +27,7 @@
 
     "//recoil_reduction": "84%",
     "handling_modifier": 42,
+    "loudness_modifier": 42,
 
     "price": "180 USD"
   },
@@ -59,6 +60,7 @@
     "//recoil_reduction": "78%",
     "//recoil_distance": "2.4688 in",
     "handling_modifier": 39,
+    "loudness_modifier": 39,
 
     "price": "100 USD"
   },
@@ -96,6 +98,7 @@
     "//recoil_reduction": "56.35%",
     "//recoil_distance": "4.9375 in.",
     "handling_modifier": 28,
+    "loudness_modifier": 28,
 
     "//price": "for the 5/8 × 24 / satin stainless model",
     "price": "97 USD"
@@ -133,6 +136,7 @@
     "//recoil_reduction": "64.36%",
     "//recoil_distance": "4.0313 in.",
     "handling_modifier": 32,
+    "loudness_modifier": 32,
 
     "//price": "for the titanium 5.56mm model",
     "price": "153 USD"
@@ -170,6 +174,7 @@
     "//recoil_reduction": "60.50%",
     "//recoil_distance": "4.4688 in.",
     "handling_modifier": 30,
+    "loudness_modifier": 30,
 
     "//price": "for the square design",
     "price": "90 USD"
@@ -207,6 +212,7 @@
     "//recoil_reduction": "56.63%",
     "//recoil_distance": "4.9063 in.",
     "handling_modifier": 28,
+    "loudness_modifier": 28,
 
     "price": "89 USD"
   },
@@ -250,6 +256,7 @@
     "//recoil_reduction": "???",
     "//handling_modifier": "its 5.56mm cousin reduces recoil by 72.93%, so let's assume this one performs only slightly worse, at a completely-fictional 70.62%",
     "handling_modifier": 35,
+    "loudness_modifier": 35,
 
     "add_mod": [["Thunder Beast SR mount", 1]],
 
@@ -292,7 +299,8 @@
 
     "//recoil_reduction": "???",
     "//handling_modifier": "there's no accurate testing available for this brake, but it looks average enough, so we make up 51.62% recoil reduction",
-    "handling_modifier": 25,
+    "handling_modifier": 26,
+    "loudness_modifier": 26,
 
     "add_mod": [["SureFire muzzle mount", 1]],
 

@@ -30,7 +30,9 @@
 
     "//sound_lower": "134.70 dB @ 16 in. w/ 5.56mm M855",
 
-    "loudness_modifier": -45,
+    "handling_modifier": -13,
+    "//loudness_modifier": "-45 + -26 from muzzle brake",
+    "loudness_modifier": -71,
 
     "consume_divisor": 860,
 
@@ -85,7 +87,9 @@
 
     "//sound_lower": "137 dB @ 20 in. w/ .308",
 
-    "loudness_modifier": -50,
+    "handling_modifier": -18,
+    "//loudness_modifier": "-50 + -35 from muzzle brake",
+    "loudness_modifier": -85,
 
     "consume_divisor": 1020,
 
@@ -146,7 +150,7 @@
     },
     "loudness_modifier": -55,
     "//handling_modifier": "currently presumed to mount directly onto the thread, thus earning a bonus to handling",
-    "handling_modifier": 7,
+    "handling_modifier": 11,
 
     "consume_divisor": 960,
 
@@ -186,6 +190,7 @@
 
     "//sound_reduction": "32 dB",
 
+    "handling_modifier": 7,
     "loudness_modifier": -40,
 
     "consume_divisor": 800,
@@ -240,7 +245,7 @@
     "//sound_reduction": "34 dB",
 
     "loudness_modifier": -45,
-    "handling_modifier": 7,
+    "handling_modifier": 13,
 
     "consume_divisor": 920,
 
@@ -286,7 +291,7 @@
     "//sound_reduction": "23 dB",
 
     "loudness_modifier": -30,
-    "handling_modifier": 7,
+    "handling_modifier": 11,
 
     "consume_divisor": 820,
 
@@ -333,8 +338,8 @@
 
     "//loudness_modifier": "-25 should be effective for 9mm, given that (as of 2023-08-08) 9mm JHP's computed loudness is 80",
     "//loudness_modifier2": "anecdotal evidence suggests that this suppressor is not that effective, though video tests show quite the opposite",
-    "loudness_modifier": -25,
-    "handling_modifier": 5,
+    "loudness_modifier": -32,
+    "handling_modifier": 7,
 
     "consume_divisor": 740,
 
