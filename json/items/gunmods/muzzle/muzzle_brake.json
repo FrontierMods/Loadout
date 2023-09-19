@@ -306,5 +306,47 @@
 
     "//price": "presumed to be the price for the smaller caliber (.223 / 5.56mm)",
     "price": "169 USD"
+  },
+
+  {
+    "id": "muzzle_brake_rearden_spb",
+    "copy-from": "muzzle_brake_abstract",
+    "type": "GUNMOD",
+
+    "//sources": ["https://www.reardenmfg.com/product/spb-ht-muzzle-brake/"],
+
+    "//notes": ["0.375 in., 1/2×28-threaded version"],
+
+    "name": {
+      "str": "Rearden Manufacturing SPB muzzle brake"
+    },
+    "description": "An ordinary muzzle brake with a wheat-colored body, capable of reducing recoil by over 56%.  It can also serve as a mount for the Atlas thread adapter, which itself can be used to mount the Witt Machine Mod-1 suppressor.  Like any muzzle brake, it makes sound signature (i.e., noise from firing) much louder.  Remember to wear hearing protection.",
+
+    "weight": "64 g",
+    "//dimensions": {
+      "length": "1.73 in",
+      "diameter": "0.9 in",
+      "raw": "18 ml",
+      "trim": 0.075,
+      "notes": ["diameter is assumed based on similar muzzle brakes"]
+    },
+    "volume": "17 ml",
+    "longest_side": "44 mm",
+    "//integral_longest_side": [
+      "from stated added length",
+      "aligns with absorbing a standard length of thread for 1/2 in. × 28-threaded barrel (16 mm)"
+    ],
+    "integral_longest_side": "28 mm",
+
+    "//calibers": ["223"],
+
+    "//recoil_reduction": "???",
+    "//handling_modifier": "no data appears to be available on the performance of this muzzle brake, so we assume a random 56.22%",
+    "handling_modifier": 28,
+    "loudness_modifier": 28,
+
+    "add_mod": [["Rearden muzzle mount", 1]],
+
+    "price": "75 USD"
   }
 ]
