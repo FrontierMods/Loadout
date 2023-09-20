@@ -24,7 +24,7 @@ Unless stated otherwise, values are additive. Three different factors worth +1 e
 * +2 — palm shelf (`palm_shelf`)
 
 
-##### Modifications
+#### Modifications
 
 * +1 — duct tape wrapping
 * +1 — paracord wrapping
