@@ -162,6 +162,20 @@
   },
 
   {
+    "id": "sight_mount_rifle_abstract",
+    "copy-from": "sight_mount_abstract",
+    "type": "GUNMOD",
+
+    "name": {
+      "str": "rifle sight mount"
+    },
+    "description": "idea of a rifle sight mount",
+
+    "//mod_targets": "this class is used to prevent installing mounts that require Picatinny rail onto pistols",
+    "mod_targets": ["smg", "shotgun", "rifle", "bow", "crossbow", "launcher"]
+  },
+
+  {
     "abstract": "sight_mount_rmr",
     "copy-from": "sight_mount_abstract",
     "type": "GUNMOD",

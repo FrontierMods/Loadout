@@ -166,7 +166,7 @@
 
   {
     "id": "sight_mount_acog_trijicon",
-    "copy-from": "sight_mount_abstract",
+    "copy-from": "sight_mount_rifle_abstract",
     "type": "GUNMOD",
 
     "//sources": ["https://www.trijicon.com/products/details/ta51"],
