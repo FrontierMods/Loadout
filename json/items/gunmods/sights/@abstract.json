@@ -82,7 +82,7 @@
 
     "field_of_view": 1000,
     "//sight_dispersion": "2 MOA in quarter-MOA / 15 arc seconds per point",
-    "sight_dispersion": 4,
+    "sight_dispersion": 8,
     "aim_speed_modifier": 14,
 
     "add_mod": [["magnifier", 1]]
