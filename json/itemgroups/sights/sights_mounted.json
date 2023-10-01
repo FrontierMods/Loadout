@@ -8,7 +8,7 @@
     "type": "item_group",
     "id": "loadout_sight_rmr",
 
-    "subtype": "distribution",
+    "subtype": "collection",
 
     "items": ["sight_trijicon_rmr", ["sight_mount_rmr_trijicon_rm33", 80]]
   },
@@ -21,7 +21,7 @@
       "507K does not appear to have a Picatinny mount directly from the manufacturer, therefore we improvise"
     ],
 
-    "subtype": "distribution",
+    "subtype": "collection",
 
     "items": [
       "sight_holosun_507k",
@@ -34,7 +34,7 @@
     "type": "item_group",
     "id": "loadout_sight_aimpoint_micro_t2",
 
-    "subtype": "distribution",
+    "subtype": "collection",
 
     "items": ["sight_aimpoint_micro_t2", ["sight_mount_micro_aimpoint", 80]]
   },
@@ -43,7 +43,7 @@
     "type": "item_group",
     "id": "loadout_sight_vortex_strikefire_ii",
 
-    "subtype": "distribution",
+    "subtype": "collection",
 
     "items": [
       "sight_vortex_strikefire_ii",
@@ -55,7 +55,7 @@
     "type": "item_group",
     "id": "loadout_sight_sigsauer_romeo5x",
 
-    "subtype": "distribution",
+    "subtype": "collection",
 
     "items": ["sight_sigsauer_romeo5x", ["sight_mount_romeo_sig_sauer", 80]]
   }

@@ -21,7 +21,7 @@
     "type": "item_group",
     "id": "loadout_sight_mounts_34mm",
 
-    "subtype": "distribution",
+    "subtype": "collection",
 
     "items": ["sight_mount_34mm_leapers"]
   },
@@ -30,7 +30,7 @@
     "type": "item_group",
     "id": "loadout_sight_mounts_1in",
 
-    "subtype": "distribution",
+    "subtype": "collection",
 
     "items": ["sight_mount_1in_warne"]
   },
@@ -52,7 +52,7 @@
     "type": "item_group",
     "id": "loadout_sights_34mm",
 
-    "subtype": "distribution",
+    "subtype": "collection",
 
     "items": ["rifle_scope"]
   },
@@ -61,7 +61,7 @@
     "type": "item_group",
     "id": "loadout_sights_1in",
 
-    "subtype": "distribution",
+    "subtype": "collection",
 
     "items": ["pistol_scope"]
   },
@@ -70,7 +70,7 @@
     "type": "item_group",
     "id": "loadout_sight_distribution_30mm",
 
-    "subtype": "distribution",
+    "subtype": "collection",
 
     "groups": ["loadout_sight_mounts_30mm", "loadout_sights_30mm"]
   },
@@ -79,7 +79,7 @@
     "type": "item_group",
     "id": "loadout_sight_distribution_34mm",
 
-    "subtype": "distribution",
+    "subtype": "collection",
 
     "groups": ["loadout_sight_mounts_34mm", "loadout_sights_34mm"]
   },
@@ -88,7 +88,7 @@
     "type": "item_group",
     "id": "loadout_sight_distribution_1in",
 
-    "subtype": "distribution",
+    "subtype": "collection",
 
     "groups": ["loadout_sight_mounts_1in", "loadout_sights_1in"]
   }

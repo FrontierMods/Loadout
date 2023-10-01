@@ -7,7 +7,8 @@
 
     "groups": [
       "loadout_suppressor_socom",
-      "loadout_suppressor_basegame",
+      "loadout_suppressor_silencerco",
+      "loadout_suppressor_witt",
       "loadout_suppressor_dominus",
       "loadout_suppressor_silent_legion"
     ]
@@ -25,8 +26,7 @@
       "suppressor_silencer_central_banish_30",
       "suppressor_thunder_beast_ultra9",
       "suppressor_elite_iron_bravo1_lite",
-      "suppressor_jk_105ccx",
-      "suppressor_compact"
+      "suppressor_jk_105ccx"
     ]
   },
 
