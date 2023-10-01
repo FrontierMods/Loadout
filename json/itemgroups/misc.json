@@ -5,7 +5,7 @@
 
     "//notes": ["base-game Arredondo chute already spawns"],
 
-    "subtype": "distribution",
+    "subtype": "collection",
 
     "items": ["speedloader_arredondo_remington_1100"]
   },

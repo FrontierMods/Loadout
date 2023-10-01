@@ -8,7 +8,7 @@
     "type": "item_group",
     "id": "loadout_suppressor_socom",
 
-    "subtype": "distribution",
+    "subtype": "collection",
 
     "items": [
       "suppressor_surefire_socom556",
@@ -20,7 +20,7 @@
     "type": "item_group",
     "id": "loadout_suppressor_dominus",
 
-    "subtype": "distribution",
+    "subtype": "collection",
 
     "items": [
       "suppressor_thunder_beast_dominus",
@@ -32,7 +32,7 @@
     "type": "item_group",
     "id": "loadout_suppressor_silent_legion",
 
-    "subtype": "distribution",
+    "subtype": "collection",
 
     "items": [
       "suppressor_silent_legion_556",
@@ -42,13 +42,27 @@
 
   {
     "type": "item_group",
-    "id": "loadout_suppressor_basegame",
+    "id": "loadout_suppressor_silencerco",
 
-    "subtype": "distribution",
+    "//notes": ["aka the basegame suppressor"],
+
+    "subtype": "collection",
+
+    "items": ["suppressor", ["thread_mount_silencerco_bravo", 80]]
+  },
+
+  {
+    "type": "item_group",
+    "id": "loadout_suppressor_witt",
+
+    "//notes": ["aka the basegame compact suppressor"],
+
+    "subtype": "collection",
 
     "items": [
-      "suppressor",
-      ["thread_mount_silencerco_bravo", 80]
+      "suppressor_compact",
+      ["muzzle_brake_rearden_spb", 80],
+      ["thread_mount_rearden_atlas", 50]
     ]
   }
 ]

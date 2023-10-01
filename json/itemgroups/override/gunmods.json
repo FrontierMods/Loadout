@@ -11,33 +11,31 @@
     ],
 
     "items": [
-      ["brass_catcher", 100],
-      ["improve_sights", 60],
-      ["muzzle_brake", 20],
-      ["rifle_scope", 30],
-      ["shoulder_strap", 50],
-      ["single_sling", 50],
-      ["butt_hook", 30],
-      ["offset_sights", 40],
-      ["offset_sight_rail", 30],
-      ["cheek_pad", 25],
-      ["rail_laser_sight", 40],
-      ["red_dot_sight", 70],
-      ["choke", 50],
+      { "item": "brass_catcher", "prob": 100 },
+      { "item": "improve_sights", "prob": 60 },
+      { "item": "muzzle_brake", "prob": 20 },
+      { "item": "rifle_scope", "prob": 30 },
+      { "item": "shoulder_strap", "prob": 50 },
+      { "item": "single_sling", "prob": 50 },
+      { "item": "butt_hook", "prob": 30 },
+      { "item": "offset_sights", "prob": 40 },
+      { "item": "offset_sight_rail", "prob": 30 },
+      { "item": "cheek_pad", "prob": 25 },
+      { "item": "rail_laser_sight", "prob": 40 },
+      { "item": "red_dot_sight", "prob": 70 },
+      { "item": "choke", "prob": 50 },
 
-      ["laser_sight_firefield", 30]
-    ],
+      { "item": "laser_sight_firefield", "prob": 30 },
 
-    "groups": [
-      ["loadout_all_iron_sights", 35],
-      ["loadout_all_red_dot_sights", 40],
+      { "group": "loadout_all_iron_sights", "prob": 35 },
+      { "group": "loadout_all_red_dot_sights", "prob": 40 },
 
-      ["loadout_foregrips_tall", 35],
-      ["loadout_foregrips_short", 25],
+      { "group": "loadout_foregrips_tall", "prob": 35 },
+      { "group": "loadout_foregrips_short", "prob": 25 },
 
-      ["loadout_all_misc_gunmods", 5],
+      { "group": "loadout_all_misc_gunmods", "prob": 5 },
 
-      ["loadout_all_muzzle_devices", 30]
+      { "group": "loadout_all_muzzle_devices", "prob": 30 }
     ]
   },
   {
@@ -87,32 +85,30 @@
     ],
 
     "items": [
-      ["bipod", 20],
-      ["grip", 80],
-      ["laser_sight", 40],
-      ["pistol_bayonet", 10],
-      ["pistol_scope", 10],
-      ["pistol_stock", 10],
-      ["butt_hook", 20],
-      ["arredondo_chute", 20],
-      ["shot_suppressor", 10],
-      ["suppressor", 60],
-      ["suppressor_compact", 40],
-      ["acog_scope", 40],
-      ["holo_sight", 50],
-      ["holo_magnifier", 30],
+      { "item": "bipod", "prob": 20 },
+      { "item": "grip", "prob": 80 },
+      { "item": "laser_sight", "prob": 40 },
+      { "item": "pistol_bayonet", "prob": 10 },
+      { "item": "pistol_scope", "prob": 10 },
+      { "item": "pistol_stock", "prob": 10 },
+      { "item": "butt_hook", "prob": 20 },
+      { "item": "arredondo_chute", "prob": 20 },
+      { "item": "shot_suppressor", "prob": 10 },
+      { "item": "suppressor", "prob": 60 },
+      { "item": "suppressor_compact", "prob": 40 },
+      { "item": "acog_scope", "prob": 40 },
+      { "item": "holo_sight", "prob": 50 },
+      { "item": "holo_magnifier", "prob": 30 },
 
-      ["laser_sight_steiner", 20],
-      ["laser_sight_l3harris", 25]
-    ],
+      { "item": "laser_sight_steiner", "prob": 20 },
+      { "item": "laser_sight_l3harris", "prob": 25 },
 
-    "groups": [
-      ["loadout_all_enhanced_sights", 40],
+      { "group": "loadout_all_enhanced_sights", "prob": 40 },
 
-      ["loadout_foregrips_tiny", 20],
-      ["loadout_foregrips_angled", 30],
+      { "group": "loadout_foregrips_tiny", "prob": 20 },
+      { "group": "loadout_foregrips_angled", "prob": 30 },
 
-      ["loadout_all_muzzle_devices", 40]
+      { "group": "loadout_all_muzzle_devices", "prob": 40 }
     ]
   }
 ]
