@@ -115,6 +115,13 @@
 
   {
     "type": "recipe",
+    "result": "pistol_stock",
+    "id_suffix": "with_plastic_molding",
+    "obsolete": true
+  },
+
+  {
+    "type": "recipe",
     "result": "recoil_stock",
     "obsolete": true
   },
