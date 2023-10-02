@@ -249,5 +249,11 @@
     "type": "recipe",
     "result": "offset_sights_mod",
     "obsolete": true
+  },
+
+  {
+    "type": "recipe",
+    "result": "single_sling",
+    "obsolete": true
   }
 ]
