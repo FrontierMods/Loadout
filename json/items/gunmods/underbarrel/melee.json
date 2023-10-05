@@ -90,6 +90,13 @@
     },
     "description": "This converted trimmer saw has been trimmed down to the bare minimum, painted black, and outfitted with a Picatinny rail adapter.  Now, it's a mighty tool against zombies...  or whatever else you might find standing in your way.  Rather unwieldy on its own, it's meant to be attached under the barrel of a modern rifle.  It is currently turned on.  Activate to turn off.",
 
+    "//power": {
+      "source": [["makita_accumulator"]],
+      "voltage": "18 V",
+      "capacity": "2250 mAh",
+      "runtime": "90 m"
+    },
+
     "//power_draw": "the original saw this had been converted from is reported to run 90 mins on an 18V/1.5A battery",
     "power_draw": "18 W",
 
@@ -97,7 +104,13 @@
 
     "techniques": ["SWEEP"],
 
-    "use_action": ["TOOLWEAPON_DEACTIVATE"],
+    "use_action": [
+      {
+        "type": "transform",
+        "target": "underbarrel_killsaw",
+        "msg": "You turn on the chainsaw bayonet on."
+      }
+    ],
 
     "melee_damage": { "bash": 4, "cut": 70 }
   },
