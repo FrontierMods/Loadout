@@ -571,6 +571,7 @@
     "//sight_dispersion": "move them closer to the default Loadout iron sight balancing",
     "sight_dispersion": 24,
 
+    "location": "sights",
     "//add_mod": "much like new offset sights, this pair adds a 'slot' for new sights, emulating being offset",
     "add_mod": [["sights", 1]],
 
