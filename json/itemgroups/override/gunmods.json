@@ -6,7 +6,7 @@
     "//removed": [
       [
         ["pistol_grip", "match_trigger"],
-        "spawns as a built-in mod for some weapons, but shouldn't be installable onto others"
+        "spawn as a built-in mod for some weapons, but shouldn't be installable onto others"
       ]
     ],
 
@@ -58,7 +58,7 @@
           "retool_ar15_300blk",
           "adjustable_stock"
         ],
-        "spawns as a built-in mod for some weapons, but shouldn't be installable onto others"
+        "spawn as a built-in mod for some weapons, but shouldn't be installable onto others"
       ],
       [
         "wooden_grip",
