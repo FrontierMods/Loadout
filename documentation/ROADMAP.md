@@ -35,4 +35,4 @@
   - weighted base plates to increase reload speed
   - carabiner adapters
   - magazine decoration
-  - labels are markings
+  - labels and markings
