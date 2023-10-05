@@ -118,7 +118,7 @@
     "name": { "str": "Panacea X SM18B machete bayonet" },
     "description": "A large multitool bayonet, with a saw back allowing you to saw wood rather efficiently, given what you're working with.  The main selling point for this thing is the fact that it has a Picatinny rail adapter, allowing it to be attached under the barrel of a rifle and used as a very long bayonet.  Can still be used effectively as a regular machete.",
 
-    "//weight": "assumed from the 24-inch model",
+    "//weight": "assumed from the 24-inch model of the Hansa machete",
     "weight": "567 g",
     "//dimensions": [
       {
