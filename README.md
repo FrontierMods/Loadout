@@ -13,7 +13,12 @@ Requires [Frontiers *Core*](https://github.com/FrontierMods/Core).
 
 *Loadout* is currently **in development**.
 
-The latest supported version is **0.G**.
+The latest supported version of the game is **0.G**.
+
+
+## Roadmap
+
+See [`ROADMAP.md`](/documentation/ROADMAP.md).
 
 
 # License
