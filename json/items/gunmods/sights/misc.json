@@ -1,0 +1,38 @@
+[
+  {
+    "id": "iron_sights_acog_rear",
+    "copy-from": "iron_sights_abstract",
+    "type": "GUNMOD",
+
+    "//sources": [
+      "https://www.trijicon.com/products/details/ac10009",
+      "https://escapefromtarkov.fandom.com/wiki/Trijicon_ACOG_backup_rear_sight"
+    ],
+
+    "name": {
+      "str": "Trijicon backup rear sight for ACOG",
+      "str_pl": "Trijicon backup rear sights for ACOG"
+    },
+    "description": "A pair of offset iron sights that could be flipped down or inline, to make them behave more like regular iron sights.  Offset iron sights can be used alongside other sights and scopes.",
+
+    "weight": "34 g",
+    "//volume": "volume of RM35 (20 ml) × 0.7",
+    "volume": "14 ml",
+    "//longest_side": "height of RM35 (1.04 in.) × 1.4 = 1.456 in.",
+    "longest_side": "37 mm",
+
+    "material": ["aluminum"],
+
+    "location": "ACOG bosses",
+
+    "delete": {
+      "flags": ["DISABLE_SIGHTS"]
+    },
+
+    "//price": [
+      "the price is set for both the rear and the front sight replacement in the Trijicon source",
+      "we subtract $3 from the set as a way to compensate for the missing front sight"
+    ],
+    "price": "60 USD"
+  }
+]
