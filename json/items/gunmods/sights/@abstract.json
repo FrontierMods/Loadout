@@ -100,8 +100,11 @@
 
     "//field_of_view": "what low-magnification scopes have (after strong rounding) @ 1× magnification",
     "field_of_view": 1000,
-    "//sight_dispersion": "0.25 MOA in quarter-MOA / 15 arc seconds per point",
-    "sight_dispersion": 1,
+    "//sight_dispersion": [
+      "reticle lines of all scopes are sub-quarter-MOA, and therefore should have 1 dispersion",
+      "in light of an addition of variable-power scopes, the score had been artificially increased to make high-magnification mode worth using"
+    ],
+    "sight_dispersion": 4,
     "//aim_speed_modifier": [
       "emulates having to aim that much more carefully with a sight this precise",
       "still better than aiming with no sights"
