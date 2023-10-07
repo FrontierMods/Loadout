@@ -17,9 +17,9 @@
 
 ## v1.1
 
-- [ ] variable-zoom scopes
 - [ ] foldable iron sights
   - would allow installing other sights
+- [x] variable-zoom scopes
 - [ ] SOPMOD attachments
   - [ ] Block I
   - [ ] Block II

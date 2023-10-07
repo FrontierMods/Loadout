@@ -14,7 +14,7 @@
     "name": {
       "str": "EOTech Vudu 1—6×24 30mm scope"
     },
-    "description": "A slim, versatile 30mm scope with magnification ranging from 1× to 6×.  Its award-winning design and perfomance make it a popular low-magnification scope for a variety of tasks, including hunting, competitive shooting, and law-enforcement operations.",
+    "description": "A slim, versatile 30mm scope with magnification ranging from 1× to 6×.  Its award-winning design and perfomance make it a popular low-magnification scope for a variety of tasks, including hunting, competitive shooting, and law-enforcement operations.  Activate to set it to maximum magnification.",
 
     "weight": "570 g",
     "//dimensions": [
@@ -58,7 +58,36 @@
       "lifetime": "500 h"
     },
 
+    "use_action": {
+      "type": "transform",
+      "menu_text": "Magnify",
+      "msg": "You turn the scope's zoom all the way up.",
+      "target": "sight_eotech_vudu_6x"
+    },
+
     "price": "1400 USD"
+  },
+
+  {
+    "id": "sight_eotech_vudu_6x",
+    "copy-from": "sight_eotech_vudu",
+    "type": "GUNMOD",
+
+    "name": {
+      "str": "EOTech Vudu 1—6×24 30mm scope (magnified)",
+      "str_pl": "EOTech Vudu 1—6×24 30mm scopes (magnified)"
+    },
+    "description": "A slim, versatile 30mm scope with magnification ranging from 1× to 6×.  Its award-winning design and perfomance make it a popular low-magnification scope for a variety of tasks, including hunting, competitive shooting, and law-enforcement operations.  It is currently set to maximum magnification.  Activate to set it back to base magnification.",
+
+    "sight_dispersion": 0,
+    "field_of_view": 191,
+
+    "use_action": {
+      "type": "transform",
+      "menu_text": "Demagnify",
+      "msg": "You turn the scope's zoom all the way down.",
+      "target": "sight_eotech_vudu"
+    }
   },
 
   {
@@ -71,7 +100,7 @@
     "name": {
       "str": "Trijicon Huron 3—12×40 30mm scope"
     },
-    "description": "A large 30mm scope with magnification ranging from 3× to 12×, primarily intended for hunting large game.  Like other scopes from Trijicon, Huron is appreciated for its quality and performance, with aircraft-grade aluminum and combat-grade glass similar to that used in the famous ACOG sight.",
+    "description": "A large 30mm scope with magnification ranging from 3× to 12×, primarily intended for hunting large game.  Like other scopes from Trijicon, Huron is appreciated for its quality and performance, with aircraft-grade aluminum and combat-grade glass similar to that used in the famous ACOG sight.  Activate to set it to maximum magnification.",
 
     "weight": "505 g",
     "//dimensions": [
@@ -117,7 +146,35 @@
     ],
     "field_of_view": 416,
 
+    "use_action": {
+      "type": "transform",
+      "menu_text": "Magnify",
+      "msg": "You turn the scope's zoom all the way up.",
+      "target": "sight_trijicon_huron_12x"
+    },
+
     "price": "700 USD"
+  },
+
+  {
+    "id": "sight_trijicon_huron_12x",
+    "copy-from": "sight_trijicon_huron",
+    "type": "GUNMOD",
+
+    "name": {
+      "str": "Trijicon Huron 3—12×40 30mm scope (magnified)",
+      "str_pl": "Trijicon Huron 3—12×40 30mm scopes (magnified)"
+    },
+    "description": "A large 30mm scope with magnification ranging from 3× to 12×, primarily intended for hunting large game.  Like other scopes from Trijicon, Huron is appreciated for its quality and performance, with aircraft-grade aluminum and combat-grade glass similar to that used in the famous ACOG sight.  It is currently set to maximum magnification.  Activate to set it back to base magnification.",
+
+    "field_of_view": 104,
+
+    "use_action": {
+      "type": "transform",
+      "menu_text": "Demagnify",
+      "msg": "You turn the scope's zoom all the way down.",
+      "target": "sight_trijicon_huron"
+    }
   },
 
   {
@@ -132,7 +189,7 @@
     "name": {
       "str": "Trijicon Tenmile 6—24×50 30mm scope"
     },
-    "description": "A large 30mm scope with magnification ranging from 6× to 24×, intended for hunting large game.  With a large degree of adjustments and unparalleled performance in the field, this scope allows its user to shoot accurately from a very long range.",
+    "description": "A large 30mm scope with magnification ranging from 6× to 24×, intended for hunting large game.  With a large degree of adjustments and unparalleled performance in the field, this scope allows its user to shoot accurately from a very long range.  Activate to set it to maximum magnification.",
 
     "weight": "705 g",
     "//dimensions": [
@@ -183,6 +240,34 @@
       "lifetime": "39 hours"
     },
 
+    "use_action": {
+      "type": "transform",
+      "menu_text": "Magnify",
+      "msg": "You turn the scope's zoom all the way up.",
+      "target": "sight_trijicon_tenmile_24x"
+    },
+
     "price": "1470 USD"
+  },
+
+  {
+    "id": "sight_trijicon_tenmile_24x",
+    "copy-from": "sight_trijicon_tenmile",
+    "type": "GUNMOD",
+
+    "name": {
+      "str": "Trijicon Tenmile 6—24×50 30mm scope (magnified)",
+      "str_pl": "Trijicon Tenmile 6—24×50 30mm scopes (magnified)"
+    },
+    "description": "A large 30mm scope with magnification ranging from 6× to 24×, intended for hunting large game.  With a large degree of adjustments and unparalleled performance in the field, this scope allows its user to shoot accurately from a very long range.  It is currently set to maximum magnification.  Activate to set it back to base magnification.",
+
+    "field_of_view": 55,
+
+    "use_action": {
+      "type": "transform",
+      "menu_text": "Demagnify",
+      "msg": "You turn the scope's zoom all the way down.",
+      "target": "sight_trijicon_tenmile"
+    }
   }
 ]
