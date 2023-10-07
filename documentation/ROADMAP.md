@@ -17,8 +17,6 @@
 
 ## v1.1
 
-- [ ] foldable iron sights
-  - would allow installing other sights
 - [x] variable-zoom scopes
 - [ ] SOPMOD attachments
   - [ ] Block I
@@ -36,3 +34,9 @@
   - carabiner adapters
   - magazine decoration
   - labels and markings
+
+## TBD
+
+- [ ] foldable iron sights
+  - would allow installing other sights
+  - postponed due to not behaving correctly in the latest stable
