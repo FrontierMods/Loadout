@@ -16,8 +16,17 @@
     "description": "A pair of offset iron sights that could be flipped down or inline, to make them behave more like regular iron sights.  Offset iron sights can be used alongside other sights and scopes.",
 
     "weight": "34 g",
-    "//volume": "volume of RM35 (20 ml) × 0.7",
-    "volume": "14 ml",
+    "//dimensions": {
+      "length": "0.56 in",
+      "width": "1.76 in",
+      "height": "1.81 in",
+      "raw": "29 ml",
+      "trim": 0.75,
+      "//notes": [
+        "dimensions derived from measuring similar rear sight from TA31 ACOG"
+      ]
+    },
+    "volume": "7 ml",
     "//longest_side": "height of RM35 (1.04 in.) × 1.4 = 1.456 in.",
     "longest_side": "37 mm",
 
