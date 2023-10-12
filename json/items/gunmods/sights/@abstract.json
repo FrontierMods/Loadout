@@ -20,15 +20,7 @@
     "location": "sights",
     "install_time": "2 m",
 
-    "mod_targets": [
-      "pistol",
-      "rifle",
-      "smg",
-      "shotgun",
-      "bow",
-      "crossbow",
-      "launcher"
-    ],
+    "mod_targets": ["pistol", "rifle", "smg", "shotgun", "bow", "launcher"],
 
     "flags": ["DISABLE_SIGHTS"]
   },
@@ -175,7 +167,7 @@
     "description": "idea of a rifle sight mount",
 
     "//mod_targets": "this class is used to prevent installing mounts that require Picatinny rail onto pistols",
-    "mod_targets": ["smg", "shotgun", "rifle", "bow", "crossbow", "launcher"]
+    "mod_targets": ["smg", "shotgun", "rifle", "bow", "launcher"]
   },
 
   {
@@ -203,7 +195,7 @@
 
     "add_mod": [["30mm scope mount", 1]],
 
-    "mod_targets": ["rifle", "smg", "shotgun", "crossbow", "launcher"]
+    "mod_targets": ["rifle", "smg", "shotgun", "launcher"]
   },
 
   {
@@ -218,7 +210,7 @@
 
     "add_mod": [["34mm scope mount", 1]],
 
-    "mod_targets": ["rifle", "smg", "shotgun", "crossbow", "launcher"]
+    "mod_targets": ["rifle", "smg", "shotgun", "launcher"]
   },
 
   {
@@ -233,7 +225,7 @@
 
     "add_mod": [["1-inch sight mount", 1]],
 
-    "mod_targets": ["rifle", "smg", "shotgun", "crossbow", "launcher"]
+    "mod_targets": ["rifle", "smg", "shotgun", "launcher"]
   },
 
   {

@@ -27,7 +27,7 @@
       "then again, ideally the game would allow using multiple Picatinny slots per item, thus eliminating this issue entirely",
       "it's the end of the world; equip a foregrip on a pistol if that helps you survive"
     ],
-    "mod_targets": ["rifle", "smg", "shotgun", "crossbow", "launcher"],
+    "mod_targets": ["rifle", "smg", "shotgun", "launcher"],
 
     "//add_mod": "simulates the idea of having enough space to install a rail attachment",
     "add_mod": [["rail", 1]]
