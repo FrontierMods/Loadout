@@ -1,0 +1,79 @@
+[
+  {
+    "id": "adjustable_stock",
+    "copy-from": "adjustable_stock",
+    "type": "GUNMOD",
+
+    "name": { "str": "adjustable stock" },
+
+    "extend": {
+      "add_mod": [["stock accessory", 2]]
+    }
+  },
+
+  {
+    "id": "folding_stock",
+    "copy-from": "folding_stock",
+    "type": "GUNMOD",
+
+    "name": { "str": "folding stock" },
+
+    "extend": {
+      "add_mod": [["stock accessory", 2]]
+    }
+  },
+
+  {
+    "id": "folding_stock_folded",
+    "copy-from": "folding_stock_folded",
+    "type": "GUNMOD",
+
+    "name": {
+      "str": "folding stock (folded)",
+      "str_pl": "folding stocks (folded)"
+    },
+
+    "extend": {
+      "add_mod": [["stock accessory", 2]]
+    }
+  },
+
+  {
+    "id": "high_end_folding_stock",
+    "copy-from": "high_end_folding_stock",
+    "type": "GUNMOD",
+
+    "name": { "str": "modular folding stock" },
+
+    "extend": {
+      "add_mod": [["stock accessory", 2]]
+    }
+  },
+
+  {
+    "id": "high_end_folding_stock_folded",
+    "copy-from": "high_end_folding_stock_folded",
+    "type": "GUNMOD",
+
+    "name": {
+      "str": "modular folding stock (folded)",
+      "str_pl": "modular folding stocks (folded)"
+    },
+
+    "extend": {
+      "add_mod": [["stock accessory", 2]]
+    }
+  },
+
+  {
+    "id": "recoil_stock",
+    "copy-from": "recoil_stock",
+    "type": "GUNMOD",
+
+    "name": { "str": "recoil stock" },
+
+    "extend": {
+      "add_mod": [["stock accessory", 2]]
+    }
+  }
+]
