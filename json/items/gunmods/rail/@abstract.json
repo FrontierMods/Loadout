@@ -22,15 +22,7 @@
 
     "field_of_view": 3000,
 
-    "mod_targets": [
-      "pistol",
-      "rifle",
-      "smg",
-      "shotgun",
-      "bow",
-      "crossbow",
-      "launcher"
-    ],
+    "mod_targets": ["pistol", "rifle", "smg", "shotgun", "bow", "launcher"],
 
     "flags": ["LASER_SIGHT"]
   },
@@ -87,14 +79,7 @@
       "location": "rail",
       "install_time": "30 s",
 
-      "mod_targets": [
-        "pistol",
-        "rifle",
-        "smg",
-        "shotgun",
-        "crossbow",
-        "launcher"
-      ]
+      "mod_targets": ["pistol", "rifle", "smg", "shotgun", "launcher"]
     }
   },
 
@@ -112,14 +97,7 @@
       "location": "1-inch mount",
       "install_time": "20 s",
 
-      "mod_targets": [
-        "pistol",
-        "rifle",
-        "smg",
-        "shotgun",
-        "crossbow",
-        "launcher"
-      ]
+      "mod_targets": ["pistol", "rifle", "smg", "shotgun", "launcher"]
     }
   }
 ]

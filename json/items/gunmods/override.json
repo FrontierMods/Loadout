@@ -30,14 +30,7 @@
 
     "handling_modifier": 7,
 
-    "mod_targets": [
-      "pistol",
-      "smg",
-      "rifle",
-      "shotgun",
-      "launcher",
-      "crossbow"
-    ],
+    "mod_targets": ["pistol", "smg", "rifle", "shotgun", "launcher"],
 
     "price": "34 USD"
   },
@@ -76,7 +69,7 @@
       "rather than use a generic `pistol` target, this bipod should target only longer pistol-caliber firearms known to be used in a marksman capacity",
       "e.g. Manurhin MR 73, used by GIGN"
     ],
-    "mod_targets": ["smg", "rifle", "shotgun", "launcher", "crossbow"],
+    "mod_targets": ["smg", "rifle", "shotgun", "launcher"],
 
     "price": "129 USD"
   },
