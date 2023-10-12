@@ -1336,7 +1336,7 @@
       "str": "Müller passing choke for Remington shotguns",
       "str_pl": "Müller passing chokes for Remington shotguns"
     },
-    "description": "A choke for Remington-manufactured shotguns.  Noticably reduces spread of shot, shaping it towards longer range and higher accuracy.  Classed as \"passing\", which is stated to be comparable to a traditional \"improved modified\" or \"full\" choke.",
+    "description": "A choke for Remington-manufactured shotguns.  Noticably reduces spread of shot, shaping it towards longer range and higher accuracy.  Classed as \"passing\", which is comparable to a traditional \"improved modified\" or \"full\" choke.",
 
     "weight": "19 g",
     "//dimensions": {
