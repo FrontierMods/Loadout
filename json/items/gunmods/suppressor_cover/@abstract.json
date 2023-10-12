@@ -34,7 +34,7 @@
   "color": "dark_gray",
 
   "location": "suppressor cover",
-  "install_time": "30 s",
+  "install_time": "20 s",
 
   "//mod_targets": [
     "not quite as permissive due to the range of suppressors that can take a cover being rather limited",

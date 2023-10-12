@@ -399,6 +399,7 @@
     "handling_modifier": 10,
 
     "add_mod": [["suppressor cover", 1]],
+    "install_time": "10 s",
 
     "location": "SilencerCo direct thread mount",
 
@@ -446,6 +447,8 @@
     "//loudness_modifier": "-25 + -28 from Rearden MFG muzzle brake",
     "loudness_modifier": -53,
     "handling_modifier": -14,
+
+    "install_time": "10 s",
 
     "price": "499 USD"
   },
@@ -542,6 +545,8 @@
     "handling_modifier": 30,
     "loudness_modifier": 30,
 
+    "install_time": "20 s",
+
     "price": "99 USD"
   },
 
@@ -617,6 +622,8 @@
     },
 
     "sight_dispersion": 14,
+
+    "install_time": "15 s",
 
     "//power": {
       "source": "LR44 × 4",
@@ -698,6 +705,8 @@
     "longest_side": "63 mm",
 
     "material": ["steel", "aluminum"],
+
+    "install_time": "20 s",
 
     "price": "75 USD"
   },
@@ -829,7 +838,7 @@
       "(so either the catcher's nylon latch cuts, or the slide is slowed down, thus not ejecting or chambering correctly)"
     ],
     "mod_targets": ["shotgun", "smg", "rifle", "launcher"],
-    "install_time": "10 s",
+    "install_time": "15 s",
 
     "pocket_data": [
       {
@@ -934,7 +943,7 @@
 
     "material": ["nylon"],
 
-    "install_time": "10 s",
+    "install_time": "5 s",
 
     "use_action": {
       "type": "transform",
@@ -1254,7 +1263,7 @@
       "merely a guess, since no reviews or tutorials seem to be available",
       "real value welcome"
     ],
-    "install_time": "10 m",
+    "install_time": "6 m",
 
     "//price": [
       "Tac-14 (420 USD) - Raptor grip (25 USD) + UBS-12 mount (395 CAD ≈ 295 USD) = 690 USD",
@@ -1507,8 +1516,6 @@
     "longest_side": "152 mm",
 
     "material": ["nylon", "steel", "plastic"],
-
-    "install_time": "10 s",
 
     "price": "60 USD"
   }

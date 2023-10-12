@@ -18,7 +18,7 @@
     "color": "dark_gray",
 
     "location": "rail",
-    "install_time": "30 s",
+    "install_time": "20 s",
 
     "field_of_view": 3000,
 
@@ -110,7 +110,7 @@
 
     "gunmod_data": {
       "location": "1-inch mount",
-      "install_time": "30 s",
+      "install_time": "20 s",
 
       "mod_targets": [
         "pistol",

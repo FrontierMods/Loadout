@@ -18,7 +18,7 @@
     "color": "dark_gray",
 
     "location": "muzzle",
-    "install_time": "30 s",
+    "install_time": "20 s",
 
     "mod_targets": ["pistol", "smg", "shotgun", "rifle"]
   },
@@ -96,6 +96,7 @@
     "consume_divisor": 840,
 
     "mod_targets": ["pistol", "smg", "rifle"],
+    "install_time": "10 s",
 
     "add_mod": [["suppressor cover", 1]],
 
@@ -196,7 +197,9 @@
       "some adapters and threaded barrel extensions in this thread config provide a 0.7 in. ≈ 18 mm thread",
       "https://www.pikearms.com/catalog/product/id-5146"
     ],
-    "longest_side": "16 mm"
+    "longest_side": "16 mm",
+
+    "install_time": "10 s"
   },
 
   {
@@ -218,6 +221,8 @@
     "//volume": "based on EGW thread protector",
     "volume": "9 ml",
     "//longest_side": "based on length of EGW thread protector for a 5/8 in. × 24-threaded barrel",
-    "longest_side": "24 mm"
+    "longest_side": "24 mm",
+
+    "install_time": "10 s"
   }
 ]

@@ -29,6 +29,7 @@
     "longest_side": "127 mm",
     "integral_longest_side": "0 mm",
 
-    "mod_targets": ["remington_1100"]
+    "mod_targets": ["remington_1100"],
+    "install_time": "3 m"
   }
 ]
