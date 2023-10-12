@@ -18,7 +18,7 @@
     "color": "dark_gray",
 
     "location": "underbarrel",
-    "install_time": "30 s",
+    "install_time": "20 s",
 
     "//mod_targets": [
       "the only reason pistols aren't allowed here is because there's no way to control where the attachment goes",
@@ -67,7 +67,7 @@
     "longest_side": "200 mm",
 
     "location": "underbarrel",
-    "install_time": "30 s",
+    "install_time": "40 s",
 
     "handling_modifier": 18
   }

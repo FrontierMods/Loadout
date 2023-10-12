@@ -18,7 +18,7 @@
     "color": "dark_gray",
 
     "location": "sights",
-    "install_time": "5 m",
+    "install_time": "2 m",
 
     "mod_targets": [
       "pistol",
@@ -112,7 +112,7 @@
     "aim_speed_modifier": 3,
 
     "location": "30mm scope mount",
-    "install_time": "30 s",
+    "install_time": "3 m",
 
     "flags": ["ZOOM"]
   },
@@ -149,7 +149,7 @@
     "color": "dark_gray",
 
     "location": "sights",
-    "install_time": "30 s",
+    "install_time": "15 s",
 
     "mod_targets": [
       "pistol",

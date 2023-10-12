@@ -15,7 +15,7 @@
 
     "mod_targets": ["shotgun", "smg", "rifle", "launcher"],
     "min_skills": [["weapon", 1]],
-    "install_time": "30 s",
+    "install_time": "20 s",
 
     "pocket_data": [
       {
