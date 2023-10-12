@@ -56,9 +56,7 @@
       "muzzle brakes make the gun much, much louder",
       "the default value is derived from the negative loudness value of suppressors"
     ],
-    "loudness_modifier": 40,
-
-    "mod_targets": ["pistol", "smg", "rifle"]
+    "loudness_modifier": 40
   },
 
   {
