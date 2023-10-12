@@ -75,5 +75,75 @@
     "extend": {
       "add_mod": [["stock accessory", 2]]
     }
+  },
+
+  {
+    "id": "wooden_grip",
+    "copy-from": "wooden_grip",
+    "type": "GUNMOD",
+
+    "//notes": [
+      "this is meant to be a basic foregrip carved from nearby objects out of desperation",
+      "it's intended to only go on guns that have enough wooden furniture to nail the foregrip into"
+    ],
+
+    "name": { "str": "jury-rigged wooden foregrip" },
+    "description": "A wooden grip placed forward on the firearm furniture allows for greater control.  Not as effective as a bipod, but usable under all conditions.  This one was hastily handmade by a desperate survivor or miserly enthusiast, and can only be installed onto guns that have wooden furniture to grab onto.",
+
+    "//mod_targets": [
+      "for Mosin rifles specifically, we can't actively separate between regular old wooden ones and EBR polymer ones",
+      "for now, we presume that someone is desperate enough to permanently damage EBR Mosins"
+    ],
+    "mod_targets": [
+      "winchester_1897",
+      "trex_gun",
+      "ak74",
+      "mosin44",
+      "mosin91_30",
+      "mp18",
+      "rifle_9mm",
+      "1895sbl",
+      "henry_big_boy",
+      "rifle_flintlock",
+      "colt_lightning",
+      "weatherby_5",
+      "win70",
+      "ppsh",
+      "remington700_270",
+      "ak47",
+      "sks",
+      "aksemi",
+      "draco",
+      "m79",
+      "tommygun",
+      "ruger_mini",
+      "ak556",
+      "minidraco556",
+      "garand",
+      "m1903",
+      "m1918",
+      "fn_fal",
+      "m1a",
+      "ak308",
+      "combination_gun",
+      "m1carbine",
+      "marlin_9a",
+      "ruger_1022",
+      "bh_m89",
+      "bullet_crossbow",
+      "compositecrossbow",
+      "rep_crossbow",
+      "crossbow"
+    ],
+    "min_skills": [["weapon", 1]],
+    "install_time": "90 s",
+
+    "//handling_modifier": {
+      "grip_short": 2
+    },
+    "handling_modifier": 2,
+
+    "//flags": "not PUMP_RAIL_COMPATIBLE because it has no rail adapter",
+    "flags": ["IRREMOVABLE"]
   }
 ]
