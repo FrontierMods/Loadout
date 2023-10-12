@@ -7,6 +7,7 @@
     "name": { "str": "adjustable stock" },
 
     "extend": {
+      "flags": ["IRREMOVABLE"],
       "add_mod": [["stock accessory", 2]]
     }
   },
@@ -19,6 +20,7 @@
     "name": { "str": "folding stock" },
 
     "extend": {
+      "flags": ["IRREMOVABLE"],
       "add_mod": [["stock accessory", 2]]
     }
   },
@@ -34,6 +36,7 @@
     },
 
     "extend": {
+      "flags": ["IRREMOVABLE"],
       "add_mod": [["stock accessory", 2]]
     }
   },
@@ -46,6 +49,7 @@
     "name": { "str": "modular folding stock" },
 
     "extend": {
+      "flags": ["IRREMOVABLE"],
       "add_mod": [["stock accessory", 2]]
     }
   },
@@ -61,6 +65,7 @@
     },
 
     "extend": {
+      "flags": ["IRREMOVABLE"],
       "add_mod": [["stock accessory", 2]]
     }
   },
@@ -73,6 +78,7 @@
     "name": { "str": "recoil stock" },
 
     "extend": {
+      "flags": ["IRREMOVABLE"],
       "add_mod": [["stock accessory", 2]]
     }
   },

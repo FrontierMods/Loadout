@@ -1,16 +1,5 @@
 [
   {
-    "id": "adjustable_stock",
-    "copy-from": "adjustable_stock",
-    "type": "GUNMOD",
-
-    "name": { "str": "adjustable stock" },
-
-    "extend": {
-      "flags": ["IRREMOVABLE"]
-    }
-  },
-  {
     "id": "pistol_grip",
     "copy-from": "pistol_grip",
     "type": "GUNMOD",
@@ -27,39 +16,6 @@
     "type": "GUNMOD",
 
     "name": { "str": "match trigger" },
-
-    "extend": {
-      "flags": ["IRREMOVABLE"]
-    }
-  },
-  {
-    "id": "folding_stock",
-    "copy-from": "folding_stock",
-    "type": "GUNMOD",
-
-    "name": { "str": "folding stock" },
-
-    "extend": {
-      "flags": ["IRREMOVABLE"]
-    }
-  },
-  {
-    "id": "high_end_folding_stock",
-    "copy-from": "high_end_folding_stock",
-    "type": "GUNMOD",
-
-    "name": { "str": "modular folding stock" },
-
-    "extend": {
-      "flags": ["IRREMOVABLE"]
-    }
-  },
-  {
-    "id": "recoil_stock",
-    "copy-from": "recoil_stock",
-    "type": "GUNMOD",
-
-    "name": { "str": "recoil stock" },
 
     "extend": {
       "flags": ["IRREMOVABLE"]
