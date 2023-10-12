@@ -269,5 +269,136 @@
       "msg": "You turn the scope's zoom all the way down.",
       "target": "sight_trijicon_tenmile"
     }
+  },
+
+  {
+    "id": "sight_leupold_mark4",
+    "copy-from": "sight_30mm",
+    "type": "GUNMOD",
+
+    "//sources": [
+      "https://charliescustomclones.com/leupold-mark-4-scope-mr-t-2-5-8x36mm-illum-tmr-ret/",
+      "https://www.eurooptic.com/leupold-mark-4-mrt-2-5-8x36-m2-ts-30-a2-rifle-scope-30mm-tube-illum-tmr-112633.aspx",
+      "https://www.midwayusa.com/product/1009588950?pid=422394",
+      "https://www.snipershide.com/shooting/threads/leupold-ts30-a2-mark-4-2-5-8x36mm-tmr-ret-illum-riflescope-112633.6999650/"
+    ],
+
+    "//notes": [
+      "the actual scope appears to have never been sold commercially, only supplied to the military",
+      "linked sources seem to be selling reproduced or repurposed clones of the actual sight",
+      "until better sources are available, these are the values we use"
+    ],
+
+    "name": {
+      "str": "Leupold Mark 4 MR/T 2.5—8×36 30mm scope"
+    },
+    "description": "A slick, capable 30mm scope with magnification ranging from 2.5× to 8×.  This model has been in service with the US military for more than two decades, known in particular for being supplied with Mk12 Special Purpose Rifle, as well as M38 Designated Marksman Rifle, both in use with US Marines.",
+
+    "variant_type": "generic",
+    "variants": [
+      {
+        "id": "sight_leupold_mark4_modern",
+        "name": {
+          "str": "Leupold Mark 4 MR/T 2.5—8×36 30mm scope"
+        },
+        "description": "This one is a newer model, as used on the relatively-recent M38's.  The differentiating factor is white lines on the mounting space, allowing the soldier to both position the scope correctly for eye relief and make sure the scope is level.  Back when \"online\" was a thing, this model would fetch $1 500 to $1 900 in online sales, even with those looking to replicate the older Mk12's… even though the markings make it much too new to be used on the retired platform.  Activate to set it to maximum magnification.",
+        "weight": 10,
+        "append": true
+      },
+
+      {
+        "id": "sight_leupold_mark4",
+        "name": {
+          "str": "Leupold Mark 4 MR/T 2.5—8×36 30mm scope"
+        },
+        "description": "This one is an older model, as used on the retired Mk12's.  Unlike the newer model, it doesn't have ring- and level-lines on the mounting space.  As a consequence, it didn't command nearly as much respect with those interested in replicating military rifle configurations… back when those interested were still human and able to communicate.  Activate to set it to maximum magnification.",
+        "weight": 1,
+        "append": true
+      }
+    ],
+
+    "weight": "454 g",
+    "//dimensions": [
+      {
+        "description": "objective",
+
+        "length": "2.60 in",
+        "diameter": "1.70 in",
+        "raw": "97 ml",
+        "trim": 0.2,
+        "volume": "78 ml"
+      },
+      {
+        "description": "mounting space",
+
+        "length": "5.8 in",
+        "diameter": "30 mm",
+        "raw": "102 ml",
+        "trim": -0.2,
+        "volume": "122 ml",
+        "notes": [
+          "the adjustment knobs' volume is reflected in the negative trim value"
+        ]
+      },
+      {
+        "description": "eyepiece",
+
+        "length": "3.10 in",
+        "diameter": "1.70 in",
+        "raw": "115 ml",
+        "trim": 0.05,
+        "volume": "110 ml",
+        "notes": ["trim takes adjustment knobs into account"]
+      }
+    ],
+    "volume": "310 ml",
+    "longest_side": "287 mm",
+
+    "//field_of_view": [
+      "35.50 ft @ 100 yds @ 2.5× magnification = 406.33 MOA",
+      "13.60 ft @ 100 yds @ 8× magnification = 155.82 MOA"
+    ],
+    "field_of_view": 406,
+    "//aim_speed_modifier": [
+      "at 2.5× magnification",
+      "somewhere between a magnified scope and a red dot sight"
+    ],
+    "aim_speed_modifier": 6,
+
+    "//power": {
+      "source": [["CR2032"]],
+      "lifetime": "???"
+    },
+
+    "use_action": {
+      "type": "transform",
+      "menu_text": "Magnify",
+      "msg": "You turn the scope's zoom all the way up.",
+      "target": "sight_leupold_mark4_8x"
+    },
+
+    "//price": "Charlie's Clones pricing, which is said to be slightly-cheaper than the original",
+    "price": "1527 USD"
+  },
+
+  {
+    "id": "sight_leupold_mark4_8x",
+    "copy-from": "sight_leupold_mark4",
+    "type": "GUNMOD",
+
+    "name": {
+      "str": "Leupold Mark 4 MR/T 2.5—8×36 30mm scope (magnified)",
+      "str_pl": "Leupold Mark 4 MR/T 2.5—8×36 30mm scopes (magnified)"
+    },
+    "description": "A slick, capable 30mm scope with magnification ranging from 2.5× to 8×.  This model has been in service with the US military for more than two decades, known in particular for being supplied with Mk12 Special Purpose Rifle, as well as M38 Designated Marksman Rifle, both in use with US Marines.  It is currently set to maximum magnification.  Activate to set it back to base magnification.",
+
+    "field_of_view": 156,
+
+    "use_action": {
+      "type": "transform",
+      "menu_text": "Demagnify",
+      "msg": "You turn the scope's zoom all the way down.",
+      "target": "sight_leupold_mark4"
+    }
   }
 ]
