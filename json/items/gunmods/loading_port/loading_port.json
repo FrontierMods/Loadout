@@ -27,7 +27,6 @@
     "//integral_volume": "80% of volume due to a lot of the 'volume' being 'hidden' inside the shotgun after attaching the speedloader",
     "integral_volume": "40 ml",
     "longest_side": "127 mm",
-    "integral_longest_side": "0 mm",
 
     "mod_targets": ["remington_1100"],
     "install_time": "3 m"

@@ -1186,7 +1186,6 @@
     "//integral_volume": "80% of volume due to a lot of the 'volume' being 'hidden' inside the shotgun after attaching the speedloader",
     "integral_volume": "39 ml",
     "longest_side": "85 mm",
-    "integral_longest_side": "0 mm",
 
     "mod_targets": ["mossberg_930"],
 
