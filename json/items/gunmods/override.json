@@ -1306,10 +1306,9 @@
     "integral_longest_side": "0 mm",
 
     "//melee_damage": [
-      "the least amount of damage of possible, without making it totally harmless",
-      "getting hit by this is like getting hit by a puffy glove"
+      "no damage, since this is a small, light, and soft item"
     ],
-    "melee_damage": { "bash": 1 },
+    "melee_damage": { "bash": 0 },
 
     "material": ["neoprene"],
 
