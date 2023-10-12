@@ -344,5 +344,72 @@
     "consume_divisor": 740,
 
     "price": "399 USD"
+  },
+
+  {
+    "id": "suppressor_kac_qdss",
+    "copy-from": "suppressor_abstract_no_cover",
+    "type": "GUNMOD",
+
+    "//source": [
+      "https://www.knightarmco.com/16373/shop/signature-reduction/rifle-suppressors/5-56mm/5-56mm-qdss-nt4",
+      "https://pewscience.com/sound-signature-reviews-free/sss-6-78-kac-qdss-nt4-mk18-556",
+      "https://www.bigtexordnance.com/product/knights-armament-5-56mm-qdss-nt4-suppressor-fde-black-kac-pn-96062-1-96062-2/"
+    ],
+
+    "name": {
+      "str": "KAC QDSS NT4 5.56mm suppressor"
+    },
+    "description": "A dated yet capable suppressor from Knights Armament Co., it reduces report (i.e., loudness of shot) by a considerable amount, though far from muffling the sound completely.  It's primarily known for being used on US military rifles for more than two decades.  This model is rated for 5.56mm NATO.  Being somewhat shorter than most suppressors, it cannot accept suppressor covers.  This one also cannot be mounted directly onto muzzle threading.  Instead, it mounts onto an M4QD muzzle brake, also from KAC.  The main purpose of a suppressor is to reduce report to safe levels, allowing the shooter to sustain fire without damaging their hearing.",
+
+    "variant_type": "generic",
+    "variants": [
+      {
+        "id": "suppressor_kac_qdss_black",
+        "name": {
+          "str": "KAC QDSS NT4 5.56mm suppressor"
+        },
+        "description": "A dated-yet-capable suppressor from Knights Armament Co., colored black, it reduces report (i.e., loudness of shot) by a considerable amount, though far from muffling the sound completely.  It's primarily known for being used on US military rifles for more than two decades.  This model is rated for 5.56mm NATO.  Being somewhat shorter than most suppressors, it cannot accept suppressor covers.  This one also cannot be mounted directly onto muzzle threading.  Instead, it mounts onto an M4QD muzzle brake, also from KAC.  The main purpose of a suppressor is to reduce report to safe levels, allowing the shooter to sustain fire without damaging their hearing.",
+        "weight": 1
+      },
+
+      {
+        "id": "suppressor_kac_qdss_tan",
+        "name": {
+          "str": "KAC QDSS NT4 5.56mm suppressor"
+        },
+        "description": "A dated-yet-capable suppressor from Knights Armament Co., colored tan, it reduces report (i.e., loudness of shot) by a considerable amount, though far from muffling the sound completely.  It's primarily known for being used on US military rifles for more than two decades.  This model is rated for 5.56mm NATO.  Being somewhat shorter than most suppressors, it cannot accept suppressor covers.  This one also cannot be mounted directly onto muzzle threading.  Instead, it mounts onto an M4QD muzzle brake, also from KAC.  The main purpose of a suppressor is to reduce report to safe levels, allowing the shooter to sustain fire without damaging their hearing.",
+        "weight": 1,
+        "append": true
+      }
+    ],
+
+    "weight": "624 g",
+    "//dimensions": {
+      "length": "6.50 in",
+      "diameter": "1.50 in",
+      "raw": "188 ml",
+      "trim": -0.025,
+      "notes": [
+        "the higher-diameter collar is reflected in the negative trim value"
+      ]
+    },
+    "volume": "193 ml",
+    "longest_side": "165 mm",
+    "//integral_longest_side": "absorbs the length of the KAC M4QD muzzle brake it mounts onto (48 mm)",
+    "integral_longest_side": "117 mm",
+
+    "//calibers": ["556"],
+
+    "//sound_lower": "134.70 dB @ 16 in. w/ 5.56mm M855",
+
+    "handling_modifier": -13,
+    "loudness_modifier": -71,
+
+    "consume_divisor": 800,
+
+    "location": "KAC QD muzzle mount",
+
+    "price": "1507 USD"
   }
 ]
