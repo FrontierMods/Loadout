@@ -21,7 +21,7 @@
 - [ ] SOPMOD attachments
   - [ ] Block I
   - [ ] Block II
-- [ ] audit installation time
+- [x] audit installation time
   - QD devices should behave as such
 
 ## v1.2
