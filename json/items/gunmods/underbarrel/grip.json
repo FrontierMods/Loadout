@@ -890,5 +890,56 @@
     "//add_mod": [["grip wrap", 1]],
 
     "price": "72 USD"
+  },
+
+  {
+    "id": "foregrip_kac",
+    "copy-from": "foregrip_abstract",
+    "type": "GUNMOD",
+
+    "//sources": [
+      [
+        "https://centextacticalgear.com/knights-armament-co-11-rib-rail-cover-kit-4-pack-long-covers-broom-stick/",
+        "dimensions"
+      ],
+      [
+        "https://escapefromtarkov.fandom.com/wiki/KAC_vertical_foregrip",
+        "weight"
+      ],
+      [
+        "https://www.knightarmco.com/2009/shop/accessories/mil-std-1913/forward-pistol-grip-k",
+        "price"
+      ]
+    ],
+
+    "name": {
+      "str": "KAC vertical foregrip"
+    },
+    "description": "A full-sized foregrip with notches at the bottom to prevent your hand from slipping.  This model is famous for being part of SOPMOD: a kit of rifle attachments supplied to US soldiers.",
+
+    "weight": "72 g",
+    "//dimensions": {
+      "length": "2.00 in",
+      "width": "1.00 in",
+      "height": "4.5 in",
+      "raw": "148 ml",
+      "trim": 0.325
+    },
+    "volume": "100 ml",
+    "longest_side": "114 mm",
+
+    "//interface": ["Picatinny"],
+
+    "//handling_modifier": {
+      "grip_tall": 4,
+      "bottom_grooves": 1
+    },
+    "handling_modifier": 5,
+
+    "//price": [
+      "different prices are listed for black (default) and other colors",
+      "for simplicity's sake, we assume that every grip of this brand would cost the same"
+    ],
+    "price": "80 USD"
   }
 ]
