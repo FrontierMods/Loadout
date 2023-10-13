@@ -457,5 +457,32 @@
     "longest_side": "53 mm",
 
     "price": "149 USD"
+  },
+
+  {
+    "id": "sight_mount_rx01",
+    "copy-from": "sight_mount_rifle_abstract",
+    "type": "GUNMOD",
+
+    "//sources": ["https://gritrsports.com/trijicon-reflex-scope-mount-rx14"],
+
+    "name": {
+      "str": "Trijicon RX41 mount"
+    },
+    "description": "A relatively-heavy Picatinny mount for Trijicon RX01.  Latches onto the Picatinny rail using thumbscrews similar to those on the TA51 ACOG mount.",
+
+    "weight": "119 g",
+    "//dimensions": {
+      "length": "2.80 in",
+      "width": "1.62 in",
+      "height": "0.64 in",
+      "raw": "48 ml",
+      "trim": 0.15,
+      "notes": ["width is 120% the width of RX01 (1.35 in.)"]
+    },
+    "volume": "41 ml",
+    "longest_side": "71 mm",
+
+    "price": "116 USD"
   }
 ]

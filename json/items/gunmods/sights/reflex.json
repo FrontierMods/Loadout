@@ -242,5 +242,89 @@
     },
 
     "price": "471 USD"
+  },
+
+  {
+    "id": "sight_trijicon_rx01",
+    "copy-from": "sight_rds_no_magnifier",
+    "type": "GUNMOD",
+
+    "//sources": [
+      "https://www.trijicon.com/discontinued-products/details/rx01"
+    ],
+
+    "//notes": [
+      "cannot have a magnifier because the reticle is so far down the optic"
+    ],
+
+    "name": {
+      "str": "Trijicon RX01 red dot sight"
+    },
+    "description": "A legacy design of a red dot sight, this model is known for being part of SOPMOD: a kit of rifle attachments supplied to US soldiers.  The dot is large, at 6.5 MOA, and is colored amber.  While it's been discontinued for several years, it's still sought after by collectors and fans of recent US military history.",
+
+    "weight": "119 g",
+    "//dimensions": {
+      "length": "4.25 in",
+      "width": "1.35 in",
+      "height": "1.65 in",
+      "raw": "155 ml",
+      "trim": 0.25
+    },
+    "volume": "116 ml",
+    "longest_side": "108 mm",
+
+    "location": "sights",
+
+    "sight_dispersion": 25,
+    "aim_speed_modifier": 8,
+
+    "//power": {
+      "source": [["tritium"]],
+      "lifetime": "12 y",
+      "notes": ["also fiber optic"]
+    },
+
+    "price": "519 USD"
+  },
+
+  {
+    "id": "sight_aimpoint_compm2",
+    "copy-from": "sight_rds",
+    "type": "GUNMOD",
+
+    "//sources": [
+      "https://www.aimpoint.com/products/discontinued/compm2-4-moa-red-dot-reflex-sight",
+      "https://en.wikipedia.org/wiki/Aimpoint_CompM2"
+    ],
+
+    "name": {
+      "str": "Aimpoint CompM2 red dot sight"
+    },
+    "description": "A legacy design of a red dot sight, this model is known for being part of SOPMOD: a kit of rifle attachments supplied to US soldiers.  The dot is large, at 6.5 MOA, and is colored amber.  While it's been discontinued for several years, it's still sought after by collectors and fans of recent US military history.",
+
+    "weight": "201 g",
+    "//dimensions": {
+      "length": "5.10 in",
+      "diameter": "2.20 in",
+      "raw": "318 ml",
+      "trim": 0,
+      "notes": [
+        "neutral trim value is meant to cover attached lens covers and such"
+      ]
+    },
+    "volume": "318 ml",
+    "longest_side": "130 mm",
+
+    "location": "single 30mm mount",
+
+    "sight_dispersion": 16,
+    "aim_speed_modifier": 8,
+
+    "//power": {
+      "source": [["CR1/3N"]],
+      "lifetime": "10000 h"
+    },
+
+    "price": "519 USD"
   }
 ]
