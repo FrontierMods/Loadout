@@ -313,7 +313,7 @@
     "copy-from": "foregrip_abstract",
     "type": "GUNMOD",
 
-    "//source": [
+    "//sources": [
       "https://www.wingtactical.com/firearm-parts/ar-15-parts/grips-foregrips/foregrips/strike-industries-link-anchor-polymer-hand-stop/"
     ],
 
@@ -581,7 +581,7 @@
     "copy-from": "foregrip_abstract",
     "type": "GUNMOD",
 
-    "//source": [
+    "//sources": [
       "https://www.wingtactical.com/firearm-parts/ar-15-parts/grips-foregrips/foregrips/fortis-shift-m-lok-short-angled-grip/"
     ],
 
@@ -619,7 +619,7 @@
     "copy-from": "foregrip_abstract",
     "type": "GUNMOD",
 
-    "//source": [
+    "//sources": [
       "https://www.wingtactical.com/firearm-parts/ar-15-parts/grips-foregrips/foregrips/strike-industries-cobra-tactical-foregrip/"
     ],
 
@@ -822,7 +822,7 @@
     "copy-from": "foregrip_abstract",
     "type": "GUNMOD",
 
-    "//source": [
+    "//sources": [
       "https://www.wingtactical.com/firearm-parts/ar-15/grips-accessories/foregrips/magpul-rail-vertical-grip-rvg/"
     ],
 
@@ -859,7 +859,7 @@
     "copy-from": "foregrip_abstract",
     "type": "GUNMOD",
 
-    "//source": [
+    "//sources": [
       "https://www.wingtactical.com/firearm-parts/ar-15/grips-foregrips/foregrips/f-1-firearms-m-lok-skeletonized-angled-foregrip/"
     ],
 
