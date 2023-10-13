@@ -26,6 +26,11 @@
     - [x] Trijicon RX01 reflex sight
       - [x] Trijicon RX14 Picatinny mount
   - [ ] Block II
+    - [ ] EOTech 553 holographic sight
+    - [ ] EOTech EXPS3-0 holographic sight
+    - [ ] Insight M3X VBL III flashlight
+    - [ ] Elcan SpecterDR 1—4× scope
+    - [ ] Docter MRD
 - [x] **audit installation time**
   - QD devices should behave as such
 
