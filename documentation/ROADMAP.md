@@ -19,7 +19,12 @@
 
 - [x] **variable-zoom scopes**
 - [ ] **SOPMOD attachments**
-  - [ ] Block I
+  - [x] Block I
+    - [x] KAC QDSS NT4 suppressor
+    - [x] Aimpoint CompM2
+    - [x] Leupold Mark 4 MR/T 2.5-8x36mm variable scope
+    - [x] Trijicon RX01 reflex sight
+      - [x] Trijicon RX14 Picatinny mount
   - [ ] Block II
 - [x] **audit installation time**
   - QD devices should behave as such
