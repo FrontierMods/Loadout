@@ -46,7 +46,7 @@
     },
     "description": "idea of a muzzle brake",
 
-    "//handling_modifier": "to calculate: recoil reduction percentage / 2",
+    "//handling_modifier": "to calculate: recoil reduction percentage / 3",
     "handling_modifier": 50,
 
     "//dispersion_modifier": "muzzle brakes do not affect accuracy",
