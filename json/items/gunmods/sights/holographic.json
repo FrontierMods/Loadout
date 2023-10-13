@@ -78,5 +78,85 @@
     },
 
     "price": "899 USD"
+  },
+
+  {
+    "id": "sight_eotech_exps3_0",
+    "copy-from": "sight_holo",
+    "type": "GUNMOD",
+
+    "//sources": [
+      "https://www.eotechinc.com/eotech-hws-exps3",
+      "https://www.eotechinc.com/media/documents/operator_manuals/EOTECH_HWS_Manual_EXPS3_XE1974_RevC.pdf"
+    ],
+
+    "//todo": ["black and tan variants"],
+
+    "name": {
+      "str": "EOTech EXPS3-0 holographic sight"
+    },
+    "description": "A modern classic of a holographic sight.  This model, in particular, is known for being a part of SOPMOD: a kit of rifle attachments issued to US soldiers.  Holographic sights enable quicker and, often, more-precise aiming than iron sights, due to the simplicity of a single-point aim.  They are also an improvement over red dot sights, though the difference is less significant than it is between red-dots and iron sights.  On the other hand, holographic sights are heavier, bulkier, and more-expensive than red-dots.",
+
+    "weight": "318 g",
+    "//dimensions": {
+      "length": "3.8 in",
+      "width": "2.3 in",
+      "height": "2.9 in",
+      "raw": "415 ml",
+      "trim": 0.25
+    },
+    "volume": "311 ml",
+    "longest_side": "97 mm",
+
+    "//field_of_view": "30 yds @ 100 yds = 17.06° = 1023.6 MOA",
+    "field_of_view": 1024,
+    "sight_dispersion": 4,
+
+    "//power": {
+      "source": [["CR123"]],
+      "lifetime": "1000 h"
+    },
+
+    "price": "789 USD"
+  },
+
+  {
+    "id": "sight_eotech_553",
+    "copy-from": "sight_holo",
+    "type": "GUNMOD",
+
+    "//sources": ["https://www.manualsdir.com/manuals/402192/eotech-553.html"],
+
+    "//todo": ["black and tan variants"],
+
+    "name": {
+      "str": "EOTech 553 holographic sight"
+    },
+    "description": "A classic holographic sight developed in 1996.  This model, in particular, is known for being a part of SOPMOD: a kit of rifle attachments issued to US soldiers.  Holographic sights enable quicker and, often, more-precise aiming than iron sights, due to the simplicity of a single-point aim.  They are also an improvement over red dot sights, though the difference is less significant than it is between red-dots and iron sights.  On the other hand, holographic sights are heavier, bulkier, and more-expensive than red-dots.",
+
+    "weight": "349 g",
+    "//dimensions": {
+      "length": "4.9 in",
+      "width": "1.8 in",
+      "height": "2.8 in",
+      "raw": "405 ml",
+      "trim": 0.3
+    },
+    "volume": "284 ml",
+    "longest_side": "125 mm",
+
+    "//field_of_view": "30 yds @ 100 yds = 17.06° = 1023.6 MOA",
+    "field_of_view": 1024,
+    "//sight_dispersion": "this model is older and has started to deteriorate",
+    "sight_dispersion": 5,
+    "//aim_speed_modifier": "this model is older and has started to deteriorate",
+    "aim_speed_modifier": 10,
+
+    "//power": {
+      "source": [["CR123", "CR123"]],
+      "lifetime": "1000 h"
+    },
+
+    "price": "789 USD"
   }
 ]
