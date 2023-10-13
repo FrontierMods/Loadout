@@ -54,7 +54,8 @@
 
     "//loudness_modifier": [
       "muzzle brakes make the gun much, much louder",
-      "the default value is derived from the negative loudness value of suppressors"
+      "the default value is derived from the negative loudness value of suppressors",
+      "to calculate: recoil reduction percentage / 2"
     ],
     "loudness_modifier": 40
   },
@@ -86,7 +87,8 @@
     "//handling_modifier": [
       "while suppressors are known to add some degree of handling to the firearm, we're assuming that QD suppressors and their muzzle brake/flash hider counterparts even this value out between them, so we're not adding another modifier to a suppressor unless it mounts directly onto a thread",
       "the default value is '+1 / 1 in', rounded",
-      "baseline is assumed to be 7 in."
+      "baseline is assumed to be 7 in.",
+      "to calculate for mounted suppressors: muzzle brake recoil reduction percentage / -2"
     ],
     "handling_modifier": 7,
 

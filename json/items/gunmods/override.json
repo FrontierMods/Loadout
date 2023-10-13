@@ -389,7 +389,7 @@
       "amount": 2
     },
     "loudness_modifier": -50,
-    "handling_modifier": 10,
+    "handling_modifier": 8,
 
     "add_mod": [["suppressor cover", 1]],
     "install_time": "10 s",
