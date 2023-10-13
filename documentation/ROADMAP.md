@@ -2,8 +2,8 @@
 
 ## v1.0
 
-- [x] remodel existing attachments
-- [x] new attachments
+- [x] **remodel existing attachments**
+- [x] **new attachments**
   - [x] suppressors
   - [x] muzzle brakes
   - [x] reflex sights
@@ -12,21 +12,21 @@
   - [x] laser sights
   - [x] foregrips
   - [x] etc.
-- [x] some suppressors mount onto muzzle devices
-- [x] some sights require general or specific mounts
+- [x] **QD suppressor mounting**
+- [x] **specialized sight mounts**
 
 ## v1.1
 
-- [x] variable-zoom scopes
-- [ ] SOPMOD attachments
+- [x] **variable-zoom scopes**
+- [ ] **SOPMOD attachments**
   - [ ] Block I
   - [ ] Block II
-- [x] audit installation time
+- [x] **audit installation time**
   - QD devices should behave as such
 
 ## v1.2
 
-- [ ] magazine modding basics
+- [ ] **magazine modding**
   - [ ] conventional STANAG magazines
   - [ ] Glock magazines
   - extended base plates to improve magazine capacity
@@ -37,6 +37,6 @@
 
 ## TBD
 
-- [ ] foldable iron sights
+- [ ] **foldable iron sights**
   - would allow installing other sights
   - postponed due to not behaving correctly in the latest stable
