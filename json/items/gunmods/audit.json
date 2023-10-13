@@ -187,5 +187,21 @@
 
     "//flags": "not PUMP_RAIL_COMPATIBLE because it has no rail adapter",
     "flags": ["IRREMOVABLE"]
+  },
+
+  {
+    "id": "robofac_gun",
+    "copy-from": "robofac_gun",
+    "type": "GUN",
+
+    "name": { "str": "Hub 01 HWP" },
+
+    "default_mods": [
+      "robofac_handguard",
+      "acog_scope",
+      "sight_trijicon_rmr",
+      "robofac_laser_sight",
+      "robofac_stock"
+    ]
   }
 ]
