@@ -399,5 +399,88 @@
       "msg": "You turn the scope's zoom all the way down.",
       "target": "sight_leupold_mark4"
     }
+  },
+
+  {
+    "id": "sight_elcan_specterdr",
+    "copy-from": "sight_mount_rifle_abstract",
+    "type": "GUNMOD",
+
+    "//sources": ["https://armament.com/specterdr-1x-4x/"],
+
+    "//notes": [
+      "this sight also comes with a set of backup iron sights by default",
+      "we can't model embedded gunmods or one sight item having multiple sight objects (properties)",
+      "so we pretend it doesn't exist"
+    ],
+
+    "name": {
+      "str": "ELCAN SpecterDR 1—4× sight"
+    },
+    "description": "An old classic, this combat sight offers magnification between 1× and 4×.  This model has been in service with the US military for more than two decades, known in particular for being supplied with Mk12 Special Purpose Rifle, as well as M38 Designated Marksman Rifle, both in use with US Marines.",
+
+    "weight": "660 g",
+    "//dimensions": {
+      "length": "153 mm",
+      "width": "74 mm",
+      "height": "78 mm",
+      "raw": "883 ml",
+      "trim": 0.2
+    },
+    "volume": "706 ml",
+    "longest_side": "153 mm",
+
+    "//field_of_view": [
+      "26° @ 1× magnification = 1560 MOA",
+      "6.5° @ 4× magnification = 390 MOA"
+    ],
+    "field_of_view": 1560,
+    "sight_dispersion": 36,
+    "//aim_speed_modifier": [
+      "at 1× magnification",
+      "bonus for ballistic reticle"
+    ],
+    "aim_speed_modifier": 8,
+
+    "location": "sights",
+
+    "//add_mod": "there is no way to cleanly allow installing different types of mounts to a single location without making it too available (`sights`), so we pretend the sight comes with a Docter mount by default",
+    "add_mod": [["Docter mount", 1]],
+
+    "//power": {
+      "source": [["CR2032"]],
+      "lifetime": "1208 h",
+      "notes": ["on second highest reticle setting"]
+    },
+
+    "use_action": {
+      "type": "transform",
+      "menu_text": "Magnify",
+      "msg": "You turn the scope's zoom all the way up.",
+      "target": "sight_elcan_specterdr_4x"
+    },
+
+    "price": "1527 USD"
+  },
+
+  {
+    "id": "sight_elcan_specterdr_4x",
+    "copy-from": "sight_elcan_specterdr",
+    "type": "GUNMOD",
+
+    "name": {
+      "str": "ELCAN SpecterDR 1—4× scope (magnified)",
+      "str_pl": "ELCAN SpecterDR 1—4× scopes (magnified)"
+    },
+    "description": "A slick, capable 30mm scope with magnification ranging from 2.5× to 8×.  This model has been in service with the US military for more than two decades, known in particular for being supplied with Mk12 Special Purpose Rifle, as well as M38 Designated Marksman Rifle, both in use with US Marines.  It is currently set to maximum magnification.  Activate to set it back to base magnification.",
+
+    "field_of_view": 390,
+
+    "use_action": {
+      "type": "transform",
+      "menu_text": "Demagnify",
+      "msg": "You turn the scope's zoom all the way down.",
+      "target": "sight_elcan_specterdr"
+    }
   }
 ]

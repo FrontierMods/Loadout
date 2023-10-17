@@ -482,5 +482,52 @@
     "longest_side": "71 mm",
 
     "price": "116 USD"
+  },
+
+  {
+    "id": "sight_mount_docter_trijicon_ms10",
+    "copy-from": "sight_mount_rmr_trijicon_rm35",
+    "type": "GUNMOD",
+
+    "//sources": [
+      "https://www.opticsplanet.com/trijicon-docter-red-dot-sight-mount-ms10.html"
+    ],
+
+    "//notes": [
+      "no decent dimensions seem to be available for this mount",
+      "however, it looks very much like RM35, so we're going to copy its dimensions"
+    ],
+
+    "name": {
+      "str": "Trijicon MS10 Docter mount for ACOG"
+    },
+    "description": "A specialized mount allowing one to install a popular Trijicon RMR red dot sight on top of an equally-popular Trijicon ACOG TA01 sight.  This enables usage of different sights for different distances, potentially making aiming quicker and more precise overall.",
+
+    "//weight": [
+      "Amazon lists weight as 0.1 lbs ≈ 45 g",
+      "Tarkov lists it as ~20 g",
+      "the German reseller lists 55 g"
+    ],
+    "weight": "55 g",
+    "//dimensions": {
+      "length": "1.78 in",
+      "width": "1.485 in",
+      "height": "1.04 in",
+      "raw": "45 ml",
+      "trim": 0.55,
+      "notes": [
+        "width is 1.125× width of RM33, to account for the boss legs",
+        "height is 2× the height of RM33, to account for the boss legs",
+        "assumes Amazon dimensions are packaging, as they often are for firearm accessories"
+      ]
+    },
+    "volume": "20 ml",
+    "longest_side": "45 mm",
+
+    "location": "ACOG bosses",
+
+    "add_mod": [["RMR mount", 1]],
+
+    "price": "106 USD"
   }
 ]
