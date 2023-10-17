@@ -411,7 +411,9 @@
     "//notes": [
       "this sight also comes with a set of backup iron sights by default",
       "we can't model embedded gunmods or one sight item having multiple sight objects (properties)",
-      "so we pretend it doesn't exist"
+      "so we pretend it doesn't exist",
+      "this would be the mount we could use:",
+      "https://armament.com/mrd-mount-kit/"
     ],
 
     "name": {
