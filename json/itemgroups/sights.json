@@ -5,7 +5,12 @@
 
     "subtype": "distribution",
 
-    "items": ["sight_eotech_xps2", "sight_vortex_uh1"]
+    "items": [
+      "sight_eotech_xps2",
+      "sight_vortex_uh1",
+      "sight_eotech_exps3_0",
+      "sight_eotech_553"
+    ]
   },
 
   {
@@ -67,7 +72,8 @@
       "loadout_sight_holosun_507k",
       "loadout_sight_aimpoint_micro_t2",
       "loadout_sight_vortex_strikefire_ii",
-      "loadout_sight_sigsauer_romeo5x"
+      "loadout_sight_sigsauer_romeo5x",
+      "loadout_sight_noblex_sight_ii"
     ]
   },
 
@@ -130,7 +136,8 @@
     "groups": [
       ["loadout_all_red_dot_sights", 54],
       ["loadout_sights_holographic", 28],
-      ["loadout_sights_scopes_mounted", 18]
+      ["loadout_sights_scopes_mounted", 18],
+      ["loadout_sight_elcan_specterdr", 18]
     ]
   },
 
