@@ -11,19 +11,19 @@
     ],
 
     "items": [
-      { "item": "brass_catcher", "prob": 100 },
-      { "item": "improve_sights", "prob": 60 },
+      { "item": "brass_catcher", "prob": 20 },
+      { "item": "improve_sights", "prob": 50 },
       { "item": "muzzle_brake", "prob": 20 },
       { "item": "rifle_scope", "prob": 30 },
-      { "item": "shoulder_strap", "prob": 50 },
-      { "item": "single_sling", "prob": 50 },
+      { "item": "shoulder_strap", "prob": 40 },
+      { "item": "single_sling", "prob": 40 },
       { "item": "butt_hook", "prob": 30 },
       { "item": "offset_sights", "prob": 40 },
       { "item": "offset_sight_rail", "prob": 30 },
       { "item": "cheek_pad", "prob": 25 },
       { "item": "rail_laser_sight", "prob": 40 },
-      { "item": "red_dot_sight", "prob": 70 },
-      { "item": "choke", "prob": 50 },
+      { "item": "red_dot_sight", "prob": 30 },
+      { "item": "choke", "prob": 20 },
 
       { "item": "laser_sight_firefield", "prob": 30 },
 
@@ -79,7 +79,7 @@
 
     "items": [
       { "item": "bipod", "prob": 20 },
-      { "item": "grip", "prob": 80 },
+      { "item": "grip", "prob": 30 },
       { "item": "laser_sight", "prob": 40 },
       { "item": "pistol_bayonet", "prob": 10 },
       { "item": "pistol_scope", "prob": 10 },
@@ -87,11 +87,11 @@
       { "item": "butt_hook", "prob": 20 },
       { "item": "arredondo_chute", "prob": 20 },
       { "item": "shot_suppressor", "prob": 10 },
-      { "item": "suppressor", "prob": 60 },
-      { "item": "suppressor_compact", "prob": 40 },
+      { "item": "suppressor", "prob": 40 },
+      { "item": "suppressor_compact", "prob": 30 },
       { "item": "acog_scope", "prob": 40 },
-      { "item": "holo_sight", "prob": 50 },
-      { "item": "holo_magnifier", "prob": 30 },
+      { "item": "holo_sight", "prob": 40 },
+      { "item": "holo_magnifier", "prob": 25 },
 
       { "item": "laser_sight_steiner", "prob": 20 },
       { "item": "laser_sight_l3harris", "prob": 25 },
