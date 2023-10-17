@@ -91,5 +91,17 @@
     "subtype": "collection",
 
     "groups": ["loadout_sight_mounts_1in", "loadout_sights_1in"]
+  },
+
+  {
+    "type": "item_group",
+    "id": "loadout_sight_elcan_specterdr",
+
+    "subtype": "collection",
+
+    "items": [
+      { "item": "sight_elcan_specterdr", "prob": 100 },
+      { "group": "loadout_sight_noblex_sight_ii", "prob": 43 }
+    ]
   }
 ]
