@@ -18,18 +18,18 @@
 ## v1.1
 
 - [x] **variable-zoom scopes**
-- [ ] **SOPMOD attachments**
+- [x] **SOPMOD attachments**
   - [x] Block I
     - [x] KAC QDSS NT4 suppressor
     - [x] Aimpoint CompM2
     - [x] Leupold Mark 4 MR/T 2.5-8x36mm variable scope
     - [x] Trijicon RX01 reflex sight
       - [x] Trijicon RX14 Picatinny mount
-  - [ ] Block II
+  - [x] Block II
     - [x] EOTech 553 holographic sight
     - [x] EOTech EXPS3-0 holographic sight
-    - [ ] Elcan SpecterDR 1—4× scope
-    - [ ] Docter MRD
+    - [x] Elcan SpecterDR 1—4× scope
+    - [x] Docter MRD
 - [x] **audit installation time**
   - QD devices should behave as such
 
