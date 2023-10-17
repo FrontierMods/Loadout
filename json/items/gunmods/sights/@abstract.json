@@ -167,7 +167,7 @@
     "description": "idea of a rifle sight mount",
 
     "//mod_targets": "this class is used to prevent installing mounts that require Picatinny rail onto pistols",
-    "mod_targets": ["smg", "shotgun", "rifle", "bow", "launcher"]
+    "mod_targets": ["smg", "shotgun", "rifle", "launcher"]
   },
 
   {
