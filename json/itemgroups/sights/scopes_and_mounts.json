@@ -101,7 +101,7 @@
 
     "items": [
       { "item": "sight_elcan_specterdr", "prob": 100 },
-      { "group": "loadout_sight_noblex_sight_ii", "prob": 43 }
+      { "item": "sight_noblex_sight_ii", "prob": 43 }
     ]
   }
 ]
