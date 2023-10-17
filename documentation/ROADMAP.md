@@ -1,19 +1,19 @@
 # Roadmap
 
-## v1.0
+## Current
 
-- [x] **remodel existing attachments**
-- [x] **new attachments**
-  - [x] suppressors
-  - [x] muzzle brakes
-  - [x] reflex sights
-  - [x] scopes
-  - [x] suppressor covers
-  - [x] laser sights
-  - [x] foregrips
-  - [x] etc.
-- [x] **QD suppressor mounting**
-- [x] **specialized sight mounts**
+## v1.2
+
+- [ ] **magazine modding**
+  - [ ] conventional STANAG magazines
+  - [ ] Glock magazines
+  - extended base plates to improve magazine capacity
+  - weighted base plates to increase reload speed
+  - carabiner adapters
+  - magazine decoration
+  - labels and markings
+
+## Previous
 
 ## v1.1
 
@@ -33,16 +33,20 @@
 - [x] **audit installation time**
   - QD devices should behave as such
 
-## v1.2
+## v1.0
 
-- [ ] **magazine modding**
-  - [ ] conventional STANAG magazines
-  - [ ] Glock magazines
-  - extended base plates to improve magazine capacity
-  - weighted base plates to increase reload speed
-  - carabiner adapters
-  - magazine decoration
-  - labels and markings
+- [x] **remodel existing attachments**
+- [x] **new attachments**
+  - [x] suppressors
+  - [x] muzzle brakes
+  - [x] reflex sights
+  - [x] scopes
+  - [x] suppressor covers
+  - [x] laser sights
+  - [x] foregrips
+  - [x] etc.
+- [x] **QD suppressor mounting**
+- [x] **specialized sight mounts**
 
 ## TBD
 
