@@ -359,7 +359,7 @@
     "name": {
       "str": "KAC QDSS NT4 5.56mm suppressor"
     },
-    "description": "A dated yet capable suppressor from Knights Armament Co., it reduces report (i.e., loudness of shot) by a considerable amount, though far from muffling the sound completely.  It's primarily known for being used on US military rifles for more than two decades.  This model is rated for 5.56mm NATO.  Being somewhat shorter than most suppressors, it cannot accept suppressor covers.  This one also cannot be mounted directly onto muzzle threading.  Instead, it mounts onto an M4QD muzzle brake, also from KAC.  The main purpose of a suppressor is to reduce report to safe levels, allowing the shooter to sustain fire without damaging their hearing.",
+    "description": "A dated-yet-capable suppressor from Knights Armament Co., it reduces report (i.e., loudness of shot) by a considerable amount, though far from muffling the sound completely.  It's primarily known for being used on US military rifles for more than two decades.  This model is rated for 5.56mm NATO.  Being somewhat shorter than most suppressors, it cannot accept suppressor covers.  This one also cannot be mounted directly onto muzzle threading.  Instead, it mounts onto an M4QD muzzle brake, also from KAC.  The main purpose of a suppressor is to reduce report to safe levels, allowing the shooter to sustain fire without damaging their hearing.",
 
     "variant_type": "generic",
     "variants": [
@@ -378,8 +378,7 @@
           "str": "KAC QDSS NT4 5.56mm suppressor"
         },
         "description": "A dated-yet-capable suppressor from Knights Armament Co., colored tan, it reduces report (i.e., loudness of shot) by a considerable amount, though far from muffling the sound completely.  It's primarily known for being used on US military rifles for more than two decades.  This model is rated for 5.56mm NATO.  Being somewhat shorter than most suppressors, it cannot accept suppressor covers.  This one also cannot be mounted directly onto muzzle threading.  Instead, it mounts onto an M4QD muzzle brake, also from KAC.  The main purpose of a suppressor is to reduce report to safe levels, allowing the shooter to sustain fire without damaging their hearing.",
-        "weight": 1,
-        "append": true
+        "weight": 1
       }
     ],
 
