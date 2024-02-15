@@ -36,14 +36,13 @@
 
     "//mod_targets": "this version is crucially only usable on the AR-15 platform because of its unique charging handle positioning",
     "mod_targets": [
-      "ar15",
+      "modular_ar15",
       "ar_pistol",
-      "m27_assault_rifle",
-      "m4_carbine",
-      "m16a4",
-      "m16_auto_rifle",
+      "modular_m27_assault_rifle",
+      "modular_m4_carbine",
+      "modular_m16a4",
+      "modular_m16_auto_rifle",
       "m231pfw",
-      "ar15_retool_300blk",
       "hk417_13",
       "mk47"
     ],
@@ -52,7 +51,16 @@
     "pocket_data": [
       {
         "pocket_type": "CONTAINER",
+
         "rigid": true,
+
+        "//max_contains_weight": [
+          "a .223/5.56mm casing weighs ~6 g",
+          "https://www.armorally.com/brass-counts-by-weight/",
+          "the catcher is rated for 100 casings inside",
+          "the default 1 kg ought to cover it and then some"
+        ],
+        "max_contains_weight": "1 kg",
         "//max_contains_volume": [
           "the average case capacity for a .223/5.56mm case seems to be ~30 gr H2O ≈ 1.95 ml",
           "https://www.6mmbr.com/223Rem.html",
@@ -60,16 +68,12 @@
           "we give the capacity 5% extra on top of its (2 × 100 = 200) ml expected capacity"
         ],
         "max_contains_volume": "210 ml",
-        "//max_contains_weight": [
-          "a .223/5.56mm casing weighs ~6 g",
-          "https://www.armorally.com/brass-counts-by-weight/",
-          "the catcher is rated for 100 casings inside",
-          "the default 1 kg ought to cover it and then some"
-        ],
-        "max_contains_weight": "1 kg"
+        "//max_item_length": "6.25 in., slightly shorter than the width of the catcher itself",
+        "max_item_length": "159 mm"
       }
     ],
 
-    "price": "40 USD"
+    "price": "40 USD",
+    "price_postapoc": "1 USD"
   }
 ]
