@@ -4,7 +4,7 @@
     "copy-from": "suppressor_abstract_no_cover",
     "type": "GUNMOD",
 
-    "//source": ["https://www.surefire.com/socom556-rc2/"],
+    "//sources": ["https://www.surefire.com/socom556-rc2/"],
 
     "name": {
       "str": "SureFire SOCOM556-RC2 suppressor"
@@ -47,7 +47,7 @@
     "copy-from": "suppressor_abstract",
     "type": "GUNMOD",
 
-    "//source": [
+    "//sources": [
       "https://thunderbeastarms.com/products/dominus-sr",
       "https://buddysarmory.com/dominus-sr"
     ],
@@ -105,7 +105,7 @@
     "copy-from": "suppressor_abstract",
     "type": "GUNMOD",
 
-    "//source": ["https://thunderbeastarms.com/products/ultra-9"],
+    "//sources": ["https://thunderbeastarms.com/products/ultra-9"],
 
     "//notes": [
       "for now, we assume this to be a direct-thread model of Ultra 9 Gen 2",
@@ -164,9 +164,7 @@
     "copy-from": "suppressor_abstract",
     "type": "GUNMOD",
 
-    "//source": [
-      "https://silentlegion.com/products/223556mm-quick-detach-removable-core"
-    ],
+    "//sources": ["https://silentlegion.com/products/223556"],
 
     "name": {
       "str": "Silent Legion 5.56mm suppressor"
@@ -208,7 +206,7 @@
     "copy-from": "suppressor_abstract",
     "type": "GUNMOD",
 
-    "//source": ["https://www.silencercentral.com/products/banish-30/"],
+    "//sources": ["https://www.silencercentral.com/products/banish-30/"],
 
     "//notes": ["short 7 in. version without tube extension"],
 
@@ -261,7 +259,7 @@
     "copy-from": "suppressor_abstract",
     "type": "GUNMOD",
 
-    "//source": ["https://www.eliteiron.com/product/bravo-1-lite-suppressor/"],
+    "//sources": ["https://www.eliteiron.com/product/bravo-1-lite-suppressor/"],
 
     "//notes": [
       "comes with and mounts onto Elite Iron Bravo 1 muzzle brake",
@@ -308,7 +306,7 @@
     "copy-from": "suppressor_abstract_no_cover",
     "type": "GUNMOD",
 
-    "//source": ["https://jkarmament.com/products/jk-105-ccxtm-9mm/"],
+    "//sources": ["https://jkarmament.com/products/jk-105-ccxtm-9mm/"],
 
     "//notes": [
       "this one assumes maximum-length configuration of 4.6 in., though the suppressor is configurable all the way down to 1.9 in."
@@ -357,10 +355,20 @@
     "copy-from": "suppressor_abstract_no_cover",
     "type": "GUNMOD",
 
-    "//source": [
-      "https://www.knightarmco.com/16373/shop/signature-reduction/rifle-suppressors/5-56mm/5-56mm-qdss-nt4",
-      "https://pewscience.com/sound-signature-reviews-free/sss-6-78-kac-qdss-nt4-mk18-556",
-      "https://www.bigtexordnance.com/product/knights-armament-5-56mm-qdss-nt4-suppressor-fde-black-kac-pn-96062-1-96062-2/"
+    "//sources": [
+      [
+        "https://www.knightarmco.com/16373/shop/signature-reduction/rifle-suppressors/5-56mm/5-56mm-qdss-nt4",
+        "weight",
+        "longest side"
+      ],
+      [
+        "https://pewscience.com/sound-signature-reviews-free/sss-6-78-kac-qdss-nt4-mk18-556",
+        "diameter"
+      ],
+      [
+        "https://www.bigtexordnance.com/product/knights-armament-5-56mm-qdss-nt4-suppressor-fde-black-kac-pn-96062-1-96062-2/",
+        "price"
+      ]
     ],
 
     "name": {
