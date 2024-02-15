@@ -17,15 +17,24 @@
     },
     "description": "A thread protector, intended to cover muzzle threading and protect it from dirt, damage, and the elements.  It does not confer any benefits, but you really should be taking care of your gun.",
 
-    "//weight": "Brownells UK lists 'delivery weight' at 0.041 kg = 41 g",
-    "//weight2": "Optics Trade shows that the protector comes in a small plastic bag, which we assume the weight of to be ~5 g",
+    "//weight": [
+      "Brownells UK lists 'delivery weight' at 0.041 kg = 41 g",
+      "Optics Trade shows that the protector comes in a small plastic bag, which we assume the weight of to be ~5 g"
+    ],
     "weight": "36 g",
-    "//dimensions": "0.8 × 0.95 in.",
-    "//volume": "9 ml",
-    "//trim": "no trim",
-    "volume": "9 ml",
+    "//dimensions": {
+      "length": "0.95 in",
+      "diameter": "0.8 in",
+      "raw": "7.83 ml",
+      "trim": -0.025,
+      "notes": [
+        "the higher-diameter collar is reflected in the negative trim value"
+      ]
+    },
+    "volume": "8 ml",
     "longest_side": "24 mm",
 
-    "price": "15 USD"
+    "price": "15 USD",
+    "price_postapoc": "5 cent"
   }
 ]
