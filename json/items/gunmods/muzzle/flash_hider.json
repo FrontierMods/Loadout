@@ -12,7 +12,7 @@
     "name": {
       "str": "Silent Legion QD-7 flash hider"
     },
-    "description": "Steel flash hider that mounts onto the threading at the muzzle.  While its primary function is to reduce visual signature (i.e., flash) from shooting, this model also serves as a mount for the Silent Legion line of suppressors.",
+    "description": "A steel flash hider that mounts onto the threading at the muzzle.  While its primary function is to reduce muzzle flash, this model also serves as a mount for Silent Legion's line of suppressors.",
 
     "weight": "116 g",
     "//dimensions": {
@@ -51,7 +51,7 @@
     "name": {
       "str": "KAC M4QD flash hider"
     },
-    "description": "Steel flash hider that mounts onto the threading at the muzzle.  While its primary function is to reduce visual signature (i.e., flash) from shooting, this model also serves as a mount for the KAC QDSS suppressor.",
+    "description": "A steel flash hider that mounts onto the threading at the muzzle.  While its primary function is to reduce muzzle flash, this model also serves as a mount for the KAC QDSS suppressor.",
 
     "weight": "68 g",
     "//dimensions": {
