@@ -4,7 +4,13 @@
     "copy-from": "suppressor_abstract_no_cover",
     "type": "GUNMOD",
 
-    "//sources": ["https://www.surefire.com/socom556-rc2/"],
+    "//sources": [
+      "https://www.surefire.com/socom556-rc2/",
+      [
+        "https://www.silencershop.com/surefire-socom556-rc2.html",
+        "specific materials"
+      ]
+    ],
 
     "name": {
       "str": "SureFire SOCOM556-RC2 suppressor"
@@ -27,13 +33,15 @@
     "//integral_longest_side": "absorbs the length of the SureFire SOCOM muzzle brake it mounts onto (66 mm)",
     "integral_longest_side": "97 mm",
 
-    "//calibers": ["556"],
+    "material": ["inconel", "stainless_steel"],
+
+    "//calibers": ["5.56×45mm NATO"],
+    "acceptable_ammo": ["223"],
 
     "//sound_lower": "134.70 dB @ 16 in. w/ 5.56mm M855",
-
-    "handling_modifier": -13,
     "//loudness_modifier": "-45 + -26 from muzzle brake",
     "loudness_modifier": -71,
+    "handling_modifier": -13,
 
     "consume_divisor": 860,
 
@@ -73,25 +81,24 @@
     "//integral_longest_side": "Dominus-SR covers the muzzle brake it mounts on completely, absorbing its length (57 mm)",
     "integral_longest_side": "120 mm",
 
-    "material": ["titanium", "steel"],
+    "material": ["titanium"],
 
     "//calibers": [
-      "223",
-      "300BLK",
-      "65grendel",
-      "65PRC",
-      "300win",
-      "68SPC",
-      "762soviet",
-      "65creedmoor",
-      "308win"
+      "5.56×45mm NATO",
+      ".300 Blackout",
+      "6.5×39mm Grendel",
+      "6.5 PRC",
+      ".300 Winchester Magnum",
+      "6.8×43mm SPC",
+      "7.62×39mm",
+      "6.5×48mm Creedmoor",
+      "7.62×51mm NATO"
     ],
 
     "//sound_lower": "137 dB @ 20 in. w/ .308",
-
-    "handling_modifier": -18,
     "//loudness_modifier": "-50 + -35 from muzzle brake",
     "loudness_modifier": -85,
+    "handling_modifier": -18,
 
     "consume_divisor": 1020,
 
@@ -131,26 +138,26 @@
     "//integral_longest_side": "being direct-thread-mounted, absorbs the regular 16 mm of threading on a 1/2 in. × 28-threaded barrel",
     "integral_longest_side": "213 mm",
 
-    "material": ["titanium", "steel"],
+    "material": ["titanium"],
 
     "//calibers": [
-      "223",
-      "300BLK",
-      "65grendel",
-      "65PRC",
-      "300win",
-      "68SPC",
-      "762soviet",
-      "65creedmoor",
-      "308win"
+      "5.56×45mm NATO",
+      ".300 Blackout",
+      "6.5×39mm Grendel",
+      "6.5 PRC",
+      ".300 Winchester Magnum",
+      "6.8×43mm SPC",
+      "7.62×39mm",
+      "6.5×48mm Creedmoor",
+      "7.62×51mm NATO"
     ],
-
-    "//sound_lower": "135 dB @ 20 in. w/ .308",
+    "//acceptable_ammo": "due to a wide range of calibers, we simply leave this able to be installed on any caliber for the time being",
 
     "damage_modifier": {
       "damage_type": "bullet",
       "amount": 3
     },
+    "//sound_lower": "135 dB @ 20 in. w/ .308",
     "loudness_modifier": -55,
     "handling_modifier": 9,
 
@@ -184,15 +191,14 @@
     "//integral_longest_side": "absorbs the length of the Silent Legion QD-7 flash hider (35 mm)",
     "integral_longest_side": "143 mm",
 
-    "//material": "actual material for the steel part is inconel",
-    "material": ["titanium", "steel"],
+    "material": ["titanium", "inconel"],
 
     "//calibers": ["223", "300BLK"],
+    "acceptable_ammo": ["223", "300blk"],
 
     "//sound_reduction": "32 dB",
-
-    "handling_modifier": 7,
     "loudness_modifier": -40,
+    "handling_modifier": 7,
 
     "consume_divisor": 800,
 
@@ -229,23 +235,25 @@
     "//integral_longest_side": "being direct-thread-mounted, absorbs the regular 16 mm of threading on a 1/2 in. × 28-threaded barrel",
     "integral_longest_side": "162 mm",
 
-    "material": ["titanium", "steel"],
+    "material": ["titanium"],
 
     "//threads": ["5/8×24"],
 
     "//calibers": [
-      "223",
-      "300BLK",
-      "308",
-      "300weatherby",
-      "300winmag",
-      "17",
-      "22-50",
+      "5.56×45mm NATO",
+      ".300 Blackout",
+      "7.62×51mm NATO",
+      "6.5×48mm Creedmoor",
+      ".300 Weatherby",
+      ".300 Winchester Magnum",
+      "7.62×39mm",
+      ".17 HMR",
+      ".22 LR",
       "204"
     ],
+    "//acceptable_ammo": "due to a wide range of calibers, we simply leave this able to be installed on any caliber for the time being",
 
     "//sound_reduction": "34 dB",
-
     "loudness_modifier": -45,
     "handling_modifier": 7,
 
@@ -286,19 +294,24 @@
     "//integral_longest_side": "being direct-thread-mounted, absorbs the regular 16 mm of threading on a 1/2 in. × 28-threaded barrel",
     "integral_longest_side": "184 mm",
 
-    "//material": "actual material for the steel part is inconel",
-    "material": ["titanium", "steel"],
+    "material": ["titanium"],
 
-    "//calibers": ["223", "300BLK", "308", "30-06"],
+    "//calibers": [
+      "5.56×45mm NATO",
+      ".300 Blackout",
+      "7.62×51mm NATO",
+      ".30-06"
+    ],
+    "//acceptable_ammo": ["223", "300blk", "308", "3006"],
 
     "//sound_reduction": "23 dB",
-
     "loudness_modifier": -30,
     "handling_modifier": 8,
 
     "consume_divisor": 820,
 
-    "price": "1035 USD"
+    "price": "1035 USD",
+    "price_postapoc": "1 USD"
   },
 
   {
@@ -336,18 +349,30 @@
 
     "material": ["aluminum"],
 
-    "//calibers": ["9mm", "380acp", "30supercarry", "38special", "357magnum"],
+    "//calibers": [
+      "9×19mm",
+      ".25 ACP",
+      ".32 ACP",
+      ".380 ACP",
+      ".30 Super Carry",
+      ".38 Special",
+      ".357 Magnum"
+    ],
+    "//acceptable_ammo": "source requires .357 Magnum to have a 16-in. minimum barrel length",
+    "acceptable_ammo": ["9mm", "32", "380", "38", "357mag"],
 
     "//sound_reduction": "?? dB",
-
-    "//loudness_modifier": "-32 should be effective for 9mm, given that (as of 2023-08-08) 9mm JHP's computed loudness is 80",
-    "//loudness_modifier2": "anecdotal evidence suggests that this suppressor is not that effective, though video tests show quite the opposite",
+    "//loudness_modifier": [
+      "-32 should be effective for 9mm, given that (as of 2023-08-08) 9mm JHP's computed loudness is 80",
+      "anecdotal evidence suggests that this suppressor is not that effective, though video tests show quite the opposite"
+    ],
     "loudness_modifier": -32,
     "handling_modifier": 5,
 
     "consume_divisor": 740,
 
-    "price": "399 USD"
+    "price": "399 USD",
+    "price_postapoc": "1 USD"
   },
 
   {
@@ -402,35 +427,36 @@
 
     "weight": "624 g",
     "//dimensions": {
-      "length": "6.50 in",
-      "diameter": "1.50 in",
-      "raw": "188 ml",
+      "length": "6.4 in",
+      "diameter": "1.5 in",
+      "raw": "185.33 ml",
       "trim": -0.025,
       "notes": [
         "the higher-diameter collar is reflected in the negative trim value"
       ]
     },
-    "volume": "193 ml",
-    "longest_side": "165 mm",
+    "volume": "190 ml",
+    "longest_side": "163 mm",
     "//integral_longest_side": "absorbs the length of the KAC M4QD muzzle brake it mounts onto (48 mm)",
-    "integral_longest_side": "117 mm",
+    "integral_longest_side": "115 mm",
 
-    "//calibers": ["556"],
+    "//calibers": ["5.56×45mm NATO"],
+    "acceptable_ammo": ["223"],
 
     "//sound_lower": "146.90 dB @ 10.3 in. w/ 5.56mm XM193",
-
-    "handling_modifier": -13,
     "//loudness_modifier": [
       "the review puts this suppressor's performance slightly below SOCOM556-RC2 (at least with muzzle score)",
       "SOCOM556-RC2's own score in this mod is -45",
       "the overall sentiment for QDSS' performance is that despite its faulty design, it performs equal to or even better than some current market options"
     ],
     "loudness_modifier": -42,
+    "handling_modifier": -13,
 
     "consume_divisor": 800,
 
     "location": "KAC QD muzzle mount",
 
-    "price": "1507 USD"
+    "price": "1507 USD",
+    "price_postapoc": "1 USD"
   }
 ]
