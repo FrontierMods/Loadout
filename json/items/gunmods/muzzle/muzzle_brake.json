@@ -11,7 +11,8 @@
     "name": {
       "str": "Precision Armament Hypertap muzzle brake"
     },
-    "description": "A highly-potent, modern- and clean-looking muzzle brake, capable of reducing recoil of a firearm up to 84%.  This model is rated for 5.56mm NATO.  Like any muzzle brake, it makes sound signature (i.e., noise from firing) much louder.  Remember to wear hearing protection.",
+    "description": "A highly-potent, modern- and clean-looking muzzle brake, capable of reducing recoil of a firearm up to 84%.  This model is rated for 5.56mm NATO.  <muzzle_brake_descriptor>",
+    "expand_snippets": true,
 
     "weight": "87 g",
     "//dimensions": {
@@ -42,7 +43,8 @@
     "name": {
       "str": "S&J Customs Titan muzzle brake"
     },
-    "description": "A flattened, heavy-looking muzzle brake, this one is among the most potent ones, with recoil reduction of up to 78%.  Despite the name, it's not made of titanium.  This model is rated for 5.56mm NATO.  Like any muzzle brake, it makes sound signature (i.e., noise from firing) much louder.  Remember to wear hearing protection.",
+    "description": "A flattened, heavy-looking muzzle brake, this one is among the most potent ones, with recoil reduction of up to 78%.  Despite the name, it's not made of titanium.  This model is rated for 5.56mm NATO.  <muzzle_brake_descriptor>",
+    "expand_snippets": true,
 
     "weight": "87 g",
     "//dimensions": {
@@ -78,7 +80,8 @@
     "name": {
       "str": "V Seven muzzle brake"
     },
-    "description": "A skinny, shiny steel-gray muzzle brake capable of reducing recoil by more than 56%.  This model is rated for 5.56mm NATO.  Like any muzzle brake, it makes sound signature (i.e., noise from firing) much louder.  Remember to wear hearing protection.",
+    "description": "A skinny, shiny steel-gray muzzle brake capable of reducing recoil by more than 56%.  This model is rated for 5.56mm NATO.  <muzzle_brake_descriptor>",
+    "expand_snippets": true,
 
     "weight": "74 g",
     "//dimensions": {
@@ -117,7 +120,8 @@
     "name": {
       "str": "V Seven FURION muzzle brake"
     },
-    "description": "A skinny, shiny muzzle brake capable of reducing recoil by as much as 64%.  This model is rated for 5.56mm NATO, and is made of titanium, making it lightweight without sacrificing structural integrity.  Like any muzzle brake, it makes sound signature (i.e., noise from firing) much louder.  Remember to wear hearing protection.",
+    "description": "A skinny, shiny muzzle brake capable of reducing recoil by as much as 64%.  This model is rated for 5.56mm NATO, and is made of titanium, making it lightweight without sacrificing structural integrity.  <muzzle_brake_descriptor>",
+    "expand_snippets": true,
 
     "weight": "45 g",
     "//dimensions": {
@@ -155,7 +159,8 @@
     "name": {
       "str": "Apex Tactical ESA muzzle brake"
     },
-    "description": "ESA, or Enhanced Stabilization Attachment, from Apex Tactical is a square, shiny dark-gray muzzle brake with two-and-a-half large cavities.  It's capable of reducing recoil by up to 60%.  This one is rated for 5.56mm NATO.  Like any muzzle brake, it makes sound signature (i.e., noise from firing) much louder.  Remember to wear hearing protection.",
+    "description": "ESA, or Enhanced Stabilization Attachment, is a square, shiny dark-gray muzzle brake with two-and-a-half large cavities.  It's capable of reducing recoil by up to 60%.  This one is rated for 5.56mm NATO.  <muzzle_brake_descriptor>",
+    "expand_snippets": true,
 
     "//weight": "without crush washer",
     "weight": "98 g",
@@ -194,7 +199,8 @@
     "name": {
       "str": "Dead Air KeyMount muzzle brake"
     },
-    "description": "Looking like something you'd see in a movie, this muzzle brake is capable of reducing recoil by more than 56%.  This one is rated for 5.56mm NATO.  Like any muzzle brake, it makes sound signature (i.e., noise from firing) much louder.  Remember to wear hearing protection.",
+    "description": "Looking like something you'd see in a movie, this muzzle brake is capable of reducing recoil by more than 56%.  This one is rated for 5.56mm NATO.  <muzzle_brake_descriptor>",
+    "expand_snippets": true,
 
     "//weight": "going with the lowest number listed in primary source on assumption that weight scales with threading and, therefore, with caliber rating, with higher calibers requiring more metal to keep quiet",
     "weight": "105 g",
@@ -232,7 +238,8 @@
     "name": {
       "str": "Thunder Beast Arms SR muzzle brake"
     },
-    "description": "An unassuming but highly-capable muzzle brake, this one is capable of reducing recoil by more than 70%.  It's rated for .30 cal.  It can also serve as a mount for an equally-capable Dominus-SR suppressor, also from Thunder Beast Arms.  Like any muzzle brake, it makes sound signature (i.e., noise from firing) much louder.  Remember to wear hearing protection.",
+    "description": "An unassuming but highly-capable muzzle brake, this one is capable of reducing recoil by more than 70%.  It's rated for .30 cal.  It can also serve as a mount for an equally-capable Dominus-SR suppressor, also from Thunder Beast Arms.  <muzzle_brake_descriptor>",
+    "expand_snippets": true,
 
     "//weight": "Dominus SR description states the weight of the brake to be 3.5 oz ≈ 100 g",
     "weight": "100 g",
@@ -277,7 +284,8 @@
     "name": {
       "str": "SureFire SOCOM muzzle brake"
     },
-    "description": "A fairly-standard muzzle brake, capable of reducing recoil by over 51%.  It can also serve as a mount for the SOCOM556-RC2 suppressor, also from SureFire.  Like any muzzle brake, it makes sound signature (i.e., noise from firing) much louder.  Remember to wear hearing protection.",
+    "description": "A fairly-standard muzzle brake, capable of reducing recoil by over 51%.  It can also serve as a mount for the SOCOM556-RC2 suppressor, also from SureFire.  <muzzle_brake_descriptor>",
+    "expand_snippets": true,
 
     "weight": "111 g",
     "//dimensions": {
@@ -318,9 +326,10 @@
     "//notes": ["0.375 in., 1/2×28-threaded version"],
 
     "name": {
-      "str": "Rearden Manufacturing SPB muzzle brake"
+      "str": "Rearden Mfg. SPB muzzle brake"
     },
-    "description": "An ordinary muzzle brake with a wheat-colored body, capable of reducing recoil by over 56%.  It can also serve as a mount for the Atlas thread adapter, which itself can be used to mount the Witt Machine Mod-1 suppressor.  Like any muzzle brake, it makes sound signature (i.e., noise from firing) much louder.  Remember to wear hearing protection.",
+    "description": "An ordinary muzzle brake with a wheat-colored body, capable of reducing recoil by over 56%.  It can also serve as a mount for the Atlas thread adapter, which itself can be used to mount the Witt Machine Mod-1 suppressor.  <muzzle_brake_descriptor>",
+    "expand_snippets": true,
 
     "weight": "64 g",
     "//dimensions": {
