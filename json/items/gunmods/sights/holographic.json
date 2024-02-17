@@ -95,7 +95,7 @@
     "name": {
       "str": "EOTech EXPS3-0 holographic sight"
     },
-    "description": "A modern classic of a holographic sight.  This model, in particular, is known for being a part of SOPMOD: a kit of rifle attachments issued to US soldiers.  Holographic sights enable quicker and, often, more-precise aiming than iron sights, due to the simplicity of a single-point aim.  They are also an improvement over red dot sights, though the difference is less significant than it is between red-dots and iron sights.  On the other hand, holographic sights are heavier, bulkier, and more-expensive than red-dots.",
+    "description": "A modern classic of a holographic sight.  This model, in particular, is known for being a part of SOPMOD: a kit of rifle attachments issued to U.S. soldiers.  Holographic sights enable quicker and, often, more-precise aiming than iron sights, due to the simplicity of a single-point aim.  They are also an improvement over red dot sights, though the difference is less significant than it is between red-dots and iron sights.  On the other hand, holographic sights are heavier, bulkier, and more-expensive than red-dots.",
 
     "weight": "318 g",
     "//dimensions": {

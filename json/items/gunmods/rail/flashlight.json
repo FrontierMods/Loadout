@@ -10,7 +10,7 @@
       "str": "Olight Odin Mini tactical light (off)",
       "str_pl": "Olight Odin Mini tactical lights (off)"
     },
-    "description": "This compact-yet-potent flashlight is primarily designed to be used attached to a firearm or a different compatible platform featuring Picatinny rail.  It's rated for a maximum output of 1250 lumens, which should be more than enough even for the most light-demanding tasks.  Activate to turn it on.",
+    "description": "This compact-yet-potent flashlight is primarily designed to be used attached to a firearm or a different compatible platform featuring Picatinny rail.  It's rated for a maximum output of 1250 lumens, which should be more than enough even for the most light-demanding tasks.  Activate to turn on.",
 
     "material": ["aluminum"],
 
@@ -109,7 +109,7 @@
       "str": "SureFire M600U tactical light (off)",
       "str_pl": "SureFire M600U tactical lights (off)"
     },
-    "description": "This powerful flashlight is primarily designed to be used attached to a firearm or a different compatible platform featuring Picatinny rail.  It's rated for a maximum output of 1000 lumens, which should be enough for the most light-demanding tasks.  Activate to turn it on.",
+    "description": "This powerful flashlight is primarily designed to be used attached to a firearm or a different compatible platform featuring Picatinny rail.  It's rated for a maximum output of 1000 lumens, which should be enough for the most light-demanding tasks.  Activate to turn on.",
 
     "material": ["aluminum"],
 
@@ -213,7 +213,7 @@
       "str": "ProTac Rail Mount 2 tactical light (off)",
       "str_pl": "ProTac Rail Mount 2 tactical lights (off)"
     },
-    "description": "This compact flashlight is primarily designed to be used attached to a firearm or a different compatible platform featuring Picatinny rail.  It's rated for a maximum output of 650 lumens, which should be enough for most tasks.  Activate to turn it on.",
+    "description": "This compact flashlight is primarily designed to be used attached to a firearm or a different compatible platform featuring Picatinny rail.  It's rated for a maximum output of 650 lumens, which should be enough for most tasks.  Activate to turn on.",
 
     "material": ["aluminum"],
 
@@ -314,7 +314,7 @@
       "str": "SureFire M300C tactical light (off)",
       "str_pl": "SureFire M300C tactical lights (off)"
     },
-    "description": "This unassuming flashlight is primarily designed to be used attached to a firearm or a different compatible platform featuring Picatinny rail.  It's rated for a maximum output of 500 lumens, which should be enough for most tasks.  Activate to turn it on.",
+    "description": "This unassuming flashlight is primarily designed to be used attached to a firearm or a different compatible platform featuring Picatinny rail.  It's rated for a maximum output of 500 lumens, which should be enough for most tasks.  Activate to turn on.",
 
     "material": ["aluminum"],
 
@@ -420,7 +420,7 @@
       "str": "Inforce WMLx Gen 2 tactical light (off)",
       "str_pl": "Inforce WMLx Gen 2 tactical lights (off)"
     },
-    "description": "This slick flashlight is primarily designed to be used attached to a firearm or a different compatible platform featuring Picatinny rail.  It's rated for a maximum output of 800 lumens, which should be enough for most tasks.  Activate to turn it on.",
+    "description": "This slick flashlight is primarily designed to be used attached to a firearm or a different compatible platform featuring Picatinny rail.  It's rated for a maximum output of 800 lumens, which should be enough for most tasks.  Activate to turn on.",
 
     "//material": "actually glass-filled nylon",
     "material": ["plastic"],
@@ -528,7 +528,7 @@
       "str": "Inforce WML Gen 2 tactical light (off)",
       "str_pl": "Inforce WML Gen 2 tactical lights (off)"
     },
-    "description": "This slick flashlight is primarily designed to be used attached to a firearm or a different compatible platform featuring Picatinny rail.  It's rated for a maximum output of 400 lumens, which should suffice for many a task.  Activate to turn it on.",
+    "description": "This slick flashlight is primarily designed to be used attached to a firearm or a different compatible platform featuring Picatinny rail.  It's rated for a maximum output of 400 lumens, which should suffice for many a task.  Activate to turn on.",
 
     "//material": "actually glass-filled nylon",
     "material": ["plastic"],
@@ -632,7 +632,7 @@
       "str": "Cloud Defensive OWL tactical light (off)",
       "str_pl": "Cloud Defensive OWL tactical lights (off)"
     },
-    "description": "This thick and short flashlight is primarily designed to be used attached to a firearm or a different compatible platform featuring Picatinny rail.  It's rated for a maximum output of 1200 lumens, which should be more than enough even for the most light-demanding tasks.  Activate to turn it on.",
+    "description": "This thick and short flashlight is primarily designed to be used attached to a firearm or a different compatible platform featuring Picatinny rail.  It's rated for a maximum output of 1200 lumens, which should be more than enough even for the most light-demanding tasks.  Activate to turn on.",
 
     "material": ["aluminum"],
 
@@ -736,7 +736,7 @@
       "str": "Modlight PL350 tactical light (off)",
       "str_pl": "Modlight PL350 tactical lights (off)"
     },
-    "description": "This stubby-yet-potent flashlight is primarily designed to be used attached to a firearm or a different compatible platform featuring Picatinny rail.  It's rated for a maximum output of 1350 lumens, which should be more than enough even for the most light-demanding tasks.  Activate to turn it on.",
+    "description": "This stubby-yet-potent flashlight is primarily designed to be used attached to a firearm or a different compatible platform featuring Picatinny rail.  It's rated for a maximum output of 1350 lumens, which should be more than enough even for the most light-demanding tasks.  Activate to turn on.",
 
     "material": ["aluminum"],
 
@@ -840,7 +840,7 @@
       "str": "Cloud Defensive Rein 3.0 tactical light (off)",
       "str_pl": "Cloud Defensive Rein 3.0 tactical lights (off)"
     },
-    "description": "This powerful flashlight is primarily designed to be used attached to a firearm or a different compatible platform featuring Picatinny rail.  It's rated for a maximum output of 1250 lumens, which should be more than enough even for the most light-demanding tasks.  Activate to turn it on.",
+    "description": "This powerful flashlight is primarily designed to be used attached to a firearm or a different compatible platform featuring Picatinny rail.  It's rated for a maximum output of 1250 lumens, which should be more than enough even for the most light-demanding tasks.  Activate to turn on.",
 
     "material": ["aluminum"],
 
