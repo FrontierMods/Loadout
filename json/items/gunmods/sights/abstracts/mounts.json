@@ -1,0 +1,99 @@
+[
+  {
+    "abstract": "sight_mount_abstract",
+    "type": "GUNMOD",
+
+    "name": {
+      "str": "sight mount"
+    },
+    "description": "idea of a sight mount",
+
+    "weight": "100 g",
+    "volume": "100 ml",
+    "longest_side": "100 mm",
+
+    "material": ["aluminum"],
+
+    "symbol": ":",
+    "color": "dark_gray",
+
+    "location": "sights",
+    "install_time": "15 s",
+
+    "mod_targets": ["pistol", "smg", "shotgun", "rifle", "bow", "launcher"],
+
+    "flags": ["DISABLE_SIGHTS"]
+  },
+
+  {
+    "id": "sight_mount_rifle_abstract",
+    "copy-from": "sight_mount_abstract",
+    "type": "GUNMOD",
+
+    "name": {
+      "str": "rifle sight mount"
+    },
+    "description": "idea of a rifle sight mount",
+
+    "//mod_targets": "this class is used to prevent installing mounts that require Picatinny rail onto pistols",
+    "mod_targets": ["smg", "shotgun", "rifle", "launcher"]
+  },
+
+  {
+    "abstract": "sight_mount_rmr",
+    "copy-from": "sight_mount_abstract",
+    "type": "GUNMOD",
+
+    "name": {
+      "str": "RMR sight mount"
+    },
+    "description": "idea of an RMR sight mount",
+
+    "add_mod": [["RMR mount", 1]]
+  },
+
+  {
+    "abstract": "sight_mount_30mm",
+    "copy-from": "sight_mount_abstract",
+    "type": "GUNMOD",
+
+    "name": {
+      "str": "30mm sight mount"
+    },
+    "description": "idea of a 30mm sight mount",
+
+    "add_mod": [["30mm scope mount", 1]],
+
+    "mod_targets": ["rifle", "smg", "shotgun", "launcher"]
+  },
+
+  {
+    "abstract": "sight_mount_34mm",
+    "copy-from": "sight_mount_abstract",
+    "type": "GUNMOD",
+
+    "name": {
+      "str": "34mm sight mount"
+    },
+    "description": "idea of a 34mm sight mount",
+
+    "add_mod": [["34mm scope mount", 1]],
+
+    "mod_targets": ["rifle", "smg", "shotgun", "launcher"]
+  },
+
+  {
+    "abstract": "sight_mount_1in",
+    "copy-from": "sight_mount_abstract",
+    "type": "GUNMOD",
+
+    "name": {
+      "str": "1-inch sight mount"
+    },
+    "description": "idea of a 1-inch sight mount",
+
+    "add_mod": [["1-inch sight mount", 1]],
+
+    "mod_targets": ["rifle", "smg", "shotgun", "launcher"]
+  }
+]
