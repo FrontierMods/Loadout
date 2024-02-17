@@ -1,0 +1,71 @@
+[
+  {
+    "id": "sight_mount_30mm_aero",
+    "copy-from": "sight_mount_30mm",
+    "type": "GUNMOD",
+
+    "//sources": [
+      "https://www.aeroprecisionusa.com/ultralight-30mm-extended-scope-mount",
+      "https://www.wingtactical.com/accessories/optics-sights/optic-sight-mounts/aero-precision-ultralight-extended-scope-mount/"
+    ],
+
+    "name": {
+      "str": "Aero Precision Ultralight 30mm scope mount"
+    },
+    "description": "A set of two rings on top of a single large platform, accomodating a single 30mm scope.",
+
+    "//weight": "manufacturer source says weight is 3.27 oz ≈ 93 g, 0.03 oz above the Wings Tactical source, enough to swing the grammage",
+    "weight": "93 g",
+    "//dimensions": {
+      "length": "4.75 in",
+      "width": "1.31 in",
+      "height": "2.56 in",
+      "raw": "261 ml",
+      "trim": 0.8
+    },
+    "volume": "52 ml",
+    "longest_side": "121 mm",
+
+    "price": "105 USD"
+  },
+  {
+    "id": "sight_mount_30mm_jp",
+    "copy-from": "sight_mount_30mm",
+    "type": "GUNMOD",
+
+    "//sources": ["https://www.jprifles.com/buy.php?item=JPFTSM-30/1"],
+
+    "//notes": [
+      "for the sake of player comfort AND our promise to replace gunmods, we'll pretend that this mount has a Picatinny rail",
+      "in reality, the top of the front ring can be replaced with a proprietary JPoint sight mount: https://jprifles.com/buy.php?item=JPA-SM30/1C",
+      "but who has time to figure out complex mounting mechanisms, there are two zombies behind you right now!!"
+    ],
+
+    "name": {
+      "str": "JP Enterprises 30mm scope mount"
+    },
+    "description": "A set of two rings on top of a single large platform, accomodating a single 30mm scope.  This mount also features a single short Picatinny rail above the rings, allowing the user to install a second small sight.",
+
+    "weight": "196 g",
+    "//dimensions": {
+      "length": "155 mm",
+      "width": "32 mm",
+      "height": "78 mm",
+      "raw": "369 ml",
+      "trim": 0.675,
+      "notes": [
+        "dimensions assumed from Leapers UTG 34mm ring mount due to measuring dimensions of this scope proving difficult",
+        "we add ~1 in. (25 mm) to the overall length to account for the front-ring sight mount"
+      ]
+    },
+    "volume": "120 ml",
+    "longest_side": "155 mm",
+
+    "add_mod": [
+      ["sights", 1],
+      ["30mm scope mount", 1]
+    ],
+
+    "price": "335 USD"
+  }
+]

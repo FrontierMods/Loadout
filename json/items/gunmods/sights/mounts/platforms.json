@@ -1,0 +1,200 @@
+[
+  {
+    "id": "sight_mount_adapter_rmr_holosun",
+    "copy-from": "sight_mount_abstract",
+    "type": "GUNMOD",
+
+    "//sources": [
+      "https://holosun.com/index/product/detail/id/196.html",
+      "https://www.holosun.eu/p/70147353"
+    ],
+
+    "name": {
+      "str": "Holosun 407/507K adapter for RMR mount"
+    },
+    "description": "This adapter mounts on top of any RMR mount, enabling installation of a compatible Holosun red dot sight -- namely, 507K -- instead.",
+
+    "weight": "28 g",
+    "//dimensions": {
+      "length": "1.78 in",
+      "width": "1 in",
+      "height": "0.15 in",
+      "raw": "4 ml",
+      "trim": 0.05
+    },
+    "volume": "4 ml",
+    "longest_side": "45 mm",
+
+    "location": "RMR mount",
+
+    "add_mod": [["Holosun 407/507K mount", 1]],
+
+    "price": "47 USD"
+  },
+  {
+    "id": "sight_mount_micro_aimpoint",
+    "copy-from": "sight_mount_abstract",
+    "type": "GUNMOD",
+
+    "//sources": [
+      "https://www.aimpoint.com/products/mounting-solutions/microtm-standard-mount-for-micro-t-2t-1-and-compm5tm-sights-fits-picatinny-rail",
+      "https://aimpoint.us/micro-standard-mount-for-t-1-t-2-kit/"
+    ],
+
+    "name": {
+      "str": "Aimpoint Micro mount"
+    },
+    "description": "A low Micro-series mount for compatible Aimpoint red dot sights: T-1 and T-2.  Installs on top of a common Picatinny rail, found on most large modern firearms.",
+
+    "weight": "48 g",
+    "//dimensions": {
+      "length": "2.00 in",
+      "width": "1.30 in",
+      "height": "0.50 in",
+      "raw": "21 ml",
+      "trim": 0.2
+    },
+    "volume": "17 ml",
+    "longest_side": "51 mm",
+
+    "add_mod": [["Micro mount", 1]],
+
+    "price": "95 USD"
+  },
+  {
+    "id": "sight_mount_acog_trijicon",
+    "copy-from": "sight_mount_rifle_abstract",
+    "type": "GUNMOD",
+
+    "//sources": ["https://www.trijicon.com/products/details/ta51"],
+
+    "name": {
+      "str": "Trijicon ACOG TA51 mount"
+    },
+    "description": "A fairly-large mount for installing a popular Trijicon ACOG sight onto any common Picatinny rail.",
+
+    "weight": "113 g",
+    "//dimensions": {
+      "length": "3.50 in",
+      "width": "1.60 in",
+      "height": "0.40 in",
+      "raw": "37 ml",
+      "trim": 0.3,
+      "notes": ["height and width acquired through visual reference"]
+    },
+    "volume": "26 ml",
+    "longest_side": "89 mm",
+
+    "add_mod": [["ACOG mount", 1]],
+
+    "price": "83 USD"
+  },
+  {
+    "id": "sight_mount_rx01",
+    "copy-from": "sight_mount_rifle_abstract",
+    "type": "GUNMOD",
+
+    "//sources": ["https://gritrsports.com/trijicon-reflex-scope-mount-rx14"],
+
+    "name": {
+      "str": "Trijicon RX41 mount"
+    },
+    "description": "A relatively-heavy Picatinny mount for Trijicon RX01.  Latches onto the Picatinny rail using thumbscrews similar to those on the TA51 ACOG mount.",
+
+    "weight": "119 g",
+    "//dimensions": {
+      "length": "2.80 in",
+      "width": "1.62 in",
+      "height": "0.64 in",
+      "raw": "48 ml",
+      "trim": 0.15,
+      "notes": ["width is 120% the width of RX01 (1.35 in.)"]
+    },
+    "volume": "41 ml",
+    "longest_side": "71 mm",
+
+    "price": "116 USD"
+  },
+  {
+    "id": "sight_mount_romeo_sig_sauer",
+    "copy-from": "sight_mount_abstract",
+    "type": "GUNMOD",
+
+    "//sources": [
+      "https://www.sigsauer.com/romeo5x-1x20-mm.html",
+      "https://www.sigsauer.com/romeo5-low-mount-graphite.html"
+    ],
+
+    "//notes": [
+      "this appears to be a different mount from what Romeo5X is using, but for now, we pretend this to be a minor detail",
+      "this mount is supposed to be also compatible with Aimpoint T-1 sights, but we cannot implement this layer of interoperability at this stage without making the gameplay too clunky"
+    ],
+
+    "name": {
+      "str": "Sig Sauer Romeo5 mount"
+    },
+    "description": "A low mount for installing compatible compact Sig Sauer red dot sights -- namely, Romeo5X -- onto any common Picatinny rail.",
+
+    "//weight": [
+      "assumed to be the same as Aimpoint Micro mount due to similar dimensions",
+      "there seem to be no sources for the mount's dimensions online"
+    ],
+    "weight": "48 g",
+    "//dimensions": {
+      "length": "50.40 mm",
+      "width": "35.60 mm",
+      "height": "0.50 in",
+      "raw": "23 ml",
+      "trim": 0.2,
+      "notes": [
+        "length assumed from visual reference",
+        "width assumed to be same as width of sight",
+        "height assumed to be same as Aimpoint Micro"
+      ]
+    },
+    "volume": "15 ml",
+    "longest_side": "50 mm",
+
+    "add_mod": [["Romeo5 mount", 1]],
+
+    "price": "95 USD"
+  },
+  {
+    "id": "sight_mount_docter_trijicon_ms10",
+    "copy-from": "sight_mount_rmr_trijicon_rm35",
+    "type": "GUNMOD",
+
+    "//sources": [
+      "https://www.opticsplanet.com/trijicon-docter-red-dot-sight-mount-ms10.html"
+    ],
+
+    "//notes": [
+      "no decent dimensions seem to be available for this mount",
+      "however, it looks very much like RM35, so we're going to copy its dimensions"
+    ],
+
+    "name": {
+      "str": "Trijicon MS10 Docter mount for ACOG"
+    },
+    "description": "A specialized mount allowing one to install a popular Trijicon RMR red dot sight on top of an equally-popular Trijicon ACOG TA01 sight.  This enables usage of different sights for different distances, potentially making aiming quicker and more precise overall.",
+
+    "//weight": "reusing the weight of RM35",
+    "weight": "55 g",
+    "//dimensions": {
+      "length": "1.78 in",
+      "width": "1.485 in",
+      "height": "1.04 in",
+      "raw": "45 ml",
+      "trim": 0.55,
+      "notes": ["see also: notes for RM35"]
+    },
+    "volume": "20 ml",
+    "longest_side": "45 mm",
+
+    "location": "ACOG bosses",
+
+    "add_mod": [["Docter mount", 1]],
+
+    "price": "106 USD"
+  }
+]

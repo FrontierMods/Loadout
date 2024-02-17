@@ -1,0 +1,32 @@
+[
+  {
+    "id": "sight_mount_30mm_single_aero",
+    "copy-from": "sight_mount_abstract",
+    "type": "GUNMOD",
+
+    "//sources": [
+      "https://www.wingtactical.com/accessories/optics-sights/optic-sight-mounts/aero-precision-cantilever-30mm-red-dot-scope-mount/"
+    ],
+
+    "name": {
+      "str": "Aero Precision cantilever 30mm red dot scope mount"
+    },
+    "description": "A single-ring cantilever 30mm mount for cylindrical red dot sights.  Similar in appearance to dual-ring 30mm mounts for large scopes, this one is more compact and lightweight, intended to carry significantly smaller load.",
+
+    "weight": "46 g",
+    "//dimensions": {
+      "length": "2.60 in",
+      "width": "1.30 in",
+      "height": "2.35 in",
+      "raw": "130 ml"
+    },
+    "volume": "39 ml",
+    "longest_side": "66 mm",
+
+    "location": "sights",
+
+    "add_mod": [["single 30mm mount", 1]],
+
+    "price": "85 USD"
+  }
+]

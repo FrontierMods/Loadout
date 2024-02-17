@@ -1,0 +1,36 @@
+[
+  {
+    "id": "sight_mount_34mm_leapers",
+    "copy-from": "sight_mount_34mm",
+    "type": "GUNMOD",
+
+    "//sources": [
+      "https://www.leapers.com/utg-accusync-34mm-high-profile-50mm-offset-picatinny-rings-black-air42250.html",
+      "https://www.adorama.com/utair42250.html"
+    ],
+
+    "name": {
+      "str": "Leapers UTG 34mm ring mount"
+    },
+    "description": "A set of two rings on top of a single large platform, accomodating a single 34mm scope.",
+
+    "weight": "171 g",
+    "//dimensions": {
+      "length": "130 mm",
+      "width": "32 mm",
+      "height": "78 mm",
+      "raw": "243 ml",
+      "trim": 0.65,
+      "notes": [
+        "dimensions eyeballed from available dimensions",
+        "length is assumed to be length of base × 130%",
+        "height is assumed to be 2× center height",
+        "width is assumed to be Picatinny rail width × 1.5, accounting for the ring width"
+      ]
+    },
+    "volume": "85 ml",
+    "longest_side": "130 mm",
+
+    "price": "55 USD"
+  }
+]

@@ -1,0 +1,35 @@
+[
+  {
+    "id": "sight_mount_1in_warne",
+    "copy-from": "sight_mount_1in",
+    "type": "GUNMOD",
+
+    "//sources": [
+      "https://warnescopemounts.com/v4001m-1-inch-1-piece-msr-mount-matte/"
+    ],
+
+    "name": {
+      "str": "Warne 1-inch ring mount"
+    },
+    "description": "A set of two rings on top of a single large platform, accomodating a single 1-in. scope.",
+
+    "weight": "133 g",
+    "//dimensions": {
+      "length": "4.925 in",
+      "width": "32 mm",
+      "height": "1.68 in",
+      "raw": "128 ml",
+      "trim": 0.65,
+      "notes": [
+        "dimensions eyeballed from available dimensions",
+        "length is calculated as 3.05 (space between rings) + 0.75 (length of ring) × 2 + 0.375 (half of ring length before back ring) in",
+        "height is assumed to be 1.2× center height",
+        "width is assumed to be Picatinny rail width × 1.5, accounting for the ring width"
+      ]
+    },
+    "volume": "45 ml",
+    "longest_side": "125 mm",
+
+    "price": "80 USD"
+  }
+]
