@@ -110,7 +110,6 @@
 
     "//field_of_view": "30 yds @ 100 yds = 17.06° = 1023.6 MOA",
     "field_of_view": 1024,
-    "sight_dispersion": 4,
 
     "//power": {
       "source": [["CR123"]],
@@ -147,10 +146,6 @@
 
     "//field_of_view": "30 yds @ 100 yds = 17.06° = 1023.6 MOA",
     "field_of_view": 1024,
-    "//sight_dispersion": "this model is older and has started to deteriorate",
-    "sight_dispersion": 5,
-    "//aim_speed_modifier": "this model is older and has started to deteriorate",
-    "aim_speed_modifier": 10,
 
     "//power": {
       "source": [["CR123", "CR123"]],

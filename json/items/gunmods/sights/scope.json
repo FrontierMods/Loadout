@@ -47,6 +47,8 @@
       "16.70 ft @ 100 yds @ 6× magnification = 191.32 MOA"
     ],
     "field_of_view": 1162,
+    "//sight_dispersion": "subjectively adjusted from visual comparison",
+    "sight_dispersion": 75,
     "//aim_speed_modifier": [
       "at 1× magnification",
       "somewhere between a magnified scope and a red dot sight"
@@ -79,8 +81,8 @@
     },
     "description": "A slim, versatile 30mm scope with magnification ranging from 1× to 6×.  Its award-winning design and perfomance make it a popular low-magnification scope for a variety of tasks, including hunting, competitive shooting, and law-enforcement operations.  It is currently set to maximum magnification.  Activate to set it back to base magnification.",
 
-    "sight_dispersion": 0,
     "field_of_view": 191,
+    "sight_dispersion": 100,
 
     "use_action": {
       "type": "transform",
@@ -145,6 +147,8 @@
       "1.74° @ 12× magnification = 104.40 MOA"
     ],
     "field_of_view": 416,
+    "//sight_dispersion": "20 dispersion @ 12× magnification / 4× magnification difference",
+    "sight_dispersion": 5,
 
     "use_action": {
       "type": "transform",
@@ -168,6 +172,7 @@
     "description": "A large 30mm scope with magnification ranging from 3× to 12×, primarily intended for hunting large game.  Like other scopes from Trijicon, Huron is appreciated for its quality and performance, with aircraft-grade aluminum and combat-grade glass similar to that used in the famous ACOG sight.  It is currently set to maximum magnification.  Activate to set it back to base magnification.",
 
     "field_of_view": 104,
+    "sight_dispersion": 20,
 
     "use_action": {
       "type": "transform",
@@ -234,6 +239,8 @@
       "0.91° @ 24× magnification = 54.60 MOA"
     ],
     "field_of_view": 217,
+    "//sight_dispersion": "21 dispersion @ 24× magnification / 4× magnification difference",
+    "sight_dispersion": 5,
 
     "//power": {
       "source": [["CR2032"]],
@@ -262,6 +269,7 @@
     "description": "A large 30mm scope with magnification ranging from 6× to 24×, intended for hunting large game.  With a large degree of adjustments and unparalleled performance in the field, this scope allows its user to shoot accurately from a very long range.  It is currently set to maximum magnification.  Activate to set it back to base magnification.",
 
     "field_of_view": 55,
+    "sight_dispersion": 21,
 
     "use_action": {
       "type": "transform",
@@ -358,6 +366,8 @@
       "13.60 ft @ 100 yds @ 8× magnification = 155.82 MOA"
     ],
     "field_of_view": 406,
+    "//sight_dispersion": "51.6 MOA @ 8× magnification / 3.2× magnification difference",
+    "sight_dispersion": 16,
     "//aim_speed_modifier": [
       "at 2.5× magnification",
       "somewhere between a magnified scope and a red dot sight"
@@ -392,6 +402,8 @@
     "description": "A slick, capable 30mm scope with magnification ranging from 2.5× to 8×.  This model has been in service with the US military for more than two decades, known in particular for being supplied with Mk12 Special Purpose Rifle, as well as M38 Designated Marksman Rifle, both in use with US Marines.  It is currently set to maximum magnification.  Activate to set it back to base magnification.",
 
     "field_of_view": 156,
+    "//sight_dispersion": "0.15 MRAD = 0.516 MOA",
+    "sight_dispersion": 52,
 
     "use_action": {
       "type": "transform",
@@ -406,7 +418,13 @@
     "copy-from": "sight_mount_rifle_abstract",
     "type": "GUNMOD",
 
-    "//sources": ["https://armament.com/specterdr-1x-4x/"],
+    "//sources": [
+      "https://armament.com/specterdr-1x-4x/",
+      [
+        "https://www.eurooptic.com/PDF/Elcan-SpecterDR-1x4-Manual.pdf",
+        "center-of-aim size"
+      ]
+    ],
 
     "//notes": [
       "this sight also comes with a set of backup iron sights by default",
@@ -437,7 +455,7 @@
       "6.5° @ 4× magnification = 390 MOA"
     ],
     "field_of_view": 1560,
-    "sight_dispersion": 36,
+    "sight_dispersion": 600,
     "//aim_speed_modifier": [
       "at 1× magnification",
       "bonus for ballistic reticle"
@@ -477,6 +495,7 @@
     "description": "A slick, capable 30mm scope with magnification ranging from 2.5× to 8×.  This model has been in service with the US military for more than two decades, known in particular for being supplied with Mk12 Special Purpose Rifle, as well as M38 Designated Marksman Rifle, both in use with US Marines.  It is currently set to maximum magnification.  Activate to set it back to base magnification.",
 
     "field_of_view": 390,
+    "sight_dispersion": 150,
 
     "use_action": {
       "type": "transform",

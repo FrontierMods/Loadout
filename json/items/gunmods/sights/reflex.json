@@ -24,7 +24,7 @@
     "volume": "20 ml",
     "longest_side": "46 mm",
 
-    "sight_dispersion": 13,
+    "sight_dispersion": 325,
     "aim_speed_modifier": 11,
 
     "location": "RMR mount",
@@ -62,7 +62,7 @@
     "volume": "14 ml",
     "longest_side": "41 mm",
 
-    "sight_dispersion": 8,
+    "sight_dispersion": 200,
     "aim_speed_modifier": 8,
 
     "location": "Holosun 407/507K mount",
@@ -101,7 +101,7 @@
     "volume": "69 ml",
     "longest_side": "69 mm",
 
-    "sight_dispersion": 8,
+    "sight_dispersion": 200,
     "aim_speed_modifier": 8,
 
     "location": "Micro mount",
@@ -141,7 +141,7 @@
     "volume": "167 ml",
     "longest_side": "142 mm",
 
-    "sight_dispersion": 16,
+    "sight_dispersion": 400,
     "aim_speed_modifier": 12,
 
     "location": "single 30mm mount",
@@ -185,7 +185,7 @@
     "volume": "104 ml",
     "longest_side": "66 mm",
 
-    "sight_dispersion": 8,
+    "sight_dispersion": 200,
     "aim_speed_modifier": 8,
 
     "location": "Romeo5 mount",
@@ -232,7 +232,7 @@
 
     "location": "sights",
 
-    "sight_dispersion": 8,
+    "sight_dispersion": 200,
     "aim_speed_modifier": 8,
 
     "//power": {
@@ -275,7 +275,7 @@
 
     "location": "sights",
 
-    "sight_dispersion": 25,
+    "sight_dispersion": 650,
     "aim_speed_modifier": 8,
 
     "//power": {
@@ -317,7 +317,7 @@
 
     "location": "single 30mm mount",
 
-    "sight_dispersion": 16,
+    "sight_dispersion": 650,
     "aim_speed_modifier": 8,
 
     "//power": {
@@ -377,7 +377,7 @@
 
     "location": "Docter mount",
 
-    "sight_dispersion": 28,
+    "sight_dispersion": 700,
 
     "//power": {
       "source": [["CR2032"]],

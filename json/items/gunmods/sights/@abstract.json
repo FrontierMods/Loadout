@@ -37,8 +37,8 @@
 
     "//field_of_view": "small default value (`red_dot_sight`'s `field_of_view` × 0.6), since most of the red dot sights are small",
     "field_of_view": 378,
-    "//sight_dispersion": "3 MOA in quarter-MOA / 15 arc seconds per point",
-    "sight_dispersion": 12,
+    "//sight_dispersion": "3 MOA",
+    "sight_dispersion": 300,
     "//aim_speed_modifier": "±1 point for each half-MOA of deviation (rounded to the nearest half-MOA) from the baseline set above",
     "aim_speed_modifier": 10,
 
@@ -73,8 +73,8 @@
     "description": "idea of a holographic sight",
 
     "field_of_view": 1000,
-    "//sight_dispersion": "2 MOA in quarter-MOA / 15 arc seconds per point",
-    "sight_dispersion": 8,
+    "//sight_dispersion": "1 MOA",
+    "sight_dispersion": 100,
     "aim_speed_modifier": 14,
 
     "add_mod": [["magnifier", 1]]
@@ -92,11 +92,8 @@
 
     "//field_of_view": "what low-magnification scopes have (after strong rounding) @ 1× magnification",
     "field_of_view": 1000,
-    "//sight_dispersion": [
-      "reticle lines of all scopes are sub-quarter-MOA, and therefore should have 1 dispersion",
-      "in light of an addition of variable-power scopes, the score had been artificially increased to make high-magnification mode worth using"
-    ],
-    "sight_dispersion": 4,
+    "//sight_dispersion": "1 MOA",
+    "sight_dispersion": 100,
     "//aim_speed_modifier": [
       "emulates having to aim that much more carefully with a sight this precise",
       "still better than aiming with no sights"
@@ -105,6 +102,7 @@
 
     "location": "30mm scope mount",
     "install_time": "3 m",
+    "blacklist_slot": ["magnifier"],
 
     "flags": ["ZOOM"]
   },
@@ -127,7 +125,11 @@
     "type": "GUNMOD",
 
     "//sources": [
-      "https://www.wingtactical.com/accessories/optics-sights/sights/diamondhead-polymer-integrated-sighting-system-with-nitebrite/"
+      "https://www.wingtactical.com/accessories/optics-sights/sights/diamondhead-polymer-integrated-sighting-system-with-nitebrite/",
+      [
+        "https://www.snipershide.com/shooting/threads/iron-sight-accuracy.6959308/post-7939237",
+        "baseline accuracy"
+      ]
     ],
 
     "name": {
@@ -162,11 +164,8 @@
     "mod_targets": ["rifle", "smg", "shotgun", "launcher"],
 
     "field_of_view": 360,
-    "//sight_dispersion": [
-      "8 MOA in quarter-MOA / 15 arc seconds per point",
-      "based on front post width of ~0.53 in."
-    ],
-    "sight_dispersion": 32,
+    "//sight_dispersion": "1 MOA",
+    "sight_dispersion": 100,
     "//aim_speed_modifier": "minor bonus for better-than-default sights",
     "aim_speed_modifier": 2,
 
@@ -192,6 +191,17 @@
     "copy-from": "iron_sights_abstract",
     "type": "GUNMOD",
 
+    "//sources": [
+      [
+        "https://pistol-forum.com/showthread.php?36454-Handgun-Front-Sight-Thickness-and-Accuracy=&s=96f0279839a6a454c314e9893402b984&p=877504&viewfull=1#post877504",
+        "front post width"
+      ],
+      [
+        "https://targettalk.org/viewtopic.php?p=316864&sid=b552189aaa1697bd9ea0531c945c0b97#p316864",
+        "pistol typical sight radius"
+      ]
+    ],
+
     "name": {
       "str": "pistol iron sights"
     },
@@ -203,8 +213,8 @@
 
     "mod_targets": ["pistol"],
 
-    "//sight_dispersion": "4 MOA in quarter-MOA / 15 arc seconds per point",
-    "sight_dispersion": 16,
+    "//sight_dispersion": "0.125 in. @ 150 mm = 72.76 MOA",
+    "sight_dispersion": 7276,
     "//aim_speed_modifier": "for pistols, custom sights probably allow much-quicker aiming",
     "aim_speed_modifier": 4
   },
@@ -223,10 +233,10 @@
     "weight": "250 g",
 
     "//sight_dispersion": [
-      "6 MOA in quarter-MOA / 15 arc seconds per point",
-      "assumes 3× magnification on a 2 MoA dot in front of the magnifier"
+      "6 MOA",
+      "assumes 3× magnification on a 2 MOA dot in front of the magnifier"
     ],
-    "sight_dispersion": 24,
+    "sight_dispersion": 600,
     "//aim_speed_modifier": "compensating for high sight dispersion",
     "aim_speed_modifier": 16,
 
