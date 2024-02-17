@@ -104,14 +104,7 @@
     "sight_dispersion": 4,
     "aim_speed_modifier": 14,
 
-    "mod_targets": [
-      "pistol",
-      "smg",
-      "rifle",
-      "shotgun",
-      "launcher",
-      "crossbow"
-    ],
+    "mod_targets": ["pistol", "smg", "rifle", "shotgun", "launcher"],
 
     "//power": {
       "source": "CR123",
@@ -164,14 +157,7 @@
     "sight_dispersion": 12,
     "//aim_speed_modifier": 10,
 
-    "mod_targets": [
-      "pistol",
-      "smg",
-      "rifle",
-      "shotgun",
-      "launcher",
-      "crossbow"
-    ],
+    "mod_targets": ["pistol", "smg", "rifle", "shotgun", "launcher"],
 
     "//power": {
       "source": "CR2032",
