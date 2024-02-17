@@ -351,8 +351,8 @@
         "name": {
           "str": "Noblex Sight II Plus red dot sight"
         },
-        "description": "A compact, lightweight red dot sight.  This is a newer model of the sight that used to be a part of SOPMOD: a kit of rifle attachments supplied to US soldiers.  Noblex, previously known as Docter, was still in business of producing firearm sights before Cataclysm came about.",
-        "weight": 5
+        "description": "A compact, lightweight red dot sight.  This is a newer model of the sight that used to be a part of SOPMOD: a kit of rifle attachments supplied to U.S. soldiers.  Noblex, previously known as Docter, was still in business of producing firearm sights before Cataclysm came about.",
+        "weight": 8
       },
       {
         "id": "sight_docter_mrds",
