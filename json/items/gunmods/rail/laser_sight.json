@@ -37,7 +37,7 @@
       }
     },
 
-    "sight_dispersion": 12,
+    "sight_dispersion": 286,
 
     "//power": {
       "source": [["CR2"]],
@@ -89,7 +89,7 @@
       }
     },
 
-    "sight_dispersion": 2,
+    "sight_dispersion": 48,
 
     "//power": {
       "source": [["CR1/3N"]],
@@ -149,7 +149,7 @@
       }
     },
 
-    "sight_dispersion": 7,
+    "sight_dispersion": 172,
 
     "//power": {
       "source": [["CR123"]],
