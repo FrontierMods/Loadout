@@ -2,7 +2,7 @@
 
 ## Current
 
-## v1.2
+## v1.X
 
 - [ ] **magazine modding**
   - [ ] conventional STANAG magazines
@@ -12,6 +12,11 @@
   - carabiner adapters
   - magazine decoration
   - labels and markings
+
+## v1.2
+
+- [ ] adjustable-length suppressors
+- [ ] modern Army rifle attachments
 
 ## Previous
 
