@@ -20,7 +20,9 @@
     "pocket_data": [
       {
         "pocket_type": "CONTAINER",
+
         "rigid": true,
+
         "max_contains_volume": "45 ml",
         "max_contains_weight": "200 g"
       }
@@ -28,8 +30,8 @@
 
     "flags": ["BRASS_CATCHER"],
 
-    "price": "10 USD",
-    "price_postapoc": "250 cent"
+    "price": "5 cent",
+    "price_postapoc": "5 cent"
   },
 
   {
@@ -38,7 +40,7 @@
     "type": "GUNMOD",
 
     "name": { "str": "improvised shoulder strap" },
-    "description": "A shoulder strap allows you to carry a firearm like a bag, so you don't have to hold it in your hands all the time.  However, it offers no protection.",
+    "description": "A shoulder strap allows you to carry a firearm on your shoulder, so you don't have to hold it in your hands all the time.  However, it offers no protection.  Currently adjusted so the weapon hangs on your back.  Activate to adjust to the front.",
 
     "weight": "100 g",
     "volume": "250 ml",
@@ -48,32 +50,35 @@
 
     "mod_targets": ["rifle", "shotgun", "smg", "launcher"],
     "location": "sling",
-    "install_time": "20 s",
+    "install_time": "30 s",
 
     "flags": ["IS_ARMOR", "BELTED", "OVERSIZE", "WATER_FRIENDLY"],
 
     "use_action": {
       "type": "transform",
-      "msg": "You shift the weapon to the front of your body.",
-      "menu_text": "Adjust",
       "target": "shoulder_strap_improvised_front",
+
+      "menu_text": "Adjust to front",
+
+      "msg": "You shift the weapon to the front of your body.",
       "moves": 150
     },
 
     "armor_data": {
       "armor": [
         {
-          "covers": ["torso"],
-          "coverage": 5,
           "encumbrance": 0,
           "volume_encumber_modifier": 0.33,
+
+          "covers": ["torso"],
+          "coverage": 5,
           "specifically_covers": ["torso_hanging_back"]
         }
       ]
     },
 
-    "price": "480 cent",
-    "price_postapoc": "1 USD"
+    "price": "10 cent",
+    "price_postapoc": "5 cent"
   },
 
   {
@@ -85,26 +90,29 @@
       "str": "improvised shoulder strap (front)",
       "str_pl": "improvised shoulder straps (front)"
     },
-    "description": "A shoulder strap allows you to carry a firearm like a bag, so you don't have to hold it in your hands all the time.  However, it offers no protection.  Currently adjusted so the weapon hangs off your front.",
-
-    "use_action": {
-      "type": "transform",
-      "msg": "You shift the weapon to the back of your body.",
-      "menu_text": "Adjust",
-      "target": "shoulder_strap_improvised",
-      "moves": 150
-    },
+    "description": "A shoulder strap allows you to carry a firearm on your shoulder, so you don't have to hold it in your hands all the time.  However, it offers no protection.  Currently adjusted so the weapon hangs in front of you.  Activate to adjust to the back.",
 
     "armor_data": {
       "armor": [
         {
-          "covers": ["torso"],
-          "coverage": 5,
           "encumbrance": 0,
           "volume_encumber_modifier": 0.33,
+
+          "covers": ["torso"],
+          "coverage": 5,
           "specifically_covers": ["torso_hanging_front"]
         }
       ]
+    },
+
+    "use_action": {
+      "type": "transform",
+      "target": "shoulder_strap_improvised",
+
+      "menu_text": "Adjust to back",
+
+      "msg": "You shift the weapon to the back of your body.",
+      "moves": 150
     }
   }
 ]
