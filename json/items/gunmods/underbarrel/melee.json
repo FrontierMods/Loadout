@@ -14,10 +14,23 @@
     ],
 
     "name": {
-      "str": "Panacea X Kill-Saw chainsaw bayonet (off)",
-      "str_pl": "Panacea X Kill-Saw chainsaw bayonets (off)"
+      "str": "underbarrel chainsaw"
     },
-    "description": "This converted trimmer saw has been trimmed down to the bare minimum, painted black, and outfitted with a Picatinny rail adapter.  Now, it's a mighty tool against zombies...  or whatever else you might find standing in your way.  Rather unwieldy on its own, it's meant to be attached under the barrel of a modern rifle.  Required a battery to run.",
+    "description": "A trimmed-down, compact chainsaw with an underbarrel rail adapter.  This senseless feat of engineering can now be attached to your gun and used as an oversized, battery-powered bayonet.  Activate to turn on.",
+
+    "variant_type": "gun",
+    "variants": [
+      {
+        "id": "black",
+
+        "name": {
+          "str": "Panacea X Kill-Saw chainsaw bayonet (off)",
+          "str_pl": "Panacea X Kill-Saw chainsaw bayonets (off)"
+        },
+        "description": "This converted trimmer saw has been trimmed down to the bare minimum, painted black, and outfitted with a Picatinny rail adapter.  Now, it's a mighty tool against zombies...  or whatever else you might find standing in your way.  Rather unwieldy on its own, it's meant to be attached under the barrel of a modern long arm, where it remains unwieldy.  Required a battery to run.  Activate to turn on.",
+        "weight": 1
+      }
+    ],
 
     "weight": "2098 g",
     "//dimensions": {
@@ -88,7 +101,21 @@
       "str": "Panacea X Kill-Saw chainsaw bayonet (on)",
       "str_pl": "Panacea X Kill-Saw chainsaw bayonets (on)"
     },
-    "description": "This converted trimmer saw has been trimmed down to the bare minimum, painted black, and outfitted with a Picatinny rail adapter.  Now, it's a mighty tool against zombies...  or whatever else you might find standing in your way.  Rather unwieldy on its own, it's meant to be attached under the barrel of a modern rifle.  It is currently turned on.  Activate to turn off.",
+    "description": "A trimmed-down, compact chainsaw with an underbarrel rail adapter.  This senseless feat of engineering can now be attached to your gun and used as an oversized, battery-powered bayonet.  It is currently turned on.  Activate to turn off.",
+
+    "variant_type": "gun",
+    "variants": [
+      {
+        "id": "black",
+
+        "name": {
+          "str": "Panacea X Kill-Saw chainsaw bayonet (off)",
+          "str_pl": "Panacea X Kill-Saw chainsaw bayonets (off)"
+        },
+        "description": "This converted trimmer saw has been trimmed down to the bare minimum, painted black, and outfitted with a Picatinny rail adapter.  Now, it's a mighty tool against zombies...  or whatever else you might find standing in your way.  Rather unwieldy on its own, it's meant to be attached under the barrel of a modern long arm, where it remains unwieldy.  It is currently turned on.  Activate to turn off.",
+        "weight": 1
+      }
+    ],
 
     "//power": {
       "source": [["makita_accumulator"]],
