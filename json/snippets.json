@@ -62,5 +62,30 @@
     "text": [
       "This model is rated for a wide variety of rifle cartridges, from 5.56mm NATO to .308 Winchester Magnum."
     ]
+  },
+
+  {
+    "type": "snippet",
+    "category": "<laser_sight_warning>",
+    "text": ["Ineffective at longer ranges and in bright environments."]
+  },
+  {
+    "type": "snippet",
+    "category": "<laser_sight_warning_verbose>",
+    "text": [
+      "Like all laser sights, this model proves less-effective at longer ranges and while engaging in brightly-lit environments."
+    ]
+  },
+  {
+    "type": "snippet",
+    "category": "<laser_sight_red>",
+    "text": ["It emits red laser: the most common kind of lasers."]
+  },
+  {
+    "type": "snippet",
+    "category": "<laser_sight_green>",
+    "text": [
+      "It emits green laser, which is easier to aim with than the more-common red laser."
+    ]
   }
 ]

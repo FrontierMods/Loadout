@@ -11,9 +11,24 @@
     ],
 
     "name": {
-      "str": "Firefield Charge red laser sight"
+      "str": "boxy red laser sight"
     },
-    "description": "A boxy, compact laser sight that mounts on a Picatinny rail, providing the shooter with reliable aim at shorter distances.  This one emits red laser: the most common kind of lasers.  Ineffective at longer ranges and in bright environments.",
+    "description": "A boxy laser sight that provides you with a way to aim reliably and quickly at short distances.  <laser_sight_red>  <laser_sight_warning>",
+    "expand_snippets": true,
+
+    "variant_type": "gun",
+    "variants": [
+      {
+        "id": "black",
+
+        "name": {
+          "str": "Firefield Charge red laser sight"
+        },
+        "description": "A boxy, lightweight laser sight that provides the shooter with a reliable and quick way to aim at shorter distances.  <laser_sight_red>  The Picatinny mount it comes with makes it easy to mount on most common platforms.  <laser_sight_warning_verbose>  <variant_black>",
+        "expand_snippets": true,
+        "weight": 1
+      }
+    ],
 
     "weight": "68 g",
     "//dimensions": {
@@ -58,9 +73,24 @@
     ],
 
     "name": {
-      "str": "Steiner TOR Mini green laser sight"
+      "str": "mini green laser sight"
     },
-    "description": "An ultra-compact laser sight that mounts on a Picatinny rail, providing the shooter with reliable aim at shorter distances.  This one emits green laser, attested to remaining more visible than the more-common red laser in adverse conditions.  Still, it remains ineffective at longer ranges and in bright environments.",
+    "description": "An ultra-compact laser sight that provides you with a way to aim reliably and quickly at short distances.  <laser_sight_green>  <laser_sight_warning>",
+    "expand_snippets": true,
+
+    "variant_type": "gun",
+    "variants": [
+      {
+        "id": "black",
+
+        "name": {
+          "str": "Steiner TOR Mini green laser sight"
+        },
+        "description": "An ultra-compact laser sight that provides the shooter with a reliable and quick way to aim at shorter distances.  <laser_sight_green>  Designed to fit onto Picatinny rails of pistols, due to its compact size, it can just as easily fit onto any other type of firearms.  <laser_sight_warning_verbose>  <variant_black>",
+        "expand_snippets": true,
+        "weight": 1
+      }
+    ],
 
     "//weight": [
       "weight is stated to be with batteries",
@@ -118,9 +148,34 @@
     ],
 
     "name": {
-      "str": "L3Harris ATPIAL-C red laser sight"
+      "str": "reproduction red laser sight"
     },
-    "description": "A boxy, elaborate-looking laser sight that mounts on a Picatinny rail, providing the shooter with reliable aim at shorter distances.  This model is the commercial counterpart of a famous military laser sight employed in the US Armed Forces.  This one emits red laser: the most common kind of lasers.  Ineffective at longer ranges and in bright environments.",
+    "description": "A boxy, elaborate-looking laser sight that provides you with a way to aim reliably and quickly at short distances.  This model is the commercial counterpart of a famous military laser sight employed in the U.S. Armed Forces.  <laser_sight_red>  <laser_sight_warning>",
+    "expand_snippets": true,
+
+    "variant_type": "gun",
+    "variants": [
+      {
+        "id": "black",
+
+        "name": {
+          "str": "L3Harris ATPIAL-C red laser sight"
+        },
+        "description": "A boxy, lightweight laser sight that provides the shooter with a reliable and quick way to aim at shorter distances.  <laser_sight_red>  This model is the commercial counterpart of the AN/PEQ-15, which is used by the U.S. Army and Navy.  The commercial variant features a weaker, civilian-legal laser, which is difficult to see during the day.  The Picatinny mount it comes with makes it easy to mount on most common platforms.  <variant_black>",
+        "expand_snippets": true,
+        "weight": 1
+      },
+      {
+        "id": "tan",
+
+        "name": {
+          "str": "L3Harris ATPIAL-C red laser sight"
+        },
+        "description": "A boxy, lightweight laser sight that provides the shooter with a reliable and quick way to aim at shorter distances.  <laser_sight_red>  This model is the commercial counterpart of the AN/PEQ-15, which is used by the U.S. Army and Navy.  The commercial variant features a weaker, civilian-legal laser, which is difficult to see during the day.  The Picatinny mount it comes with makes it easy to mount on most common platforms.  <variant_tan>",
+        "expand_snippets": true,
+        "weight": 1
+      }
+    ],
 
     "//weight": [
       "weight is stated to be with batteries",
