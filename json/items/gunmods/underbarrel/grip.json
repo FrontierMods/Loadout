@@ -1,44 +1,5 @@
 [
   {
-    "id": "foregrip_icrw",
-    "copy-from": "foregrip_abstract",
-    "type": "GUNMOD",
-
-    "//sources": [
-      "https://www.wingtactical.com/firearm-parts/ar-15-parts/grips-foregrips/foregrips/iron-city-rifle-works-reversible-m-lok-handstop/"
-    ],
-
-    "name": {
-      "str": "Iron City Rifle Works handstop"
-    },
-    "description": "A compact, reversible handstop.  Allows for better handling of the firearm.  Has a grooved texture, though its effect is diminished by the small size factor of the handstop.",
-
-    "weight": "19 g",
-    "//dimensions": {
-      "length": "1.86 in",
-      "width": "0.61 in",
-      "height": "1.01 in",
-      "raw": "19 ml",
-      "trim": 0.5
-    },
-    "volume": "10 ml",
-    "longest_side": "47 mm",
-
-    "material": ["aluminum"],
-
-    "//interfaces": ["M-LOK"],
-
-    "//handling_modifier": {
-      "handstop": 1,
-      "texture": 1,
-      "texture_rough": 1
-    },
-    "handling_modifier": 3,
-
-    "price": "35 USD"
-  },
-
-  {
     "id": "foregrip_strike_short",
     "copy-from": "foregrip_abstract",
     "type": "GUNMOD",
@@ -49,9 +10,29 @@
     ],
 
     "name": {
-      "str": "Strike Industries short vertical foregrip"
+      "str": "barricade short foregrip"
     },
-    "description": "A short polymer foregrip.  Allows for better handling of the firearm.  Has ribbed texture on the front and the back, and two islands of texture on the sides.",
+    "description": "A short polymer foregrip.  Allows for better handling of the firearm.  Has slight texture on the front and the back, and two islands of texture on the sides, which help with the grip.",
+
+    "variant_type": "gun",
+    "variants": [
+      {
+        "id": "black",
+
+        "name": { "str": "Strike Industries short foregrip" },
+        "description": "A short polymer foregrip with a slight texture.  Its purpose is to assist in handling one's firearm, while also retaining a small profile when installed.  It is not as effective as a full-size foregrip, but it's still a good way to manage recoil.  The texture helps improve the degree of control slightly, though its effect is limited by the shallow nature of the texture.  <variant_black>",
+        "expand_snippets": true,
+        "weight": 1
+      },
+      {
+        "id": "fde",
+
+        "name": { "str": "Strike Industries short foregrip" },
+        "description": "A short polymer foregrip with a slight texture.  Its purpose is to assist in handling one's firearm, while also retaining a small profile when installed.  It is not as effective as a full-size foregrip, but it's still a good way to manage recoil.  The texture helps improve the degree of control slightly, though its effect is limited by the shallow nature of the texture.  <variant_fde>",
+        "expand_snippets": true,
+        "weight": 1
+      }
+    ],
 
     "weight": "48 g",
     "//dimensions": {
@@ -75,44 +56,6 @@
 
     "price": "18 USD"
   },
-
-  {
-    "id": "foregrip_ergo",
-    "copy-from": "foregrip_abstract",
-    "type": "GUNMOD",
-
-    "//sources": [
-      "https://www.wingtactical.com/firearm-parts/ar-15-parts/grips-foregrips/foregrips/ergo-pop-bottle-vertical-forward-grip-vfg/",
-      "https://www.ergogrips.net/shop/ergo-pop-bottle-vertical-forward-grip/"
-    ],
-
-    "name": {
-      "str": "ERGO Pop Bottle vertical foregrip"
-    },
-    "description": "A plain, bottleneck-shaped foregrip.  Allows for better handling of the firearm.  Has grooves at the bottom, preventing the user's hand from slipping.",
-
-    "weight": "58 g",
-    "//dimensions": {
-      "length": "1.80 in",
-      "width": "1.43 in",
-      "height": "3.66 in",
-      "raw": "154 ml",
-      "trim": 0.3
-    },
-    "volume": "108 ml",
-    "longest_side": "93 mm",
-
-    "//interfaces": ["Picatinny"],
-
-    "//handling_modifier": {
-      "grip_tall": 4,
-      "bottom_grooves": 1
-    },
-    "handling_modifier": 5,
-
-    "price": "19 USD"
-  },
-
   {
     "id": "foregrip_tyrant_mod",
     "copy-from": "foregrip_abstract",
@@ -123,9 +66,43 @@
     ],
 
     "name": {
-      "str": "Tyrant Designs MOD angled foregrip"
+      "str": "skeletonized angled foregrip"
     },
-    "description": "An angled metal foregrip with a unique, aggressive skeletonized design.  Allows for better handling of the firearm.  Its somewhat-ergonomic design combined with its length make it a good choice for a foregrip.",
+    "description": "An angled metal foregrip with a skeletonized design.  Allows for better handling of the firearm.  Its somewhat-ergonomic design combined with its length make it a good choice for a foregrip.",
+
+    "variant_type": "gun",
+    "variants": [
+      {
+        "id": "black",
+
+        "name": {
+          "str": "Tyrant CNC MOD angled foregrip"
+        },
+        "description": "A skeletonized angled grip with a unique, aggressive design.  Its purpose is to assist in handling one's firearm, while also retaining a small profile when installed.  It doesn't offer as much control as a full-sized foregrip, but the overall effect is still better than not having any foregrip.  The finger shelf at the front help retain the grip, while the overall construction allows for decent control over recoil.  <variant_black>",
+        "expand_snippets": true,
+        "weight": 2
+      },
+      {
+        "id": "grey",
+
+        "name": {
+          "str": "Tyrant CNC MOD angled foregrip"
+        },
+        "description": "A skeletonized angled grip with a unique, aggressive design.  Its purpose is to assist in handling one's firearm, while also retaining a small profile when installed.  It doesn't offer as much control as a full-sized foregrip, but the overall effect is still better than not having any foregrip.  The finger shelf at the front help retain the grip, while the overall construction allows for decent control over recoil.  <variant_grey>",
+        "expand_snippets": true,
+        "weight": 2
+      },
+      {
+        "id": "red",
+
+        "name": {
+          "str": "Tyrant CNC MOD angled foregrip"
+        },
+        "description": "A skeletonized angled grip with a unique, aggressive design.  Its purpose is to assist in handling one's firearm, while also retaining a small profile when installed.  It doesn't offer as much control as a full-sized foregrip, but the overall effect is still better than not having any foregrip.  The finger shelf at the front help retain the grip, while the overall construction allows for decent control over recoil.  <variant_red>",
+        "expand_snippets": true,
+        "weight": 1
+      }
+    ],
 
     "weight": "48 g",
     "//dimensions": {
@@ -151,7 +128,6 @@
 
     "price": "75 USD"
   },
-
   {
     "id": "foregrip_tyrant_modv2",
     "copy-from": "foregrip_abstract",
@@ -162,9 +138,63 @@
     ],
 
     "name": {
-      "str": "Tyrant Designs MOD V2 angled foregrip"
+      "str": "cushioned angled foregrip"
     },
-    "description": "An angled metal foregrip with a unique, aggressive skeletonized design.  Allows for better handling of the firearm.  An improvement upon a previous design by Tyrant Designs, it remains a good choice of a foregrip, with its rubber pad, usable length, and ergonomic shape.",
+    "description": "An angled metal foregrip with a skeletonized design.  Allows for better handling of the firearm.  The rubber pad allows for a better grip.",
+
+    "variant_type": "gun",
+    "variants": [
+      {
+        "id": "black",
+
+        "name": {
+          "str": "Tyrant CNC MOD V2 angled foregrip"
+        },
+        "description": "A skeletonized angled grip with a unique, aggressive design. An iteration over the previous design, this grip features a rubber pad for both grip and user comfort.  Its purpose is to assist in handling one's firearm, while also retaining a small profile when installed.  It doesn't offer as much control as a full-sized foregrip, but the overall effect is still better than not having any foregrip.  <variant_black>",
+        "expand_snippets": true,
+        "weight": 2
+      },
+      {
+        "id": "grey",
+
+        "name": {
+          "str": "Tyrant CNC MOD V2 angled foregrip"
+        },
+        "description": "A skeletonized angled grip with a unique, aggressive design. An iteration over the previous design, this grip features a rubber pad for both grip and user comfort.  Its purpose is to assist in handling one's firearm, while also retaining a small profile when installed.  It doesn't offer as much control as a full-sized foregrip, but the overall effect is still better than not having any foregrip.  This one is gray with a black rubber pad.",
+        "expand_snippets": true,
+        "weight": 2
+      },
+      {
+        "id": "red",
+
+        "name": {
+          "str": "Tyrant CNC MOD V2 angled foregrip"
+        },
+        "description": "A skeletonized angled grip with a unique, aggressive design. An iteration over the previous design, this grip features a rubber pad for both grip and user comfort.  Its purpose is to assist in handling one's firearm, while also retaining a small profile when installed.  It doesn't offer as much control as a full-sized foregrip, but the overall effect is still better than not having any foregrip.  This one is bright red with a black rubber pad.",
+        "expand_snippets": true,
+        "weight": 1
+      },
+      {
+        "id": "blue",
+
+        "name": {
+          "str": "Tyrant CNC MOD V2 angled foregrip"
+        },
+        "description": "A skeletonized angled grip with a unique, aggressive design. An iteration over the previous design, this grip features a rubber pad for both grip and user comfort.  Its purpose is to assist in handling one's firearm, while also retaining a small profile when installed.  It doesn't offer as much control as a full-sized foregrip, but the overall effect is still better than not having any foregrip.  This one is blue with a black rubber pad.",
+        "expand_snippets": true,
+        "weight": 1
+      },
+      {
+        "id": "yellow",
+
+        "name": {
+          "str": "Tyrant CNC MOD V2 angled foregrip"
+        },
+        "description": "A skeletonized angled grip with a unique, aggressive design. An iteration over the previous design, this grip features a rubber pad for both grip and user comfort.  Its purpose is to assist in handling one's firearm, while also retaining a small profile when installed.  It doesn't offer as much control as a full-sized foregrip, but the overall effect is still better than not having any foregrip.  This one is bright yellow with a black rubber pad.",
+        "expand_snippets": true,
+        "weight": 1
+      }
+    ],
 
     "weight": "83 g",
     "//dimensions": {
@@ -191,7 +221,6 @@
 
     "price": "70 USD"
   },
-
   {
     "id": "foregrip_dd_short",
     "copy-from": "foregrip_abstract",
@@ -202,9 +231,43 @@
     ],
 
     "name": {
-      "str": "Daniel Defense short vertical foregrip"
+      "str": "rubberized short foregrip"
     },
     "description": "A short polymer foregrip.  Allows for better handling of the firearm.  Has ribbed texture on the front and the back, and two islands of tire-like texture on the sides.",
+
+    "variant_type": "gun",
+    "variants": [
+      {
+        "id": "black",
+
+        "name": {
+          "str": "Daniel Defense short vertical foregrip"
+        },
+        "description": "A short polymer foregrip with a textured rubber island.  Its purpose is to assist in handling one's firearm, while also retaining a small profile when installed.  It is not as effective as a full-size foregrip, but it's still a good way to manage recoil.  The texture helps improve the degree of control, though its effect is limited by the small area.  <variant_black>",
+        "expand_snippets": true,
+        "weight": 1
+      },
+      {
+        "id": "fde",
+
+        "name": {
+          "str": "Daniel Defense short vertical foregrip"
+        },
+        "description": "A short polymer foregrip with a textured rubber island.  Its purpose is to assist in handling one's firearm, while also retaining a small profile when installed.  It is not as effective as a full-size foregrip, but it's still a good way to manage recoil.  The texture helps improve the degree of control, though its effect is limited by the small area.  <variant_fde>",
+        "expand_snippets": true,
+        "weight": 1
+      },
+      {
+        "id": "grey",
+
+        "name": {
+          "str": "Daniel Defense short vertical foregrip"
+        },
+        "description": "A short polymer foregrip with a textured rubber island.  Its purpose is to assist in handling one's firearm, while also retaining a small profile when installed.  It is not as effective as a full-size foregrip, but it's still a good way to manage recoil.  The texture helps improve the degree of control, though its effect is limited by the small area.  <variant_grey>",
+        "expand_snippets": true,
+        "weight": 1
+      }
+    ],
 
     "weight": "52 g",
     "//dimensions": {
@@ -235,7 +298,6 @@
 
     "price": "32 USD"
   },
-
   {
     "id": "foregrip_strike_bikini",
     "copy-from": "foregrip_abstract",
@@ -246,9 +308,25 @@
     ],
 
     "name": {
-      "str_sp": "Strike Industries Bikini fingerstops"
+      "str": "bikini fingerstops",
+      "str_pl": "pairs of bikini fingerstops"
     },
     "description": "A pair of tiny metal fingerstops, adjustable in position and length.  Allow for better handling of the firearm.  These don't offer a major improvement due to their miniature size, but they're still better than nothing.",
+
+    "variant_type": "gun",
+    "variants": [
+      {
+        "id": "black",
+
+        "name": {
+          "str": "Strike Industries Bikini fingerstops",
+          "str_pl": "pairs of Strike Industries Bikini fingerstops"
+        },
+        "description": "A pair of tiny metal fingerstops, essentially the most minimal version of a foregrip.  The pair can be adjusted to perform a variety of specific tasks.  Their effect is minimal overall, but the benefit is that of a lower footprint and added weight.  These come in black.",
+        "expand_snippets": true,
+        "weight": 1
+      }
+    ],
 
     "weight": "6 g",
     "//dimensions": {
@@ -270,7 +348,6 @@
 
     "price": "12 USD"
   },
-
   {
     "id": "foregrip_arisaka",
     "copy-from": "foregrip_abstract",
@@ -281,9 +358,23 @@
     ],
 
     "name": {
-      "str": "Arisaka Defense short vertical foregrip"
+      "str": "grooved short foregrip"
     },
-    "description": "A short metal foregrip.  Allows for better handling of the firearm.  Its hollow design make it ligther than the metal alternatives.  Deep grooves along the entire length offer good grip.",
+    "description": "A short metal foregrip.  Allows for better handling of the firearm.  Its hollow design make it ligther than the alternatives.  Deep grooves along the entire length offer a good grip.",
+
+    "variant_type": "gun",
+    "variants": [
+      {
+        "id": "black",
+
+        "name": {
+          "str": "Arisaka Defense short vertical foregrip"
+        },
+        "description": "A short metal foregrip with deep grooves all the way along the length.  Its purpose is to assist in handling one's firearm, while also retaining a small profile when installed.  The hollow design makes it significantly-lighter than the alternatives.  <variant_black>",
+        "expand_snippets": true,
+        "weight": 1
+      }
+    ],
 
     "weight": "53 g",
     "//dimensions": {
@@ -307,82 +398,6 @@
 
     "price": "53 USD"
   },
-
-  {
-    "id": "foregrip_strike_link",
-    "copy-from": "foregrip_abstract",
-    "type": "GUNMOD",
-
-    "//sources": [
-      "https://www.wingtactical.com/firearm-parts/ar-15-parts/grips-foregrips/foregrips/strike-industries-link-anchor-polymer-hand-stop/"
-    ],
-
-    "name": {
-      "str": "Strike Industries LINK handstop"
-    },
-    "description": "A compact handstop.  Allows for better handling of the firearm.  Has a grooved texture, though its effect is diminished by the small size factor of the handstop.",
-
-    "weight": "17 g",
-    "//dimensions": {
-      "length": "2.957 in",
-      "width": "0.855 in",
-      "height": "1.06 in",
-      "raw": "44 ml",
-      "trim": 0.6
-    },
-    "volume": "18 ml",
-    "longest_side": "75 mm",
-
-    "//interfaces": ["KeyMod", "M-LOK"],
-
-    "//handling_modifier": {
-      "handstop": 1,
-      "finger_shelf": 1,
-      "texture": 1,
-      "texture_rough": 1
-    },
-    "handling_modifier": 4,
-
-    "price": "15 USD"
-  },
-
-  {
-    "id": "foregrip_slr_barricade",
-    "copy-from": "foregrip_abstract",
-    "type": "GUNMOD",
-
-    "//sources": [
-      "https://www.wingtactical.com/firearm-parts/ar-15/grips-foregrips/foregrips/slr-rifleworks-keymod-barricade-handstop/"
-    ],
-
-    "name": {
-      "str": "SLR Rifleworks Mod 2 Barricade handstop"
-    },
-    "description": "A metal handstop, adjustable in position and distance as befits the user.  Allows for better handling of the firearm.  While its effect is minimal due to its size, it's better than nothing.",
-
-    "weight": "19 g",
-    "//dimensions": {
-      "length": "1.95 in",
-      "width": "0.60 in",
-      "height": "1.00 in",
-      "raw": "19 ml",
-      "trim": 0.5
-    },
-    "volume": "10 ml",
-    "longest_side": "50 mm",
-
-    "material": ["aluminum"],
-
-    "//interfaces": ["KeyMod"],
-
-    "//handling_modifier": {
-      "handstop": 1
-    },
-    "handling_modifier": 1,
-
-    "price": "36 USD"
-  },
-
   {
     "id": "foregrip_impact",
     "copy-from": "foregrip_abstract",
@@ -395,9 +410,23 @@
     "//notes": ["Barrier Face style"],
 
     "name": {
-      "str": "Impact Weapons Components handstop"
+      "str": "compact handstop"
     },
     "description": "A compact metal handstop.  Allows for better handling of the firearm.  Textured, thus offering slightly better performance over its competitors of similar size.",
+
+    "variant_type": "gun",
+    "variants": [
+      {
+        "id": "black",
+
+        "name": {
+          "str": "Impact Weapons Components handstop"
+        },
+        "description": "A tiny metal handstop with a barrier-style texture.  Its effect is minimal overall, but the benefit is that of a lower footprint and added weight.  <variant_black>",
+        "expand_snippets": true,
+        "weight": 1
+      }
+    ],
 
     "weight": "20 g",
     "//dimensions": {
@@ -422,45 +451,6 @@
 
     "price": "27 USD"
   },
-
-  {
-    "id": "foregrip_odin_b1",
-    "copy-from": "foregrip_abstract",
-    "type": "GUNMOD",
-
-    "//sources": [
-      "https://www.wingtactical.com/firearm-parts/ar-15/grips-foregrips/foregrips/odin-works-b1-m-lok-handstop/"
-    ],
-
-    "name": {
-      "str": "ODIN Works B1 handstop"
-    },
-    "description": "A small, skeletonized handstop.  Allows for better handling of the firearm.  Its ergonomic design allows it to stand up to competition of similar size.",
-
-    "weight": "34 g",
-    "//dimensions": {
-      "length": "2.38 in",
-      "width": "0.90 in",
-      "height": "1.15 in",
-      "raw": "40 ml",
-      "trim": 0.3
-    },
-    "volume": "28 ml",
-    "longest_side": "61 mm",
-
-    "material": ["aluminum"],
-
-    "//interfaces": ["M-LOK"],
-
-    "//handling_modifier": {
-      "handstop": 1,
-      "finger_shelf": 1
-    },
-    "handling_modifier": 2,
-
-    "price": "49 USD"
-  },
-
   {
     "id": "foregrip_tyrant_halo",
     "copy-from": "foregrip_abstract",
@@ -471,9 +461,43 @@
     ],
 
     "name": {
-      "str": "Tyrant Desings HALO short vertical foregrip"
+      "str": "skeletonized short foregrip"
     },
-    "description": "A short, skeletonized foregrip, comparable in size to a handstop.  Allows for better handling of the firearm.  An aggressive, ergonomic design helps it perform on par with competition, while saving on weight.",
+    "description": "A short skeletonized foregrip, comparable in size to a handstop.  Allows for better handling of the firearm.  An aggressive, ergonomic design helps it perform on par with competition, while saving on weight.",
+
+    "variant_type": "gun",
+    "variants": [
+      {
+        "id": "black",
+
+        "name": {
+          "str": "Tyrant CNC HALO short foregrip"
+        },
+        "description": "A short, skeletonized foregrip, comparable in size to a handstop.  Its purpose is to assist in handling one's firearm, while also retaining a small profile when installed.  It doesn't offer as much control as a full-sized foregrip, but the overall effect is still better than not having any foregrip.  <variant_black>",
+        "expand_snippets": true,
+        "weight": 2
+      },
+      {
+        "id": "grey",
+
+        "name": {
+          "str": "Tyrant CNC HALO short foregrip"
+        },
+        "description": "A short, skeletonized foregrip, comparable in size to a handstop.  Its purpose is to assist in handling one's firearm, while also retaining a small profile when installed.  It doesn't offer as much control as a full-sized foregrip, but the overall effect is still better than not having any foregrip.  <variant_grey>",
+        "expand_snippets": true,
+        "weight": 2
+      },
+      {
+        "id": "red",
+
+        "name": {
+          "str": "Tyrant CNC MOD angled foregrip"
+        },
+        "description": "A short, skeletonized foregrip, comparable in size to a handstop.  Its purpose is to assist in handling one's firearm, while also retaining a small profile when installed.  It doesn't offer as much control as a full-sized foregrip, but the overall effect is still better than not having any foregrip.  <variant_red>",
+        "expand_snippets": true,
+        "weight": 1
+      }
+    ],
 
     "weight": "26 g",
     "//dimensions": {
@@ -498,7 +522,6 @@
 
     "price": "45 USD"
   },
-
   {
     "id": "foregrip_tyrant_halo_minivert",
     "copy-from": "foregrip_abstract",
@@ -509,9 +532,43 @@
     ],
 
     "name": {
-      "str": "Tyrant Designs HALO MiniVert foregrip"
+      "str": "heavy skeletonized foregrip"
     },
-    "description": "A metal foregrip with an aggressive, skeletonized design.  Allows for better handling of the firearm.  Ergonomic and lightweight, it performs on par or better than competition.",
+    "description": "A metal foregrip with a skeletonized design.  Allows for better handling of the firearm.  Ergonomic and lightweight, it performs on par or better than competition.",
+
+    "variant_type": "gun",
+    "variants": [
+      {
+        "id": "black",
+
+        "name": {
+          "str": "Tyrant CNC HALO MiniVert foregrip"
+        },
+        "description": "A full-sized skeletonized vertical foregrip.  Its purpose is to assist in handling one's firearm, while also retaining a small profile when installed.  It provides grip area for the whole hand and, while being shorter than other full-sized foregrips, still performs well in controlling recoil.  <variant_black>",
+        "expand_snippets": true,
+        "weight": 2
+      },
+      {
+        "id": "grey",
+
+        "name": {
+          "str": "Tyrant CNC HALO MiniVert foregrip"
+        },
+        "description": "A full-sized skeletonized vertical foregrip.  Its purpose is to assist in handling one's firearm, while also retaining a small profile when installed.  It provides grip area for the whole hand and, while being shorter than other full-sized foregrips, still performs well in controlling recoil.  <variant_grey>",
+        "expand_snippets": true,
+        "weight": 1
+      },
+      {
+        "id": "red",
+
+        "name": {
+          "str": "Tyrant CNC HALO MiniVert foregrip"
+        },
+        "description": "A full-sized skeletonized vertical foregrip.  Its purpose is to assist in handling one's firearm, while also retaining a small profile when installed.  It provides grip area for the whole hand and, while being shorter than other full-sized foregrips, still performs well in controlling recoil.  <variant_red>",
+        "expand_snippets": true,
+        "weight": 1
+      }
+    ],
 
     "weight": "71 g",
     "//dimensions": {
@@ -531,26 +588,96 @@
     "//handling_modifier": {
       "grip_tall": 4,
       "texture": 1,
+      "finger_shelf": 1,
       "bottom_grooves": 1
     },
-    "handling_modifier": 6,
+    "handling_modifier": 7,
 
     "price": "58 USD"
   },
-
   {
     "id": "foregrip_fortis_shift",
     "copy-from": "foregrip_abstract",
     "type": "GUNMOD",
 
     "//sources": [
-      "https://www.wingtactical.com/firearm-parts/ar-15-parts/grips-foregrips/foregrips/fortis-shift-m-lok-forend-vertical-grip/"
+      "https://www.wingtactical.com/firearm-parts/ar-15-parts/grips-foregrips/foregrips/fortis-shift-m-lok-forend-vertical-grip/",
+      [
+        "https://fortismfg.com/ar15-fortis-shift-vertical-grip-mlok",
+        "variants reference"
+      ]
     ],
 
+    "//notes": ["there is a Picatinny model"],
+
     "name": {
-      "str": "Fortis Shift vertical foregrip"
+      "str": "skeletonized foregrip"
     },
     "description": "A metal foregrip with a starkly-skeletonized design.  Allows for better handling of the firearm.  Performs better than average, while saving on weight.",
+
+    "variant_type": "gun",
+    "variants": [
+      {
+        "id": "black",
+
+        "name": {
+          "str": "Fortis Shift vertical foregrip"
+        },
+        "description": "A full-sized, heavily-skeletonized vertical foregrip.  Its purpose is to assist in handling one's firearm, while also retaining a small profile when installed.  As a full-sized model, it offers the best performance in recoil control.  <variant_black>",
+        "expand_snippets": true,
+        "weight": 4
+      },
+      {
+        "id": "blue",
+
+        "name": {
+          "str": "Fortis Shift vertical foregrip"
+        },
+        "description": "A full-sized, heavily-skeletonized vertical foregrip.  Its purpose is to assist in handling one's firearm, while also retaining a small profile when installed.  As a full-sized model, it offers the best performance in recoil control.  <variant_blue>",
+        "expand_snippets": true,
+        "weight": 2
+      },
+      {
+        "id": "red",
+
+        "name": {
+          "str": "Fortis Shift vertical foregrip"
+        },
+        "description": "A full-sized, heavily-skeletonized vertical foregrip.  Its purpose is to assist in handling one's firearm, while also retaining a small profile when installed.  As a full-sized model, it offers the best performance in recoil control.  <variant_red>",
+        "expand_snippets": true,
+        "weight": 2
+      },
+      {
+        "id": "grey",
+
+        "name": {
+          "str": "Fortis Shift vertical foregrip"
+        },
+        "description": "A full-sized, heavily-skeletonized vertical foregrip.  Its purpose is to assist in handling one's firearm, while also retaining a small profile when installed.  As a full-sized model, it offers the best performance in recoil control.  <variant_grey>",
+        "expand_snippets": true,
+        "weight": 2
+      },
+      {
+        "id": "fde",
+
+        "name": {
+          "str": "Fortis Shift vertical foregrip"
+        },
+        "description": "A full-sized, heavily-skeletonized vertical foregrip.  Its purpose is to assist in handling one's firearm, while also retaining a small profile when installed.  As a full-sized model, it offers the best performance in recoil control.  <variant_fde>",
+        "expand_snippets": true,
+        "weight": 2
+      },
+      {
+        "id": "olive",
+
+        "name": {
+          "str": "Fortis Shift vertical foregrip"
+        },
+        "description": "A full-sized, heavily-skeletonized vertical foregrip.  Its purpose is to assist in handling one's firearm, while also retaining a small profile when installed.  As a full-sized model, it offers the best performance in recoil control.  <variant_olive>",
+        "expand_snippets": true,
+        "weight": 1
+      }
+    ],
 
     "weight": "108 g",
     "//dimensions": {
@@ -575,86 +702,6 @@
 
     "price": "85 USD"
   },
-
-  {
-    "id": "foregrip_fortis_shift_angled",
-    "copy-from": "foregrip_abstract",
-    "type": "GUNMOD",
-
-    "//sources": [
-      "https://www.wingtactical.com/firearm-parts/ar-15-parts/grips-foregrips/foregrips/fortis-shift-m-lok-short-angled-grip/"
-    ],
-
-    "name": {
-      "str": "Fortis Shift angled foregrip"
-    },
-    "description": "A metal angled foregrip with a starkly-skeletonized design.  Allows for better handling of the firearm.  Performs on par with competition, while saving on weight.",
-
-    "weight": "71 g",
-    "//dimensions": {
-      "length": "2.93 in",
-      "width": "1.17 in",
-      "height": "1.73 in",
-      "raw": "97 ml",
-      "trim": 0.2
-    },
-    "volume": "78 ml",
-    "longest_side": "74 mm",
-
-    "material": ["aluminum"],
-
-    "//interface": ["M-LOK"],
-
-    "//handling_modifier": {
-      "grip_angled": 2,
-      "finger_shelf": 1
-    },
-    "handling_modifier": 3,
-
-    "price": "75 USD"
-  },
-
-  {
-    "id": "foregrip_strike_cobra",
-    "copy-from": "foregrip_abstract",
-    "type": "GUNMOD",
-
-    "//sources": [
-      "https://www.wingtactical.com/firearm-parts/ar-15-parts/grips-foregrips/foregrips/strike-industries-cobra-tactical-foregrip/"
-    ],
-
-    "name": {
-      "str": "Strike Industries Cobra angled foregrip"
-    },
-    "description": "A multi-modal polymer angled foregrip.  Allows for better handling of the firearm.  Can be used in a variety of ways as befits the situation, thanks to its ergonomic design.",
-
-    "weight": "40 g",
-    "//dimensions": {
-      "length": "4.19 in",
-      "width": "1.4625 in",
-      "height": "1.78 in",
-      "raw": "179 ml",
-      "trim": 0.4,
-      "notes": [
-        "height acquired from visual reference",
-        "width assumed to be width of Fortis Shift angled grip × 1.25"
-      ]
-    },
-    "volume": "107 ml",
-    "longest_side": "106 mm",
-
-    "//interface": ["Picatinny"],
-
-    "//handling_modifier": {
-      "grip_angled": 2,
-      "texture": 1,
-      "finger_shelf": 1
-    },
-    "handling_modifier": 4,
-
-    "price": "25 USD"
-  },
-
   {
     "id": "foregrip_mission_first",
     "copy-from": "foregrip_abstract",
@@ -667,9 +714,33 @@
     "//TODO": ["storage compartment"],
 
     "name": {
-      "str": "Mission First React vertical foregrip"
+      "str": "combat foregrip"
     },
-    "description": "An unassuming-looking foregrip.  Allows for better handling of the firearm.  Textured surface and deliberate finger grooves provide for excellent control over recoil.",
+    "description": "A full-sized foregrip.  Allows for better handling of the firearm.  Textured surface and deliberate finger grooves provide for excellent control over recoil.",
+
+    "variant_type": "gun",
+    "variants": [
+      {
+        "id": "black",
+
+        "name": {
+          "str": "Mission First React vertical foregrip"
+        },
+        "description": "A full-sized vertical foregrip.  Its purpose is to assist in handling one's firearm, while also retaining a small profile when installed.  As a full-sized model, it offers the best performance in recoil control.  The finger grooves and the texture help retain control of the firearm better than many alternatives.  <variant_black>",
+        "expand_snippets": true,
+        "weight": 1
+      },
+      {
+        "id": "fde",
+
+        "name": {
+          "str": "Mission First React vertical foregrip"
+        },
+        "description": "A full-sized vertical foregrip.  Its purpose is to assist in handling one's firearm, while also retaining a small profile when installed.  As a full-sized model, it offers the best performance in recoil control.  The finger grooves and the texture help retain control of the firearm better than many alternatives.  <variant_fde>",
+        "expand_snippets": true,
+        "weight": 1
+      }
+    ],
 
     "weight": "65 g",
     "//dimensions": {
@@ -694,48 +765,6 @@
 
     "price": "25 USD"
   },
-
-  {
-    "id": "foregrip_mission_first_folding",
-    "copy-from": "foregrip_abstract",
-    "type": "GUNMOD",
-
-    "//sources": [
-      "https://www.wingtactical.com/firearm-parts/ar-15/grips-foregrips/foregrips/mission-first-tactical-react-folding-grip-rfg/"
-    ],
-
-    "//TODO": ["storage compartment", "folding capability"],
-
-    "name": {
-      "str": "Mission First React folding vertical foregrip"
-    },
-    "description": "A compact full-sized foregrip.  Allows for better handling of the firearm.  Can be folded to save space.  Grooves at the bottom prevent hands from slipping.",
-
-    "weight": "106 g",
-    "//dimensions": {
-      "length": "2.205 in",
-      "width": "1.524 in",
-      "height": "4.314 in",
-      "raw": "238 ml",
-      "trim": 0.1
-    },
-    "volume": "214 ml",
-    "longest_side": "110 mm",
-
-    "//interface": ["Picatinny"],
-
-    "//handling_modifier": {
-      "grip_tall": 4,
-      "texture": 1,
-      "texture_sides": 1
-    },
-    "handling_modifier": 6,
-
-    "//flags": ["NEEDS_UNFOLD"],
-
-    "price": "40 USD"
-  },
-
   {
     "id": "foregrip_magpul_afg2",
     "copy-from": "foregrip_abstract",
@@ -746,9 +775,43 @@
     ],
 
     "name": {
-      "str": "Magpul AFG2 angled foregrip"
+      "str": "tactical angled foregrip"
     },
     "description": "A slim angled foregrip.  Allows for better handling of the firearm.  Ergonomic design provides a good degree of control over recoil.",
+
+    "variant_type": "gun",
+    "variants": [
+      {
+        "id": "black",
+
+        "name": {
+          "str": "Magpul AFG2 angled foregrip"
+        },
+        "description": "A textured angled foregrip.  Its purpose is to assist in handling one's firearm, while also retaining a small profile when installed.  It doesn't offer as much control as a full-sized foregrip, but the overall effect is still better than not having any foregrip.  The finger shelves at the front, the middle, and the back help retain the grip, with a shallow grooved texture assisting along the main length.  <variant_black>",
+        "expand_snippets": true,
+        "weight": 1
+      },
+      {
+        "id": "fde",
+
+        "name": {
+          "str": "Magpul AFG2 angled foregrip"
+        },
+        "description": "A textured angled foregrip.  Its purpose is to assist in handling one's firearm, while also retaining a small profile when installed.  It doesn't offer as much control as a full-sized foregrip, but the overall effect is still better than not having any foregrip.  The finger shelves at the front, the middle, and the back help retain the grip, with a shallow grooved texture assisting along the main length.  <variant_fde>",
+        "expand_snippets": true,
+        "weight": 1
+      },
+      {
+        "id": "olive",
+
+        "name": {
+          "str": "Magpul AFG2 angled foregrip"
+        },
+        "description": "A textured angled foregrip.  Its purpose is to assist in handling one's firearm, while also retaining a small profile when installed.  It doesn't offer as much control as a full-sized foregrip, but the overall effect is still better than not having any foregrip.  The finger shelves at the front, the middle, and the back help retain the grip, with a shallow grooved texture assisting along the main length.  <variant_olive>",
+        "expand_snippets": true,
+        "weight": 1
+      }
+    ],
 
     "weight": "72 g",
     "//dimensions": {
@@ -773,48 +836,6 @@
 
     "price": "35 USD"
   },
-
-  {
-    "id": "foregrip_fab_folding",
-    "copy-from": "foregrip_abstract",
-    "type": "GUNMOD",
-
-    "//sources": [
-      "https://www.wingtactical.com/firearm-parts/ar-15/grips-foregrips/foregrips/fab-defense-7-position-tactical-folding-foregrip-t-fl/"
-    ],
-
-    "//TODO": ["storage compartment", "folding capability"],
-
-    "name": {
-      "str": "FAB Defense folding vertical foregrip"
-    },
-    "description": "A folding polymer foregrip, with several available angles.  Allows for better handling of the firearm.  Aggressive texture on most of the surface provides good grip.",
-
-    "weight": "133 g",
-    "//dimensions": {
-      "length": "2.58 in",
-      "width": "1.45 in",
-      "height": "4.35 in",
-      "raw": "267 ml",
-      "trim": 0.3
-    },
-    "volume": "187 ml",
-    "longest_side": "111 mm",
-
-    "//interfaces": ["Picatinny"],
-
-    "//handling_modifier": {
-      "grip_tall": 4,
-      "form_fitting": 2,
-      "texture": 1,
-      "texture_sides": 1,
-      "texture_rough": 1
-    },
-    "handling_modifier": 9,
-
-    "price": "45 USD"
-  },
-
   {
     "id": "foregrip_magpul",
     "copy-from": "foregrip_abstract",
@@ -825,9 +846,43 @@
     ],
 
     "name": {
-      "str": "Magpul RVG short vertical foregrip"
+      "str": "tactical short foregrip"
     },
     "description": "A short polymer foregrip.  Allows for better handling of the firearm.  Has ribbed texture on the front and the back, and two islands of texture on the sides.",
+
+    "variant_type": "gun",
+    "variants": [
+      {
+        "id": "black",
+
+        "name": {
+          "str": "Magpul RVG short foregrip"
+        },
+        "description": "A short polymer foregrip with a slight texture.  Its purpose is to assist in handling one's firearm, while also retaining a small profile when installed.  It is not as effective as a full-size foregrip, but it's still a good way to manage recoil.  The texture helps improve the degree of control slightly, though its effect is limited by the shallow nature of the texture.  <variant_black>",
+        "expand_snippets": true,
+        "weight": 1
+      },
+      {
+        "id": "fde",
+
+        "name": {
+          "str": "Magpul RVG short foregrip"
+        },
+        "description": "A short polymer foregrip with a slight texture.  Its purpose is to assist in handling one's firearm, while also retaining a small profile when installed.  It is not as effective as a full-size foregrip, but it's still a good way to manage recoil.  The texture helps improve the degree of control slightly, though its effect is limited by the shallow nature of the texture.  <variant_fde>",
+        "expand_snippets": true,
+        "weight": 1
+      },
+      {
+        "id": "olive",
+
+        "name": {
+          "str": "Magpul RVG short foregrip"
+        },
+        "description": "A short polymer foregrip with a slight texture.  Its purpose is to assist in handling one's firearm, while also retaining a small profile when installed.  It is not as effective as a full-size foregrip, but it's still a good way to manage recoil.  The texture helps improve the degree of control slightly, though its effect is limited by the shallow nature of the texture.  <variant_olive>",
+        "expand_snippets": true,
+        "weight": 1
+      }
+    ],
 
     "weight": "78 g",
     "//dimensions": {
@@ -851,7 +906,6 @@
 
     "price": "25 USD"
   },
-
   {
     "id": "foregrip_f1",
     "copy-from": "foregrip_abstract",
@@ -861,10 +915,26 @@
       "https://www.wingtactical.com/firearm-parts/ar-15/grips-foregrips/foregrips/f-1-firearms-m-lok-skeletonized-angled-foregrip/"
     ],
 
+    "//notes": ["modelled without paracord"],
+
     "name": {
-      "str": "F-1 Firearms skeletonized angled foregrip"
+      "str": "ultraskeletonized angled foregrip"
     },
     "description": "An angled foregrip with an exceptional amount of material removed.  Allows for better handling of the firearm.  Performs well against competition, while also saving on weight.",
+
+    "variant_type": "gun",
+    "variants": [
+      {
+        "id": "black",
+
+        "name": {
+          "str": "F-1 Firearms skeletonized angled foregrip"
+        },
+        "description": "A heavily-skeletonized angled grip.  Its purpose is to assist in handling one's firearm, while also retaining a small profile when installed.  It doesn't offer as much control as a full-sized foregrip, but the overall effect is still better than not having any foregrip.  The rough texture, while grippy, becomes uncomfortable on your skin after a while.  It's intended for a strap of paracord to latch onto.  <variant_black>",
+        "expand_snippets": true,
+        "weight": 2
+      }
+    ],
 
     "weight": "62 g",
     "//dimensions": {
@@ -882,7 +952,6 @@
     "//handling_modifier": {
       "grip_angled": 2,
       "finger_shelf": 1,
-      "texture": 1,
       "texture_rough": 1
     },
     "handling_modifier": 5,
@@ -891,7 +960,6 @@
 
     "price": "72 USD"
   },
-
   {
     "id": "foregrip_kac",
     "copy-from": "foregrip_abstract",
@@ -908,14 +976,59 @@
       ],
       [
         "https://www.knightarmco.com/2009/shop/accessories/mil-std-1913/forward-pistol-grip-k",
-        "price"
+        "price",
+        "variant reference"
       ]
     ],
 
     "name": {
-      "str": "KAC vertical foregrip"
+      "str": "military foregrip"
     },
-    "description": "A full-sized foregrip with notches at the bottom to prevent your hand from slipping.  This model is famous for being part of SOPMOD: a kit of rifle attachments supplied to US soldiers.",
+    "description": "A full-sized foregrip with notches at the bottom to prevent your hand from slipping.  Allows for better handling of the firearm.  This model is famous for being commonly used by U.S. soldiers.",
+
+    "variant_type": "gun",
+    "variants": [
+      {
+        "id": "black",
+
+        "name": {
+          "str": "KAC vertical foregrip"
+        },
+        "description": "A full-sized polymer grip.  Its purpose is to assist in handling one's firearm, while also retaining a small profile when installed.  This model is famous for being part of SOPMOD: a set of rifle attachments supplied to the U.S. infantry.  It offers solid recoil control, with its length and shape assisting with handling.  The grooves at the bottom prevent the user's hand from slipping.  <variant_black>",
+        "expand_snippets": true,
+        "weight": 4
+      },
+      {
+        "id": "olive",
+
+        "name": {
+          "str": "KAC vertical foregrip"
+        },
+        "description": "A full-sized polymer grip.  Its purpose is to assist in handling one's firearm, while also retaining a small profile when installed.  This model is famous for being part of SOPMOD: a set of rifle attachments supplied to the U.S. infantry.  It offers solid recoil control, with its length and shape assisting with handling.  The grooves at the bottom prevent the user's hand from slipping.  <variant_olive>",
+        "expand_snippets": true,
+        "weight": 1
+      },
+      {
+        "id": "tan",
+
+        "name": {
+          "str": "KAC vertical foregrip"
+        },
+        "description": "A full-sized polymer grip.  Its purpose is to assist in handling one's firearm, while also retaining a small profile when installed.  This model is famous for being part of SOPMOD: a set of rifle attachments supplied to the U.S. infantry.  It offers solid recoil control, with its length and shape assisting with handling.  The grooves at the bottom prevent the user's hand from slipping.  <variant_tan>",
+        "expand_snippets": true,
+        "weight": 1
+      },
+      {
+        "id": "fde",
+
+        "name": {
+          "str": "KAC vertical foregrip"
+        },
+        "description": "A full-sized polymer grip.  Its purpose is to assist in handling one's firearm, while also retaining a small profile when installed.  This model is famous for being part of SOPMOD: a set of rifle attachments supplied to the U.S. infantry.  It offers solid recoil control, with its length and shape assisting with handling.  The grooves at the bottom prevent the user's hand from slipping.  <variant_fde>",
+        "expand_snippets": true,
+        "weight": 2
+      }
+    ],
 
     "weight": "72 g",
     "//dimensions": {
