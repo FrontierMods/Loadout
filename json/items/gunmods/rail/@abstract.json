@@ -52,8 +52,8 @@
     },
     "description": "idea of a green laser sight",
 
-    "//sight_dispersion": "green laser is attested to be slightly more visible than red laser",
     "sight_dispersion": 12,
+    "//aim_speed_modifier": "green laser is attested to be slightly more visible than red laser",
     "aim_speed_modifier": 17
   },
 
