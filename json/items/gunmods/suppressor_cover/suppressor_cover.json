@@ -17,10 +17,142 @@
       "these dimensions appear to be within reason for the product: 7 in. is a common suppressor length, and an average diameter between 1 in. and 2 in. would be 1.5 in."
     ],
 
+    "//TODO": [
+      "audit dimensions and volume (use thickness or width × height?)"
+    ],
+
     "name": {
-      "str": "Cole-TAC HTP suppressor cover"
+      "str": "soft suppressor cover"
     },
-    "description": "A soft-sleeve suppressor cover.  \"HTP\" stands for \"High Temperature Python\", referencing a previous model by the same company.  The inner core is rated for 3000°F, or around 1650°C.  Three Velcro straps supposed with plastic buckles allow for a high degree of diameter adjustment.  Company logo -- \"Cole-TAC\", with the initial C looking like a scope reticle -- is sewn onto a leaf, just before the farthest strap.  Like other suppressor covers, it requires a suppressor of at least 7 in. in length.",
+    "description": "A capable soft-sleeve suppressor cover.  <suppressor_cover_descriptor>  <suppressor_cover_length>",
+    "expand_snippets": true,
+
+    "variant_type": "gun",
+    "//variants": [
+      "variants don't account for the possible mixes of sleeve and strap colors"
+    ],
+    "variants": [
+      {
+        "id": "black",
+
+        "name": {
+          "str": "Cole-TAC HTP suppressor cover"
+        },
+        "description": "A soft-sleeve suppressor cover.  \"HTP\" stands for \"High Temperature Python\", referencing a previous model by the same company.  The inner core is rated for 3000°F, or around 1650°C.  Three Velcro straps supposed with plastic buckles allow for a high degree of diameter adjustment.  Company logo -- \"Cole-TAC\", with the initial C looking like a scope reticle -- is sewn onto a leaf, just before the farthest strap.  <suppressor_cover_length>  <variant_black>",
+        "expand_snippets": true,
+        "weight": 8
+      },
+      {
+        "id": "olive",
+
+        "name": {
+          "str": "Cole-TAC HTP suppressor cover"
+        },
+        "description": "A soft-sleeve suppressor cover.  \"HTP\" stands for \"High Temperature Python\", referencing a previous model by the same company.  The inner core is rated for 3000°F, or around 1650°C.  Three Velcro straps supposed with plastic buckles allow for a high degree of diameter adjustment.  Company logo -- \"Cole-TAC\", with the initial C looking like a scope reticle -- is sewn onto a leaf, just before the farthest strap.  <suppressor_cover_length>  <variant_olive>",
+        "expand_snippets": true,
+        "weight": 1
+      },
+      {
+        "id": "coyote",
+
+        "name": {
+          "str": "Cole-TAC HTP suppressor cover"
+        },
+        "description": "A soft-sleeve suppressor cover.  \"HTP\" stands for \"High Temperature Python\", referencing a previous model by the same company.  The inner core is rated for 3000°F, or around 1650°C.  Three Velcro straps supposed with plastic buckles allow for a high degree of diameter adjustment.  Company logo -- \"Cole-TAC\", with the initial C looking like a scope reticle -- is sewn onto a leaf, just before the farthest strap.  <suppressor_cover_length>  <variant_coyote>",
+        "expand_snippets": true,
+        "weight": 2
+      },
+      {
+        "id": "fde",
+
+        "name": {
+          "str": "Cole-TAC HTP suppressor cover"
+        },
+        "description": "A soft-sleeve suppressor cover.  \"HTP\" stands for \"High Temperature Python\", referencing a previous model by the same company.  The inner core is rated for 3000°F, or around 1650°C.  Three Velcro straps supposed with plastic buckles allow for a high degree of diameter adjustment.  Company logo -- \"Cole-TAC\", with the initial C looking like a scope reticle -- is sewn onto a leaf, just before the farthest strap.  <suppressor_cover_length>  <variant_fde>",
+        "expand_snippets": true,
+        "weight": 4
+      },
+      {
+        "id": "multicam",
+
+        "name": {
+          "str": "Cole-TAC HTP suppressor cover"
+        },
+        "description": "A soft-sleeve suppressor cover.  \"HTP\" stands for \"High Temperature Python\", referencing a previous model by the same company.  The inner core is rated for 3000°F, or around 1650°C.  Three Velcro straps supposed with plastic buckles allow for a high degree of diameter adjustment.  Company logo -- \"Cole-TAC\", with the initial C looking like a scope reticle -- is sewn onto a leaf, just before the farthest strap.  <suppressor_cover_length>  <variant_multicam>",
+        "expand_snippets": true,
+        "weight": 4
+      },
+      {
+        "id": "multicam_black",
+
+        "name": {
+          "str": "Cole-TAC HTP suppressor cover"
+        },
+        "description": "A soft-sleeve suppressor cover.  \"HTP\" stands for \"High Temperature Python\", referencing a previous model by the same company.  The inner core is rated for 3000°F, or around 1650°C.  Three Velcro straps supposed with plastic buckles allow for a high degree of diameter adjustment.  Company logo -- \"Cole-TAC\", with the initial C looking like a scope reticle -- is sewn onto a leaf, just before the farthest strap.  <suppressor_cover_length>  <variant_multicam_black>",
+        "expand_snippets": true,
+        "weight": 1
+      },
+      {
+        "id": "ranger",
+
+        "name": {
+          "str": "Cole-TAC HTP suppressor cover"
+        },
+        "description": "A soft-sleeve suppressor cover.  \"HTP\" stands for \"High Temperature Python\", referencing a previous model by the same company.  The inner core is rated for 3000°F, or around 1650°C.  Three Velcro straps supposed with plastic buckles allow for a high degree of diameter adjustment.  Company logo -- \"Cole-TAC\", with the initial C looking like a scope reticle -- is sewn onto a leaf, just before the farthest strap.  <suppressor_cover_length>  <variant_ranger>",
+        "expand_snippets": true,
+        "weight": 2
+      },
+      {
+        "id": "orange",
+
+        "name": {
+          "str": "Cole-TAC HTP suppressor cover"
+        },
+        "description": "A soft-sleeve suppressor cover.  \"HTP\" stands for \"High Temperature Python\", referencing a previous model by the same company.  The inner core is rated for 3000°F, or around 1650°C.  Three Velcro straps supposed with plastic buckles allow for a high degree of diameter adjustment.  Company logo -- \"Cole-TAC\", with the initial C looking like a scope reticle -- is sewn onto a leaf, just before the farthest strap.  <suppressor_cover_length>  <variant_orange>",
+        "expand_snippets": true,
+        "weight": 1
+      },
+      {
+        "id": "red",
+
+        "name": {
+          "str": "Cole-TAC HTP suppressor cover"
+        },
+        "description": "A soft-sleeve suppressor cover.  \"HTP\" stands for \"High Temperature Python\", referencing a previous model by the same company.  The inner core is rated for 3000°F, or around 1650°C.  Three Velcro straps supposed with plastic buckles allow for a high degree of diameter adjustment.  Company logo -- \"Cole-TAC\", with the initial C looking like a scope reticle -- is sewn onto a leaf, just before the farthest strap.  <suppressor_cover_length>  <variant_red>",
+        "expand_snippets": true,
+        "weight": 1
+      },
+      {
+        "id": "blue_royal",
+
+        "name": {
+          "str": "Cole-TAC HTP suppressor cover"
+        },
+        "description": "A soft-sleeve suppressor cover.  \"HTP\" stands for \"High Temperature Python\", referencing a previous model by the same company.  The inner core is rated for 3000°F, or around 1650°C.  Three Velcro straps supposed with plastic buckles allow for a high degree of diameter adjustment.  Company logo -- \"Cole-TAC\", with the initial C looking like a scope reticle -- is sewn onto a leaf, just before the farthest strap.  <suppressor_cover_length>  This one is colored bright blue.",
+        "expand_snippets": true,
+        "weight": 1
+      },
+      {
+        "id": "woodland",
+
+        "name": {
+          "str": "Cole-TAC HTP suppressor cover"
+        },
+        "description": "A soft-sleeve suppressor cover.  \"HTP\" stands for \"High Temperature Python\", referencing a previous model by the same company.  The inner core is rated for 3000°F, or around 1650°C.  Three Velcro straps supposed with plastic buckles allow for a high degree of diameter adjustment.  Company logo -- \"Cole-TAC\", with the initial C looking like a scope reticle -- is sewn onto a leaf, just before the farthest strap.  <suppressor_cover_length>  <variant_woodland>",
+        "expand_snippets": true,
+        "weight": 2
+      },
+      {
+        "id": "grey",
+
+        "name": {
+          "str": "Cole-TAC HTP suppressor cover"
+        },
+        "description": "A soft-sleeve suppressor cover.  \"HTP\" stands for \"High Temperature Python\", referencing a previous model by the same company.  The inner core is rated for 3000°F, or around 1650°C.  Three Velcro straps supposed with plastic buckles allow for a high degree of diameter adjustment.  Company logo -- \"Cole-TAC\", with the initial C looking like a scope reticle -- is sewn onto a leaf, just before the farthest strap.  <suppressor_cover_length>  <variant_grey>",
+        "expand_snippets": true,
+        "weight": 2
+      }
+    ],
 
     "weight": "153 g",
     "//dimensions": {
@@ -38,33 +170,65 @@
     "//material": "while kevlar isn't clearly stated in the source, this appears to be the material of the bottom layer touching the suppressor in other models",
     "material": ["kevlar", "nylon"],
 
-    "//heat_tolerance": "3000°F",
-    "loudness_modifier": -6,
+    "//heat_tolerance": "2500°F",
+    "loudness_modifier": -5,
     "dispersion_modifier": -3,
 
     "price": "95 USD"
   },
-
   {
     "id": "suppressor_cover_coletac_corset",
     "copy-from": "suppressor_cover",
     "type": "GUNMOD",
 
-    "//sources": ["https://www.cole-tac.com/product/corset-suppressor-cover/"],
+    "//sources": [
+      "https://www.cole-tac.com/product/corset-suppressor-cover/",
+      [
+        "https://coletac.eu/products/hussar-suppressor-cover",
+        "weight reference"
+      ]
+    ],
 
     "name": {
-      "str": "Cole-TAC Corset suppressor cover"
+      "str": "high-end suppressor cover"
     },
-    "description": "A soft-sleeve suppressor cover.  It has a clean and unassuming design.  The cover is rated for 3150°F, or around 1730°C, making it the highest-rated cover on the market.  An elaborate system of cords allows for a high degree of diameter adjustment.  Company logo -- \"Cole-TAC\", with the initial C looking like a scope reticle -- is sewn onto a leaf, on the side closer to the muzzle.  Like other suppressor covers, it requires a suppressor of at least 7 in. in length.",
+    "description": "A high-performance soft-sleeve suppressor cover with a simple design.  <suppressor_cover_descriptor>  <suppressor_cover_length>",
+    "expand_snippets": true,
+
+    "variant_type": "gun",
+    "variants": [
+      {
+        "id": "black",
+
+        "name": {
+          "str": "Cole-TAC Corset suppressor cover"
+        },
+        "description": "A soft-sleeve suppressor cover.  It has a clean and unassuming design.  The cover is rated for 3150°F, or around 1730°C, making it the highest-rated cover on the market.  An elaborate system of cords allows for a high degree of diameter adjustment.  Company logo -- \"Cole-TAC\", with the initial C looking like a scope reticle -- is sewn onto a leaf, on the side closer to the muzzle.  <suppressor_cover_length>  <variant_black>",
+        "expand_snippets": true,
+        "weight": 2
+      },
+      {
+        "id": "fde",
+
+        "name": {
+          "str": "Cole-TAC Corset suppressor cover"
+        },
+        "description": "A soft-sleeve suppressor cover.  It has a clean and unassuming design.  The cover is rated for 3150°F, or around 1730°C, making it the highest-rated cover on the market.  An elaborate system of cords allows for a high degree of diameter adjustment.  Company logo -- \"Cole-TAC\", with the initial C looking like a scope reticle -- is sewn onto a leaf, on the side closer to the muzzle.  <suppressor_cover_length>  <variant_fde>",
+        "expand_snippets": true,
+        "weight": 1
+      }
+    ],
 
     "//weight": [
+      "the listed weight appears to be incorrect",
       "listed as 0.25 oz / in., or 0.28 g / mm",
-      "we assume a standard 7-in. length"
+      "for a standard length of 7 in. = 177.8 mm, that's merely 49.784 g",
+      "instead, we reference a different model of cover from the same manufacturer, with European listings using metric measurements",
+      "10 g/cm = 1 g/mm * 177.8 mm = 177.8 g"
     ],
-    "weight": "50 g",
+    "weight": "178 g",
 
-    "//material": "source also lists carbon fiber, but as of 0.G it isn't in the game",
-    "material": ["kevlar", "nomex"],
+    "material": ["kevlar", "carbonfiber", "nomex"],
 
     "//heat_tolerance": "3150°F",
     "loudness_modifier": -7,
@@ -72,75 +236,6 @@
 
     "price": "125 USD"
   },
-
-  {
-    "id": "suppressor_cover_silent_legion_sc7",
-    "copy-from": "suppressor_cover",
-    "type": "GUNMOD",
-
-    "//sources": ["https://silentlegion.com/products/suppressor-covers"],
-
-    "name": {
-      "str": "Silent Legion SC-7 suppressor cover"
-    },
-    "description": "A soft-sleeve suppressor cover.  It has a clean and unassuming design.  The entire cover is rated for 1800°F, or around 980°C.  Three Velcro straps over the sleeve allow for a high degree of diameter adjustment.  Company logo -- a Spartan-looking helmet, with the eyeholes in the shape of two suppressed pistols -- is sewn next to the farthest strap.  Like other suppressor covers, it requires a suppressor of at least 7 in. in length.",
-
-    "//weight": [
-      "none listed in source",
-      "however, we can infer that it's heavier than the default weight because it shares a similar construction to the Cole-TAC HTP cover",
-      "we err on the side of caution and use a similar, though slightly-smaller, weight for SC-7"
-    ],
-    "weight": "146 g",
-
-    "//heat_tolerance": "1800°F",
-    "loudness_modifier": -4,
-    "dispersion_modifier": -2,
-
-    "price": "70 USD"
-  },
-
-  {
-    "id": "suppressor_cover_armageddon_gear",
-    "copy-from": "suppressor_cover",
-    "type": "GUNMOD",
-
-    "//sources": [
-      "https://armageddongear.com/product/suppressor-cover-2/",
-      "https://www.capitolarmory.com/armageddon-gear-suppressor-mirage-cover-tbac-338ba-1-85-x-10.html",
-      "https://www.pewpewtactical.com/best-suppressor-covers/"
-    ],
-
-    "name": {
-      "str": "Armageddon Gear suppressor cover"
-    },
-    "description": "A soft-sleeve suppressor cover.  It has a clean and unassuming design.  The entire cover is rated for 800°F, or around 430°C.  Cords over the sleeve allow for a high degree of diameter adjustment.  Like other suppressor covers, it requires a suppressor of at least 7 in. in length.",
-
-    "//weight": [
-      "source lists as 0.81 lbs, which seems too high",
-      "right now, this cover is the worst possible choice for a gun, with its low bonuses and high weight",
-      "for the purposes of balance, we assume that 0.81 lbs is the weight of the largest possible length: 10.375 in.",
-      "from that, we extrapolate the weight of this 7-in. cover: 0.81 lbs ≈ 230 g / 10.375 ≈ 22.17 * 7 ≈ 155 g"
-    ],
-    "weight": "155 g",
-    "//dimensions": {
-      "length": "7 in",
-      "diameter": "1.97 in",
-      "raw": "350 ml",
-      "trim": 0.6,
-      "notes": [
-        "diameter acquired from visual reference",
-        "trim applies to the internal part of the cover, where a suppressor would be, a space that would otherwise be empty and folded through"
-      ]
-    },
-    "volume": "140 ml",
-
-    "//heat_tolerance": "800°F",
-    "loudness_modifier": -2,
-    "dispersion_modifier": -1,
-
-    "price": "87 USD"
-  },
-
   {
     "id": "suppressor_cover_libertys_defense",
     "copy-from": "suppressor_cover",
@@ -152,23 +247,48 @@
     ],
 
     "name": {
-      "str": "Liberty's Defense straightJacket suppressor cover"
+      "str": "tough suppressor cover"
     },
-    "description": "A soft-sleeve suppressor cover.  It has a rugged-looking, almost jury-rigged design, with Liberty's Defense logo -- a simplified figure of an archer with a large bow -- near the front of the cover.  Its mineral-based inner core is rated for 3000°F, or around 1650°C, while the Kevlar outer sleeve is rated for 2000°F, or around 1100°C.  Stainless steel cord over the sleeve allow for a high degree of diameter adjustment.  Like other suppressor covers, it requires a suppressor of at least 7 in. in length.",
+    "description": "A soft-sleeve suppressor cover with rugged design.  <suppressor_cover_descriptor>  <suppressor_cover_length>",
+    "expand_snippets": true,
+
+    "variant_type": "gun",
+    "variants": [
+      {
+        "id": "black",
+
+        "name": {
+          "str": "Liberty's Defense straightJacket suppressor cover"
+        },
+        "description": "A soft-sleeve suppressor cover.  It has a rugged-looking, almost jury-rigged design, with Liberty's Defense logo -- a simplified figure of an archer with a large bow -- near the front of the cover.  Its mineral-based inner core is rated for 3000°F, or around 1650°C, while the Kevlar outer sleeve is rated for 2000°F, or around 1100°C.  Stainless steel cord over the sleeve allow for a high degree of diameter adjustment.  <suppressor_cover_length>  <variant_black>",
+        "expand_snippets": true,
+        "weight": 2
+      },
+      {
+        "id": "tan",
+
+        "name": {
+          "str": "Liberty's Defense straightJacket suppressor cover"
+        },
+        "description": "A soft-sleeve suppressor cover.  It has a rugged-looking, almost jury-rigged design, with Liberty's Defense logo -- a simplified figure of an archer with a large bow -- near the front of the cover.  Its mineral-based inner core is rated for 3000°F, or around 1650°C, while the Kevlar outer sleeve is rated for 2000°F, or around 1100°C.  Stainless steel cord over the sleeve allow for a high degree of diameter adjustment.  <suppressor_cover_length>  <variant_tan>",
+        "expand_snippets": true,
+        "weight": 1
+      }
+    ],
 
     "//weight": [
       "PDF source provides a listing of weights for specific models of suppressors, because a cover is generally bespoke",
       "to make it more generic, we can calculate an approximate weight for a 7-in. suppressor of similar construction",
-      "taking Dead Air Nomad 30 suppressor as the starting point: 7.7 oz / 6.5 in ≈ 1.19 * 7 in. ≈ 8.3 oz ≈ 235 g"
+      "taking Dead Air Nomad 30 suppressor as the starting point: 7.7 oz / 6.5 in = 1.1846 oz/in × 7 in = 8.2922 oz = 235.08 g"
     ],
     "weight": "235 g",
 
     "//material": [
-      "inner core is a combination of Kevlar, basalt, amorphous silica, and aluminized silica",
+      "inner core is a combination of Kevlar, basalt, amorphous silica, and aluminized silica (`crystal` stands in for the minerals)",
       "outer shell is Kevlar",
       "adjustment cord is stainless steel"
     ],
-    "material": ["kevlar", "nylon", "steel"],
+    "material": ["kevlar", "nylon", "crystal", "stainless_steel"],
 
     "//heat_tolerance": "3000°F",
     "loudness_modifier": -6,
@@ -176,7 +296,6 @@
 
     "price": "322 USD"
   },
-
   {
     "id": "suppressor_cover_bpg_heavy",
     "copy-from": "suppressor_cover",
@@ -187,10 +306,71 @@
       "https://www.pewpewtactical.com/best-suppressor-covers/"
     ],
 
+    "//notes": [
+      "it's considered heavy due to its large intended diameter, allowing ~1.5-in. suppressors to fit",
+      "other, 'lighter' models are available for smaller-diameter suppressors",
+      "for now, we pretend that the cover could be 'tied down' to accept smaller-diameter suppressors just as easily"
+    ],
+
     "name": {
-      "str": "BPG heavy suppressor cover"
+      "str": "fiberglass suppressor cover"
     },
-    "description": "A soft-sleeve suppressor cover, from Burn Proof Gear.  Its fiberglass inner core is rated for 2000°F, or around 1100°C, while the Nomex outer sleeve is rated for 1000°F, or around 540°C.  Cords over the sleeve allow for a high degree of diameter adjustment.  Like other suppressor covers, it requires a suppressor of at least 7 in. in length.",
+    "description": "A soft-sleeve suppressor cover with a fiberglass core.  <suppressor_cover_descriptor>  <suppressor_cover_length>",
+    "expand_snippets": true,
+
+    "variant_type": "gun",
+    "variants": [
+      {
+        "id": "black",
+
+        "name": {
+          "str": "BPG heavy suppressor cover"
+        },
+        "description": "A soft-sleeve suppressor cover, from Burn Proof Gear.  Its fiberglass inner core is rated for 2000°F, or around 1100°C, while the Nomex outer sleeve is rated for 1000°F, or around 540°C.  Cords over the sleeve allow for a high degree of diameter adjustment.  <suppressor_cover_length>  <variant_black>",
+        "expand_snippets": true,
+        "weight": 2
+      },
+      {
+        "id": "tan",
+
+        "name": {
+          "str": "BPG heavy suppressor cover"
+        },
+        "description": "A soft-sleeve suppressor cover, from Burn Proof Gear.  Its fiberglass inner core is rated for 2000°F, or around 1100°C, while the Nomex outer sleeve is rated for 1000°F, or around 540°C.  Cords over the sleeve allow for a high degree of diameter adjustment.  <suppressor_cover_length>  <variant_tan>",
+        "expand_snippets": true,
+        "weight": 1
+      },
+      {
+        "id": "fde",
+
+        "name": {
+          "str": "BPG heavy suppressor cover"
+        },
+        "description": "A soft-sleeve suppressor cover, from Burn Proof Gear.  Its fiberglass inner core is rated for 2000°F, or around 1100°C, while the Nomex outer sleeve is rated for 1000°F, or around 540°C.  Cords over the sleeve allow for a high degree of diameter adjustment.  <suppressor_cover_length>  <variant_fde>",
+        "expand_snippets": true,
+        "weight": 1
+      },
+      {
+        "id": "grey",
+
+        "name": {
+          "str": "BPG heavy suppressor cover"
+        },
+        "description": "A soft-sleeve suppressor cover, from Burn Proof Gear.  Its fiberglass inner core is rated for 2000°F, or around 1100°C, while the Nomex outer sleeve is rated for 1000°F, or around 540°C.  Cords over the sleeve allow for a high degree of diameter adjustment.  <suppressor_cover_length>  <variant_grey>",
+        "expand_snippets": true,
+        "weight": 1
+      },
+      {
+        "id": "multicam",
+
+        "name": {
+          "str": "BPG heavy suppressor cover"
+        },
+        "description": "A soft-sleeve suppressor cover, from Burn Proof Gear.  Its fiberglass inner core is rated for 2000°F, or around 1100°C, while the Nomex outer sleeve is rated for 1000°F, or around 540°C.  Cords over the sleeve allow for a high degree of diameter adjustment.  <suppressor_cover_length>  <variant_multicam>",
+        "expand_snippets": true,
+        "weight": 1
+      }
+    ],
 
     "weight": "99 g",
     "//dimensions": {
@@ -205,16 +385,14 @@
     },
     "volume": "141 ml",
 
-    "//material": "inner shell is fiberglass",
-    "material": ["kevlar", "nylon"],
+    "material": ["kevlar", "fiberglass", "nylon"],
 
-    "//heat_tolerance": ["2000°F", "assumes one of the higher-temp models"],
+    "//heat_tolerance": "2000°F",
     "loudness_modifier": -4,
     "dispersion_modifier": -2,
 
     "price": "150 USD"
   },
-
   {
     "id": "suppressor_cover_rifles_only_had",
     "copy-from": "suppressor_cover",
@@ -226,9 +404,64 @@
     ],
 
     "name": {
-      "str": "Rifles Only HAD suppressor cover"
+      "str": "two-piece suppressor cover"
     },
-    "description": "A soft-sleeve suppressor cover.  HAD stands for \"Heat Abatement Device\".  Its inner core is rated for 3000°F, or around 1650°C, while the outer sleeve is rated for 2000°F, or around 1100°C.  Cords over the sleeve allow for a high degree of diameter adjustment.  Like other suppressor covers, it requires a suppressor of at least 7 in. in length.",
+    "description": "A soft-sleeve suppressor cover with a high-performance inner core.  <suppressor_cover_descriptor>  <suppressor_cover_length>",
+    "expand_snippets": true,
+
+    "variant_type": "gun",
+    "variants": [
+      {
+        "id": "black",
+
+        "name": {
+          "str": "Rifles Only HAD suppressor cover"
+        },
+        "description": "A soft-sleeve suppressor cover.  HAD stands for \"Heat Abatement Device\".  Its inner core is rated for 3000°F, or around 1650°C, while the sleeve is rated for 2000°F, or around 1100°C.  Cords over the sleeve allow for a high degree of diameter adjustment.  <suppressor_cover_length>  <variant_black>",
+        "expand_snippets": true,
+        "weight": 2
+      },
+      {
+        "id": "tan",
+
+        "name": {
+          "str": "Rifles Only HAD suppressor cover"
+        },
+        "description": "A soft-sleeve suppressor cover.  HAD stands for \"Heat Abatement Device\".  Its inner core is rated for 3000°F, or around 1650°C, while the sleeve is rated for 2000°F, or around 1100°C.  Cords over the sleeve allow for a high degree of diameter adjustment.  <suppressor_cover_length>  <variant_tan>",
+        "expand_snippets": true,
+        "weight": 1
+      },
+      {
+        "id": "fde",
+
+        "name": {
+          "str": "Rifles Only HAD suppressor cover"
+        },
+        "description": "A soft-sleeve suppressor cover.  HAD stands for \"Heat Abatement Device\".  Its inner core is rated for 3000°F, or around 1650°C, while the sleeve is rated for 2000°F, or around 1100°C.  Cords over the sleeve allow for a high degree of diameter adjustment.  <suppressor_cover_length>  <variant_fde>",
+        "expand_snippets": true,
+        "weight": 1
+      },
+      {
+        "id": "grey",
+
+        "name": {
+          "str": "Rifles Only HAD suppressor cover"
+        },
+        "description": "A soft-sleeve suppressor cover.  HAD stands for \"Heat Abatement Device\".  Its inner core is rated for 3000°F, or around 1650°C, while the sleeve is rated for 2000°F, or around 1100°C.  Cords over the sleeve allow for a high degree of diameter adjustment.  <suppressor_cover_length>  <variant_grey>",
+        "expand_snippets": true,
+        "weight": 1
+      },
+      {
+        "id": "multicam",
+
+        "name": {
+          "str": "Rifles Only HAD suppressor cover"
+        },
+        "description": "A soft-sleeve suppressor cover.  HAD stands for \"Heat Abatement Device\".  Its inner core is rated for 3000°F, or around 1650°C, while the sleeve is rated for 2000°F, or around 1100°C.  Cords over the sleeve allow for a high degree of diameter adjustment.  <suppressor_cover_length>  <variant_multicam>",
+        "expand_snippets": true,
+        "weight": 1
+      }
+    ],
 
     "//dimensions": {
       "length": "7 in",
@@ -248,7 +481,6 @@
 
     "price": "95 USD"
   },
-
   {
     "id": "suppressor_cover_manta_v2",
     "copy-from": "suppressor_cover",
@@ -259,9 +491,64 @@
     ],
 
     "name": {
-      "str": "Manta Defense V2 suppressor cover"
+      "str": "rubber suppressor cover"
     },
-    "description": "A rubber suppressor cover.  Its unique design and material offer V2 an interesting feel, without sacrificing performance.  On top of deep grooves molded into the cover, a flat logo of Manta Defense is printed.  Like other suppressor covers, it requires a suppressor of at least 7 in. in length.",
+    "description": "A rubber suppressor cover with deep grooves.  <suppressor_cover_descriptor>  <suppressor_cover_length>",
+    "expand_snippets": true,
+
+    "variant_type": "gun",
+    "variants": [
+      {
+        "id": "black",
+
+        "name": {
+          "str": "Manta Defense V2 suppressor cover"
+        },
+        "description": "A rubber suppressor cover.  Its unique design and material offer V2 an interesting look and feel, without sacrificing performance.  On top of deep grooves molded into the cover, a flat logo of Manta Defense is printed.  <suppressor_cover_length>  <variant_black>",
+        "expand_snippets": true,
+        "weight": 2
+      },
+      {
+        "id": "olive",
+
+        "name": {
+          "str": "Manta Defense V2 suppressor cover"
+        },
+        "description": "A rubber suppressor cover.  Its unique design and material offer V2 an interesting look and feel, without sacrificing performance.  On top of deep grooves molded into the cover, a flat logo of Manta Defense is printed.  <suppressor_cover_length>  <variant_olive>",
+        "expand_snippets": true,
+        "weight": 1
+      },
+      {
+        "id": "fde",
+
+        "name": {
+          "str": "Manta Defense V2 suppressor cover"
+        },
+        "description": "A rubber suppressor cover.  Its unique design and material offer V2 an interesting look and feel, without sacrificing performance.  On top of deep grooves molded into the cover, a flat logo of Manta Defense is printed.  <suppressor_cover_length>  <variant_fde>",
+        "expand_snippets": true,
+        "weight": 2
+      },
+      {
+        "id": "grey",
+
+        "name": {
+          "str": "Manta Defense V2 suppressor cover"
+        },
+        "description": "A rubber suppressor cover.  Its unique design and material offer V2 an interesting look and feel, without sacrificing performance.  On top of deep grooves molded into the cover, a flat logo of Manta Defense is printed.  <suppressor_cover_length>  <variant_grey>",
+        "expand_snippets": true,
+        "weight": 1
+      },
+      {
+        "id": "woodland",
+
+        "name": {
+          "str": "Manta Defense V2 suppressor cover"
+        },
+        "description": "A rubber suppressor cover.  Its unique design and material offer V2 an interesting look and feel, without sacrificing performance.  On top of deep grooves molded into the cover, a flat logo of Manta Defense is printed.  <suppressor_cover_length>  This one has a pattern meant to look like woodland camo, but it looks like smudged dark greens instead.",
+        "expand_snippets": true,
+        "weight": 1
+      }
+    ],
 
     "weight": "203 g",
     "//dimensions": {

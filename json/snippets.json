@@ -87,5 +87,20 @@
     "text": [
       "It emits green laser, which is easier to aim with than the more-common red laser."
     ]
+  },
+
+  {
+    "type": "snippet",
+    "category": "<suppressor_cover_descriptor>",
+    "text": [
+      "Wraps around a suppressor and shields the user from the heat, reducing the heat mirage rising from it, as well as slightly dampening the sound of the shot."
+    ]
+  },
+  {
+    "type": "snippet",
+    "category": "<suppressor_cover_length>",
+    "text": [
+      "Like many suppressor covers, it requires a suppressor of at least 7 in. in length."
+    ]
   }
 ]
