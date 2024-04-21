@@ -63,7 +63,6 @@
     "price": "140 USD",
     "price_postapoc": "1 USD"
   },
-
   {
     "id": "flashlight_olight_odin_mini_on",
     "copy-from": "flashlight_olight_odin_mini",
@@ -104,7 +103,6 @@
 
     "flags": ["LIGHT_156", "TRADER_AVOID", "WATER_BREAK"]
   },
-
   {
     "id": "flashlight_surefire_m600u",
     "copy-from": "flashlight_abstract",
@@ -171,7 +169,6 @@
     "price": "360 USD",
     "price_postapoc": "1 USD"
   },
-
   {
     "id": "flashlight_surefire_m600u_on",
     "copy-from": "flashlight_surefire_m600u",
@@ -212,7 +209,6 @@
 
     "flags": ["LIGHT_125", "TRADER_AVOID", "WATER_BREAK"]
   },
-
   {
     "id": "flashlight_protac_rail_mount_2",
     "copy-from": "flashlight_abstract",
@@ -282,7 +278,6 @@
     "price": "360 USD",
     "price_postapoc": "1 USD"
   },
-
   {
     "id": "flashlight_protac_rail_mount_2_on",
     "copy-from": "flashlight_protac_rail_mount_2",
@@ -323,7 +318,6 @@
 
     "flags": ["LIGHT_78", "TRADER_AVOID", "WATER_BREAK"]
   },
-
   {
     "id": "flashlight_surefire_m300c",
     "copy-from": "flashlight_abstract",
@@ -389,7 +383,6 @@
     "price": "360 USD",
     "price_postapoc": "1 USD"
   },
-
   {
     "id": "flashlight_surefire_m300c_on",
     "copy-from": "flashlight_surefire_m300c",
@@ -430,7 +423,6 @@
 
     "flags": ["LIGHT_63", "TRADER_AVOID", "WATER_BREAK"]
   },
-
   {
     "id": "flashlight_inforce_wmlx_gen2",
     "copy-from": "flashlight_abstract",
@@ -504,7 +496,6 @@
     "price": "225 USD",
     "price_postapoc": "1 USD"
   },
-
   {
     "id": "flashlight_inforce_wmlx_gen2_on",
     "copy-from": "flashlight_inforce_wmlx_gen2",
@@ -545,7 +536,6 @@
     "//flags": "waterproof up to 20 meters, therefore no WATER_BREAK",
     "flags": ["LIGHT_100", "TRADER_AVOID"]
   },
-
   {
     "id": "flashlight_inforce_wml_gen2",
     "copy-from": "flashlight_abstract",
@@ -617,7 +607,6 @@
     "price": "175 USD",
     "price_postapoc": "1 USD"
   },
-
   {
     "id": "flashlight_inforce_wml_gen2_on",
     "copy-from": "flashlight_inforce_wml_gen2",
@@ -658,7 +647,6 @@
     "//flags": "waterproof up to 20 meters, therefore no WATER_BREAK",
     "flags": ["LIGHT_50", "TRADER_AVOID"]
   },
-
   {
     "id": "flashlight_cloud_owl",
     "copy-from": "flashlight_abstract",
@@ -725,7 +713,6 @@
     "price": "380 USD",
     "price_postapoc": "1 USD"
   },
-
   {
     "id": "flashlight_cloud_owl_on",
     "copy-from": "flashlight_cloud_owl",
@@ -768,7 +755,6 @@
     "//flags": "waterproof up to 200 feet, therefore no WATER_BREAK",
     "flags": ["LIGHT_150", "TRADER_AVOID"]
   },
-
   {
     "id": "flashlight_modlight_pl350",
     "copy-from": "flashlight_abstract",
@@ -834,7 +820,6 @@
     "price": "319 USD",
     "price_postapoc": "1 USD"
   },
-
   {
     "id": "flashlight_modlight_pl350_on",
     "copy-from": "flashlight_modlight_pl350",
@@ -879,7 +864,6 @@
 
     "flags": ["LIGHT_169", "TRADER_AVOID", "WATER_BREAK"]
   },
-
   {
     "id": "flashlight_cloud_rein",
     "copy-from": "flashlight_abstract",
@@ -945,7 +929,6 @@
     "price": "399 USD",
     "price_postapoc": "1 USD"
   },
-
   {
     "id": "flashlight_cloud_rein_on",
     "copy-from": "flashlight_cloud_rein",

@@ -32,7 +32,6 @@
 
     "price": "180 USD"
   },
-
   {
     "id": "muzzle_brake_sjc_titan",
     "copy-from": "muzzle_brake_abstract",
@@ -66,7 +65,6 @@
 
     "price": "100 USD"
   },
-
   {
     "id": "muzzle_brake_v7",
     "copy-from": "muzzle_brake_abstract",
@@ -106,7 +104,6 @@
     "//price": "for the 5/8 × 24 / satin stainless model",
     "price": "97 USD"
   },
-
   {
     "id": "muzzle_brake_v7_furion",
     "copy-from": "muzzle_brake_abstract",
@@ -145,7 +142,6 @@
     "//price": "for the titanium 5.56mm model",
     "price": "153 USD"
   },
-
   {
     "id": "muzzle_brake_apex_esa",
     "copy-from": "muzzle_brake_abstract",
@@ -184,7 +180,6 @@
     "//price": "for the square design",
     "price": "90 USD"
   },
-
   {
     "id": "muzzle_brake_dead_air_keymount",
     "copy-from": "muzzle_brake_abstract",
@@ -222,7 +217,6 @@
 
     "price": "89 USD"
   },
-
   {
     "id": "muzzle_brake_thunder_beast_sr",
     "copy-from": "muzzle_brake_abstract",
@@ -269,7 +263,6 @@
 
     "price": "145 USD"
   },
-
   {
     "id": "muzzle_brake_surefire_socom",
     "copy-from": "muzzle_brake_abstract",
@@ -315,7 +308,6 @@
     "//price": "presumed to be the price for the smaller caliber (.223 / 5.56mm)",
     "price": "169 USD"
   },
-
   {
     "id": "muzzle_brake_rearden_spb",
     "copy-from": "muzzle_brake_abstract",
