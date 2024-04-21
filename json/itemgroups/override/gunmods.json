@@ -7,13 +7,16 @@
       [
         ["pistol_grip", "match_trigger"],
         "spawn as a built-in mod for some weapons, but shouldn't be installable onto others"
+      ],
+      [
+        ["improve_sights"],
+        "doesn't make sense as an item in the current architecture"
       ]
     ],
 
     "items": [
       { "item": "brass_catcher", "prob": 20 },
-      { "item": "improve_sights", "prob": 50 },
-      { "item": "muzzle_brake", "prob": 20 },
+      { "item": "compensator", "prob": 40 },
       { "item": "rifle_scope", "prob": 30 },
       { "item": "shoulder_strap", "prob": 40 },
       { "item": "single_sling", "prob": 40 },
@@ -22,7 +25,6 @@
       { "item": "offset_sight_rail", "prob": 30 },
       { "item": "cheek_pad", "prob": 25 },
       { "item": "rail_laser_sight", "prob": 40 },
-      { "item": "red_dot_sight", "prob": 30 },
       { "item": "choke", "prob": 20 },
 
       { "item": "laser_sight_firefield", "prob": 30 },
