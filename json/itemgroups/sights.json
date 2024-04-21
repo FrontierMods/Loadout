@@ -107,15 +107,16 @@
     "id": "loadout_all_iron_sights",
 
     "//notes": [
-      "for gun stores and other locations where you may see a variety of different attachments"
+      "for gun stores and other locations where you may see a variety of different attachments",
+      [
+        "iron sights do not spawn currently due to not having the infrastructure to use them meaningfully",
+        "they used to spawn with 80% chance in this group"
+      ]
     ],
 
     "subtype": "collection",
 
-    "groups": [
-      ["loadout_sights_iron", 80],
-      ["loadout_sights_offset", 20]
-    ]
+    "groups": [["loadout_sights_offset", 100]]
   },
 
   {
