@@ -5,14 +5,28 @@
     "type": "GUNMOD",
 
     "//sources": [
-      "https://www.leapers.com/utg-3x-magnifier-with-fliptoside-qd-mount-we-adjustable-scp-mf3weqs.html",
+      "https://www.leapers.com/products-utg-scp-mf3weqs.html",
       "https://www.optics-trade.eu/en/bushnell-ar-optics-3x-magnifier.html"
     ],
 
     "name": {
-      "str": "Leapers UTG 3× sight magnifier"
+      "str": "quick-detach 3× sight magnifier"
     },
-    "description": "This bulky sight attaches in front of a present red dot or holographic sight, magnifying the sight picture by a factor of 3.  This allows you to aim at a further distance reliably, without changing sights.  The main disadvantage of a magnifier is the weight it adds to a firearm, making it that much less ergonomic.",
+    "description": "A bulky magnifier.  Mounts behind a red dot or holographic sight, allowing it to be used at longer ranges.  The main disadvantage of magnifiers is their weight and bulk.",
+
+    "variant_type": "gun",
+    "variants": [
+      {
+        "id": "black",
+
+        "name": {
+          "str": "Leapers UTG 3× sight magnifier"
+        },
+        "description": "This bulky sight attaches in front of a present reflex sight, magnifying the sight picture by a factor of 3.  This allows you to aim at a further distance reliably, without changing sights.  The main disadvantage of a magnifier is the weight it adds to a firearm, making it that much less ergonomic.  <variant_black>",
+        "expand_snippets": true,
+        "weight": 1
+      }
+    ],
 
     "weight": "335 g",
     "//dimensions": {
@@ -47,9 +61,23 @@
     ],
 
     "name": {
-      "str": "Vortex Micro 3× sight magnifier"
+      "str": "compact 3× sight magnifier"
     },
-    "description": "This somewhat-compact sight attaches in front of a present red dot or holographic sight, magnifying the sight picture by a factor of 3.  This allows you to aim at a further distance reliably, without changing sights.  The main disadvantage of a magnifier is the weight it adds to a firearm, making it that much less ergonomic.",
+    "description": "A compact magnifier.  Mounts behind a red dot or holographic sight, allowing it to be used at longer ranges.  The main disadvantage of magnifiers is their weight and bulk.",
+
+    "variant_type": "gun",
+    "variants": [
+      {
+        "id": "black",
+
+        "name": {
+          "str": "Vortex Micro 3× sight magnifier"
+        },
+        "description": "This somewhat-compact sight attaches in front of a present reflex sight, magnifying the sight picture by a factor of 3.  This allows you to aim at a further distance reliably, without changing sights.  The main disadvantage of a magnifier is the weight it adds to a firearm, making it that much less ergonomic.  <variant_black>",
+        "expand_snippets": true,
+        "weight": 1
+      }
+    ],
 
     "//weight": ["9.55 oz ≈ 271 g with mount", "6.9 oz ≈ 196 g without"],
     "weight": "271 g",
