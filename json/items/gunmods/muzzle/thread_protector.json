@@ -32,7 +32,9 @@
       ]
     },
     "volume": "8 ml",
+    "integral_volume": "2 ml",
     "longest_side": "24 mm",
+    "integral_longest_side": "0 mm",
 
     "price": "15 USD",
     "price_postapoc": "5 cent"
