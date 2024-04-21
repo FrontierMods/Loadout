@@ -5,14 +5,7 @@
 
     "subtype": "distribution",
 
-    "items": [
-      "foregrip_icrw",
-      "foregrip_strike_bikini",
-      "foregrip_strike_link",
-      "foregrip_slr_barricade",
-      "foregrip_impact",
-      "foregrip_odin_b1"
-    ]
+    "items": ["foregrip_strike_bikini", "foregrip_impact"]
   },
 
   {
@@ -39,8 +32,6 @@
     "items": [
       "foregrip_tyrant_mod",
       "foregrip_tyrant_modv2",
-      "foregrip_fortis_shift_angled",
-      "foregrip_strike_cobra",
       "foregrip_magpul_afg2",
       "foregrip_f1"
     ]
@@ -53,12 +44,9 @@
     "subtype": "distribution",
 
     "items": [
-      "foregrip_ergo",
       "foregrip_tyrant_halo_minivert",
       "foregrip_fortis_shift",
-      "foregrip_mission_first",
-      "foregrip_mission_first_folding",
-      "foregrip_fab_folding"
+      "foregrip_mission_first"
     ]
   },
 
