@@ -30,18 +30,6 @@
 
   {
     "type": "item_group",
-    "id": "loadout_suppressor_silent_legion",
-
-    "subtype": "collection",
-
-    "items": [
-      "suppressor_silent_legion_556",
-      ["flash_hider_silent_legion_qd7", 80]
-    ]
-  },
-
-  {
-    "type": "item_group",
     "id": "loadout_suppressor_silencerco",
 
     "//notes": ["aka the basegame suppressor"],

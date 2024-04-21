@@ -1,44 +1,5 @@
 [
   {
-    "id": "magnifier_bushnell_3x",
-    "copy-from": "magnifier_abstract",
-    "type": "GUNMOD",
-
-    "//sources": [
-      "https://www.bushnell.com/red-dots/shop-all-red-dots/transition-3x-magnifier/BU-AR731304.html",
-      "https://www.optics-trade.eu/en/bushnell-ar-optics-3x-magnifier.html",
-      "https://ts2.shop/bg/blog/post/bushnell-transition-3x-magnifier.html"
-    ],
-
-    "name": {
-      "str": "Bushnell 3× sight magnifier"
-    },
-    "description": "This bulky sight attaches in front of a present red dot or holographic sight, magnifying the sight picture by a factor of 3.  This allows you to aim at a further distance reliably, without changing sights.  The main disadvantage of a magnifier is the weight it adds to a firearm, making it that much less ergonomic.",
-
-    "//weight": "manufacturer source says the weight is 13 oz ≈ 369 g, OpticsTrade says 374 g",
-    "weight": "369 g",
-    "//dimensions": {
-      "length": "117.00 mm",
-      "width": "73.50 mm",
-      "height": "44.50 mm",
-      "raw": "383 ml",
-      "trim": 0.35,
-      "notes": [
-        "height assumed to be absolute co-witness height (1.46 in.) × 1.2"
-      ]
-    },
-    "volume": "249 ml",
-    "longest_side": "117 mm",
-
-    "material": ["plastic", "glass"],
-
-    "//field_of_view": "75 feet @ 100 yards = 854.97 MOA",
-    "field_of_view": 855,
-
-    "price": "156 USD"
-  },
-
-  {
     "id": "magnifier_leapers_3x",
     "copy-from": "magnifier_abstract",
     "type": "GUNMOD",

@@ -45,11 +45,7 @@
 
     "subtype": "distribution",
 
-    "items": [
-      "magnifier_bushnell_3x",
-      "magnifier_leapers_3x",
-      "magnifier_vortex_3x"
-    ]
+    "items": ["magnifier_leapers_3x", "magnifier_vortex_3x"]
   },
 
   {

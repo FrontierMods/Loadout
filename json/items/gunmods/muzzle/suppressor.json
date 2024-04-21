@@ -167,47 +167,6 @@
   },
 
   {
-    "id": "suppressor_silent_legion_556",
-    "copy-from": "suppressor_abstract",
-    "type": "GUNMOD",
-
-    "//sources": ["https://silentlegion.com/products/223556"],
-
-    "name": {
-      "str": "Silent Legion 5.56mm suppressor"
-    },
-    "description": "An unassuming model of a suppressor, <suppressor_loudness>.  <suppressor_rating_556_300blk>  <suppressor_no_direct_thread>  Instead, it mounts onto the QD-7 flash hider, also from Silent Legion.  <suppressor_descriptor>",
-    "expand_snippets": true,
-
-    "weight": "439 g",
-    "//dimensions": {
-      "length": "7.00 in",
-      "diameter": "1.50 in",
-      "raw": "203 ml",
-      "trim": 0
-    },
-    "volume": "203 ml",
-    "longest_side": "178 mm",
-    "//integral_longest_side": "absorbs the length of the Silent Legion QD-7 flash hider (35 mm)",
-    "integral_longest_side": "143 mm",
-
-    "material": ["titanium", "inconel"],
-
-    "//calibers": ["223", "300BLK"],
-    "acceptable_ammo": ["223", "300blk"],
-
-    "//sound_reduction": "32 dB",
-    "loudness_modifier": -40,
-    "handling_modifier": 7,
-
-    "consume_divisor": 800,
-
-    "location": "Silent Legion muzzle mount",
-
-    "price": "1119 USD"
-  },
-
-  {
     "id": "suppressor_silencer_central_banish_30",
     "copy-from": "suppressor_abstract",
     "type": "GUNMOD",
@@ -260,58 +219,6 @@
     "consume_divisor": 920,
 
     "price": "999 USD"
-  },
-
-  {
-    "id": "suppressor_elite_iron_bravo1_lite",
-    "copy-from": "suppressor_abstract",
-    "type": "GUNMOD",
-
-    "//sources": ["https://www.eliteiron.com/product/bravo-1-lite-suppressor/"],
-
-    "//notes": [
-      "comes with and mounts onto Elite Iron Bravo 1 muzzle brake",
-      "given that there's very little information about the brake, and since the suppressor comes with the brake, we pretend it's a direct-thread mount",
-      "for future reference: the muzzle brake's length (from visual reference) is 2.55 in.",
-      "https://www.snipershide.com/shooting/threads/elite-iron-bravo.212740/"
-    ],
-
-    "name": {
-      "str": "Elite Iron Bravo 1 Lite suppressor"
-    },
-    "description": "An unassuming suppressor made of titanium, <suppressor_loudnes>>.  <suppressor_rating_rifle_wide>  <suppressor_direct_thread_via_brake>  <suppressor_descriptor>",
-    "expand_snippets": true,
-
-    "weight": "366 g",
-    "//dimensions": {
-      "length": "7.875 in",
-      "diameter": "1.625 in",
-      "raw": "268 ml",
-      "trim": 0
-    },
-    "volume": "268 ml",
-    "longest_side": "200 mm",
-    "//integral_longest_side": "being direct-thread-mounted, absorbs the regular 16 mm of threading on a 1/2 in. × 28-threaded barrel",
-    "integral_longest_side": "184 mm",
-
-    "material": ["titanium"],
-
-    "//calibers": [
-      "5.56×45mm NATO",
-      ".300 Blackout",
-      "7.62×51mm NATO",
-      ".30-06"
-    ],
-    "//acceptable_ammo": ["223", "300blk", "308", "3006"],
-
-    "//sound_reduction": "23 dB",
-    "loudness_modifier": -30,
-    "handling_modifier": 8,
-
-    "consume_divisor": 820,
-
-    "price": "1035 USD",
-    "price_postapoc": "1 USD"
   },
 
   {
