@@ -9,10 +9,32 @@
     ],
 
     "name": {
-      "str": "Precision Armament Hypertap muzzle brake"
+      "str": "performance muzzle brake"
     },
-    "description": "A highly-potent, modern- and clean-looking muzzle brake, capable of reducing recoil of a firearm up to 84%.  This model is rated for 5.56mm NATO.  <muzzle_brake_descriptor>",
+    "description": "This modern-looking muzzle brake is one of the best on the market.  <muzzle_device_rating_556>  <muzzle_brake_descriptor>",
     "expand_snippets": true,
+
+    "variant_type": "gun",
+    "variants": [
+      {
+        "id": "black",
+        "name": {
+          "str": "Precision Armament Hypertap muzzle brake"
+        },
+        "description": "A highly-potent muzzle brake, capable of reducing recoil of a firearm up to 84%, enabled by its advanced geometry.  <muzzle_device_rating_556>  <muzzle_brake_descriptor>  <variant_black_matte>",
+        "expand_snippets": true,
+        "weight": 1
+      },
+      {
+        "id": "silver",
+        "name": {
+          "str": "Precision Armament Hypertap muzzle brake"
+        },
+        "description": "A highly-potent muzzle brake, capable of reducing recoil of a firearm up to 84%, enabled by its advanced geometry.  <muzzle_device_rating_556>  <muzzle_brake_descriptor>  <variant_silver_matte>",
+        "expand_snippets": true,
+        "weight": 1
+      }
+    ],
 
     "weight": "87 g",
     "//dimensions": {
@@ -40,10 +62,23 @@
     "//sources": ["https://stores.sjcguns.com/223-5-56-sjc-titan-cs-black/"],
 
     "name": {
-      "str": "S&J Customs Titan muzzle brake"
+      "str": "heavy-duty flat muzzle brake"
     },
-    "description": "A flattened, heavy-looking muzzle brake, this one is among the most potent ones, with recoil reduction of up to 78%.  Despite the name, it's not made of titanium.  This model is rated for 5.56mm NATO.  <muzzle_brake_descriptor>",
+    "description": "A heavy-looking muzzle brake that extends mostly to the side.  This one is among the best on the market in terms of recoil reduction.  Despite the name, it's not made of titanium.  <muzzle_device_rating_556>  <muzzle_brake_descriptor>",
     "expand_snippets": true,
+
+    "variant_type": "gun",
+    "variants": [
+      {
+        "id": "black",
+        "name": {
+          "str": "SJC Titan muzzle brake"
+        },
+        "description": "This flat, heavy-looking muzzle brake is among the best on the market, with recoil reduction of up to 78%.  Despite the name, it's not made of titanium.  <muzzle_device_rating_556>  <muzzle_brake_descriptor>  <variant_black_matte>",
+        "expand_snippets": true,
+        "weight": 1
+      }
+    ],
 
     "weight": "87 g",
     "//dimensions": {
@@ -55,6 +90,8 @@
     },
     "volume": "30 ml",
     "longest_side": "70 mm",
+
+    "material": ["aluminum"],
 
     "//calibers": ["223"],
 
@@ -76,10 +113,32 @@
     ],
 
     "name": {
-      "str": "V Seven muzzle brake"
+      "str": "hollow muzzle brake"
     },
-    "description": "A skinny, shiny steel-gray muzzle brake capable of reducing recoil by more than 56%.  This model is rated for 5.56mm NATO.  <muzzle_brake_descriptor>",
+    "description": "A shiny steel-gray muzzle brake with hollowed-out vents, capable of reducing recoil by more than 56%.  This model is rated for 5.56mm NATO.  <muzzle_brake_descriptor>",
     "expand_snippets": true,
+
+    "variant_type": "gun",
+    "variants": [
+      {
+        "id": "black",
+        "name": {
+          "str": "V Seven muzzle brake"
+        },
+        "description": "A hollowed-out muzzle brake capable of reducing recoil by more than 56%.  <muzzle_device_rating_556>  <muzzle_brake_descriptor>  <variant_black_glossy>",
+        "expand_snippets": true,
+        "weight": 1
+      },
+      {
+        "id": "steel",
+        "name": {
+          "str": "V Seven muzzle brake"
+        },
+        "description": "A hollowed-out muzzle brake capable of reducing recoil by more than 56%.  <muzzle_device_rating_556>  <muzzle_brake_descriptor>  <variant_steel>",
+        "expand_snippets": true,
+        "weight": 1
+      }
+    ],
 
     "weight": "74 g",
     "//dimensions": {
@@ -115,10 +174,23 @@
     ],
 
     "name": {
-      "str": "Apex Tactical ESA muzzle brake"
+      "str": "square muzzle brake"
     },
-    "description": "ESA, or Enhanced Stabilization Attachment, is a square, shiny dark-gray muzzle brake with two-and-a-half large cavities.  It's capable of reducing recoil by up to 60%.  This one is rated for 5.56mm NATO.  <muzzle_brake_descriptor>",
+    "description": "This square, shiny dark-gray muzzle brake with large cavities is capable of reducing recoil by a large margin.  This model is rated for 5.56mm NATO.  <muzzle_brake_descriptor>",
     "expand_snippets": true,
+
+    "variant_type": "gun",
+    "variants": [
+      {
+        "id": "black",
+        "name": {
+          "str": "Apex ESA muzzle brake"
+        },
+        "description": "ESA, or Enhanced Stabilization Attachment, is a square muzzle brake with two-and-a-half large cavities.  It's capable of reducing recoil by up to 60%.  <muzzle_device_rating_556>  <muzzle_brake_descriptor>  <variant_black_glossy>",
+        "expand_snippets": true,
+        "weight": 1
+      }
+    ],
 
     "//weight": "without crush washer",
     "weight": "98 g",
@@ -153,22 +225,37 @@
       "https://deadairsilencers.com/dead-air-armament-shipping-keymount-muzzle-brake-for-sandman-suppressors-2/"
     ],
 
+    "//notes": ["1/2×28-threaded version"],
+
     "name": {
-      "str": "Dead Air KeyMount muzzle brake"
+      "str": "KeyMo muzzle brake"
     },
-    "description": "Looking like something you'd see in a movie, this muzzle brake is capable of reducing recoil by more than 56%.  This one is rated for 5.56mm NATO.  <muzzle_brake_descriptor>",
+    "description": "A muzzle brake of an unassuming design, performing about average.  Suppressors that require a KeyMo mount can be attached to it.  <muzzle_device_rating_556>  <muzzle_brake_descriptor>",
     "expand_snippets": true,
 
-    "//weight": "going with the lowest number listed in primary source on assumption that weight scales with threading and, therefore, with caliber rating, with higher calibers requiring more metal to keep quiet",
-    "weight": "105 g",
+    "variant_type": "gun",
+    "variants": [
+      {
+        "id": "black",
+        "name": {
+          "str": "Dead Air KeyMount muzzle brake"
+        },
+        "description": "This unassuming muzzle brake is capable of reducing recoil by more than 56%.  It can also host a variety of suppressors that require a KeyMo mount.  <muzzle_device_rating_556>  <muzzle_brake_descriptor>  <variant_black_glossy>",
+        "expand_snippets": true,
+        "weight": 1
+      }
+    ],
+
+    "weight": "125 g",
     "//dimensions": {
-      "length": "2.6 in",
+      "length": "2.82 in",
       "diameter": "1.08 in",
-      "raw": "39 ml",
+      "raw": "42.33 ml",
       "trim": 0.15
     },
-    "volume": "33 ml",
-    "longest_side": "66 mm",
+    "volume": "36 ml",
+    "longest_side": "72 mm",
+    "integral_longest_side": "56 mm",
 
     "//calibers": ["223"],
 
@@ -187,18 +274,39 @@
     "//sources": [
       "https://thunderbeastarms.com/products/dominus-sr",
       "https://thunderbeastarms.com/products/accessories",
-      "https://escapefromtarkov.fandom.com/wiki/AR-15_Thunder_Beast_Arms_223CB_5.56x45_muzzle_brake",
-      "https://www.thetruthaboutguns.com/ar-15-muzzle-brake-shootout-3/"
+      "https://www.thetruthaboutguns.com/ar-15-muzzle-brake-shootout-3/",
+      [
+        "https://pewscience.com/sound-signature-reviews-free/sss-6-105-tbac-dominus-mk18-556",
+        "weight"
+      ]
+    ],
+
+    "//notes": [
+      "this is currently using the 1/2-28× threading, which is for 5.56mm NATO or lower only",
+      "something like .308 would require a different thread"
     ],
 
     "name": {
-      "str": "Thunder Beast Arms SR muzzle brake"
+      "str": "heavy-duty muzzle brake"
     },
-    "description": "An unassuming but highly-capable muzzle brake, this one is capable of reducing recoil by more than 70%.  It's rated for .30 cal.  It can also serve as a mount for an equally-capable Dominus-SR suppressor, also from Thunder Beast Arms.  <muzzle_brake_descriptor>",
+    "description": "This unassuming but capable muzzle brake is capable of reducing recoil by a value well above average.  It can also be used to mount the heavy-duty suppressor.  <muzzle_device_rating_556>  <muzzle_brake_descriptor>",
     "expand_snippets": true,
 
-    "//weight": "Dominus SR description states the weight of the brake to be 3.5 oz ≈ 100 g",
-    "weight": "100 g",
+    "variant_type": "gun",
+    "variants": [
+      {
+        "id": "black",
+        "name": {
+          "str": "Thunder Beast SR muzzle brake"
+        },
+        "description": "An unassuming but highly-capable muzzle brake, the SR is capable of reducing recoil by more than 70%.  It can also serve as a mount for an equally-capable Dominus-SR suppressor, also from Thunder Beast.  <muzzle_device_rating_556>  <muzzle_brake_descriptor>  <variant_black_matte>",
+        "expand_snippets": true,
+        "weight": 1
+      }
+    ],
+
+    "//weight": "the PEW Science review states the weight of the 5.56mm NATO model to be 5.2 oz = 147.42 g",
+    "weight": "147 g",
     "//dimensions": {
       "length": "2.86 in",
       "diameter": "1.17 in",
@@ -237,10 +345,24 @@
     ],
 
     "name": {
-      "str": "SureFire SOCOM muzzle brake"
+      "str": "sleek muzzle brake"
     },
-    "description": "A fairly-standard muzzle brake, capable of reducing recoil by over 51%.  It can also serve as a mount for the SOCOM556-RC2 suppressor, also from SureFire.  <muzzle_brake_descriptor>",
+    "description": "A muzzle brake that provides average improvement to the handling of the gun.  An accompanying sleek suppressor can be attached to the muzzle brake.  <muzzle_brake_descriptor_generic>",
     "expand_snippets": true,
+
+    "variant_type": "gun",
+    "variants": [
+      {
+        "id": "black",
+
+        "name": {
+          "str": "SureFire SOCOM muzzle brake"
+        },
+        "description": "A fairly-standard muzzle brake, capable of reducing recoil by over 51%.  It can also serve as a mount for the SOCOM556-RC2 suppressor, also from SureFire.  <muzzle_brake_descriptor>  <variant_black>",
+        "expand_snippets": true,
+        "weight": 1
+      }
+    ],
 
     "weight": "111 g",
     "//dimensions": {
@@ -277,15 +399,28 @@
 
     "//sources": ["https://www.reardenmfg.com/product/spb-ht-muzzle-brake/"],
 
-    "//notes": ["0.375 in., 1/2×28-threaded version"],
+    "//notes": ["0.280 in., 1/2×28-threaded version"],
 
     "name": {
-      "str": "Rearden Mfg. SPB muzzle brake"
+      "str": "compact muzzle brake"
     },
-    "description": "An ordinary muzzle brake with a wheat-colored body, capable of reducing recoil by over 56%.  It can also serve as a mount for the Atlas thread adapter, which itself can be used to mount the Witt Machine Mod-1 suppressor.  <muzzle_brake_descriptor>",
+    "description": "A shot muzzle brake with a wheat-colored body, capable of reducing recoil by a significant amount.  With an Atlas thread adapter, you can mount a compact suppressor on top of it.  <muzzle_brake_descriptor>",
     "expand_snippets": true,
 
-    "weight": "64 g",
+    "variant_type": "gun",
+    "variants": [
+      {
+        "id": "fde",
+        "name": {
+          "str": "Rearden Mfg. SPB muzzle brake"
+        },
+        "description": "A short muzzle brake capable of reducing recoil by over 56%.  It can also serve as a mount for the Atlas thread adapter, which itself can be used to mount Atlas-thread suppressors, such as the Witt Machine Mod-1.  <muzzle_brake_descriptor>  <variant_fde_glossy>",
+        "expand_snippets": true,
+        "weight": 1
+      }
+    ],
+
+    "weight": "65 g",
     "//dimensions": {
       "length": "1.73 in",
       "diameter": "0.9 in",
