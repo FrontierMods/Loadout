@@ -418,6 +418,7 @@
     "//sound_lower": "141.3 dB w/ .300 BLK subsonic",
 
     "location": "Atlas muzzle mount",
+    "mod_targets": ["pistol", "smg", "rifle"],
 
     "damage_modifier": {
       "damage_type": "bullet",
