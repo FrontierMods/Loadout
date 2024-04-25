@@ -105,44 +105,6 @@
     "price": "97 USD"
   },
   {
-    "id": "muzzle_brake_v7_furion",
-    "copy-from": "muzzle_brake_abstract",
-    "type": "GUNMOD",
-
-    "//sources": [
-      "https://www.vsevenweaponsystems.com/muzzle-devices/furion/",
-      "https://www.thetruthaboutguns.com/ar-15-muzzle-brake-shootout-3/"
-    ],
-
-    "name": {
-      "str": "V Seven FURION muzzle brake"
-    },
-    "description": "A skinny, shiny muzzle brake capable of reducing recoil by as much as 64%.  This model is rated for 5.56mm NATO, and is made of titanium, making it lightweight without sacrificing structural integrity.  <muzzle_brake_descriptor>",
-    "expand_snippets": true,
-
-    "weight": "45 g",
-    "//dimensions": {
-      "length": "2.3 in",
-      "diameter": "0.95 in",
-      "raw": "27 ml",
-      "trim": 0.15
-    },
-    "volume": "23 ml",
-    "longest_side": "58 mm",
-
-    "material": ["titanium"],
-
-    "//calibers": ["223"],
-
-    "//recoil_reduction": "64.36%",
-    "//recoil_distance": "4.0313 in.",
-    "handling_modifier": 21,
-    "loudness_modifier": 32,
-
-    "//price": "for the titanium 5.56mm model",
-    "price": "153 USD"
-  },
-  {
     "id": "muzzle_brake_apex_esa",
     "copy-from": "muzzle_brake_abstract",
     "type": "GUNMOD",
