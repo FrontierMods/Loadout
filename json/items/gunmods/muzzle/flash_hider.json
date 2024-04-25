@@ -9,9 +9,23 @@
     ],
 
     "name": {
-      "str": "KAC M4QD flash hider"
+      "str": "army flash hider"
     },
-    "description": "A steel flash hider that mounts onto the threading at the muzzle.  While its primary function is to reduce muzzle flash, this model also serves as a mount for the KAC QDSS suppressor.",
+    "description": "A steel flash hider that attaches at the muzzle.  Primarily serves as a mounting point for the army suppressor.",
+
+    "variant_type": "gun",
+    "variants": [
+      {
+        "id": "black",
+
+        "name": {
+          "str": "KAC M4QD flash hider"
+        },
+        "description": "A steel flash hider that mounts onto the threading at the muzzle.  While its primary function is to reduce muzzle flash, this model also serves as a mount for the KAC QDSS suppressor.  <variant_black>",
+        "expand_snippets": true,
+        "weight": 1
+      }
+    ],
 
     "weight": "68 g",
     "//dimensions": {
