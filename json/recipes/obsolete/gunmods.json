@@ -214,5 +214,10 @@
     "type": "recipe",
     "result": "single_sling",
     "obsolete": true
+  },
+  {
+    "type": "recipe",
+    "result": "rail_bayonet_lug",
+    "obsolete": true
   }
 ]
