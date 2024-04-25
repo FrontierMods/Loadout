@@ -46,6 +46,8 @@
     },
     "description": "idea of a muzzle brake",
 
+    "material": ["stainless_steel"],
+
     "//handling_modifier": "to calculate: recoil reduction percentage / 3",
     "handling_modifier": 50,
 
