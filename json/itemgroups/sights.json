@@ -5,12 +5,7 @@
 
     "subtype": "distribution",
 
-    "items": [
-      "sight_eotech_xps2",
-      "sight_vortex_uh1",
-      "sight_eotech_exps3_0",
-      "sight_eotech_553"
-    ]
+    "items": ["sight_vortex_uh1", "sight_eotech_553"]
   },
 
   {

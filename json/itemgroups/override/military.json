@@ -4,7 +4,8 @@
     "id": "military",
 
     "//notes": [
-      "removed `match_trigger`: spawns as a built-in mod for some weapons, but shouldn't be installable onto others"
+      "removed `match_trigger`: spawns as a built-in mod for some weapons, but shouldn't be installable onto others",
+      "removed `improve_sights`: doesn't make sense within the current architecture"
     ],
 
     "subtype": "distribution",
@@ -174,7 +175,6 @@
       { "item": "gum", "prob": 90, "count": 10 },
       { "item": "caff_gum", "prob": 10, "count": 10 },
       { "item": "nic_gum", "prob": 1, "count": 10 },
-      { "item": "improve_sights", "prob": 10 },
       { "item": "waterproof_gunmod", "prob": 4 },
       { "item": "cleansuit", "prob": 5 },
       { "item": "hazmat_suit", "prob": 5 },

@@ -17,7 +17,8 @@
       [
         ["waterproof_gunmod", "stabilizer", "gun_crossbow"],
         "obsoleted items, removed for clarity"
-      ]
+      ],
+      [["improve_sights"], "doesn't make sense within the current architecture"]
     ],
 
     "ammo": 75,
@@ -342,7 +343,6 @@
       ["howto_computer", 1],
       ["howto_traps", 2],
       ["imperial_stout", 2],
-      ["improve_sights", 1],
       ["india_pale_ale", 2],
       { "item": "inhaler", "prob": 5, "charges-min": 10, "charges-max": 100 },
       ["iodine", 5],
