@@ -4,7 +4,7 @@
 
 The primary goal of *Loadout* is to add new gunmods and related equipment in order to extend the choice available to the player. In reality, there are dozens and dozens of items that fit in the same category, differentiated between each other in size, weight, and performance.
 
-This extension of choice must rest on the fact of the added options being distinct from one another. Adding two items which are very similar in their properties does not result in a larger array of choice, by itself. (See non-goals.)
+This extension of choice must rest on the fact of the added options being distinct from one another. Adding two items which are very-similar in their properties does not result in a larger array of choice, by itself. (See non-goals.)
 
 
 ## Reality and groundedness
@@ -18,7 +18,7 @@ It should also allow one to scratch that itch that demands a more-accurate refle
 
 ## Cohesiveness with the base game
 
-The previous two goals should not conflict with the mod being easily-added to a playthrough. While it's inevitable that *Loadout*'s groundedness will make it clash with the generic content of the base game in terms of aesthetics (e.g. "suppressor" vs. "SilencerCo Hybrid 46 suppressor"), nothing should prevent the mod's contents from being easily included in a fresh playthrough.
+The previous two goals should not conflict with the mod being easily-added to a playthrough. With the addition of `gun`-type variants to each gunmod, *Loadout* would be available for easy integration in both "genericized" playthoughs (i.e., those that turns off gun brand names) and "expanded" ones (i.e., those that turn them on).
 
 This is most-relevant with balance: in-game properties must be thoughtfully balance between reality and existing balance. For example, in reality, suppressors rarely reduce volume of shot by more than 25 dB. This means that shots are rarely Hollywood-quiet: they're still very much audible, though perhaps with a skewed signature, making recognizing the exact direction of fire and make of the gun more of a challenge. The main purpose of suppressors is to prevent hard to shooter's ears during fire. All of this combined means suppressors cannot be very effective at removing noise during shooting: −45 vs. .223 Remington's computed loudness of 164 is effective, but still realistic and balanced.
 
@@ -31,18 +31,18 @@ This also applies to things like gunmod slots: relying on base-game slots makes 
 
 There are dozens, if not hundreds, of items in any given class (e.g. angled grips, variable-magnification scopes), each performing slightly differently than the other. However, adding every one of them is going to be:
 
-1. **time-consuming**: for some models of items, it takes a lot of time to ascertain certain properties, most often physical dimensions
-2. **memory-intensive**: the game must hold these items in memory, potentially bloating safe files
+1. **time-consuming**: for some models of items, it takes a lot of time to ascertain certain properties (most often physical dimensions), and exhausting development equals lower quality or later updates
+2. **data-intensive**: the game must hold these items in memory, potentially bloating save files; the mod must also hold these items in JSON, thus making looking through them more-challenging
 3. **confusing to players**: having too many items to remember, consider, or carry around will be a burden in a game already throwing a lot of knowledge-based survival at the player
 
-Therefore, quality (distinctive properties of an item) should be prioritized over quantity (sheer number of items). In other words: having fewer items that are distinct from each other within their class is preferable to having more items that offer gradual performance difference.
+Therefore, quality (i.e., distinctive properties of an item) should be prioritized over quantity (i.e., sheer number of items). In other words: having fewer items that are distinct from each other within their class is preferable to having more items that offer gradual performance difference.
 
 
 ## Changing anything about existing firearms
 
-Making changes to existing guns is outside of the scope of this mod, and thus will not be pursued. While it may be convenient to change available slots here and there, such changes will introduce a lot more complexity in supporting the mod in the future, while reducing compatibility with other mods that add guns.
+Making changes to existing guns is outside of the scope of this mod, and thus will not be pursued. While it may be convenient to change available slots here and there, such changes would introduce complexity in supporting the mod in the future, while reducing compatibility with other mods that add guns.
 
-Should the need arise to bridge functionality between *Loadout* and another mod that changes guns, a patch must be created by the interested party. The contributors of *Loadout* provide no guarantee of a patch for any mod outside of the Frontier Mods ecosystem.
+One notable exception to this is changing the gunmods a particular model of a firearm spawns with. This concerns primarily military guns (and their civilian clones, produced by enthusiasts for recreational or historical purposes), where added some of the new gunmods from *Loadout* is desired for the purpose of immersion and realism. For this and other purposes, changes to guns' default gunmods may be made.
 
 
 ## Adding new firearms
