@@ -63,4 +63,4 @@
 
 - [ ] **foldable iron sights**
   - would allow installing other sights
-  - postponed due to not behaving correctly in the latest stable
+  - postponed due to not behaving as desired in the latest stable
