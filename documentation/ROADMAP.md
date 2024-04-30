@@ -1,22 +1,22 @@
 # Roadmap
 
-## Current
+## Future
 
-## v1.X
+### v1.X
 
 - [ ] **magazine modding**
   - [ ] conventional STANAG magazines
   - [ ] Glock magazines
   - extended base plates to improve magazine capacity
   - weighted base plates to increase reload speed
-  - carabiner adapters
+  - carabiner adapters (aka ranger plates)
   - magazine decoration
   - labels and markings
 
-## v1.2
+### v1.3
 
-- [ ] **variantized current attachments**
 - [ ] **adjustable-length suppressors**
+  - for the models that do support it
 - [ ] **modern Army rifle attachments**
   - [ ] SIG Sauer TANGO6T variable scope
   - [ ] Aimpoint CompM4 red dot sight
@@ -24,9 +24,16 @@
   - [ ] DBAL-A2 (aka AN/PEQ-15A) laser sight
   - [ ] L3Harris AN/PEQ-16 laser sight
 
+## Current
+
+### v1.2
+
+- [ ] **variantized current attachments**
+  - this should allow players who aren't tacticool-savvy to enjoy Armory as well
+
 ## Previous
 
-## v1.1
+### v1.1
 
 - [x] **variable-zoom scopes**
 - [x] **SOPMOD attachments**
@@ -44,7 +51,7 @@
 - [x] **audit installation time**
   - QD devices should behave as such
 
-## v1.0
+### v1.0
 
 - [x] **remodel existing attachments**
 - [x] **new attachments**
