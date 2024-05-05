@@ -1,5 +1,62 @@
 [
   {
+    "id": "muzzle_brake_surefire_procomp",
+    "copy-from": "muzzle_brake_abstract",
+    "type": "GUNMOD",
+
+    "//sources": [
+      "https://www.surefire.com/procomp/",
+      "https://www.thetruthaboutguns.com/556-muzzle-device-shootout/",
+      "https://www.calguns.net/calgunforum/showthread.php?t=1276996"
+    ],
+
+    "//notes": ["assumes the 5.56mm model"],
+
+    "name": {
+      "str": "SureFire ProComp muzzle brake"
+    },
+    "description": "An unassuming but capable muzzle brake, above average in terms of recoil reduction.  <muzzle_device_rating_556>  <muzzle_brake_descriptor>",
+    "expand_snippets": true,
+
+    "variant_type": "gun",
+    "variants": [
+      {
+        "id": "black",
+
+        "name": {
+          "str": "SureFire ProComp muzzle brake"
+        },
+        "description": "An unassuming but capable muzzle brake, this one is capable of reducing recoil by almost 60%.  <muzzle_device_rating_556>  <muzzle_brake_descriptor>  <variant_black>",
+        "expand_snippets": true,
+        "weight": 1
+      }
+    ],
+
+    "weight": "96 g",
+    "//dimensions": {
+      "length": "2.5 in",
+      "diameter": "0.866 in",
+      "raw": "24 ml",
+      "trim": 0.05,
+      "notes": [
+        "same outer diameter as A2 birdcage, which accepts NATO 22 mm rifle grenades"
+      ]
+    },
+    "volume": "23 ml",
+    "longest_side": "64 mm",
+
+    "//calibers": ["223"],
+
+    "//recoil_reduction": "59.79%",
+    "//recoil_distance": "3.71875 in.",
+    "handling_modifier": 20,
+    "loudness_modifier": 30,
+
+    "install_time": "20 s",
+
+    "price": "99 USD"
+  },
+  {
     "id": "muzzle_brake_precision_hypertap",
     "copy-from": "muzzle_brake_abstract",
     "type": "GUNMOD",
