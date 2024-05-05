@@ -46,11 +46,10 @@
     "//sight_dispersion": "1 MOA",
     "sight_dispersion": 100,
     "//aim_speed_modifier": "minor bonus for better-than-default sights",
-    "aim_speed_modifier": 2,
+    "aim_speed_modifier": 4,
 
     "flags": ["DISABLE_SIGHTS"]
   },
-
   {
     "abstract": "iron_sights_offset_abstract",
     "copy-from": "iron_sights_abstract",
@@ -64,7 +63,6 @@
     "//add_mod": "emulates possibly having another sight, e.g. a red dot sight, along with iron sights",
     "add_mod": [["sights", 1]]
   },
-
   {
     "abstract": "iron_sights_pistol",
     "copy-from": "iron_sights_abstract",
