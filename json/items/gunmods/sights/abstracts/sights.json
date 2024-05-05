@@ -24,7 +24,6 @@
 
     "flags": ["DISABLE_SIGHTS"]
   },
-
   {
     "abstract": "sight_rds",
     "copy-from": "sight_abstract",
@@ -44,7 +43,6 @@
 
     "add_mod": [["magnifier", 1]]
   },
-
   {
     "abstract": "sight_rds_no_magnifier",
     "copy-from": "sight_rds",
@@ -61,7 +59,6 @@
     ],
     "add_mod": []
   },
-
   {
     "abstract": "sight_holo",
     "copy-from": "sight_abstract",
@@ -79,7 +76,6 @@
 
     "add_mod": [["magnifier", 1]]
   },
-
   {
     "abstract": "sight_30mm",
     "copy-from": "sight_abstract",
@@ -106,7 +102,6 @@
 
     "flags": ["ZOOM"]
   },
-
   {
     "abstract": "sight_34mm",
     "copy-from": "sight_30mm",
@@ -118,5 +113,28 @@
     "description": "idea of a 34mm scope",
 
     "location": "34mm scope mount"
+  },
+  {
+    "abstract": "magnifier_abstract",
+    "copy-from": "sight_abstract",
+    "type": "GUNMOD",
+
+    "name": {
+      "str": "sight magnifier"
+    },
+    "description": "idea of a sight magnifier",
+
+    "//weight": "one of the notable features of magnifiers is that they add quite a bit of heft to the weapon",
+    "weight": "250 g",
+
+    "//sight_dispersion": [
+      "6 MOA",
+      "assumes 3× magnification on a 2 MOA dot in front of the magnifier"
+    ],
+    "sight_dispersion": 600,
+    "//aim_speed_modifier": "while a magnifier with a red-dot/holo sight is still better than iron sights, high-distance aiming is meant to be difficult and, therefore, slower",
+    "aim_speed_modifier": 2,
+
+    "location": "magnifier"
   }
 ]

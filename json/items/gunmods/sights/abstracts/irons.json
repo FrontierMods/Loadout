@@ -96,29 +96,5 @@
     "sight_dispersion": 7276,
     "//aim_speed_modifier": "for pistols, custom sights probably allow much-quicker aiming",
     "aim_speed_modifier": 4
-  },
-
-  {
-    "abstract": "magnifier_abstract",
-    "copy-from": "sight_abstract",
-    "type": "GUNMOD",
-
-    "name": {
-      "str": "sight magnifier"
-    },
-    "description": "idea of a sight magnifier",
-
-    "//weight": "one of the notable features of magnifier is that they add quite a bit of heft to the weapon",
-    "weight": "250 g",
-
-    "//sight_dispersion": [
-      "6 MOA",
-      "assumes 3× magnification on a 2 MOA dot in front of the magnifier"
-    ],
-    "sight_dispersion": 600,
-    "//aim_speed_modifier": "compensating for high sight dispersion",
-    "aim_speed_modifier": 16,
-
-    "location": "magnifier"
   }
 ]

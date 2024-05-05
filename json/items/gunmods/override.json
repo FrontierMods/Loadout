@@ -119,40 +119,6 @@
   },
 
   {
-    "id": "holo_magnifier",
-    "copy-from": "holo_magnifier",
-    "type": "GUNMOD",
-
-    "//sources": ["https://www.eotechinc.com/eotech-magnifier-g43"],
-
-    "name": {
-      "str": "EOTech G43 magnifier"
-    },
-    "description": "This compact sight attaches in front of a present red dot or holographic sight, magnifying the sight picture by a factor of 3.  This allows you to aim at a further distance reliably, without changing sights.  The main disadvantage of a magnifier is the weight it adds to a firearm, making it that much less ergonomic.",
-
-    "//dimensions": {
-      "length": "3.1 in",
-      "width": "2.3 in",
-      "height": "3.3 in",
-      "raw": "385 ml",
-      "trim": 0.25
-    },
-    "volume": "289 ml",
-    "longest_side": "84 mm",
-
-    "material": ["aluminum", "glass"],
-
-    "//sight_dispersion": [
-      "3× magnification of a (presumed) 2 MOA dot in front of the magnifier",
-      "ideally it should, of course, coordinate with the sight in magnifies"
-    ],
-    "sight_dispersion": 24,
-    "aim_speed_modifier": 16,
-
-    "price": "649 USD"
-  },
-
-  {
     "id": "suppressor",
     "copy-from": "suppressor",
     "type": "GUNMOD",
