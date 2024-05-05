@@ -98,8 +98,8 @@
     "type": "TOOL",
 
     "name": {
-      "str": "Panacea X Kill-Saw chainsaw bayonet (on)",
-      "str_pl": "Panacea X Kill-Saw chainsaw bayonets (on)"
+      "str": "underbarrel chainsaw (on)",
+      "str_pl": "underbarrel chainsaws (on)"
     },
     "description": "A trimmed-down, compact chainsaw with an underbarrel rail adapter.  This senseless feat of engineering can now be attached to your gun and used as an oversized, battery-powered bayonet.  It is currently turned on.  Activate to turn off.",
 
