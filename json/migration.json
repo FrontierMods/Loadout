@@ -1,0 +1,23 @@
+[
+  {
+    "id": ["grip"],
+    "type": "MIGRATION",
+    "replace": "foregrip_dd_tornado"
+  },
+  {
+    "id": ["bipod"],
+    "type": "MIGRATION",
+    "replace": "bipod_harris_sl2p"
+  },
+  {
+    "id": ["holo_sight"],
+    "type": "MIGRATION",
+    "replace": "sight_eotech_xps3"
+  },
+  {
+    "id": ["red_dot_sight"],
+    "type": "MIGRATION",
+    "//replace": "should be CompM4, to keep it modern",
+    "replace": "sight_aimpoint_compm2"
+  }
+]

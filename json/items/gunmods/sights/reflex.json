@@ -1,5 +1,97 @@
 [
   {
+    "id": "sight_ncstar",
+    "copy-from": "sight_rds",
+    "type": "GUNMOD",
+
+    "//sources": [
+      [
+        "https://www.ncstar.com/optics-acc/reflex-optics/heads-up/d4rgb-dot4retrd-grwvr-mtblk",
+        "weight"
+      ],
+      [
+        "https://www.amazon.com/Pinty-Holographic-Tactical-Riflescope-Patterns/dp/B01BF5LYGW",
+        "field of view"
+      ],
+      [
+        "https://www.opticsplanet.com/ultradot-pan-av-red-dot-sight.html",
+        "dimensions"
+      ],
+      [
+        "https://ultradotusa.com/wp-content/uploads/2020/10/2020-Pan-AV-owners-manual-draft-PDF.pdf",
+        "battery life reference",
+        "tools reference"
+      ]
+    ],
+
+    "//notes": [
+      "comes with a Picatinny mount",
+      [
+        "Ultradot Pan AV is the source from which multiple companies, including NcSTAR, had copied their no-name sight",
+        "personal accounts of comparison say that the original is bad and the copycats are even worse when it comes to red-dot performance",
+        "we use the original's dimensions, except for the weight: the lengths are all the same between the different copies, and the weight is manufacturer-dependent"
+      ]
+    ],
+
+    "name": {
+      "str": "commonplace red dot sight"
+    },
+    "description": "A red dot sight largely made popular by video games.  Below-average sighting performance, and abysmal battery life by modern standards.  Installs directly onto the sight rail.",
+
+    "variant_type": "gun",
+    "variants": [
+      {
+        "id": "black",
+        "name": {
+          "str": "NcSTAR red dot sight"
+        },
+        "description": "A red dot sight largely made popular by video games.  Below-average sighting performance, with reports of it holding zero very poorly.  One questionable benefit of it is a variety of emitters, each providing its own reticle pattern.  It has been suggested that all of the emitters running at the same time, even when inactive, contributes to the sight's poor battery life.  Installs directly onto Picatinny rail with an embedded mount.  <variant_black>",
+        "expand_snippets": true,
+        "weight": 1
+      }
+    ],
+
+    "//weight": [
+      "different sources of the same model provide different weights",
+      "we use the manufacturer-provided weight of 5.3 oz = 150.25 g"
+    ],
+    "weight": "150 g",
+    "//dimensions": {
+      "length": "82 mm",
+      "width": "28 mm",
+      "height": "37 mm",
+      "raw": "84.95 ml",
+      "trim": 0.5
+    },
+    "volume": "43 ml",
+    "longest_side": "82 mm",
+
+    "//field_of_view": [
+      "52 feet @ 100 yards",
+      "assumed from a Pinty sight, which is another",
+      "no stats available for the NcSTAR model",
+      "the Ultradot original states "
+    ],
+    "field_of_view": 594,
+    "sight_dispersion": 400,
+    "//aim_speed_modifier": 10,
+
+    "//power": {
+      "source": [["CR2032"]],
+      "//lifetime": [
+        "the manual states battery life to be between 4000 h and 200 h, depending on the chosen brightness",
+        "as with other cases, we assume the maximum value"
+      ],
+      "lifetime": "4000 h"
+    },
+
+    "//tools": {
+      "to install": "1/2″ hex screwdriver"
+    },
+
+    "price": "73 USD"
+  },
+  {
     "id": "sight_trijicon_rmr",
     "copy-from": "sight_rds",
     "type": "GUNMOD",

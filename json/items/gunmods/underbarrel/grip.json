@@ -1,5 +1,77 @@
 [
   {
+    "id": "foregrip_dd_tornado",
+    "copy-from": "foregrip_abstract",
+    "type": "GUNMOD",
+
+    "//sources": [
+      "https://danieldefense.com/daniel-defense-vertical-foregrip-daniel-defense-tornado.html"
+    ],
+
+    "name": {
+      "str": "rubberized foregrip"
+    },
+    "description": "A full-sized polymer foregrip.  Allows for better handling of the firearm.  Has ribbed grooves on the front and the back, and two islands of rubber texture on the sides.",
+
+    "variant_type": "gun",
+    "variants": [
+      {
+        "id": "black",
+
+        "name": {
+          "str": "Daniel Defense Tornado vertical grip"
+        },
+        "description": "A full-sized polymer foregrip with a textured rubber island.  Its purpose is to assist in handling one's firearm, while also retaining a small profile when installed.  The texture helps improve the degree of control, though its effect is limited by the small area.  <variant_black>",
+        "expand_snippets": true,
+        "weight": 1
+      },
+      {
+        "id": "fde",
+
+        "name": {
+          "str": "Daniel Defense Tornado vertical grip"
+        },
+        "description": "A full-sized polymer foregrip with a textured rubber island.  Its purpose is to assist in handling one's firearm, while also retaining a small profile when installed.  The texture helps improve the degree of control, though its effect is limited by the small area.  <variant_fde>",
+        "expand_snippets": true,
+        "weight": 1
+      },
+      {
+        "id": "grey",
+
+        "name": {
+          "str": "Daniel Defense Tornado vertical grip"
+        },
+        "description": "A full-sized polymer foregrip with a textured rubber island.  Its purpose is to assist in handling one's firearm, while also retaining a small profile when installed.  The texture helps improve the degree of control, though its effect is limited by the small area.  <variant_grey>",
+        "expand_snippets": true,
+        "weight": 1
+      }
+    ],
+
+    "weight": "68 g",
+    "//dimensions": {
+      "length": "4.5 in",
+      "width": "2 in",
+      "height": "1.38 in",
+      "raw": "203 ml",
+      "trim": 0.35
+    },
+    "volume": "132 ml",
+    "longest_side": "114 mm",
+
+    "material": ["plastic", "rubber"],
+
+    "//interfaces": ["Picatinny"],
+
+    "//handling_modifier": {
+      "grip_tall": 4,
+      "rubber": 2,
+      "texture_sides": 1
+    },
+    "handling_modifier": 7,
+
+    "price": "34 USD"
+  },
+  {
     "id": "foregrip_strike_short",
     "copy-from": "foregrip_abstract",
     "type": "GUNMOD",

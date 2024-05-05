@@ -1,18 +1,18 @@
 [
   {
-    "id": "sight_eotech_xps2",
+    "id": "sight_eotech_xps3",
     "copy-from": "sight_holo",
     "type": "GUNMOD",
 
     "//sources": [
-      "https://www.eotechinc.com/eotech-hws-xps2",
-      "https://www.eotechinc.com/media/wysiwyg/Product/Product_Manual/XP1956_XPS2_HWS_user_Manual_Rev_B.pdf"
+      "https://www.eotechinc.com/eotech-hws-xps3",
+      "https://www.bhphotovideo.com/c/product/1179431-REG/eotech_xps3_0_holographic_weapon_sight.html/specs"
     ],
 
     "name": {
-      "str": "EOTech XPS2 holographic sight"
+      "str": "EOTech XPS3 holographic sight"
     },
-    "description": "A modern classic of a holographic sight.  Holographic sights enable quicker and, often, more-precise aiming than iron sights, due to the simplicity of a single-point aim.  They are also an improvement over red dot sights, though the difference is less significant than it is between red-dots and iron sights.  On the other hand, holographic sights are heavier, bulkier, and more-expensive than red-dots.",
+    "description": "The next version of a modern classic in sighting devices.  Holographic sights enable quicker and, often, more-precise aiming than iron sights, due to the simplicity of a single-point aim.  They are also an improvement over red dot sights, though the difference is less significant than it is between red-dots and iron sights.  On the other hand, holographic sights are heavier, bulkier, and more-expensive than red-dots.",
 
     "weight": "255 g",
     "//dimensions": {
@@ -20,19 +20,21 @@
       "width": "2.1 in",
       "height": "2.5 in",
       "raw": "327 ml",
-      "trim": 0.3
+      "trim": 0.4
     },
-    "volume": "229 ml",
+    "volume": "196 ml",
     "longest_side": "97 mm",
 
-    "field_of_view": 1024,
+    "//field_of_view": "29.9m @ 100yd",
+    "field_of_view": 1114,
+    "aim_speed_modifier": 14,
 
     "//power": {
-      "source": [["CR123"]],
-      "lifetime": "1000 h"
+      "source": "CR123",
+      "lifetime": "1000 hours"
     },
 
-    "price": "629 USD"
+    "price": "735 USD"
   },
 
   {

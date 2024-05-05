@@ -1,0 +1,48 @@
+[
+  {
+    "id": "bipod_harris_sl2p",
+    "copy-from": "bipod_abstract",
+    "type": "GUNMOD",
+
+    "//sources": ["https://www.harrisbipods.com/product/s-l2p-bipod/"],
+
+    "name": {
+      "str": "extended bipod"
+    },
+    "description": "A bipod which, when attached to a gun, can be used to improve your aim while prone or standing against an obstacle of sufficient height.  Its weight is its main disadvantage, along with increased bulk of the gun it's installed onto.",
+
+    "variant_type": "gun",
+    "variants": [
+      {
+        "id": "black",
+
+        "name": {
+          "str": "Harris Engineering S-L2P bipod"
+        },
+        "description": "This bipod can be attached directly to the bottom Picatinny rail of a firearm.  When prone or standing against an obstacle of sufficient height, such a bipod can be used to stabilize the gun, making aiming and recoil management significantly easier.  The two obvious disadvantages to attaching a bipod is weight and extra volume.  For these reasons, some shooters prefer to carry their bipod in a gun bag or a specialized MOLLE pocket, and attach it in the field when necessary.  <variant_black>",
+        "expand_snippets": true,
+        "weight": 1
+      }
+    ],
+
+    "weight": "397 g",
+    "//dimensions": {
+      "length": "9 in",
+      "width": "1.75 in",
+      "height": "1.5 in",
+      "raw": "387 ml",
+      "trim": 0.4,
+      "notes": ["dimensions very much eyeballed"]
+    },
+    "volume": "232 ml",
+    "longest_side": "229 mm",
+
+    "material": ["aluminum", "steel", "rubber"],
+
+    "//interfaces": ["Picatinny"],
+
+    "handling_modifier": 18,
+
+    "price": "129 USD"
+  }
+]
