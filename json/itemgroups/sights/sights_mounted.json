@@ -5,23 +5,20 @@
       "mounts in these groups are set to high, but not absolute, spawn chance, to emulate real-life situations where one is likely, but may not always, come with its required mount"
     ],
 
-    "type": "item_group",
     "id": "loadout_sight_rmr",
-
+    "type": "item_group",
     "subtype": "collection",
 
     "items": ["sight_trijicon_rmr", ["sight_mount_rmr_trijicon_rm33", 80]]
   },
-
   {
-    "type": "item_group",
     "id": "loadout_sight_holosun_507k",
+    "type": "item_group",
+    "subtype": "collection",
 
     "//notes": [
       "507K does not appear to have a Picatinny mount directly from the manufacturer, therefore we improvise"
     ],
-
-    "subtype": "collection",
 
     "items": [
       "sight_holosun_507k",
@@ -29,20 +26,16 @@
       ["sight_mount_rmr_trijicon_rm33", 20]
     ]
   },
-
   {
-    "type": "item_group",
     "id": "loadout_sight_aimpoint_micro_t2",
-
+    "type": "item_group",
     "subtype": "collection",
 
     "items": ["sight_aimpoint_micro_t2", ["sight_mount_micro_aimpoint", 80]]
   },
-
   {
-    "type": "item_group",
     "id": "loadout_sight_vortex_strikefire_ii",
-
+    "type": "item_group",
     "subtype": "collection",
 
     "items": [
@@ -51,9 +44,8 @@
     ]
   },
   {
-    "type": "item_group",
     "id": "loadout_sight_noblex_sight_ii",
-
+    "type": "item_group",
     "subtype": "collection",
 
     "items": ["sight_noblex_sight_ii", ["sight_mount_docter_trijicon_ms10", 80]]

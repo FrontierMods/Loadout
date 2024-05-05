@@ -6,9 +6,8 @@
       "e.g. 30mm mounts from Aero Precision (no extra sight mount) and JP Enterprises (rail for extra sight)"
     ],
 
-    "type": "item_group",
     "id": "loadout_sight_mounts_30mm",
-
+    "type": "item_group",
     "subtype": "distribution",
 
     "items": [
@@ -16,29 +15,23 @@
       ["sight_mount_30mm_aero", 75]
     ]
   },
-
   {
-    "type": "item_group",
     "id": "loadout_sight_mounts_34mm",
-
+    "type": "item_group",
     "subtype": "collection",
 
     "items": ["sight_mount_34mm_leapers"]
   },
-
   {
-    "type": "item_group",
     "id": "loadout_sight_mounts_1in",
-
+    "type": "item_group",
     "subtype": "collection",
 
     "items": ["sight_mount_1in_warne"]
   },
-
   {
-    "type": "item_group",
     "id": "loadout_sights_30mm",
-
+    "type": "item_group",
     "subtype": "distribution",
 
     "items": [
@@ -47,56 +40,44 @@
       ["sight_trijicon_tenmile", 20]
     ]
   },
-
   {
-    "type": "item_group",
     "id": "loadout_sights_34mm",
-
+    "type": "item_group",
     "subtype": "collection",
 
     "items": ["rifle_scope"]
   },
-
   {
-    "type": "item_group",
     "id": "loadout_sights_1in",
-
+    "type": "item_group",
     "subtype": "collection",
 
     "items": ["pistol_scope"]
   },
-
   {
-    "type": "item_group",
     "id": "loadout_sight_distribution_30mm",
-
+    "type": "item_group",
     "subtype": "collection",
 
     "groups": ["loadout_sight_mounts_30mm", "loadout_sights_30mm"]
   },
-
   {
-    "type": "item_group",
     "id": "loadout_sight_distribution_34mm",
-
+    "type": "item_group",
     "subtype": "collection",
 
     "groups": ["loadout_sight_mounts_34mm", "loadout_sights_34mm"]
   },
-
   {
-    "type": "item_group",
     "id": "loadout_sight_distribution_1in",
-
+    "type": "item_group",
     "subtype": "collection",
 
     "groups": ["loadout_sight_mounts_1in", "loadout_sights_1in"]
   },
-
   {
-    "type": "item_group",
     "id": "loadout_sight_elcan_specterdr",
-
+    "type": "item_group",
     "subtype": "collection",
 
     "items": [
