@@ -66,9 +66,21 @@
     "volume": "200 ml",
     "longest_side": "200 mm",
 
+    "symbol": ":",
+    "color": "brown",
+
+    "to_hit": -1,
+    "melee_damage": {
+      "bash": 10
+    },
+
     "location": "underbarrel",
     "install_time": "40 s",
 
-    "handling_modifier": 18
+    "mod_targets": ["smg", "rifle", "shotgun", "launcher"],
+
+    "handling_modifier": 18,
+
+    "flags": ["BIPOD"]
   }
 ]
