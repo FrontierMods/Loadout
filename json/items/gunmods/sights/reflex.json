@@ -101,9 +101,49 @@
     "//notes": ["waterproof up to 20 meters"],
 
     "name": {
-      "str": "Trijicon RMR red dot sight"
+      "str": "minuscule red dot sight"
     },
-    "description": "A popular red dot sight, known for its minuscule dimensions.  Its large dot allows for quicker target acquisition, which results in the sight being somewhat less precise.  Installation requires an adapter.  With one of such adapters, it can be installed on top of a similarly-popular Trijicon ACOG sight, allowing the user to have two sights at the same time.",
+    "description": "A tiny red dot sight.  Usually installed on a pistol due to its small footprint.  Requires an RMR adapter to install.  With an extra adapter, could be mounted onto the military optical sight.",
+
+    "variant_type": "gun",
+    "variants": [
+      {
+        "id": "black",
+        "name": {
+          "str": "Trijicon RMR red dot sight"
+        },
+        "description": "A red dot sight popular for its minuscule dimensions.  Its large dot allows for quicker target acquisition, which results in the sight being somewhat less-precise.  Installation requires an adapter for the RMR footprint.  With one such adapter, the sight can be installed on top of an ACOG sight, allowing the user to have two sights at the same time.  <variant_black>",
+        "expand_snippets": true,
+        "weight": 4
+      },
+      {
+        "id": "fde",
+        "name": {
+          "str": "Trijicon RMR red dot sight"
+        },
+        "description": "A red dot sight popular for its minuscule dimensions.  Its large dot allows for quicker target acquisition, which results in the sight being somewhat less-precise.  Installation requires an adapter for the RMR footprint.  With one such adapter, the sight can be installed on top of an ACOG sight, allowing the user to have two sights at the same time.  <variant_fde>",
+        "expand_snippets": true,
+        "weight": 1
+      },
+      {
+        "id": "olive",
+        "name": {
+          "str": "Trijicon RMR red dot sight"
+        },
+        "description": "A red dot sight popular for its minuscule dimensions.  Its large dot allows for quicker target acquisition, which results in the sight being somewhat less-precise.  Installation requires an adapter for the RMR footprint.  With one such adapter, the sight can be installed on top of an ACOG sight, allowing the user to have two sights at the same time.  <variant_olive>",
+        "expand_snippets": true,
+        "weight": 1
+      },
+      {
+        "id": "grey",
+        "name": {
+          "str": "Trijicon RMR red dot sight"
+        },
+        "description": "A red dot sight popular for its minuscule dimensions.  Its large dot allows for quicker target acquisition, which results in the sight being somewhat less-precise.  Installation requires an adapter for the RMR footprint.  With one such adapter, the sight can be installed on top of an ACOG sight, allowing the user to have two sights at the same time.  <variant_grey>",
+        "expand_snippets": true,
+        "weight": 1
+      }
+    ],
 
     "weight": "34 g",
     "//dimensions": {
@@ -128,24 +168,45 @@
 
     "price": "649 USD"
   },
-
   {
     "id": "sight_holosun_507k",
     "copy-from": "sight_rds",
     "type": "GUNMOD",
 
     "//sources": [
-      "https://holosun.com/products/reflex-sight/507/hs507k-x2.html"
+      "https://holosun.com/products/reflex-sight/507/he507k-gr-x2.html",
+      [
+        "https://holosun.com/uploads/20210624/14243b799ef8d6265d03fdd24563236b.pdf",
+        "tools reference"
+      ]
+    ],
+
+    "//notes": [
+      "comes with a tool that has a T10 Torx end and a small flat screw end",
+      "the tool might have fine flat screwdriving 1"
     ],
 
     "name": {
-      "str": "Holosun 507K red dot sight"
+      "str": "subcompact green dot sight"
     },
-    "description": "A compact red dot sight, a good fit for pistols and similar small firearms. Smaller dot for a reticle makes the sight slightly more accurate at longer ranges, though sacrificing speed of target acquisition.  Installation requires an adapter.",
+    "description": "A compact sight with a green dot, intended for small pistols.  Smaller dot for a reticle makes the sight slightly more-accurate at longer ranges, though sacrificing speed of target acquisition.  Installation requires a 507K adapter.",
+
+    "variant_type": "gun",
+    "variants": [
+      {
+        "id": "black",
+        "name": {
+          "str": "Holosun 507K green dot sight"
+        },
+        "description": "A miniature sight intended for subcompact pistols.  Its green reticle purportedly makes it easier to see and, therefore, easier to aim with.  Mounts on an adapter after the 407/507K pattern; it is more likely that you will find one of its adapters for other mounts, particularly RMR mounts, than a direct Picatinny adapter.  <variant_black>",
+        "expand_snippets": true,
+        "weight": 1
+      }
+    ],
 
     "weight": "28 g",
     "//dimensions": {
-      "length": "1.60 in",
+      "length": "1.6 in",
       "width": "0.98 in",
       "height": "0.95 in",
       "raw": "24 ml",
@@ -164,35 +225,60 @@
       "lifetime": "50000 h"
     },
 
+    "//tools": { "to install": "T10 Torx" },
+
     "price": "341 USD"
   },
-
   {
     "id": "sight_aimpoint_micro_t2",
     "copy-from": "sight_rds",
     "type": "GUNMOD",
 
     "//sources": [
-      "https://www.aimpoint.com/products/red-dot-sights/micro-t-2-2-moa-red-dot-reflex-sight-without-mount",
-      "https://aimpoint.us/micro-t-2-no-mount/"
+      "https://www.aimpoint.com/products/micro-t-2-2-moa-red-dot-reflex-sight-with-standard-mount-for-weaver-picatinny/",
+      [
+        "https://images.salsify.com/image/upload/s--RN6eRMe2--/twexagr8axz82p01z52x.pdf",
+        "weight",
+        "dimensions",
+        "field of view reference"
+      ]
     ],
 
     "name": {
-      "str": "Aimpoint Micro T-2 red dot sight"
+      "str": "compact tubular red dot sight"
     },
-    "description": "A compact, circular red dot sight, advertised for its ruggedness and clarity.  Has lens covers that open upwards, allowing the user to protect the sight from the elements when not in use.  Smaller dot makes the sight more precise at longer ranges, which slightly sacrifices target acquisition speed.  Installation requires an adapter.",
+    "description": "A small sight, about the length of a thumb.  Its tubular nature narrows its field of view significantly, which makes reaiming difficult, but helps with accuracy on the current target.  Installation requires a T-2 adapter.",
 
+    "variant_type": "gun",
+    "variants": [
+      {
+        "id": "black",
+        "name": {
+          "str": "Aimpoint Micro T-2 red dot sight"
+        },
+        "description": "A compact, tubular red dot sight, advertised for its ruggedness and clarity.  Has lens covers that open upwards, allowing the user to protect the sight from the elements when not in use.  Its narrow field of view makes reaiming difficult, but aids accuracy over the current target.  Mounts over the Micro T-2 footprint.  <variant_black>",
+        "expand_snippets": true,
+        "weight": 1
+      }
+    ],
+
+    "//weight": [
+      "manual says the weight is '3 oz / 84 g', while 3 oz = 85.049 g",
+      "global Aimpoint page says the weight is 3.3 oz = 93.553 g of the sight alone"
+    ],
     "weight": "94 g",
     "//dimensions": {
-      "length": "2.70 in",
-      "width": "1.60 in",
-      "height": "1.40 in",
-      "raw": "99 ml",
+      "length": "68 mm",
+      "width": "41 mm",
+      "height": "36 mm",
+      "raw": "100.37 ml",
       "trim": 0.3
     },
-    "volume": "69 ml",
-    "longest_side": "69 mm",
+    "volume": "70 ml",
+    "longest_side": "68 mm",
 
+    "//field_of_view": "18 mm [clear aperture] @ 100 m = 0.6186 MOA",
+    "field_of_view": 62,
     "sight_dispersion": 200,
     "aim_speed_modifier": 8,
 
@@ -205,7 +291,6 @@
 
     "price": "870 USD"
   },
-
   {
     "id": "sight_vortex_strikefire_ii",
     "copy-from": "sight_rds_no_magnifier",
@@ -216,9 +301,22 @@
     ],
 
     "name": {
-      "str": "Vortex Strikefire II red dot sight"
+      "str": "tubular 30mm green dot sight"
     },
-    "description": "A large red dot sight, looking more like a scope than a more-popular square form factor.  Large dot allows for quicker target acquisition, in exchange for making the sight less-precise at longer ranges.  Installs onto a single-ring 30mm mount.",
+    "description": "A large green dot sight in the tube form factor.  Its construction means a restricted field of view, which makes reaiming difficult, but helps with accuracy over the current target.  Installs onto a single-ring 30mm mount.",
+
+    "variant_type": "gun",
+    "variants": [
+      {
+        "id": "black",
+        "name": {
+          "str": "Vortex Strikefire II green dot sight"
+        },
+        "description": "A large, scope-like tubular sight with a green dot.  Its construction means a restricted field of view, which makes reaiming difficult, but helps with accuracy over the current target.  Requires a single 30mm ring for a mount.  <variant_black>",
+        "expand_snippets": true,
+        "weight": 1
+      }
+    ],
 
     "weight": "204 g",
     "//dimensions": {
@@ -233,6 +331,8 @@
     "volume": "167 ml",
     "longest_side": "142 mm",
 
+    "//field_of_view": "30 mm [lens diameter] @ 100 m = 1.0314 MOA",
+    "field_of_view": 103,
     "sight_dispersion": 400,
     "aim_speed_modifier": 12,
 
@@ -243,53 +343,12 @@
       "lifetime": "80000 h"
     },
 
+    "//tools": {
+      "to install": "T15 Torx"
+    },
+
     "price": "275 USD"
   },
-
-  {
-    "id": "sight_sigsauer_romeo5x",
-    "copy-from": "sight_rds",
-    "type": "GUNMOD",
-
-    "//sources": ["https://www.sigsauer.com/romeo5x-1x20-mm.html"],
-
-    "name": {
-      "str": "Sig Sauer Romeo5X red dot sight"
-    },
-    "description": "A relatively-compact red dot sight, an improved version of Romeo5.  The battery compartment under the lens makes this sight taller than most compact red dot sights. The small reticle dot makes aiming at longer distances more precise, while also making target acquisition slightly more difficult.  Installation requires an adapter.",
-
-    "//weight": [
-      "listed as 159 g with an alkaline AAA battery",
-      "typical alkaline AAA battery weighs 11.5 g ≈ 12 g",
-      "unless togglable/draining sights are implemented (unlikely, given typical battery life), we assume the battery is always in and always active, and thus always included with the weight"
-    ],
-    "weight": "159 g",
-    "//dimensions": {
-      "length": "63.5 mm",
-      "width": "35.6 mm",
-      "height": "66 mm",
-      "raw": "149 ml",
-      "trim": 0.3,
-      "notes": [
-        "we assume that height is listed for the sight alone, and not the sight and the mount"
-      ]
-    },
-    "volume": "104 ml",
-    "longest_side": "66 mm",
-
-    "sight_dispersion": 200,
-    "aim_speed_modifier": 8,
-
-    "location": "Romeo5 mount",
-
-    "//power": {
-      "source": [["AAA"]],
-      "lifetime": "50000 h"
-    },
-
-    "price": "220 USD"
-  },
-
   {
     "id": "sight_holosun_aems",
     "copy-from": "sight_rds_no_magnifier",
@@ -307,9 +366,22 @@
     ],
 
     "name": {
-      "str": "Holosun AEMS red dot sight"
+      "str": "boxy red dot sight"
     },
-    "description": "A large, futuristic-looking red dot sight that is surprisingly light for its bulk.  Smaller dot makes the sight more precise at longer distances, exchanging it for slightly slower target acquisition.  Installs directly onto Picatinny rail, since it comes with an embedded adapter.",
+    "description": "A large, futuristic-looking red dot sight that is surprisingly light for its bulk.  Its wide lens allows for a large field of view.  Installs directly onto Picatinny rail, since it comes with an embedded adapter.",
+
+    "variant_type": "gun",
+    "variants": [
+      {
+        "id": "black",
+        "name": {
+          "str": "Holosun AEMS red dot sight"
+        },
+        "description": "A boxy red dot sight on a riser.  Its rectangular lens provides an unparallelled field of view for its size.  Installs directly onto Picatinny rail, since it comes with an embedded adapter.  <variant_black>",
+        "expand_snippets": true,
+        "weight": 1
+      }
+    ],
 
     "weight": "110 g",
     "//dimensions": {
@@ -328,14 +400,12 @@
     "aim_speed_modifier": 8,
 
     "//power": {
-      "source": [["CR2032"]],
-      "lifetime": "50000 h",
-      "notes": ["also solar"]
+      "source": [["solar"], ["CR2032"]],
+      "lifetime": "50000 h"
     },
 
     "price": "471 USD"
   },
-
   {
     "id": "sight_trijicon_rx01",
     "copy-from": "sight_rds_no_magnifier",
@@ -350,9 +420,22 @@
     ],
 
     "name": {
-      "str": "Trijicon RX01 red dot sight"
+      "str": "outdated army red dot sight"
     },
-    "description": "A legacy design of a red dot sight, this model is known for being part of SOPMOD: a kit of rifle attachments supplied to U.S. soldiers.  The dot is large, at 6.5 MOA, and is colored amber.  While it's been discontinued for several years, it's still sought after by collectors and fans of recent US military history.",
+    "description": "An old design of a sight that'd been obsoleted far before the Cataclysm.  Its large form factor and the size and the color of its amber dot make it stand out among newer models.  Primarily known for being part of an early set of modular attachments U.S. troops used on their rifles.",
+
+    "variant_type": "gun",
+    "variants": [
+      {
+        "id": "black",
+        "name": {
+          "str": "Trijicon RX01 red dot sight"
+        },
+        "description": "A legacy design of a red dot sight, this model is known for being part of SOPMOD: a kit of rifle attachments supplied to the U.S. Army troops.  The dot is large, at 6.5 MOA, and is colored amber.  While it's been discontinued for several years, it's still sought after by collectors and fans of recent U.S. military history.  <variant_black>",
+        "expand_snippets": true,
+        "weight": 1
+      }
+    ],
 
     "weight": "119 g",
     "//dimensions": {
@@ -371,14 +454,13 @@
     "aim_speed_modifier": 8,
 
     "//power": {
-      "source": [["tritium"]],
-      "lifetime": "12 y",
+      "source": [["tritium"], ["CR2032"]],
+      "lifetime": "50000 h",
       "notes": ["also fiber optic"]
     },
 
     "price": "519 USD"
   },
-
   {
     "id": "sight_aimpoint_compm2",
     "copy-from": "sight_rds",
@@ -390,9 +472,22 @@
     ],
 
     "name": {
-      "str": "Aimpoint CompM2 red dot sight"
+      "str": "army red dot sight"
     },
-    "description": "A legacy design of a red dot sight, this model is known for being part of SOPMOD: a kit of rifle attachments supplied to U.S. soldiers.  The dot is large, at 6.5 MOA, and is colored amber.  While it's been discontinued for several years, it's still sought after by collectors and fans of recent U.S. military history.",
+    "description": "A modern, though still outdated, design of a red dot sight.  Its tubular design makes it easier to aim over a single target, though reaiming is hampered.  This sight was used by the U.S. Army over a decade earlier, and later superseded by a new model of a similar design.",
+
+    "variant_type": "gun",
+    "variants": [
+      {
+        "id": "black",
+        "name": {
+          "str": "Aimpoint CompM2 red dot sight"
+        },
+        "description": "A modern, though still outdated, design of a red dot sight, known for being part of SOPMOD: a kit of rifle attachments supplied to the U.S. Army troops.  CompM2 is a significant improvement over the previous Trijicon RX01 sight, having a tube design, which makes it easier to stay on target while aiming.  Later superseded by CompM4, which mostly provides comfort-of-use upgrades over its predecessor.   <variant_black>",
+        "expand_snippets": true,
+        "weight": 1
+      }
+    ],
 
     "weight": "201 g",
     "//dimensions": {
@@ -419,7 +514,6 @@
 
     "price": "519 USD"
   },
-
   {
     "id": "sight_noblex_sight_ii",
     "copy-from": "sight_rds",
@@ -432,18 +526,18 @@
     "//notes": ["the 7 MOA model"],
 
     "name": {
-      "str": "Noblex Sight II Plus red dot sight"
+      "str": "older army backup red dot sight"
     },
-    "description": "A compact, lightweight red dot sight.",
+    "description": "A compact, lightweight red dot sight.  This model used to be mounted on the army short-range scope, before a similar model succeeded it as the army's choice.  Despite being an older design, it still boasts comparable performance.  Its large dot makes it easier to aim, though harder to be accurate.",
 
-    "variant_type": "generic",
+    "variant_type": "gun",
     "variants": [
       {
         "id": "sight_noblex_sight_ii",
         "name": {
           "str": "Noblex Sight II Plus red dot sight"
         },
-        "description": "A compact, lightweight red dot sight.  This is a newer model of the sight that used to be a part of SOPMOD: a kit of rifle attachments supplied to U.S. soldiers.  Noblex, previously known as Docter, was still in business of producing firearm sights before Cataclysm came about.",
+        "description": "A compact, lightweight red dot sight.  This is a newer model of the sight that used to be a part of SOPMOD: a kit of rifle attachments supplied to the U.S. Army troops.  The sight of this form factor was mounted atop the ACOG as a backup for shorter-range engagements, and later superseded by the RMR.  Noblex, previously known as Docter, was still in business of producing firearm sights before Cataclysm came about.  <variant_black>",
         "weight": 8
       },
       {
@@ -451,16 +545,16 @@
         "name": {
           "str": "Docter MRDS red dot sight"
         },
-        "description": "A compact, lightweight red dot sight.  This, by some miracle, is an actual Docter MRD: the very same that used to be issued to US soldiers as part of SOPMOD.  Despite having nearly-identical dimensions to its modern-day sibling from Noblex -- formerly Docter -- this one still clearly says \"Docter\" on the side.",
+        "description": "A compact, lightweight red dot sight.  This, by some miracle, is an actual Docter MRD: the very same that used to be issued to US soldiers as part of SOPMOD.  The sight was mounted atop the ACOG as a backup for shorter-range engagements, and later superseded by the RMR.  Despite having nearly-identical dimensions to its younger sibling, this one still clearly says \"Docter\" -- the previous name of the company -- on the side.  <variant_black>",
         "weight": 1
       }
     ],
 
     "weight": "25 g",
     "//dimensions": {
-      "length": "46.00 mm",
-      "width": "25.40 mm",
-      "height": "23.70 mm",
+      "length": "46 mm",
+      "width": "25 mm",
+      "height": "23 mm",
       "raw": "28 ml",
       "trim": 0.3
     },

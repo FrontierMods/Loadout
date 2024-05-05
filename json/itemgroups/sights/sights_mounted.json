@@ -50,16 +50,6 @@
       ["sight_mount_30mm_single_aero", 80]
     ]
   },
-
-  {
-    "type": "item_group",
-    "id": "loadout_sight_sigsauer_romeo5x",
-
-    "subtype": "collection",
-
-    "items": ["sight_sigsauer_romeo5x", ["sight_mount_romeo_sig_sauer", 80]]
-  },
-
   {
     "type": "item_group",
     "id": "loadout_sight_noblex_sight_ii",

@@ -37,8 +37,18 @@
     "type": "GUNMOD",
 
     "//sources": [
-      "https://www.aimpoint.com/products/mounting-solutions/microtm-standard-mount-for-micro-t-2t-1-and-compm5tm-sights-fits-picatinny-rail",
-      "https://aimpoint.us/micro-standard-mount-for-t-1-t-2-kit/"
+      [
+        "https://aimpoint.us/micro-standard-mount-for-t-1-t-2-kit/",
+        "weight reference"
+      ],
+      [
+        "https://www.aimpoint.com/products/micro-t-2-2-moa-red-dot-reflex-sight-with-standard-mount-for-weaver-picatinny/",
+        "weight"
+      ],
+      [
+        "https://www.optics-trade.eu/blog/aimpoint-micro-t-2-footprint/",
+        "dimensions"
+      ]
     ],
 
     "name": {
@@ -46,16 +56,23 @@
     },
     "description": "A low Micro-series mount for compatible Aimpoint red dot sights: T-1 and T-2.  Installs on top of a common Picatinny rail, found on most large modern firearms.",
 
-    "weight": "48 g",
+    "//weight": [
+      "stated in the Q&A section of the US page is 1.1 oz = 31.184 g",
+      "the page for the sight + mount combo states the overall weight to be 4.6 oz, and the weight of the sight 3.3 oz",
+      "4.6 oz − 3.3 oz = 1.3 oz = 36.854 g",
+      "we use this value as the most-likely to be up-to-date"
+    ],
+    "weight": "37 g",
     "//dimensions": {
-      "length": "2.00 in",
-      "width": "1.30 in",
-      "height": "0.50 in",
-      "raw": "21 ml",
-      "trim": 0.2
+      "length": "51.5 mm",
+      "width": "28.1 mm",
+      "height": "5.9 mm",
+      "raw": "8.54 ml",
+      "trim": 0.2,
+      "notes": ["height acquired from visual reference"]
     },
-    "volume": "17 ml",
-    "longest_side": "51 mm",
+    "volume": "7 ml",
+    "longest_side": "52 mm",
 
     "add_mod": [["Micro mount", 1]],
 
@@ -114,50 +131,6 @@
     "longest_side": "71 mm",
 
     "price": "116 USD"
-  },
-  {
-    "id": "sight_mount_romeo_sig_sauer",
-    "copy-from": "sight_mount_abstract",
-    "type": "GUNMOD",
-
-    "//sources": [
-      "https://www.sigsauer.com/romeo5x-1x20-mm.html",
-      "https://www.sigsauer.com/romeo5-low-mount-graphite.html"
-    ],
-
-    "//notes": [
-      "this appears to be a different mount from what Romeo5X is using, but for now, we pretend this to be a minor detail",
-      "this mount is supposed to be also compatible with Aimpoint T-1 sights, but we cannot implement this layer of interoperability at this stage without making the gameplay too clunky"
-    ],
-
-    "name": {
-      "str": "Sig Sauer Romeo5 mount"
-    },
-    "description": "A low mount for installing compatible compact Sig Sauer red dot sights -- namely, Romeo5X -- onto any common Picatinny rail.",
-
-    "//weight": [
-      "assumed to be the same as Aimpoint Micro mount due to similar dimensions",
-      "there seem to be no sources for the mount's dimensions online"
-    ],
-    "weight": "48 g",
-    "//dimensions": {
-      "length": "50.40 mm",
-      "width": "35.60 mm",
-      "height": "0.50 in",
-      "raw": "23 ml",
-      "trim": 0.2,
-      "notes": [
-        "length assumed from visual reference",
-        "width assumed to be same as width of sight",
-        "height assumed to be same as Aimpoint Micro"
-      ]
-    },
-    "volume": "15 ml",
-    "longest_side": "50 mm",
-
-    "add_mod": [["Romeo5 mount", 1]],
-
-    "price": "95 USD"
   },
   {
     "id": "sight_mount_docter_trijicon_ms10",
