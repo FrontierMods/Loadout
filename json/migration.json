@@ -24,5 +24,10 @@
     "id": ["magnifier"],
     "type": "MIGRATION",
     "replace": "magnifier_eotech_g43"
+  },
+  {
+    "id": ["muzzle_brake"],
+    "type": "MIGRATION",
+    "replace": "muzzle_brake_surefire_socom"
   }
 ]
