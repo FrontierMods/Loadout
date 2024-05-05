@@ -19,5 +19,10 @@
     "type": "MIGRATION",
     "//replace": "should be CompM4, to keep it modern",
     "replace": "sight_aimpoint_compm2"
+  },
+  {
+    "id": ["magnifier"],
+    "type": "MIGRATION",
+    "replace": "magnifier_eotech_g43"
   }
 ]
