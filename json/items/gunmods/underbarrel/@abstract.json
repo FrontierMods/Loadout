@@ -32,7 +32,6 @@
     "//add_mod": "simulates the idea of having enough space to install a rail attachment",
     "add_mod": [["rail", 1]]
   },
-
   {
     "abstract": "foregrip_large",
     "copy-from": "foregrip_abstract",
@@ -50,7 +49,6 @@
     "//add_mod": "overrides extra rail slot for large forward grips",
     "add_mod": []
   },
-
   {
     "abstract": "bipod_abstract",
     "type": "GUNMOD",

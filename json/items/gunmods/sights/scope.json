@@ -69,7 +69,6 @@
 
     "price": "1400 USD"
   },
-
   {
     "id": "sight_eotech_vudu_6x",
     "copy-from": "sight_eotech_vudu",
@@ -159,7 +158,6 @@
 
     "price": "700 USD"
   },
-
   {
     "id": "sight_trijicon_huron_12x",
     "copy-from": "sight_trijicon_huron",
@@ -256,7 +254,6 @@
 
     "price": "1470 USD"
   },
-
   {
     "id": "sight_trijicon_tenmile_24x",
     "copy-from": "sight_trijicon_tenmile",
@@ -389,7 +386,6 @@
     "//price": "Charlie's Clones pricing, which is said to be slightly-cheaper than the original",
     "price": "1527 USD"
   },
-
   {
     "id": "sight_leupold_mark4_8x",
     "copy-from": "sight_leupold_mark4",
@@ -482,7 +478,6 @@
 
     "price": "1527 USD"
   },
-
   {
     "id": "sight_elcan_specterdr_4x",
     "copy-from": "sight_elcan_specterdr",
