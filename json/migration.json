@@ -29,5 +29,10 @@
     "id": ["muzzle_brake"],
     "type": "MIGRATION",
     "replace": "muzzle_brake_surefire_socom"
+  },
+  {
+    "id": ["improve_sights"],
+    "type": "MIGRATION",
+    "replace": "iron_sights_dd"
   }
 ]

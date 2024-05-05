@@ -369,46 +369,6 @@
   },
 
   {
-    "id": "improve_sights",
-    "copy-from": "improve_sights",
-    "type": "GUNMOD",
-
-    "//sources": [
-      "https://danieldefense.com/ar-15-iron-sight-set.html",
-      "https://www.wingtactical.com/accessories/optics-sights/sights/daniel-defense-ar-15-fixed-iron-sights/"
-    ],
-
-    "name": {
-      "str": "Daniel Defense iron sights"
-    },
-    "description": "A pair of fixed iron sights.  Advertised as \"A1.5\" sights, they combine the best of both worlds: the precision of A1, an earlier model of AR-15 sights, and the adjustability of A2.",
-
-    "weight": "79 g",
-    "//dimensions": {
-      "length": "61 mm",
-      "width": "44 mm",
-      "height": "24 mm",
-      "raw": "64 ml",
-      "trim": 0.3,
-      "notes": [
-        "dimensions given for a pair of corresponding sights stacked together",
-        "height (44 mm) assumed from height of the taller (rear) sight (39 mm) + 5 mm of the base gripping around the rail"
-      ]
-    },
-    "volume": "45 ml",
-    "longest_side": "61 mm",
-
-    "material": ["steel"],
-
-    "//sight_dispersion": "move them closer to the default Loadout iron sight balancing",
-    "sight_dispersion": 24,
-    "//aim_speed_modifier": "minor bonus for better-than-default sights",
-    "aim_speed_modifier": 2,
-
-    "price": "142 USD"
-  },
-
-  {
     "id": "offset_sight_rail",
     "copy-from": "offset_sight_rail",
     "type": "GUNMOD",
