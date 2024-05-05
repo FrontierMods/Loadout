@@ -121,7 +121,7 @@
     "name": {
       "str": "heavy-duty flat muzzle brake"
     },
-    "description": "A heavy-looking muzzle brake that extends mostly to the side.  This one is among the best on the market in terms of recoil reduction.  Despite the name, it's not made of titanium.  <muzzle_device_rating_556>  <muzzle_brake_descriptor>",
+    "description": "A heavy-looking muzzle brake that extends mostly to the side.  This one is among the best on the market in terms of recoil reduction.  <muzzle_device_rating_556>  <muzzle_brake_descriptor>",
     "expand_snippets": true,
 
     "variant_type": "gun",
@@ -172,7 +172,7 @@
     "name": {
       "str": "hollow muzzle brake"
     },
-    "description": "A shiny steel-gray muzzle brake with hollowed-out vents, capable of reducing recoil by more than 56%.  This model is rated for 5.56mm NATO.  <muzzle_brake_descriptor>",
+    "description": "A shiny steel-gray muzzle brake with hollowed-out vents, capable of reducing recoil by more than 56%.  <muzzle_device_rating_556>  <muzzle_brake_descriptor>",
     "expand_snippets": true,
 
     "variant_type": "gun",
@@ -233,7 +233,7 @@
     "name": {
       "str": "square muzzle brake"
     },
-    "description": "This square, shiny dark-gray muzzle brake with large cavities is capable of reducing recoil by a large margin.  This model is rated for 5.56mm NATO.  <muzzle_brake_descriptor>",
+    "description": "This square, shiny dark-gray muzzle brake with large cavities is capable of reducing recoil by a large margin.  <muzzle_device_rating_556>  <muzzle_brake_descriptor>",
     "expand_snippets": true,
 
     "variant_type": "gun",
@@ -404,7 +404,7 @@
     "name": {
       "str": "sleek muzzle brake"
     },
-    "description": "A muzzle brake that provides average improvement to the handling of the gun.  An accompanying sleek suppressor can be attached to the muzzle brake.  <muzzle_brake_descriptor_generic>",
+    "description": "A muzzle brake that provides average improvement to the handling of the gun.  An accompanying sleek suppressor can be attached to the muzzle brake.  <muzzle_brake_descriptor>",
     "expand_snippets": true,
 
     "variant_type": "gun",
