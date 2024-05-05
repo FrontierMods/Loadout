@@ -286,49 +286,6 @@
   },
 
   {
-    "id": "muzzle_brake",
-    "copy-from": "muzzle_brake",
-    "type": "GUNMOD",
-
-    "//sources": [
-      "https://www.surefire.com/procomp/",
-      "https://www.thetruthaboutguns.com/556-muzzle-device-shootout/",
-      "https://www.calguns.net/calgunforum/showthread.php?t=1276996"
-    ],
-
-    "//notes": ["assumes the 5.56mm model"],
-
-    "name": {
-      "str": "SureFire ProComp muzzle brake"
-    },
-    "description": "An unassuming but capable muzzle brake, this one is capable of reducing recoil by almost 60%.  It's rated for 5.56mm NATO.  Like any muzzle brake, it makes sound signature (i.e., noise from firing) much louder.  Remember to wear hearing protection.",
-
-    "weight": "96 g",
-    "//dimensions": {
-      "length": "2.5 in",
-      "diameter": "0.866 in",
-      "raw": "24 ml",
-      "trim": 0.05,
-      "notes": [
-        "same outer diameter as A2 birdcage, which accepts NATO 22 mm rifle grenades"
-      ]
-    },
-    "volume": "23 ml",
-    "longest_side": "64 mm",
-
-    "//calibers": ["223"],
-
-    "//recoil_reduction": "59.79%",
-    "//recoil_distance": "3.71875 in.",
-    "handling_modifier": 20,
-    "loudness_modifier": 30,
-
-    "install_time": "20 s",
-
-    "price": "99 USD"
-  },
-
-  {
     "id": "offset_sights",
     "copy-from": "offset_sights",
     "type": "GUNMOD",
