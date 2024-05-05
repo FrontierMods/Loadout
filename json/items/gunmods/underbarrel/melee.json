@@ -1,5 +1,71 @@
 [
   {
+    "id": "underbarrel_bayonet_pistol",
+    "copy-from": "pistol_bayonet",
+    "type": "GUNMOD",
+
+    "//sources": ["https://www.midwayusa.com/product/1978319879"],
+
+    "name": {
+      "str": "pistol bayonet"
+    },
+    "description": "A tiny blade with a plastic handle resembling a combat knife, this \"bayonet\" is intended to be attached to the underbarrel rail of a pistol and serve as a \"convenient\" melee weapon.  Doesn't mean it's effective, but hey: a pistol bayonet, right?",
+
+    "variant_type": "gun",
+    "variants": [
+      {
+        "id": "black",
+
+        "name": {
+          "str": "LaserLyte pistol bayonet"
+        },
+        "description": "A tiny blade with a mock plastic handle resembling that of a Ka-Bar knife, this \"bayonet\" is intended to be attached to the underbarrel rail of a pistol and serve as a convenient melee weapon in case of a zombie apocalypse.  That's right: the manufacturer of this thing called it on the whole \"zombies everywhere\" thing.  Doesn't make this weapon any more effective, but hey: a pistol bayonet, right?",
+        "weight": 1
+      }
+    ],
+
+    "weight": "74 g",
+    "//dimensions": {
+      "length": "5.75 in",
+      "width": "1.71 in",
+      "height": "0.63 in",
+      "raw": "98 ml",
+      "trim": 0.4,
+      "notes": ["width taken from visual reference", "height assumed"]
+    },
+    "volume": "59 ml",
+    "longest_side": "146 mm",
+    "//integral_longest_side": "blade length, assuming the 'handle' is entirely under the barrel",
+    "integral_longest_side": "70 mm",
+
+    "//material": "the plastic part is actually glass-filled nylon",
+    "material": ["steel", "plastic"],
+
+    "symbol": ":",
+    "color": "light_gray",
+
+    "//install_time": "looks like it just slides on and is held on by friction",
+    "install_time": "5 s",
+
+    "to_hit": -4,
+    "melee_damage": {
+      "stab": 6
+    },
+
+    "location": "underbarrel",
+    "mod_targets": ["pistol"],
+    "min_skills": [["weapon", 1]],
+
+    "qualities": [
+      ["CUT", 1],
+      ["BUTCHER", 15]
+    ],
+
+    "mode_modifier": [["REACH", "bayonet", 1, ["MELEE"]]],
+
+    "price": "20 USD"
+  },
+  {
     "id": "underbarrel_killsaw",
     "copy-from": "masonrysaw_off",
     "type": "TOOL",
@@ -91,7 +157,6 @@
     "price": "500 USD",
     "price_postapoc": "5 USD"
   },
-
   {
     "id": "underbarrel_killsaw_on",
     "copy-from": "masonrysaw_on",
@@ -141,7 +206,6 @@
 
     "melee_damage": { "bash": 4, "cut": 70 }
   },
-
   {
     "id": "underbarrel_machete",
     "copy-from": "machete",

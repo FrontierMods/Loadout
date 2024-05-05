@@ -34,5 +34,10 @@
     "id": ["improve_sights"],
     "type": "MIGRATION",
     "replace": "iron_sights_dd"
+  },
+  {
+    "id": ["pistol_bayonet"],
+    "type": "MIGRATION",
+    "replace": "underbarrel_bayonet_pistol"
   }
 ]
