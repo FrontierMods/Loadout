@@ -668,41 +668,6 @@
   },
 
   {
-    "id": "pistol_bayonet",
-    "copy-from": "pistol_bayonet",
-    "type": "GUNMOD",
-
-    "//sources": ["https://www.midwayusa.com/product/1978319879"],
-
-    "name": {
-      "str": "LaserLyte pistol bayonet"
-    },
-    "description": "A tiny blade with a mock plastic handle resembling that of a Ka-Bar knife, this \"bayonet\" is intended to be attached to the underbarrel rail of a pistol and serve as a convenient melee weapon in case of a zombie apocalypse.  That's right: the manufacturer of this thing called it on the whole \"zombies everywhere\" thing.  Doesn't make this weapon any more effective, but hey: pistol bayonet, right?",
-
-    "weight": "74 g",
-    "//dimensions": {
-      "length": "5.75 in",
-      "width": "1.71 in",
-      "height": "0.63 in",
-      "raw": "98 ml",
-      "trim": 0.4,
-      "notes": ["width taken from visual reference", "height assumed"]
-    },
-    "volume": "59 ml",
-    "longest_side": "146 mm",
-    "//integral_longest_side": "blade length, assuming the 'handle' is entirely under the barrel",
-    "integral_longest_side": "70 mm",
-
-    "//material": "the plastic part is actually glass-filled nylon",
-    "material": ["steel", "plastic"],
-
-    "//install_time": "looks like it just slides on and is held on by friction",
-    "install_time": "5 s",
-
-    "price": "20 USD"
-  },
-
-  {
     "id": "pistol_stock",
     "copy-from": "pistol_stock",
     "type": "GUNMOD",
