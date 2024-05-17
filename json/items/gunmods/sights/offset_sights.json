@@ -1,5 +1,50 @@
 [
   {
+    "id": "iron_sights_magpul_mbus_pro_offset",
+    "copy-from": "iron_sights_offset_abstract",
+    "type": "GUNMOD",
+
+    "//sources": [
+      "https://magpul.com/mbus-pro-offset-sight-rear.html",
+      "https://magpul.com/mbus-pro-offset-sight-front.html",
+      [
+        "https://www.dropbox.com/sh/pwyh6mee1jrt27p/AADAlxftcAtFpovoZej9NoCQa/FIREARMS%20ACCESSORIES/SIGHTS/MBUS%20PRO?e=1&preview=MAG525_MBUS_Pro_Offset_Front_INSRT.pdf&dl=0",
+        "front sight post width"
+      ]
+    ],
+
+    "name": {
+      "str_sp": "professional offset iron sights"
+    },
+    "description": "<offset_sights_foldable_or_inline>  <offset_sights_descriptor>",
+    "expand_snippets": true,
+
+    "variant_type": "gun",
+    "variants": [
+      {
+        "id": "black",
+        "name": {
+          "str": "Magpul MBUS Pro offset iron sights",
+          "str_pl": "pairs of Magpul MBUS Pro offset iron sights"
+        },
+        "description": "<offset_sights_foldable_or_inline>  <offset_sights_descriptor>  <variant_black_plural>",
+        "expand_snippets": true,
+        "weight": 1
+      }
+    ],
+
+    "//weight": "2 oz + 1.8 oz = 3.8 oz ≈ 108 g",
+    "weight": "108 g",
+    "//dimensions": "copied from the `iron_sights_abstract` item; actual dimensions not readily available",
+    "volume": "95 ml",
+    "longest_side": "63 mm",
+
+    "material": ["steel"],
+
+    "//price": "120 + 100 USD",
+    "price": "220 USD"
+  },
+  {
     "id": "iron_sights_strike_sidewinder2",
     "copy-from": "iron_sights_offset_abstract",
     "type": "GUNMOD",
@@ -8,13 +53,35 @@
       "https://www.wingtactical.com/accessories/optics-sights/sights/strike-industries-sidewinder-ii-45-degree-offset-inline-flip-up-sights/"
     ],
 
-    "//notes": ["comes in all-black and red-and-black color schemes"],
-
     "name": {
-      "str": "SI Sidewinder II offset iron sights",
-      "str_pl": "pairs of SI Sidewinder II offset iron sights"
+      "str_sp": "adjustable offset iron sights"
     },
-    "description": "A pair of offset iron sights that could be flipped down or inline, to make them behave more like regular iron sights.  Offset iron sights can be used alongside other sights and scopes.",
+    "description": "<offset_sights_foldable_or_inline>  <offset_sights_descriptor>",
+    "expand_snippets": true,
+
+    "variant_type": "gun",
+    "variants": [
+      {
+        "id": "black",
+        "name": {
+          "str": "SI Sidewinder II offset iron sights",
+          "str_pl": "pairs of SI Sidewinder II offset iron sights"
+        },
+        "description": "<offset_sights_foldable_or_inline>  <offset_sights_descriptor>  <variant_black_plural>",
+        "expand_snippets": true,
+        "weight": 4
+      },
+      {
+        "id": "red",
+        "name": {
+          "str": "SI Sidewinder II offset iron sights",
+          "str_pl": "pairs of SI Sidewinder II offset iron sights"
+        },
+        "description": "<offset_sights_foldable_or_inline>  <offset_sights_descriptor>  <variant_red_plural>",
+        "expand_snippets": true,
+        "weight": 4
+      }
+    ],
 
     "weight": "101 g",
 

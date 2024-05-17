@@ -286,40 +286,6 @@
   },
 
   {
-    "id": "offset_sights",
-    "copy-from": "offset_sights",
-    "type": "GUNMOD",
-
-    "//sources": [
-      "https://magpul.com/mbus-pro-offset-sight-rear.html",
-      "https://magpul.com/mbus-pro-offset-sight-front.html"
-    ],
-
-    "name": {
-      "str": "Magpul MBUS Pro offset iron sights"
-    },
-    "description": "A pair of offset iron sights that could be flipped down.  Offset iron sights can be used alongside other sights and scopes.",
-
-    "//weight": "2 oz + 1.8 oz = 3.8 oz ≈ 108 g",
-    "weight": "108 g",
-    "//dimensions": "copied from the `iron_sights_abstract` item; actual dimensions not readily available",
-    "volume": "95 ml",
-    "longest_side": "63 mm",
-
-    "material": ["steel"],
-
-    "//sight_dispersion": "move them closer to the default Loadout iron sight balancing",
-    "sight_dispersion": 24,
-
-    "location": "sights",
-    "//add_mod": "much like new offset sights, this pair adds a 'slot' for new sights, emulating being offset",
-    "add_mod": [["sights", 1]],
-
-    "//price": "120 + 100 USD",
-    "price": "220 USD"
-  },
-
-  {
     "id": "rail_laser_sight",
     "copy-from": "rail_laser_sight",
     "type": "GUNMOD",

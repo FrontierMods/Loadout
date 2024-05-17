@@ -39,5 +39,10 @@
     "id": ["pistol_bayonet"],
     "type": "MIGRATION",
     "replace": "underbarrel_bayonet_pistol"
+  },
+  {
+    "id": ["offset_sights"],
+    "type": "MIGRATION",
+    "replace": "iron_sights_magpul_mbus_pro_offset"
   }
 ]
