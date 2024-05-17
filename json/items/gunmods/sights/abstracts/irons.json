@@ -60,6 +60,13 @@
     },
     "description": "idea of a set of offset iron sights",
 
+    "//sight_dispersion": [
+      "assumed to be 0.06 in. @ 15 in. = 13.751 MOA",
+      "front sight post width (0.06 in.) from multiple models on the market",
+      "distance (15 in.) from average distance between front and rear sight on a rifle"
+    ],
+    "sight_dispersion": 138,
+
     "//add_mod": "emulates possibly having another sight, e.g. a red dot sight, along with iron sights",
     "add_mod": [["sights", 1]]
   },
