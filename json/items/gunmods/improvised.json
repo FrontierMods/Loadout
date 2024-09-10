@@ -52,8 +52,6 @@
     "location": "sling",
     "install_time": "30 s",
 
-    "flags": ["IS_ARMOR", "BELTED", "OVERSIZE", "WATER_FRIENDLY"],
-
     "use_action": {
       "type": "transform",
       "target": "shoulder_strap_improvised_front",
@@ -67,15 +65,17 @@
     "armor_data": {
       "armor": [
         {
-          "encumbrance": 0,
+          "encumbrance": 1,
           "volume_encumber_modifier": 0.33,
 
           "covers": ["torso"],
-          "coverage": 5,
+          "coverage": 3,
           "specifically_covers": ["torso_hanging_back"]
         }
       ]
     },
+
+    "flags": ["IS_ARMOR", "BELTED", "OVERSIZE", "WATER_FRIENDLY", "GUN_SLING"],
 
     "price": "10 cent",
     "price_postapoc": "5 cent"
@@ -95,11 +95,11 @@
     "armor_data": {
       "armor": [
         {
-          "encumbrance": 0,
+          "encumbrance": 1,
           "volume_encumber_modifier": 0.33,
 
           "covers": ["torso"],
-          "coverage": 5,
+          "coverage": 3,
           "specifically_covers": ["torso_hanging_front"]
         }
       ]
@@ -113,6 +113,8 @@
 
       "msg": "You shift the weapon to the back of your body.",
       "moves": 150
-    }
+    },
+
+    "flags": ["IS_ARMOR", "BELTED", "OVERSIZE", "WATER_FRIENDLY", "GUN_SLING"]
   }
 ]
