@@ -21,7 +21,7 @@
 
     "extend": {
       "flags": ["IRREMOVABLE"],
-      "add_mod": [["stock accessory", 2]]
+      "add_mod": [["stock accessory", 1]]
     }
   },
 
@@ -37,7 +37,7 @@
 
     "extend": {
       "flags": ["IRREMOVABLE"],
-      "add_mod": [["stock accessory", 2]]
+      "add_mod": [["stock accessory", 1]]
     }
   },
 
@@ -108,18 +108,6 @@
   },
 
   {
-    "id": "retool_ar15_300blk",
-    "copy-from": "retool_ar15_300blk",
-    "type": "GUNMOD",
-
-    "name": { "str": ".300 AAC Blackout AR-15 conversion kit" },
-
-    "extend": {
-      "flags": ["IRREMOVABLE"]
-    }
-  },
-
-  {
     "id": "wooden_grip",
     "copy-from": "wooden_grip",
     "type": "GUNMOD",
@@ -130,7 +118,7 @@
     ],
 
     "name": { "str": "jury-rigged wooden foregrip" },
-    "description": "A wooden grip placed forward on the firearm furniture allows for greater control.  Not as effective as a bipod, but usable under all conditions.  This one was hastily handmade by a desperate survivor or miserly enthusiast, and can only be installed onto guns that have wooden furniture to grab onto.",
+    "description": "A wooden grip placed forward on the firearm furniture allows for greater control.  Not as effective as a bipod, but usable under all conditions.  This one was hastily hand-made by a desperate survivor or a miserly enthusiast, and can only be attached to guns that have wooden furniture.",
 
     "//mod_targets": [
       "for Mosin rifles specifically, we can't actively separate between regular old wooden ones and EBR polymer ones",
@@ -196,9 +184,11 @@
 
     "name": { "str": "Hub 01 HWP" },
 
+    "//default_mods": "replace hybrid 4x sight with an ACOG and an RMR mounted atop it",
     "default_mods": [
       "robofac_handguard",
       "acog_scope",
+      "sight_mount_rmr_trijicon_rm35",
       "sight_trijicon_rmr",
       "robofac_laser_sight",
       "robofac_stock"
