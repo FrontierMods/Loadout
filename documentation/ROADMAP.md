@@ -1,6 +1,6 @@
 # Roadmap
 
-## Future
+## Planned
 
 ### v1.X
 
@@ -24,14 +24,14 @@
   - [ ] DBAL-A2 (aka AN/PEQ-15A) laser sight
   - [ ] L3Harris AN/PEQ-16 laser sight
 
-## Current
+## In Progress
 
 ### v1.2
 
 - [ ] **variantized current attachments**
   - this should allow players who aren't tacticool-savvy to enjoy Armory as well
 
-## Previous
+## Released
 
 ### v1.1
 
