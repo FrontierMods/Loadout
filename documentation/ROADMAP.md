@@ -2,20 +2,39 @@
 
 ## Current
 
-## v1.2
+### v2.1
 
+- [ ] **adjustable-length suppressors**
+  - for the models that do support it
 - [ ] **magazine modding**
   - [ ] conventional STANAG magazines
   - [ ] Glock magazines
   - extended base plates to improve magazine capacity
-  - weighted base plates to increase reload speed
-  - carabiner adapters
-  - magazine decoration
-  - labels and markings
+  - carabiner adapters (aka ranger plates)
+  - magazine decoration?
+  - labels and markings?
 
-## Previous
+## In Progress
 
-## v1.1
+### v2.0
+
+- [ ] **overhaul contents of the mod**
+  - remove some of the gunmods
+    - primarily those with overlapping domains or effects that are too similar
+  - replace others with streamlined versions
+    - no more three-part compact suppressor
+  - variantize each attachment
+    - this should allow players who aren't tacticool-savvy to enjoy Armory as well
+- [ ] **modern Army rifle attachments**
+  - [ ] SIG Sauer TANGO6T variable scope
+  - [ ] Aimpoint CompM4 red dot sight
+  - [ ] AN/PSQ-23 laser sight/rangefinder
+  - [ ] DBAL-A2 (aka AN/PEQ-15A) laser sight
+  - [ ] L3Harris AN/PEQ-16 laser sight
+
+## Released
+
+### v1.1
 
 - [x] **variable-zoom scopes**
 - [x] **SOPMOD attachments**
