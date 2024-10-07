@@ -1,0 +1,17 @@
+[
+  {
+    "id": ["red_dot_sight"],
+    "type": "MIGRATION",
+    "replace": "sight/ncstar"
+  },
+  {
+    "id": ["holo_sight"],
+    "type": "MIGRATION",
+    "replace": "sight/eotech/exps3"
+  },
+  {
+    "id": ["rifle_scope"],
+    "type": "MIGRATION",
+    "replace": "sight/eotech/vudu"
+  }
+]

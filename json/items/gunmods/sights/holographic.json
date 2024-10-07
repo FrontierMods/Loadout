@@ -1,0 +1,199 @@
+[
+  {
+    "id": "sight/eotech/553",
+    "copy-from": "abstract:sight/holographic",
+    "type": "GUNMOD",
+
+    "//sources": ["https://www.manualsdir.com/manuals/402192/eotech-553.html"],
+
+    "name": {
+      "str": "553 holographic sight"
+    },
+    "description": "<sight/holographic>  This one is in a rather sorry state due to suffering age-related structural issues with the lens.  While functional, it's hardly as effective as modern holographic sights.",
+    "expand_snippets": true,
+
+    "variant_type": "gun",
+    "variants": [
+      {
+        "id": "black",
+        "name": {
+          "str": "EOTech 553 holographic sight"
+        },
+        "description": "<sight/holographic>  The 553 is a legacy design, having been out of production for over a decade.  Like most 553s, this one is suffering from delamination, which noticably distorts its sight picture.  While usable in the most technical sense of the word, you should upgrade to a modern model as soon as possible.  It does, however, complement the early-2000s military-AR aesthetic nicely.   <variant:black>",
+        "expand_snippets": true,
+        "weight": 1
+      },
+      {
+        "id": "fde",
+        "name": {
+          "str": "EOTech 553 holographic sight"
+        },
+        "description": "<sight/holographic>  The 553 is a legacy design, having been out of production for over a decade.  Like most 553s, this one is suffering from delamination, which noticably distorts its sight picture.  While usable in the most technical sense of the word, you should upgrade to a modern model as soon as possible.  It does, however, complement the early-2000s military-AR aesthetic nicely.   <variant:fde>",
+        "expand_snippets": true,
+        "weight": 1
+      }
+    ],
+
+    "weight": "349 g",
+    "//dimensions": {
+      "length": "4.9 in",
+      "width": "1.8 in",
+      "height": "2.8 in",
+      "raw": "405 ml",
+      "trim": 0.3
+    },
+    "volume": "284 ml",
+    "longest_side": "125 mm",
+
+    "//field_of_view": "30 yds @ 100 yds = 17.06° = 1023.6 MOA",
+    "field_of_view": 1024,
+    "//aim_speed_modifier": 8,
+
+    "//power": {
+      "source": [["CR123", "CR123"]],
+      "lifetime": "1000 h"
+    },
+
+    "price": "789 USD"
+  },
+  {
+    "id": "sight/eotech/exps3",
+    "copy-from": "abstract:sight/holographic",
+    "type": "GUNMOD",
+
+    "//sources": [
+      "https://www.eotechinc.com/eotech-hws-exps3",
+      [
+        "https://www.eotechinc.com/media/documents/operator_manuals/EOTECH_HWS_Manual_EXPS3_XE1974_RevC.pdf",
+        "field of view"
+      ]
+    ],
+
+    "name": {
+      "str": "EXPS holographic sight"
+    },
+    "description": "<sight/holographic>  This model is one of the most modern ones on the market, with the performance to match.",
+    "expand_snippets": true,
+
+    "variant_type": "gun",
+    "variants": [
+      {
+        "id": "black",
+        "name": {
+          "str": "EOTech EXPS3 holographic sight"
+        },
+        "description": "<sight/holographic>  The EXPS3 comes with a QD mount, making installing and uninstalling it very quick.  Its large window and adjustable reticle with range markings make aiming easier and quicker under any conditions.  <variant:black>",
+        "expand_snippets": true,
+        "weight": 1
+      },
+      {
+        "id": "fde",
+        "name": {
+          "str": "EOTech EXPS3 holographic sight"
+        },
+        "description": "<sight/holographic>  The EXPS3 comes with a QD mount, making installing and uninstalling it very quick.  Its large window and adjustable reticle with range markings make aiming easier and quicker under any conditions.  <variant:fde>",
+        "expand_snippets": true,
+        "weight": 1
+      }
+    ],
+
+    "weight": "318 g",
+    "//dimensions": {
+      "length": "3.8 in",
+      "width": "2.3 in",
+      "height": "2.9 in",
+      "raw": "451.46 ml",
+      "trim": 0.45
+    },
+    "volume": "248 ml",
+    "longest_side": "97 mm",
+
+    "//field_of_view": "30 yds @ 100 yds = 17.06° = 1023.6 MOA",
+    "field_of_view": 1024,
+    "//aim_speed_modifier": 14,
+    "//install_time": "the embedded QD rail adapter makes installation very quick",
+    "install_time": "5 s",
+
+    "//power": {
+      "source": "CR123",
+      "lifetime": "1000 hours"
+    },
+
+    "price": "789 USD",
+    "price_postapoc": "50 cent"
+  },
+  {
+    "id": "sight/vortex/uh1",
+    "copy-from": "abstract:sight/holographic",
+    "type": "GUNMOD",
+
+    "//sources": [
+      "https://vortexoptics.com/vortex-amg-uh1-gen2-holographic-sight.html",
+      "https://www.bhphotovideo.com/c/product/1570039-REG/vortex_amg_hs02_amg_uh_1_gen_ii.html/specs",
+      "https://www.recoilweb.com/vortex-uh-1-gen-ii-review-170457.html",
+      "https://www.badassoptic.com/review-vortex-razor-amg-uh-1-gen-2-holographic-sight/"
+    ],
+
+    "//notes": [
+      "has a 14-hour auto-shut-off feature",
+      "cannot be turned off manually, only enters 'hibernation' during shut-off",
+      "turns back to full power by shaking"
+    ],
+
+    "name": {
+      "str": "Huey holographic sight"
+    },
+    "description": "<sight/holographic>  This sight has been designed primarily with close-quarters combat in mind, though it works well inside a medium range, as well.",
+    "expand_snippets": true,
+
+    "variant_type": "gun",
+    "variants": [
+      {
+        "id": "black",
+        "name": {
+          "str": "Vortex AMG UH-1 Gen II holographic sight"
+        },
+        "description": "<sight/holographic>  Bulky yet sturdy, this sight provides excellent performance at short to medium ranges.  Its unusual broken-circle reticle may or may not help your aim.   <variant:black>",
+        "expand_snippets": true,
+        "weight": 1
+      },
+      {
+        "id": "fde",
+        "name": {
+          "str": "Vortex AMG UH-1 Gen II holographic sight"
+        },
+        "description": "<sight/holographic>  Bulky yet sturdy, this sight provides excellent performance at short to medium ranges.  Its unusual broken-circle reticle may or may not help your aim.  <variant:fde>",
+        "expand_snippets": true,
+        "weight": 1
+      }
+    ],
+
+    "weight": "329 g",
+    "//dimensions": {
+      "length": "3.88 in",
+      "width": "2.1 in",
+      "height": "2.65 in",
+      "raw": "356 ml",
+      "trim": 0.15,
+      "notes": [
+        "width likely to be slightly inaccurate, because the BH Photo & Video round up each dimensions to the first decimal, and overview of the sight in the manufacturer source suggests these dimensions may have a significant second decimal"
+      ]
+    },
+    "volume": "303 ml",
+    "longest_side": "99 mm",
+
+    "//field_of_view": "BadassOptic review says FOV of this sight is comparable to an EOTech sight, but possibly slightly worse",
+    "field_of_view": 972,
+    "//install_time": "the embedded QD rail adapter makes installation very quick",
+    "install_time": "5 s",
+
+    "//power": {
+      "source": [["CR123A"]],
+      "lifetime": "1000 h",
+      "notes": ["RECOIL review estimates battery life to be around 1500 h"]
+    },
+
+    "price": "960 USD",
+    "price_postapoc": "50 cent"
+  }
+]
