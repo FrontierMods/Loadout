@@ -1,0 +1,353 @@
+[
+  {
+    "id": "sight/trijicon/ta01",
+    "copy-from": "abstract:sight_mount/rifle",
+    "type": "GUNMOD",
+
+    "//sources": [
+      "https://www.trijicon.com/discontinued-products/details/ta01",
+      [
+        "https://www.trijicon.com/products/details/ta01law",
+        "dimension references (sans mount)"
+      ]
+    ],
+
+    "//notes": ["fixed-magnification sight"],
+
+    "name": {
+      "str": "Trijicon ACOG TA01 4×32 scope"
+    },
+    "description": "One of the most popular combat sights in the world and, for the longest time, the primary choice of several branches of the US Armed Forces, the TA01 is a 4× magnified, tritium-illuminated sight.  Though it had been eventually replaced by a more-modern sight, the ACOG continues to be a reliable optic after the end of the world.  Can optionally be augmented with a rear iron sight (forming a complete pair with an embedded front post) or an RM35 mount, allowing installation of a compact RMR red dot sight.",
+
+    "weight": "281 g",
+    "//dimensions": {
+      "length": "5.8 in",
+      "width": "2 in",
+      "height": "2.3 in",
+      "raw": "437 ml",
+      "trim": 0.4
+    },
+    "volume": "262 ml",
+    "longest_side": "147 mm",
+
+    "//field_of_view": "7° = 420 MOA",
+    "field_of_view": 420,
+    "//sight_dispersion": "0.4 MOA",
+    "sight_dispersion": 40,
+
+    "location": "ACOG mount",
+
+    "//add_mod": "bosses are small mounting arms near the viewport, which an auxiliary-sight mount would attach to",
+    "add_mod": [["ACOG bosses", 1]],
+
+    "//power": {
+      "source": "tritium",
+      "lifetime": "12 y"
+    },
+
+    "price": "1250 USD"
+  },
+
+  {
+    "id": "sight/leupold/mark4",
+    "copy-from": "abstract:sight/30mm",
+    "type": "GUNMOD",
+
+    "//sources": [
+      "https://charliescustomclones.com/leupold-mark-4-scope-mr-t-2-5-8x36mm-illum-tmr-ret/",
+      [
+        "https://www.eurooptic.com/leupold-mark-4-mrt-2-5-8x36-m2-ts-30-a2-rifle-scope-30mm-tube-illum-tmr-112633.aspx",
+        "reticle manual"
+      ],
+      ["https://www.midwayusa.com/product/1009588950?pid=422394", "dimensions"],
+      [
+        "https://www.snipershide.com/shooting/threads/leupold-ts30-a2-mark-4-2-5-8x36mm-tmr-ret-illum-riflescope-112633.6999650/",
+        "distinction between different models"
+      ]
+    ],
+
+    "//notes": [
+      "the actual scope appears to have never been sold commercially, only supplied to the military",
+      "linked sources seem to be selling reproduced or repurposed clones of the actual sight",
+      "until better sources are available, these are the values we use"
+    ],
+
+    "name": {
+      "str": "Leupold Mark 4 MR/T 2.5—8×36 30mm scope"
+    },
+    "description": "A slick, capable 30mm scope with magnification ranging from 2.5× to 8×.  This model has been in service with the US military for more than two decades, known in particular for being supplied with Mk12 Special Purpose Rifle, as well as M38 Designated Marksman Rifle, both in use with U.S. Marines.",
+
+    "variant_type": "gun",
+    "variants": [
+      {
+        "id": "sight_leupold_mark4_modern",
+        "name": {
+          "str": "Leupold Mark 4 MR/T 2.5—8×36 30mm scope"
+        },
+        "description": "This one is a newer model, as used on the relatively-recent M38's.  The differentiating factor is white lines on the mounting space, allowing the soldier to both position the scope correctly for eye relief and make sure the scope is level.  Back when \"online\" was a thing, this model would fetch upwards of $1 500, even with those looking to replicate the older Mk12's… even though the markings make it much too new to be used on the retired platform.  Activate to set it to maximum magnification.",
+        "weight": 10,
+        "append": true
+      },
+      {
+        "id": "sight_leupold_mark4",
+        "name": {
+          "str": "Leupold Mark 4 MR/T 2.5—8×36 30mm scope"
+        },
+        "description": "This one is an older model, as used on the retired Mk12's.  Unlike the newer model, it doesn't have ring- and level-lines on the mounting space.  As a consequence, it didn't command nearly as much respect with those interested in replicating military rifle configurations… back when those interested were still human and able to communicate.  Activate to set it to maximum magnification.",
+        "weight": 1,
+        "append": true
+      }
+    ],
+
+    "weight": "454 g",
+    "//dimensions": [
+      {
+        "description": "objective",
+
+        "length": "2.60 in",
+        "diameter": "1.70 in",
+        "raw": "97 ml",
+        "trim": 0.2,
+        "volume": "78 ml"
+      },
+      {
+        "description": "mounting space",
+
+        "length": "5.8 in",
+        "diameter": "30 mm",
+        "raw": "102 ml",
+        "trim": -0.2,
+        "volume": "122 ml",
+        "notes": [
+          "the adjustment knobs' volume is reflected in the negative trim value"
+        ]
+      },
+      {
+        "description": "eyepiece",
+
+        "length": "3.10 in",
+        "diameter": "1.70 in",
+        "raw": "115 ml",
+        "trim": 0.05,
+        "volume": "110 ml",
+        "notes": ["trim takes adjustment knobs into account"]
+      }
+    ],
+    "volume": "310 ml",
+    "longest_side": "287 mm",
+
+    "//field_of_view": "35.5 ft @ 100 yds @ 2.5× magnification = 406.33 MOA",
+    "field_of_view": 40633,
+    "//sight_dispersion": "0.18 MIL = 0.619 MOA @ 8× magnification / 3.2× magnification difference",
+    "sight_dispersion": 62,
+    "aim_speed_modifier": 0,
+
+    "//power": {
+      "source": [["CR2032"]],
+      "lifetime": "???"
+    },
+
+    "use_action": {
+      "type": "transform",
+      "menu_text": "Magnify",
+      "msg": "You turn the scope's zoom all the way up.",
+      "target": "sight/leupold/mark4:magnified"
+    },
+
+    "//price": "Charlie's Clones pricing, which is said to be slightly-cheaper than the original",
+    "price": "1527 USD"
+  },
+  {
+    "id": "sight/leupold/mark4:magnified",
+    "copy-from": "sight/leupold/mark4",
+    "type": "GUNMOD",
+
+    "name": {
+      "str": "Leupold Mark 4 MR/T 2.5—8×36 30mm scope (magnified)",
+      "str_pl": "Leupold Mark 4 MR/T 2.5—8×36 30mm scopes (magnified)"
+    },
+    "description": "A slick, capable 30mm scope with magnification ranging from 2.5× to 8×.  This model has been in service with the US military for more than two decades, known in particular for being supplied with Mk12 Special Purpose Rifle, as well as M38 Designated Marksman Rifle, both in use with US Marines.  It is currently set to maximum magnification.  Activate to set it back to base magnification.",
+
+    "//field_of_view": "13.6 ft @ 100 yds @ 8× magnification = 155.82 MOA",
+    "field_of_view": 15582,
+    "//sight_dispersion": "0.619 MOA @ 8× magnification / (8 / 2.5) magnification difference ≈ 0.193 MOA",
+    "sight_dispersion": 19,
+
+    "use_action": {
+      "type": "transform",
+      "menu_text": "Demagnify",
+      "msg": "You turn the scope's zoom all the way down.",
+      "target": "sight/leupold/mark4"
+    }
+  },
+
+  {
+    "id": "sight/elcan/specterdr",
+    "copy-from": "abstract:sight_mount/rifle",
+    "type": "GUNMOD",
+
+    "//sources": [
+      "https://armament.com/specterdr-1x-4x/",
+      [
+        "https://www.eurooptic.com/PDF/Elcan-SpecterDR-1x4-Manual.pdf",
+        "center-of-aim size"
+      ]
+    ],
+
+    "//notes": [
+      "this sight also comes with a set of backup iron sights by default",
+      "we can't model embedded gunmods or one sight item having multiple sight objects (properties)",
+      "so we pretend it doesn't exist",
+      "this would be the mount we could use:",
+      "https://armament.com/mrd-mount-kit/"
+    ],
+
+    "name": {
+      "str": "ELCAN SpecterDR 1—4× sight"
+    },
+    "description": "An old classic, this combat sight offers magnification between 1× and 4×.  This model has been in service with the US military for more than two decades, known in particular for being supplied with Mk12 Special Purpose Rifle, as well as M38 Designated Marksman Rifle, both in use with US Marines.  <sight/optical/magnification:low>",
+
+    "weight": "660 g",
+    "//dimensions": {
+      "length": "153 mm",
+      "width": "74 mm",
+      "height": "78 mm",
+      "raw": "883 ml",
+      "trim": 0.2
+    },
+    "volume": "706 ml",
+    "longest_side": "153 mm",
+
+    "//field_of_view": "26° @ 1× magnification = 1560 MOA",
+    "field_of_view": 1560,
+    "sight_dispersion": 600,
+    "//aim_speed_modifier": [
+      "at 1× magnification",
+      "bonus for ballistic reticle"
+    ],
+    "aim_speed_modifier": 8,
+
+    "location": "sights",
+
+    "//add_mod": "there is no way to cleanly allow installing different types of mounts to a single location without making it too available (`sights`), so we pretend the sight comes with a Docter mount by default",
+    "add_mod": [["Docter mount", 1]],
+
+    "//power": {
+      "source": [["CR2032"]],
+      "lifetime": "1208 h",
+      "notes": ["on second highest reticle setting"]
+    },
+
+    "use_action": {
+      "type": "transform",
+      "menu_text": "Magnify",
+      "msg": "You turn the scope's zoom all the way up.",
+      "target": "sight/elcan/specterdr:magnified"
+    },
+
+    "price": "1527 USD"
+  },
+  {
+    "id": "sight/elcan/specterdr:magnified",
+    "copy-from": "sight/elcan/specterdr",
+    "type": "GUNMOD",
+
+    "name": {
+      "str": "ELCAN SpecterDR 1—4× scope (magnified)",
+      "str_pl": "ELCAN SpecterDR 1—4× scopes (magnified)"
+    },
+    "description": "A slick, capable 30mm scope with magnification ranging from 2.5× to 8×.  This model has been in service with the US military for more than two decades, known in particular for being supplied with Mk12 Special Purpose Rifle, as well as M38 Designated Marksman Rifle, both in use with US Marines.  It is currently set to maximum magnification.  Activate to set it back to base magnification.",
+
+    "//field_of_view": "6.5° @ 4× magnification = 390 MOA",
+    "field_of_view": 390,
+
+    "use_action": {
+      "type": "transform",
+      "menu_text": "Demagnify",
+      "msg": "You turn the scope's zoom all the way down.",
+      "target": "sight/elcan/specterdr"
+    }
+  },
+
+  {
+    "id": "sight/eotech/vudu",
+    "copy-from": "abstract:sight/30mm",
+    "type": "GUNMOD",
+
+    "//sources": [
+      "https://www.eotechinc.com/eotech-vudu-1-6x24-ffp",
+      "https://xtremetactical.co.uk/products/eotech-vdu1-6ffsr3"
+    ],
+
+    "name": {
+      "str": "EOTech Vudu 1—6×24 30mm scope"
+    },
+    "description": "A slim, versatile 30mm scope with magnification ranging from 1× to 6×.  Its award-winning design and perfomance make it a popular low-magnification scope for a variety of tasks, including hunting, competitive shooting, and law-enforcement operations.  Activate to set it to maximum magnification.",
+
+    "weight": "570 g",
+    "//dimensions": [
+      {
+        "description": "objective",
+
+        "length": "30.00 mm",
+        "diameter": "166.2 mm",
+        "raw": "118 ml",
+        "trim": -0.15,
+        "volume": "136 ml",
+        "notes": ["negative trim value should account for adjustment knobs"]
+      },
+      {
+        "description": "eyepiece",
+
+        "length": "103.50 mm",
+        "diameter": "43.60 mm",
+        "raw": "155 ml",
+        "trim": 0,
+        "volume": "155 ml",
+        "notes": ["trim should account for dips, bumps, and zoom dial"]
+      }
+    ],
+    "volume": "291 ml",
+    "longest_side": "270 mm",
+
+    "//field_of_view": "102.4 ft @ 100 yds @ 1× magnification = 1162.20 MOA",
+    "field_of_view": 1162,
+    "//sight_dispersion": "1 MOA dot",
+    "sight_dispersion": 100,
+
+    "//power": {
+      "source": [["CR2032"]],
+      "lifetime": "500 h"
+    },
+
+    "use_action": {
+      "type": "transform",
+      "menu_text": "Magnify",
+      "msg": "You turn the scope's zoom all the way up.",
+      "target": "sight/eotech/vudu:magnified"
+    },
+
+    "price": "1400 USD"
+  },
+  {
+    "id": "sight/eotech/vudu:magnified",
+    "copy-from": "sight/eotech/vudu",
+    "type": "GUNMOD",
+
+    "name": {
+      "str": "EOTech Vudu 1—6×24 30mm scope (magnified)",
+      "str_pl": "EOTech Vudu 1—6×24 30mm scopes (magnified)"
+    },
+    "description": "A slim, versatile 30mm scope with magnification ranging from 1× to 6×.  Its award-winning design and perfomance make it a popular low-magnification scope for a variety of tasks, including hunting, competitive shooting, and law-enforcement operations.  It is currently set to maximum magnification.  Activate to set it back to base magnification.",
+
+    "//field_of_view": "16.7 ft @ 100 yds @ 6× magnification = 191.32 MOA",
+    "field_of_view": 191,
+
+    "use_action": {
+      "type": "transform",
+      "menu_text": "Demagnify",
+      "msg": "You turn the scope's zoom all the way down.",
+      "target": "sight/eotech/vudu"
+    }
+  }
+]

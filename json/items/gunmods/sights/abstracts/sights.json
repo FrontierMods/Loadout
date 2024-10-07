@@ -1,0 +1,118 @@
+[
+  {
+    "abstract": "abstract:sight",
+    "type": "GUNMOD",
+
+    "name": { "str": "sight" },
+
+    "weight": "100 g",
+    "volume": "100 ml",
+    "longest_side": "100 mm",
+
+    "material": ["aluminum"],
+
+    "symbol": ":",
+    "color": "dark_gray",
+
+    "location": "sights",
+    "install_time": "2 m",
+
+    "mod_targets": ["pistol", "rifle", "smg", "shotgun", "bow", "launcher"],
+
+    "flags": ["DISABLE_SIGHTS"]
+  },
+  {
+    "abstract": "abstract:sight/reflex",
+    "copy-from": "abstract:sight",
+    "type": "GUNMOD",
+
+    "name": { "str": "reflex sight" },
+
+    "//field_of_view": "small default value (`red_dot_sight`'s `field_of_view` × 0.6), since most of the red dot sights are small",
+    "field_of_view": 378,
+    "//sight_dispersion": "3 MOA",
+    "sight_dispersion": 300,
+    "//aim_speed_modifier": "±1 point for each half-MOA of deviation (rounded to the nearest half-MOA) from the baseline set above",
+    "aim_speed_modifier": 10,
+
+    "add_mod": [["magnifier", 1]]
+  },
+  {
+    "abstract": "abstract:sight/reflex:no_magnifier",
+    "copy-from": "abstract:sight/reflex",
+    "type": "GUNMOD",
+
+    "name": {
+      "str": "reflex sight without magnifier slot"
+    },
+
+    "//add_mod": [
+      "the magnifier slot may be unavailable on a particular red dot sight due to its height, form factor, or any other reason",
+      "ideally, there would be a way to coordinate either having a riser (for either sight or magnifier), or eye height in general (where misaligning the two would make aiming very difficult)"
+    ],
+    "add_mod": []
+  },
+  {
+    "abstract": "abstract:sight/holographic",
+    "copy-from": "abstract:sight",
+    "type": "GUNMOD",
+
+    "name": { "str": "holographic sight" },
+
+    "field_of_view": 1000,
+    "//sight_dispersion": "1 MOA",
+    "sight_dispersion": 100,
+    "aim_speed_modifier": 14,
+
+    "add_mod": [["magnifier", 1]]
+  },
+  {
+    "abstract": "abstract:sight/30mm",
+    "copy-from": "abstract:sight",
+    "type": "GUNMOD",
+
+    "name": { "str": "30mm scope" },
+
+    "//field_of_view": "what low-magnification scopes have (after strong rounding) @ 1× magnification",
+    "field_of_view": 1000,
+    "//sight_dispersion": "1 MOA",
+    "sight_dispersion": 100,
+    "//aim_speed_modifier": [
+      "emulates having to aim that much more carefully with a sight this precise",
+      "still better than aiming with no sights"
+    ],
+    "aim_speed_modifier": 3,
+
+    "location": "30mm scope mount",
+    "install_time": "3 m",
+    "blacklist_slot": ["magnifier"],
+
+    "flags": ["ZOOM"]
+  },
+  {
+    "abstract": "abstract:sight/34mm",
+    "copy-from": "abstract:sight/30mm",
+    "type": "GUNMOD",
+
+    "name": { "str": "34mm scope scope" },
+
+    "location": "34mm scope mount"
+  },
+  {
+    "abstract": "abstract:magnifier",
+    "copy-from": "abstract:sight",
+    "type": "GUNMOD",
+
+    "name": { "str": "sight magnifier" },
+
+    "//sight_dispersion": [
+      "6 MOA",
+      "assumes 3× magnification on a 2 MOA dot in front of the magnifier"
+    ],
+    "sight_dispersion": 600,
+    "//aim_speed_modifier": "while a magnifier with a red-dot/holo sight is still better than iron sights, high-distance aiming is meant to be difficult and, therefore, slower",
+    "aim_speed_modifier": 2,
+
+    "location": "magnifier"
+  }
+]

@@ -1,0 +1,401 @@
+[
+  {
+    "id": "sight/ncstar",
+    "copy-from": "abstract:sight/reflex",
+    "type": "GUNMOD",
+
+    "//sources": [
+      [
+        "https://www.ncstar.com/optics-acc/reflex-optics/heads-up/d4rgb-dot4retrd-grwvr-mtblk",
+        "weight"
+      ],
+      [
+        "https://www.amazon.com/Pinty-Holographic-Tactical-Riflescope-Patterns/dp/B01BF5LYGW",
+        "field of view"
+      ],
+      [
+        "https://www.opticsplanet.com/ultradot-pan-av-red-dot-sight.html",
+        "dimensions"
+      ],
+      [
+        "https://ultradotusa.com/wp-content/uploads/2020/10/2020-Pan-AV-owners-manual-draft-PDF.pdf",
+        "battery life reference",
+        "tools reference"
+      ]
+    ],
+
+    "//notes": [
+      "comes with a Picatinny mount",
+      [
+        "Ultradot Pan AV is the source from which multiple companies, including NcSTAR, had copied their no-name sight",
+        "personal accounts of comparison say that the original is bad and the copycats are even worse when it comes to red-dot performance",
+        "we use the original's dimensions, except for the weight: the lengths are all the same between the different copies, and the weight is manufacturer-dependent"
+      ]
+    ],
+
+    "name": {
+      "str": "popular reflex sight"
+    },
+    "description": "A red dot sight largely made popular by video games.  Below-average sighting performance, and abysmal battery life by modern standards.  <sight/installation:picatinny>",
+
+    "variant_type": "gun",
+    "variants": [
+      {
+        "id": "black",
+        "name": {
+          "str": "NcSTAR reflex sight"
+        },
+        "description": "A red dot sight largely made popular by video games.  Below-average sighting performance, with reports of it holding zero very poorly.  One questionable benefit of it is a variety of emitters, each providing its own reticle pattern.  It has been suggested that all of the emitters running at the same time, even when inactive, contributes to the sight's poor battery life.  <sight/installation:picatinny/embedded_mount>  <variant:black>",
+        "expand_snippets": true,
+        "weight": 1
+      }
+    ],
+
+    "//weight": [
+      "different sources of the same model provide different weights",
+      "we use the manufacturer-provided weight of 5.3 oz = 150.25 g"
+    ],
+    "weight": "150 g",
+    "//dimensions": {
+      "length": "82 mm",
+      "width": "28 mm",
+      "height": "37 mm",
+      "raw": "84.95 ml",
+      "trim": 0.5
+    },
+    "volume": "43 ml",
+    "longest_side": "82 mm",
+
+    "//field_of_view": [
+      "52 feet @ 100 yards = 594.42 MOA",
+      "assumed from a Pinty sight, which is another copy of the original sight",
+      "no stats available for the NcSTAR model",
+      "the Ultradot original states: 15.7 mm @ 100 m = 0.5397 MOA, which is unlikely to be correct"
+    ],
+    "field_of_view": 594,
+    "sight_dispersion": 400,
+    "//aim_speed_modifier": 10,
+
+    "//power": {
+      "source": [["CR2032"]],
+      "//lifetime": [
+        "the manual states battery life to be between 4000 h and 200 h, depending on the chosen brightness",
+        "as with other cases, we assume the maximum value"
+      ],
+      "lifetime": "4000 h"
+    },
+
+    "//tools": {
+      "to install": "1/2″ hex screwdriver"
+    },
+
+    "price": "73 USD"
+  },
+  {
+    "id": "sight/trijicon/rmr",
+    "copy-from": "abstract:sight/reflex",
+    "type": "GUNMOD",
+
+    "//sources": ["https://www.trijicon.com/products/details/rm01-c-700600"],
+
+    "//notes": ["waterproof up to 20 meters"],
+
+    "name": {
+      "str": "RMR reflex sight"
+    },
+    "description": "A tiny red dot sight.  Often installed on a pistol due to its small footprint.  Requires a special RMR adapter to install.  With an extra adapter, could be mounted onto the military optical sight.",
+
+    "variant_type": "gun",
+    "variants": [
+      {
+        "id": "black",
+        "name": {
+          "str": "Trijicon RMR reflex sight"
+        },
+        "description": "A red dot sight popular for its minuscule dimensions.  Its large dot allows for quicker target acquisition, which results in the sight being somewhat less-precise.  Installation requires an adapter for the RMR footprint.  With one such adapter, the sight can be installed on top of an ACOG sight, allowing the user to have two sights at the same time.  <variant:black>",
+        "expand_snippets": true,
+        "weight": 4
+      },
+      {
+        "id": "fde",
+        "name": {
+          "str": "Trijicon RMR reflex sight"
+        },
+        "description": "A red dot sight popular for its minuscule dimensions.  Its large dot allows for quicker target acquisition, which results in the sight being somewhat less-precise.  Installation requires an adapter for the RMR footprint.  With one such adapter, the sight can be installed on top of an ACOG sight, allowing the user to have two sights at the same time.  <variant:fde>",
+        "expand_snippets": true,
+        "weight": 1
+      },
+      {
+        "id": "olive",
+        "name": {
+          "str": "Trijicon RMR reflex sight"
+        },
+        "description": "A red dot sight popular for its minuscule dimensions.  Its large dot allows for quicker target acquisition, which results in the sight being somewhat less-precise.  Installation requires an adapter for the RMR footprint.  With one such adapter, the sight can be installed on top of an ACOG sight, allowing the user to have two sights at the same time.  <variant:olive>",
+        "expand_snippets": true,
+        "weight": 1
+      },
+      {
+        "id": "grey",
+        "name": {
+          "str": "Trijicon RMR reflex sight"
+        },
+        "description": "A red dot sight popular for its minuscule dimensions.  Its large dot allows for quicker target acquisition, which results in the sight being somewhat less-precise.  Installation requires an adapter for the RMR footprint.  With one such adapter, the sight can be installed on top of an ACOG sight, allowing the user to have two sights at the same time.  <variant:grey>",
+        "expand_snippets": true,
+        "weight": 1
+      }
+    ],
+
+    "weight": "34 g",
+    "//dimensions": {
+      "length": "1.8 in",
+      "width": "1.1 in",
+      "height": "1 in",
+      "raw": "33 ml",
+      "trim": 0.4
+    },
+    "volume": "20 ml",
+    "longest_side": "46 mm",
+
+    "sight_dispersion": 325,
+    "//aim_speed_modifier": 11,
+
+    "location": "RMR mount",
+
+    "//power": {
+      "source": [["CR2032"]],
+      "lifetime": "2 y"
+    },
+
+    "price": "649 USD"
+  },
+  {
+    "id": "sight/aimpoint/compm2",
+    "copy-from": "abstract:sight/reflex",
+    "type": "GUNMOD",
+
+    "//sources": [
+      "https://www.aimpoint.com/products/comp-m2-4-moa-red-dot-reflex-sight-without-mount/",
+      "https://en.wikipedia.org/wiki/Aimpoint_CompM2"
+    ],
+
+    "//TODO": ["descriptions"],
+
+    "name": {
+      "str": "military 30mm reflex sight"
+    },
+    "description": "A modern, though still outdated, design of a red dot sight.  Its tubular design makes it easier to aim over a single target, though reaiming is hampered.  This sight was used by the U.S. Army over a decade earlier, and later superseded by a new model of a similar design.",
+
+    "variant_type": "gun",
+    "variants": [
+      {
+        "id": "black",
+        "name": {
+          "str": "Aimpoint CompM2 reflex sight"
+        },
+        "description": "A modern, though still outdated, design of a red dot sight, known for being part of SOPMOD: a kit of rifle attachments supplied to the U.S. Army troops.  CompM2 is a significant improvement over the previous Trijicon RX01 sight, having a tube design, which makes it easier to stay on target while aiming.  Later superseded by CompM4, which mostly provides comfort-of-use upgrades over its predecessor.   <variant:black>",
+        "expand_snippets": true,
+        "weight": 1
+      }
+    ],
+
+    "weight": "201 g",
+    "//dimensions": {
+      "length": "5.10 in",
+      "diameter": "2.20 in",
+      "raw": "318 ml",
+      "trim": 0,
+      "notes": [
+        "neutral trim value is meant to cover attached lens covers and such"
+      ]
+    },
+    "volume": "318 ml",
+    "longest_side": "130 mm",
+
+    "location": "single 30mm mount",
+
+    "sight_dispersion": 650,
+    "//aim_speed_modifier": 8,
+
+    "//power": {
+      "source": [["CR1/3N"]],
+      "lifetime": "10000 h"
+    },
+
+    "price": "519 USD"
+  },
+  {
+    "id": "sight/vortex/strikefire_ii",
+    "copy-from": "abstract:sight/reflex:no_magnifier",
+    "type": "GUNMOD",
+
+    "//sources": [
+      "https://vortexoptics.com/vortex-strikefire-2-red-dot+reticle-Red"
+    ],
+
+    "//TODO": ["descriptions"],
+
+    "name": {
+      "str": "30mm reflex sight"
+    },
+    "description": "A large green dot sight in the tube form factor.  Its construction means a restricted field of view, which makes reaiming difficult, but helps with accuracy over the current target.  <sight/installation:30mm_single>",
+
+    "variant_type": "gun",
+    "variants": [
+      {
+        "id": "black",
+        "name": {
+          "str": "Vortex Strikefire II reflex sight"
+        },
+        "description": "A large, scope-like tubular sight with a green dot.  Its construction means a restricted field of view, which makes reaiming difficult, but helps with accuracy over the current target.  <sight/installation:30mm_single>  <variant:black>",
+        "expand_snippets": true,
+        "weight": 1
+      }
+    ],
+
+    "weight": "204 g",
+    "//dimensions": {
+      "length": "5.60 in",
+      "diameter": "1.45 in",
+      "raw": "152 ml",
+      "trim": -0.1,
+      "notes": [
+        "negative trim value is to account for the adjustment and auxiliary parts that wouldn't (presumably) get covered by taking the largest diameter of the two for the cylinder volume calculations"
+      ]
+    },
+    "volume": "167 ml",
+    "longest_side": "142 mm",
+
+    "//field_of_view": "30 mm [lens diameter] @ 100 m = 1.0314 MOA",
+    "field_of_view": 103,
+    "sight_dispersion": 400,
+    "aim_speed_modifier": 12,
+
+    "location": "single 30mm mount",
+
+    "//power": {
+      "source": [["CR2"]],
+      "lifetime": "80000 h"
+    },
+
+    "//tools": {
+      "to install": "T15 Torx"
+    },
+
+    "price": "275 USD"
+  },
+  {
+    "id": "sight/trijicon/rx01",
+    "copy-from": "abstract:sight/reflex:no_magnifier",
+    "type": "GUNMOD",
+
+    "//sources": [
+      "https://www.trijicon.com/discontinued-products/details/rx01"
+    ],
+
+    "//notes": [
+      "cannot have a magnifier because the reticle is so far down the optic"
+    ],
+
+    "//TODO": ["descriptions"],
+
+    "name": {
+      "str": "bulky reflex sight"
+    },
+    "description": "An old design of a sight that had been obsoleted far before the Cataclysm.  Its large form factor, as well as the size and the color of its amber dot make it stand in contrast with the newer models.  Valued by collectors, though that's unlikely to influence its barter value right now.",
+
+    "variant_type": "gun",
+    "variants": [
+      {
+        "id": "black",
+        "name": {
+          "str": "Trijicon RX01 reflex sight"
+        },
+        "description": "A legacy design of a reflex sight, this model is known for being part of SOPMOD: a kit of rifle attachments supplied to the U.S. Army troops.  The dot is large, at 6.5 MOA, and is colored amber.  While it's been discontinued for several years, it's still sought after by collectors and fans of recent U.S. military history.  <variant:black>",
+        "expand_snippets": true,
+        "weight": 1
+      }
+    ],
+
+    "weight": "119 g",
+    "//dimensions": {
+      "length": "4.25 in",
+      "width": "1.35 in",
+      "height": "1.65 in",
+      "raw": "155 ml",
+      "trim": 0.25
+    },
+    "volume": "116 ml",
+    "longest_side": "108 mm",
+
+    "sight_dispersion": 650,
+    "aim_speed_modifier": 8,
+
+    "//power": {
+      "source": [["tritium"], ["CR2032"]],
+      "lifetime": "50000 h",
+      "notes": ["also fiber optic"]
+    },
+
+    "price": "519 USD"
+  },
+  {
+    "id": "sight_noblex_sight_ii",
+    "copy-from": "abstract:sight/reflex",
+    "type": "GUNMOD",
+
+    "//sources": [
+      "https://us.noblex-e-optics.com/products/sight-ii-plus-leuchtpunktvisier"
+    ],
+
+    "//notes": ["the 7 MOA model"],
+
+    "//TODO": ["descriptions"],
+
+    "name": {
+      "str": "military backup reflex sight"
+    },
+    "description": "A compact, lightweight red dot sight.  This model used to be mounted on the army short-range scope, before a similar model succeeded it as the army's choice.  Despite being an older design, it still boasts comparable performance.  Its large dot makes it easier to aim, though harder to be accurate.",
+
+    "variant_type": "gun",
+    "variants": [
+      {
+        "id": "sight_noblex_sight_ii",
+        "name": {
+          "str": "Noblex Sight II Plus reflex sight"
+        },
+        "description": "A compact, lightweight red dot sight.  This is a newer model of the sight that used to be a part of SOPMOD: a kit of rifle attachments supplied to the U.S. Army troops.  The sight of this form factor was mounted atop the ACOG as a backup for shorter-range engagements, and later superseded by the RMR.  Noblex, previously known as Docter, was still in business of producing firearm sights before Cataclysm came about.  <variant:black>",
+        "weight": 8
+      },
+      {
+        "id": "sight_docter_mrds",
+        "name": {
+          "str": "Docter MRDS reflex sight"
+        },
+        "description": "A compact, lightweight red dot sight.  This, by some miracle, is an actual Docter MRD: the very same that used to be issued to US soldiers as part of SOPMOD.  The sight was mounted atop the ACOG as a backup for shorter-range engagements, and later superseded by the RMR.  Despite having nearly-identical dimensions to its younger sibling, this one still clearly says \"Docter\" -- the previous name of the company -- on the side.  <variant:black>",
+        "weight": 1
+      }
+    ],
+
+    "weight": "25 g",
+    "//dimensions": {
+      "length": "46 mm",
+      "width": "25 mm",
+      "height": "23 mm",
+      "raw": "28 ml",
+      "trim": 0.3
+    },
+    "volume": "20 ml",
+    "longest_side": "46 mm",
+
+    "location": "Docter mount",
+
+    "sight_dispersion": 700,
+
+    "//power": {
+      "source": [["CR2032"]],
+      "lifetime": "28000 h"
+    },
+
+    "price": "485 USD"
+  }
+]
