@@ -1,0 +1,137 @@
+[
+  {
+    "id": "flash_hider/colt/a2",
+    "copy-from": "abstract:muzzle/flash_hider",
+    "type": "GUNMOD",
+
+    "//sources": [
+      [
+        "https://www.thetruthaboutguns.com/ar-15-flash-hider-shootout/",
+        "dimensions",
+        "weight"
+      ],
+      [
+        "https://coltparts.com/colt-m16-m4-ar15-a2-flash-hider-compensator-1-2x28/",
+        "price"
+      ]
+    ],
+
+    "name": {
+      "str": "birdcage flash hider"
+    },
+    "description": "A steel flash hider that attaches at the muzzle.  A standard muzzle device for U.S. military rifles.",
+
+    "variant_type": "gun",
+    "variants": [
+      {
+        "id": "black",
+
+        "name": {
+          "str": "Colt A2 flash hider"
+        },
+        "description": "A steel flash hider that mounts onto the threading at the muzzle.  Its primary function is to reduce muzzle flash.  This is the baseline muzzle device for Army-issued AR-15-platform rifles.  <variant:black>",
+        "expand_snippets": true,
+        "weight": 1
+      }
+    ],
+
+    "//weight": "1.79 oz = 50.746 g",
+    "weight": "51 g",
+    "//dimensions": {
+      "length": "1.62 in",
+      "diameter": "0.863 in",
+      "raw": "15.53 ml",
+      "trim": 0.025
+    },
+    "volume": "15 ml",
+    "longest_side": "41 mm",
+    "//integral_longest_side": "absorbs 16 mm of regular threading on a 1/2 in. × 24-threaded barrel",
+    "integral_longest_side": "25 mm",
+
+    "//calibers": ["556"],
+    "//thread": ["1/2″ x 28"],
+
+    "//handling_modifier": [
+      "https://www.thetruthaboutguns.com/ar-15-muzzle-brake-shootout-2/",
+      "in the muzzle brake shootout, the A2 scored 1.06% recoil reduction compared to a bare muzzle, which doesn't even come close to dedicated muzzle brakes",
+      "https://www.thetruthaboutguns.com/556-muzzle-device-shootout/",
+      "however, in the muzzle device shootout, it scored 8.08%, which is respectable for a flash hider",
+      "we assume the latter to be more-accurate, since A2 is expected to perform as both a flash hider and a compensator"
+    ],
+    "handling_modifier": 3,
+
+    "//price": [
+      "Truth About Guns review lists A2 MSRP as $9.00 at the time",
+      "we list the most modern price at the time of creating the item",
+      [
+        "worth noting that competitor/copycat designs often have prices between $8.00 and $10.00",
+        "https://www.wingtactical.com/firearm-parts/ar-15/muzzle-devices/aero-precision-a2-birdcage-flash-hider-5-56-223/"
+      ],
+      [
+        "Charlie's Clones lists their A2 as $16.99",
+        "https://charliescustomclones.com/colt-a2-flash-hider-for-m16-m4-ar15-1-2-28-5-56-new-take-off/"
+      ]
+    ],
+    "price": "20 USD",
+    "price_postapoc": "10 cent"
+  },
+  {
+    "id": "flash_hider/kac/m4qd",
+    "copy-from": "abstract:muzzle/flash_hider",
+    "type": "GUNMOD",
+
+    "//sources": [
+      "https://www.knightarmco.com/12806/shop/signature-reduction/muzzle-devices/12-28/5-56mm-m4qd-flash-suppressor-kit",
+      [
+        "https://kakindustry.com/fal-combo-flash-hider/",
+        "diameter reference",
+        "see REFERENCE.md for further information"
+      ]
+    ],
+
+    "name": {
+      "str": "army flash hider"
+    },
+    "description": "A steel flash hider that attaches at the muzzle.  Primarily serves as a mounting point for the army suppressor.",
+
+    "variant_type": "gun",
+    "variants": [
+      {
+        "id": "black",
+
+        "name": {
+          "str": "KAC M4QD flash hider"
+        },
+        "description": "A steel flash hider that mounts onto the threading at the muzzle.  While its primary function is to reduce muzzle flash, this model also serves as a mount for the KAC QDSS suppressor.  <variant:black>",
+        "expand_snippets": true,
+        "weight": 1
+      }
+    ],
+
+    "//weight": "2.4 oz = 68.039 g",
+    "weight": "68 g",
+    "//dimensions": {
+      "length": "1.875 in",
+      "diameter": "21.9 mm",
+      "raw": "17.94 ml",
+      "trim": 0.075
+    },
+    "volume": "17 ml",
+    "longest_side": "48 mm",
+    "//integral_longest_side": "absorbs 16 mm of regular threading on a 1/2 in. × 24-threaded barrel",
+    "integral_longest_side": "32 mm",
+
+    "//calibers": ["556"],
+    "//threads": ["1/2″ x 28"],
+
+    "//handling_modifier": [
+      "we presume that, like the A2 birdcage, this flash hider has a compensator effect to it",
+      "the value for the modifier is copied from the A2, given their similar patterns of upwards gas redirection"
+    ],
+    "handling_modifier": 3,
+    "add_mod": [["KAC QD muzzle mount", 1]],
+
+    "price": "114 USD 35 cent",
+    "price_postapoc": "50 cent"
+  }
+]

@@ -1,0 +1,86 @@
+[
+  {
+    "id": "suppressor/kac/qdss",
+    "copy-from": "abstract:muzzle/suppressor:no_cover",
+    "type": "GUNMOD",
+
+    "//sources": [
+      [
+        "https://www.knightarmco.com/16373/shop/signature-reduction/rifle-suppressors/5-56mm/5-56mm-qdss-nt4",
+        "weight",
+        "length"
+      ],
+      [
+        "https://pewscience.com/sound-signature-reviews-free/sss-6-78-kac-qdss-nt4-mk18-556",
+        "diameter"
+      ],
+      [
+        "https://www.bigtexordnance.com/product/knights-armament-5-56mm-qdss-nt4-suppressor-fde-black-kac-pn-96062-1-96062-2/",
+        "price"
+      ]
+    ],
+
+    "name": {
+      "str": "army suppressor"
+    },
+    "description": "A standard-issue military suppressor, <muzzle/suppressor:loudness>.  <muzzle/suppressor:short>  <muzzle/suppressor:direct_thread/none>  Instead, it mounts onto the army flash hider.  <muzzle/suppressor>",
+    "expand_snippets": true,
+
+    "variant_type": "gun",
+    "variants": [
+      {
+        "id": "black",
+        "name": {
+          "str": "KAC QDSS NT4 suppressor"
+        },
+        "description": "A dated-yet-capable suppressor, <muzzle/suppressor:loudness>.  It's known for being part of the SOPMOD kit of gun modifications issued to U.S. special forces.  <muzzle/rating:556>  <muzzle/suppressor:short>  <muzzle/suppressor:direct_thread/none>  Instead, it mounts onto an M4QD flash hider.  <muzzle/suppressor>  <variant:black>",
+        "expand_snippets": true,
+        "weight": 1
+      },
+      {
+        "id": "fde",
+        "name": {
+          "str": "KAC QDSS NT4 suppressor"
+        },
+        "description": "A dated-yet-capable suppressor, <muzzle/suppressor:loudness>.  It's known for being part of the SOPMOD kit of gun modifications issued to U.S. special forces.  <muzzle/rating:556>  <muzzle/suppressor:short>  <muzzle/suppressor:direct_thread/none>  Instead, it mounts onto an M4QD flash hider.  <muzzle/suppressor>  <variant:fde>",
+        "expand_snippets": true,
+        "weight": 1
+      }
+    ],
+
+    "weight": "624 g",
+    "//dimensions": {
+      "length": "6.4 in",
+      "diameter": "1.5 in",
+      "raw": "185.33 ml",
+      "trim": -0.025,
+      "notes": [
+        "the higher-diameter collar is reflected in the negative trim value"
+      ]
+    },
+    "volume": "190 ml",
+    "longest_side": "163 mm",
+    "//integral_longest_side": "absorbs the length of the KAC M4QD flash hider it mounts onto (48 mm)",
+    "integral_longest_side": "115 mm",
+
+    "//calibers": ["5.56×45mm NATO"],
+    "//acceptable_ammo": ["223"],
+
+    "//sound_lower": "146.90 dB @ 10.3 in. w/ 5.56mm XM193",
+    "//loudness_modifier": [
+      "the review puts this suppressor's performance slightly below SOCOM556-RC2 (at least with muzzle score)",
+      "SOCOM556-RC2's own score in this mod is -45",
+      "the overall sentiment for QDSS' performance is that despite its faulty design, it performs equal to or even better than some current market options"
+    ],
+    "loudness_modifier": -42,
+    "//handling_modifier": "we give a positive modifier because we believe that this supressor would further improve the handling bonus from the flash hider it mounts onto, rather than take away from its performance due to gas dispersion",
+    "handling_modifier": 2,
+
+    "//consume_divisor": 800,
+
+    "location": "KAC QD muzzle mount",
+
+    "price": "1507 USD",
+    "price_postapoc": "1 USD"
+  }
+]
