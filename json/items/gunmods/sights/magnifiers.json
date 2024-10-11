@@ -1,0 +1,176 @@
+[
+  {
+    "id": "magnifier/eotech/g33",
+    "copy-from": "abstract:magnifier",
+    "type": "GUNMOD",
+
+    "//sources": ["https://www.eotechinc.com/eotech-magnifier-g33"],
+
+    "name": {
+      "str": "3× magnifier"
+    },
+    "description": "A regular-size magnifier.  <sight/magnifier>",
+
+    "variant_type": "gun",
+    "variants": [
+      {
+        "id": "black",
+
+        "name": {
+          "str": "EOTech G33 3× magnifier"
+        },
+        "description": "<sight/magnifier/verbose:3x>  <variant:black>",
+        "expand_snippets": true,
+        "weight": 1
+      },
+      {
+        "id": "fde",
+
+        "name": {
+          "str": "EOTech G33 3× magnifier"
+        },
+        "description": "<sight/magnifier/verbose:3x>  <variant:fde>",
+        "expand_snippets": true,
+        "weight": 1
+      }
+    ],
+
+    "//weight": "10.6 oz = 300.5 g",
+    "weight": "301 g",
+    "//dimensions": {
+      "length": "4.4 in",
+      "width": "2.2 in",
+      "height": "3.3 in",
+      "raw": "523.47 ml",
+      "trim": 0.475
+    },
+    "volume": "275 ml",
+    "longest_side": "112 mm",
+
+    "material": ["aluminum", "glass"],
+
+    "sight_dispersion": 600,
+    "//field_of_view": "7.3° = 438 MOA",
+    "field_of_view": 438,
+
+    "//price": "with an included mount",
+    "price": "629 USD",
+    "price_postapoc": "50 cent"
+  },
+  {
+    "id": "magnifier/eotech/g43",
+    "copy-from": "abstract:magnifier",
+    "type": "GUNMOD",
+
+    "//sources": ["https://www.eotechinc.com/eotech-magnifier-g43"],
+
+    "name": {
+      "str": "short 3× magnifier"
+    },
+    "description": "A stocky magnifier.  <sight/magnifier>",
+
+    "variant_type": "gun",
+    "variants": [
+      {
+        "id": "black",
+
+        "name": {
+          "str": "EOTech G43 3× magnifier"
+        },
+        "description": "<sight/magnifier/verbose:3x>  <variant:black>",
+        "expand_snippets": true,
+        "weight": 1
+      },
+      {
+        "id": "fde",
+
+        "name": {
+          "str": "EOTech G43 3× magnifier"
+        },
+        "description": "<sight/magnifier/verbose:3x>  <variant:fde>",
+        "expand_snippets": true,
+        "weight": 1
+      }
+    ],
+
+    "//weight": "11.3 oz = 320.35 g",
+    "weight": "320 g",
+    "//dimensions": {
+      "length": "3.1 in",
+      "width": "2.3 in",
+      "height": "3.3 in",
+      "raw": "385.57 ml",
+      "trim": 0.35
+    },
+    "volume": "251 ml",
+    "longest_side": "84 mm",
+
+    "material": ["aluminum", "glass"],
+
+    "sight_dispersion": 600,
+    "//field_of_view": "7.5° = 450 MOA",
+    "field_of_view": 450,
+
+    "//price": "with an included mount",
+    "price": "649 USD",
+    "price_postapoc": "50 cent"
+  },
+  {
+    "id": "magnifier/eotech/g45",
+    "copy-from": "abstract:magnifier",
+    "type": "GUNMOD",
+
+    "//sources": ["https://www.eotechinc.com/eotech-magnifier-g45"],
+
+    "name": {
+      "str": "5× magnifier"
+    },
+    "description": "A high-magnification regular-size magnifier.  <sight/magnifier>",
+
+    "variant_type": "gun",
+    "variants": [
+      {
+        "id": "black",
+
+        "name": {
+          "str": "EOTech G45 5× magnifier"
+        },
+        "description": "<sight/magnifier/verbose:5x>  <variant:black>",
+        "expand_snippets": true,
+        "weight": 1
+      },
+      {
+        "id": "fde",
+
+        "name": {
+          "str": "EOTech G45 5× magnifier"
+        },
+        "description": "<sight/magnifier/verbose:5x>  <variant:fde>",
+        "expand_snippets": true,
+        "weight": 1
+      }
+    ],
+
+    "//weight": "12.8 oz = 362.87 g",
+    "weight": "363 g",
+    "//dimensions": {
+      "length": "3.9 in",
+      "width": "2.3 in",
+      "height": "3.3 in",
+      "raw": "485.07 ml",
+      "trim": 0.475
+    },
+    "volume": "255 ml",
+    "longest_side": "99 mm",
+
+    "material": ["aluminum", "glass"],
+
+    "sight_dispersion": 1000,
+    "//field_of_view": "4.4° = 264 MOA",
+    "field_of_view": 264,
+
+    "//price": "with an included mount",
+    "price": "695 USD",
+    "price_postapoc": "50 cent"
+  }
+]
