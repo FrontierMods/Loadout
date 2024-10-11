@@ -13,5 +13,10 @@
     "id": ["rifle_scope"],
     "type": "MIGRATION",
     "replace": "sight/eotech/vudu"
+  },
+  {
+    "id": ["magnifier"],
+    "type": "MIGRATION",
+    "replace": "magnifier/eotech/g33"
   }
 ]
