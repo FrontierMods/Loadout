@@ -109,29 +109,29 @@
     ],
 
     "name": {
-      "str": "Leupold Mark 4 MR/T 2.5—8×36 30mm scope"
+      "str": "military variable optic"
     },
-    "description": "A slick, capable 30mm scope with magnification ranging from 2.5× to 8×.  This model has been in service with the US military for more than two decades, known in particular for being supplied with Mk12 Special Purpose Rifle, as well as M38 Designated Marksman Rifle, both in use with U.S. Marines.",
+    "description": "A slick 30mm scope intended for combat at medium ranges, capable of varying its magnification from 2.5× to 8×.  This model has been in service with the U.S. military, and in particular with the Marines, for more than two decades.  <sight/optical/magnification:low>",
 
     "variant_type": "gun",
     "variants": [
       {
-        "id": "sight_leupold_mark4_modern",
+        "id": "black:modern",
         "name": {
           "str": "Leupold Mark 4 MR/T 2.5—8×36 30mm scope"
         },
-        "description": "This one is a newer model, as used on the relatively-recent M38's.  The differentiating factor is white lines on the mounting space, allowing the soldier to both position the scope correctly for eye relief and make sure the scope is level.  Back when \"online\" was a thing, this model would fetch upwards of $1 500, even with those looking to replicate the older Mk12's… even though the markings make it much too new to be used on the retired platform.  Activate to set it to maximum magnification.",
+        "description": "A newer model of military-only magnified scopes, used on the more-recent M38 rifles by the Marines.  The differentiating factor is white lines on the mounting space, allowing the soldier to both position the scope correctly for eye relief and make sure the scope is level.  Back when \"online\" was a thing, this model would fetch upwards of $1 500, even with those looking to replicate the older Mk12's… even though the markings make it much too new to be used on the retired platform.  <variant:black>  <sight/optical/magnification:low>",
         "weight": 10,
-        "append": true
+        "expand_snippets": true
       },
       {
-        "id": "sight_leupold_mark4",
+        "id": "black",
         "name": {
           "str": "Leupold Mark 4 MR/T 2.5—8×36 30mm scope"
         },
-        "description": "This one is an older model, as used on the retired Mk12's.  Unlike the newer model, it doesn't have ring- and level-lines on the mounting space.  As a consequence, it didn't command nearly as much respect with those interested in replicating military rifle configurations… back when those interested were still human and able to communicate.  Activate to set it to maximum magnification.",
+        "description": "An older model of military-only magnified scopes, used on the now-retired Mk12 rifles by the Marines.  Unlike the newer model, it doesn't have ring- and level-lines on the mounting space.  As a consequence, it didn't command nearly as much respect with those interested in replicating military rifle configurations… back when those interested were still human and able to communicate.  <variant:black>  <sight/optical/magnification:low>",
         "weight": 1,
-        "append": true
+        "expand_snippets": true
       }
     ],
 
@@ -173,7 +173,7 @@
     "longest_side": "287 mm",
 
     "//field_of_view": "35.5 ft @ 100 yds @ 2.5× magnification = 406.33 MOA",
-    "field_of_view": 40633,
+    "field_of_view": 406,
     "//sight_dispersion": "0.18 MIL = 0.619 MOA @ 8× magnification / 3.2× magnification difference",
     "sight_dispersion": 62,
     "aim_speed_modifier": 0,
@@ -191,7 +191,8 @@
     },
 
     "//price": "Charlie's Clones pricing, which is said to be slightly-cheaper than the original",
-    "price": "1527 USD"
+    "price": "1527 USD",
+    "price_postapoc": "50 cent"
   },
   {
     "id": "sight/leupold/mark4:magnified",
@@ -199,13 +200,13 @@
     "type": "GUNMOD",
 
     "name": {
-      "str": "Leupold Mark 4 MR/T 2.5—8×36 30mm scope (magnified)",
-      "str_pl": "Leupold Mark 4 MR/T 2.5—8×36 30mm scopes (magnified)"
+      "str": "military variable optic (magnified)",
+      "str_pl": "military variable optics (magnified)"
     },
-    "description": "A slick, capable 30mm scope with magnification ranging from 2.5× to 8×.  This model has been in service with the US military for more than two decades, known in particular for being supplied with Mk12 Special Purpose Rifle, as well as M38 Designated Marksman Rifle, both in use with US Marines.  It is currently set to maximum magnification.  Activate to set it back to base magnification.",
+    "description": "A slick 30mm scope intended for combat at medium ranges, capable of varying its magnification from 2.5× to 8×.  This model has been in service with the U.S. military, and in particular with the Marines, for more than two decades.  <sight/optical/magnification:high>",
 
     "//field_of_view": "13.6 ft @ 100 yds @ 8× magnification = 155.82 MOA",
-    "field_of_view": 15582,
+    "field_of_view": 156,
     "//sight_dispersion": "0.619 MOA @ 8× magnification / (8 / 2.5) magnification difference ≈ 0.193 MOA",
     "sight_dispersion": 19,
 
