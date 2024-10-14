@@ -1,0 +1,95 @@
+[
+  {
+    "id": "sight_mount/acog/trijicon/ta51",
+    "copy-from": "abstract:sight_mount/rifle",
+    "type": "GUNMOD",
+
+    "//sources": ["https://www.trijicon.com/products/details/ta51"],
+
+    "name": {
+      "str": "ACOG mount"
+    },
+    "description": "A bulky mount for installing the ACOG sight onto the sight rail.",
+
+    "variant_type": "gun",
+    "variants": [
+      {
+        "id": "black",
+
+        "name": {
+          "str": "Trijicon ACOG TA51 mount"
+        },
+        "description": "A heavy slab for mounting ACOG sights onto the Picatinny rail.  Fits all popular models of the ACOG.",
+        "expand_snippets": true,
+        "weight": 1
+      }
+    ],
+
+    "//weight": "4 oz = 113.4 g",
+    "weight": "113 g",
+    "//dimensions": {
+      "length": "3.5 in",
+      "width": "1.6 in",
+      "height": "0.4 in",
+      "raw": "37 ml",
+      "trim": 0.3,
+      "notes": ["height and width acquired through visual reference"]
+    },
+    "volume": "26 ml",
+    "longest_side": "89 mm",
+
+    "add_mod": [["ACOG mount", 1]],
+
+    "price": "83 USD"
+  },
+  {
+    "id": "sight_mount/rx01/trijicon/rx11",
+    "copy-from": "abstract:sight_mount/rifle",
+    "type": "GUNMOD",
+
+    "//sources": [
+      "https://palmettostatearmory.com/trijicon-reflex-weaver-rail-adapter-rx11.html",
+      [
+        "https://www.omahaoutdoors.com/trijicon-rx11-reflex-weaver-rail-adapter/",
+        "price"
+      ]
+    ],
+
+    "name": {
+      "str": "bulky reflex sight mount"
+    },
+    "description": "A Picatinny mount for Trijicon RX01.  Latches onto the rail using thumbscrews similar to those on the TA51 ACOG mount.",
+
+    "variant_type": "gun",
+    "variants": [
+      {
+        "id": "black",
+
+        "name": {
+          "str": "Trijicon RX11 mount"
+        },
+        "description": "A thin slab for mounting the RX01 reflex sight onto the Picatinny rail.",
+        "expand_snippets": true,
+        "weight": 1
+      }
+    ],
+
+    "//weight": "1.6 oz = 45.359 g",
+    "weight": "45 g",
+    "//dimensions": {
+      "length": "3.19 in",
+      "width": "1.35 in",
+      "height": "0.295 in",
+      "raw": "20.82 ml",
+      "trim": 0.35,
+      "notes": ["width equals to width of RX01"]
+    },
+    "volume": "14 ml",
+    "longest_side": "81 mm",
+
+    "add_mod": [["RX01 mount", 1]],
+
+    "price": "75 USD",
+    "price_postapoc": "50 cent"
+  }
+]
