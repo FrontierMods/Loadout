@@ -9,6 +9,7 @@
       [
         "https://www.trijicon.com/products/details/ta01-d-100319",
         "https://www.trijicon.com/products/details/ta01-d-100318",
+        "https://www.trijicon.com/uploads/product-uploads/product-downloads/2019_Trijicon_ACOG.pdf",
         "variant references"
       ]
     ],
@@ -16,7 +17,7 @@
     "//notes": ["fixed-magnification sight"],
 
     "name": {
-      "str": "military optical sight"
+      "str": "ACOG sight"
     },
     "description": "A common military fixed-magnification sight.  Intended for medium-range encounters.  Can be augmented with a backup iron sight -- replacing the one the optical sight itself covers up -- or an RMR reflex sight -- mounted using an adapter.",
 
@@ -30,7 +31,7 @@
         },
         "description": "The primary choice of medium-range for several branches of the U.S. military, the TA01 is a 4× magnified, tritium-illuminated sight.  The ACOG continues to be a reliable optic after the end of the world, despite having been in use for decades prior.  Can optionally be augmented with a backup rear iron sight (forming a complete pair with an embedded front post) or an RM35 mount, allowing installation of a compact RMR reflex sight.  <variant:black>",
         "expand_snippets": true,
-        "weight": 4
+        "weight": 20
       },
       {
         "id": "fde",
@@ -40,7 +41,7 @@
         },
         "description": "The primary choice of medium-range for several branches of the U.S. military, the TA01 is a 4× magnified, tritium-illuminated sight.  The ACOG continues to be a reliable optic after the end of the world, despite having been in use for decades prior.  Can optionally be augmented with a backup rear iron sight (forming a complete pair with an embedded front post) or an RM35 mount, allowing installation of a compact RMR reflex sight.  <variant:fde>",
         "expand_snippets": true,
-        "weight": 1
+        "weight": 10
       },
       {
         "id": "olive",
@@ -49,6 +50,16 @@
           "str": "Trijicon ACOG TA01 4×32 scope"
         },
         "description": "The primary choice of medium-range for several branches of the U.S. military, the TA01 is a 4× magnified, tritium-illuminated sight.  The ACOG continues to be a reliable optic after the end of the world, despite having been in use for decades prior.  Can optionally be augmented with a backup rear iron sight (forming a complete pair with an embedded front post) or an RM35 mount, allowing installation of a compact RMR reflex sight.  <variant:olive>",
+        "expand_snippets": true,
+        "weight": 4
+      },
+      {
+        "id": "grey",
+
+        "name": {
+          "str": "Trijicon ACOG TA01 4×32 scope"
+        },
+        "description": "The primary choice of medium-range for several branches of the U.S. military, the TA01 is a 4× magnified, tritium-illuminated sight.  The ACOG continues to be a reliable optic after the end of the world, despite having been in use for decades prior.  Can optionally be augmented with a backup rear iron sight (forming a complete pair with an embedded front post) or an RM35 mount, allowing installation of a compact RMR reflex sight.  <variant:grey>",
         "expand_snippets": true,
         "weight": 1
       }
@@ -109,29 +120,32 @@
     ],
 
     "name": {
-      "str": "military variable optic"
+      "str": "military variable scope"
     },
-    "description": "A slick 30mm scope intended for combat at medium ranges, capable of varying its magnification from 2.5× to 8×.  This model has been in service with the U.S. military, and in particular with the Marines, for more than two decades.  <sight/optical/magnification:low>",
+    "description": "A slick 30mm scope intended for combat at medium to long ranges, capable of varying its magnification from 2.5× to 8×.  This model has been in service with the U.S. military, and in particular with the Marines, for more than two decades.  <sight/optical/magnification:low>",
+    "expand_snippets": true,
 
     "variant_type": "gun",
     "variants": [
       {
         "id": "black:modern",
+
         "name": {
           "str": "Leupold Mark 4 MR/T 2.5—8×36 30mm scope"
         },
         "description": "A newer model of military-only magnified scopes, used on the more-recent M38 rifles by the Marines.  The differentiating factor is white lines on the mounting space, allowing the soldier to both position the scope correctly for eye relief and make sure the scope is level.  Back when \"online\" was a thing, this model would fetch upwards of $1 500, even with those looking to replicate the older Mk12's… even though the markings make it much too new to be used on the retired platform.  <variant:black>  <sight/optical/magnification:low>",
-        "weight": 10,
-        "expand_snippets": true
+        "expand_snippets": true,
+        "weight": 10
       },
       {
         "id": "black",
+
         "name": {
           "str": "Leupold Mark 4 MR/T 2.5—8×36 30mm scope"
         },
         "description": "An older model of military-only magnified scopes, used on the now-retired Mk12 rifles by the Marines.  Unlike the newer model, it doesn't have ring- and level-lines on the mounting space.  As a consequence, it didn't command nearly as much respect with those interested in replicating military rifle configurations… back when those interested were still human and able to communicate.  <variant:black>  <sight/optical/magnification:low>",
-        "weight": 1,
-        "expand_snippets": true
+        "expand_snippets": true,
+        "weight": 1
       }
     ],
 
@@ -200,10 +214,36 @@
     "type": "GUNMOD",
 
     "name": {
-      "str": "military variable optic (magnified)",
-      "str_pl": "military variable optics (magnified)"
+      "str": "military variable scope (magnified)",
+      "str_pl": "military variable scope (magnified)"
     },
-    "description": "A slick 30mm scope intended for combat at medium ranges, capable of varying its magnification from 2.5× to 8×.  This model has been in service with the U.S. military, and in particular with the Marines, for more than two decades.  <sight/optical/magnification:high>",
+    "description": "A slick 30mm scope intended for combat at medium to long ranges, capable of varying its magnification from 2.5× to 8×.  This model has been in service with the U.S. military, and in particular with the Marines, for more than two decades.  <sight/optical/magnification:high>",
+
+    "variant_type": "gun",
+    "variants": [
+      {
+        "id": "black:modern",
+
+        "name": {
+          "str": "Leupold Mark 4 MR/T 2.5—8×36 30mm scope (magnified)",
+          "str_pl": "Leupold Mark 4 MR/T 2.5—8×36 30mm scopes (magnified)"
+        },
+        "description": "A newer model of military-only magnified scopes, used on the more-recent M38 rifles by the Marines.  The differentiating factor is white lines on the mounting space, allowing the soldier to both position the scope correctly for eye relief and make sure the scope is level.  Back when \"online\" was a thing, this model would fetch upwards of $1 500, even with those looking to replicate the older Mk12's… even though the markings make it much too new to be used on the retired platform.  <variant:black>  <sight/optical/magnification:high>",
+        "expand_snippets": true,
+        "weight": 10
+      },
+      {
+        "id": "black",
+
+        "name": {
+          "str": "Leupold Mark 4 MR/T 2.5—8×36 30mm scope (magnified)",
+          "str_pl": "Leupold Mark 4 MR/T 2.5—8×36 30mm scopes (magnified)"
+        },
+        "description": "An older model of military-only magnified scopes, used on the now-retired Mk12 rifles by the Marines.  Unlike the newer model, it doesn't have ring- and level-lines on the mounting space.  As a consequence, it didn't command nearly as much respect with those interested in replicating military rifle configurations… back when those interested were still human and able to communicate.  <variant:black>  <sight/optical/magnification:high>",
+        "expand_snippets": true,
+        "weight": 1
+      }
+    ],
 
     "//field_of_view": "13.6 ft @ 100 yds @ 8× magnification = 155.82 MOA",
     "field_of_view": 156,
@@ -219,12 +259,12 @@
   },
 
   {
-    "id": "sight/elcan/specterdr",
+    "id": "sight/elcan/specterdr:legacy",
     "copy-from": "abstract:sight_mount/rifle",
     "type": "GUNMOD",
 
     "//sources": [
-      "https://armament.com/specterdr-1x-4x/",
+      "https://armament.com/specterdr-1x-4x-legacy/",
       [
         "https://www.eurooptic.com/PDF/Elcan-SpecterDR-1x4-Manual.pdf",
         "center-of-aim size"
@@ -232,37 +272,75 @@
     ],
 
     "//notes": [
-      "this sight also comes with a set of backup iron sights by default",
-      "we can't model embedded gunmods or one sight item having multiple sight objects (properties)",
-      "so we pretend it doesn't exist",
-      "this would be the mount we could use:",
-      "https://armament.com/mrd-mount-kit/"
+      [
+        "this sight also comes with a set of backup iron sights by default",
+        "we can't model embedded gunmods or one sight item having multiple sight objects (properties)",
+        "so we pretend it doesn't exist"
+      ],
+      [
+        "this would be the mount we could use:",
+        "https://armament.com/mrd-mount-kit/"
+      ],
+      "we presume that the reticle remains the same between this legacy model and the modern one",
+      [
+        "the modern model has a small Picatinny rail on top of the sight",
+        "https://armament.com/specterdr-1x-4x/"
+      ]
     ],
 
     "name": {
-      "str": "ELCAN SpecterDR 1—4× sight"
+      "str": "legacy military variable sight"
     },
-    "description": "An old classic, this combat sight offers magnification between 1× and 4×.  This model has been in service with the US military for more than two decades, known in particular for being supplied with Mk12 Special Purpose Rifle, as well as M38 Designated Marksman Rifle, both in use with US Marines.  <sight/optical/magnification:low>",
+    "description": "An old classic of a sight, intended for combat at short to medium ranges.  This model has been popular with U.S. troops, as well as some of the European militaries, for over two decades.  <sight/optical/magnification:low>",
+    "expand_snippets": true,
+
+    "variant_type": "gun",
+    "variants": [
+      {
+        "id": "black",
+
+        "name": {
+          "str": "ELCAN SpecterDR 1—4× sight"
+        },
+        "description": "A stout -- perhaps too stout -- combat sight.  This model has been in service with U.S. troops for two decades, and thus exhibits some of the shortcomings of outdated design.  Primarily, the top slot for a backup sight is flat, rather than emplaced with a Picatinny rail, and requires adapters to mount a reflex sight.  <variant:black>  <sight/optical/magnification:low>",
+        "expand_snippets": true,
+        "weight": 1
+      }
+    ],
 
     "weight": "660 g",
-    "//dimensions": {
-      "length": "153 mm",
-      "width": "74 mm",
-      "height": "78 mm",
-      "raw": "883 ml",
-      "trim": 0.2
-    },
-    "volume": "706 ml",
+    "//dimensions": [
+      {
+        "description": "sight",
+
+        "length": "153 mm",
+        "width": "74 mm",
+        "height": "78 mm",
+        "raw": "883.12 ml",
+        "trim": 0.2,
+        "result": "706.496 ml"
+      },
+      {
+        "description": "embedded Docter mount",
+
+        "source": "sight_mount/rmr/trijicon/rm33",
+        "raw": "20.02 ml",
+        "trim": 0.3,
+        "result": "14.014 ml"
+      }
+    ],
+    "volume": "721 ml",
     "longest_side": "153 mm",
 
     "//field_of_view": "26° @ 1× magnification = 1560 MOA",
     "field_of_view": 1560,
+    "//sight_dispersion": "6 MOA @ 1× magnification",
     "sight_dispersion": 600,
-    "//aim_speed_modifier": [
+    "///aim_speed_modifier": [
       "at 1× magnification",
       "bonus for ballistic reticle"
     ],
-    "aim_speed_modifier": 8,
+    "//aim_speed_modifier": 8,
 
     "location": "sights",
 
@@ -279,30 +357,48 @@
       "type": "transform",
       "menu_text": "Magnify",
       "msg": "You turn the scope's zoom all the way up.",
-      "target": "sight/elcan/specterdr:magnified"
+      "target": "sight/elcan/specterdr/legacy:magnified"
     },
 
-    "price": "1527 USD"
+    "price": "1527 USD",
+    "price_postapoc": "50 cent"
   },
   {
-    "id": "sight/elcan/specterdr:magnified",
+    "id": "sight/elcan/specterdr:/legacy:magnified",
     "copy-from": "sight/elcan/specterdr",
     "type": "GUNMOD",
 
     "name": {
-      "str": "ELCAN SpecterDR 1—4× scope (magnified)",
-      "str_pl": "ELCAN SpecterDR 1—4× scopes (magnified)"
+      "str": "legacy military variable sight (magnified)",
+      "str_pl": "legacy military variable sights (magnified)"
     },
-    "description": "A slick, capable 30mm scope with magnification ranging from 2.5× to 8×.  This model has been in service with the US military for more than two decades, known in particular for being supplied with Mk12 Special Purpose Rifle, as well as M38 Designated Marksman Rifle, both in use with US Marines.  It is currently set to maximum magnification.  Activate to set it back to base magnification.",
+    "description": "An old classic of a sight, intended for combat at short to medium ranges.  This model has been popular with U.S. troops, as well as some of the European militaries, for over two decades.  <sight/optical/magnification:high>",
+
+    "variant_type": "gun",
+    "variants": [
+      {
+        "id": "black",
+
+        "name": {
+          "str": "ELCAN SpecterDR 1—4× scope (magnified)",
+          "str_pl": "ELCAN SpecterDR 1—4× scopes (magnified)"
+        },
+        "description": "A stout -- perhaps too stout -- combat sight.  This model has been in service with U.S. troops for two decades, and thus exhibits some of the shortcomings of outdated design.  Primarily, the top slot for a backup sight is flat, rather than emplaced with a Picatinny rail, and requires adapters to mount a reflex sight.  <variant:black>  <sight/optical/magnification:high>",
+        "expand_snippets": true,
+        "weight": 1
+      }
+    ],
 
     "//field_of_view": "6.5° @ 4× magnification = 390 MOA",
     "field_of_view": 390,
+    "//sight_dispersion": "1.5 MOA @ 4× magnification",
+    "sight_dispersion": 150,
 
     "use_action": {
       "type": "transform",
       "menu_text": "Demagnify",
       "msg": "You turn the scope's zoom all the way down.",
-      "target": "sight/elcan/specterdr"
+      "target": "sight/elcan/specterdr:legacy"
     }
   },
 
@@ -311,46 +407,83 @@
     "copy-from": "abstract:sight/30mm",
     "type": "GUNMOD",
 
-    "//sources": [
-      "https://www.eotechinc.com/eotech-vudu-1-6x24-ffp",
-      "https://xtremetactical.co.uk/products/eotech-vdu1-6ffsr3"
-    ],
+    "//sources": ["https://www.eotechinc.com/eotech-vudu-1-6x24-ffp"],
+
+    "//notes": ["we assume this sight uses the SR1 reticle"],
 
     "name": {
-      "str": "EOTech Vudu 1—6×24 30mm scope"
+      "str": "30mm 1—6× variable scope"
     },
-    "description": "A slim, versatile 30mm scope with magnification ranging from 1× to 6×.  Its award-winning design and perfomance make it a popular low-magnification scope for a variety of tasks, including hunting, competitive shooting, and law-enforcement operations.  Activate to set it to maximum magnification.",
+    "description": "A slim 30mm variable scope for short to medium ranges, with magnification ranging from 1× to 6×.  Its high-grade construction quality and design make it a popular choice for hunters, competitive shooters, and law-enforcement officers.  <sight/optical/magnification:low>",
+    "expand_snippets": true,
 
+    "variant_type": "gun",
+    "variants": [
+      {
+        "id": "black",
+
+        "name": {
+          "str": "EOTech Vudu 1—6×24 30mm scope"
+        },
+        "description": "A slim 30mm variable scope with magnification ranging from 1× to 6×.  Equally good for hunting, competitive shooting, and military action, this sight used to be very popular with all sorts of shooters before Cataclysm struck.  <variant:black>  <sight/optical/magnification:low>",
+        "expand_snippets": true,
+        "weight": 1
+      }
+    ],
+
+    "//weight": "20.1 oz = 569.83 g",
     "weight": "570 g",
     "//dimensions": [
       {
         "description": "objective",
 
-        "length": "30.00 mm",
+        "length": "30 mm",
         "diameter": "166.2 mm",
-        "raw": "118 ml",
-        "trim": -0.15,
-        "volume": "136 ml",
-        "notes": ["negative trim value should account for adjustment knobs"]
+        "raw": "117.48 ml",
+        "trim": 0,
+        "result": "117.48 ml"
+      },
+      {
+        "description": "turret",
+        "count": 2,
+
+        "length": "13.5 mm",
+        "diameter": "30 mm",
+        "raw": "9.54 ml",
+        "trim": 0,
+        "result": "9.54 ml"
+      },
+      {
+        "description": "battery knob",
+
+        "length": "13.5 mm",
+        "diameter": "30 mm",
+        "raw": "9.54 ml",
+        "trim": 0,
+        "result": "9.54 ml"
       },
       {
         "description": "eyepiece",
 
-        "length": "103.50 mm",
-        "diameter": "43.60 mm",
-        "raw": "155 ml",
+        "length": "103.5 mm",
+        "diameter": "43.6 mm",
+        "raw": "154.53 ml",
         "trim": 0,
-        "volume": "155 ml",
+        "result": "154.53 ml",
         "notes": ["trim should account for dips, bumps, and zoom dial"]
       }
     ],
-    "volume": "291 ml",
+    "volume": "301 ml",
     "longest_side": "270 mm",
 
     "//field_of_view": "102.4 ft @ 100 yds @ 1× magnification = 1162.20 MOA",
     "field_of_view": 1162,
-    "//sight_dispersion": "1 MOA dot",
-    "sight_dispersion": 100,
+    "//sight_dispersion": "1 MIL @ 6× magnification = 3.438 MOA @ 6× magnification = 0.573 MOA @ 1x magnification",
+    "sight_dispersion": 57,
+    "//aim_speed_modifier": [
+      "should probably have a decent bonus due to its high lens quality",
+      "https://coldboremiracle.com/2024/05/19/eotech-vudu-1-6/"
+    ],
 
     "//power": {
       "source": [["CR2032"]],
@@ -364,7 +497,8 @@
       "target": "sight/eotech/vudu:magnified"
     },
 
-    "price": "1400 USD"
+    "price": "1399 USD",
+    "price_postapoc": "50 cent"
   },
   {
     "id": "sight/eotech/vudu:magnified",
@@ -372,13 +506,31 @@
     "type": "GUNMOD",
 
     "name": {
-      "str": "EOTech Vudu 1—6×24 30mm scope (magnified)",
-      "str_pl": "EOTech Vudu 1—6×24 30mm scopes (magnified)"
+      "str": "30mm 1—6× variable scope (magnified)",
+      "str_pl": "30mm 1—6× variable scopes (magnified)"
     },
-    "description": "A slim, versatile 30mm scope with magnification ranging from 1× to 6×.  Its award-winning design and perfomance make it a popular low-magnification scope for a variety of tasks, including hunting, competitive shooting, and law-enforcement operations.  It is currently set to maximum magnification.  Activate to set it back to base magnification.",
+    "description": "A slim 30mm variable scope for short to medium ranges.  Its high-grade construction quality and design make it a popular choice for hunters, competitive shooters, and law-enforcement officers.  <sight/optical/magnification:high>",
+    "expand_snippets": true,
+
+    "variant_type": "gun",
+    "variants": [
+      {
+        "id": "black",
+
+        "name": {
+          "str": "EOTech Vudu 1—6×24 30mm scope (magnified)",
+          "str_pl": "EOTech Vudu 1—6×24 30mm scopes (magnified)"
+        },
+        "description": "A slim 30mm variable scope with magnification ranging from 1× to 6×.  Equally good for hunting, competitive shooting, and military action, this sight used to be very popular with all sorts of shooters before Cataclysm struck.  <variant:black>  <sight/optical/magnification:high>",
+        "expand_snippets": true,
+        "weight": 1
+      }
+    ],
 
     "//field_of_view": "16.7 ft @ 100 yds @ 6× magnification = 191.32 MOA",
     "field_of_view": 191,
+    "//sight_dispersion": "1 MOA dot",
+    "sight_dispersion": 100,
 
     "use_action": {
       "type": "transform",
