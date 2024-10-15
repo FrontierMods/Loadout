@@ -1,7 +1,7 @@
 [
   {
     "id": "flash_hider/colt/a2",
-    "copy-from": "abstract:muzzle/flash_hider",
+    "copy-from": "@muzzle/flash_hider",
     "type": "GUNMOD",
 
     "//sources": [
@@ -77,7 +77,7 @@
   },
   {
     "id": "flash_hider/kac/m4qd",
-    "copy-from": "abstract:muzzle/flash_hider",
+    "copy-from": "@muzzle/flash_hider",
     "type": "GUNMOD",
 
     "//sources": [

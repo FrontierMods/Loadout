@@ -1,6 +1,6 @@
 [
   {
-    "abstract": "abstract:sight",
+    "abstract": "@sight",
     "type": "GUNMOD",
 
     "name": { "str": "sight" },
@@ -22,8 +22,8 @@
     "flags": ["DISABLE_SIGHTS"]
   },
   {
-    "abstract": "abstract:sight/reflex",
-    "copy-from": "abstract:sight",
+    "abstract": "@sight/reflex",
+    "copy-from": "@sight",
     "type": "GUNMOD",
 
     "name": { "str": "reflex sight" },
@@ -38,8 +38,8 @@
     "add_mod": [["magnifier", 1]]
   },
   {
-    "abstract": "abstract:sight/reflex:no_magnifier",
-    "copy-from": "abstract:sight/reflex",
+    "abstract": "@sight/reflex:no_magnifier",
+    "copy-from": "@sight/reflex",
     "type": "GUNMOD",
 
     "name": {
@@ -53,8 +53,8 @@
     "add_mod": []
   },
   {
-    "abstract": "abstract:sight/holographic",
-    "copy-from": "abstract:sight",
+    "abstract": "@sight/holographic",
+    "copy-from": "@sight",
     "type": "GUNMOD",
 
     "name": { "str": "holographic sight" },
@@ -67,8 +67,8 @@
     "add_mod": [["magnifier", 1]]
   },
   {
-    "abstract": "abstract:sight/30mm",
-    "copy-from": "abstract:sight",
+    "abstract": "@sight/30mm",
+    "copy-from": "@sight",
     "type": "GUNMOD",
 
     "name": { "str": "30mm scope" },
@@ -90,8 +90,8 @@
     "flags": ["ZOOM"]
   },
   {
-    "abstract": "abstract:sight/34mm",
-    "copy-from": "abstract:sight/30mm",
+    "abstract": "@sight/34mm",
+    "copy-from": "@sight/30mm",
     "type": "GUNMOD",
 
     "name": { "str": "34mm scope scope" },
@@ -99,8 +99,8 @@
     "location": "34mm scope mount"
   },
   {
-    "abstract": "abstract:magnifier",
-    "copy-from": "abstract:sight",
+    "abstract": "@magnifier",
+    "copy-from": "@sight",
     "type": "GUNMOD",
 
     "name": { "str": "sight magnifier" },

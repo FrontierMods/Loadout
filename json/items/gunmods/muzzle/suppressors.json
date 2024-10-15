@@ -1,7 +1,7 @@
 [
   {
     "id": "suppressor/kac/qdss",
-    "copy-from": "abstract:muzzle/suppressor:no_cover",
+    "copy-from": "@muzzle/suppressor:no_cover",
     "type": "GUNMOD",
 
     "//sources": [

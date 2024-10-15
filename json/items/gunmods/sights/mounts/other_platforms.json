@@ -1,7 +1,7 @@
 [
   {
     "id": "sight_mount/acog/trijicon/ta51",
-    "copy-from": "abstract:sight_mount/rifle",
+    "copy-from": "@sight_mount/rifle",
     "type": "GUNMOD",
 
     "//sources": ["https://www.trijicon.com/products/details/ta51"],
@@ -44,7 +44,7 @@
   },
   {
     "id": "sight_mount/rx01/trijicon/rx11",
-    "copy-from": "abstract:sight_mount/rifle",
+    "copy-from": "@sight_mount/rifle",
     "type": "GUNMOD",
 
     "//sources": [

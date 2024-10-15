@@ -1,7 +1,7 @@
 [
   {
     "id": "sight/trijicon/ta01",
-    "copy-from": "abstract:sight_mount/rifle",
+    "copy-from": "@sight_mount/rifle",
     "type": "GUNMOD",
 
     "//sources": [
@@ -97,7 +97,7 @@
 
   {
     "id": "sight/leupold/mark4",
-    "copy-from": "abstract:sight/30mm",
+    "copy-from": "@sight/30mm",
     "type": "GUNMOD",
 
     "//sources": [
@@ -260,7 +260,7 @@
 
   {
     "id": "sight/elcan/specterdr:legacy",
-    "copy-from": "abstract:sight_mount/rifle",
+    "copy-from": "@sight_mount/rifle",
     "type": "GUNMOD",
 
     "//sources": [
@@ -404,7 +404,7 @@
 
   {
     "id": "sight/eotech/vudu",
-    "copy-from": "abstract:sight/30mm",
+    "copy-from": "@sight/30mm",
     "type": "GUNMOD",
 
     "//sources": ["https://www.eotechinc.com/eotech-vudu-1-6x24-ffp"],

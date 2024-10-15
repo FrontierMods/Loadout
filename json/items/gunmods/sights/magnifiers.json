@@ -1,7 +1,7 @@
 [
   {
     "id": "magnifier/eotech/g33",
-    "copy-from": "abstract:magnifier",
+    "copy-from": "@magnifier",
     "type": "GUNMOD",
 
     "//sources": ["https://www.eotechinc.com/eotech-magnifier-g33"],
@@ -59,7 +59,7 @@
   },
   {
     "id": "magnifier/eotech/g43",
-    "copy-from": "abstract:magnifier",
+    "copy-from": "@magnifier",
     "type": "GUNMOD",
 
     "//sources": ["https://www.eotechinc.com/eotech-magnifier-g43"],
@@ -117,7 +117,7 @@
   },
   {
     "id": "magnifier/eotech/g45",
-    "copy-from": "abstract:magnifier",
+    "copy-from": "@magnifier",
     "type": "GUNMOD",
 
     "//sources": ["https://www.eotechinc.com/eotech-magnifier-g45"],
