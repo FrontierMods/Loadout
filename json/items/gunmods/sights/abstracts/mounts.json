@@ -19,7 +19,16 @@
     "location": "sights",
     "install_time": "45 s",
 
-    "mod_targets": ["pistol", "smg", "shotgun", "rifle", "bow", "launcher"],
+    "mod_targets": ["pistol", "smg", "shotgun", "rifle", "bow", "launcher"]
+  },
+  {
+    "abstract": "@sight_mount:disable_sights",
+    "copy-from": "@sight_mount",
+    "type": "GUNMOD",
+
+    "name": {
+      "str": "sight mount"
+    },
 
     "flags": ["DISABLE_SIGHTS"]
   },
@@ -36,10 +45,33 @@
     "//mod_targets": "this class is used to prevent installing mounts that require Picatinny rail onto pistols",
     "mod_targets": ["smg", "shotgun", "rifle", "launcher"]
   },
+  {
+    "id": "@sight_mount/rifle:disable_sights",
+    "copy-from": "@sight_mount:disable_sights",
+    "type": "GUNMOD",
+
+    "name": {
+      "str": "rifle sight mount"
+    },
+
+    "//mod_targets": "this class is used to prevent installing mounts that require Picatinny rail onto pistols",
+    "mod_targets": ["smg", "shotgun", "rifle", "launcher"]
+  },
 
   {
     "abstract": "@sight_mount/rmr",
     "copy-from": "@sight_mount",
+    "type": "GUNMOD",
+
+    "name": {
+      "str": "RMR sight mount"
+    },
+
+    "add_mod": [["RMR mount", 1]]
+  },
+  {
+    "abstract": "@sight_mount/rmr:disable_sights",
+    "copy-from": "@sight_mount:disable_sights",
     "type": "GUNMOD",
 
     "name": {
