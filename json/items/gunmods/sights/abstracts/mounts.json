@@ -1,6 +1,6 @@
 [
   {
-    "abstract": "abstract:sight_mount",
+    "abstract": "@sight_mount",
     "type": "GUNMOD",
 
     "name": {
@@ -25,8 +25,8 @@
   },
 
   {
-    "id": "abstract:sight_mount/rifle",
-    "copy-from": "abstract:sight_mount",
+    "id": "@sight_mount/rifle",
+    "copy-from": "@sight_mount",
     "type": "GUNMOD",
 
     "name": {
@@ -38,8 +38,8 @@
   },
 
   {
-    "abstract": "abstract:sight_mount/rmr",
-    "copy-from": "abstract:sight_mount",
+    "abstract": "@sight_mount/rmr",
+    "copy-from": "@sight_mount",
     "type": "GUNMOD",
 
     "name": {
@@ -50,8 +50,8 @@
   },
 
   {
-    "abstract": "abstract:sight_mount/30mm",
-    "copy-from": "abstract:sight_mount/rifle",
+    "abstract": "@sight_mount/30mm",
+    "copy-from": "@sight_mount/rifle",
     "type": "GUNMOD",
 
     "name": {
@@ -62,8 +62,8 @@
   },
 
   {
-    "abstract": "abstract:sight_mount/34mm",
-    "copy-from": "abstract:sight_mount/rifle",
+    "abstract": "@sight_mount/34mm",
+    "copy-from": "@sight_mount/rifle",
     "type": "GUNMOD",
 
     "name": {
@@ -74,8 +74,8 @@
   },
 
   {
-    "abstract": "abstract:sight_mount/1in",
-    "copy-from": "abstract:sight_mount/rifle",
+    "abstract": "@sight_mount/1in",
+    "copy-from": "@sight_mount/rifle",
     "type": "GUNMOD",
 
     "name": {

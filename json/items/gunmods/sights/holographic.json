@@ -1,7 +1,7 @@
 [
   {
     "id": "sight/eotech/553",
-    "copy-from": "abstract:sight/holographic",
+    "copy-from": "@sight/holographic",
     "type": "GUNMOD",
 
     "//sources": ["https://www.manualsdir.com/manuals/402192/eotech-553.html"],
@@ -58,7 +58,7 @@
   },
   {
     "id": "sight/eotech/exps3",
-    "copy-from": "abstract:sight/holographic",
+    "copy-from": "@sight/holographic",
     "type": "GUNMOD",
 
     "//sources": [
@@ -124,7 +124,7 @@
   },
   {
     "id": "sight/vortex/uh1",
-    "copy-from": "abstract:sight/holographic",
+    "copy-from": "@sight/holographic",
     "type": "GUNMOD",
 
     "//sources": [

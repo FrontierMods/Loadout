@@ -1,6 +1,6 @@
 [
   {
-    "abstract": "abstract:muzzle",
+    "abstract": "@muzzle",
     "type": "GUNMOD",
 
     "name": {
@@ -24,8 +24,8 @@
   },
 
   {
-    "abstract": "abstract:muzzle/universal",
-    "copy-from": "abstract:muzzle",
+    "abstract": "@muzzle/universal",
+    "copy-from": "@muzzle",
     "type": "GUNMOD",
 
     "name": {
@@ -37,8 +37,8 @@
   },
 
   {
-    "abstract": "abstract:muzzle/brake",
-    "copy-from": "abstract:muzzle/universal",
+    "abstract": "@muzzle/brake",
+    "copy-from": "@muzzle/universal",
     "type": "GUNMOD",
 
     "name": {
@@ -63,8 +63,8 @@
   },
 
   {
-    "abstract": "abstract:muzzle/suppressor",
-    "copy-from": "abstract:muzzle/universal",
+    "abstract": "@muzzle/suppressor",
+    "copy-from": "@muzzle/universal",
     "type": "GUNMOD",
 
     "name": {
@@ -106,8 +106,8 @@
   },
 
   {
-    "abstract": "abstract:muzzle/suppressor:no_cover",
-    "copy-from": "abstract:muzzle/universal",
+    "abstract": "@muzzle/suppressor:no_cover",
+    "copy-from": "@muzzle/universal",
     "type": "GUNMOD",
 
     "name": {
@@ -127,8 +127,8 @@
   },
 
   {
-    "abstract": "abstract:muzzle/shotgun",
-    "copy-from": "abstract:muzzle",
+    "abstract": "@muzzle/shotgun",
+    "copy-from": "@muzzle",
     "type": "GUNMOD",
 
     "name": {
@@ -140,8 +140,8 @@
   },
 
   {
-    "abstract": "abstract:muzzle/shotgun/suppressor",
-    "copy-from": "abstract:muzzle/shotgun",
+    "abstract": "@muzzle/shotgun/suppressor",
+    "copy-from": "@muzzle/shotgun",
     "type": "GUNMOD",
 
     "name": {
@@ -162,8 +162,8 @@
   },
 
   {
-    "abstract": "abstract:muzzle/flash_hider",
-    "copy-from": "abstract:muzzle/universal",
+    "abstract": "@muzzle/flash_hider",
+    "copy-from": "@muzzle/universal",
     "type": "GUNMOD",
 
     "name": {
@@ -178,8 +178,8 @@
   },
 
   {
-    "abstract": "abstract:muzzle/thread_mount",
-    "copy-from": "abstract:muzzle",
+    "abstract": "@muzzle/thread_mount",
+    "copy-from": "@muzzle",
     "type": "GUNMOD",
 
     "name": {
@@ -205,8 +205,8 @@
   },
 
   {
-    "abstract": "abstract:muzzle/thread_protector",
-    "copy-from": "abstract:muzzle",
+    "abstract": "@muzzle/thread_protector",
+    "copy-from": "@muzzle",
     "type": "GUNMOD",
 
     "name": {
