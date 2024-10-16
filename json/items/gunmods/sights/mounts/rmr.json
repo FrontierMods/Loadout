@@ -56,7 +56,8 @@
     ],
 
     "name": {
-      "str": "RMR mount for ACOG"
+      "str": "RMR mount for ACOG",
+      "str_pl": "RMR mounts for ACOG"
     },
     "description": "A specialized mount that allows installing the RMR reflex sight on top of the ACOG sight.  Mounting both sights allows for ",
 
@@ -66,7 +67,8 @@
         "id": "black",
 
         "name": {
-          "str": "Trijicon RM35 RMR mount for ACOG"
+          "str": "Trijicon RM35 RMR mount for ACOG",
+          "str_pl": "Trijicon RM35 RMR mounts for ACOG"
         },
         "description": "A specialized mount allowing one to install a popular Trijicon RMR reflex sight on top of an equally-popular Trijicon ACOG TA01 sight.  This enables usage of different sights for different distances, potentially making aiming quicker and more precise overall.",
         "weight": 1

@@ -27,7 +27,7 @@
         "id": "black",
 
         "name": {
-          "str": "Trijicon ACOG TA01 4×32 scope"
+          "str": "Trijicon ACOG TA01 4×32 sight"
         },
         "description": "The primary choice of medium-range for several branches of the U.S. military, the TA01 is a 4× magnified, tritium-illuminated sight.  The ACOG continues to be a reliable optic after the end of the world, despite having been in use for decades prior.  Can optionally be augmented with a backup rear iron sight (forming a complete pair with an embedded front post) or an RM35 mount, allowing installation of a compact RMR reflex sight.  <variant:black>",
         "expand_snippets": true,
@@ -37,7 +37,7 @@
         "id": "fde",
 
         "name": {
-          "str": "Trijicon ACOG TA01 4×32 scope"
+          "str": "Trijicon ACOG TA01 4×32 sight"
         },
         "description": "The primary choice of medium-range for several branches of the U.S. military, the TA01 is a 4× magnified, tritium-illuminated sight.  The ACOG continues to be a reliable optic after the end of the world, despite having been in use for decades prior.  Can optionally be augmented with a backup rear iron sight (forming a complete pair with an embedded front post) or an RM35 mount, allowing installation of a compact RMR reflex sight.  <variant:fde>",
         "expand_snippets": true,
@@ -47,7 +47,7 @@
         "id": "olive",
 
         "name": {
-          "str": "Trijicon ACOG TA01 4×32 scope"
+          "str": "Trijicon ACOG TA01 4×32 sight"
         },
         "description": "The primary choice of medium-range for several branches of the U.S. military, the TA01 is a 4× magnified, tritium-illuminated sight.  The ACOG continues to be a reliable optic after the end of the world, despite having been in use for decades prior.  Can optionally be augmented with a backup rear iron sight (forming a complete pair with an embedded front post) or an RM35 mount, allowing installation of a compact RMR reflex sight.  <variant:olive>",
         "expand_snippets": true,
@@ -57,7 +57,7 @@
         "id": "grey",
 
         "name": {
-          "str": "Trijicon ACOG TA01 4×32 scope"
+          "str": "Trijicon ACOG TA01 4×32 sight"
         },
         "description": "The primary choice of medium-range for several branches of the U.S. military, the TA01 is a 4× magnified, tritium-illuminated sight.  The ACOG continues to be a reliable optic after the end of the world, despite having been in use for decades prior.  Can optionally be augmented with a backup rear iron sight (forming a complete pair with an embedded front post) or an RM35 mount, allowing installation of a compact RMR reflex sight.  <variant:grey>",
         "expand_snippets": true,
@@ -215,7 +215,7 @@
 
     "name": {
       "str": "military variable scope (magnified)",
-      "str_pl": "military variable scope (magnified)"
+      "str_pl": "military variable scopes (magnified)"
     },
     "description": "A slick 30mm scope intended for combat at medium to long ranges, capable of varying its magnification from 2.5× to 8×.  This model has been in service with the U.S. military, and in particular with the Marines, for more than two decades.  <sight/optical/magnification:high>",
 
@@ -380,8 +380,8 @@
         "id": "black",
 
         "name": {
-          "str": "ELCAN SpecterDR 1—4× scope (magnified)",
-          "str_pl": "ELCAN SpecterDR 1—4× scopes (magnified)"
+          "str": "ELCAN SpecterDR 1—4× sight (magnified)",
+          "str_pl": "ELCAN SpecterDR 1—4× sights (magnified)"
         },
         "description": "A stout -- perhaps too stout -- combat sight.  This model has been in service with U.S. troops for two decades, and thus exhibits some of the shortcomings of outdated design.  Primarily, the top slot for a backup sight is flat, rather than emplaced with a Picatinny rail, and requires adapters to mount a reflex sight.  <variant:black>  <sight/optical/magnification:high>",
         "expand_snippets": true,
