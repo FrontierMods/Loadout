@@ -59,7 +59,7 @@
       "str": "RMR mount for ACOG",
       "str_pl": "RMR mounts for ACOG"
     },
-    "description": "A specialized mount that allows installing the RMR reflex sight on top of the ACOG sight.  Mounting both sights allows for ",
+    "description": "A specialized mount that allows installing the RMR reflex sight on top of the ACOG sight.  <sight_mount/secondary_mount>",
 
     "variant_type": "gun",
     "variants": [
