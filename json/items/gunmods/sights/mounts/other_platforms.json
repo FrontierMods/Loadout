@@ -91,5 +91,59 @@
 
     "price": "75 USD",
     "price_postapoc": "50 cent"
+  },
+  {
+    "id": "sight_mount/docter/trijicon/ms10",
+    "copy-from": "sight_mount/rmr/trijicon/rm35",
+    "type": "GUNMOD",
+
+    "//sources": [
+      "https://www.opticsplanet.com/trijicon-docter-red-dot-sight-mount-ms10.html"
+    ],
+
+    "//notes": [
+      "no decent dimensions seem to be available for this mount",
+      "however, it looks very much like RM35, so we're going to copy its dimensions"
+    ],
+
+    "name": {
+      "str": "backup reflex sight mount for ACOG",
+      "str_pl": "backup reflex sight mounts for ACOG"
+    },
+    "description": "A specialized mount that allows installing the military backup reflex sight on top of the ACOG sight.  <sight_mount/secondary_mount>",
+
+    "variant_type": "gun",
+    "variants": [
+      {
+        "id": "black",
+
+        "name": {
+          "str": "Trijicon MS10 Docter mount for ACOG",
+          "str_pl": "Trijicon MS10 Docter mounts for ACOG"
+        },
+        "description": "A specialized mount allowing one to install Docter-footprint reflex sights on top of some Trijicon ACOG sights.  <sight_mount/secondary_mount:alt>",
+        "weight": 1
+      }
+    ],
+
+    "//weight": "reusing the weight of RM35",
+    "weight": "20 g",
+    "//dimensions": {
+      "length": "1.78 in",
+      "width": "1.65 in",
+      "height": "0.78 in",
+      "raw": "37.54 ml",
+      "trim": 0.55,
+      "notes": ["see also: notes for RM35"]
+    },
+    "volume": "17 ml",
+    "longest_side": "45 mm",
+
+    "location": "ACOG bosses",
+
+    "add_mod": [["Docter mount", 1]],
+
+    "price": "106 USD",
+    "price_postapoc": "50 cent"
   }
 ]
