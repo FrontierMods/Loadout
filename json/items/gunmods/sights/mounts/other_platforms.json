@@ -40,7 +40,8 @@
 
     "add_mod": [["ACOG mount", 1]],
 
-    "price": "83 USD"
+    "price": "83 USD",
+    "price_postapoc": "50 cent"
   },
   {
     "id": "sight_mount/rx01/trijicon/rx11",
