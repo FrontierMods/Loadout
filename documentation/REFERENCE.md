@@ -8,7 +8,12 @@
 
 ## Muzzle Devices
 
-### Muzzle Brakes
+## Muzzle threading
+
+- regular muzzle threading length: `0.63 in.` = `16.002 mm` ≈ `16 mm`
+  - reference: [SureFire thread guides](https://www.surefire.com/product-education/barrel-thread-guides/)
+
+### Muzzle brakes
 
 - standard NATO flash hider outer diameter:
   - what it's meant to have mounted (among other things): <https://en.wikipedia.org/wiki/22_mm_grenade>
