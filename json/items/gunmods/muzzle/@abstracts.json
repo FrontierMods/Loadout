@@ -6,7 +6,6 @@
     "name": {
       "str": "muzzle device"
     },
-    "description": "idea of a muzzle device",
 
     "weight": "50 g",
     "volume": "50 ml",
@@ -31,7 +30,6 @@
     "name": {
       "str": "universal muzzle device"
     },
-    "description": "idea of a universal muzzle device (i.e. for most threads, excluding shotguns)",
 
     "mod_targets": ["pistol", "smg", "rifle"]
   },
@@ -44,7 +42,6 @@
     "name": {
       "str": "muzzle brake"
     },
-    "description": "idea of a muzzle brake",
 
     "material": ["stainless_steel"],
 
@@ -70,7 +67,6 @@
     "name": {
       "str": "suppressor"
     },
-    "description": "idea of a suppressor",
 
     "//longest_side": "a typical suppressor is 7 in. long",
     "longest_side": "178 mm",
@@ -113,7 +109,6 @@
     "name": {
       "str": "shorter suppressor"
     },
-    "description": "idea of a shorter suppressor",
 
     "//longest_side": "we assume this suppressor is shorter than 7 in., making it average 6 in.",
     "longest_side": "152 mm",
@@ -134,7 +129,6 @@
     "name": {
       "str": "shotgun muzzle device"
     },
-    "description": "idea of a shotgun muzzle device",
 
     "mod_targets": ["shotgun"]
   },
@@ -147,7 +141,6 @@
     "name": {
       "str": "shotgun suppressor"
     },
-    "description": "idea of a shotgun suppressor",
 
     "//damage_modifier": "average for a 7 in. suppressor",
     "damage_modifier": {
@@ -169,7 +162,6 @@
     "name": {
       "str": "flash hider"
     },
-    "description": "idea of a flash hider",
 
     "handling_modifier": 5,
 
@@ -185,7 +177,6 @@
     "name": {
       "str": "thread mount"
     },
-    "description": "idea of a thread mount",
 
     "//weight": [
       "based on SilencerCo Hybrid 46 direct thread mount's weight",
@@ -212,7 +203,6 @@
     "name": {
       "str": "thread protector"
     },
-    "description": "idea of a thread protector",
 
     "//weight": [
       "based on stated 'delivery weight' of EGW thread protector minus 5 g for the plastic bag",
