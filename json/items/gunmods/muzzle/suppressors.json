@@ -1,5 +1,87 @@
 [
   {
+    "id": "suppressor/surefire/socom556_rc2",
+    "copy-from": "@muzzle/suppressor",
+    "type": "GUNMOD",
+
+    "//sources": [
+      "https://www.surefire.com/socom556-rc2/",
+      [
+        "https://www.silencershop.com/surefire-socom556-rc2.html",
+        "specific materials"
+      ]
+    ],
+
+    "//notes": [
+      "even though this suppressor is likely too short for a standard 7-in. cover, for now, we presume that "
+    ],
+
+    "name": {
+      "str": "sleek suppressor"
+    },
+    "description": "A popular and capable suppressor, <muzzle/suppressor:loudness>.  <muzzle/suppressor:short>  Requires the sleek muzzle brake for mounting onto.  <muzzle/suppressor>",
+    "expand_snippets": true,
+
+    "variant_type": "gun",
+    "variants": [
+      {
+        "id": "black",
+
+        "name": {
+          "str": "SureFire SOCOM556-RC2 suppressor"
+        },
+        "description": "A suppressor with a sleek design, popular with U.S. special forces.  <muzzle/rating:556>  <muzzle/suppressor:short>  <muzzle/suppressor:direct_thread/none>  Instead, it mounts onto the SOCOM muzzle brake, as well as a variety of flash hiders from SureFire.  <variant:black>",
+        "expand_snippets": true,
+        "weight": 1
+      },
+      {
+        "id": "fde",
+
+        "name": {
+          "str": "SureFire SOCOM556-RC2 suppressor"
+        },
+        "description": "A suppressor with a sleek design, popular with U.S. special forces.  <muzzle/rating:556>  <muzzle/suppressor:short>  <muzzle/suppressor:direct_thread/none>  Instead, it mounts onto the SOCOM muzzle brake, as well as a variety of flash hiders from SureFire.  <variant:fde>",
+        "expand_snippets": true,
+        "weight": 1
+      }
+    ],
+
+    "//weight": "17 oz = 481.94 g",
+    "weight": "482 g",
+    "//dimensions": {
+      "length": "6.4 in",
+      "diameter": "1.5 in",
+      "raw": "185.33 ml",
+      "trim": -0.005,
+      "notes": [
+        "the higher-diameter collar is reflected in the negative trim value"
+      ]
+    },
+    "volume": "186 ml",
+    "longest_side": "163 mm",
+    "//integral_longest_side": "absorbs the length of the SureFire SOCOM muzzle brake it mounts onto (66 mm)",
+    "integral_longest_side": "97 mm",
+
+    "material": ["inconel", "stainless_steel"],
+
+    "//rated_for": ["5.56×45mm NATO"],
+
+    "//sound_mitigation": {
+      "loudness": 134.7,
+      "barrel_length": "16 in",
+      "ammo": "5.56mm M855"
+    },
+    "//loudness_modifier": "-23 + -15 from muzzle brake",
+    "loudness_modifier": -38,
+    "handling_modifier": -60,
+
+    "//consume_divisor": 860,
+
+    "location": "SureFire muzzle mount",
+
+    "price": "1199 USD"
+  },
+  {
     "id": "suppressor/kac/qdss",
     "copy-from": "@muzzle/suppressor",
     "type": "GUNMOD",
