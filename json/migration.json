@@ -24,5 +24,10 @@
     "id": ["suppressor"],
     "type": "MIGRATION",
     "replace": "suppressor/kac/qdss"
+  },
+  {
+    "id": ["muzzle_brake"],
+    "type": "MIGRATION",
+    "replace": "muzzle_brake/surefire/socom"
   }
 ]
