@@ -45,8 +45,8 @@
 
     "material": ["stainless_steel"],
 
-    "//handling_modifier": "to calculate: recoil reduction percentage / 3",
-    "handling_modifier": 50,
+    "//handling_modifier": "to calculate: recoil reduction percentage",
+    "handling_modifier": 55,
 
     "//dispersion_modifier": "muzzle brakes do not affect accuracy",
     "dispersion_modifier": 0,
@@ -54,9 +54,9 @@
     "//loudness_modifier": [
       "muzzle brakes make the gun much, much louder",
       "the default value is derived from the negative loudness value of suppressors",
-      "to calculate: recoil reduction percentage / 2"
+      "to calculate: recoil reduction percentage / 4"
     ],
-    "loudness_modifier": 40
+    "loudness_modifier": 14
   },
 
   {
