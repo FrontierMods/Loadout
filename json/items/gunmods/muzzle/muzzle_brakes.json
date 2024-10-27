@@ -121,7 +121,7 @@
       "trim": 0.1,
       "notes": [
         "length approximated from visual reference",
-        "diameter is assumed to be diameter of Dominus SR suppressor - 35%"
+        "diameter is assumed to be diameter of Dominus SR suppressor, minus 35%"
       ]
     },
     "volume": "45 ml",
@@ -129,7 +129,7 @@
     "//integral_longest_side": "assumes mounting onto a standard length of thread for 1/2 in. × 28-threaded barrel (16 mm)",
     "integral_longest_side": "57 mm",
 
-    "//calibers": ["223", "30"],
+    "//rated_for": ["223", "30"],
 
     "//recoil_reduction": "???",
     "//handling_modifier": "its 5.56mm cousin reduces recoil by 72.93%, so let's assume this one performs only slightly worse, at a completely-fictional 70.62%",
