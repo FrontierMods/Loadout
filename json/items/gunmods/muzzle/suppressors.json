@@ -175,5 +175,115 @@
 
     "price": "1507 USD",
     "price_postapoc": "1 USD"
+  },
+  {
+    "id": "suppressor/thunder_beast/dominus_sr",
+    "copy-from": "@muzzle/suppressor",
+    "type": "GUNMOD",
+
+    "//sources": [
+      "https://thunderbeastarms.com/products/dominus-sr",
+      [
+        "https://pewscience.com/sound-signature-reviews-free/sss-6-105-tbac-dominus-mk18-556",
+        "5.56mm sound performance"
+      ]
+    ],
+
+    "//notes": [
+      "even though this suppressor is likely too short for a standard 7-in. cover, for now, we presume that "
+    ],
+
+    "name": {
+      "str": "Dominus suppressor"
+    },
+    "description": "A large, potent suppressor, <muzzle/suppressor:loudness>.  <muzzle/rating:wide>  <muzzle/suppressor:direct_thread/none>  Instead, it mounts onto the SR muzzle brake, also from Thunder Beast Arms.  <muzzle/suppressor>",
+    "expand_snippets": true,
+
+    "variant_type": "gun",
+    "variants": [
+      {
+        "id": "black",
+
+        "name": {
+          "str": "Thunder Beast Dominus-SR suppressor"
+        },
+        "description": "A heavy-duty suppressor rated for full-auto.  <muzzle/rating:556>  <muzzle/suppressor:direct_thread/none>  Instead, it mounts onto the SR muzzle brake.  <variant:black>",
+        "expand_snippets": true,
+        "weight": 1
+      },
+      {
+        "id": "fde",
+
+        "name": {
+          "str": "Thunder Beast Dominus-SR suppressor"
+        },
+        "description": "A heavy-duty suppressor rated for full-auto.  <muzzle/rating:556>  <muzzle/suppressor:direct_thread/none>  Instead, it mounts onto the SR muzzle brake.  <variant:fde>",
+        "expand_snippets": true,
+        "weight": 1
+      },
+      {
+        "id": "olive",
+
+        "name": {
+          "str": "Thunder Beast Dominus-SR suppressor"
+        },
+        "description": "A heavy-duty suppressor rated for full-auto.  <muzzle/rating:556>  <muzzle/suppressor:direct_thread/none>  Instead, it mounts onto the SR muzzle brake.  <variant:olive>",
+        "expand_snippets": true,
+        "weight": 1
+      }
+    ],
+
+    "//weight": "12.5 oz = 354.37 g",
+    "weight": "354 g",
+    "//dimensions": {
+      "length": "6.95 in",
+      "diameter": "1.8 in",
+      "raw": "289.82 ml",
+      "trim": -0.025,
+      "notes": [
+        "the higher-diameter collar is reflected in the negative trim value"
+      ]
+    },
+    "volume": "297 ml",
+    "longest_side": "177 mm",
+    "//integral_longest_side": "Dominus-SR completely covers the muzzle brake it mounts onto, absorbing its length (57 mm)",
+    "integral_longest_side": "120 mm",
+
+    "material": ["titanium"],
+
+    "//rated_for": [
+      "5.56×45mm NATO",
+      ".300 Blackout",
+      "6.5×39mm Grendel",
+      "6.5 PRC",
+      ".300 Winchester Magnum",
+      "6.8×43mm SPC",
+      "7.62×39mm",
+      "6.5×48mm Creedmoor",
+      "7.62×51mm NATO"
+    ],
+    "//acceptable_ammo": "due to a wide range of calibers, we leave this able to be installed on any caliber for the time being",
+
+    "//sound_mitigation": [
+      {
+        "loudness": 137,
+        "barrel_length": "20 in",
+        "ammo": ".308"
+      },
+      {
+        "loudness": 144.8,
+        "barrel_length": "10.3 in",
+        "ammo": "5.56mm XM193"
+      }
+    ],
+    "//loudness_modifier": "-25 + -18 from muzzle brake",
+    "loudness_modifier": -43,
+    "handling_modifier": -71,
+
+    "//consume_divisor": 1020,
+
+    "location": "Thunder Beast SR mount",
+
+    "price": "1610 USD"
   }
 ]
