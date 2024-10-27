@@ -1,0 +1,210 @@
+[
+  {
+    "id": "foregrip/dd/tornado",
+    "copy-from": "@foregrip",
+    "type": "GUNMOD",
+
+    "//sources": [
+      "https://danieldefense.com/daniel-defense-vertical-foregrip-daniel-defense-tornado.html"
+    ],
+
+    "name": {
+      "str": "rubberized foregrip"
+    },
+    "description": "A full-sized polymer foregrip.  Allows for better handling of the firearm.  Has ribbed grooves on the front and the back, and two islands of rubber texture on the sides.",
+
+    "variant_type": "gun",
+    "variants": [
+      {
+        "id": "black",
+
+        "name": {
+          "str": "Daniel Defense Tornado vertical grip"
+        },
+        "description": "A full-sized polymer foregrip with a textured rubber island.  The texture helps improve the degree of control, though its effect is limited by the small area.  <variant:black>",
+        "expand_snippets": true,
+        "weight": 1
+      },
+      {
+        "id": "fde",
+
+        "name": {
+          "str": "Daniel Defense Tornado vertical grip"
+        },
+        "description": "A full-sized polymer foregrip with a textured rubber island.  The texture helps improve the degree of control, though its effect is limited by the small area.  <variant:fde>",
+        "expand_snippets": true,
+        "weight": 1
+      },
+      {
+        "id": "grey",
+
+        "name": {
+          "str": "Daniel Defense Tornado vertical grip"
+        },
+        "description": "A full-sized polymer foregrip with a textured rubber island.  The texture helps improve the degree of control, though its effect is limited by the small area.  <variant:grey>",
+        "expand_snippets": true,
+        "weight": 1
+      }
+    ],
+
+    "//weight": "0.15 lbs = 68.039 g",
+    "weight": "68 g",
+    "//dimensions": {
+      "length": "4.5 in",
+      "width": "2 in",
+      "height": "1.38 in",
+      "raw": "203.53 ml",
+      "trim": 0.25
+    },
+    "volume": "153 ml",
+    "longest_side": "114 mm",
+
+    "material": ["plastic", "rubber"],
+
+    "//interfaces": ["Picatinny"],
+
+    "//handling_modifier": {
+      "grip_tall": 4,
+      "rubber": 2,
+      "texture_sides": 1
+    },
+    "handling_modifier": 7,
+
+    "price": "36 USD"
+  },
+  {
+    "id": "foregrip/mission_first/react",
+    "copy-from": "@foregrip",
+    "type": "GUNMOD",
+
+    "//sources": [
+      "https://www.wingtactical.com/firearm-parts/ar-15/grips-foregrips/foregrips/mission-first-tactical-react-full-size-grip-reg/"
+    ],
+
+    "//TODO": ["storage compartment"],
+
+    "name": {
+      "str": "combat foregrip"
+    },
+    "description": "A full-sized foregrip.  Allows for better handling of the firearm.  Textured surface and deliberate finger grooves provide for excellent control over recoil.",
+
+    "variant_type": "gun",
+    "variants": [
+      {
+        "id": "black",
+
+        "name": {
+          "str": "Mission First React vertical foregrip"
+        },
+        "description": "A full-sized foregrip.  The finger grooves and the texture help retain control of the firearm better than many alternatives.  <variant:black>",
+        "expand_snippets": true,
+        "weight": 1
+      },
+      {
+        "id": "fde",
+
+        "name": {
+          "str": "Mission First React vertical foregrip"
+        },
+        "description": "A full-sized foregrip.  The finger grooves and the texture help retain control of the firearm better than many alternatives.  <variant:fde>",
+        "expand_snippets": true,
+        "weight": 1
+      }
+    ],
+
+    "//weight": "2.3 oz = 65.204 g",
+    "weight": "65 g",
+    "//dimensions": {
+      "length": "2.203 in",
+      "width": "1.424 in",
+      "height": "4.601 in",
+      "raw": "236.53 ml",
+      "trim": 0.15
+    },
+    "volume": "201 ml",
+    "longest_side": "117 mm",
+
+    "//interfaces": ["Picatinny"],
+
+    "//handling_modifier": {
+      "grip_tall": 4,
+      "form_fitting": 2,
+      "texture": 1,
+      "texture_sides": 1
+    },
+    "handling_modifier": 8,
+
+    "price": "25 USD"
+  },
+  {
+    "id": "foregrip/magpul/rvg",
+    "copy-from": "@foregrip",
+    "type": "GUNMOD",
+
+    "//sources": [
+      "https://www.wingtactical.com/firearm-parts/ar-15/grips-accessories/foregrips/magpul-rail-vertical-grip-rvg/"
+    ],
+
+    "name": {
+      "str": "tactical short foregrip"
+    },
+    "description": "A short polymer foregrip.  Allows for better handling of the firearm.  Has ribbed texture on the front and the back, and two islands of texture on the sides.",
+
+    "variant_type": "gun",
+    "variants": [
+      {
+        "id": "black",
+
+        "name": {
+          "str": "Magpul RVG short foregrip"
+        },
+        "description": "A short polymer foregrip with a slight texture.  The texture helps improve the degree of control slightly, though its effect is limited by the shallow nature of the texture.  <variant:black>",
+        "expand_snippets": true,
+        "weight": 1
+      },
+      {
+        "id": "fde",
+
+        "name": {
+          "str": "Magpul RVG short foregrip"
+        },
+        "description": "A short polymer foregrip with a slight texture.  The texture helps improve the degree of control slightly, though its effect is limited by the shallow nature of the texture.  <variant:fde>",
+        "expand_snippets": true,
+        "weight": 1
+      },
+      {
+        "id": "olive",
+
+        "name": {
+          "str": "Magpul RVG short foregrip"
+        },
+        "description": "A short polymer foregrip with a slight texture.  The texture helps improve the degree of control slightly, though its effect is limited by the shallow nature of the texture.  <variant:olive>",
+        "expand_snippets": true,
+        "weight": 1
+      }
+    ],
+
+    "//weight": "2.6 oz = 73.709 g",
+    "weight": "74 g",
+    "//dimensions": {
+      "length": "1.6 in",
+      "width": "1.21 in",
+      "height": "3.5 in",
+      "raw": "111.04 ml",
+      "trim": 0.1
+    },
+    "volume": "100 ml",
+    "longest_side": "84 mm",
+
+    "//interface": ["Picatinny"],
+
+    "//handling_modifier": {
+      "grip_short": 2,
+      "texture": 1,
+      "texture_sides": 1
+    },
+    "handling_modifier": 4,
+
+    "price": "25 USD"
+  }
+]
