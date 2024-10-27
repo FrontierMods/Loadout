@@ -1,0 +1,115 @@
+[
+  {
+    "id": "foregrip/strike/bikini",
+    "copy-from": "@foregrip",
+    "type": "GUNMOD",
+
+    "//sources": [
+      "https://www.wingtactical.com/firearm-parts/ar-15-parts/grips-foregrips/foregrips/strike-industries-bikini-hand-stop-2-pack/"
+    ],
+
+    "name": {
+      "str": "bikini fingerstops",
+      "str_pl": "pairs of bikini fingerstops"
+    },
+    "description": "A pair of tiny metal fingerstops, adjustable in position and length.  Allow for better handling of the firearm.  These don't offer a major improvement due to their miniature size, but are better than nothing.",
+
+    "variant_type": "gun",
+    "variants": [
+      {
+        "id": "black",
+
+        "name": {
+          "str": "Strike Industries Bikini fingerstops",
+          "str_pl": "pairs of Strike Industries Bikini fingerstops"
+        },
+        "description": "A pair of tiny metal fingerstops, essentially the most minimal version of a foregrip.  The fingerstops can be positioned in any way, in order to fit the grip of any shooter.  Their effect is negligible, in exchange for lower footprint and minuscule added weight.  <variant:black/plural>",
+        "expand_snippets": true,
+        "weight": 1
+      }
+    ],
+
+    "//weight": [
+      "0.21 oz = 5.9534 g",
+      "the EU store for Strike Industries confirms that the listed weight is for one piece, while this is a pair",
+      "https://www.strikeindustries.eu/product-wol-29699-Strike-Industries-M-LOK-Bikini-Hand-Stop-2-pcs-Black-SI-AR-BHS.html"
+    ],
+    "weight": "12 g",
+    "//dimensions": {
+      "length": "1.348 in",
+      "width": "0.609 in",
+      "height": "0.73 in",
+      "raw": "9.82 ml",
+      "trim": 0.6,
+      "notes": [
+        "just like with weight, we assume that the dimensions are given for a single piece, while this item is a pair",
+        "thus, we double the resulting volume"
+      ]
+    },
+    "volume": "8 ml",
+    "longest_side": "34 mm",
+
+    "//interfaces": ["M-LOK"],
+
+    "//handling_modifier": {
+      "handstop": 1
+    },
+    "handling_modifier": 1,
+
+    "price": "13 USD 95 cent"
+  },
+  {
+    "id": "foregrip/impact/barrier",
+    "copy-from": "@foregrip",
+    "type": "GUNMOD",
+
+    "//sources": [
+      "https://www.wingtactical.com/firearm-parts/ar-15/grips-foregrips/foregrips/impact-weapons-components-m-lok-hand-stop/"
+    ],
+
+    "//notes": ["Barrier Face style"],
+
+    "name": {
+      "str": "compact handstop"
+    },
+    "description": "A compact metal handstop.  Allows for better handling of the firearm.  Textured, thus offering slightly better performance over its competitors of similar size.",
+
+    "variant_type": "gun",
+    "variants": [
+      {
+        "id": "black",
+
+        "name": {
+          "str": "Impact Weapons Components handstop"
+        },
+        "description": "A tiny metal handstop with a barrier-style texture.  Its effect is negligible, in exchange for lower footprint and minuscule added weight.  <variant:black>",
+        "expand_snippets": true,
+        "weight": 1
+      }
+    ],
+
+    "//weight": "0.46 oz = 13.041 g",
+    "weight": "13 g",
+    "//dimensions": {
+      "length": "1.348 in",
+      "width": "0.6 in",
+      "height": "1.115 in",
+      "raw": "14.78 ml",
+      "trim": 0.5
+    },
+    "volume": "7 ml",
+    "longest_side": "34 mm",
+
+    "material": ["aluminum"],
+
+    "//interfaces": ["M-LOK"],
+
+    "//handling_modifier": {
+      "handstop": 1,
+      "texture": 1
+    },
+    "handling_modifier": 2,
+
+    "price": "27 USD"
+  }
+]

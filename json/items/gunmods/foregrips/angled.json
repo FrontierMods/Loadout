@@ -1,0 +1,129 @@
+[
+  {
+    "id": "foregrip/magpul/afg2",
+    "copy-from": "@foregrip",
+    "type": "GUNMOD",
+
+    "//sources": [
+      "https://www.wingtactical.com/firearm-parts/ar-15/grips-accessories/foregrips/magpul-afg2-angled-fore-grip/"
+    ],
+
+    "name": {
+      "str": "tactical angled foregrip"
+    },
+    "description": "A slim angled foregrip.  Allows for better handling of the firearm.  Ergonomic design provides a good degree of control over recoil.  This model is popular with special forces.",
+
+    "variant_type": "gun",
+    "variants": [
+      {
+        "id": "black",
+
+        "name": {
+          "str": "Magpul AFG2 angled foregrip"
+        },
+        "description": "A textured angled foregrip.  Popular with the U.S. special forces.  The finger shelves at the front, the middle, and the back help retain the grip, with a shallow grooved texture assisting along the main length.  <variant:black>",
+        "expand_snippets": true,
+        "weight": 1
+      },
+      {
+        "id": "fde",
+
+        "name": {
+          "str": "Magpul AFG2 angled foregrip"
+        },
+        "description": "A textured angled foregrip.  Popular with the U.S. special forces.  The finger shelves at the front, the middle, and the back help retain the grip, with a shallow grooved texture assisting along the main length.  <variant:fde>",
+        "expand_snippets": true,
+        "weight": 1
+      },
+      {
+        "id": "olive",
+
+        "name": {
+          "str": "Magpul AFG2 angled foregrip"
+        },
+        "description": "A textured angled foregrip.  Popular with the U.S. special forces.  The finger shelves at the front, the middle, and the back help retain the grip, with a shallow grooved texture assisting along the main length.  <variant:olive>",
+        "expand_snippets": true,
+        "weight": 1
+      }
+    ],
+
+    "//weight": "2.53 oz = 71.724 g",
+    "weight": "72 g",
+    "//dimensions": {
+      "length": "4.7 in",
+      "width": "1.37 in",
+      "height": "1.94 in",
+      "raw": "204.71 ml",
+      "trim": 0.45
+    },
+    "volume": "113 ml",
+    "longest_side": "119 mm",
+
+    "//interfaces": ["Picatinny"],
+
+    "//handling_modifier": {
+      "grip_angled": 2,
+      "texture": 1,
+      "finger_shelf": 1,
+      "bottom_grooves": 1
+    },
+    "handling_modifier": 5,
+
+    "price": "35 USD"
+  },
+  {
+    "id": "foregrip/f1/skeletonized",
+    "copy-from": "@foregrip",
+    "type": "GUNMOD",
+
+    "//sources": [
+      "https://www.wingtactical.com/firearm-parts/ar-15/grips-foregrips/foregrips/f-1-firearms-m-lok-skeletonized-angled-foregrip/"
+    ],
+
+    "//notes": ["modelled without paracord"],
+
+    "name": {
+      "str": "ultraskeletonized angled foregrip"
+    },
+    "description": "An angled foregrip with an exceptional amount of material removed.  Allows for better handling of the firearm.  Performs well against competition, while also saving on weight.",
+
+    "variant_type": "gun",
+    "variants": [
+      {
+        "id": "black",
+
+        "name": {
+          "str": "F-1 Firearms skeletonized angled foregrip"
+        },
+        "description": "A heavily-skeletonized angled grip.  The rough texture, while grippy, becomes uncomfortable on your skin after a while.  It's intended for a strap of paracord to latch onto.  <variant:black>",
+        "expand_snippets": true,
+        "weight": 2
+      }
+    ],
+
+    "//weight": "2.19 oz = 62.085 g",
+    "weight": "62 g",
+    "//dimensions": {
+      "length": "4.147 in",
+      "width": "0.909 in",
+      "height": "1.769 in",
+      "raw": "109.28 ml",
+      "trim": 0.3
+    },
+    "volume": "76 ml",
+    "longest_side": "105 mm",
+
+    "//interface": ["M-LOK"],
+
+    "//handling_modifier": {
+      "grip_angled": 2,
+      "finger_shelf": 1,
+      "texture_rough": 1
+    },
+    "handling_modifier": 4,
+
+    "add_mod": [["grip wrap", 1]],
+
+    "price": "99 USD"
+  }
+]
