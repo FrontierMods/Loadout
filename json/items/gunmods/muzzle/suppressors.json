@@ -17,9 +17,9 @@
     ],
 
     "name": {
-      "str": "sleek suppressor"
+      "str": "SOCOM suppressor"
     },
-    "description": "A popular and capable suppressor, <muzzle/suppressor:loudness>.  <muzzle/suppressor:short>  Requires the sleek muzzle brake for mounting onto.  <muzzle/suppressor>",
+    "description": "A popular and capable suppressor, <muzzle/suppressor:loudness>.  Requires the SOCOM muzzle brake for mounting onto.  <muzzle/suppressor>",
     "expand_snippets": true,
 
     "variant_type": "gun",
