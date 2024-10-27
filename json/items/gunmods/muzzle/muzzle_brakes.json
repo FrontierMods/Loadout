@@ -17,9 +17,9 @@
     ],
 
     "name": {
-      "str": "sleek muzzle brake"
+      "str": "SOCOM muzzle brake"
     },
-    "description": "A muzzle brake that provides average improvement to the handling of the gun.  Used to be popular with Special Forces before the Cataclysm.  Can be used to mount the sleek suppressor.  <muzzle/brake>",
+    "description": "A muzzle brake that provides average improvement to the handling of the gun.  Used to be popular with Special Forces before the Cataclysm.  Can be used to mount the SOCOM suppressor.  <muzzle/brake>",
     "expand_snippets": true,
 
     "variant_type": "gun",
@@ -94,9 +94,9 @@
     ],
 
     "name": {
-      "str": "heavy-duty muzzle brake"
+      "str": "Dominus muzzle brake"
     },
-    "description": "This unassuming but capable muzzle brake is able to recoil by a value well above average.  Can be used to mount the heavy-duty suppressor.  <muzzle/rating:556>  <muzzle/brake>",
+    "description": "This unassuming but capable muzzle brake is able to recoil by a value well above average.  Can be used to mount the Dominus suppressor.  <muzzle/rating:556>  <muzzle/brake>",
     "expand_snippets": true,
 
     "variant_type": "gun",
