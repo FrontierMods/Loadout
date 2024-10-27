@@ -117,6 +117,7 @@
     "variants": [
       {
         "id": "black",
+
         "name": {
           "str": "KAC QDSS NT4 suppressor"
         },
@@ -126,6 +127,7 @@
       },
       {
         "id": "fde",
+
         "name": {
           "str": "KAC QDSS NT4 suppressor"
         },
