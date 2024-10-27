@@ -30,7 +30,7 @@
         "name": {
           "str": "SureFire SOCOM556-RC2 suppressor"
         },
-        "description": "A suppressor with a sleek design, popular with U.S. special forces.  <muzzle/rating:556>  <muzzle/suppressor:short>  <muzzle/suppressor:direct_thread/none>  Instead, it mounts onto the SOCOM muzzle brake, as well as a variety of flash hiders from SureFire.  <variant:black>",
+        "description": "A suppressor with a sleek design, popular with U.S. special forces.  <muzzle/rating:556>  <muzzle/suppressor:direct_thread/none>  Instead, it mounts onto the SOCOM muzzle brake, as well as a variety of flash hiders from SureFire.  <variant:black>",
         "expand_snippets": true,
         "weight": 1
       },
@@ -40,7 +40,7 @@
         "name": {
           "str": "SureFire SOCOM556-RC2 suppressor"
         },
-        "description": "A suppressor with a sleek design, popular with U.S. special forces.  <muzzle/rating:556>  <muzzle/suppressor:short>  <muzzle/suppressor:direct_thread/none>  Instead, it mounts onto the SOCOM muzzle brake, as well as a variety of flash hiders from SureFire.  <variant:fde>",
+        "description": "A suppressor with a sleek design, popular with U.S. special forces.  <muzzle/rating:556>  <muzzle/suppressor:direct_thread/none>  Instead, it mounts onto the SOCOM muzzle brake, as well as a variety of flash hiders from SureFire.  <variant:fde>",
         "expand_snippets": true,
         "weight": 1
       }
@@ -110,7 +110,7 @@
     "name": {
       "str": "army suppressor"
     },
-    "description": "A common military suppressor, <muzzle/suppressor:loudness>.  <muzzle/suppressor:short>  <muzzle/suppressor:direct_thread/none>  Instead, it mounts onto the army flash hider.  <muzzle/suppressor>  Due to its old design, this model has some effect on accuracy.",
+    "description": "A common military suppressor, <muzzle/suppressor:loudness>.  <muzzle/suppressor:direct_thread/none>  Instead, it mounts onto the army flash hider.  <muzzle/suppressor>  Due to its old design, this model has some effect on accuracy.",
     "expand_snippets": true,
 
     "variant_type": "gun",
@@ -120,7 +120,7 @@
         "name": {
           "str": "KAC QDSS NT4 suppressor"
         },
-        "description": "An older design of a suppressor, known for being part of the SOPMOD kit of modifications issued to U.S. special forces.  Due to some play in the mounted positioning of this suppressor, it's known to affect accuracy slightly.  <muzzle/rating:556>  <muzzle/suppressor:short>  <muzzle/suppressor:direct_thread/none>  Instead, it mounts onto the M4QD flash hider.  <variant:black>",
+        "description": "An older design of a suppressor, known for being part of the SOPMOD kit of modifications issued to U.S. special forces.  Due to some play in the mounted positioning of this suppressor, it's known to affect accuracy slightly.  <muzzle/rating:556>  <muzzle/suppressor:direct_thread/none>  Instead, it mounts onto the M4QD flash hider.  <variant:black>",
         "expand_snippets": true,
         "weight": 1
       },
@@ -129,7 +129,7 @@
         "name": {
           "str": "KAC QDSS NT4 suppressor"
         },
-        "description": "An older design of a suppressor, known for being part of the SOPMOD kit of modifications issued to U.S. special forces.  Due to some play in the mounted positioning of this suppressor, it's known to affect accuracy slightly.  <muzzle/rating:556>  <muzzle/suppressor:short>  <muzzle/suppressor:direct_thread/none>  Instead, it mounts onto the M4QD flash hider.  <variant:fde>",
+        "description": "An older design of a suppressor, known for being part of the SOPMOD kit of modifications issued to U.S. special forces.  Due to some play in the mounted positioning of this suppressor, it's known to affect accuracy slightly.  <muzzle/rating:556>  <muzzle/suppressor:direct_thread/none>  Instead, it mounts onto the M4QD flash hider.  <variant:fde>",
         "expand_snippets": true,
         "weight": 1
       }
