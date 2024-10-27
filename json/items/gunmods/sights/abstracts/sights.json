@@ -19,7 +19,9 @@
 
     "mod_targets": ["pistol", "rifle", "smg", "shotgun", "bow", "launcher"],
 
-    "flags": ["DISABLE_SIGHTS"]
+    "flags": ["DISABLE_SIGHTS"],
+
+    "price_postapoc": "50 cent"
   },
   {
     "abstract": "@sight/reflex",
