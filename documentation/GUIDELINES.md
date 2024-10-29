@@ -66,4 +66,4 @@ _see Pistol Grips → Modifications_
 
 _currently embedded_
 
-* +2 — rubber pad
+- +2 — rubber pad (`rubber_pad`)
