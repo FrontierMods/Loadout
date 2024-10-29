@@ -4,6 +4,7 @@
 
 Unless stated otherwise, values are additive. Three different factors worth +1 each add up to a modifier of +3.
 
+Values in brackets next to names of qualities are IDs used internally by the mod.
 
 ### Pistol Grips
 
