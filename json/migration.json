@@ -29,5 +29,10 @@
     "id": ["muzzle_brake"],
     "type": "MIGRATION",
     "replace": "muzzle_brake/surefire/socom"
+  },
+  {
+    "id": ["bipod"],
+    "type": "MIGRATION",
+    "replace": "bipod/harris/s-lp2"
   }
 ]
