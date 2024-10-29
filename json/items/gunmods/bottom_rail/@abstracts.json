@@ -1,0 +1,63 @@
+[
+  {
+    "abstract": "@bipod",
+    "type": "GUNMOD",
+
+    "name": {
+      "str": "bipod"
+    },
+
+    "material": ["aluminum", "rubber"],
+
+    "weight": "400 g",
+    "volume": "200 ml",
+    "longest_side": "200 mm",
+
+    "symbol": ":",
+    "color": "brown",
+
+    "to_hit": {
+      "grip": "solid",
+      "length": "hand",
+      "surface": "line",
+      "balance": "neutral"
+    },
+    "melee_damage": {
+      "bash": 10
+    },
+
+    "location": "underbarrel",
+    "install_time": "40 s",
+
+    "mod_targets": ["smg", "rifle", "shotgun", "launcher"],
+
+    "price_postapoc": "50 cent"
+  },
+  {
+    "abstract": "@bipod:deployed",
+    "copy-from": "@bipod",
+    "type": "GUNMOD",
+
+    "name": {
+      "str": "bipod (deployed)",
+      "str_pl": "bipods (deployed)"
+    },
+
+    "to_hit": {
+      "grip": "solid",
+      "length": "hand",
+      "surface": "point",
+      "balance": "neutral"
+    },
+    "melee_damage": {
+      "bash": 5
+    },
+
+    "//dispersion_modifier": "simulates improved ease of aim",
+    "dispersion_modifier": -4,
+    "//handling_modifier": "offset relative to the base game's bipod for the purposes of balance against improved accuracy",
+    "handling_modifier": 9,
+
+    "flags": ["BIPOD"]
+  }
+]
