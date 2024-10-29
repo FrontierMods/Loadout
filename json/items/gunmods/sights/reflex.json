@@ -36,12 +36,13 @@
     "name": {
       "str": "popular reflex sight"
     },
-    "description": "A reflex sight largely made popular by video games.  Below-average sighting performance, and abysmal battery life by modern standards.  <sight/installation:picatinny>",
+    "description": "A reflex sight made popular largely by video games.  Features below-average sighting performance and abysmal battery life by modern standards.  <sight/installation:picatinny>",
 
     "variant_type": "gun",
     "variants": [
       {
         "id": "black",
+
         "name": {
           "str": "NcSTAR reflex sight"
         },
@@ -357,7 +358,7 @@
     "//notes": ["the 7 MOA model"],
 
     "name": {
-      "str": "military backup reflex sight"
+      "str": "Docter reflex sight"
     },
     "description": "A compact, lightweight reflex sight.  This model used to be mounted on the army short-range scope, before a similar model succeeded it as the army's choice.  Despite being an older design, it still boasts comparable performance.  Its large dot makes it easier to aim, though harder to be accurate.",
 
@@ -373,7 +374,7 @@
         "weight": 8
       },
       {
-        "id": "black:mrds",
+        "id": "black/mrds",
 
         "name": {
           "str": "Docter MRDS reflex sight"

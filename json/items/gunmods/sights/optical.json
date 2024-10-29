@@ -120,7 +120,7 @@
     ],
 
     "name": {
-      "str": "military variable scope"
+      "str": "Marines variable scope"
     },
     "description": "A slick 30mm scope intended for combat at medium to long ranges, capable of varying its magnification from 2.5× to 8×.  This model has been in service with the U.S. military, and in particular with the Marines, for more than two decades.  <sight/optical/magnification:low>",
     "expand_snippets": true,
@@ -214,8 +214,8 @@
     "type": "GUNMOD",
 
     "name": {
-      "str": "military variable scope (magnified)",
-      "str_pl": "military variable scopes (magnified)"
+      "str": "Marines variable scope (magnified)",
+      "str_pl": "Marines variable scopes (magnified)"
     },
     "description": "A slick 30mm scope intended for combat at medium to long ranges, capable of varying its magnification from 2.5× to 8×.  This model has been in service with the U.S. military, and in particular with the Marines, for more than two decades.  <sight/optical/magnification:high>",
 
@@ -289,7 +289,7 @@
     ],
 
     "name": {
-      "str": "legacy military variable sight"
+      "str": "Elcan variable sight"
     },
     "description": "An old classic of a sight, intended for combat at short to medium ranges.  This model has been popular with U.S. troops, as well as some of the European militaries, for over two decades.  <sight/optical/magnification:low>",
     "expand_snippets": true,
@@ -369,8 +369,8 @@
     "type": "GUNMOD",
 
     "name": {
-      "str": "legacy military variable sight (magnified)",
-      "str_pl": "legacy military variable sights (magnified)"
+      "str": "Elcan variable sight (magnified)",
+      "str_pl": "Elcan variable sights (magnified)"
     },
     "description": "An old classic of a sight, intended for combat at short to medium ranges.  This model has been popular with U.S. troops, as well as some of the European militaries, for over two decades.  <sight/optical/magnification:high>",
 
