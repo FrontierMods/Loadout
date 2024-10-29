@@ -1,0 +1,117 @@
+[
+  {
+    "id": "bipod/harris/s-l2p",
+    "copy-from": "@bipod",
+    "type": "GUNMOD",
+
+    "//sources": [
+      "https://www.harrisbipods.com/product/s-l2p-bipod/",
+      [
+        "https://internationalshootingsupplies.com/product/harris-s-series-swivel-bipod-9-13-picatinny-mount-self-leveling-legs/",
+        "dimensions"
+      ]
+    ],
+
+    "//notes": [
+      "minimum footprint width: 10.3″",
+      "maximum footprint width: 13.8″"
+    ],
+
+    "name": {
+      "str": "sniper bipod"
+    },
+    "description": "A long-legged bipod for long-range shooting.  <underbarrel/bipod>  <underbarrel/bipod:stowed>",
+    "expand_snippets": true,
+
+    "variant_type": "gun",
+    "variants": [
+      {
+        "id": "black",
+
+        "name": {
+          "str": "Harris S-L2P bipod"
+        },
+        "description": "A Picatinny-mounted bipod intended for long-range shooting.  <underbarrel/bipod/bulk>  <variant:black>  <underbarrel/bipod:stowed>",
+        "expand_snippets": true,
+        "weight": 1
+      }
+    ],
+
+    "//weight": "14 oz = 396.89 g",
+    "weight": "397 g",
+    "//dimensions": {
+      "length": "9.5 in",
+      "width": "3 in",
+      "height": "2.1 in",
+      "raw": "980.77 ml",
+      "trim": 0.8,
+      "notes": [
+        "we presume the dimensions from the dimensions source to be correct, and the manufacturer's word of legs extending from 9″ up is based on the legs themselves, not overall length of the bipod"
+      ]
+    },
+    "volume": "196 ml",
+    "longest_side": "241 mm",
+
+    "material": ["aluminum", "steel", "rubber"],
+
+    "//interfaces": ["Picatinny"],
+
+    "use_action": {
+      "type": "transform",
+      "menu_text": "Deploy",
+      "msg": "You swing the bipod's legs into the vertical position.",
+      "target": "bipod/harris/s-l2p:deployed"
+    },
+
+    "price": "135 USD 18 cent"
+  },
+  {
+    "id": "bipod/harris/s-l2p:deployed",
+    "copy-from": "bipod/harris/s-l2p",
+    "type": "GUNMOD",
+
+    "name": {
+      "str": "sniper bipod (deployed)",
+      "str_pl": "sniper bipods (deployed)"
+    },
+    "description": "A long-legged bipod for long-range shooting.  <underbarrel/bipod>  <underbarrel/bipod:deployed>",
+    "expand_snippets": true,
+
+    "variant_type": "gun",
+    "variants": [
+      {
+        "id": "black",
+
+        "name": {
+          "str": "Harris S-L2P bipod (deployed)",
+          "str_pl": "Harris S-L2P bipods (deployed)"
+        },
+        "description": "A Picatinny-mounted bipod intended for long-range shooting.  <underbarrel/bipod/bulk>  <variant:black>  <underbarrel/bipod:deployed>",
+        "expand_snippets": true,
+        "weight": 1
+      }
+    ],
+
+    "//dimensions": {
+      "length": "13.5 in",
+      "width": "3 in",
+      "height": "2.1 in",
+      "raw": "1393.72 ml",
+      "trim": 0.8
+    },
+    "volume": "279 ml",
+    "longest_side": "343 mm",
+
+    "dispersion_modifier": -4,
+    "handling_modifier": 12,
+
+    "use_action": {
+      "type": "transform",
+      "menu_text": "Stow",
+      "msg": "You push the bipod's legs back up, rendering them useless.",
+      "target": "bipod/harris/s-l2p"
+    },
+
+    "flags": ["BIPOD"]
+  }
+]
