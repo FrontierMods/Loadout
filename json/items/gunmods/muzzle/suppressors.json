@@ -197,7 +197,7 @@
     "name": {
       "str": "Dominus suppressor"
     },
-    "description": "A large, potent suppressor, <muzzle/suppressor:loudness>.  <muzzle/rating:wide>  <muzzle/suppressor:direct_thread/none>  Instead, it mounts onto the SR muzzle brake, also from Thunder Beast Arms.  <muzzle/suppressor>",
+    "description": "A large, potent suppressor, <muzzle/suppressor:loudness>.  <muzzle/rating:556>  <muzzle/suppressor:direct_thread/none>  Instead, it mounts onto the SR muzzle brake, also from Thunder Beast Arms.  <muzzle/suppressor>",
     "expand_snippets": true,
 
     "variant_type": "gun",
