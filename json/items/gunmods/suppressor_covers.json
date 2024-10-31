@@ -1,0 +1,153 @@
+[
+  {
+    "id": "suppressor_cover/coletac/corset",
+    "copy-from": "@suppressor_cover",
+    "type": "GUNMOD",
+
+    "//sources": [
+      "https://www.cole-tac.com/product/corset-suppressor-cover/",
+      [
+        "https://coletac.eu/products/hussar-suppressor-cover",
+        "weight reference"
+      ]
+    ],
+
+    "name": {
+      "str": "high-end suppressor cover"
+    },
+    "description": "A high-performance soft-sleeve suppressor cover with a simple design.  <muzzle/suppressor_cover>  <muzzle/suppressor_cover/length>",
+    "expand_snippets": true,
+
+    "variant_type": "gun",
+    "variants": [
+      {
+        "id": "black",
+
+        "name": {
+          "str": "Cole-TAC Corset suppressor cover"
+        },
+        "description": "A soft-sleeve suppressor cover with a clean, unassuming design.  Its heat-resistance rating makes it the best model on the market.  An elaborate system of cords allows for a high degree of diameter adjustment.  <muzzle/suppressor_cover/length>  <variant:black>",
+        "expand_snippets": true,
+        "weight": 2
+      },
+      {
+        "id": "fde",
+
+        "name": {
+          "str": "Cole-TAC Corset suppressor cover"
+        },
+        "description": "A soft-sleeve suppressor cover with a clean, unassuming design.  Its heat-resistance rating makes it the best model on the market.  An elaborate system of cords allows for a high degree of diameter adjustment.  <muzzle/suppressor_cover/length>  <variant:fde>",
+        "expand_snippets": true,
+        "weight": 1
+      }
+    ],
+
+    "//weight": [
+      "0.3685 lbs = 167.15 g",
+      "we use the static stated weight, rather than the dynamic value of 0.25 oz/in, because at 7 in., this amounts to only 49.612 g, which is much too low compared to even similar models from the same company"
+    ],
+    "weight": "167 g",
+
+    "material": ["kevlar", "carbonfiber", "nomex"],
+
+    "//heat_tolerance": "3150°F",
+    "loudness_modifier": -7,
+    "dispersion_modifier": -4,
+
+    "price": "128 USD"
+  },
+  {
+    "id": "suppressor_cover/bpg/heavy",
+    "copy-from": "@suppressor_cover",
+    "type": "GUNMOD",
+
+    "//sources": ["https://www.burnproofgear.com/product/bpg-sc-h/"],
+
+    "//notes": [
+      "it's considered heavy due to its large intended diameter, allowing ~1.5-in. suppressors to fit",
+      "other, 'lighter' models are available for smaller-diameter suppressors",
+      "for now, we pretend that the cover could be 'tied down' to accept smaller-diameter suppressors just as easily"
+    ],
+
+    "name": {
+      "str": "fiberglass suppressor cover"
+    },
+    "description": "A soft-sleeve suppressor cover with a fiberglass core.  <muzzle/suppressor_cover>  <muzzle/suppressor_cover/length>",
+    "expand_snippets": true,
+
+    "variant_type": "gun",
+    "variants": [
+      {
+        "id": "black",
+
+        "name": {
+          "str": "BPG heavy suppressor cover"
+        },
+        "description": "A soft-sleeve suppressor cover, \"heavy\" due to mounting over larger suppressors with ease.  Sports considerable heat resistance.  Cords over the sleeve allow for a high degree of diameter adjustment.  <muzzle/suppressor_cover/length>  <variant:black>",
+        "expand_snippets": true,
+        "weight": 2
+      },
+      {
+        "id": "tan",
+
+        "name": {
+          "str": "BPG heavy suppressor cover"
+        },
+        "description": "A soft-sleeve suppressor cover, \"heavy\" due to mounting over larger suppressors with ease.  Sports considerable heat resistance.  Cords over the sleeve allow for a high degree of diameter adjustment.  <suppressor_cover_length>  <variant:tan>",
+        "expand_snippets": true,
+        "weight": 1
+      },
+      {
+        "id": "fde",
+
+        "name": {
+          "str": "BPG heavy suppressor cover"
+        },
+        "description": "A soft-sleeve suppressor cover, \"heavy\" due to mounting over larger suppressors with ease.  Sports considerable heat resistance.  Cords over the sleeve allow for a high degree of diameter adjustment.  <suppressor_cover_length>  <variant:fde>",
+        "expand_snippets": true,
+        "weight": 1
+      },
+      {
+        "id": "grey",
+
+        "name": {
+          "str": "BPG heavy suppressor cover"
+        },
+        "description": "A soft-sleeve suppressor cover, \"heavy\" due to mounting over larger suppressors with ease.  Sports considerable heat resistance.  Cords over the sleeve allow for a high degree of diameter adjustment.  <suppressor_cover_length>  <variant:grey>",
+        "expand_snippets": true,
+        "weight": 1
+      },
+      {
+        "id": "multicam",
+
+        "name": {
+          "str": "BPG heavy suppressor cover"
+        },
+        "description": "A soft-sleeve suppressor cover, \"heavy\" due to mounting over larger suppressors with ease.  Sports considerable heat resistance.  Cords over the sleeve allow for a high degree of diameter adjustment.  <suppressor_cover_length>  <variant:multicam>",
+        "expand_snippets": true,
+        "weight": 1
+      }
+    ],
+
+    "//weight": "3.5 oz = 99.223 g",
+    "weight": "99 g",
+    "//dimensions": {
+      "length": "7 in",
+      "diameter": "1.5 in",
+      "raw": "202.71 ml",
+      "trim": 0.6,
+      "notes": [
+        "trim applies to the internal part of the cover, where a suppressor would be, a space that would otherwise be empty and folded through"
+      ]
+    },
+    "volume": "81 ml",
+
+    "material": ["kevlar", "fiberglass", "nylon"],
+
+    "//heat_tolerance": "2000°F",
+    "loudness_modifier": -4,
+    "dispersion_modifier": -2,
+
+    "price": "150 USD"
+  }
+]
