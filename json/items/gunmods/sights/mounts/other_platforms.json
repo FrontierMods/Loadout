@@ -1,6 +1,6 @@
 [
   {
-    "id": "sight_mount/acog/trijicon/ta51",
+    "id": "sight_mount/ta01/trijicon/ta51",
     "copy-from": "@sight_mount/rifle",
     "type": "GUNMOD",
 
