@@ -362,6 +362,10 @@
       "notes": ["specific ammo type for the test unknown"]
     },
     "loudness_modifier": -10,
+    "damage_modifier": {
+      "damage_type": "bullet",
+      "amount": 2
+    },
 
     "//consume_divisor": 960,
 
