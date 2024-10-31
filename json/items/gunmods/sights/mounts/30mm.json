@@ -1,0 +1,48 @@
+[
+  {
+    "id": "sight_mount/30mm/aero",
+    "copy-from": "@sight_mount/30mm",
+    "type": "GUNMOD",
+
+    "//sources": [
+      "https://www.aeroprecisionusa.com/ultralight-30mm-extended-scope-mount",
+      [
+        "https://www.wingtactical.com/accessories/optics-sights/optic-sight-mounts/aero-precision-ultralight-extended-scope-mount/",
+        "dimensions"
+      ]
+    ],
+
+    "name": {
+      "str": "lightweight 30mm scope mount"
+    },
+    "description": "A set of two rings on top of a single large platform, accomodating a single 30mm scope.",
+
+    "variant_type": "gun",
+    "variants": [
+      {
+        "id": "black",
+
+        "name": {
+          "str": "Aero Precision Ultralight 30mm scope mount"
+        },
+        "description": "A set of two rings on top of a single large platform, accomodating a single 30mm scope.  <variant:black>",
+        "expand_snippets": true,
+        "weight": 1
+      }
+    ],
+
+    "//weight": "manufacturer source says weight is 3.27 oz ≈ 93 g, 0.03 oz above the Wings Tactical source, enough to swing the grammage",
+    "weight": "93 g",
+    "//dimensions": {
+      "length": "4.75 in",
+      "width": "1.31 in",
+      "height": "2.56 in",
+      "raw": "261.04 ml",
+      "trim": 0.8
+    },
+    "volume": "52 ml",
+    "longest_side": "121 mm",
+
+    "price": "115 USD"
+  }
+]
