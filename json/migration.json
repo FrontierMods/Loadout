@@ -41,6 +41,12 @@
     "replace": "muzzle_brake/surefire/socom"
   },
   {
+    "id": ["choke"],
+    "type": "MIGRATION",
+    "replace": "choke/mueller/passing"
+  },
+
+  {
     "id": ["bipod"],
     "type": "MIGRATION",
     "replace": "bipod/harris/s-lp2"
