@@ -36,7 +36,7 @@
   },
 
   {
-    "id": "@sight_mount/rifle",
+    "abstract": "@sight_mount/rifle",
     "copy-from": "@sight_mount",
     "type": "GUNMOD",
 
@@ -48,7 +48,7 @@
     "mod_targets": ["smg", "shotgun", "rifle", "launcher"]
   },
   {
-    "id": "@sight_mount/rifle:disable_sights",
+    "abstract": "@sight_mount/rifle:disable_sights",
     "copy-from": "@sight_mount:disable_sights",
     "type": "GUNMOD",
 
