@@ -1,0 +1,69 @@
+[
+  {
+    "id": "choke/mueller/passing",
+    "copy-from": "choke",
+    "type": "GUNMOD",
+
+    "//sources": [
+      "https://mullerchokes.com/collections/remington-choke-tubes/products/12-gauge-remchoke-waterfowl?variant=946375717",
+      [
+        "https://www.shotgunworld.com/threads/how-much-lighter-are-muller-chokes.307413/",
+        "weight"
+      ]
+    ],
+
+    "//notes": [
+      "specifically the 'passing' variant, which is said to be comparable to improved modified or full choke",
+      "this variant allows shooting slugs"
+    ],
+
+    "name": {
+      "str": "shotgun choke"
+    },
+    "description": "A choke for Remington-manufactured shotguns.  <muzzle/choke>  Boasts decent performance in terms of spread reduction.",
+
+    "variant_type": "gun",
+    "variants": [
+      {
+        "id": "black",
+
+        "name": {
+          "str": "Müller passing choke"
+        },
+        "description": "A shotgun choke with a proprietary classification.  <muzzle/choke>  Perfomance class is described as \"passing\", which is comparable to a traditional \"improved modified\" or \"full\" choke.  <variant:black>",
+        "expand_snippets": true,
+        "weight": 1
+      }
+    ],
+
+    "//weight": "1 oz = 28.35 g",
+    "weight": "19 g",
+    "//dimensions": {
+      "length": "4.3125 in",
+      "diameter": "0.86 in",
+      "raw": "41.05 ml",
+      "trim": 0,
+      "notes": ["diameter acquired from visual reference"]
+    },
+    "volume": "41 ml",
+    "longest_side": "110 mm",
+    "//integral_longest_side": [
+      "part of the choke covers the thread",
+      "0.75 in. = 19.05 mm"
+    ],
+    "integral_longest_side": "91 mm",
+
+    "//shot_spread_multiplier_modifier": [
+      "on the assumption that this model is between an improved modified choke and a full choke, in terms of performance",
+      "at 40 yards, Beretta estimates an average of 65% of choke constriction for improved modified chokes, and 70% for full chokes",
+      "https://www.gmk.co.uk/pdf/choke-constriction-chart.pdf",
+      "taking an average of 67.5% for the Müller passing choke, and the 40% value for a cylinder choke (i.e., unconstricted shotgun barrel) at 40 yards, we get 0.4 / 0.675 ≈ 0.59"
+    ],
+    "shot_spread_multiplier_modifier": -0.41,
+
+    "//compatibility": { "remington": ["870", "887", "11-87", "1100", "V3"] },
+    "//mod_targets": ["remington_870", "remington_1100"],
+
+    "price": "134 USD 99 cent"
+  }
+]
