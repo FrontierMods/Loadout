@@ -194,5 +194,69 @@
       "sight_mount/rmr/trijicon/rm35",
       "sight/trijicon/rmr"
     ]
+  },
+
+  {
+    "id": "shoulder_strap_simple",
+    "type": "GUNMOD",
+
+    "//sources": [
+      [
+        "https://www.cheungscenter.com/product-page/peavey-2-nylon-blue-accent-guitar-strap",
+        "weight"
+      ],
+      [
+        "https://www.amazon.ae/Perris-Nylon-Guitar-Strap-Black/dp/B005F4EJZ8",
+        "dimensions"
+      ]
+    ],
+
+    "//notes": [
+      "this is nothing like a gun strap, given that it breaks down from electric guitars",
+      "thus, it cannot possibly have a gun-appropriate connection",
+      "we adjust the sling to behave like an improvised one: tied around two points of a gun, rather than attached to a specialized connector"
+    ],
+
+    "name": {
+      "str": "guitar sling"
+    },
+    "description": "A nylon shoulder strap for carrying musical instruments.  In a pinch it could be tied around a gun to carry it  However, it offers no protection.",
+
+    "weight": "70 g",
+    "//dimensions": {
+      "length": "41 in",
+      "width": "2 in",
+      "height": "1 mm",
+      "raw": "52.9 ml",
+      "trim": -0.05,
+      "notes": ["negative trim compensates for buckles etc."]
+    },
+    "volume": "56 ml",
+
+    "material": ["nylon"],
+
+    "symbol": ":",
+    "color": "green",
+
+    "mod_targets": ["rifle", "shotgun", "smg", "crossbow", "launcher"],
+    "location": "sling",
+    "install_time": "50 s",
+
+    "armor_data": {
+      "armor": [
+        {
+          "covers": ["torso"],
+          "coverage": 5,
+          "encumbrance": 0,
+          "volume_encumber_modifier": 0.33,
+          "specifically_covers": ["torso_hanging_back"]
+        }
+      ]
+    },
+
+    "flags": ["IS_ARMOR", "BELTED", "OVERSIZE", "WATER_FRIENDLY"],
+
+    "price": "4 USD 80 cent",
+    "price_postapoc": "10 cent"
   }
 ]
