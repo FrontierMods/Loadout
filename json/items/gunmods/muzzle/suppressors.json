@@ -370,5 +370,77 @@
     "//consume_divisor": 960,
 
     "price": "1180 USD"
+  },
+  {
+    "id": "suppressor/silencerco/salvo_12",
+    "copy-from": "@muzzle/shotgun/suppressor",
+    "type": "GUNMOD",
+
+    "//sources": [
+      "https://silencerco.com/silencers/salvo-12/",
+      "https://www.thefirearmblog.com/blog/2016/04/26/review-silencerco-salvo-12-shotgun-suppressor/"
+    ],
+
+    "//notes": [
+      "technically mounts on a choke adapter, but given that the source has no separate information about, we'll pretend it's a direct-thread mount much like a rifle",
+      "assumes the longest variant at 12.5 in.",
+      "theoretically modular, in that it allows adjusting the length of the suppressor, but not in the field"
+    ],
+
+    "name": {
+      "str": "shotgun suppressor"
+    },
+    "description": "A bulky, boxy suppressor.  This model is also reported to reduce felt recoil significantly.  <muzzle/suppressor/mount:choke>  <muzzle/suppressor>",
+    "expand_snippets": true,
+
+    "variant_type": "gun",
+    "variants": [
+      {
+        "id": "black",
+
+        "name": {
+          "str": "SilencerCo Salvo 12 shotgun suppressor"
+        },
+        "description": "A long and heavy boxy suppressor, one of the rare types capable of suppressing 12 gauge shot.  <muzzle/suppressor/mount:choke>  <variant:black/matte>",
+        "expand_snippets": true,
+        "weight": 1
+      }
+    ],
+
+    "//weight": "34.4 oz = 975.22 g",
+    "weight": "975 g",
+    "//dimensions": {
+      "length": "12.5 in",
+      "width": "2.21 in",
+      "height": "2.96 in",
+      "raw": "1339.97 ml",
+      "trim": 0.1
+    },
+    "volume": "1206 ml",
+    "longest_side": "318 mm",
+
+    "material": ["aluminum", "stainless_steel"],
+
+    "//rated_for": ["12G"],
+
+    "//sound_mitigation": {
+      "loudness": 136.8,
+      "barrel_length": "???",
+      "ammo": "12 gauge",
+      "notes": ["specific ammo type for the test unknown"]
+    },
+
+    "loudness_modifier": -22,
+    "//handling_modifier": [
+      "reduces recoil significantly, according to the spec sheet and the review",
+      "we hope you appreciate the pun"
+    ],
+    "handling_modifier": 12,
+    "damage_modifier": {
+      "damage_type": "bullet",
+      "amount": 4
+    },
+
+    "price": "1169 USD"
   }
 ]
