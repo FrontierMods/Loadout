@@ -286,5 +286,85 @@
     "location": "Thunder Beast SR mount",
 
     "price": "1610 USD"
+  },
+  {
+    "id": "suppressor/thunder_beast/fly_9",
+    "copy-from": "@muzzle/suppressor",
+    "type": "GUNMOD",
+
+    "//sources": ["https://thunderbeastarms.com/products/fly9"],
+
+    "//notes": ["short model", "embedded mount"],
+
+    "name": {
+      "str": "Fly suppressor"
+    },
+    "description": "A compact pistol suppressor, <muzzle/suppressor:loudness>.  <muzzle/rating:9mm>  <muzzle/suppressor:direct_thread>  <muzzle/suppressor>",
+    "expand_snippets": true,
+
+    "variant_type": "gun",
+    "variants": [
+      {
+        "id": "black",
+
+        "name": {
+          "str": "Thunder Beast Fly 9 suppressor"
+        },
+        "description": "A compact pistol suppressor, shorter than most models on the market.  <muzzle/rating:9mm>  <muzzle/suppressor:direct_thread>  <variant:black>",
+        "expand_snippets": true,
+        "weight": 1
+      },
+      {
+        "id": "fde",
+
+        "name": {
+          "str": "Thunder Beast Fly 9 suppressor"
+        },
+        "description": "A compact pistol suppressor, shorter than most models on the market.  <muzzle/rating:9mm>  <muzzle/suppressor:direct_thread>  <variant:fde>",
+        "expand_snippets": true,
+        "weight": 1
+      },
+      {
+        "id": "olive",
+
+        "name": {
+          "str": "Thunder Beast Fly 9 suppressor"
+        },
+        "description": "A compact pistol suppressor, shorter than most models on the market.  <muzzle/rating:9mm>  <muzzle/suppressor:direct_thread>  <variant:olive>",
+        "expand_snippets": true,
+        "weight": 1
+      }
+    ],
+
+    "//weight": "5.5 oz = 155.92 g",
+    "weight": "156 g",
+    "//dimensions": {
+      "length": "4.4 in",
+      "diameter": "1.39 in",
+      "raw": "107.85 ml",
+      "trim": 0.025,
+      "notes": ["the lower-diameter collar is reflected in the trim value"]
+    },
+    "volume": "105 ml",
+    "longest_side": "112 mm",
+
+    "material": [
+      { "type": "titanium", "portion": 95 },
+      { "type": "stainless_steel" }
+    ],
+
+    "//rated_for": ["9×19mm", ".38 Special", ".300 Blackout", ".350 Legend"],
+
+    "//sound_mitigation": {
+      "loudness": 138,
+      "barrel_length": "4.5 in",
+      "ammo": "9×19mm 147 gr.",
+      "notes": ["specific ammo type for the test unknown"]
+    },
+    "loudness_modifier": -10,
+
+    "//consume_divisor": 960,
+
+    "price": "1180 USD"
   }
 ]

@@ -26,6 +26,11 @@
     "replace": "suppressor/kac/qdss"
   },
   {
+    "id": ["suppressor_compact"],
+    "type": "MIGRATION",
+    "replace": "suppressor/thunder_beast/fly_9"
+  },
+  {
     "id": ["muzzle_brake"],
     "type": "MIGRATION",
     "replace": "muzzle_brake/surefire/socom"
