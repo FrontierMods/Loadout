@@ -289,7 +289,7 @@
   },
   {
     "id": "suppressor/thunder_beast/fly_9",
-    "copy-from": "@muzzle/suppressor",
+    "copy-from": "@muzzle/suppressor:no_cover",
     "type": "GUNMOD",
 
     "//sources": ["https://thunderbeastarms.com/products/fly9"],
