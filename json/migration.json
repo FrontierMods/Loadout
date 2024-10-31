@@ -50,5 +50,16 @@
     "id": ["bipod"],
     "type": "MIGRATION",
     "replace": "bipod/harris/s-l2p"
+  },
+
+  {
+    "id": ["single_sling"],
+    "type": "MIGRATION",
+    "replace": "sling/single/magpul/ms3"
+  },
+  {
+    "id": ["shoulder_strap"],
+    "type": "MIGRATION",
+    "replace": "sling/double/bfg/vickers"
   }
 ]
