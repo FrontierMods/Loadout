@@ -149,11 +149,9 @@
       "damage_type": "bullet",
       "amount": 2
     },
-    "loudness_modifier": -40,
+    "loudness_modifier": -20,
     "//dispersion_modifier": "basic suppressor effect",
-    "dispersion_modifier": 1,
-
-    "mod_targets": ["shotgun"]
+    "dispersion_modifier": 1
   },
 
   {
