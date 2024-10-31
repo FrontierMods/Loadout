@@ -1,0 +1,255 @@
+[
+  {
+    "id": "sling/single/magpul/ms3",
+    "type": "ARMOR",
+
+    "//sources": [
+      "https://magpul.com/ms3-single-qd-sling-gen-2.html",
+      [
+        "https://gunfire.com/en/products/ms3-r-single-qd-sling-gen-2-ranger-green-1152218760.html",
+        "weight"
+      ]
+    ],
+
+    "//notes": ["can be transformed into a two-point variant"],
+
+    "name": { "str": "single-point sling" },
+    "description": "A thin nylon strap supported by plastic furniture.  Can be used to carry a single firearm on your person.  <sling/single:swiftness>",
+
+    "variant_type": "gun",
+    "variants": [
+      {
+        "id": "black",
+
+        "name": { "str": "Magpul MS3 single-point sling" },
+        "description": "A thin nylon strap supported by plastic furniture.  Uses a single QD swivel in order to hang a large firearm off of.  <variant:black>",
+        "expand_snippets": true,
+        "weight": 2
+      },
+      {
+        "id": "fde",
+
+        "name": { "str": "Magpul MS3 single-point sling" },
+        "description": "A thin nylon strap supported by plastic furniture.  Uses a single QD swivel in order to hang a large firearm off of.  <variant:fde>",
+        "expand_snippets": true,
+        "weight": 1
+      },
+      {
+        "id": "grey",
+
+        "name": { "str": "Magpul MS3 single-point sling" },
+        "description": "A thin nylon strap supported by plastic furniture.  Uses a single QD swivel in order to hang a large firearm off of.  <variant:grey>",
+        "expand_snippets": true,
+        "weight": 1
+      },
+      {
+        "id": "ranger",
+
+        "name": { "str": "Magpul MS3 single-point sling" },
+        "description": "A thin nylon strap supported by plastic furniture.  Uses a single QD swivel in order to hang a large firearm off of.  <variant:ranger>",
+        "expand_snippets": true,
+        "weight": 1
+      }
+    ],
+
+    "weight": "240 g",
+    "//dimensions": {
+      "length": "48 in",
+      "width": "1.25 in",
+      "height": "0.05 in",
+      "raw": "49 ml",
+      "trim": -0.1,
+      "notes": [
+        "for slickness' sake, we assume the shortest overall length of 48 in.",
+        "height/thickness is presumed"
+      ]
+    },
+    "volume": "54 ml",
+
+    "material": [
+      { "type": "nylon", "portion": 90 },
+      { "type": "plastic", "portion": 5 },
+      { "type": "steel", "portion": 1 }
+    ],
+    "material_thickness": 1.27,
+
+    "symbol": "[",
+    "color": "green",
+    "looks_like": "slingpack",
+
+    "armor": [
+      {
+        "encumbrance": [0, 16],
+        "coverage": 4,
+        "covers": ["torso"],
+        "specifically_covers": ["torso_hanging_front"]
+      }
+    ],
+
+    "pocket_data": [
+      {
+        "pocket_type": "CONTAINER",
+
+        "holster": true,
+
+        "max_contains_weight": "8200 g",
+        "min_item_volume": "1 L",
+        "max_contains_volume": "8 L",
+        "max_item_length": "120 cm",
+
+        "moves": 80
+      }
+    ],
+
+    "use_action": { "type": "holster" },
+
+    "flags": ["OVERSIZE", "BELTED"],
+
+    "price": "59 USD 95 cent"
+  },
+
+  {
+    "id": "sling/double/bfg/vickers",
+    "type": "ARMOR",
+
+    "//sources": [
+      "https://www.blueforcegear.com/nsn-vickers-combat-applications-sling.html",
+      ["https://www.blueforcegear.com/SpecSheets/VCAS-125-AA-CB.pdf", "weight"]
+    ],
+
+    "//notes": [
+      "the issued sling doesn't have any steel components in it",
+      "commercial slings have the some-metal option",
+      "we model this as the military-issue model, with restricted color options"
+    ],
+
+    "name": { "str": "two-point sling" },
+    "description": "A nylon strap with plastic furniture, which attaches to rifles and other large guns at two points.  This allows you to carry the gun on you.  <sling/double:comfort>  <sling/position:back>",
+    "expand_snippets": true,
+
+    "variant_type": "gun",
+    "variants": [
+      {
+        "id": "black",
+
+        "name": { "str": "two-point Vickers sling" },
+        "description": "A nylon strap with plastic furniture.  This model is the standard issue with the U.S. Marines.  <variant:black>",
+        "expand_snippets": true,
+        "weight": 1
+      },
+      {
+        "id": "fde",
+
+        "name": { "str": "two-point Vickers sling" },
+        "description": "A nylon strap with plastic furniture.  This model is the standard issue with the U.S. Marines.  <variant:fde>",
+        "expand_snippets": true,
+        "weight": 1
+      }
+    ],
+
+    "weight": "173 g",
+    "//dimensions": {
+      "length": "54 in",
+      "width": "1.25 in",
+      "height": "0.05 in",
+      "raw": "55.31 ml",
+      "trim": -0.1,
+      "notes": ["negative trim compensates for buckles etc."]
+    },
+    "volume": "61 ml",
+
+    "material": [
+      { "type": "nylon", "portion": 90 },
+      { "type": "plastic", "portion": 5 }
+    ],
+    "material_thickness": 1.27,
+
+    "use_action": {
+      "type": "transform",
+
+      "msg": "You shift the sling to the front of your body.",
+      "menu_text": "Adjust",
+
+      "target": "sling/double/bfg/vickers:front",
+
+      "moves": 120
+    },
+
+    "armor": [
+      {
+        "encumbrance": 0,
+        "volume_encumber_modifier": 0.33,
+
+        "coverage": 5,
+        "covers": ["torso"],
+        "specifically_covers": ["torso_hanging_back"]
+      }
+    ],
+
+    "pocket_data": [
+      {
+        "pocket_type": "CONTAINER",
+
+        "holster": true,
+
+        "max_contains_weight": "8200 g",
+        "min_item_volume": "1 L",
+        "max_contains_volume": "8 L",
+        "max_item_length": "120 cm",
+
+        "moves": 130
+      }
+    ],
+
+    "price": "82 USD 95 cent"
+  },
+  {
+    "id": "sling/double/bfg/vickers:front",
+    "copy-from": "strap/double/bfg/vickers",
+    "type": "ARMOR",
+
+    "name": {
+      "str": "two-point sling (front)",
+      "str_pl": "two-point slings (front)"
+    },
+    "description": "A nylon strap with plastic furniture, which attaches to rifles and other large guns at two points.  This allows you to carry the gun on you.  <sling/double:comfort>  <sling/position:front>",
+    "expand_snippets": true,
+
+    "variant_type": "gun",
+    "variants": [
+      {
+        "id": "black",
+
+        "name": {
+          "str": "two-point Vickers sling (front)",
+          "str_pl": "two-point Vickers slings (front)"
+        },
+        "description": "A nylon strap with plastic furniture.  This model is the standard issue with the U.S. Marines.  <variant:black>  <sling/position:front>",
+        "expand_snippets": true,
+        "weight": 1
+      },
+      {
+        "id": "fde",
+
+        "name": {
+          "str": "two-point Vickers sling (front)",
+          "str_pl": "two-point Vickers slings (front)"
+        },
+        "description": "A nylon strap with plastic furniture.  This model is the standard issue with the U.S. Marines.  <variant:fde>  <sling/position:front>",
+        "expand_snippets": true,
+        "weight": 1
+      }
+    ],
+
+    "use_action": {
+      "type": "transform",
+
+      "msg": "You move the sling behind you.",
+      "menu_text": "Adjust",
+
+      "target": "sling/double/bfg/vickers",
+
+      "moves": 120
+    }
+  }
+]
