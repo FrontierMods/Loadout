@@ -19,7 +19,7 @@
     "name": {
       "str": "SOCOM suppressor"
     },
-    "description": "A popular and capable suppressor, <muzzle/suppressor:loudness>.  Requires the SOCOM muzzle brake for mounting onto.  <muzzle/suppressor>",
+    "description": "A suppressor popular with the U.S. special forces.  Requires the SOCOM muzzle brake for mounting onto.  <muzzle/suppressor>",
     "expand_snippets": true,
 
     "variant_type": "gun",
@@ -30,7 +30,7 @@
         "name": {
           "str": "SureFire SOCOM556-RC2 suppressor"
         },
-        "description": "A suppressor with a sleek design, popular with U.S. special forces.  <muzzle/rating:556>  <muzzle/suppressor:direct_thread/none>  Instead, it mounts onto the SOCOM muzzle brake, as well as a variety of flash hiders from SureFire.  <variant:black>",
+        "description": "A suppressor with a sleek design, popular with the U.S. special forces.  <muzzle/rating:556>  <muzzle/suppressor/mount:none>  Instead, it mounts onto the SOCOM muzzle brake, as well as a variety of flash hiders from SureFire.  <variant:black>",
         "expand_snippets": true,
         "weight": 1
       },
@@ -40,7 +40,7 @@
         "name": {
           "str": "SureFire SOCOM556-RC2 suppressor"
         },
-        "description": "A suppressor with a sleek design, popular with U.S. special forces.  <muzzle/rating:556>  <muzzle/suppressor:direct_thread/none>  Instead, it mounts onto the SOCOM muzzle brake, as well as a variety of flash hiders from SureFire.  <variant:fde>",
+        "description": "A suppressor with a sleek design, popular with the U.S. special forces.  <muzzle/rating:556>  <muzzle/suppressor/mount:none>  Instead, it mounts onto the SOCOM muzzle brake, as well as a variety of flash hiders from SureFire.  <variant:fde>",
         "expand_snippets": true,
         "weight": 1
       }
@@ -110,7 +110,7 @@
     "name": {
       "str": "army suppressor"
     },
-    "description": "A common military suppressor, <muzzle/suppressor:loudness>.  <muzzle/suppressor:direct_thread/none>  Instead, it mounts onto the army flash hider.  <muzzle/suppressor>  Due to its old design, this model has some effect on accuracy.",
+    "description": "A military suppressor sometimes issued to army troops.  <muzzle/suppressor/mount:none>  Instead, it mounts onto the army flash hider.  <muzzle/suppressor>  Due to its old design, this model has some effect on accuracy.",
     "expand_snippets": true,
 
     "variant_type": "gun",
@@ -121,7 +121,7 @@
         "name": {
           "str": "KAC QDSS NT4 suppressor"
         },
-        "description": "An older design of a suppressor, known for being part of the SOPMOD kit of modifications issued to U.S. special forces.  Due to some play in the mounted positioning of this suppressor, it's known to affect accuracy slightly.  <muzzle/rating:556>  <muzzle/suppressor:direct_thread/none>  Instead, it mounts onto the M4QD flash hider.  <variant:black>",
+        "description": "An older design of a suppressor, known for being part of the SOPMOD kit of modifications issued to U.S. special forces.  Due to some play in the mounted positioning of this suppressor, it's known to affect accuracy slightly.  <muzzle/rating:556>  <muzzle/suppressor/mount:none>  Instead, it mounts onto the M4QD flash hider.  <variant:black>",
         "expand_snippets": true,
         "weight": 1
       },
@@ -131,7 +131,7 @@
         "name": {
           "str": "KAC QDSS NT4 suppressor"
         },
-        "description": "An older design of a suppressor, known for being part of the SOPMOD kit of modifications issued to U.S. special forces.  Due to some play in the mounted positioning of this suppressor, it's known to affect accuracy slightly.  <muzzle/rating:556>  <muzzle/suppressor:direct_thread/none>  Instead, it mounts onto the M4QD flash hider.  <variant:fde>",
+        "description": "An older design of a suppressor, known for being part of the SOPMOD kit of modifications issued to U.S. special forces.  Due to some play in the mounted positioning of this suppressor, it's known to affect accuracy slightly.  <muzzle/rating:556>  <muzzle/suppressor/mount:none>  Instead, it mounts onto the M4QD flash hider.  <variant:fde>",
         "expand_snippets": true,
         "weight": 1
       }
@@ -197,7 +197,7 @@
     "name": {
       "str": "Dominus suppressor"
     },
-    "description": "A large, potent suppressor, <muzzle/suppressor:loudness>.  <muzzle/rating:556>  <muzzle/suppressor:direct_thread/none>  Instead, it mounts onto the SR muzzle brake, also from Thunder Beast Arms.  <muzzle/suppressor>",
+    "description": "A large and potent suppressor.  <muzzle/rating:556>  <muzzle/suppressor/mount:none>  Instead, it mounts onto the SR muzzle brake, also from Thunder Beast Arms.  <muzzle/suppressor>",
     "expand_snippets": true,
 
     "variant_type": "gun",
@@ -208,7 +208,7 @@
         "name": {
           "str": "Thunder Beast Dominus-SR suppressor"
         },
-        "description": "A heavy-duty suppressor rated for full-auto.  <muzzle/rating:556>  <muzzle/suppressor:direct_thread/none>  Instead, it mounts onto the SR muzzle brake.  <variant:black>",
+        "description": "A heavy-duty suppressor rated for full-auto.  <muzzle/rating:556>  <muzzle/suppressor/mount:none>  Instead, it mounts onto the SR muzzle brake.  <variant:black>",
         "expand_snippets": true,
         "weight": 1
       },
@@ -218,7 +218,7 @@
         "name": {
           "str": "Thunder Beast Dominus-SR suppressor"
         },
-        "description": "A heavy-duty suppressor rated for full-auto.  <muzzle/rating:556>  <muzzle/suppressor:direct_thread/none>  Instead, it mounts onto the SR muzzle brake.  <variant:fde>",
+        "description": "A heavy-duty suppressor rated for full-auto.  <muzzle/rating:556>  <muzzle/suppressor/mount:none>  Instead, it mounts onto the SR muzzle brake.  <variant:fde>",
         "expand_snippets": true,
         "weight": 1
       },
@@ -228,7 +228,7 @@
         "name": {
           "str": "Thunder Beast Dominus-SR suppressor"
         },
-        "description": "A heavy-duty suppressor rated for full-auto.  <muzzle/rating:556>  <muzzle/suppressor:direct_thread/none>  Instead, it mounts onto the SR muzzle brake.  <variant:olive>",
+        "description": "A heavy-duty suppressor rated for full-auto.  <muzzle/rating:556>  <muzzle/suppressor/mount:none>  Instead, it mounts onto the SR muzzle brake.  <variant:olive>",
         "expand_snippets": true,
         "weight": 1
       }
@@ -299,7 +299,7 @@
     "name": {
       "str": "Fly suppressor"
     },
-    "description": "A compact pistol suppressor, <muzzle/suppressor:loudness>.  <muzzle/rating:9mm>  <muzzle/suppressor:direct_thread>  <muzzle/suppressor>",
+    "description": "A compact pistol suppressor.  <muzzle/rating:9mm>  <muzzle/suppressor/mount:thread>  <muzzle/suppressor>",
     "expand_snippets": true,
 
     "variant_type": "gun",
@@ -310,7 +310,7 @@
         "name": {
           "str": "Thunder Beast Fly 9 suppressor"
         },
-        "description": "A compact pistol suppressor, shorter than most models on the market.  <muzzle/rating:9mm>  <muzzle/suppressor:direct_thread>  <variant:black>",
+        "description": "A compact pistol suppressor, shorter than most models on the market.  <muzzle/rating:9mm>  <muzzle/suppressor/mount:thread>  <variant:black>",
         "expand_snippets": true,
         "weight": 1
       },
@@ -320,7 +320,7 @@
         "name": {
           "str": "Thunder Beast Fly 9 suppressor"
         },
-        "description": "A compact pistol suppressor, shorter than most models on the market.  <muzzle/rating:9mm>  <muzzle/suppressor:direct_thread>  <variant:fde>",
+        "description": "A compact pistol suppressor, shorter than most models on the market.  <muzzle/rating:9mm>  <muzzle/suppressor/mount:thread>  <variant:fde>",
         "expand_snippets": true,
         "weight": 1
       },
@@ -330,7 +330,7 @@
         "name": {
           "str": "Thunder Beast Fly 9 suppressor"
         },
-        "description": "A compact pistol suppressor, shorter than most models on the market.  <muzzle/rating:9mm>  <muzzle/suppressor:direct_thread>  <variant:olive>",
+        "description": "A compact pistol suppressor, shorter than most models on the market.  <muzzle/rating:9mm>  <muzzle/suppressor/mount:thread>  <variant:olive>",
         "expand_snippets": true,
         "weight": 1
       }
