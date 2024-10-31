@@ -49,6 +49,6 @@
   {
     "id": ["bipod"],
     "type": "MIGRATION",
-    "replace": "bipod/harris/s-lp2"
+    "replace": "bipod/harris/s-l2p"
   }
 ]
