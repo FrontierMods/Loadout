@@ -259,7 +259,7 @@
   },
 
   {
-    "id": "sight/elcan/specterdr:legacy",
+    "id": "sight/elcan/specterdr/legacy",
     "copy-from": "@sight_mount/rifle",
     "type": "GUNMOD",
 
@@ -364,8 +364,8 @@
     "price_postapoc": "50 cent"
   },
   {
-    "id": "sight/elcan/specterdr:/legacy:magnified",
-    "copy-from": "sight/elcan/specterdr",
+    "id": "sight/elcan/specterdr/legacy:magnified",
+    "copy-from": "sight/elcan/specterdr/legacy",
     "type": "GUNMOD",
 
     "name": {
@@ -398,7 +398,7 @@
       "type": "transform",
       "menu_text": "Demagnify",
       "msg": "You turn the scope's zoom all the way down.",
-      "target": "sight/elcan/specterdr:legacy"
+      "target": "sight/elcan/specterdr/legacy"
     }
   },
 
