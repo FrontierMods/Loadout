@@ -21,6 +21,17 @@
   },
 
   {
+    "id": ["laser_sight"],
+    "type": "MIGRATION",
+    "replace": "laser_sight/sightmark/readyfire"
+  },
+  {
+    "id": ["rail_laser_sight"],
+    "type": "MIGRATION",
+    "replace": "laser_sight/l3harris/atpial"
+  },
+
+  {
     "id": ["suppressor"],
     "type": "MIGRATION",
     "replace": "suppressor/kac/qdss"

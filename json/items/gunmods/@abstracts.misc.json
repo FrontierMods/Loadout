@@ -62,5 +62,30 @@
       "every 1000°F rounded up = -1 to dispersion"
     ],
     "dispersion_modifier": -2
+  },
+  {
+    "abstract": "@laser_sight",
+    "type": "GUNMOD",
+
+    "name": {
+      "str": "laser sight"
+    },
+
+    "weight": "50 g",
+    "volume": "50 ml",
+    "longest_side": "50 mm",
+
+    "material": ["aluminum"],
+
+    "symbol": ":",
+    "color": "dark_gray",
+
+    "install_time": "40 s",
+
+    "field_of_view": 3000,
+
+    "mod_targets": ["pistol", "rifle", "smg", "shotgun", "launcher"],
+
+    "flags": ["LASER_SIGHT"]
   }
 ]

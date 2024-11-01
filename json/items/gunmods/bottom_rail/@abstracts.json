@@ -59,5 +59,16 @@
     "handling_modifier": 9,
 
     "flags": ["BIPOD"]
+  },
+  {
+    "abstract": "@laser_sight/underbarrel",
+    "copy-from": "@laser_sight",
+    "type": "GUNMOD",
+
+    "name": {
+      "str": "underbarrel laser sight"
+    },
+
+    "location": "underbarrel"
   }
 ]

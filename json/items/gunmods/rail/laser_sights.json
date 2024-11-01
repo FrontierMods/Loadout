@@ -1,0 +1,167 @@
+[
+  {
+    "id": "laser_sight/l3harris/atpial",
+    "copy-from": "@laser_sight/rail",
+    "type": "GUNMOD",
+
+    "//sources": [
+      "https://www.l3harris.com/all-capabilities/advanced-target-pointer-illuminator-aiming-laser-atpial-an-peq-15",
+      [
+        "https://anvsinc.com/product/eotech-atpial-an-peq-15-aiming-laser/",
+        "price"
+      ]
+    ],
+
+    "//notes": [
+      "AN/PEQ-15 is US military nomeclature for this laser sight",
+      "The C in ATPIAL-C denotes that this is a commercial, civilian-legal variant",
+      "this model also features an IR illuminator",
+      "high-power and ultra-high-power of the military counterpart exist"
+    ],
+
+    "name": {
+      "str": "reproduction red laser sight"
+    },
+    "description": "A boxy laser sight that provides you with a way to aim reliably and quickly at short distances.  This model is the commercial counterpart of the laser sight employed in the U.S. armed forces.  <sight/laser:red>",
+    "expand_snippets": true,
+
+    "variant_type": "gun",
+    "variants": [
+      {
+        "id": "black",
+
+        "name": {
+          "str": "L3Harris ATPIAL-C red laser sight"
+        },
+        "description": "A boxy laser sight that provides the shooter with a reliable and quick way to aim at shorter distances.  <sight/laser:red>  This model is the commercial counterpart of the AN/PEQ-15, used by the U.S. Army and Navy.  The commercial variant features a weaker, civilian-legal laser, which can be difficult to see during the day.  <variant:black>",
+        "expand_snippets": true,
+        "weight": 1
+      },
+      {
+        "id": "fde",
+
+        "name": {
+          "str": "L3Harris ATPIAL-C red laser sight"
+        },
+        "description": "A boxy laser sight that provides the shooter with a reliable and quick way to aim at shorter distances.  <sight/laser:red>  This model is the commercial counterpart of the AN/PEQ-15, used by the U.S. Army and Navy.  The commercial variant features a weaker, civilian-legal laser, which can be difficult to see during the day.  <variant:fde>",
+        "expand_snippets": true,
+        "weight": 1
+      }
+    ],
+
+    "//weight": [
+      "7.5 oz = 212.62 g",
+      "weight is stated to be with batteries",
+      "DL123 weighs 0.6 oz = 17.01 g",
+      "https://www.duracell.com/wp-content/uploads/2018/09/2018-September-DL123_0918-002.pdf",
+      "unless togglable/draining lasers are implemented, we assume the battery is always in and always active"
+    ],
+    "weight": "213 g",
+    "//dimensions": {
+      "length": "4.6 in",
+      "width": "2.8 in",
+      "height": "1.6 in",
+      "raw": "337.71 ml",
+      "trim": 0.1
+    },
+    "volume": "304 ml",
+    "longest_side": "117 mm",
+
+    "//laser": {
+      "class": "3R",
+      "power": "5 mW",
+      "divergence": "1.72 MOA",
+      "range": {
+        "day": "25 meters"
+      }
+    },
+
+    "sight_dispersion": 172,
+
+    "//power": {
+      "source": [["CR123"]],
+      "lifetime": "6 h",
+      "notes": [
+        "lifetime is given when running both visible and IR laser on high settings",
+        "CR123 is equivalent to the DL123 listed in specs in sources"
+      ]
+    },
+
+    "price": "1787 USD"
+  },
+  {
+    "id": "laser_sight/steiner/dbal-a2",
+    "copy-from": "@laser_sight/rail",
+    "type": "GUNMOD",
+
+    "//sources": [
+      "https://www.steiner-defense.com/laser-devices/dbal-series/dbal-a2",
+      [
+        "https://www.venture-tactical.com/products/copy-of-steiner-dbal-a3-dual-beam-aiming-laser-advanced-3",
+        "price"
+      ]
+    ],
+
+    "//notes": ["commercial counterpart to AN/PEQ-15A"],
+
+    "name": {
+      "str": "advanced laser sight"
+    },
+    "description": "A boxy laser sight that provides you with a way to aim reliably and quickly at short distances.  This model is the commercial counterpart of the laser sight employed in the U.S. armed forces.  <sight/laser:red>",
+    "expand_snippets": true,
+
+    "variant_type": "gun",
+    "variants": [
+      {
+        "id": "black",
+
+        "name": {
+          "str": "Steiner DBAL-A2 red laser sight"
+        },
+        "description": "A boxy laser sight that provides the shooter with a reliable and quick way to aim at shorter distances.  <sight/laser:red>  This model is the commercial counterpart of the AN/PEQ-15A, used by the U.S. Armed Forces.  The commercial variant features a weaker, civilian-legal laser, which can be difficult to see during the day.  <variant:black>",
+        "expand_snippets": true,
+        "weight": 1
+      }
+    ],
+
+    "//weight": [
+      "8 oz = 226.8 g",
+      "weight is stated to be with batteries",
+      "DL123 weighs 0.6 oz = 17.01 g",
+      "https://www.duracell.com/wp-content/uploads/2018/09/2018-September-DL123_0918-002.pdf",
+      "unless togglable/draining lasers are implemented, we assume the battery is always in and always active"
+    ],
+    "weight": "227 g",
+    "//dimensions": {
+      "length": "3.5 in",
+      "width": "2.75 in",
+      "height": "1.59 in",
+      "raw": "250.78 ml",
+      "trim": 0
+    },
+    "volume": "251 ml",
+    "longest_side": "89 mm",
+
+    "//laser": {
+      "class": "3R",
+      "power": "5 mW",
+      "divergence": "2.75 MOA",
+      "range": {
+        "day": "???"
+      }
+    },
+
+    "sight_dispersion": 172,
+
+    "//power": {
+      "source": [["CR123"]],
+      "lifetime": "3 h",
+      "notes": [
+        "lifetime is stated as minimum",
+        "CR123 is equivalent to the DL123 listed in specs in sources"
+      ]
+    },
+
+    "price": "2098 USD 99 cent"
+  }
+]
