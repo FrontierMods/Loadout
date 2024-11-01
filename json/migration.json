@@ -72,5 +72,11 @@
     "id": ["shoulder_strap"],
     "type": "MIGRATION",
     "replace": "sling/double/bfg/vickers"
+  },
+
+  {
+    "id": ["m203"],
+    "type": "MIGRATION",
+    "replace": "grenade_launcher/lmt/l2b"
   }
 ]

@@ -1,0 +1,99 @@
+[
+  {
+    "id": "grenade_launcher/lmt/l2b",
+    "type": "GUNMOD",
+
+    "//sources": [
+      "https://lmtdefense.com/product/9-rail-mounted-m203/",
+      [
+        "https://www.capitolarmory.com/lmt-l2b-destructive-device.html",
+        "price"
+      ],
+      [
+        "https://www.airsoft.ro/airsoft-guns/mass-destruction/launchers-grenade-launchers/grenade-launcher-model-m203-for-m4-m16",
+        "external diameter reference"
+      ]
+    ],
+
+    "name": {
+      "str_sp": "underbarrel grenade launcher"
+    },
+    "description": "A long tube with a trigger at the end.  The tube can hold a single 40mm grenade, which it can fire at the target when mounted onto the underbarrel of a gun or onto a dedicated standalone frame.",
+
+    "variant_type": "gun",
+    "variants": [
+      {
+        "id": "black",
+
+        "name": {
+          "str": "LMT L2B 40mm grenade launcher"
+        },
+        "description": "A Picatinny-mounted launcher for 40mm grenades.  Measuring at 12.5″, it is half an inch longer as its military cousin, the M203A1, and 2.5″ shorter than the M203.  Can be mounted onto any gun with a long-enough bottom rail.  Alternatively, it can be mounted onto a dedicated frame in order to be used in a stand-alone configuration, without requiring a gun.  <variant:black>",
+        "expand_snippets": true,
+        "weight": 1
+      }
+    ],
+
+    "material": ["steel", "plastic"],
+
+    "symbol": ":",
+    "color": "light_red",
+    "faults": ["fault_gun_blackpowder", "fault_gun_dirt"],
+
+    "//weight": "2.2 lbs = 997.9 g",
+    "weight": "998 g",
+    "//dimensions": {
+      "length": "12.5 in",
+      "diameter": "45 mm",
+      "raw": "363.57 ml",
+      "trim": 0,
+      "notes": ["no trim, assuming the flat parts fill out the 'diameter'"]
+    },
+    "volume": "364 ml",
+    "longest_side": "318 mm",
+
+    "location": "underbarrel",
+    "install_time": "2 m",
+    "mod_targets": ["rifle", "crossbow"],
+
+    "blacklist_mod": [
+      "knife_combat_army",
+      "knife_combat",
+      "enfield_bayonet",
+      "knife_combat_marine",
+      "makeshift_bayonet",
+      "sword_bayonet"
+    ],
+
+    "gun_data": {
+      "skill": "launcher",
+      "ammo": "40x46mm",
+
+      "barrel_length": "229 mm",
+      "dispersion": 300,
+      "durability": 10,
+
+      "blackpowder_tolerance": 60,
+      "clip_size": 1
+    },
+
+    "min_skills": [
+      ["weapon", 1],
+      ["launcher", 1]
+    ],
+
+    "flags": ["NEVER_JAMS", "RELOAD_EJECT"],
+
+    "pocket_data": [
+      {
+        "pocket_type": "MAGAZINE",
+        "ammo_restriction": {
+          "40x46mm": 1
+        }
+      }
+    ],
+
+    "price": "1979 USD",
+    "price_postapoc": "10 USD"
+  }
+]
