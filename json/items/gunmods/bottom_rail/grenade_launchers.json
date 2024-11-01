@@ -54,7 +54,7 @@
 
     "location": "underbarrel",
     "install_time": "2 m",
-    "mod_targets": ["rifle", "crossbow"],
+    "mod_targets": ["rifle"],
 
     "blacklist_mod": [
       "knife_combat_army",
