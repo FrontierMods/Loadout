@@ -19,6 +19,8 @@
     "location": "sights",
     "install_time": "45 s",
 
+    "min_skills": [["weapon", 1]],
+
     "mod_targets": ["pistol", "smg", "shotgun", "rifle", "bow", "launcher"],
 
     "price_postapoc": "50 cent"
