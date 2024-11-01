@@ -1,0 +1,80 @@
+[
+  {
+    "id": "sight/offset/magpul/mbus_pro",
+    "copy-from": "@sight/offset",
+    "type": "GUNMOD",
+
+    "//sources": [
+      "https://magpul.com/mbus-pro-offset-sight-rear.html",
+      "https://magpul.com/mbus-pro-offset-sight-front.html",
+      [
+        "https://www.dropbox.com/sh/pwyh6mee1jrt27p/AADAlxftcAtFpovoZej9NoCQa/FIREARMS%20ACCESSORIES/SIGHTS/MBUS%20PRO?e=1&preview=MAG525_MBUS_Pro_Offset_Front_INSRT.pdf&dl=0",
+        "front sight post width"
+      ],
+      [
+        "https://www.trex-arms.com/store/magpul-mbus-3-sight-rear/",
+        "https://www.trex-arms.com/store/magpul-mbus-3-sight-front/",
+        "dimensions reference"
+      ]
+    ],
+
+    "//notes": [
+      "we're using a pair of distinctly-different sights to model dimensions",
+      "this is only necessary because dimensions for the MBUS Pro, let alone the offset version, are not readily available",
+      "getting close is better than not getting it at all"
+    ],
+
+    "name": {
+      "str_sp": "professional offset sights"
+    },
+    "description": "<sight/offset/foldable:inline>  <sight/offset>",
+    "expand_snippets": true,
+
+    "variant_type": "gun",
+    "variants": [
+      {
+        "id": "black",
+
+        "name": {
+          "str": "Magpul MBUS Pro offset sights",
+          "str_pl": "pairs of Magpul MBUS Pro offset sights"
+        },
+        "description": "<sight/offset/foldable:inline>  <sight/offset>  <variant:black/plural>",
+        "expand_snippets": true,
+        "weight": 1
+      }
+    ],
+
+    "//weight": "2 oz + 1.8 oz = 3.8 oz = 107.73 g",
+    "weight": "108 g",
+    "//dimensions": [
+      {
+        "description": "front post",
+
+        "length": "2.13 in",
+        "width": "1.38 in",
+        "height": "0.65 in",
+        "raw": "31.31 ml",
+        "trim": 0.4,
+        "result": "18.77 ml"
+      },
+      {
+        "description": "rear post",
+
+        "length": "2.43 in",
+        "width": "1.38 in",
+        "height": "0.63 in",
+        "raw": "34.62 ml",
+        "trim": 0.4,
+        "result": "20.77 ml"
+      }
+    ],
+    "volume": "40 ml",
+    "longest_side": "62 mm",
+
+    "material": ["steel"],
+
+    "//price": "119.95 + 99.95 USD",
+    "price": "219 USD 90 cent"
+  }
+]

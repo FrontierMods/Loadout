@@ -116,5 +116,76 @@
     "aim_speed_modifier": 2,
 
     "location": "magnifier"
+  },
+  {
+    "abstract": "@sight/iron",
+    "type": "GUNMOD",
+
+    "//sources": [
+      "https://www.wingtactical.com/accessories/optics-sights/sights/diamondhead-polymer-integrated-sighting-system-with-nitebrite/",
+      [
+        "https://www.snipershide.com/shooting/threads/iron-sight-accuracy.6959308/post-7939237",
+        "baseline accuracy"
+      ]
+    ],
+
+    "name": {
+      "str": "iron sights"
+    },
+    "description": "idea of a set of iron sights",
+
+    "//weight": "1.2 oz + 1.35 oz = 2.55 oz ≈ 72 g",
+    "weight": "72 g",
+    "//dimensions": {
+      "length": "2.642 in",
+      "width": "1.24 in",
+      "height": "1.778 in",
+      "raw": "96 ml",
+      "trim": 0.35,
+      "notes": [
+        "stats for raised sights",
+        "length doubled (1.321 × 2) to emulate both sights stacked together in the inventory"
+      ]
+    },
+    "volume": "62 ml",
+    "longest_side": "67 mm",
+
+    "material": ["aluminum"],
+
+    "symbol": ":",
+    "color": "dark_gray",
+
+    "location": "sights",
+    "install_time": "30 s",
+
+    "mod_targets": ["rifle", "smg", "shotgun", "launcher"],
+
+    "field_of_view": 360,
+    "//sight_dispersion": "1 MOA",
+    "sight_dispersion": 100,
+    "//aim_speed_modifier": "minor bonus for better-than-default sights",
+    "aim_speed_modifier": 4,
+
+    "flags": ["DISABLE_SIGHTS"]
+  },
+  {
+    "abstract": "@sight/offset",
+    "copy-from": "@sight/iron",
+    "type": "GUNMOD",
+
+    "name": {
+      "str": "offset iron sights"
+    },
+
+    "location": "rail",
+    "//sight_dispersion": [
+      "assumed to be 0.06 in. @ 15 in. = 13.751 MOA",
+      "front sight post width (0.06 in.) from multiple models on the market",
+      "distance (15 in.) from average distance between front and rear sight on a rifle"
+    ],
+    "sight_dispersion": 138,
+
+    "//add_mod": "emulates possibly having another sight, e.g. a red dot sight, along with iron sights",
+    "add_mod": [["sights", 1]]
   }
 ]
