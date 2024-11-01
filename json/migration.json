@@ -75,6 +75,12 @@
   },
 
   {
+    "id": ["cheek_pad"],
+    "type": "MIGRATION",
+    "replace": "cheek_pad/blackhawk/tactical"
+  },
+
+  {
     "id": ["single_sling"],
     "type": "MIGRATION",
     "replace": "sling/single/magpul/ms3"
