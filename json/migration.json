@@ -19,6 +19,11 @@
     "type": "MIGRATION",
     "replace": "magnifier/eotech/g33"
   },
+  {
+    "id": ["offset_sight_rail"],
+    "type": "MIGRATION",
+    "replace": "sight_mount/offset/si/ambush"
+  },
 
   {
     "id": ["laser_sight"],
