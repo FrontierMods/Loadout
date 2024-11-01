@@ -24,6 +24,11 @@
     "type": "MIGRATION",
     "replace": "sight_mount/offset/si/ambush"
   },
+  {
+    "id": ["offset_sights"],
+    "type": "MIGRATION",
+    "replace": "sight/offset/magpul/mbus_pro"
+  },
 
   {
     "id": ["laser_sight"],
