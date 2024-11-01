@@ -1,0 +1,60 @@
+[
+  {
+    "id": "cheek_pad/blackhawk/tactical",
+    "type": "GUNMOD",
+
+    "//sources": [
+      "https://www.blackhawk.com/accessories/cheekpads/tactical-cheek-pad/BH-90CP01BK.html",
+      [
+        "https://www.amazon.com/BLACKHAWK-Cheek-Pad_adj-Hawktex_for-Stock_90CP01BK/dp/B0014VTREO",
+        "dimensions",
+        "weight"
+      ]
+    ],
+
+    "//notes": [
+      "the dimensions-reference cheek pad is clearly a different model, but we use it for reference all the same because it's closer to being accurate than other options"
+    ],
+
+    "name": { "str": "cheek pad" },
+    "description": "A neoprene cover for most one-piece rifle or shotgun stocks.  It adds a padded cushion to the top of the stock, where your cheek would rest during aiming, providing comfort and relief from recoil, in effect improving your aim.",
+
+    "variant_type": "gun",
+    "variants": [
+      {
+        "id": "black",
+
+        "name": {
+          "str": "Blackhawk cheek pad"
+        },
+        "description": "A large nylon bag for collecting shot casings.  Mounts onto any long gun by strapping onto it with hook-and-loop retainers.  <variant:black>",
+        "expand_snippets": true,
+        "weight": 1
+      }
+    ],
+
+    "weight": "176 g",
+    "//dimensions": {
+      "length": "8.5 in",
+      "width": "6.5 in",
+      "height": "0.5 in",
+      "raw": "452.69 ml",
+      "trim": 0.2
+    },
+    "volume": "362 ml",
+
+    "//material": "materials are a guess based on visual appearance",
+    "material": ["nylon", "leather"],
+
+    "symbol": ":",
+    "color": "dark_gray",
+
+    "location": "stock accessory",
+    "install_time": "1 m",
+    "mod_targets": ["smg", "rifle", "shotgun"],
+    "dispersion_modifier": -1,
+    "handling_modifier": 2,
+
+    "price": "31 USD 95 cent"
+  }
+]
