@@ -238,7 +238,7 @@
     "symbol": ":",
     "color": "green",
 
-    "mod_targets": ["rifle", "shotgun", "smg", "crossbow", "launcher"],
+    "mod_targets": ["rifle", "shotgun", "smg", "launcher"],
     "location": "sling",
     "install_time": "50 s",
 
