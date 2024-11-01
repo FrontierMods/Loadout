@@ -64,6 +64,12 @@
   },
 
   {
+    "id": ["brass_catcher"],
+    "type": "MIGRATION",
+    "replace": "brass_catcher/caldwell/universal"
+  },
+
+  {
     "id": ["single_sling"],
     "type": "MIGRATION",
     "replace": "sling/single/magpul/ms3"

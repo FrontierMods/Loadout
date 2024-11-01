@@ -1,0 +1,93 @@
+[
+  {
+    "id": "brass_catcher/caldwell/universal",
+    "type": "GUNMOD",
+
+    "//sources": [
+      "https://www.caldwellshooting.com/range-gear/brass-catchers/universal-brass-catcher/110038.html",
+      [
+        "https://www.amazon.com/Caldwell-Universal-Resistant-Convenient-Collection/dp/B07795P5MK",
+        "weight"
+      ],
+      ["https://www.midwayusa.com/product/1019605476", "dimensions reference"]
+    ],
+
+    "//notes": [
+      "the nylon catcher part is not technically rigid, but it's shaped enough by the metal skeleton to effectively retain its shape throughout the filling process"
+    ],
+
+    "name": { "str": "brass catcher" },
+    "description": "A nylon bag that could be strapped to a gun in order to retain \"brass\", i.e. casings from fired rounds.",
+
+    "variant_type": "gun",
+    "variants": [
+      {
+        "id": "black",
+
+        "name": {
+          "str": "Caldwell universal brass catcher"
+        },
+        "description": "A large nylon bag for collecting shot casings.  Mounts onto any long gun by strapping onto it with hook-and-loop retainers.  <variant:black>",
+        "expand_snippets": true,
+        "weight": 1
+      }
+    ],
+
+    "//weight": "7 oz = 198.45 g",
+    "weight": "199 g",
+    "//dimensions": {
+      "length": "6 in",
+      "width": "2.25 in",
+      "height": "5 in",
+      "raw": "1106.13 ml",
+      "trim": 0.3,
+      "notes": [
+        "a review on MidwayUSA says the opening (the window through which spent cases drop into the bag) is about 2.5 in. × 6 in.",
+        "from these dimensions, we can assume the length of the entire catcher is 6 in.",
+        "we can also assume that height is 2 × 2.5 in. = 5 in.",
+        "width/depth seems to be smaller than the height of the opening, about 2 in.",
+        "we add another 0.25 in. to width to account for the hinge and the straps"
+      ]
+    },
+    "volume": "774 ml",
+    "longest_side": "152 mm",
+
+    "//material": "steel is presumed to be the material for the hinge",
+    "material": [{ "type": "nylon", "portion": 99 }, "steel"],
+
+    "symbol": ":",
+    "color": "light_gray",
+
+    "location": "brass catcher",
+    "//mod_targets": [
+      "removes pistols from possible targets because",
+      "(1) the catcher is just too large for a regular pistol",
+      "(2) it would likely prevent a pistol from functioning correctly, given that the slide has to move",
+      "(so either the catcher's nylon latch cuts, or the slide is slowed down, thus not ejecting or chambering correctly)"
+    ],
+    "mod_targets": ["shotgun", "smg", "rifle", "launcher"],
+    "install_time": "25 s",
+    "min_skills": [["weapon", 1]],
+
+    "pocket_data": [
+      {
+        "pocket_type": "CONTAINER",
+
+        "rigid": true,
+
+        "max_contains_weight": "2 kg",
+        "//max_contains_volume": [
+          "this catcher is rated for 100 .223/5.56mm casings",
+          "visually, it seems as though only 45% of the catcher's overall capacity is devoted to the casings",
+          "this would prevent new casings from overflowing back towards the bolt, potentially jamming the gun"
+        ],
+        "max_contains_volume": "348 ml"
+      }
+    ],
+
+    "flags": ["BRASS_CATCHER"],
+
+    "price": "29 USD 99 cent",
+    "price_postapoc": "50 cent"
+  }
+]
