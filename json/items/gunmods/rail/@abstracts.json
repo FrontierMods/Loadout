@@ -1,0 +1,13 @@
+[
+  {
+    "abstract": "@laser_sight/rail",
+    "copy-from": "@laser_sight",
+    "type": "GUNMOD",
+
+    "name": {
+      "str": "rail laser sight"
+    },
+
+    "location": "rail"
+  }
+]
