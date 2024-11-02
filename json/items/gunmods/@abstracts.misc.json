@@ -15,6 +15,73 @@
     "price_postapoc": "50 cent"
   },
   {
+    "abstract": "@chute",
+    "copy-from": "@gunmod",
+    "type": "GUNMOD",
+
+    "//sources": [
+      "https://www.arredondoaccessories.com/product/speed-loader-assist/",
+      [
+        "https://www.midwayusa.com/product/1005253477",
+        "material",
+        "install time"
+      ]
+    ],
+
+    "//notes": [
+      "source also recommends installing a replacement lifter, but that appears to be not directly relevant to the operation of the speedloader chute itself",
+      [
+        "this comes available for a variety of models, each sufficiently-different to warrant a separate item per variant",
+        "we currently model chutes per in-game manufacturer, rather than by attachment mechanism, out of simplicity"
+      ]
+    ],
+
+    "name": {
+      "str": "shotgun chute"
+    },
+
+    "//weight": [
+      "source description says 4.7 oz ≈ 133 g, source additional information says 4.2 oz ≈ 119 g",
+      "using the larger number to be on the safe side"
+    ],
+    "weight": "133 g",
+    "//dimensions": {
+      "length": "3.33 in",
+      "width": "1.72 in",
+      "height": "2.6 in",
+      "raw": "244 ml",
+      "trim": 0.8,
+      "notes": [
+        "length is taken from visual reference relative to the length of the gun",
+        "width is calculated as outer diameter of the barrel (0.86 in.) × 2",
+        "height is taken from visual reference relative to the length of the gun"
+      ]
+    },
+    "volume": "49 ml",
+    "//integral_volume": "80% of volume due to a lot of the 'volume' being 'hidden' inside the shotgun after attaching the speedloader",
+    "integral_volume": "39 ml",
+    "longest_side": "85 mm",
+
+    "color": "green",
+
+    "material": ["aluminum"],
+
+    "//min_skills": "this uses `shotgun` skill, rather than `weapon`, because this type of gunmod is decidedly in the domain of shotguns",
+    "min_skills": [
+      ["shotgun", 2],
+      ["mechanics", 1]
+    ],
+
+    "location": "loading port",
+    "//mod_targets": "the only pistol in-game that has a loading port is Remington 870 in breacher configuration",
+    "mod_targets": ["pistol", "shotgun"],
+    "install_time": "90 s",
+    "acceptable_ammo": ["shot"],
+    "reload_modifier": -25,
+
+    "price": "163 USD 75 cent"
+  },
+  {
     "abstract": "@suppressor_cover",
     "copy-from": "@gunmod",
     "type": "GUNMOD",

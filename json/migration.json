@@ -100,5 +100,41 @@
     "id": ["m203"],
     "type": "MIGRATION",
     "replace": "grenade_launcher/lmt/l2b"
+  },
+
+  {
+    "id": ["arredondo_chute"],
+    "type": "MIGRATION",
+    "replace": "chute/arredondo/remington/870"
+  },
+  {
+    "id": ["arredondo_chute_mossberg_500"],
+    "type": "MIGRATION",
+    "replace": "chute/arredondo/mossberg/500"
+  },
+  {
+    "id": ["arredondo_chute_mossberg_590"],
+    "type": "MIGRATION",
+    "replace": "chute/arredondo/mossberg/590"
+  },
+  {
+    "id": ["arredondo_chute_mossberg_930"],
+    "type": "MIGRATION",
+    "replace": "chute/arredondo/mossberg/930"
+  },
+  {
+    "id": ["arredondo_chute_remington_870"],
+    "type": "MIGRATION",
+    "replace": "chute/arredondo/remington/870"
+  },
+  {
+    "id": ["arredondo_chute_remington_870_breacher"],
+    "type": "MIGRATION",
+    "replace": "chute/arredondo/remington/870:breacher"
+  },
+  {
+    "id": ["arredondo_chute_benelli_sa"],
+    "type": "MIGRATION",
+    "replace": "chute/arredondo/benelli/sa"
   }
 ]
