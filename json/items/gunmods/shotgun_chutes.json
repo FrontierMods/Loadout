@@ -1,0 +1,262 @@
+[
+  {
+    "id": "chute/arredondo/mossberg/500",
+    "copy-from": "@chute",
+    "type": "GUNMOD",
+
+    "//sources": [
+      "https://www.arredondoaccessories.com/product/speed-loader-assist/"
+    ],
+
+    "name": {
+      "str": "speedloader chute for 6-round combat shotguns",
+      "str_pl": "speedloader chutes for 6-round combat shotguns"
+    },
+    "description": "A small metal ramp that mounts just behind the loading port of a shotgun.  It allows one to reload their shotgun faster, either by hand or through use of speedloader tubes.",
+
+    "variant_type": "gun",
+    "variants": [
+      {
+        "id": "steel",
+
+        "name": {
+          "str": "Arredondo chute for Mossberg 500",
+          "str_pl": "Arredondo chutes for Mossberg 500"
+        },
+        "description": "A small metal ramp that mounts just behind the loading port of a shotgun.  Enables the use of speedloader tubes, and speeds up reloading by hand.  <variant:steel>",
+        "expand_snippets": true,
+        "weight": 1
+      }
+    ],
+
+    "mod_targets": ["mossberg_500"],
+
+    "pocket_mods": [
+      {
+        "pocket_type": "MAGAZINE",
+
+        "rigid": true,
+
+        "ammo_restriction": { "shot": 6 },
+        "allowed_speedloaders": ["shot_speedloader6", "shot_speedloader8"]
+      }
+    ]
+  },
+  {
+    "id": "chute/arredondo/mossberg/590",
+    "copy-from": "@chute",
+    "type": "GUNMOD",
+
+    "//sources": [
+      "https://www.arredondoaccessories.com/product/speed-loader-assist/"
+    ],
+
+    "name": {
+      "str": "speedloader chute for 9-round combat shotguns",
+      "str_pl": "speedloader chutes for 9-round combat shotguns"
+    },
+    "description": "A small metal ramp that mounts just behind the loading port of a shotgun.  It allows one to reload their shotgun faster, either by hand or through use of speedloader tubes.",
+
+    "variant_type": "gun",
+    "variants": [
+      {
+        "id": "steel",
+
+        "name": {
+          "str": "Arredondo chute for Mossberg 590",
+          "str_pl": "Arredondo chutes for Mossberg 590"
+        },
+        "description": "A small metal ramp that mounts just behind the loading port of a shotgun.  Enables the use of speedloader tubes, and speeds up reloading by hand.  <variant:steel>",
+        "expand_snippets": true,
+        "weight": 1
+      }
+    ],
+
+    "mod_targets": ["mossberg_590"],
+
+    "pocket_mods": [
+      {
+        "pocket_type": "MAGAZINE",
+
+        "rigid": true,
+
+        "ammo_restriction": { "shot": 9 },
+        "allowed_speedloaders": ["shot_speedloader6", "shot_speedloader8"]
+      }
+    ]
+  },
+  {
+    "id": "chute/arredondo/mossberg/930",
+    "copy-from": "@chute",
+    "type": "GUNMOD",
+
+    "//sources": [
+      "https://www.arredondoaccessories.com/product/speed-loader-assist/"
+    ],
+
+    "name": {
+      "str": "speedloader chute for 8-round auto-loading shotguns",
+      "str_pl": "speedloader chutes for 8-round auto-loading shotguns"
+    },
+    "description": "A small metal ramp that mounts just behind the loading port of a shotgun.  It allows one to reload their shotgun faster, either by hand or through use of speedloader tubes.",
+
+    "variant_type": "gun",
+    "variants": [
+      {
+        "id": "steel",
+
+        "name": {
+          "str": "Arredondo chute for Mossberg 930",
+          "str_pl": "Arredondo chutes for Mossberg 930"
+        },
+        "description": "A small metal ramp that mounts just behind the loading port of a shotgun.  Enables the use of speedloader tubes, and speeds up reloading by hand.  <variant:steel>",
+        "expand_snippets": true,
+        "weight": 1
+      }
+    ],
+
+    "mod_targets": ["mossberg_930"],
+
+    "pocket_mods": [
+      {
+        "pocket_type": "MAGAZINE",
+
+        "rigid": true,
+
+        "ammo_restriction": { "shot": 8 },
+        "allowed_speedloaders": ["shot_speedloader6", "shot_speedloader8"]
+      }
+    ]
+  },
+
+  {
+    "id": "chute/arredondo/remington/870",
+    "copy-from": "@chute",
+    "type": "GUNMOD",
+
+    "//sources": [
+      "https://www.arredondoaccessories.com/product/speed-loader-assist/"
+    ],
+
+    "name": {
+      "str": "speedloader chute for 5-round hunting shotguns",
+      "str_pl": "speedloader chutes for 5-round hunting shotguns"
+    },
+    "description": "A small metal ramp that mounts just behind the loading port of a shotgun.  It allows one to reload their shotgun faster, either by hand or through use of speedloader tubes.",
+
+    "variant_type": "gun",
+    "variants": [
+      {
+        "id": "steel",
+
+        "name": {
+          "str": "Arredondo chute for Remington 870",
+          "str_pl": "Arredondo chutes for Remington 870"
+        },
+        "description": "A small metal ramp that mounts just behind the loading port of a shotgun.  Enables the use of speedloader tubes, and speeds up reloading by hand.  <variant:steel>",
+        "expand_snippets": true,
+        "weight": 1
+      }
+    ],
+
+    "mod_targets": ["remington_870"],
+
+    "pocket_mods": [
+      {
+        "pocket_type": "MAGAZINE",
+
+        "rigid": true,
+
+        "ammo_restriction": { "shot": 5 },
+        "allowed_speedloaders": ["shot_speedloader6", "shot_speedloader8"]
+      }
+    ]
+  },
+  {
+    "id": "chute/arredondo/remington/870:breacher",
+    "copy-from": "@chute",
+    "type": "GUNMOD",
+
+    "//sources": [
+      "https://www.arredondoaccessories.com/product/speed-loader-assist/"
+    ],
+
+    "name": {
+      "str": "speedloader chute for 4-round breaching shotguns",
+      "str_pl": "speedloader chutes for 4-round breaching shotguns"
+    },
+    "description": "A small metal ramp that mounts just behind the loading port of a shotgun.  It allows one to reload their shotgun faster, either by hand or through use of speedloader tubes.",
+
+    "variant_type": "gun",
+    "variants": [
+      {
+        "id": "steel",
+
+        "name": {
+          "str": "Arredondo chute for Remington 870 Breacher",
+          "str_pl": "Arredondo chutes for Remington 870 Breacher"
+        },
+        "description": "A small metal ramp that mounts just behind the loading port of a shotgun.  Enables the use of speedloader tubes, and speeds up reloading by hand.  <variant:steel>",
+        "expand_snippets": true,
+        "weight": 1
+      }
+    ],
+
+    "mod_targets": ["remington_870_breacher"],
+
+    "pocket_mods": [
+      {
+        "pocket_type": "MAGAZINE",
+
+        "rigid": true,
+
+        "ammo_restriction": { "shot": 4 },
+        "allowed_speedloaders": ["shot_speedloader6", "shot_speedloader8"]
+      }
+    ]
+  },
+
+  {
+    "id": "chute/arredondo/benelli/sa",
+    "copy-from": "@chute",
+    "type": "GUNMOD",
+
+    "//sources": [
+      "https://www.arredondoaccessories.com/product/speed-loader-assist/"
+    ],
+
+    "name": {
+      "str": "speedloader chute for 4-round waterfowl shotguns",
+      "str_pl": "speedloader chutes for 4-round waterfowl shotguns"
+    },
+    "description": "A small metal ramp that mounts just behind the loading port of a shotgun.  It allows one to reload their shotgun faster, either by hand or through use of speedloader tubes.",
+
+    "variant_type": "gun",
+    "variants": [
+      {
+        "id": "steel",
+
+        "name": {
+          "str": "Arredondo chute for Benelli M2",
+          "str_pl": "Arredondo chutes for Benelli M2"
+        },
+        "description": "A small metal ramp that mounts just behind the loading port of a shotgun.  Enables the use of speedloader tubes, and speeds up reloading by hand.  <variant:steel>",
+        "expand_snippets": true,
+        "weight": 1
+      }
+    ],
+
+    "mod_targets": ["benelli_sa"],
+
+    "pocket_mods": [
+      {
+        "pocket_type": "MAGAZINE",
+
+        "rigid": true,
+
+        "ammo_restriction": { "shot": 4 },
+        "allowed_speedloaders": ["shot_speedloader6", "shot_speedloader8"]
+      }
+    ]
+  }
+]
