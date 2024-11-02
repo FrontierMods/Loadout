@@ -1,6 +1,7 @@
 [
   {
     "id": "sling/single/magpul/ms3",
+    "copy-from": "@sling",
     "type": "ARMOR",
 
     "//sources": [
@@ -66,50 +67,12 @@
     },
     "volume": "54 ml",
 
-    "material": [
-      { "type": "nylon", "portion": 90 },
-      { "type": "plastic", "portion": 5 },
-      { "type": "steel", "portion": 1 }
-    ],
-    "material_thickness": 1.27,
-
-    "symbol": "[",
-    "color": "green",
-    "looks_like": "slingpack",
-
-    "armor": [
-      {
-        "encumbrance": [0, 16],
-        "coverage": 4,
-        "covers": ["torso"],
-        "specifically_covers": ["torso_hanging_front"]
-      }
-    ],
-
-    "pocket_data": [
-      {
-        "pocket_type": "CONTAINER",
-
-        "holster": true,
-
-        "max_contains_weight": "8200 g",
-        "min_item_volume": "1 L",
-        "max_contains_volume": "8 L",
-        "max_item_length": "120 cm",
-
-        "moves": 80
-      }
-    ],
-
-    "use_action": { "type": "holster" },
-
-    "flags": ["OVERSIZE", "BELTED"],
-
     "price": "59 USD 95 cent"
   },
 
   {
     "id": "sling/double/bfg/vickers",
+    "copy-from": "@sling",
     "type": "ARMOR",
 
     "//sources": [
@@ -162,29 +125,6 @@
       { "type": "nylon", "portion": 90 },
       { "type": "plastic", "portion": 5 }
     ],
-    "material_thickness": 1.27,
-
-    "use_action": {
-      "type": "transform",
-
-      "msg": "You shift the sling to the front of your body.",
-      "menu_text": "Adjust",
-
-      "target": "sling/double/bfg/vickers:front",
-
-      "moves": 120
-    },
-
-    "armor": [
-      {
-        "encumbrance": 0,
-        "volume_encumber_modifier": 0.33,
-
-        "coverage": 5,
-        "covers": ["torso"],
-        "specifically_covers": ["torso_hanging_back"]
-      }
-    ],
 
     "pocket_data": [
       {
@@ -201,11 +141,22 @@
       }
     ],
 
+    "use_action": {
+      "type": "transform",
+
+      "msg": "You shift the sling to the front of your body.",
+      "menu_text": "Adjust",
+
+      "target": "sling/double/bfg/vickers:front",
+
+      "moves": 120
+    },
+
     "price": "82 USD 95 cent"
   },
   {
     "id": "sling/double/bfg/vickers:front",
-    "copy-from": "strap/double/bfg/vickers",
+    "copy-from": "sling/double/bfg/vickers",
     "type": "ARMOR",
 
     "name": {
