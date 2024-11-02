@@ -53,7 +53,7 @@
     "longest_side": "152 mm",
 
     "//material": "steel is presumed to be the material for the hinge",
-    "material": [{ "type": "nylon", "portion": 99 }, "steel"],
+    "material": [{ "type": "nylon", "portion": 99 }, { "type": "steel" }],
 
     "symbol": ":",
     "color": "light_gray",
