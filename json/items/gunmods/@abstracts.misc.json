@@ -1,6 +1,22 @@
 [
   {
+    "abstract": "@gunmod",
+    "type": "GUNMOD",
+
+    "//notes": ["baseline class for classes and non-class attachments"],
+
+    "name": {
+      "str": "baseline gunmod"
+    },
+
+    "symbol": ":",
+    "color": "dark_gray",
+
+    "price_postapoc": "50 cent"
+  },
+  {
     "abstract": "@suppressor_cover",
+    "copy-from": "@gunmod",
     "type": "GUNMOD",
 
     "//notes": [
@@ -37,9 +53,6 @@
 
     "material": ["kevlar", "nylon"],
 
-    "symbol": ":",
-    "color": "dark_gray",
-
     "location": "suppressor cover",
     "install_time": "30 s",
 
@@ -65,6 +78,7 @@
   },
   {
     "abstract": "@laser_sight",
+    "copy-from": "@gunmod",
     "type": "GUNMOD",
 
     "name": {
@@ -76,9 +90,6 @@
     "longest_side": "50 mm",
 
     "material": ["aluminum"],
-
-    "symbol": ":",
-    "color": "dark_gray",
 
     "install_time": "40 s",
 
