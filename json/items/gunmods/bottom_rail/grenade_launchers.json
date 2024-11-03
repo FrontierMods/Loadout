@@ -1,6 +1,7 @@
 [
   {
     "id": "grenade_launcher/lmt/l2b",
+    "copy-from": "underbarrel_base",
     "type": "GUNMOD",
 
     "//sources": [
@@ -55,7 +56,6 @@
     "location": "underbarrel",
     "install_time": "2 m",
     "mod_targets": ["rifle"],
-
     "blacklist_mod": [
       "knife_combat_army",
       "knife_combat",
@@ -63,6 +63,10 @@
       "knife_combat_marine",
       "makeshift_bayonet",
       "sword_bayonet"
+    ],
+    "min_skills": [
+      ["weapon", 1],
+      ["launcher", 1]
     ],
 
     "gun_data": {
@@ -76,11 +80,6 @@
       "blackpowder_tolerance": 60,
       "clip_size": 1
     },
-
-    "min_skills": [
-      ["weapon", 1],
-      ["launcher", 1]
-    ],
 
     "flags": ["NEVER_JAMS", "RELOAD_EJECT"],
 
