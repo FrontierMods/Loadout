@@ -101,6 +101,11 @@
     "type": "MIGRATION",
     "replace": "grenade_launcher/lmt/l2b"
   },
+  {
+    "id": ["m320_mod"],
+    "type": "MIGRATION",
+    "replace": "grenade_launcher/hk/m320"
+  },
 
   {
     "id": ["arredondo_chute"],
@@ -136,5 +141,18 @@
     "id": ["arredondo_chute_benelli_sa"],
     "type": "MIGRATION",
     "replace": "chute/arredondo/benelli/sa"
+  },
+
+  {
+    "//": "SECTION 3: Adjacent item migration",
+
+    "id": ["ugl_buttstock"],
+    "type": "MIGRATION",
+    "replace": "standalone_assembly/m320"
+  },
+  {
+    "id": ["m320"],
+    "type": "MIGRATION",
+    "replace": "grenade_launcher/hk/m320:standalone"
   }
 ]

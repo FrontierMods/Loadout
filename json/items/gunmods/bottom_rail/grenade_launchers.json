@@ -94,5 +94,140 @@
 
     "price": "1979 USD",
     "price_postapoc": "10 USD"
+  },
+
+  {
+    "id": "grenade_launcher/hk/m320",
+    "copy-from": "underbarrel_base",
+    "type": "GUNMOD",
+
+    "//sources": [
+      ["TM 3-22.31", "dimensions", "weight", "barrel length"],
+      [
+        "https://www.thefirearmblog.com/blog/2008/12/05/40mm-m320-grenade-launcher-will-be-replace-m203-next-year/",
+        "price"
+      ]
+    ],
+
+    "//notes": [
+      [
+        "even H&K US site says it can be installed onto Picatinny rail",
+        "https://hk-usa.com/hk-models/ag-ceglm/",
+        "as such, and for reasons of simplicity, we assume this item to be Picatinny-capable, as well"
+      ],
+      [
+        "day/night sight requires 1× DL123A battery to operate",
+        "the sight also features an iron sight"
+      ]
+    ],
+
+    "name": {
+      "str_sp": "M320 grenade launcher"
+    },
+    "description": "A long tube with a trigger and a grip on one end, and a foregrip on the other.  The tube can hold a single 40mm grenade, which it can fire at the target when mounted onto the underbarrel of a gun or in a standalone configuration with a dedicated buttstock.",
+
+    "variant_type": "gun",
+    "variants": [
+      {
+        "id": "black",
+
+        "name": {
+          "str": "M320 grenade launcher"
+        },
+        "description": "A Picatinny-mounted launcher for 40mm grenades.  This model replaces M203, and comes with a modern sight and a foregrip.  Can be mounted onto any gun with a long-enough bottom rail.  Alternatively, it can be connected with a dedicated buttstock in order to be used in a stand-alone configuration, without requiring a gun.  <variant:black>",
+        "expand_snippets": true,
+        "weight": 1
+      }
+    ],
+
+    "//weight": [
+      "launcher: 5 lbs = 2268 g",
+      "day/night sight: 15.5 oz = 439.42 g"
+    ],
+    "weight": "2707 g",
+    "//dimensions": [
+      {
+        "description": "launcher",
+
+        "length": "11.18 in",
+        "width": "2.56 in",
+        "height": "6.38 in",
+        "raw": "2992.28 ml",
+        "trim": 0.5,
+        "result": "1496.14 ml",
+        "notes": [
+          "length and height acquired from visual reference",
+          "width assumed based on visual comparison",
+          "resulting volume intended to include the sight"
+        ]
+      },
+      {
+        "description": "day/night sight",
+
+        "length": "11.18 in",
+        "width": "2.56 in",
+        "height": "6.38 in",
+        "raw": "1045.49 ml",
+        "trim": 0.15,
+        "result": "888.67 ml",
+        "notes": [
+          "length and height acquired from visual reference",
+          "width assumed based on visual comparison",
+          "resulting volume intended to include the sight"
+        ]
+      }
+    ],
+    "volume": "2385 ml",
+    "longest_side": "284 mm",
+
+    "symbol": ":",
+    "color": "dark_gray",
+
+    "material": ["steel", "plastic"],
+
+    "location": "underbarrel",
+    "install_time": "5 m",
+    "mod_targets": ["rifle", "crossbow"],
+    "blacklist_mod": [
+      "knife_combat_army",
+      "knife_combat",
+      "enfield_bayonet",
+      "knife_combat_marine",
+      "makeshift_bayonet",
+      "sword_bayonet"
+    ],
+    "min_skills": [
+      ["weapon", 1],
+      ["launcher", 1]
+    ],
+    "//handling_modifier": "while unwieldy as a way to grip the gun at the front, it comes with a pistol grip and a foregrip",
+    "handling_modifier": 5,
+
+    "gun_data": {
+      "skill": "launcher",
+      "ammo": "40x46mm",
+
+      "barrel_length": "215 mm",
+      "dispersion": 270,
+      "durability": 10,
+
+      "blackpowder_tolerance": 60,
+      "clip_size": 1
+    },
+    "faults": ["fault_gun_blackpowder", "fault_gun_dirt"],
+
+    "pocket_data": [
+      {
+        "pocket_type": "MAGAZINE",
+        "ammo_restriction": {
+          "40x46mm": 1
+        }
+      }
+    ],
+
+    "flags": ["NEVER_JAMS", "RELOAD_EJECT"],
+
+    "price": "3500 USD",
+    "price_postapoc": "10 USD"
   }
 ]
