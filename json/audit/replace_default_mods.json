@@ -1,0 +1,20 @@
+[
+  {
+    "id": "robofac_gun",
+    "copy-from": "robofac_gun",
+    "type": "GUN",
+
+    "name": { "str": "Hub 01 HWP" },
+
+    "//default_mods": "replace hybrid 4x sight with an ACOG and an RMR mounted atop it",
+    "default_mods": [
+      "robofac_handguard",
+      "robofac_laser_sight",
+      "robofac_stock",
+
+      "sight/trijicon/ta01",
+      "sight_mount/rmr/trijicon/rm35",
+      "sight/trijicon/rmr"
+    ]
+  }
+]
