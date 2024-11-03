@@ -1,0 +1,72 @@
+[
+  {
+    "id": "belt_clip/clipdraw/universal",
+    "copy-from": "@gunmod",
+    "type": "GUNMOD",
+
+    "//sources": [
+      "https://www.clipdraw.com/product/sa-b-black-s-silver/",
+      [
+        "https://www.armamat.com/en/p/clipdraw-universal-for-most-revolvers-105702/",
+        "weight reference"
+      ]
+    ],
+
+    "name": {
+      "str": "belt clip"
+    },
+    "description": "A metal clip that, when attached to the side of a pistol, allows its owner to carry it inside the wasteband of their pants, removing the need for a holster.  ",
+
+    "variant_type": "gun",
+    "variants": [
+      {
+        "id": "black",
+
+        "name": {
+          "str": "Clipdraw universal belt clip"
+        },
+        "description": "TODO  <variant:black>",
+        "expand_snippets": true,
+        "weight": 1
+      },
+      {
+        "id": "steel",
+
+        "name": {
+          "str": "Clipdraw universal belt clip"
+        },
+        "description": "TODO  <variant:steel>",
+        "expand_snippets": true,
+        "weight": 1
+      }
+    ],
+
+    "weight": "13 g",
+    "//dimensions": {
+      "length": "3 in",
+      "width": "0.25 in",
+      "height": "0.25 in",
+      "raw": "3 ml",
+      "trim": 0.6,
+      "notes": [
+        "height assumed from visuals",
+        "trim is applied up to a minimum volume of 1 ml"
+      ]
+    },
+    "volume": "1 ml",
+    "longest_side": "76 mm",
+
+    "color": "light_gray",
+
+    "material": ["plastic", "steel"],
+
+    "location": "belt clip",
+    "//mod_targets": "this one is specifically universal and does not require any manipulations specific to a particular model",
+    "mod_targets": ["pistol"],
+    "install_time": "2 m",
+
+    "flags": ["BELT_CLIP", "WATER_FRIENDLY"],
+
+    "price": "24 USD 95 cent"
+  }
+]
