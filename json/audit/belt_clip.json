@@ -1,0 +1,1782 @@
+[
+  {
+    "id": "ruger_lcr_22",
+    "copy-from": "ruger_lcr_22",
+    "type": "GUN",
+
+    "name": {
+      "str": ".22 caliber revolver"
+    },
+
+    "variant_type": "gun",
+    "variants": [
+      {
+        "id": "ruger_lcr_22",
+        "name": { "str_sp": "Ruger LCR .22" },
+        "description": "A compact, double-action-only revolver designed for easy concealment, with a stainless steel cylinder and aluminum frame."
+      }
+    ],
+
+    "valid_mod_locations": [
+      ["barrel", 1],
+      ["bore", 1],
+      ["grip", 1],
+      ["mechanism", 4],
+      ["belt clip", 1],
+      ["rail mount", 1],
+      ["sights mount", 1],
+      ["stock mount", 1],
+      ["underbarrel mount", 1]
+    ]
+  },
+  {
+    "id": "moss_brownie",
+    "copy-from": "moss_brownie",
+    "type": "GUN",
+
+    "name": {
+      "str": ".22 deringer pistol"
+    },
+
+    "variant_type": "gun",
+    "variants": [
+      {
+        "id": "moss_brownie",
+        "name": { "str_sp": "Mossberg Brownie" },
+        "description": "The first gun produced by O.F. Mossberg & Sons, the Brownie is a small pocket pistol marketed to trappers during the early 20th century.  Its four barrels can accept .22 Short and .22 LR cartridges."
+      }
+    ],
+
+    "valid_mod_locations": [
+      ["barrel", 1],
+      ["belt clip", 1],
+      ["bore", 1],
+      ["grip", 1],
+      ["mechanism", 2],
+      ["belt clip", 1],
+      ["sights mount", 1],
+      ["stock mount", 1],
+      ["underbarrel mount", 1]
+    ]
+  },
+  {
+    "id": "ashot",
+    "copy-from": "ashot",
+    "type": "GUN",
+
+    "name": {
+      "str": "12 gauge pistol"
+    },
+
+    "valid_mod_locations": [
+      ["grip", 1],
+      ["stock mount", 1],
+      ["mechanism", 4],
+      ["belt clip", 1],
+      ["sights mount", 1],
+      ["rail mount", 1],
+      ["underbarrel mount", 1]
+    ]
+  },
+  {
+    "id": "m1911-460",
+    "copy-from": "m1911-460",
+    "type": "GUN",
+
+    "name": {
+      "str": "1911-460"
+    },
+
+    "variant_type": "gun",
+    "variants": [
+      {
+        "id": "m1911",
+        "name": { "str": "M1911" },
+        "description": "The M1911 was the US Military standard-issue sidearm for most of the 20th Century.  It remains one of the most popular .45 pistols today."
+      },
+      {
+        "id": "m1911_MEU",
+        "name": { "str": "M45A1" },
+        "description": "The M45A1 supplanted earlier M45 MEUSOC pistols in use by Force Recon elements of Marine Expeditionary Units.  Where the original M45 pistols were gutted M1911A1s hand-fitted by USMC armorers, the updated M45A1s are hardly different from any other commercial 1911 design, save for their dual recoil springs.  Most were replaced in 2016 with Glock 19s due to logistics issues."
+      }
+    ],
+
+    "valid_mod_locations": [
+      ["barrel", 1],
+      ["bore", 1],
+      ["grip", 1],
+      ["mechanism", 4],
+      ["belt clip", 1],
+      ["muzzle", 1],
+      ["rail", 1],
+      ["sights", 1],
+      ["stock", 1],
+      ["underbarrel", 1]
+    ]
+  },
+  {
+    "id": "2_shot_special",
+    "copy-from": "2_shot_special",
+    "type": "GUN",
+
+    "name": {
+      "str": "2 Shot Special"
+    },
+    "valid_mod_locations": [
+      ["grip", 1],
+      ["sights", 1],
+      ["underbarrel", 1],
+      ["belt clip", 1],
+      ["rail mount", 1],
+      ["stock mount", 1]
+    ]
+  },
+  {
+    "id": "fn57",
+    "copy-from": "fn57",
+    "type": "GUN",
+
+    "name": {
+      "str": "5.7mm pistol"
+    },
+
+    "variant_type": "gun",
+    "variants": [
+      {
+        "id": "fn57",
+        "name": {
+          "str": "FN Five-seveN"
+        },
+        "description": "Designed to work with FN's proprietary 5.7x28mm round, the Five-seveN is a lightweight pistol with a very high capacity, best used against armored opponents."
+      }
+    ],
+
+    "valid_mod_locations": [
+      ["barrel", 1],
+      ["grip", 1],
+      ["mechanism", 4],
+      ["belt clip", 1],
+      ["muzzle", 1],
+      ["rail", 1],
+      ["sights", 1],
+      ["stock", 1],
+      ["underbarrel", 1]
+    ]
+  },
+  {
+    "id": "af2011a1_38super",
+    "copy-from": "af2011a1_38super",
+    "type": "GUN",
+
+    "name": {
+      "str_sp": "AF2011A1 .38 Super"
+    },
+
+    "variant_type": "gun",
+    "variants": [
+      {
+        "id": "fn57",
+        "name": {
+          "str": "FN Five-seveN"
+        },
+        "description": "Designed to work with FN's proprietary 5.7x28mm round, the Five-seveN is a lightweight pistol with a very high capacity, best used against armored opponents."
+      }
+    ],
+
+    "valid_mod_locations": [
+      ["barrel", 1],
+      ["bore", 1],
+      ["grip", 1],
+      ["mechanism", 4],
+      ["belt clip", 1],
+      ["rail", 1],
+      ["sights", 1],
+      ["stock", 1],
+      ["underbarrel", 1]
+    ]
+  },
+  {
+    "id": "90two40",
+    "copy-from": "90two40",
+    "type": "GUN",
+
+    "name": {
+      "str": "Beretta 90-two .40 S&W"
+    },
+
+    "valid_mod_locations": [
+      ["barrel", 1],
+      ["bore", 1],
+      ["grip", 1],
+      ["mechanism", 4],
+      ["belt clip", 1],
+      ["muzzle", 1],
+      ["rail", 1],
+      ["sights", 1],
+      ["stock", 1],
+      ["underbarrel", 1]
+    ]
+  },
+  {
+    "id": "px4",
+    "copy-from": "px4",
+    "type": "GUN",
+
+    "name": {
+      "str": "Beretta Px4 Storm"
+    },
+
+    "valid_mod_locations": [
+      ["barrel", 1],
+      ["bore", 1],
+      ["grip", 1],
+      ["mechanism", 4],
+      ["belt clip", 1],
+      ["muzzle", 1],
+      ["rail", 1],
+      ["sights", 1],
+      ["stock", 1],
+      ["underbarrel", 1]
+    ]
+  },
+  {
+    "id": "px4_40",
+    "copy-from": "px4_40",
+    "type": "GUN",
+
+    "name": {
+      "str": "Beretta Px4 Storm .40 S&W"
+    },
+
+    "valid_mod_locations": [
+      ["barrel", 1],
+      ["bore", 1],
+      ["grip", 1],
+      ["mechanism", 4],
+      ["belt clip", 1],
+      ["muzzle", 1],
+      ["rail", 1],
+      ["sights", 1],
+      ["stock", 1],
+      ["underbarrel", 1]
+    ]
+  },
+  {
+    "id": "bond_410",
+    "copy-from": "bond_410",
+    "type": "GUN",
+
+    "name": {
+      "str": "Bond Arms Derringer"
+    },
+
+    "valid_mod_locations": [
+      ["barrel", 1],
+      ["bore", 1],
+      ["grip", 1],
+      ["mechanism", 2],
+      ["belt clip", 1],
+      ["sights mount", 1],
+      ["stock mount", 1],
+      ["underbarrel mount", 1]
+    ]
+  },
+  {
+    "id": "mauser_c96",
+    "copy-from": "mauser_c96",
+    "type": "GUN",
+
+    "name": {
+      "str": "Broomhandle pistol"
+    },
+
+    "variant_type": "gun",
+    "variants": [
+      {
+        "id": "mauser_c96",
+        "name": {
+          "str": "Mauser C96 Broomhandle"
+        },
+        "description": "A late 19th century semi-automatic German pistol with an integral magazine loaded from the top via stripper clips, and quite possibly the most steampunk gun one could ever possibly lay their hands on.  A red number '9' burned and painted into the weapon's broom handle-shaped grip marks it as a variant chambered for 9x19mm rounds.  Both exported for commercial use and produced for the German military during the First World War to make up for production shortages of the standard Luger, this example likely entered the US as a holdover from the Great War.  You suppose that it’s only fitting that one of the globe’s first produced and oldest semi-automatic handguns gets reinstated into service now that the planet’s facing its end."
+      }
+    ],
+
+    "valid_mod_locations": [
+      ["barrel", 1],
+      ["bore", 1],
+      ["grip", 1],
+      ["mechanism", 4],
+      ["belt clip", 1],
+      ["muzzle", 1],
+      ["rail mount", 1],
+      ["sights mount", 1],
+      ["stock mount", 1],
+      ["underbarrel mount", 1]
+    ]
+  },
+  {
+    "id": "hi_power_40",
+    "copy-from": "hi_power_40",
+    "type": "GUN",
+
+    "name": {
+      "str": "Browning Hi-Power .40 S&W"
+    },
+
+    "valid_mod_locations": [
+      ["barrel", 1],
+      ["bore", 1],
+      ["grip", 1],
+      ["mechanism", 4],
+      ["belt clip", 1],
+      ["muzzle", 1],
+      ["rail", 1],
+      ["sights", 1],
+      ["stock", 1],
+      ["underbarrel", 1]
+    ]
+  },
+  {
+    "id": "hi_power_9mm",
+    "copy-from": "hi_power_9mm",
+    "type": "GUN",
+
+    "name": {
+      "str": "Browning Hi-Power 9x19mm"
+    },
+
+    "valid_mod_locations": [
+      ["barrel", 1],
+      ["bore", 1],
+      ["grip", 1],
+      ["mechanism", 4],
+      ["belt clip", 1],
+      ["muzzle", 1],
+      ["rail", 1],
+      ["sights", 1],
+      ["stock", 1],
+      ["underbarrel", 1]
+    ]
+  },
+  {
+    "id": "m1911_10",
+    "copy-from": "m1911_10",
+    "type": "GUN",
+
+    "name": {
+      "str": "Colt Delta Elite pistol"
+    },
+
+    "variant_type": "gun",
+    "variants": [
+      {
+        "id": "m1911_10",
+        "name": {
+          "str": "Colt Delta Elite"
+        },
+        "description": "A modernized, match-grade variant of the venerable M1911 chambered in hard-hitting 10mm Auto.  Early variants were known to crack frames; modern 1911s, like this one, are slotted to prevent such crack formation."
+      }
+    ],
+
+    "valid_mod_locations": [
+      ["barrel", 1],
+      ["bore", 1],
+      ["grip", 1],
+      ["mechanism", 4],
+      ["belt clip", 1],
+      ["muzzle", 1],
+      ["sights mount", 1],
+      ["stock", 1],
+      ["underbarrel mount", 1]
+    ]
+  },
+  {
+    "id": "glock_29",
+    "copy-from": "glock_29",
+    "type": "GUN",
+
+    "name": {
+      "str": "compact Glock pistol"
+    },
+
+    "variant_type": "gun",
+    "variants": [
+      {
+        "id": "glock_29",
+        "name": {
+          "str": "Glock 29"
+        },
+        "description": "A modestly sized version of the highly successful Glock, chambered in hard-hitting 10mm Auto.  It is easy to carry because of its small size, but also recoils fiercely."
+      }
+    ],
+
+    "valid_mod_locations": [
+      ["barrel", 1],
+      ["bore", 1],
+      ["grip", 1],
+      ["mechanism", 4],
+      ["belt clip", 1],
+      ["muzzle", 1],
+      ["rail", 1],
+      ["sights", 1],
+      ["stock", 1],
+      ["underbarrel", 1]
+    ]
+  },
+  {
+    "id": "m18",
+    "copy-from": "m18",
+    "type": "GUN",
+
+    "name": {
+      "str": "compact service handgun"
+    },
+
+    "variant_type": "gun",
+    "variants": [
+      {
+        "id": "m18",
+        "name": {
+          "str": "M18"
+        },
+        "description": "The M18 is a compact, semi-automatic, short recoil operated pistol derived from the SIG Sauer P320 Carry, used by US Armed Forces.  Practically the same as its big brother, the M17, in every respect, the M18 features a moderately shorter slide and barrel which terminates at the end of the frame rather than extending partway beyond it like the M17."
+      }
+    ],
+
+    "valid_mod_locations": [
+      ["barrel", 1],
+      ["bore", 1],
+      ["grip", 1],
+      ["mechanism", 4],
+      ["belt clip", 1],
+      ["muzzle", 1],
+      ["rail", 1],
+      ["sights", 1],
+      ["stock", 1],
+      ["underbarrel", 1]
+    ]
+  },
+  {
+    "id": "cz75",
+    "copy-from": "cz75",
+    "type": "GUN",
+
+    "name": {
+      "str": "CZ 75 B"
+    },
+
+    "valid_mod_locations": [
+      ["barrel", 1],
+      ["bore", 1],
+      ["grip", 1],
+      ["mechanism", 4],
+      ["belt clip", 1],
+      ["muzzle", 1],
+      ["rail", 1],
+      ["sights", 1],
+      ["stock", 1],
+      ["underbarrel", 1]
+    ]
+  },
+  {
+    "id": "STI_DS_10",
+    "copy-from": "STI_DS_10",
+    "type": "GUN",
+
+    "name": {
+      "str": "double-stack 10mm 1911"
+    },
+
+    "variant_type": "gun",
+    "variants": [
+      {
+        "id": "STI_DS_10",
+        "name": {
+          "str": "STI Tactical 2011 DS 10mm"
+        },
+        "description": "A next-gen model of the venerable 1911, ready to win World War Z.  Modernized and manufactured by Staccato, sporting a double-stack magwell, sleek solid-steel frame, and ergonomic grip; favored by certain dog-loving assassins.  This model is chambered in 10mm Auto.",
+        "weight": 1
+      }
+    ],
+
+    "valid_mod_locations": [
+      ["barrel", 1],
+      ["bore", 1],
+      ["grip", 1],
+      ["mechanism", 4],
+      ["belt clip", 1],
+      ["muzzle", 1],
+      ["rail", 1],
+      ["sights", 1],
+      ["stock", 1],
+      ["underbarrel", 1]
+    ]
+  },
+  {
+    "id": "witness_10",
+    "copy-from": "witness_10",
+    "type": "GUN",
+
+    "name": {
+      "str": "EAA Witness pistol"
+    },
+
+    "variant_type": "gun",
+    "variants": [
+      {
+        "id": "witness_10",
+        "name": {
+          "str": "EAA Witness 10mm"
+        },
+        "description": "The EAA Witness is a modified variant of the CZ-75, produced in Italy by Tanfoglio.  This is the standard steel framed version chambered in 10mm Auto."
+      }
+    ],
+
+    "valid_mod_locations": [
+      ["barrel", 1],
+      ["bore", 1],
+      ["grip", 1],
+      ["mechanism", 4],
+      ["belt clip", 1],
+      ["muzzle", 1],
+      ["sights mount", 1],
+      ["stock", 1],
+      ["underbarrel mount", 1]
+    ]
+  },
+  {
+    "id": "flaregun",
+    "copy-from": "flaregun",
+    "type": "GUN",
+
+    "name": {
+      "str": "flaregun"
+    },
+
+    "valid_mod_locations": [
+      ["grip", 1],
+      ["stock", 1],
+      ["belt clip", 1],
+      ["rail mount", 1],
+      ["sights mount", 1],
+      ["underbarrel mount", 1]
+    ]
+  },
+  {
+    "id": "glock_22",
+    "copy-from": "glock_22",
+    "type": "GUN",
+
+    "name": {
+      "str_sp": "Glock 22"
+    },
+
+    "valid_mod_locations": [
+      ["barrel", 1],
+      ["bore", 1],
+      ["grip", 1],
+      ["mechanism", 4],
+      ["belt clip", 1],
+      ["muzzle", 1],
+      ["rail", 1],
+      ["sights", 1],
+      ["stock", 1],
+      ["underbarrel", 1]
+    ]
+  },
+  {
+    "id": "glock_31",
+    "copy-from": "glock_31",
+    "type": "GUN",
+
+    "name": {
+      "str_sp": "Glock 31"
+    },
+
+    "valid_mod_locations": [
+      ["barrel", 1],
+      ["bore", 1],
+      ["grip", 1],
+      ["mechanism", 4],
+      ["belt clip", 1],
+      ["muzzle", 1],
+      ["rail", 1],
+      ["sights", 1],
+      ["stock", 1],
+      ["underbarrel", 1]
+    ]
+  },
+  {
+    "id": "glock_19",
+    "copy-from": "glock_19",
+    "type": "GUN",
+
+    "name": {
+      "str": "Glock carry pistol"
+    },
+
+    "variant_type": "gun",
+    "variants": [
+      {
+        "id": "glock_19",
+        "name": {
+          "str": "Glock 19"
+        },
+        "description": "Possibly the most popular pistol in existence, the Glock 19 can be summed up as being fundamentally a more compact brother to the full-sized Glock 17 pistol.  Sporting a mainly polymer-based design, the Glock 19 is often derided for its plastic construction which lends the handgun a deceptively flimsy feel.  Even so, the Glock 19 remains both a remarkably reliable firearm and a quite shootable gun in its own right."
+      }
+    ],
+
+    "valid_mod_locations": [
+      ["barrel", 1],
+      ["bore", 1],
+      ["grip", 1],
+      ["mechanism", 4],
+      ["belt clip", 1],
+      ["muzzle", 1],
+      ["rail", 1],
+      ["sights", 1],
+      ["stock", 1],
+      ["underbarrel", 1]
+    ]
+  },
+  {
+    "id": "glock_17",
+    "copy-from": "glock_17",
+    "type": "GUN",
+
+    "name": {
+      "str": "Glock duty pistol"
+    },
+
+    "variant_type": "gun",
+    "variants": [
+      {
+        "id": "glock_17",
+        "name": {
+          "str": "Glock 17"
+        },
+        "description": "Commonly seen tucked away in the holsters of police officers, certain military professionals, and civilian shooters, this is a larger, older, service-oriented version of the popular Glock 19.  Similarly firing the 9x19mm cartridge and using higher capacity magazines, it performs largely the same, but due to the longer magazine well, it can't fit magazines shorter than the standard 17-round ones."
+      }
+    ],
+
+    "valid_mod_locations": [
+      ["barrel", 1],
+      ["bore", 1],
+      ["grip", 1],
+      ["mechanism", 4],
+      ["belt clip", 1],
+      ["muzzle", 1],
+      ["rail", 1],
+      ["sights", 1],
+      ["stock", 1],
+      ["underbarrel", 1]
+    ]
+  },
+  {
+    "id": "glock_18c",
+    "copy-from": "glock_18c",
+    "type": "GUN",
+
+    "name": {
+      "str": "Glock machine pistol"
+    },
+
+    "variant_type": "gun",
+    "variants": [
+      {
+        "id": "glock_18c",
+        "name": {
+          "str": "Glock 18C"
+        },
+        "description": "A selective-fire variation on the Glock 17, originally designed for Austria's EKO Cobra unit.  It has compensator cuts along its barrel to make recoil more manageable."
+      }
+    ],
+
+    "valid_mod_locations": [
+      ["barrel", 1],
+      ["bore", 1],
+      ["grip", 1],
+      ["mechanism", 4],
+      ["belt clip", 1],
+      ["muzzle", 1],
+      ["rail", 1],
+      ["sights", 1],
+      ["stock", 1],
+      ["underbarrel", 1]
+    ]
+  },
+  {
+    "id": "glock_20",
+    "copy-from": "glock_20",
+    "type": "GUN",
+
+    "name": {
+      "str": "Glock pistol"
+    },
+
+    "variant_type": "gun",
+    "variants": [
+      {
+        "id": "glock_20",
+        "name": {
+          "str": "Glock 20"
+        },
+        "description": "A full-sized version of the highly successful Glock, chambered in hard-hitting 10mm Auto.  The third model of Glock designed, all other full-sized, large framed Glocks are adaptations of this one."
+      }
+    ],
+
+    "valid_mod_locations": [
+      ["barrel", 1],
+      ["bore", 1],
+      ["grip", 1],
+      ["mechanism", 4],
+      ["belt clip", 1],
+      ["muzzle", 1],
+      ["rail", 1],
+      ["sights", 1],
+      ["stock", 1],
+      ["underbarrel", 1]
+    ]
+  },
+  {
+    "id": "glock_21",
+    "copy-from": "glock_21",
+    "type": "GUN",
+
+    "name": {
+      "str": "Glock pistol"
+    },
+
+    "variant_type": "gun",
+    "variants": [
+      {
+        "id": "glock_21",
+        "name": {
+          "str": "Glock 21"
+        },
+        "description": "A full-sized version of the highly successful Glock.  This model is chambered in .45 ACP."
+      }
+    ],
+
+    "valid_mod_locations": [
+      ["barrel", 1],
+      ["bore", 1],
+      ["grip", 1],
+      ["mechanism", 4],
+      ["belt clip", 1],
+      ["muzzle", 1],
+      ["rail", 1],
+      ["sights", 1],
+      ["stock", 1],
+      ["underbarrel", 1]
+    ]
+  },
+  {
+    "id": "surv_six_shooter",
+    "copy-from": "surv_six_shooter",
+    "type": "GUN",
+
+    "name": {
+      "str": "handmade six-shooter"
+    },
+
+    "valid_mod_locations": [
+      ["barrel", 1],
+      ["bore", 1],
+      ["grip", 1],
+      ["sights", 1],
+      ["stock", 1],
+      ["belt clip", 1],
+      ["underbarrel", 1],
+      ["rail mount", 1]
+    ]
+  },
+  {
+    "id": "hptc9",
+    "copy-from": "hptc9",
+    "type": "GUN",
+
+    "name": {
+      "str": "Hi-Point C-9"
+    },
+
+    "valid_mod_locations": [
+      ["barrel", 1],
+      ["bore", 1],
+      ["grip", 1],
+      ["mechanism", 4],
+      ["belt clip", 1],
+      ["muzzle", 1],
+      ["rail", 1],
+      ["sights", 1],
+      ["stock", 1],
+      ["underbarrel", 1]
+    ]
+  },
+  {
+    "id": "hptcf380",
+    "copy-from": "hptcf380",
+    "type": "GUN",
+
+    "name": {
+      "str": "Hi-Point CF-380"
+    },
+
+    "valid_mod_locations": [
+      ["barrel", 1],
+      ["bore", 1],
+      ["grip", 1],
+      ["mechanism", 4],
+      ["belt clip", 1],
+      ["muzzle", 1],
+      ["rail", 1],
+      ["sights", 1],
+      ["stock", 1],
+      ["underbarrel", 1]
+    ]
+  },
+  {
+    "id": "hptjcp",
+    "copy-from": "hptjcp",
+    "type": "GUN",
+
+    "name": {
+      "str": "Hi-Point Model JCP"
+    },
+
+    "valid_mod_locations": [
+      ["barrel", 1],
+      ["bore", 1],
+      ["grip", 1],
+      ["mechanism", 4],
+      ["belt clip", 1],
+      ["muzzle", 1],
+      ["rail", 1],
+      ["sights", 1],
+      ["stock", 1],
+      ["underbarrel", 1]
+    ]
+  },
+  {
+    "id": "hptjhp",
+    "copy-from": "hptjhp",
+    "type": "GUN",
+
+    "name": {
+      "str": "Hi-Point pistol"
+    },
+
+    "variant_type": "gun",
+    "variants": [
+      {
+        "id": "hptjhp",
+        "name": {
+          "str": "Hi-Point Model JHP"
+        },
+        "description": "The Hi-Point Model JHP is a blowback operated semi-automatic pistol designed by Hi-Point Firearms, which is known for making inexpensive firearms, and for making said firearms bulky and uncomfortable.  Hi-Points have slides made with a zinc pot-metal which is relatively fragile compared to steel slides."
+      }
+    ],
+
+    "valid_mod_locations": [
+      ["barrel", 1],
+      ["bore", 1],
+      ["grip", 1],
+      ["mechanism", 4],
+      ["belt clip", 1],
+      ["muzzle", 1],
+      ["rail", 1],
+      ["sights", 1],
+      ["stock", 1],
+      ["underbarrel", 1]
+    ]
+  },
+  {
+    "id": "p50",
+    "copy-from": "p50",
+    "type": "GUN",
+
+    "name": {
+      "str": "high-capacity 5.7mm handgun"
+    },
+
+    "variant_type": "gun",
+    "variants": [
+      {
+        "id": "p50",
+        "name": {
+          "str": "Kel-Tec P50"
+        },
+        "description": "Unique, adaptable, and extremely retro, the Kel-Tec P50 is a truly bizarre semi-automatic pistol.  Having been regarded as possibly one of the most innovative firearms from Kel-Tec’s entire line-up of guns, the P50 makes use of the high velocity 5.7x28mm cartridge, and feeds from standard FN P90 magazines.  Boasting ambidextrous controls, an AR-15-like T-shaped charging handle, and a reload which involves swinging the receiver and barrel assemblies up and away from the frame to insert the magazine horizontally over the grip, this weapon lends a decidedly retro-futuristic touch to almost any situation."
+      }
+    ],
+
+    "valid_mod_locations": [
+      ["barrel", 1],
+      ["grip", 1],
+      ["mechanism", 4],
+      ["belt clip", 1],
+      ["muzzle", 1],
+      ["rail", 1],
+      ["sights", 1],
+      ["stock", 1],
+      ["underbarrel", 1]
+    ]
+  },
+  {
+    "id": "glock_40",
+    "copy-from": "glock_40",
+    "type": "GUN",
+
+    "name": {
+      "str": "hunter Glock pistol"
+    },
+
+    "variant_type": "gun",
+    "variants": [
+      {
+        "id": "glock_40",
+        "name": {
+          "str": "Glock 40"
+        },
+        "description": "A full-sized, long-slide version of the highly successful Glock, chambered in hard-hitting 10mm Auto.  The extra barrel length makes for slightly more accurate and powerful shots, and the extra slide length means the sights are a little easier to use."
+      }
+    ],
+
+    "valid_mod_locations": [
+      ["barrel", 1],
+      ["bore", 1],
+      ["grip", 1],
+      ["mechanism", 4],
+      ["belt clip", 1],
+      ["muzzle", 1],
+      ["rail", 1],
+      ["sights", 1],
+      ["stock", 1],
+      ["underbarrel", 1]
+    ]
+  },
+  {
+    "id": "p08",
+    "copy-from": "p08",
+    "type": "GUN",
+
+    "name": {
+      "str": "Luger P08"
+    },
+
+    "valid_mod_locations": [
+      ["barrel", 1],
+      ["bore", 1],
+      ["grip", 1],
+      ["mechanism", 4],
+      ["belt clip", 1],
+      ["muzzle", 1],
+      ["rail mount", 1],
+      ["sights mount", 1],
+      ["stock mount", 1],
+      ["underbarrel mount", 1]
+    ]
+  },
+  {
+    "id": "m11",
+    "copy-from": "m11",
+    "type": "GUN",
+
+    "name": {
+      "str": "M11"
+    },
+
+    "valid_mod_locations": [
+      ["barrel", 1],
+      ["bore", 1],
+      ["grip", 1],
+      ["mechanism", 4],
+      ["belt clip", 1],
+      ["muzzle", 1],
+      ["rail", 1],
+      ["sights", 1],
+      ["stock", 1],
+      ["underbarrel", 1]
+    ]
+  },
+  {
+    "id": "m1911",
+    "copy-from": "m1911",
+    "type": "GUN",
+
+    "name": {
+      "str": "M1911 pistol"
+    },
+
+    "variant_type": "gun",
+    "variants": [
+      {
+        "id": "m1911",
+        "name": {
+          "str": "M1911"
+        },
+        "//": "You can get 'em for over US$1K if you want.  This is a fairly cheap remake.",
+        "description": "The M1911 was the US Military standard-issue sidearm for most of the 20th Century.  It remains one of the most popular .45 pistols today."
+      },
+      {
+        "id": "m1911_MEU",
+        "name": {
+          "str": "M45A1"
+        },
+        "description": "The M45A1 supplanted earlier M45 MEUSOC pistols in use by Force Recon elements of Marine Expeditionary Units.  Where the original M45 pistols were gutted M1911A1s hand-fitted by USMC armorers, the updated M45A1s are hardly different from any other commercial 1911 design, save for their dual recoil springs.  Most were replaced in 2016 with Glock 19s due to logistics issues."
+      }
+    ],
+
+    "valid_mod_locations": [
+      ["barrel", 1],
+      ["bore", 1],
+      ["grip", 1],
+      ["mechanism", 4],
+      ["belt clip", 1],
+      ["muzzle", 1],
+      ["rail", 1],
+      ["sights", 1],
+      ["stock", 1],
+      ["underbarrel", 1]
+    ]
+  },
+  {
+    "id": "m1911a1_38super",
+    "copy-from": "m1911a1_38super",
+    "type": "GUN",
+
+    "name": {
+      "str": "M1911A1"
+    },
+
+    "valid_mod_locations": [
+      ["barrel", 1],
+      ["bore", 1],
+      ["grip", 1],
+      ["mechanism", 4],
+      ["belt clip", 1],
+      ["muzzle", 1],
+      ["rail", 1],
+      ["sights", 1],
+      ["stock", 1],
+      ["underbarrel", 1]
+    ]
+  },
+  {
+    "id": "m9",
+    "copy-from": "m9",
+    "type": "GUN",
+
+    "name": {
+      "str": "M9 combat pistol"
+    },
+
+    "variant_type": "gun",
+    "variants": [
+      {
+        "id": "m9",
+        "name": {
+          "str_sp": "Beretta M9A1"
+        },
+        "description": "An iconic 9x19mm pistol, the M9 was the standard issue sidearm of the US armed forces from 1985 until only recently.  It was formerly popular amongst law enforcement before the advent of commercially available polymer-framed handguns and the FBI's adoption of .40 S&W."
+      },
+      {
+        "id": "90two",
+        "name": {
+          "str": "Beretta 90-two"
+        },
+        "description": "A more modern version of Beretta's popular 92 series of handguns, the 90-two performs largely the same.  The main difference is a sleeker, almost futuristic-looking design owed in large part to the polymer underbarrel rail cover."
+      }
+    ],
+
+    "valid_mod_locations": [
+      ["barrel", 1],
+      ["bore", 1],
+      ["grip", 1],
+      ["mechanism", 4],
+      ["belt clip", 1],
+      ["muzzle", 1],
+      ["rail", 1],
+      ["sights", 1],
+      ["stock", 1],
+      ["underbarrel", 1]
+    ]
+  },
+  {
+    "id": "makarov",
+    "copy-from": "makarov",
+    "type": "GUN",
+
+    "name": {
+      "str": "Makarov pistol"
+    },
+
+    "variant_type": "gun",
+    "variants": [
+      {
+        "id": "makarov",
+        "name": {
+          "str": "Makarov PM"
+        },
+        "description": "A svelte, Cold War era handgun of Russian heritage, this former military pistol fires the Soviet 9x18mm cartridge.  Constructed completely out of steel components and experiencing relative popularity throughout eastern European countries, it was a favored backup weapon amongst USSR security forces, soldiers, and covert units."
+      }
+    ],
+
+    "valid_mod_locations": [
+      ["barrel", 1],
+      ["bore", 1],
+      ["grip", 1],
+      ["mechanism", 4],
+      ["belt clip", 1],
+      ["muzzle", 1],
+      ["rail", 1],
+      ["sights", 1],
+      ["stock", 1],
+      ["underbarrel", 1]
+    ]
+  },
+  {
+    "id": "walther_ppq_45",
+    "copy-from": "walther_ppq_45",
+    "type": "GUN",
+
+    "name": {
+      "str": "PPQ pistol"
+    },
+
+    "variant_type": "gun",
+    "variants": [
+      {
+        "id": "walther_ppq_45",
+        "name": {
+          "str": "Walther PPQ 45"
+        },
+        "description": "The Walther PPQ is a semi-automatic pistol originating from the Walther P99QA, and maintains compatibility with some of its predecessor's accessories.  This model is chambered in .45 ACP."
+      }
+    ],
+
+    "valid_mod_locations": [
+      ["barrel", 1],
+      ["bore", 1],
+      ["grip", 1],
+      ["mechanism", 4],
+      ["belt clip", 1],
+      ["muzzle", 1],
+      ["rail", 1],
+      ["sights", 1],
+      ["stock", 1],
+      ["underbarrel", 1]
+    ]
+  },
+  {
+    "id": "mauser_m714",
+    "copy-from": "mauser_m714",
+    "type": "GUN",
+
+    "name": {
+      "str": "reproduction Broomhandle pistol"
+    },
+
+    "variant_type": "gun",
+    "variants": [
+      {
+        "id": "mauser_m714",
+        "name": {
+          "str": "M714 Broomhandle"
+        },
+        "description": "Recognized the world over as one of the first practical self-loading pistols, the Mauser C96 and its derivatives are nearly universally regarded as some of the most classic and rugged guns in history, with the model being praised as a true marvel of industrial craftsmanship.  However, what rests before you is not an original production C96, but rather a modern American spin on the original Mauser recipe.  Feeding from detachable box magazines rather than an internal clip, the M714 is crafted out of a mix of modern and surplus parts, being chambered for 9x19mm rounds, with some other models being offered in the Mauser’s own 7.63x25mm cartridge."
+      }
+    ],
+
+    "valid_mod_locations": [
+      ["barrel", 1],
+      ["bore", 1],
+      ["grip", 1],
+      ["mechanism", 4],
+      ["belt clip", 1],
+      ["muzzle", 1],
+      ["rail mount", 1],
+      ["sights mount", 1],
+      ["stock mount", 1],
+      ["underbarrel mount", 1]
+    ]
+  },
+  {
+    "id": "ruger_57",
+    "copy-from": "ruger_57",
+    "type": "GUN",
+
+    "name": {
+      "str": "Ruger-57 handgun"
+    },
+
+    "variant_type": "gun",
+    "variants": [
+      {
+        "id": "ruger_57",
+        "name": {
+          "str": "Ruger-57"
+        },
+        "description": "A full-sized polymer framed handgun chambered in the unusual 5.7x28mm cartridge, the Ruger-57 was one of the first commercially available 5.7mm pistols on the market, with its main competitor being FN’s decades-old, and far pricier, Five-seveN pistol.  Featuring a lightweight ergonomic design, 1911-style thumb-safety, a high visibility green front-sight with adjustable black rear iron-sights, and a price point which hovered a good 500 dollars below its competition, the Ruger-57 made the comparatively niche 5.7x28mm round far more accessible to a wider margin of potential shooters."
+      }
+    ],
+
+    "valid_mod_locations": [
+      ["barrel", 1],
+      ["grip", 1],
+      ["mechanism", 4],
+      ["belt clip", 1],
+      ["muzzle", 1],
+      ["rail", 1],
+      ["sights", 1],
+      ["stock", 1],
+      ["underbarrel", 1]
+    ]
+  },
+  {
+    "id": "sw_22",
+    "copy-from": "sw_22",
+    "type": "GUN",
+
+    "name": {
+      "str": "S&W target pistol"
+    },
+
+    "variant_type": "gun",
+    "variants": [
+      {
+        "id": "sw_22",
+        "name": {
+          "str_sp": "S&W 22A"
+        },
+        "description": "A modest offering from the Smith and Wesson (S&W) gun company, this is a medium sized pistol that fires the .22 LR cartridge.  Featuring an integrated rail for optics mounting, it was a popular .22 handgun amongst target shooters."
+      }
+    ],
+
+    "valid_mod_locations": [
+      ["barrel", 1],
+      ["bore", 1],
+      ["grip", 1],
+      ["mechanism", 4],
+      ["belt clip", 1],
+      ["muzzle", 1],
+      ["rail mount", 1],
+      ["sights", 1],
+      ["stock", 1],
+      ["underbarrel mount", 1]
+    ]
+  },
+  {
+    "id": "m17",
+    "copy-from": "m17",
+    "type": "GUN",
+
+    "name": {
+      "str": "service handgun"
+    },
+
+    "variant_type": "gun",
+    "variants": [
+      {
+        "id": "m17",
+        "name": {
+          "str": "M17"
+        },
+        "description": "The M17 is an army issued semi-automatic, short recoil operated pistol derived from the SIG Sauer P320."
+      }
+    ],
+
+    "valid_mod_locations": [
+      ["barrel", 1],
+      ["bore", 1],
+      ["grip", 1],
+      ["mechanism", 4],
+      ["belt clip", 1],
+      ["muzzle", 1],
+      ["rail", 1],
+      ["sights", 1],
+      ["stock", 1],
+      ["underbarrel", 1]
+    ]
+  },
+  {
+    "id": "p226_357sig",
+    "copy-from": "p226_357sig",
+    "type": "GUN",
+
+    "name": {
+      "str": "SIG P226"
+    },
+
+    "valid_mod_locations": [
+      ["barrel", 1],
+      ["bore", 1],
+      ["grip", 1],
+      ["mechanism", 4],
+      ["belt clip", 1],
+      ["muzzle", 1],
+      ["rail", 1],
+      ["sights", 1],
+      ["stock", 1],
+      ["underbarrel", 1]
+    ]
+  },
+  {
+    "id": "p226_9mm",
+    "copy-from": "p226_9mm",
+    "type": "GUN",
+
+    "name": {
+      "str": "SIG P226 MK25"
+    },
+
+    "valid_mod_locations": [
+      ["barrel", 1],
+      ["bore", 1],
+      ["grip", 1],
+      ["mechanism", 4],
+      ["belt clip", 1],
+      ["muzzle", 1],
+      ["rail", 1],
+      ["sights", 1],
+      ["stock", 1],
+      ["underbarrel", 1]
+    ]
+  },
+  {
+    "id": "p320_357sig",
+    "copy-from": "p320_357sig",
+    "type": "GUN",
+
+    "name": {
+      "str": "SIG P320 Compact"
+    },
+
+    "valid_mod_locations": [
+      ["barrel", 1],
+      ["bore", 1],
+      ["grip", 1],
+      ["mechanism", 4],
+      ["belt clip", 1],
+      ["muzzle", 1],
+      ["rail", 1],
+      ["sights", 1],
+      ["stock", 1],
+      ["underbarrel", 1]
+    ]
+  },
+  {
+    "id": "p220_10",
+    "copy-from": "p220_10",
+    "type": "GUN",
+
+    "name": {
+      "str": "SIG pistol"
+    },
+
+    "variant_type": "gun",
+    "variants": [
+      {
+        "id": "p220_10",
+        "name": {
+          "str": "SIG P220 10mm"
+        },
+        "description": "The SIG Sauer P220 was developed for the Swiss military in 1975, and its simplified action was later used in most other SIG Sauer designs, including the P226.  The all-steel construction adds heft to this model, which is chambered in hard-hitting 10mm Auto."
+      }
+    ],
+
+    "valid_mod_locations": [
+      ["barrel", 1],
+      ["bore", 1],
+      ["grip", 1],
+      ["mechanism", 4],
+      ["belt clip", 1],
+      ["muzzle", 1],
+      ["rail", 1],
+      ["sights", 1],
+      ["stock", 1],
+      ["underbarrel", 1]
+    ]
+  },
+  {
+    "id": "sig_40",
+    "copy-from": "sig_40",
+    "type": "GUN",
+
+    "name": {
+      "str": "SIG Pro .40"
+    },
+
+    "valid_mod_locations": [
+      ["barrel", 1],
+      ["bore", 1],
+      ["grip", 1],
+      ["mechanism", 4],
+      ["belt clip", 1],
+      ["muzzle", 1],
+      ["rail", 1],
+      ["sights", 1],
+      ["stock", 1],
+      ["underbarrel", 1]
+    ]
+  },
+  {
+    "id": "sp2022",
+    "copy-from": "sp2022",
+    "type": "GUN",
+
+    "name": {
+      "str": "SIG Pro SP2022 9mm"
+    },
+
+    "valid_mod_locations": [
+      ["barrel", 1],
+      ["bore", 1],
+      ["grip", 1],
+      ["mechanism", 4],
+      ["belt clip", 1],
+      ["muzzle", 1],
+      ["rail", 1],
+      ["sights", 1],
+      ["stock", 1],
+      ["underbarrel", 1]
+    ]
+  },
+  {
+    "id": "sig_p230",
+    "copy-from": "sig_p230",
+    "type": "GUN",
+
+    "name": {
+      "str": "SIG Sauer P230"
+    },
+
+    "valid_mod_locations": [
+      ["barrel", 1],
+      ["bore", 1],
+      ["grip", 1],
+      ["mechanism", 4],
+      ["belt clip", 1],
+      ["muzzle", 1],
+      ["rail", 1],
+      ["sights", 1],
+      ["stock", 1],
+      ["underbarrel", 1]
+    ]
+  },
+  {
+    "id": "sig_mosquito",
+    "copy-from": "sig_mosquito",
+    "type": "GUN",
+
+    "name": {
+      "str": "SIG training pistol"
+    },
+
+    "variant_type": "gun",
+    "variants": [
+      {
+        "id": "sig_mosquito",
+        "name": {
+          "str_sp": "SIG Mosquito"
+        },
+        "description": "A medium sized, .22 caliber semi-automatic pistol, for training with a pistol similar to more powerful pistols.  Built from aluminum and polymer components, the weapon is lightweight and concealable, but its chambering is not very powerful."
+      }
+    ],
+
+    "valid_mod_locations": [
+      ["barrel", 1],
+      ["bore", 1],
+      ["grip", 1],
+      ["mechanism", 4],
+      ["belt clip", 1],
+      ["muzzle", 1],
+      ["rail mount", 1],
+      ["sights mount", 1],
+      ["stock", 1],
+      ["underbarrel", 1]
+    ]
+  },
+  {
+    "id": "pressin",
+    "copy-from": "pressin",
+    "type": "GUN",
+
+    "name": {
+      "str_sp": "the Pressin"
+    },
+
+    "valid_mod_locations": [["belt clip", 1]]
+  },
+  {
+    "id": "tokarev",
+    "copy-from": "tokarev",
+    "type": "GUN",
+
+    "name": {
+      "str": "Tokarev handgun"
+    },
+
+    "variant_type": "gun",
+    "variants": [
+      {
+        "id": "tokarev",
+        "name": {
+          "str_sp": "Tokarev TT-33"
+        },
+        "description": "The Tokarev TT-33 is an antique Russian semiautomatic pistol, famous for its durability, accuracy, and uncomfortable grip angle.  It was chambered for the 7.62x25mm due to the popularity of the C96 pistol among Russian revolutionaries."
+      }
+    ],
+
+    "valid_mod_locations": [
+      ["barrel", 1],
+      ["bore", 1],
+      ["grip", 1],
+      ["mechanism", 4],
+      ["belt clip", 1],
+      ["muzzle", 1],
+      ["rail", 1],
+      ["sights", 1],
+      ["stock", 1],
+      ["underbarrel", 1]
+    ]
+  },
+  {
+    "id": "usp_9mm",
+    "copy-from": "usp_9mm",
+    "type": "GUN",
+
+    "name": {
+      "str": "USP 9x19mm"
+    },
+
+    "valid_mod_locations": [
+      ["barrel", 1],
+      ["bore", 1],
+      ["grip", 1],
+      ["mechanism", 4],
+      ["belt clip", 1],
+      ["muzzle", 1],
+      ["rail", 1],
+      ["sights", 1],
+      ["stock", 1],
+      ["underbarrel", 1]
+    ]
+  },
+  {
+    "id": "usp_45",
+    "copy-from": "usp_45",
+    "type": "GUN",
+
+    "name": {
+      "str": "USP pistol"
+    },
+
+    "variant_type": "gun",
+    "variants": [
+      {
+        "id": "usp_45",
+        "name": {
+          "str": "USP .45"
+        },
+        "description": "A popular pistol, widely used among law enforcement.  Extensively tested for durability, it has been found to stay accurate even after being subjected to extreme abuse."
+      },
+      {
+        "id": "mk23",
+        "name": {
+          "str": "MK 23 MOD 0"
+        },
+        "description": "Jokingly referred to as \"The World's Only Crew-Served Pistol\", this massive pistol was designed as a primary weapon for select \"special operators\".  Its cumbersome nature, the introduction of the derivative HK USP series, and the logistics of getting .45 ACP ammunition in theater doomed this behemoth to US SOCOM armories.  Like the USP, the MK 23 is a remarkably reliable gun; someone could probably take out a nuclear-equipped walking tank with this in their holster."
+      }
+    ],
+
+    "valid_mod_locations": [
+      ["barrel", 1],
+      ["bore", 1],
+      ["grip", 1],
+      ["mechanism", 4],
+      ["belt clip", 1],
+      ["muzzle", 1],
+      ["rail", 1],
+      ["sights", 1],
+      ["stock", 1],
+      ["underbarrel", 1]
+    ]
+  },
+  {
+    "id": "walther_ccp",
+    "copy-from": "walther_ccp",
+    "type": "GUN",
+
+    "name": {
+      "str": "Walther CCP"
+    },
+
+    "valid_mod_locations": [
+      ["barrel", 1],
+      ["bore", 1],
+      ["grip", 1],
+      ["mechanism", 4],
+      ["belt clip", 1],
+      ["muzzle", 1],
+      ["rail", 1],
+      ["sights", 1],
+      ["stock", 1],
+      ["underbarrel", 1]
+    ]
+  },
+  {
+    "id": "walther_p38",
+    "copy-from": "walther_p38",
+    "type": "GUN",
+
+    "name": {
+      "str": "Walther P38"
+    },
+
+    "valid_mod_locations": [
+      ["barrel", 1],
+      ["bore", 1],
+      ["grip", 1],
+      ["mechanism", 4],
+      ["belt clip", 1],
+      ["muzzle", 1],
+      ["rail", 1],
+      ["sights", 1],
+      ["stock", 1],
+      ["underbarrel", 1]
+    ]
+  },
+  {
+    "id": "walther_ppk",
+    "copy-from": "walther_ppk",
+    "type": "GUN",
+
+    "name": {
+      "str": "Walther PPK"
+    },
+
+    "valid_mod_locations": [
+      ["barrel", 1],
+      ["bore", 1],
+      ["grip", 1],
+      ["mechanism", 4],
+      ["belt clip", 1],
+      ["muzzle", 1],
+      ["rail", 1],
+      ["sights", 1],
+      ["stock", 1],
+      ["underbarrel", 1]
+    ]
+  },
+  {
+    "id": "walther_ppq_40",
+    "copy-from": "walther_ppq_40",
+    "type": "GUN",
+
+    "name": {
+      "str": "Walther PPQ .40 S&W"
+    },
+
+    "valid_mod_locations": [
+      ["barrel", 1],
+      ["bore", 1],
+      ["grip", 1],
+      ["mechanism", 4],
+      ["belt clip", 1],
+      ["muzzle", 1],
+      ["rail", 1],
+      ["sights", 1],
+      ["stock", 1],
+      ["underbarrel", 1]
+    ]
+  },
+  {
+    "id": "walther_ppq_9mm",
+    "copy-from": "walther_ppq_9mm",
+    "type": "GUN",
+
+    "name": {
+      "str": "Walther PPQ 9mm"
+    },
+
+    "valid_mod_locations": [
+      ["barrel", 1],
+      ["bore", 1],
+      ["grip", 1],
+      ["mechanism", 4],
+      ["belt clip", 1],
+      ["muzzle", 1],
+      ["rail", 1],
+      ["sights", 1],
+      ["stock", 1],
+      ["underbarrel", 1]
+    ]
+  },
+  {
+    "id": "walther_p22",
+    "copy-from": "walther_p22",
+    "type": "GUN",
+
+    "name": {
+      "str": "Walther training pistol"
+    },
+
+    "variant_type": "gun",
+    "variants": [
+      {
+        "id": "walther_p22",
+        "name": {
+          "str": "Walther P22"
+        },
+        "description": "The Walther P22 is a blowback operated semi-automatic pistol intended for training with a platform very similar to more defensive handguns.  It is about half the size of most Walthers.  It is made mostly with plastic, with the slide and key components (other than the barrel) being made of die-cast zinc alloy."
+      }
+    ],
+
+    "valid_mod_locations": [
+      ["barrel", 1],
+      ["bore", 1],
+      ["grip", 1],
+      ["mechanism", 4],
+      ["belt clip", 1],
+      ["muzzle", 1],
+      ["rail", 1],
+      ["sights", 1],
+      ["stock", 1],
+      ["underbarrel", 1]
+    ]
+  },
+  {
+    "id": "xd_10",
+    "copy-from": "xd_10",
+    "type": "GUN",
+
+    "name": {
+      "str": "XD-M pistol"
+    },
+
+    "variant_type": "gun",
+    "variants": [
+      {
+        "id": "xd_10",
+        "name": {
+          "str": "XD-M Competition 10mm"
+        },
+        "description": "Designed by HS Produkt in Croatia, the HS2000 has become a commercial success for Springfield Armory, who imports and markets it as the eXtreme Duty.  The XD has since been offered in a variety of chamberings and sizes, including this full-sized match grade variant in 10mm Auto."
+      }
+    ],
+
+    "valid_mod_locations": [
+      ["barrel", 1],
+      ["bore", 1],
+      ["grip", 1],
+      ["mechanism", 4],
+      ["belt clip", 1],
+      ["muzzle", 1],
+      ["rail", 1],
+      ["sights", 1],
+      ["stock", 1],
+      ["underbarrel", 1]
+    ]
+  }
+]
