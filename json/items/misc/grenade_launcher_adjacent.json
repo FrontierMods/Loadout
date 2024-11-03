@@ -1,0 +1,168 @@
+[
+  {
+    "id": "standalone_assembly/m320",
+    "type": "GENERIC",
+    "category": "spare_parts",
+
+    "//sources": [
+      [
+        "https://tommybuilttactical.com/product/factory-german-butt-stock-for-m320-t320-eglm-glm/",
+        "price"
+      ],
+      [
+        "https://www.sandsprecision.com/grenade-launcher-buttstock.html.html",
+        "additional weight reference"
+      ],
+      ["TM 3-22.31", "dimensions reference", "weight"]
+    ],
+
+    "name": {
+      "str": "M320 buttstock"
+    },
+    "description": "A collapsible buttstock for the M320 grenade launcher.  When combined with this stock, the M320 can be used as a standalone weapon, without requiring another gun to mount onto.",
+
+    "//weight": [
+      "commercial source lists weight of issued buttstock as 1 lb 11.9 oz = 27.9 oz = 790.95 g",
+      [
+        "TM 3-22.31 puts the weight difference between M320 with buttstock and without one at 2 lbs = 907.18 g",
+        "given how precise the rest of the dimensions are, it's likely to be correct",
+        "we trust the military source until a further confirmation to either value",
+        "part of the reason to stick with the military source is to align weight/volume values with the standalone launcher"
+      ]
+    ],
+    "weight": "907 g",
+    "//dimensions": [
+      {
+        "description": "guiding rod",
+
+        "length": "11 in",
+        "width": "0.6 in",
+        "height": "0.6 in",
+        "raw": "64.89 ml",
+        "trim": 0,
+        "result": "64.89 ml",
+        "notes": [
+          "length and height acquired from visual reference",
+          "width assumed based on visual comparison"
+        ]
+      },
+      {
+        "description": "buttpad",
+
+        "length": "1.45 in",
+        "width": "1.2 in",
+        "height": "6 in",
+        "raw": "171.08 ml",
+        "trim": 0.075,
+        "result": "158.25 ml",
+        "notes": [
+          "length and height acquired from visual reference",
+          "width assumed based on visual comparison, seeming to be twice the width of the rod"
+        ]
+      }
+    ],
+    "volume": "223 ml",
+    "longest_side": "316 mm",
+
+    "symbol": ",",
+    "color": "dark_gray",
+
+    "//material": "portion value acquired through ratio of volumes of the two parts",
+    "material": [
+      { "type": "rubber", "portion": 2.44 },
+      { "type": "steel", "portion": 1 }
+    ],
+
+    "to_hit": 1,
+
+    "price": "99 USD 99 cent",
+    "price_postapoc": "2 USD 50 cent"
+  },
+  {
+    "id": "grenade_launcher/hk/m320:standalone",
+    "copy-from": "launcher_base",
+    "type": "GUN",
+
+    "//sources": [
+      ["TM 3-22.31", "dimensions", "weight", "barrel length"],
+      [
+        "https://www.thefirearmblog.com/blog/2008/12/05/40mm-m320-grenade-launcher-will-be-replace-m203-next-year/",
+        "price"
+      ]
+    ],
+
+    "name": {
+      "str": "M320 standalone launcher"
+    },
+    "description": "Heckler & Koch's M320 grenade launcher offers the functionality of larger launchers in a very small package at the cost of decreased accuracy.  This one is combined with a buttstock for standalone operation.",
+
+    "//weight": [
+      "launcher + buttstock: 7 lbs = 3175.1 g",
+      "day/night sight: 15.5 oz = 439.42"
+    ],
+    "weight": "3615 g",
+    "//volume": [
+      "volume of M320: 2384.81 ml",
+      "volume of buttstock buttpad: 158.25 ml",
+      {
+        "description": "guiding rod",
+
+        "length": "5.32 in",
+        "width": "0.6 in",
+        "height": "0.6 in",
+        "raw": "31.39 ml",
+        "trim": 0,
+        "result": "31.39 ml",
+        "notes": [
+          "dimensions with a reduced lenght in order to account for part of the stock rod being completely inside the launcher"
+        ]
+      }
+    ],
+    "volume": "2575 ml",
+    "//longest_side": "with the stock extended all the way",
+    "longest_side": "500 mm",
+
+    "symbol": "(",
+    "color": "light_gray",
+    "looks_like": "m79",
+
+    "faults": ["fault_gun_blackpowder", "fault_gun_dirt"],
+
+    "skill": "launcher",
+    "ranged_damage": {
+      "damage_type": "bullet",
+      "amount": 0
+    },
+    "melee_damage": { "bash": 6 },
+    "modes": [["DEFAULT", "single", 1, "NPC_AVOID"]],
+    "valid_mod_locations": [
+      ["barrel", 1],
+      ["sights", 1],
+      ["sling", 1]
+    ],
+    "barrel_length": "215 mm",
+    "to_hit": -3,
+    "material": ["steel", "plastic", "rubber"],
+    "ammo": ["40x46mm"],
+    "dispersion": 270,
+    "durability": 9,
+    "blackpowder_tolerance": 60,
+    "clip_size": 1,
+    "reload": 250,
+
+    "pocket_data": [
+      {
+        "pocket_type": "MAGAZINE",
+        "rigid": true,
+        "ammo_restriction": {
+          "40x46mm": 1
+        }
+      }
+    ],
+
+    "flags": ["EASY_CLEAN"],
+
+    "price": "3500 USD",
+    "price_postapoc": "22 USD 50 cent"
+  }
+]
