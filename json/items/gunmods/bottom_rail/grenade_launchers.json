@@ -1,6 +1,6 @@
 [
   {
-    "id": "grenade_launcher/lmt/l2b",
+    "id": "grenade_launcher/underbarrel/lmt/l2b",
     "copy-from": "underbarrel_base",
     "type": "GUNMOD",
 
@@ -97,7 +97,7 @@
   },
 
   {
-    "id": "grenade_launcher/hk/m320",
+    "id": "grenade_launcher/underbarrel/hk/m320",
     "copy-from": "underbarrel_base",
     "type": "GUNMOD",
 

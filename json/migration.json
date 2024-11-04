@@ -169,12 +169,12 @@
   {
     "id": ["m203"],
     "type": "MIGRATION",
-    "replace": "grenade_launcher/lmt/l2b"
+    "replace": "grenade_launcher/underbarrel/lmt/l2b"
   },
   {
     "id": ["m320_mod"],
     "type": "MIGRATION",
-    "replace": "grenade_launcher/hk/m320"
+    "replace": "grenade_launcher/underbarrel/hk/m320"
   },
 
   {
@@ -223,6 +223,6 @@
   {
     "id": ["m320"],
     "type": "MIGRATION",
-    "replace": "grenade_launcher/hk/m320:standalone"
+    "replace": "grenade_launcher/hk/m320"
   }
 ]
