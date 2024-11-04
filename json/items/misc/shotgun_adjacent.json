@@ -1,0 +1,190 @@
+[
+  {
+    "id": "standalone_assembly/m26",
+    "type": "GENERIC",
+    "category": "spare_parts",
+
+    "//sources": [
+      ["TM 9-1005-341-10", "weight", "length"],
+      [
+        "https://www.brownells.co.uk/AR-15-A2-STYLE-PISTOL-GRIP-A2-Style-Pistol-Grip-Polymer-Black-CAVALRY-MANUFACTURING-LLC-100002830",
+        "dimensions of pistol grip"
+      ],
+      [
+        "https://www.brownells.no/AR-15-GEN-3-FOLDING-STOCK-ADAPTER-W/M4-STOCK-ASSEMBLY-AR-15-Gen-3-Folding-Stock-Adapter-w-M4-Stock-Assembly-BROWNELLS-Black-Mil-Spec-Carbine-078000323",
+        "dimensions of buffer tube and buttstock"
+      ],
+      ["M4A1 Technical Data Package", "width for buttstock"]
+    ],
+
+    "//notes": [
+      "we're using the M4 stock as a dimensions reference, but the one the M26 uses is clearly not that",
+      "we stick to the M4 stock until we identify the model the M26 uses and acquire its dimensions"
+    ],
+
+    "name": {
+      "str": "M26 stock assembly"
+    },
+    "description": "A grip and a stock attached to a joining mount.  Can be attached to the M26 underbarrel shotgun to make it usable as a standalone shotgun, without requiring another gun to mount it on.",
+
+    "variant_type": "gun",
+    "variants": [
+      {
+        "id": "black",
+
+        "name": {
+          "str": "M26-MASS stock assembly"
+        },
+        "description": "A modular assembly of a pistol grip and a stock mounted on top of an inert AR-15-style buffer tube.  Can be attached to the M26-MASS in its underbarrel configuration in order to run it as a standalone shotgun.  <variant:black>",
+        "expand_snippets": true,
+        "weight": 1
+      }
+    ],
+
+    "//weight": "5.3 lbs (weight of standalone configuration) - 3 lbs (weight of underbarrel configuration) = 2.3 lbs = 1043.3 g",
+    "weight": "1043 g",
+    "//dimensions": [
+      {
+        "description": "mount",
+
+        "length": "2.15 in",
+        "width": "2 in",
+        "height": "3 in",
+        "raw": "211.39 ml",
+        "trim": 0.4,
+        "result": "126.83 ml",
+        "notes": [
+          "length and height acquired from visual reference",
+          "width is presumed to be the same as the pistol grip, from visual reference"
+        ]
+      },
+      {
+        "description": "pistol grip",
+
+        "length": "1.21875 in",
+        "width": "2 in",
+        "height": "4 in",
+        "raw": "159.77 ml",
+        "trim": 0,
+        "result": "159.77 ml",
+        "notes": [
+          "A2 pistol grip",
+          "we presume that the dimensions are accurate to the shape, rather than those of the grip's bounding rectangle",
+          "as such, we set trim to 0, presuming that the shape evens out across bumps and falls"
+        ]
+      },
+      {
+        "description": "stock and buffer tube",
+
+        "length": "8.75 in",
+        "width": "1.59 in",
+        "height": "4.95 in",
+        "raw": "1128.53 ml",
+        "trim": 0.3,
+        "result": "789.97 ml",
+        "notes": [
+          "Colt M4 buttstock",
+          "A2 buffer tube (presumed)",
+          "height acquired from visual reference"
+        ]
+      }
+    ],
+    "volume": "1077 ml",
+    "//integral_volume": "discount a slight bit of volume to account for the overlap between the clamp of the shotgun and the stock assembly",
+    "integral_volume": "1072 ml",
+    "//longest_side": "2.15 in. (mount length) + 8.75 in. (buffer tube + buttstock length) = 10.9 in. = 276.86 mm",
+    "longest_side": "277 mm",
+    "//integral_longest_side": "26.5 in. (length of standalone configuration) − 16.5 in. (length of underbarrel configuration) = 10 in. = 254 mm",
+    "integral_longest_side": "254 mm",
+
+    "symbol": ":",
+    "color": "dark_gray",
+
+    "material": ["plastic", "steel"],
+
+    "to_hit": 1,
+    "melee_damage": { "bash": 4 },
+
+    "price": "4 USD",
+    "price_postapoc": "5 USD"
+  },
+  {
+    "id": "shotgun/c-more/m26",
+    "copy-from": "shotgun_base",
+    "type": "GUN",
+
+    "//sources": [
+      ["TM 9-1005-341-10", "weight", "length"],
+      ["https://cmorecomp.com/m26-mass", "price", "barrel length"],
+      [
+        "https://en.wikipedia.org/wiki/M26_Modular_Accessory_Shotgun_System",
+        "additional weight reference"
+      ]
+    ],
+
+    "name": {
+      "str": "M26 shotgun"
+    },
+    "description": "A modern compact shotgun intended for breaching doors and close quarters combat.  Currently in the standalone configuration, ready to be fire independently.  Disassemble to return it to the underbarrel configuration, where it can be mounted to another gun.",
+
+    "variant_type": "gun",
+    "variants": [
+      {
+        "id": "black",
+
+        "name": {
+          "str": "M26-MASS shotgun"
+        },
+        "description": "A compact magazine-fed bolt-action shotgun.  A modern alternative to the Masterkey, this shotgun has been issued to Army breaching units, and is therefore more widely available than its predecessor.  It is currently in its standalone configuration and is ready to fire.  Disassemble to detach the stock assembly and turn it into an underbarrel configuration.  <variant:black>",
+        "expand_snippets": true,
+        "weight": 1
+      }
+    ],
+
+    "//weight": "5.3 lbs = 2404 g",
+    "weight": "2404 g",
+    "//dimensions": [
+      "underbarrel configuration: 1068 ml",
+      "stock assembly: 1077 ml"
+    ],
+    "volume": "2145 ml",
+    "longest_side": "673 mm",
+    "barrel_length": "197 mm",
+
+    "symbol": "(",
+    "color": "light_gray",
+
+    "material": ["steel", "plastic"],
+
+    "skill": "shotgun",
+    "ammo": ["shot"],
+    "ranged_damage": {
+      "damage_type": "bullet",
+      "amount": 0
+    },
+    "melee_damage": { "bash": 3 },
+    "dispersion": 310,
+    "durability": 10,
+    "min_cycle_recoil": 1250,
+    "//valid_mod_locations": [
+      "replaced the sights mount slot with a sights slot, since the upper rail can feasibly fit a reflex sight",
+      "removed the stock slot: we want to avoid `IRREMOVABLE` stocks on a perfectly-removable stock assembly"
+    ],
+    "valid_mod_locations": [
+      ["sling", 1],
+      ["sights", 1]
+    ],
+    "//faults": "this is a bolt-action firearm, and thus cannot have many of the same faults as semi-automatic ones",
+    "faults": ["fault_gun_blackpowder", "fault_gun_dirt"],
+
+    "pocket_data": [
+      {
+        "pocket_type": "MAGAZINE_WELL",
+        "item_restriction": ["m26_mass_mag_3", "m26_mass_mag_5"]
+      }
+    ],
+
+    "price": "3799 USD",
+    "price_postapoc": "45 USD"
+  }
+]

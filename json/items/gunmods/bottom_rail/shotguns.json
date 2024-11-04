@@ -1,0 +1,95 @@
+[
+  {
+    "id": "shotgun/underbarrel/c-more/m26",
+    "type": "GUNMOD",
+
+    "//sources": [
+      ["TM 9-1005-341-10", "weight", "length"],
+      ["https://cmorecomp.com/m26-mass", "price", "barrel length"],
+      [
+        "https://en.wikipedia.org/wiki/M26_Modular_Accessory_Shotgun_System",
+        "additional weight reference"
+      ]
+    ],
+
+    "//notes": [
+      "even though this is a military-issue shotgun which is intended to mount onto the barrel of a rifle, we currently pretend that this is a similar commercial option with a full Picatinny rail replacing the barrel mount",
+      "https://cmorecomp.com/m26-cmcs",
+      "that way, we can pretend that it mounts onto the Picatinny rail via a special fictional mount",
+      "sanity is often more important than realism"
+    ],
+
+    "name": {
+      "str": "M26 underbarrel shotgun"
+    },
+    "description": "A modern compact shotgun intended for breaching doors and close quarters combat.  Currently in the mounted configuration, in which it lacks the grip and thus cannot be used on its own.  You can mount it under the barrel of a rifle, and use it as a secondary attached weapon.",
+
+    "variant_type": "gun",
+    "variants": [
+      {
+        "id": "black",
+
+        "name": {
+          "str": "M26-MASS underbarrel shotgun"
+        },
+        "description": "A compact magazine-fed bolt-action shotgun.  A modern alternative to the Masterkey, this shotgun has been issued to Army breaching units, and is therefore more widely available than its predecessor.  It is currently in its mounted configuration and cannot be used on its own.  Attach it to a rifle to use it.  <variant:black>",
+        "expand_snippets": true,
+        "weight": 1
+      }
+    ],
+
+    "//weight": [
+      "technical manual claims weight of underslung shotgun to be 3.5 lbs = 1587.6 g",
+      "manufacturer's website (C-More) claims it to be 3 lbs = 1360.8 g",
+      "Wikipedia lists the 3.5 lbs weight as 'with stock removed', i.e. in the 'pistol' configuration, and 3 lbs as 'underbarrel', i.e. this item"
+    ],
+    "weight": "1361 g",
+    "//volume": "we trust the value from the base game",
+    "volume": "1068 ml",
+    "longest_side": "419 mm",
+
+    "symbol": ":",
+    "color": "white",
+
+    "material": ["steel", "plastic"],
+
+    "gun_data": {
+      "skill": "shotgun",
+      "ammo": "shot",
+
+      "barrel_length": "197 mm",
+      "dispersion": 310,
+      "durability": 10,
+
+      "clip_size": 5
+    },
+    "//faults": "this is a bolt-action firearm, and thus cannot have many of the same faults as semi-automatic ones",
+    "faults": ["fault_gun_blackpowder", "fault_gun_dirt"],
+
+    "location": "underbarrel",
+    "install_time": "2 m",
+    "blacklist_mod": [
+      "knife_combat_army",
+      "knife_combat",
+      "enfield_bayonet",
+      "knife_combat_marine",
+      "makeshift_bayonet",
+      "sword_bayonet"
+    ],
+    "mod_targets": ["rifle"],
+    "min_skills": [
+      ["weapon", 1],
+      ["shotgun", 1]
+    ],
+
+    "pocket_data": [
+      {
+        "pocket_type": "MAGAZINE_WELL",
+        "item_restriction": ["m26_mass_mag_3", "m26_mass_mag_5"]
+      }
+    ],
+
+    "price": "3799 USD",
+    "price_postapoc": "20 USD 41 cent"
+  }
+]

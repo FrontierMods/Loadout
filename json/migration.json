@@ -176,6 +176,11 @@
     "type": "MIGRATION",
     "replace": "grenade_launcher/underbarrel/hk/m320"
   },
+  {
+    "id": ["m26_mass"],
+    "type": "MIGRATION",
+    "replace": "shotgun/underbarrel/c-more/m26"
+  },
 
   {
     "id": ["arredondo_chute"],
@@ -224,5 +229,15 @@
     "id": ["m320"],
     "type": "MIGRATION",
     "replace": "grenade_launcher/hk/m320"
+  },
+  {
+    "id": ["m26_mass_stock"],
+    "type": "MIGRATION",
+    "replace": "standalone_assembly/m26"
+  },
+  {
+    "id": ["m26_mass_standalone"],
+    "type": "MIGRATION",
+    "replace": "shotgun/c-more/m26"
   }
 ]
