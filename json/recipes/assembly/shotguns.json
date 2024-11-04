@@ -1,0 +1,23 @@
+[
+  {
+    "result": "shotgun/c-more/m26",
+    "type": "recipe",
+
+    "category": "CC_WEAPON",
+    "subcategory": "CSC_WEAPON_RANGED",
+    "activity_level": "LIGHT_EXERCISE",
+
+    "skill_used": "shotgun",
+    "time": "40 s",
+
+    "reversible": true,
+    "autolearn": true,
+
+    "decomp_learn": 0,
+
+    "components": [
+      [["shotgun/underbarrel/c-more/m26", 1]],
+      [["standalone_assembly/m26", 1]]
+    ]
+  }
+]
