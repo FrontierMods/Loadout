@@ -1,0 +1,164 @@
+[
+  {
+    "//experiment": {
+      "goals": [
+        "implement M26 as a fully-modular accessory which can be successfully attached to be the underbarrel of a gun and to its on stock assembly and function equally with both"
+      ],
+      "optional_goals": [
+        "implement the stock assembly as a gunmod for the `GUN`-implemented M26, making the M26 usable as both a gun and an underbarrel gun"
+      ],
+      "results": [
+        "the resulting gunmod operates successfully in both situations",
+        "because it's technically a separate gun when attached, the owner gun (whether a legitimate firearm or the stock assembly, which is implemented as a firearm) cannot display the shotgun's ammo count",
+        [
+          "using the shotgun with the stock assembly requires the player to manually switch over to the shotgun's fire mode, even if the stock assembly 'gun' has no legitimate way of firing on its own",
+          "this, though within the parameters of the experiment, precludes it from making it into the mod proper because it's inconvenient to the player, as well as unintuitive"
+        ],
+        [
+          "using stock assembly as a gunmod on the M26 doesn't work because the M26 is hardcoded (probably due to being an underbarrel slot gun) to not be able to fire",
+          "it has to be installed on a gun, which negates the entire point"
+        ]
+      ],
+      "notes": [
+        "stock assembly was modelled before Loadout changes to the ID, weight, and dimensions"
+      ]
+    },
+
+    "id": "shotgun/underbarrel/c-more/m26",
+    "type": "GUNMOD",
+
+    "//sources": [
+      ["TM 9-1005-341-10", "weight", "length"],
+      ["https://cmorecomp.com/m26-mass", "price", "barrel length"],
+      [
+        "https://en.wikipedia.org/wiki/M26_Modular_Accessory_Shotgun_System",
+        "additional weight reference"
+      ]
+    ],
+
+    "//notes": [
+      "even though this is a military-issue shotgun which is intended to mount onto the barrel of a rifle, we currently pretend that this is a similar commercial option with a full Picatinny rail replacing the barrel mount",
+      "https://cmorecomp.com/m26-cmcs",
+      "that way, we can pretend that it mounts onto the Picatinny rail via a special fictional mount",
+      "sanity is often more important than realism"
+    ],
+
+    "name": {
+      "str": "M26 underbarrel shotgun"
+    },
+    "description": "A modern compact shotgun intended for breaching doors and close quarters combat.  Currently in the mounted configuration, in which it lacks the grip and thus cannot be used on its own.  You can mount it under the barrel of a rifle, and use it as a secondary attached weapon.",
+
+    "variant_type": "gun",
+    "variants": [
+      {
+        "id": "black",
+
+        "name": {
+          "str": "M26-MASS shotgun"
+        },
+        "description": "A compact magazine-fed bolt-action shotgun.  A modern alternative to the Masterkey, this shotgun has been issued to Army breaching units, and is therefore more widely available than its predecessor.  It is currently in its mounted configuration and cannot be used on its own.  Attach it to a rifle to use it.  <variant:black>",
+        "expand_snippets": true,
+        "weight": 1
+      }
+    ],
+
+    "//weight": [
+      "technical manual claims weight of underslung shotgun to be 3.5 lbs = 1587.6 g",
+      "manufacturer's website (C-More) claims it to be 3 lbs = 1360.8 g",
+      "Wikipedia lists the 3.5 lbs weight as 'with stock removed', i.e. in the 'pistol' configuration, and 3 lbs as 'underbarrel', i.e. this item"
+    ],
+    "weight": "1361 g",
+    "//volume": "we trust the value from the base game",
+    "volume": "1068 ml",
+    "longest_side": "419 mm",
+
+    "symbol": ":",
+    "color": "white",
+
+    "material": ["steel", "plastic"],
+
+    "gun_data": {
+      "skill": "shotgun",
+      "ammo": "shot",
+
+      "barrel_length": "197 mm",
+      "dispersion": 310,
+      "durability": 10,
+
+      "clip_size": 5
+    },
+    "//faults": "this is a bolt-action firearm, and thus cannot have many of the same faults as semi-automatic ones",
+    "faults": ["fault_gun_blackpowder", "fault_gun_dirt"],
+
+    "location": "underbarrel",
+    "install_time": "2 m",
+    "blacklist_mod": [
+      "knife_combat_army",
+      "knife_combat",
+      "enfield_bayonet",
+      "knife_combat_marine",
+      "makeshift_bayonet",
+      "sword_bayonet"
+    ],
+    "mod_targets": ["m26_mass_stock"],
+    "min_skills": [
+      ["weapon", 1],
+      ["shotgun", 1]
+    ],
+    "ammo_modifier": ["shot"],
+    "//magazine_adaptor": [["shot", ["m26_mass_mag_3", "m26_mass_mag_5"]]],
+
+    "//pocket_mods": [
+      {
+        "pocket_type": "MAGAZINE_WELL",
+        "item_restriction": ["m26_mass_mag_3", "m26_mass_mag_5"]
+      }
+    ],
+    "pocket_data": [
+      {
+        "pocket_type": "MAGAZINE_WELL",
+        "item_restriction": ["m26_mass_mag_3", "m26_mass_mag_5"]
+      }
+    ],
+
+    "extend": { "flags": ["PUMP_RAIL_COMPATIBLE"] },
+
+    "price": "3799 USD",
+    "price_postapoc": "20 USD 41 cent"
+  },
+  {
+    "id": "m26_mass_stock",
+    "copy-from": "shotgun_pump",
+    "type": "GUN",
+
+    "name": {
+      "str": "MASS compatible stock"
+    },
+    "description": "A specially designed adjustable stock with an integrated grip to convert the M26-MASS to a standalone configuration.",
+
+    "weight": "960 g",
+    "volume": "500 ml",
+    "longest_side": "277 mm",
+
+    "symbol": ":",
+    "color": "dark_gray",
+
+    "material": ["plastic", "steel"],
+
+    "ranged_damage": {
+      "damage_type": "bullet",
+      "amount": 0
+    },
+    "to_hit": 1,
+    "melee_damage": { "bash": 4 },
+    "ammo": ["NULL"],
+    "dispersion": 150,
+    "durability": 7,
+    "handling": 20,
+    "valid_mod_locations": [["underbarrel", 1]],
+    "faults": ["fault_gun_blackpowder", "fault_gun_dirt"],
+
+    "price": "4 USD",
+    "price_postapoc": "5 USD"
+  }
+]
