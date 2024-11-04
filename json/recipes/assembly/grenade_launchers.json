@@ -3,9 +3,9 @@
     "result": "grenade_launcher/hk/m320",
     "type": "recipe",
 
-    "activity_level": "LIGHT_EXERCISE",
     "category": "CC_WEAPON",
     "subcategory": "CSC_WEAPON_RANGED",
+    "activity_level": "LIGHT_EXERCISE",
 
     "skill_used": "launcher",
     "time": "20 s",
