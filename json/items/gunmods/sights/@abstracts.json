@@ -1,6 +1,7 @@
 [
   {
     "abstract": "@sight",
+    "copy-from": "@gunmod",
     "type": "GUNMOD",
 
     "name": { "str": "sight" },
@@ -11,17 +12,12 @@
 
     "material": ["aluminum"],
 
-    "symbol": ":",
-    "color": "dark_gray",
-
     "location": "sights",
     "install_time": "2 m",
 
     "mod_targets": ["pistol", "rifle", "smg", "shotgun", "bow", "launcher"],
 
-    "flags": ["DISABLE_SIGHTS"],
-
-    "price_postapoc": "50 cent"
+    "flags": ["DISABLE_SIGHTS"]
   },
   {
     "abstract": "@sight/reflex",

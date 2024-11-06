@@ -77,7 +77,7 @@
   {
     "id": ["rifle_scope"],
     "type": "MIGRATION",
-    "replace": "sight/eotech/vudu"
+    "replace": "sight/eotech/vudu/1-6x"
   },
   {
     "id": ["magnifier"],
