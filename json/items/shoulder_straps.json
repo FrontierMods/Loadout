@@ -137,20 +137,22 @@
         "max_contains_volume": "8 L",
         "max_item_length": "120 cm",
 
-        "moves": 130
+        "moves": 170
       }
     ],
 
-    "use_action": {
-      "type": "transform",
+    "use_action": [
+      { "type": "holster" },
+      {
+        "type": "transform",
+        "target": "sling/double/bfg/vickers:front",
 
-      "msg": "You shift the sling to the front of your body.",
-      "menu_text": "Adjust",
+        "msg": "You shift the sling to the front of your body.",
+        "menu_text": "Adjust",
 
-      "target": "sling/double/bfg/vickers:front",
-
-      "moves": 120
-    },
+        "moves": 120
+      }
+    ],
 
     "price": "82 USD 95 cent"
   },
@@ -192,15 +194,32 @@
       }
     ],
 
-    "use_action": {
-      "type": "transform",
+    "pocket_data": [
+      {
+        "pocket_type": "CONTAINER",
 
-      "msg": "You move the sling behind you.",
-      "menu_text": "Adjust",
+        "holster": true,
 
-      "target": "sling/double/bfg/vickers",
+        "max_contains_weight": "8200 g",
+        "min_item_volume": "1 L",
+        "max_contains_volume": "8 L",
+        "max_item_length": "120 cm",
 
-      "moves": 120
-    }
+        "moves": 130
+      }
+    ],
+
+    "use_action": [
+      { "type": "holster" },
+      {
+        "type": "transform",
+        "target": "sling/double/bfg/vickers",
+
+        "msg": "You move the sling behind you.",
+        "menu_text": "Adjust",
+
+        "moves": 120
+      }
+    ]
   }
 ]
