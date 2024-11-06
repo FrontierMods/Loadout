@@ -73,5 +73,36 @@
     ],
 
     "price": "29 USD 99 cent"
+  },
+
+  {
+    "id": "brass_catcher/improvised",
+    "copy-from": "@brass_catcher",
+    "type": "GUNMOD",
+
+    "name": { "str": "improvised brass catcher" },
+    "description": "A cotton bag hanging off the side of your gun, catching ejected casings until it's full.  It should help you if you're planning on handloading ammunition.  Also, it prevents pollution (even though the world has ended).",
+
+    "weight": "45 g",
+    "//volume": "47 ml from cotton sheet + 5 ml for extras, like attachment straps",
+    "volume": "52 ml",
+
+    "material": ["cotton"],
+
+    "install_time": "60 s",
+
+    "pocket_data": [
+      {
+        "pocket_type": "CONTAINER",
+
+        "rigid": true,
+
+        "max_contains_volume": "45 ml",
+        "max_contains_weight": "200 g"
+      }
+    ],
+
+    "price": "5 cent",
+    "price_postapoc": "5 cent"
   }
 ]
