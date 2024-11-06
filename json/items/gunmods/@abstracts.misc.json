@@ -157,6 +157,7 @@
 
     "material": ["aluminum"],
 
+    "location": "rail",
     "install_time": "40 s",
 
     "field_of_view": 3000,
