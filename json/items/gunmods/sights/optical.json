@@ -95,7 +95,7 @@
   },
 
   {
-    "id": "sight/leupold/mark4",
+    "id": "sight/leupold/mark_4",
     "copy-from": "@sight/30mm",
     "type": "GUNMOD",
 
@@ -187,9 +187,12 @@
 
     "//field_of_view": "35.5 ft @ 100 yds @ 2.5× magnification = 406.33 MOA",
     "field_of_view": 406,
-    "//sight_dispersion": "0.18 MIL = 0.619 MOA @ 8× magnification / 3.2× magnification difference",
-    "sight_dispersion": 62,
-    "aim_speed_modifier": 0,
+    "//sight_dispersion": [
+      "0.15 MIL = 0.52 MOA @ 1× magnification",
+      "line thickness is more likely to matter than the tiny aperture, at this level of magnification"
+    ],
+    "sight_dispersion": 52,
+    "//aim_speed_modifier": 0,
 
     "//power": {
       "source": [["CR2032"]],
@@ -198,9 +201,10 @@
 
     "use_action": {
       "type": "transform",
+      "target": "sight/leupold/mark_4:magnified",
+
       "menu_text": "Magnify",
-      "msg": "You turn the scope's zoom all the way up.",
-      "target": "sight/leupold/mark4:magnified"
+      "msg": "You turn the scope's zoom all the way up."
     },
 
     "//price": "Charlie's Clones pricing, which is said to be slightly-cheaper than the original",
@@ -208,8 +212,8 @@
     "price_postapoc": "50 cent"
   },
   {
-    "id": "sight/leupold/mark4:magnified",
-    "copy-from": "sight/leupold/mark4",
+    "id": "sight/leupold/mark_4:magnified",
+    "copy-from": "sight/leupold/mark_4",
     "type": "GUNMOD",
 
     "name": {
@@ -246,14 +250,18 @@
 
     "//field_of_view": "13.6 ft @ 100 yds @ 8× magnification = 155.82 MOA",
     "field_of_view": 156,
-    "//sight_dispersion": "0.619 MOA @ 8× magnification / (8 / 2.5) magnification difference ≈ 0.193 MOA",
-    "sight_dispersion": 19,
+    "//sight_dispersion": [
+      "0.18 MIL = 0.619 MOA @ 8× magnification",
+      "reticle manual states this to be the exact aperture for the center dot at 8× magnification"
+    ],
+    "sight_dispersion": 62,
 
     "use_action": {
       "type": "transform",
+      "target": "sight/leupold/mark_4",
+
       "menu_text": "Demagnify",
-      "msg": "You turn the scope's zoom all the way down.",
-      "target": "sight/leupold/mark4"
+      "msg": "You turn the scope's zoom all the way down."
     }
   },
 
@@ -301,7 +309,7 @@
         "name": {
           "str": "ELCAN SpecterDR 1—4× sight"
         },
-        "description": "A stout -- perhaps too stout -- combat sight.  This model has been in service with U.S. troops for two decades, and thus exhibits some of the shortcomings of outdated design.  Primarily, the top slot for a backup sight is flat, rather than emplaced with a Picatinny rail, and requires adapters to mount a reflex sight.  <variant:black>  <sight/optical/magnification:low>",
+        "description": "A stout combat sight.  This model has been in service with U.S. troops for two decades, and thus exhibits some of the shortcomings of outdated design.  Primarily, the top slot for a backup sight is flat, rather than emplaced with a Picatinny rail, and requires adapters to mount a reflex sight.  <variant:black>  <sight/optical/magnification:low>",
         "expand_snippets": true,
         "weight": 1
       }
@@ -354,9 +362,10 @@
 
     "use_action": {
       "type": "transform",
+      "target": "sight/elcan/specterdr/legacy:magnified",
+
       "menu_text": "Magnify",
-      "msg": "You turn the scope's zoom all the way up.",
-      "target": "sight/elcan/specterdr/legacy:magnified"
+      "msg": "You turn the scope's zoom all the way up."
     },
 
     "price": "1527 USD",
@@ -382,7 +391,7 @@
           "str": "ELCAN SpecterDR 1—4× sight (magnified)",
           "str_pl": "ELCAN SpecterDR 1—4× sights (magnified)"
         },
-        "description": "A stout -- perhaps too stout -- combat sight.  This model has been in service with U.S. troops for two decades, and thus exhibits some of the shortcomings of outdated design.  Primarily, the top slot for a backup sight is flat, rather than emplaced with a Picatinny rail, and requires adapters to mount a reflex sight.  <variant:black>  <sight/optical/magnification:high>",
+        "description": "A stout combat sight.  This model has been in service with U.S. troops for two decades, and thus exhibits some of the shortcomings of outdated design.  Primarily, the top slot for a backup sight is flat, rather than emplaced with a Picatinny rail, and requires adapters to mount a reflex sight.  <variant:black>  <sight/optical/magnification:high>",
         "expand_snippets": true,
         "weight": 1
       }
@@ -395,14 +404,15 @@
 
     "use_action": {
       "type": "transform",
+      "target": "sight/elcan/specterdr/legacy",
+
       "menu_text": "Demagnify",
-      "msg": "You turn the scope's zoom all the way down.",
-      "target": "sight/elcan/specterdr/legacy"
+      "msg": "You turn the scope's zoom all the way down."
     }
   },
 
   {
-    "id": "sight/eotech/vudu",
+    "id": "sight/eotech/vudu/1-6x",
     "copy-from": "@sight/30mm",
     "type": "GUNMOD",
 
@@ -411,7 +421,7 @@
     "//notes": ["we assume this sight uses the SR1 reticle"],
 
     "name": {
-      "str": "30mm 1—6× variable scope"
+      "str": "slim 30mm variable scope"
     },
     "description": "A slim 30mm variable scope for short to medium ranges, with magnification ranging from 1× to 6×.  Its high-grade construction quality and design make it a popular choice for hunters, competitive shooters, and law-enforcement officers.  <sight/optical/magnification:low>",
     "expand_snippets": true,
@@ -491,22 +501,22 @@
 
     "use_action": {
       "type": "transform",
+      "target": "sight/eotech/vudu/1-6x:magnified",
+
       "menu_text": "Magnify",
-      "msg": "You turn the scope's zoom all the way up.",
-      "target": "sight/eotech/vudu:magnified"
+      "msg": "You turn the scope's zoom all the way up."
     },
 
-    "price": "1399 USD",
-    "price_postapoc": "50 cent"
+    "price": "1399 USD"
   },
   {
-    "id": "sight/eotech/vudu:magnified",
-    "copy-from": "sight/eotech/vudu",
+    "id": "sight/eotech/vudu/1-6x:magnified",
+    "copy-from": "sight/eotech/vudu/1-6x",
     "type": "GUNMOD",
 
     "name": {
-      "str": "30mm 1—6× variable scope (magnified)",
-      "str_pl": "30mm 1—6× variable scopes (magnified)"
+      "str": "slim 30mm variable scope (magnified)",
+      "str_pl": "slim 30mm variable scopes (magnified)"
     },
     "description": "A slim 30mm variable scope for short to medium ranges.  Its high-grade construction quality and design make it a popular choice for hunters, competitive shooters, and law-enforcement officers.  <sight/optical/magnification:high>",
     "expand_snippets": true,
@@ -533,9 +543,10 @@
 
     "use_action": {
       "type": "transform",
+      "target": "sight/eotech/vudu/1-6x",
+
       "menu_text": "Demagnify",
-      "msg": "You turn the scope's zoom all the way down.",
-      "target": "sight/eotech/vudu"
+      "msg": "You turn the scope's zoom all the way down."
     }
   }
 ]
