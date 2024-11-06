@@ -1,6 +1,7 @@
 [
   {
     "id": "brass_catcher/caldwell/universal",
+    "copy-from": "@brass_catcher",
     "type": "GUNMOD",
 
     "//sources": [
@@ -52,22 +53,8 @@
     "volume": "774 ml",
     "longest_side": "152 mm",
 
-    "//material": "steel is presumed to be the material for the hinge",
-    "material": [{ "type": "nylon", "portion": 99 }, { "type": "steel" }],
-
-    "symbol": ":",
-    "color": "light_gray",
-
-    "location": "brass catcher",
-    "//mod_targets": [
-      "removes pistols from possible targets because",
-      "(1) the catcher is just too large for a regular pistol",
-      "(2) it would likely prevent a pistol from functioning correctly, given that the slide has to move",
-      "(so either the catcher's nylon latch cuts, or the slide is slowed down, thus not ejecting or chambering correctly)"
-    ],
-    "mod_targets": ["shotgun", "smg", "rifle", "launcher"],
+    "mod_targets": ["shotgun", "smg", "rifle"],
     "install_time": "25 s",
-    "min_skills": [["weapon", 1]],
 
     "pocket_data": [
       {
@@ -85,9 +72,6 @@
       }
     ],
 
-    "flags": ["BRASS_CATCHER"],
-
-    "price": "29 USD 99 cent",
-    "price_postapoc": "50 cent"
+    "price": "29 USD 99 cent"
   }
 ]

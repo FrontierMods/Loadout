@@ -165,5 +165,36 @@
     "mod_targets": ["pistol", "rifle", "smg", "shotgun", "launcher"],
 
     "flags": ["LASER_SIGHT"]
+  },
+  {
+    "abstract": "@brass_catcher",
+    "copy-from": "@gunmod",
+    "type": "GUNMOD",
+
+    "name": {
+      "str": "brass catcher"
+    },
+
+    "weight": "50 g",
+    "volume": "50 ml",
+    "longest_side": "50 mm",
+
+    "color": "light_gray",
+
+    "//material": "steel is presumed to be the material for the hinge",
+    "material": [{ "type": "nylon", "portion": 99 }, { "type": "steel" }],
+
+    "location": "brass catcher",
+    "install_time": "40 s",
+    "min_skills": [["weapon", 1]],
+    "//mod_targets": [
+      "removes pistols from possible targets because",
+      "(1) the catcher is just too large for a regular pistol",
+      "(2) it would likely prevent a pistol from functioning correctly, given that the slide has to move",
+      "(so either the catcher's nylon latch cuts, or the slide is slowed down, thus not ejecting or chambering correctly)"
+    ],
+    "mod_targets": ["shotgun", "rifle", "smg"],
+
+    "flags": ["BRASS_CATCHER"]
   }
 ]
