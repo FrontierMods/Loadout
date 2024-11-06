@@ -35,5 +35,29 @@
       ["strap_small", 2]
     ],
     "components": [[["wire", 1]]]
+  },
+
+  {
+    "type": "recipe",
+    "result": "sling/improvised",
+
+    "category": "CC_WEAPON",
+    "subcategory": "CSC_WEAPON_MODS",
+
+    "activity_level": "LIGHT_EXERCISE",
+    "difficulty": 1,
+    "time": "1 m",
+
+    "skill_used": "fabrication",
+    "autolearn": true,
+
+    "qualities": [{ "id": "CUT", "level": 1 }],
+    "components": [
+      [
+        ["rope_natural_short", 1, "LIST"],
+        ["cotton_patchwork", 3],
+        ["cordage", 6, "LIST"]
+      ]
+    ]
   }
 ]
