@@ -548,5 +548,138 @@
       "menu_text": "Demagnify",
       "msg": "You turn the scope's zoom all the way down."
     }
+  },
+
+  {
+    "id": "sight/vortex/viper_pst/1-6x",
+    "copy-from": "@sight/30mm",
+    "type": "GUNMOD",
+
+    "//sources": [
+      "https://vortexoptics.com/vortex-viper-pst-gen-2-1-6x24-riflescope+reticle-VMR-2~MOA",
+      [
+        "https://reddit.com/r/ar15/comments/zqu4jx/vortex_pst_gen_2_16_is_daylight_bright_even_in/j10f16i/",
+        "battery life"
+      ]
+    ],
+
+    "//notes": ["the MOA reticle model"],
+
+    "name": {
+      "str": "hunting 30mm variable scope"
+    },
+    "description": "An older and heavier design for a variable scope.  Despite the passage of time, which has wrecked many a popular sight, this one remains true to its original quality.  This model was originally created for hunting small game, but remains popular in other areas to this day as well.  <sight/optical/magnification:low>",
+    "expand_snippets": true,
+
+    "variant_type": "gun",
+    "variants": [
+      {
+        "id": "black",
+
+        "name": {
+          "str": "Vortex Viper PST Gen II 1-6×24 30mm scope"
+        },
+        "description": "An older design for a variable scope.  It remains popular with both casual and professional shooters due to its high quality and affordable price on the second-hand market.  Depending on what you're looking for, its relatively-high weight may be an advantage or a disadvantage.  <variant:black>  <sight/optical/magnification:low>",
+        "expand_snippets": true,
+        "weight": 1
+      }
+    ],
+
+    "//weight": "22.7 oz = 643.53 g",
+    "weight": "644 g",
+    "//dimensions": [
+      {
+        "description": "objective",
+
+        "length": "0.5 in",
+        "diameter": "1.29 in",
+        "raw": "10.71 ml",
+        "trim": 0,
+        "result": "10.71 ml"
+      },
+      {
+        "description": "mounting tube",
+
+        "length": "6.85 in",
+        "diameter": "30 mm",
+        "raw": "122.99 ml",
+        "trim": -0.25,
+        "result": "153.74 ml",
+        "notes": [
+          "the adjustment knobs' volume is reflected in the negative trim value"
+        ]
+      },
+      {
+        "description": "eyepiece",
+
+        "length": "3.44 in",
+        "diameter": "1.81 in",
+        "raw": "145.05 ml",
+        "trim": 0,
+        "result": "145.05 ml"
+      }
+    ],
+    "volume": "310 ml",
+    "longest_side": "275 mm",
+
+    "//field_of_view": "112.5 ft @ 100 yds @ 1× magnification = 1274.3 MOA",
+    "field_of_view": 1274,
+    "//sight_dispersion": "0.5 MOA",
+    "sight_dispersion": 50,
+    "//aim_speed_modifier": 0,
+
+    "//power": {
+      "source": [["CR2032"]],
+      "lifetime": "150 h"
+    },
+
+    "use_action": {
+      "type": "transform",
+      "target": "sight/vortex/viper_pst/1-6x:magnified",
+
+      "menu_text": "Magnify",
+      "msg": "You turn the scope's zoom all the way up."
+    },
+
+    "price": "899 USD"
+  },
+  {
+    "id": "sight/vortex/viper_pst/1-6x:magnified",
+    "copy-from": "sight/vortex/viper_pst/1-6x",
+    "type": "GUNMOD",
+
+    "name": {
+      "str": "hunting 30mm variable scope (magnified)",
+      "str_pl": "hunting 30mm variable scopes (magnified)"
+    },
+    "description": "An older and heavier design for a variable scope.  Despite the passage of time, which has wrecked many a popular sight, this one remains true to its original quality.  This model was originally created for hunting small game, but remains popular in other areas to this day as well.  <sight/optical/magnification:high>",
+
+    "variant_type": "gun",
+    "variants": [
+      {
+        "id": "black",
+
+        "name": {
+          "str": "Vortex Viper PST Gen II 1-6×24 30mm scope (magnified)",
+          "str_pl": "Vortex Viper PST Gen II 1-6×24 30mm scope (magnified)"
+        },
+        "description": "An older design for a variable scope.  It remains popular with both casual and professional shooters due to its high quality and affordable price on the second-hand market.  Depending on what you're looking for, its relatively-high weight may be an advantage or a disadvantage.  <variant:black>  <sight/optical/magnification:high>",
+        "expand_snippets": true,
+        "weight": 1
+      }
+    ],
+
+    "//field_of_view": "18.8 ft @ 100 yds @ 6× magnification = 215.36 MOA",
+    "field_of_view": 215,
+    "//sight_dispersion": "0.5 MOA",
+    "sight_dispersion": 50,
+
+    "use_action": {
+      "type": "transform",
+      "target": "sight/vortex/viper_pst/1-6x",
+
+      "menu_text": "Demagnify",
+      "msg": "You turn the scope's zoom all the way down."
+    }
   }
 ]
