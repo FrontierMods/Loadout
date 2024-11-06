@@ -221,5 +221,112 @@
         "moves": 120
       }
     ]
+  },
+
+  {
+    "id": "sling/improvised",
+    "copy-from": "@sling",
+    "type": "ARMOR",
+
+    "name": { "str": "improvised gun sling" },
+    "description": "An improvised strap to carry your gun in.  Worse than factory-made slings, but better than a random rope.  <sling/position:back>",
+
+    "weight": "100 g",
+    "volume": "250 ml",
+
+    "material": ["cotton"],
+
+    "armor": [
+      {
+        "encumbrance": 1,
+        "volume_encumber_modifier": 0.33,
+
+        "covers": ["torso"],
+        "coverage": 3,
+        "specifically_covers": ["torso_hanging_back"]
+      }
+    ],
+
+    "pocket_data": [
+      {
+        "pocket_type": "CONTAINER",
+
+        "holster": true,
+
+        "max_contains_weight": "8200 g",
+        "min_item_volume": "1 L",
+        "max_contains_volume": "8 L",
+        "max_item_length": "120 cm",
+
+        "moves": 270
+      }
+    ],
+
+    "use_action": [
+      { "type": "holster" },
+      {
+        "type": "transform",
+        "target": "sling/improvised:front",
+
+        "msg": "You shift the sling to the front of your body.",
+        "menu_text": "Adjust",
+
+        "moves": 150
+      }
+    ],
+
+    "price": "10 cent",
+    "price_postapoc": "5 cent"
+  },
+
+  {
+    "id": "sling/improvised:front",
+    "copy-from": "sling/improvised",
+    "type": "ARMOR",
+
+    "name": {
+      "str": "improvised gun sling (front)",
+      "str_pl": "improvised gun slings (front)"
+    },
+    "description": "An improvised strap to carry your gun in.  Worse than factory-made slings, but better than a random rope.  <sling/position:front>",
+
+    "armor": [
+      {
+        "encumbrance": 1,
+        "volume_encumber_modifier": 0.33,
+
+        "covers": ["torso"],
+        "coverage": 3,
+        "specifically_covers": ["torso_hanging_front"]
+      }
+    ],
+
+    "pocket_data": [
+      {
+        "pocket_type": "CONTAINER",
+
+        "holster": true,
+
+        "max_contains_weight": "8200 g",
+        "min_item_volume": "1 L",
+        "max_contains_volume": "8 L",
+        "max_item_length": "120 cm",
+
+        "moves": 230
+      }
+    ],
+
+    "use_action": [
+      { "type": "holster" },
+      {
+        "type": "transform",
+        "target": "sling/improvised",
+
+        "msg": "You move the sling behind you.",
+        "menu_text": "Adjust",
+
+        "moves": 150
+      }
+    ]
   }
 ]
