@@ -57,7 +57,7 @@
 
     "use_action": { "type": "holster" },
 
-    "flags": ["OVERSIZE"],
+    "flags": ["BELTED", "OVERSIZE", "WATER_FRIENDLY", "GUN_SLING"],
 
     "price_postapoc": "50 cent"
   }
