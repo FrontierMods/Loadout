@@ -80,6 +80,11 @@
     "replace": "sight/eotech/vudu/1-6x"
   },
   {
+    "id": ["pistol_scope"],
+    "type": "MIGRATION",
+    "replace": "sight/vortex/viper_pst/1-6x"
+  },
+  {
     "id": ["magnifier"],
     "type": "MIGRATION",
     "replace": "magnifier/eotech/g33"
