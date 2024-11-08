@@ -206,5 +206,100 @@
     "handling_modifier": 4,
 
     "price": "25 USD"
+  },
+  {
+    "id": "foregrip/kac/vertical",
+    "copy-from": "@foregrip",
+    "type": "GUNMOD",
+
+    "//sources": [
+      ["M4A1 Technical Data Package", "dimensions", "material"],
+      [
+        "https://www.rainierarms.com/knight-s-armament-company-kac-mil-std-1913-vertical-grip-black/",
+        "weight"
+      ],
+      [
+        "https://www.knightarmco.com/2009/shop/accessories/mil-std-1913/forward-pistol-grip-k",
+        "price",
+        "variant reference"
+      ]
+    ],
+
+    "name": {
+      "str": "military foregrip"
+    },
+    "description": "A full-sized foregrip with notches at the bottom to prevent your hand from slipping.  Allows for better handling of the firearm.  This model is famous for being commonly used by U.S. troops.",
+
+    "variant_type": "gun",
+    "variants": [
+      {
+        "id": "black",
+
+        "name": {
+          "str": "KAC vertical foregrip"
+        },
+        "description": "A full-sized polymer grip.  The grooves at the bottom prevent the user's hand from slipping.  This model was issued to the U.S. special forces, and has trickled down to common infantry over time.  <variant:black>",
+        "expand_snippets": true,
+        "weight": 4
+      },
+      {
+        "id": "fde",
+
+        "name": {
+          "str": "KAC vertical foregrip"
+        },
+        "description": "A full-sized polymer grip.  The grooves at the bottom prevent the user's hand from slipping.  This model was issued to the U.S. special forces, and has trickled down to common infantry over time.  <variant:fde>",
+        "expand_snippets": true,
+        "weight": 2
+      },
+      {
+        "id": "olive",
+
+        "name": {
+          "str": "KAC vertical foregrip"
+        },
+        "description": "A full-sized polymer grip.  The grooves at the bottom prevent the user's hand from slipping.  This model was issued to the U.S. special forces, and has trickled down to common infantry over time.  <variant:olive>",
+        "expand_snippets": true,
+        "weight": 1
+      },
+      {
+        "id": "brown",
+
+        "name": {
+          "str": "KAC vertical foregrip"
+        },
+        "description": "A full-sized polymer grip.  The grooves at the bottom prevent the user's hand from slipping.  This model was issued to the U.S. special forces, and has trickled down to common infantry over time.  <variant:brown>",
+        "expand_snippets": true,
+        "weight": 1
+      }
+    ],
+
+    "//weight": "2.5 oz = 70.874 g",
+    "weight": "71 g",
+    "//dimensions": {
+      "length": "1.96 in",
+      "width": "1.48 in",
+      "height": "4.02 in",
+      "raw": "191.09 ml",
+      "trim": 0.325
+    },
+    "volume": "129 ml",
+    "longest_side": "102 mm",
+
+    "//material": "glass-filled nylon",
+
+    "//interface": ["Picatinny"],
+
+    "//handling_modifier": {
+      "grip_tall": 4,
+      "bottom_grooves": 1
+    },
+    "handling_modifier": 5,
+
+    "//price": [
+      "different prices are listed for black (default) and other colors",
+      "for simplicity's sake, we assume that every grip of this brand would cost the same"
+    ],
+    "price": "80 USD"
   }
 ]

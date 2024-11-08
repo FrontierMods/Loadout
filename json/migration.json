@@ -156,6 +156,12 @@
   },
 
   {
+    "id": ["grip"],
+    "type": "MIGRATION",
+    "replace": "foregrip/kac/vertical"
+  },
+
+  {
     "id": ["single_sling"],
     "type": "MIGRATION",
     "replace": "sling/single/magpul/ms3"
