@@ -15,7 +15,7 @@
     "name": {
       "str": "belt clip"
     },
-    "description": "A metal clip that, when attached to the side of a pistol, allows its owner to carry it inside the wasteband of their pants, removing the need for a holster.  ",
+    "description": "A metal clip that, when attached to the side of a pistol, allows its owner to carry it inside the wasteband of their pants, removing the need for a holster.  Can also be clipped to one's belt or in a similar location.",
 
     "variant_type": "gun",
     "variants": [
@@ -25,7 +25,7 @@
         "name": {
           "str": "Clipdraw universal belt clip"
         },
-        "description": "TODO  <variant:black>",
+        "description": "A thin metal clip coupled with a strip of superadhesive paper.  Attaching it to the gun allows the user to clip it to one's pants, belt, or a similar mounting point, removing the need for a holster.  Though by no means a safe method of carry, you can use it to free your hands while scavenging or fighting.  <variant:black>",
         "expand_snippets": true,
         "weight": 1
       },
@@ -35,7 +35,7 @@
         "name": {
           "str": "Clipdraw universal belt clip"
         },
-        "description": "TODO  <variant:steel>",
+        "description": "A thin metal clip coupled with a strip of superadhesive paper.  Attaching it to the gun allows the user to clip it to one's pants, belt, or a similar mounting point, removing the need for a holster.  Though by no means a safe method of carry, you can use it to free your hands while scavenging or fighting.  <variant:steel>",
         "expand_snippets": true,
         "weight": 1
       }
