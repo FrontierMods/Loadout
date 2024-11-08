@@ -181,7 +181,7 @@
     ],
     "sight_dispersion": 138,
 
-    "//add_mod": "emulates possibly having another sight, e.g. a red dot sight, along with iron sights",
-    "add_mod": [["sights", 1]]
+    "///add_mod": "emulates possibly having another sight, e.g. a red dot sight, along with iron sights",
+    "//add_mod": [["sights", 1]]
   }
 ]
