@@ -1,0 +1,12 @@
+[
+  {
+    "type": "snippet",
+    "category": "<name/scratched>",
+    "//": [
+      "names which may have been carved of scratched into the surface of an item",
+      "intended to be used as a vertical list inside an item description",
+      "either gives a name or an empty string, so can be used to randomize name density"
+    ],
+    "text": [{ "text": "\n<name/unofficial>" }, { "text": "" }]
+  }
+]

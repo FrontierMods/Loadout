@@ -1,0 +1,13 @@
+[
+  {
+    "id": "Loadout_debug_EOC_SPAWN_SCRATCHED_RECEIVER",
+    "type": "effect_on_condition",
+
+    "effect": [
+      {
+        "map_spawn_item": "special/item:scratched_receiver",
+        "use_item_group": true
+      }
+    ]
+  }
+]
