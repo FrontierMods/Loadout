@@ -1,0 +1,14 @@
+[
+  {
+    "id": "special/item:scratched_receiver",
+    "type": "item_group",
+    "subtype": "collection",
+
+    "items": [
+      {
+        "item": "upper_receiver/ar15/556/20in/colt/m16a2",
+        "variant": "black:scratched"
+      }
+    ]
+  }
+]
