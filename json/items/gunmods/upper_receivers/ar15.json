@@ -84,8 +84,6 @@
     "//barrel_length": "16 in. = 406.4 mm",
     "barrel_length": "406 mm",
 
-    "material": ["steel", "aluminum", "plastic"],
-
     "//add_mod": [
       "no slot for bayonet lug because the handguard leaves no space to attach a bayonet",
       [
