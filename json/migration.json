@@ -230,6 +230,12 @@
   },
 
   {
+    "id": ["retool_ar15_223rem"],
+    "type": "MIGRATION",
+    "replace": "upper_receiver/ar15/556/16in/aero/mod_4"
+  },
+
+  {
     "//": "SECTION 3: Adjacent item migration",
 
     "id": ["ugl_buttstock"],
