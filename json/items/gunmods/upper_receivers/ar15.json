@@ -1,0 +1,110 @@
+[
+  {
+    "id": "upper_receiver/ar15/556/16in/aero/mod_4",
+    "copy-from": "@upper_receiver/ar15",
+    "type": "GUNMOD",
+
+    "//sources": [
+      "https://www.aeroprecisionusa.com/m4e1-threaded-complete-upper-16-in-5pt-56-mid-length-gov-w-15-mod-4-handguard",
+      [
+        "https://www.wingtactical.com/firearm-parts/ar-15-parts/complete-upper-receiver-assemblies/5-56-223-complete-uppers/aero-precision-16-m4e1-5-56-enhanced-complete-upper-with-vg6-gamma-556/",
+        "weight reference"
+      ]
+    ],
+
+    "//notes": [
+      "the version with the charging handle and the BCG in the same package",
+      [
+        "https://www.aeroprecisionusa.com/556-bolt-carrier-group-no-logo-phosphate-rh",
+        "https://www.aeroprecisionusa.com/ar15-breach-ambi-charging-handle-w-small-lever-black",
+        "if ever the weight of this upper is recalculated from constituent parts, these are likely the components for the upper"
+      ],
+      "all mounts should be M-LOK"
+    ],
+
+    "name": {
+      "str": "16″ 5.56mm AR-15 upper receiver"
+    },
+    "description": "<upper_receiver/ar15>  <upper_receiver>  <upper_receiver/caliber:556>  <upper_receiver/barrel:16>",
+    "expand_snippets": true,
+
+    "variant_type": "gun",
+    "variants": [
+      {
+        "id": "black",
+
+        "name": {
+          "str": "Aero Precision 16″ 5.56mm AR-15 upper receiver"
+        },
+        "description": "A complete upper receiver assembly for AR-15-style firearms.  Includes a 16-inch barrel chambered in 5.56mm NATO, an unremarkable bolt carrier group, a BREACH changing handle, and a MOD 4 M-LOK handguard with a full top rail sitting flush with the upper receiver itself.  <variant:black>",
+        "expand_snippets": true,
+        "weight": 4
+      },
+      {
+        "id": "olive",
+
+        "name": {
+          "str": "Aero Precision 16″ 5.56mm AR-15 upper receiver"
+        },
+        "description": "A complete upper receiver assembly for AR-15-style firearms.  Includes a 16-inch barrel chambered in 5.56mm NATO, an unremarkable bolt carrier group, a BREACH changing handle, and a MOD 4 M-LOK handguard with a full top rail sitting flush with the upper receiver itself.  <variant:olive>",
+        "expand_snippets": true,
+        "weight": 1
+      },
+      {
+        "id": "brown",
+
+        "name": {
+          "str": "Aero Precision 16″ 5.56mm AR-15 upper receiver"
+        },
+        "description": "A complete upper receiver assembly for AR-15-style firearms.  Includes a 16-inch barrel chambered in 5.56mm NATO, an unremarkable bolt carrier group, a BREACH changing handle, and a MOD 4 M-LOK handguard with a full top rail sitting flush with the upper receiver itself.  <variant:brown>",
+        "expand_snippets": true,
+        "weight": 1
+      }
+    ],
+
+    "//weight": "4.25 lbs = 1927.8 g",
+    "weight": "1928 g",
+    "//dimensions": {
+      "area": "29517.37 mm2",
+      "width": "1.5 in",
+      "raw": "1124.15 ml",
+      "trim": 0.07,
+      "notes": [
+        "trim is only for the part where the barrel sticks ahead of the handguard",
+        "while not the most accurate, we model the upper as a cylinder based on the handguard's stated outer diameter, presuming that the uneven parts even out throughout the model"
+      ]
+    },
+    "volume": "1046 ml",
+    "longest_side": "615 mm",
+    "//integral_longest_side": [
+      "on average, an AR-15 lower receiver has exactly 7 in. = 177.8 mm of space for an upper receiver",
+      "615.15 - 177.8 = 437.35 mm"
+    ],
+    "integral_longest_side": "437 mm",
+    "//barrel_length": "16 in. = 406.4 mm",
+    "barrel_length": "406 mm",
+
+    "material": ["steel", "aluminum", "plastic"],
+
+    "//add_mod": [
+      "no slot for bayonet lug because the handguard leaves no space to attach a bayonet",
+      [
+        "only one slot for rail attachments because only the top rail exists on this handguard",
+        "two rail mount slots added here to model the handguard realistically"
+      ],
+      [
+        "slot for underbarrel replaced with slot for underbarrel mount because there's no bottom rail on the handguard"
+      ]
+    ],
+    "add_mod": [
+      ["brass catcher", 1],
+      ["rail", 1],
+      ["rail mount", 2],
+      ["sights", 1],
+      ["underbarrel mount", 1],
+      ["muzzle", 1]
+    ],
+
+    "price": "995 USD"
+  }
+]
