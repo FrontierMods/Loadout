@@ -243,5 +243,100 @@
     "//price": "for the model with BCG and changing handle",
     "price": "1057 USD",
     "price_postapoc": "10 USD"
+  },
+  {
+    "id": "upper_receiver/ar15/556/14.5in/colt/m4a1",
+    "copy-from": "@upper_receiver/ar15",
+    "type": "GUNMOD",
+
+    "//sources": [
+      "M4A1 Technical Data Package",
+      [
+        "https://fnamerica.com/products/accessories/fn-15-m4-upper-assembly/",
+        "weight reference"
+      ],
+      [
+        "https://www.specializedarmament.com/ar-15-upper-receiver-groups/upper-receiver-group-colt-m4a1-se/",
+        "price"
+      ],
+      [
+        "https://www.ar15.com/forums/ar-15/Rail_covers_and_added_weight_/118-545494/",
+        "weight of 11-rib rail cover"
+      ],
+      [
+        "https://www.venturesurplus.com/products/knights-armament-5-rib-rail-cover/",
+        "weight reference for 6-rib rail cover"
+      ]
+    ],
+
+    "name": {
+      "str": "14.5″ 5.56mm AR-15 upper receiver"
+    },
+    "description": "<upper_receiver/ar15>  <upper_receiver>  <upper_receiver/caliber:556>  <upper_receiver/barrel:14.5>",
+    "expand_snippets": true,
+
+    "variant_type": "gun",
+    "variants": [
+      {
+        "id": "black",
+
+        "name": {
+          "str": "Colt M4A1 14.5″ 5.56mm AR-15 upper receiver"
+        },
+        "description": "A complete upper receiver assembly for AR-15-style firearms.  Includes a 14.5-inch barrel chambered in 5.56mm NATO, standard-issue internal components, and a quad-rail handguard which stops just in front of the front sight post gas block.  This model has been standard issue with the U.S. Army for years, and has now been stockpiled state-side for emergencies.  <variant:black>",
+        "expand_snippets": true,
+        "weight": 4
+      },
+      {
+        "id": "black:scratched",
+
+        "name": {
+          "str": "Colt M4A1 14.5″ 5.56mm AR-15 upper receiver"
+        },
+        "description": "A complete upper receiver assembly for AR-15-style firearms.  Includes a 14.5-inch barrel chambered in 5.56mm NATO, standard-issue internal components, and a quad-rail handguard which stops just in front of the front sight post gas block.  This model has been standard issue with the U.S. Army for years, and has now been stockpiled state-side for emergencies.  <variant:black>\n\nThis receiver has clearly seen a fair amount of use, with scratches, blemishes, and dried stains of who knows what.  On the receiver, names have been scratched:\n<name/scratched><name/scratched><name/scratched><name/scratched><name/scratched>",
+        "expand_snippets": true,
+        "weight": 4
+      }
+    ],
+
+    "//weight": [
+      "4.98 lbs = 2258.9 g",
+      [
+        "excluding the following weights",
+        "KAC foregrip: 70.874 g",
+        "A2 birdcage: 50.746 g",
+        "11-rib rail cover: 0.9 oz = 25.515 g × 3 = 76.545 g",
+        "6-rib rail cover: 0.75 oz = 21.262 g"
+      ],
+      "2258.9 g - 70.874 g - 50.746 g - 76.545 g - 21.262 g = 2039.47 g"
+    ],
+    "weight": "2040 g",
+    "//dimensions": {
+      "area": "66.35 in2",
+      "width": "1.35 in",
+      "raw": "1087.28 ml",
+      "trim": 0.07,
+      "notes": [
+        "trim is only for the part where the barrel sticks ahead of the handguard",
+        "while not the most accurate, we model the upper as a cylinder based on the handguard's stated outer diameter, presuming that the uneven parts even out throughout the model"
+      ]
+    },
+    "volume": "1011 ml",
+    "//longest_side": ["24.46 in = 621.28 mm", "Feret's distance"],
+    "longest_side": "621 mm",
+    "integral_longest_side": "444 mm",
+    "barrel_length": "368 mm",
+
+    "//add_mod": "we assume that the generic Picatinny rail mounts we have would be a good fit for the uncommon interface of the A2 handguard",
+    "add_mod": [
+      ["brass catcher", 1],
+      ["bayonet lug", 1],
+      ["underbarrel", 1],
+      ["rail", 3],
+      ["muzzle", 1]
+    ],
+
+    "price": "899 USD",
+    "price_postapoc": "10 USD"
   }
 ]
