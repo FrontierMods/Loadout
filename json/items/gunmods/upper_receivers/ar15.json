@@ -335,5 +335,75 @@
     ],
 
     "price": "899 USD"
+  },
+  {
+    "id": "upper_receiver/ar15/556/10.3in/lmt/cqbr",
+    "copy-from": "@upper_receiver/ar15",
+    "type": "GUNMOD",
+
+    "//sources": [
+      "M4A1 Technical Data Package",
+      [
+        "https://en.wikipedia.org/wiki/Close_Quarters_Battle_Receiver",
+        "longest side"
+      ],
+      [
+        "https://charliescustomclones.com/mk18-cqbr-upper-receiver-group-mod-0-lmt-10-5-urg/",
+        "price"
+      ]
+    ],
+
+    "name": {
+      "str": "10.3″ 5.56mm AR-15 upper receiver"
+    },
+    "description": "<upper_receiver/ar15>  <upper_receiver>  <upper_receiver/caliber:556>  <upper_receiver/barrel:10.3>",
+    "expand_snippets": true,
+
+    "variant_type": "gun",
+    "variants": [
+      {
+        "id": "black",
+
+        "name": {
+          "str": "LMT CQBR 10.3″ 5.56mm AR-15 upper receiver"
+        },
+        "description": "A complete upper receiver assembly for AR-15-style firearms.  Includes a 10.3-inch barrel chambered in 5.56mm NATO, standard-issue internal components, and a quad-rail handguard which stops just in front of the front sight post gas block.  <variant:black>",
+        "expand_snippets": true,
+        "weight": 1
+      }
+    ],
+
+    "//weight": [
+      "2.93 lbs = 1329 g",
+      "calculated as (weight of M16A2 unloaded − weight of M16A2 upper from Loadout) − weight of CQBR unloaded"
+    ],
+    "weight": "1329 g",
+    "//dimensions": {
+      "area": "40.42 in2",
+      "width": "1.35 in",
+      "raw": "894.24 ml",
+      "trim": 0.035,
+      "notes": [
+        "trim is only for the part where the barrel sticks ahead of the handguard",
+        "while not the most accurate, we model the upper as a cylinder based on the handguard's stated outer diameter, presuming that the uneven parts even out throughout the model"
+      ]
+    },
+    "volume": "863 ml",
+    "//longest_side": "19.25 in = 488.95 mm",
+    "longest_side": "489 mm",
+    "integral_longest_side": "311 mm",
+    "barrel_length": "262 mm",
+
+    "//add_mod": [
+      "no slot for bayonet lug because the barrel is not long enough to hold a bayonet"
+    ],
+    "add_mod": [
+      ["brass catcher", 1],
+      ["underbarrel", 1],
+      ["rail", 3],
+      ["muzzle", 1]
+    ],
+
+    "price": "1686 USD"
   }
 ]
