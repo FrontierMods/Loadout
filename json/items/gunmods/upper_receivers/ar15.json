@@ -326,7 +326,6 @@
     "integral_longest_side": "444 mm",
     "barrel_length": "368 mm",
 
-    "//add_mod": "we assume that the generic Picatinny rail mounts we have would be a good fit for the uncommon interface of the A2 handguard",
     "add_mod": [
       ["brass catcher", 1],
       ["bayonet lug", 1],
