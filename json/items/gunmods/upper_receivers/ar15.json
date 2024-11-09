@@ -241,8 +241,7 @@
     ],
 
     "//price": "for the model with BCG and changing handle",
-    "price": "1057 USD",
-    "price_postapoc": "10 USD"
+    "price": "1057 USD"
   },
   {
     "id": "upper_receiver/ar15/556/14.5in/colt/m4a1",
@@ -336,7 +335,6 @@
       ["muzzle", 1]
     ],
 
-    "price": "899 USD",
-    "price_postapoc": "10 USD"
+    "price": "899 USD"
   }
 ]
