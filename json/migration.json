@@ -244,6 +244,11 @@
     "type": "MIGRATION",
     "replace": "upper_receiver/ar15/556/14.5in/colt/m4a1"
   },
+  {
+    "id": ["retool_ar15_223rem_short"],
+    "type": "MIGRATION",
+    "replace": "upper_receiver/ar15/556/10.3in/lmt/cqbr"
+  },
 
   {
     "//": "SECTION 3: Adjacent item migration",
