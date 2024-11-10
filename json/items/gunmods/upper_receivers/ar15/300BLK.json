@@ -51,12 +51,14 @@
 
     "//add_mod": [
       "no slot for bayonet lug because the barrel is not long enough to hold a bayonet",
-      "the M-LOK handguard requires mounts"
+      "the M-LOK handguard requires mounts",
+      "we presume the two upper rails to be usable as full-on side rails"
     ],
     "add_mod": [
       ["brass catcher", 1],
       ["underbarrel mount", 1],
       ["rail mount", 1],
+      ["rail", 2],
       ["muzzle", 1]
     ],
 
@@ -114,12 +116,15 @@
 
     "//add_mod": [
       "no slot for bayonet lug because the barrel is not long enough to hold a bayonet",
-      "the M-LOK handguard requires mounts"
+      "the M-LOK handguard requires mounts",
+      "we're not positive that the upper spot has a slot for an M-LOK adapter, so this upper will be excluded from the triple rail mount's list",
+      "we presume the two upper rails to be usable as full-on side rails"
     ],
     "add_mod": [
       ["brass catcher", 1],
       ["underbarrel mount", 1],
       ["rail mount", 1],
+      ["rail", 1],
       ["muzzle", 1]
     ],
 
@@ -183,6 +188,7 @@
       ["brass catcher", 1],
       ["underbarrel mount", 1],
       ["rail mount", 1],
+      ["rail", 2],
       ["muzzle", 1]
     ],
 
