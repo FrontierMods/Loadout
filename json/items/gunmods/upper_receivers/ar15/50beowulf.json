@@ -1,0 +1,191 @@
+[
+  {
+    "id": "upper_receiver/ar15/50beowulf/10.5in/bca/bc15",
+    "copy-from": "@upper_receiver/ar15/50beowulf",
+    "type": "GUNMOD",
+
+    "//sources": [
+      "https://www.bearcreekarsenal.com/127-42-10-5-parkerized-hb-barrel-1-20-twist-pistol-10-handguard-rc.html"
+    ],
+
+    "//notes": [
+      "handguard length (10 in.) used as reference length for area calculation"
+    ],
+
+    "name": {
+      "str": "10.5″ .50 Beowulf AR-15 upper receiver"
+    },
+    "description": "<upper_receiver/ar15>  <upper_receiver>  <upper_receiver/caliber:50beowulf>  <upper_receiver/barrel:10.5>",
+    "expand_snippets": true,
+
+    "variant_type": "gun",
+    "variants": [
+      {
+        "id": "black",
+
+        "name": {
+          "str": "BCA 10.5″ .50 Beowulf AR-15 upper receiver"
+        },
+        "description": "A complete upper receiver assembly for AR-15-style firearms.  Includes a 10.5-inch barrel chambered in .50 Beowulf, standard-issue internal components, and an M-LOK handguard with most of its upper rail between the start and the end of the handguard missing.  <variant:black>",
+        "expand_snippets": true,
+        "weight": 1
+      }
+    ],
+
+    "//weight": "4.5 lbs = 2041.2 g",
+    "weight": "2041 g",
+    "//dimensions": {
+      "area": "34.64 in2",
+      "width": "1.35 in",
+      "raw": "766.32 ml",
+      "trim": 0.02,
+      "notes": [
+        "trim is for the part where the barrel sticks ahead of the handguard"
+      ]
+    },
+    "volume": "751 ml",
+    "//longest_side": "17.5 in = 444.5 mm",
+    "longest_side": "445 mm",
+    "integral_longest_side": "267 mm",
+    "barrel_length": "267 mm",
+
+    "//add_mod": [
+      "no slot for bayonet lug because the handguard leaves no space to attach a bayonet",
+      "the M-LOK handguard requires mounts"
+    ],
+    "add_mod": [
+      ["brass catcher", 1],
+      ["underbarrel mount", 1],
+      ["rail mount", 1],
+      ["muzzle", 1]
+    ],
+
+    "price": "299 USD 60 cent"
+  },
+  {
+    "id": "upper_receiver/ar15/50beowulf/16in/bca/bc15",
+    "copy-from": "@upper_receiver/ar15/50beowulf",
+    "type": "GUNMOD",
+
+    "//sources": [
+      "https://www.bearcreekarsenal.com/12-7x42-18-parkerized-heavy-barrel-1-20-twist-mid-length-gas-system-15-mlok-rail-nrail-upper.html"
+    ],
+
+    "//notes": [
+      "handguard length (15 in.) used as reference length for area calculation"
+    ],
+
+    "name": {
+      "str": "16″ .50 Beowulf AR-15 upper receiver"
+    },
+    "description": "<upper_receiver/ar15>  <upper_receiver>  <upper_receiver/caliber:50beowulf>  <upper_receiver/barrel:16>",
+    "expand_snippets": true,
+
+    "variant_type": "gun",
+    "variants": [
+      {
+        "id": "black",
+
+        "name": {
+          "str": "BCA 16″ .50 Beowulf AR-15 upper receiver"
+        },
+        "description": "A complete upper receiver assembly for AR-15-style firearms.  Includes a 16-inch barrel chambered in .50 Beowulf, standard-issue internal components, and an M-LOK handguard with most of its upper rail between the start and the end of the handguard missing.  <variant:black>",
+        "expand_snippets": true,
+        "weight": 1
+      }
+    ],
+
+    "//weight": "6 lbs = 2721.6 g",
+    "weight": "2722 g",
+    "//dimensions": {
+      "area": "40.59 in2",
+      "width": "1.35 in",
+      "raw": "897.95 ml",
+      "trim": 0.005,
+      "notes": [
+        "trim is for the part where the barrel sticks ahead of the handguard"
+      ]
+    },
+    "volume": "894 ml",
+    "//longest_side": "23 in = 584 mm",
+    "longest_side": "584 mm",
+    "integral_longest_side": "406 mm",
+    "barrel_length": "406 mm",
+
+    "//add_mod": [
+      "no slot for bayonet lug because the barrel is not long enough to hold a bayonet",
+      "the M-LOK handguard requires mounts"
+    ],
+    "add_mod": [
+      ["brass catcher", 1],
+      ["underbarrel mount", 1],
+      ["rail mount", 1],
+      ["muzzle", 1]
+    ],
+
+    "price": "312 USD 71 cent"
+  },
+  {
+    "id": "upper_receiver/ar15/50beowulf/18in/bca/bc15",
+    "copy-from": "@upper_receiver/ar15/50beowulf",
+    "type": "GUNMOD",
+
+    "//sources": [
+      "https://www.bearcreekarsenal.com/12-7x42-18-parkerized-heavy-barrel-1-20-twist-mid-length-gas-system-15-mlok-rail-nrail-upper.html"
+    ],
+
+    "//notes": [
+      "handguard length (15 in.) used as reference length for area calculation"
+    ],
+
+    "name": {
+      "str": "18″ .50 Beowulf AR-15 upper receiver"
+    },
+    "description": "<upper_receiver/ar15>  <upper_receiver>  <upper_receiver/caliber:50beowulf>  <upper_receiver/barrel:18>",
+    "expand_snippets": true,
+
+    "variant_type": "gun",
+    "variants": [
+      {
+        "id": "black",
+
+        "name": {
+          "str": "BCA 18″ .50 Beowulf AR-15 upper receiver"
+        },
+        "description": "A complete upper receiver assembly for AR-15-style firearms.  Includes a 18-inch barrel chambered in .50 Beowulf, standard-issue internal components, and an M-LOK handguard with most of its upper rail between the start and the end of the handguard missing.  <variant:black>",
+        "expand_snippets": true,
+        "weight": 1
+      }
+    ],
+
+    "//weight": "6.5 lbs = 2948.4 g",
+    "weight": "2948 g",
+    "//dimensions": {
+      "area": "42.27 in2",
+      "width": "1.35 in",
+      "raw": "935.12 ml",
+      "trim": 0.045,
+      "notes": [
+        "trim is for the part where the barrel sticks ahead of the handguard"
+      ]
+    },
+    "volume": "893 ml",
+    "//longest_side": "25 in = 635 mm",
+    "longest_side": "635 mm",
+    "integral_longest_side": "457 mm",
+    "barrel_length": "457 mm",
+
+    "//add_mod": [
+      "no slot for bayonet lug because the handguard leaves no space to attach a bayonet",
+      "the M-LOK handguard requires mounts"
+    ],
+    "add_mod": [
+      ["brass catcher", 1],
+      ["underbarrel mount", 1],
+      ["rail mount", 1],
+      ["muzzle", 1]
+    ],
+
+    "price": "312 USD 71 cent"
+  }
+]
