@@ -185,5 +185,40 @@
         "item_restriction": ["450_ar15mag"]
       }
     ]
+  },
+  {
+    "abstract": "@upper_receiver/ar15/50beowulf",
+    "copy-from": "@upper_receiver/ar15",
+    "type": "GUNMOD",
+
+    "name": {
+      "str": "AR-15 .450 Bushmaster upper receiver"
+    },
+
+    "ammo_modifier": ["50beowulf"],
+    "magazine_adaptor": [
+      [
+        "50beowulf",
+        [
+          "stanag20_beowulf",
+          "stanag20ranger_beowulf",
+          "stanag30_beowulf",
+          "stanag30ranger_beowulf",
+          "50beowulf_ar15mag"
+        ]
+      ]
+    ],
+    "pocket_mods": [
+      {
+        "pocket_type": "MAGAZINE_WELL",
+        "item_restriction": [
+          "stanag20_beowulf",
+          "stanag20ranger_beowulf",
+          "stanag30_beowulf",
+          "stanag30ranger_beowulf",
+          "50beowulf_ar15mag"
+        ]
+      }
+    ]
   }
 ]
