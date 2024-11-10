@@ -61,5 +61,68 @@
     ],
 
     "price": "449 USD"
+  },
+  {
+    "id": "upper_receiver/ar15/300blk/7.5in/bca/bc15",
+    "copy-from": "@upper_receiver/ar15",
+    "type": "GUNMOD",
+
+    "//sources": [
+      "https://www.bearcreekarsenal.com/300-blackout-7-5-parkerized-hb-barrel-1-8-twist-pistol-7-handguard-rc-nrail-upper.html"
+    ],
+
+    "//notes": [
+      "ejection port door length of M4A1 (3.1 in.) used as reference length for area calculation"
+    ],
+
+    "name": {
+      "str": "7.5″ .300 Blackout AR-15 upper receiver"
+    },
+    "description": "<upper_receiver/ar15>  <upper_receiver>  <upper_receiver/caliber:300blk>  <upper_receiver/barrel:7.5>",
+    "expand_snippets": true,
+
+    "variant_type": "gun",
+    "variants": [
+      {
+        "id": "black",
+
+        "name": {
+          "str": "BCA 7.5″ .300 Blackout AR-15 upper receiver"
+        },
+        "description": "A complete upper receiver assembly for AR-15-style firearms.  Includes a 7.5-inch barrel chambered in .300 Blackout, standard-issue internal components, and an M-LOK handguard with most of its upper rail between the start and the end of the handguard missing.  <variant:black>",
+        "expand_snippets": true,
+        "weight": 1
+      }
+    ],
+
+    "//weight": "3.5 lbs = 1587.6 g",
+    "weight": "1588 g",
+    "//dimensions": {
+      "area": "26.06 in2",
+      "width": "1.35 in",
+      "raw": "576.51 ml",
+      "trim": 0.02,
+      "notes": [
+        "trim is only for the part where the barrel sticks ahead of the handguard"
+      ]
+    },
+    "volume": "565 ml",
+    "//longest_side": "14.5 in = 368.3 mm",
+    "longest_side": "368 mm",
+    "integral_longest_side": "191 mm",
+    "barrel_length": "191 mm",
+
+    "//add_mod": [
+      "no slot for bayonet lug because the barrel is not long enough to hold a bayonet",
+      "the M-LOK handguard requires mounts"
+    ],
+    "add_mod": [
+      ["brass catcher", 1],
+      ["underbarrel mount", 1],
+      ["rail mount", 1],
+      ["muzzle", 1]
+    ],
+
+    "price": "270 USD 15 cent"
   }
 ]
