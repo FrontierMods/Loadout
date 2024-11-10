@@ -1,7 +1,7 @@
 [
   {
     "id": "upper_receiver/ar15/556/16in/aero/mod_4",
-    "copy-from": "@upper_receiver/ar15",
+    "copy-from": "@upper_receiver/ar15/556",
     "type": "GUNMOD",
 
     "//sources": [
@@ -107,7 +107,7 @@
   },
   {
     "id": "upper_receiver/ar15/556/20in/colt/m16a2",
-    "copy-from": "@upper_receiver/ar15",
+    "copy-from": "@upper_receiver/ar15/556",
     "type": "GUNMOD",
 
     "//sources": [
@@ -245,7 +245,7 @@
   },
   {
     "id": "upper_receiver/ar15/556/14.5in/colt/m4a1",
-    "copy-from": "@upper_receiver/ar15",
+    "copy-from": "@upper_receiver/ar15/556",
     "type": "GUNMOD",
 
     "//sources": [
@@ -338,7 +338,7 @@
   },
   {
     "id": "upper_receiver/ar15/556/10.3in/lmt/cqbr",
-    "copy-from": "@upper_receiver/ar15",
+    "copy-from": "@upper_receiver/ar15/556",
     "type": "GUNMOD",
 
     "//sources": [
