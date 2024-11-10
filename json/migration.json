@@ -250,6 +250,11 @@
     "replace": "upper_receiver/ar15/556/20in/colt/m16a2"
   },
   {
+    "id": ["retool_ar15_300blk_short"],
+    "type": "MIGRATION",
+    "replace": "upper_receiver/ar15/300blk/7.5in/bca/bc15"
+  },
+  {
     "id": ["retool_ar15_300blk_medium"],
     "type": "MIGRATION",
     "replace": "upper_receiver/ar15/300blk/10.5in/ba/atlas"
