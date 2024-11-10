@@ -61,6 +61,15 @@
     "type": "MIGRATION",
     "replace": "rm121aux"
   },
+  {
+    "id": ["retool_ar15_450_short"],
+    "//": [
+      "the 7.5-inch assembly appears to be so exceedingly rare that very few stores even sell it",
+      "this includes whatever apparent upper from Bear Creek Arsenal the original PR introduced it from"
+    ],
+    "type": "MIGRATION",
+    "replace": "retool_ar15_450_medium"
+  },
 
   {
     "//": "SECTION 2: Actual Loadout migrations",
