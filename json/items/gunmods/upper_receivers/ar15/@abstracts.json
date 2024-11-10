@@ -220,5 +220,38 @@
         ]
       }
     ]
+  },
+  {
+    "abstract": "@upper_receiver/ar15/762x39",
+    "copy-from": "@upper_receiver/ar15",
+    "type": "GUNMOD",
+
+    "name": {
+      "str": "AR-15 7.62×39mm upper receiver"
+    },
+
+    "ammo_modifier": ["762"],
+    "magazine_adaptor": [
+      [
+        "762",
+        [
+          "762_ar15mag_5rd",
+          "762_ar15mag_10rd",
+          "762_ar15mag_20rd",
+          "762_ar15mag_30rd"
+        ]
+      ]
+    ],
+    "pocket_mods": [
+      {
+        "pocket_type": "MAGAZINE_WELL",
+        "item_restriction": [
+          "762_ar15mag_5rd",
+          "762_ar15mag_10rd",
+          "762_ar15mag_20rd",
+          "762_ar15mag_30rd"
+        ]
+      }
+    ]
   }
 ]

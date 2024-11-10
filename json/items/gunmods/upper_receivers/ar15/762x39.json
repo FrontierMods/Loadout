@@ -1,0 +1,71 @@
+[
+  {
+    "id": "upper_receiver/ar15/762x39/16in/radical/pabu16",
+    "copy-from": "@upper_receiver/ar15/762x39",
+    "type": "GUNMOD",
+
+    "//sources": [
+      "https://www.primaryarms.com/radical-firearms-762x39mm-barreled-upper-16in-primary-arms-exclusive",
+      [
+        "http://shop.the-armory-llc.com/rifles/semi-automatic-rifles/rad-rad-15-rdr-762x39-16-30rdrf01628",
+        "weight"
+      ]
+    ],
+
+    "//notes": [
+      "handguard length (15 in.) used as reference length for area calculation"
+    ],
+
+    "name": {
+      "str": "16″ 7.62×39mm AR-15 upper receiver"
+    },
+    "description": "<upper_receiver/ar15>  <upper_receiver>  <upper_receiver/caliber:762x39>  <upper_receiver/barrel:16>",
+    "expand_snippets": true,
+
+    "variant_type": "gun",
+    "variants": [
+      {
+        "id": "black",
+
+        "name": {
+          "str": "Radical Firearms 16″ 7.62×39mm AR-15 upper receiver"
+        },
+        "description": "A complete upper receiver assembly for AR-15-style firearms.  Includes a 16-inch barrel chambered in the rare 7.62×39mm caliber, standard-issue internal components, and an M-LOK handguard with an intact upper rail.  <variant:black>",
+        "expand_snippets": true,
+        "weight": 1
+      }
+    ],
+
+    "//weight": "8 lbs = 3628.7 g",
+    "weight": "3629 g",
+    "//dimensions": {
+      "area": "44.5 in2",
+      "width": "1.35 in",
+      "raw": "984.45 ml",
+      "trim": 0.005,
+      "notes": [
+        "trim is for the part where the barrel sticks ahead of the handguard"
+      ]
+    },
+    "volume": "980 ml",
+    "//longest_side": "23 in = 584 mm",
+    "longest_side": "584 mm",
+    "integral_longest_side": "406 mm",
+    "barrel_length": "406 mm",
+
+    "//add_mod": [
+      "no slot for bayonet lug because the barrel is not long enough to hold a bayonet",
+      "the M-LOK handguard requires mounts",
+      "there is a ful top rail"
+    ],
+    "add_mod": [
+      ["brass catcher", 1],
+      ["underbarrel mount", 1],
+      ["rail mount", 1],
+      ["rail", 1],
+      ["muzzle", 1]
+    ],
+
+    "price": "369 USD 99 cent"
+  }
+]
