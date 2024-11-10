@@ -1,0 +1,51 @@
+[
+  {
+    "id": "mount/underbarrel/magpul",
+    "type": "GUNMOD",
+
+    "//sources": [
+      "htthttps://magpul.com/m-lokpolymerrailsection-11slots.html",
+      [
+        "https://www.amazon.com.be/-/en/Magpul-M-LOK-Picatinny-Polymer-Accessory/dp/B00PDKOBSO",
+        "weight"
+      ]
+    ],
+
+    "//notes": ["the 11-slot/4.9-inch version"],
+
+    "name": {
+      "str": "rail mount"
+    },
+    "description": "A plastic adapter which allows attaching underbarrel-mounted devices to guns without a bottom rail.",
+
+    "weight": "45 g",
+    "//dimensions": {
+      "length": "4.9 in",
+      "width": "0.8 in",
+      "height": "13.1 mm",
+      "raw": "33.13 ml",
+      "trim": 0.05,
+      "notes": [
+        "width and height derived from visual reference",
+        "height taken without screws",
+        "trim accounts for the screws, which usually come attached to the mount when the mount is detached"
+      ]
+    },
+    "volume": "32 ml",
+    "longest_side": "125 mm",
+
+    "material": ["plastic"],
+
+    "symbol": ":",
+    "color": "light_gray",
+
+    "location": "underbarrel mount",
+    "mod_targets": ["smg", "rifle", "shotgun", "crossbow", "launcher"],
+    "install_time": "2 m",
+    "min_skills": [["gun", 1]],
+    "add_mod": [["underbarrel", 1]],
+
+    "price": "16 USD 95 cent",
+    "price_postapoc": "1 USD"
+  }
+]
