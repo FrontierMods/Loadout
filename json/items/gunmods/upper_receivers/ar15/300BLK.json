@@ -1,0 +1,64 @@
+[
+  {
+    "id": "upper_receiver/ar15/300blk/10.5in/ba/atlas",
+    "copy-from": "@upper_receiver/ar15",
+    "type": "GUNMOD",
+
+    "//sources": [
+      "https://www.ballisticadvantage.com/10-5-300-blackout-pistol-length-w-9-ar15-atlas-s-one-m-lok-handguard-complete-upper.html"
+    ],
+
+    "//notes": [
+      "ejection port door length of M4A1 (3.1 in.) used as reference length for area calculation"
+    ],
+
+    "name": {
+      "str": "10.5″ .300 Blackout AR-15 upper receiver"
+    },
+    "description": "<upper_receiver/ar15>  <upper_receiver>  <upper_receiver/caliber:300blk>  <upper_receiver/barrel:10.5>",
+    "expand_snippets": true,
+
+    "variant_type": "gun",
+    "variants": [
+      {
+        "id": "black",
+
+        "name": {
+          "str": "BA Atlas S-One 10.5″ .300 Blackout AR-15 upper receiver"
+        },
+        "description": "A complete upper receiver assembly for AR-15-style firearms.  Includes a 10.5-inch barrel chambered in .300 Blackout, standard-issue internal components, and a quad-rail handguard which stops just in front of the front sight post gas block.  <variant:black>",
+        "expand_snippets": true,
+        "weight": 1
+      }
+    ],
+
+    "//weight": "52.8 oz = 1496.9 g",
+    "weight": "1497 g",
+    "//dimensions": {
+      "area": "35.37 in2",
+      "width": "1.35 in",
+      "raw": "782.47 ml",
+      "trim": 0.045,
+      "notes": [
+        "trim is only for the part where the barrel sticks ahead of the handguard"
+      ]
+    },
+    "volume": "747 ml",
+    "//longest_side": "17.5 in = 444.5 mm",
+    "longest_side": "445 mm",
+    "integral_longest_side": "267 mm",
+    "barrel_length": "267 mm",
+
+    "//add_mod": [
+      "no slot for bayonet lug because the barrel is not long enough to hold a bayonet"
+    ],
+    "add_mod": [
+      ["brass catcher", 1],
+      ["underbarrel mount", 1],
+      ["rail mount", 1],
+      ["muzzle", 1]
+    ],
+
+    "price": "449 USD"
+  }
+]
