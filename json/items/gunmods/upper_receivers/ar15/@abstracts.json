@@ -167,5 +167,23 @@
         ]
       }
     ]
+  },
+  {
+    "abstract": "@upper_receiver/ar15/450",
+    "copy-from": "@upper_receiver/ar15",
+    "type": "GUNMOD",
+
+    "name": {
+      "str": "AR-15 .450 Bushmaster upper receiver"
+    },
+
+    "ammo_modifier": ["450"],
+    "magazine_adaptor": [["450", ["450_ar15mag"]]],
+    "pocket_mods": [
+      {
+        "pocket_type": "MAGAZINE_WELL",
+        "item_restriction": ["450_ar15mag"]
+      }
+    ]
   }
 ]
