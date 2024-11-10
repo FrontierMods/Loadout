@@ -124,5 +124,68 @@
     ],
 
     "price": "270 USD 15 cent"
+  },
+  {
+    "id": "upper_receiver/ar15/300blk/16in/bca/bc15",
+    "copy-from": "@upper_receiver/ar15",
+    "type": "GUNMOD",
+
+    "//sources": [
+      "https://www.bearcreekarsenal.com/300-blackout-16-stainless-steel-hb-barrel-1-8-twist-carbine-15-mlok-upper.html"
+    ],
+
+    "//notes": [
+      "handguard length (15 in.) used as reference length for area calculation"
+    ],
+
+    "name": {
+      "str": "16″ .300 Blackout AR-15 upper receiver"
+    },
+    "description": "<upper_receiver/ar15>  <upper_receiver>  <upper_receiver/caliber:300blk>  <upper_receiver/barrel:16>",
+    "expand_snippets": true,
+
+    "variant_type": "gun",
+    "variants": [
+      {
+        "id": "black",
+
+        "name": {
+          "str": "BCA 16″ .300 Blackout AR-15 upper receiver"
+        },
+        "description": "A complete upper receiver assembly for AR-15-style firearms.  Includes a 16-inch barrel chambered in .300 Blackout, standard-issue internal components, and an M-LOK handguard with most of its upper rail between the start and the end of the handguard missing.  <variant:black>",
+        "expand_snippets": true,
+        "weight": 1
+      }
+    ],
+
+    "//weight": "6.25 lbs = 2835 g",
+    "weight": "2835 g",
+    "//dimensions": {
+      "area": "40 in2",
+      "width": "1.35 in",
+      "raw": "884.9 ml",
+      "trim": 0.01,
+      "notes": [
+        "trim is only for the minuscule part where the barrel sticks ahead of the handguard"
+      ]
+    },
+    "volume": "876 ml",
+    "//longest_side": "23 in = 584.2 mm",
+    "longest_side": "584 mm",
+    "integral_longest_side": "406 mm",
+    "barrel_length": "406 mm",
+
+    "//add_mod": [
+      "no slot for bayonet lug because the handguard leaves no space to attach a bayonet",
+      "the M-LOK handguard requires mounts"
+    ],
+    "add_mod": [
+      ["brass catcher", 1],
+      ["underbarrel mount", 1],
+      ["rail mount", 1],
+      ["muzzle", 1]
+    ],
+
+    "price": "291 USD 03 cent"
   }
 ]
