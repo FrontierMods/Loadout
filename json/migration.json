@@ -298,6 +298,11 @@
     "type": "MIGRATION",
     "replace": "upper_receiver/ar15/50beowulf/18in/bca/bc15"
   },
+  {
+    "id": ["retool_ar15_762"],
+    "type": "MIGRATION",
+    "replace": "upper_receiver/ar15/762x39/16in/radical/pabu16"
+  },
 
   {
     "//": "SECTION 3: Adjacent item migration",
