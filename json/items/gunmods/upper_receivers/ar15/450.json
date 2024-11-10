@@ -1,7 +1,7 @@
 [
   {
     "id": "upper_receiver/ar15/450/10.5in/bca/bc15",
-    "copy-from": "@upper_receiver/ar15",
+    "copy-from": "@upper_receiver/ar15/450",
     "type": "GUNMOD",
 
     "//sources": [

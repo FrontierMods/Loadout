@@ -1,7 +1,7 @@
 [
   {
     "id": "upper_receiver/ar15/300blk/10.5in/ba/atlas",
-    "copy-from": "@upper_receiver/ar15",
+    "copy-from": "@upper_receiver/ar15/300blk",
     "type": "GUNMOD",
 
     "//sources": [
@@ -64,7 +64,7 @@
   },
   {
     "id": "upper_receiver/ar15/300blk/7.5in/bca/bc15",
-    "copy-from": "@upper_receiver/ar15",
+    "copy-from": "@upper_receiver/ar15/300blk",
     "type": "GUNMOD",
 
     "//sources": [
@@ -127,7 +127,7 @@
   },
   {
     "id": "upper_receiver/ar15/300blk/16in/bca/bc15",
-    "copy-from": "@upper_receiver/ar15",
+    "copy-from": "@upper_receiver/ar15/300blk",
     "type": "GUNMOD",
 
     "//sources": [
