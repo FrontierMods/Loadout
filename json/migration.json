@@ -259,6 +259,11 @@
     "type": "MIGRATION",
     "replace": "upper_receiver/ar15/300blk/10.5in/ba/atlas"
   },
+  {
+    "id": ["retool_ar15_300blk"],
+    "type": "MIGRATION",
+    "replace": "upper_receiver/ar15/300blk/16in/bca/bc15"
+  },
 
   {
     "//": "SECTION 3: Adjacent item migration",
