@@ -230,14 +230,14 @@
   },
 
   {
+    "id": ["retool_ar15_223rem_short"],
+    "type": "MIGRATION",
+    "replace": "upper_receiver/ar15/556/10.3in/lmt/cqbr"
+  },
+  {
     "id": ["retool_ar15_223rem"],
     "type": "MIGRATION",
     "replace": "upper_receiver/ar15/556/16in/aero/mod_4"
-  },
-  {
-    "id": ["retool_ar15_223rem_extended"],
-    "type": "MIGRATION",
-    "replace": "upper_receiver/ar15/556/20in/colt/m16a2"
   },
   {
     "id": ["retool_ar15_223rem_medium"],
@@ -245,9 +245,9 @@
     "replace": "upper_receiver/ar15/556/14.5in/colt/m4a1"
   },
   {
-    "id": ["retool_ar15_223rem_short"],
+    "id": ["retool_ar15_223rem_extended"],
     "type": "MIGRATION",
-    "replace": "upper_receiver/ar15/556/10.3in/lmt/cqbr"
+    "replace": "upper_receiver/ar15/556/20in/colt/m16a2"
   },
   {
     "id": ["retool_ar15_300blk_medium"],
