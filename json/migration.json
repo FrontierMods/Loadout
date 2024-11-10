@@ -305,6 +305,12 @@
   },
 
   {
+    "id": ["rail_mount"],
+    "type": "MIGRATION",
+    "replace": "mount/rail/magpul"
+  },
+
+  {
     "//": "SECTION 3: Adjacent item migration",
 
     "id": ["ugl_buttstock"],

@@ -1,0 +1,74 @@
+[
+  {
+    "result": "mount/rail/magpul:double",
+    "type": "recipe",
+
+    "category": "CC_WEAPON",
+    "subcategory": "CSC_WEAPON_MODS",
+    "activity_level": "NO_EXERCISE",
+
+    "skill_used": "fabrication",
+    "difficulty": 0,
+    "time": "1 s",
+
+    "reversible": true,
+    "autolearn": true,
+
+    "decomp_learn": 0,
+
+    "flags": ["BLIND_EASY"],
+
+    "components": [[["mount/rail/magpul", 1]], [["mount/rail/magpul", 1]]]
+  },
+  {
+    "result": "mount/rail/magpul:triple",
+    "id_suffix": "from_pair_and_one",
+    "type": "recipe",
+
+    "category": "CC_WEAPON",
+    "subcategory": "CSC_WEAPON_MODS",
+    "activity_level": "NO_EXERCISE",
+
+    "skill_used": "fabrication",
+    "difficulty": 0,
+    "time": "1 s",
+
+    "reversible": true,
+    "autolearn": true,
+
+    "decomp_learn": 0,
+
+    "flags": ["BLIND_EASY"],
+
+    "components": [
+      [["mount/rail/magpul:double", 1]],
+      [["mount/rail/magpul", 1]]
+    ]
+  },
+  {
+    "result": "mount/rail/magpul:triple",
+    "id_suffix": "from_three",
+    "type": "recipe",
+
+    "category": "CC_WEAPON",
+    "subcategory": "CSC_WEAPON_MODS",
+    "activity_level": "NO_EXERCISE",
+
+    "skill_used": "fabrication",
+    "difficulty": 0,
+    "time": "1 s",
+
+    "reversible": true,
+    "autolearn": true,
+
+    "decomp_learn": 0,
+
+    "flags": ["BLIND_EASY"],
+
+    "components": [
+      [["mount/rail/magpul", 1]],
+      [["mount/rail/magpul", 1]],
+      [["mount/rail/magpul", 1]]
+    ]
+  }
+]

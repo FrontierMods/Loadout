@@ -1,0 +1,98 @@
+[
+  {
+    "id": "mount/rail/magpul",
+    "type": "GUNMOD",
+
+    "//sources": [
+      "https://magpul.com/m-lokaluminumrail-9slots.html",
+      ["https://magpul.com/m-lok", "height reference"],
+      [
+        "https://www.aawee.fi/en/parts-and-accessories/magpul-m-lok-rail-section-9-slot-picatinny-rail/p/MAG583-BLK/",
+        "weight",
+        "width reference"
+      ]
+    ],
+
+    "//notes": ["the 9-slot/4.1-inch version"],
+
+    "name": {
+      "str": "rail mount"
+    },
+    "description": "An aluminum adapter which allows attaching rail-mounted devices to guns without rails.",
+
+    "weight": "36 g",
+    "//dimensions": {
+      "length": "4.1 in",
+      "width": "0.8 in",
+      "height": "13.1 mm",
+      "raw": "27.72 ml",
+      "trim": 0.05,
+      "notes": [
+        "width and height derived from visual reference",
+        "height taken without screws",
+        "trim accounts for the screws, which usually come attached to the mount when the mount is detached"
+      ]
+    },
+    "volume": "26 ml",
+    "longest_side": "104 mm",
+
+    "material": ["aluminum"],
+
+    "symbol": ":",
+    "color": "light_gray",
+
+    "location": "rail mount",
+    "mod_targets": ["smg", "rifle", "shotgun", "crossbow", "launcher"],
+    "install_time": "2 m",
+    "min_skills": [["gun", 1]],
+    "add_mod": [["rail", 1]],
+
+    "price": "24 USD 95 cent",
+    "price_postapoc": "1 USD"
+  },
+  {
+    "id": "mount/rail/magpul:double",
+    "copy-from": "mount/rail/magpul",
+    "type": "GUNMOD",
+
+    "name": {
+      "str": "double rail mount"
+    },
+    "description": "A pair of aluminum adapters which allow attaching rail-mounted devices to guns without rails.",
+
+    "weight": "72 g",
+    "volume": "53 ml",
+
+    "add_mod": [["rail", 2]],
+
+    "price": "49 USD 90 cent",
+    "price_postapoc": "2 USD"
+  },
+  {
+    "id": "mount/rail/magpul:triple",
+    "copy-from": "mount/rail/magpul",
+    "type": "GUNMOD",
+
+    "name": {
+      "str": "triple rail mount"
+    },
+    "description": "A triplet of aluminum adapters which allow attaching rail-mounted devices to guns without rails.",
+
+    "weight": "108 g",
+    "volume": "79 ml",
+
+    "add_mod": [["rail", 3]],
+    "//blacklist_mod": [
+      "these uppers have only two slots for side rails",
+      "we count the bottom rail as `underbarrel`"
+    ],
+    "blacklist_mod": [
+      "upper_receiver/ar15/556/16in/aero/mod_4",
+      "upper_receiver/ar15/300blk/7.5in/bca/bc15",
+      "upper_receiver/ar15/762x39/16in/radical/pabu16"
+    ],
+
+    "price": "89 USD 95 cent",
+    "price_postapoc": "3 USD"
+  }
+]
