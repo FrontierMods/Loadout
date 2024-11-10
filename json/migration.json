@@ -309,6 +309,11 @@
     "type": "MIGRATION",
     "replace": "mount/rail/magpul"
   },
+  {
+    "id": ["underbarrel_mount"],
+    "type": "MIGRATION",
+    "replace": "mount/underbarrel/magpul"
+  },
 
   {
     "//": "SECTION 3: Adjacent item migration",
