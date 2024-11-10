@@ -61,5 +61,68 @@
     ],
 
     "price": "299 USD 60 cent"
+  },
+  {
+    "id": "upper_receiver/ar15/450/18in/bca/bc15",
+    "copy-from": "@upper_receiver/ar15/450",
+    "type": "GUNMOD",
+
+    "//sources": [
+      "https://www.bearcreekarsenal.com/450-bushmaster-18-stainless-hb-barrel-1-24-twist-mid-length-15-nrail-rc-upper.html"
+    ],
+
+    "//notes": [
+      "handguard length (15 in.) used as reference length for area calculation"
+    ],
+
+    "name": {
+      "str": "18″ .450 Bushmaster AR-15 upper receiver"
+    },
+    "description": "<upper_receiver/ar15>  <upper_receiver>  <upper_receiver/caliber:450>  <upper_receiver/barrel:18>",
+    "expand_snippets": true,
+
+    "variant_type": "gun",
+    "variants": [
+      {
+        "id": "black",
+
+        "name": {
+          "str": "BCA 18″ .450 Bushmaster AR-15 upper receiver"
+        },
+        "description": "A complete upper receiver assembly for AR-15-style firearms.  Includes a 18-inch barrel chambered in .450 Bushmaster, standard-issue internal components, and an M-LOK handguard with most of its upper rail between the start and the end of the handguard missing.  <variant:black>",
+        "expand_snippets": true,
+        "weight": 1
+      }
+    ],
+
+    "//weight": "6 lbs = 2721.6 g",
+    "weight": "2722 g",
+    "//dimensions": {
+      "area": "42.27 in2",
+      "width": "1.35 in",
+      "raw": "935.12 ml",
+      "trim": 0.045,
+      "notes": [
+        "trim is for the part where the barrel sticks ahead of the handguard"
+      ]
+    },
+    "volume": "893 ml",
+    "//longest_side": "25 in = 635 mm",
+    "longest_side": "635 mm",
+    "integral_longest_side": "457 mm",
+    "barrel_length": "457 mm",
+
+    "//add_mod": [
+      "no slot for bayonet lug because the barrel is not long enough to hold a bayonet",
+      "the M-LOK handguard requires mounts"
+    ],
+    "add_mod": [
+      ["brass catcher", 1],
+      ["underbarrel mount", 1],
+      ["rail mount", 1],
+      ["muzzle", 1]
+    ],
+
+    "price": "320 USD 37 cent"
   }
 ]
