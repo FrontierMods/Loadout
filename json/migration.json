@@ -273,6 +273,16 @@
     "type": "MIGRATION",
     "replace": "upper_receiver/ar15/300blk/16in/bca/bc15"
   },
+  {
+    "id": ["retool_ar15_450_medium"],
+    "type": "MIGRATION",
+    "replace": "upper_receiver/ar15/450/10.5in/bca/bc15"
+  },
+  {
+    "id": ["retool_ar15_450"],
+    "type": "MIGRATION",
+    "replace": "upper_receiver/ar15/450/18in/bca/bc15"
+  },
 
   {
     "//": "SECTION 3: Adjacent item migration",
