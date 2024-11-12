@@ -1,0 +1,142 @@
+[
+  {
+    "id": "stock/glock/bt/usw",
+    "type": "GUNMOD",
+
+    "//sources": [
+      "https://bt-parts.com/bt-430200-b-t-usw-g17-conversion-kit/",
+      [
+        "https://defensereview.com/bt-universal-service-weapon-a1-usw-a1-and-bt-usw-g17-conversion-kit-turn-your-glock-17-g17-or-glock-19-g19-into-a-pistol-type-pdw-video/",
+        "dimensions",
+        "weight",
+        "mountable pistols"
+      ]
+    ],
+
+    "//notes": [
+      "this model is for 17- and 19-frame Glock pistols",
+      "even though the platform intentionally allows the user to use the pistol's original sights, we cannot prevent installed sights from disabling them"
+    ],
+
+    "name": {
+      "str_sp": "Glock stock chassis (folded)"
+    },
+    "description": "An aluminum chassis for Glock pistols.  Features a side-folding stock, which could be extended to provide extra control over the pistol while shooting; a top rail for small sights; a bottom rail for foregrips and other attachments; and two slots for side rail adapters.  <stock/position:folded>",
+    "expand_snippets": true,
+
+    "variant_type": "gun",
+    "variants": [
+      {
+        "id": "black",
+
+        "name": {
+          "str_sp": "B&T USW Glock stock chassis (folded)"
+        },
+        "description": "An aluminum chassis for Glock pistols with 17- and 19-type frames.  Features a side-folding stock, a sights rail, a bottom rail, and two slots for rail adapters on the side.  While nowhere near as comfortable to use as a full-size PDW, this frame makes the pistol much more controllable.  <variant:black>  <stock/position:folded>",
+        "expand_snippets": true,
+        "weight": 1
+      }
+    ],
+
+    "weight": "420 g",
+    "//dimensions": {
+      "length": "271 mm",
+      "width": "61 mm",
+      "height": "72 mm",
+      "raw": "1190.23 ml",
+      "trim": 0.3,
+      "notes": [
+        "trim assumes the volume of the buttstock contributes to the overall volume"
+      ]
+    },
+    "volume": "833 ml",
+    "//integral_volume": [
+      "since much of the volume would be overtaken but pistol inside it, the platform would only add so much of its own volume",
+      "we model this as 10% of the untrimmed volume"
+    ],
+    "integral_volume": "119 ml",
+    "longest_side": "271 mm",
+    "//integral_longest_side": "from visual reference, the platform appears to add around 20% to the length of the pistol",
+    "integral_longest_side": "54 mm",
+
+    "//material": "assumed from the nature of the item",
+    "material": ["aluminum", "plastic"],
+
+    "//mod_targets": [
+      "let's pretend for a moment that the Rivtech gun has the same grip slot",
+      "removing the gun from the list would mean the stock won't be allowed to spawn attached to the gun"
+    ],
+    "mod_targets": ["glock_17", "glock_19", "glock_22", "glock_31", "rm228"],
+    "add_mod": [
+      ["rail mount", 1],
+      ["underbarrel", 1],
+      ["sights", 1]
+    ],
+
+    "//install_time": "a guess",
+    "install_time": "2 m",
+
+    "//handling_modifier": [
+      "the stock's butt seems to be hanging just forward for the grip",
+      "this looks like it would hamper gripping the pistol"
+    ],
+    "handling_modifier": -1,
+
+    "//use_action": "one of the main selling points is the stock's ability to deploy rapidly",
+    "use_action": {
+      "type": "transform",
+      "target": "stock/glock/bt/usw:unfolded",
+
+      "menu_text": "Unfold",
+      "msg": "You unfold the stock.",
+
+      "//moves": "stated in the review",
+      "moves": 100
+    },
+
+    "price": "550 USD"
+  },
+
+  {
+    "id": "stock/glock/bt/usw:unfolded",
+    "copy-from": "stock/glock/bt/usw",
+    "type": "GUNMOD",
+
+    "name": {
+      "str_sp": "Glock stock chassis"
+    },
+    "description": "An aluminum chassis for Glock pistols.  Features a side-folding stock, which could be extended to provide extra control over the pistol while shooting; a top rail for small sights; a bottom rail for foregrips and other attachments; and two slots for side rail adapters.  <stock/position:unfolded>",
+    "expand_snippets": true,
+
+    "variant_type": "gun",
+    "variants": [
+      {
+        "id": "black",
+
+        "name": {
+          "str_sp": "B&T USW Glock stock chassis"
+        },
+        "description": "An aluminum chassis for Glock pistols with 17- and 19-type frames.  Features a side-folding stock, a sights rail, a bottom rail, and two slots for rail adapters on the side.  While nowhere near as comfortable to use as a full-size PDW, this frame makes the pistol much more controllable.  <variant:black>  <stock/position:unfolded>",
+        "expand_snippets": true,
+        "weight": 1
+      }
+    ],
+
+    "longest_side": "473 mm",
+    "//integral_longest_side": "the previous 20% of length (54 mm) + the difference between folded and unfolded lengths (245 mm)",
+    "integral_longest_side": "299 mm",
+
+    "handling_modifier": 7,
+
+    "//use_action": "rapid collapse is not required, thus we afford the player character the time to fold the stock back in",
+    "use_action": {
+      "type": "transform",
+      "target": "stock/glock/bt/usw",
+
+      "menu_text": "Fold",
+      "msg": "You fold the stock.",
+
+      "moves": 300
+    }
+  }
+]

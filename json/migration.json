@@ -153,6 +153,12 @@
   },
 
   {
+    "id": ["pistol_stock"],
+    "type": "MIGRATION",
+    "replace": "stock/glock/bt/usw"
+  },
+
+  {
     "id": ["brass_catcher"],
     "type": "MIGRATION",
     "replace": "brass_catcher/caldwell/universal"
