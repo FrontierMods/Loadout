@@ -83,13 +83,15 @@
 
     "add_mod": [["rail", 3]],
     "//blacklist_mod": [
-      "these uppers have only two slots for side rails",
+      "these gunmods have only two slots for side rails",
       "we count the bottom rail as `underbarrel`"
     ],
     "blacklist_mod": [
       "upper_receiver/ar15/556/16in/aero/mod_4",
       "upper_receiver/ar15/300blk/7.5in/bca/bc15",
-      "upper_receiver/ar15/762x39/16in/radical/pabu16"
+      "upper_receiver/ar15/762x39/16in/radical/pabu16",
+
+      "stock/glock/bt/usw"
     ],
 
     "price": "89 USD 95 cent",
