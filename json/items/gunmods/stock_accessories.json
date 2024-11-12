@@ -16,6 +16,8 @@
       "the dimensions-reference cheek pad is clearly a different model, but we use it for reference all the same because it's closer to being accurate than other options"
     ],
 
+    "//TODO": ["only allow mounting on solid stocks"],
+
     "name": { "str": "cheek pad" },
     "description": "A neoprene cover for most one-piece rifle or shotgun stocks.  It adds a padded cushion to the top of the stock, where your cheek would rest during aiming, providing comfort and relief from recoil, in effect improving your aim.",
 
@@ -27,7 +29,7 @@
         "name": {
           "str": "Blackhawk cheek pad"
         },
-        "description": "A large nylon bag for collecting shot casings.  Mounts onto any long gun by strapping onto it with hook-and-loop retainers.  <variant:black>",
+        "description": "A padded neoprene cheek rest.  Can mount onto any stock using adjustable nylon straps.  <variant:black>",
         "expand_snippets": true,
         "weight": 1
       }
@@ -43,15 +45,18 @@
     },
     "volume": "362 ml",
 
-    "//material": "materials are a guess based on visual appearance",
-    "material": ["nylon", "leather"],
+    "//material": [
+      "materials are a guess based on visual appearance",
+      "leather is probably of the faux variety, which isn't represented i in the game currently (0.H)"
+    ],
+    "material": ["neoprene", "nylon", "leather"],
 
     "symbol": ":",
     "color": "dark_gray",
 
     "location": "stock accessory",
     "install_time": "1 m",
-    "mod_targets": ["smg", "rifle", "shotgun"],
+    "mod_targets": ["pistol", "smg", "rifle", "shotgun", "launcher"],
     "dispersion_modifier": -1,
     "handling_modifier": 2,
 
