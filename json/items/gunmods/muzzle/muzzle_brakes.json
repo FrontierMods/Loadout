@@ -32,6 +32,16 @@
         },
         "description": "An unassuming muzzle brake with average, though still significant, performance.  It can serve as a mount for the SOCOM556-RC2 suppressor.  <muzzle/brake>  <variant:black>",
         "expand_snippets": true,
+        "weight": 300
+      },
+      {
+        "id": "special:orange",
+
+        "name": {
+          "str": "SureFire SOCOM muzzle brake"
+        },
+        "description": "An unassuming muzzle brake with average, though still significant, performance.  It can serve as a mount for the SOCOM556-RC2 suppressor.  <muzzle/brake>  This one is bright orange, made to look like a nonfunctional reproduction.",
+        "expand_snippets": true,
         "weight": 1
       }
     ],
