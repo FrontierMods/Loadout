@@ -61,5 +61,66 @@
     "handling_modifier": 2,
 
     "price": "31 USD 95 cent"
+  },
+
+  {
+    "id": "recoil_pad/allen/slip_on",
+    "type": "GUNMOD",
+
+    "//sources": [
+      "https://byallen.com/allen-company-recoil-eraser-ii-slip-on-pad-medium-black"
+    ],
+
+    "name": { "str": "recoil pad" },
+    "description": "A rubber pad which sits at the very end of the stock.  Absorbs some of the recoil, allowing for more control over the gun.",
+
+    "variant_type": "gun",
+    "variants": [
+      {
+        "id": "black",
+
+        "name": {
+          "str": "Allen recoil pad"
+        },
+        "description": "A rubber butt pad.  Slips onto most common stocks.  Absorbs some of the recoil during shooting, rendering the gun more controllable and comfortable to fire.  <variant:black>",
+        "expand_snippets": true,
+        "weight": 1
+      }
+    ],
+
+    "//weight": [
+      "2.5 oz = 70.874 g",
+      "we presume the weight on the page is given in ounces rather than pounds"
+    ],
+    "weight": "71 g",
+    "//dimensions": {
+      "length": "4.9 in",
+      "width": "1.85 in",
+      "height": "2.65 in",
+      "raw": "383.02 ml",
+      "trim": 0.9,
+      "notes": [
+        "massive trim due to the fact that much of the space is internal, and the pad itself is rubber and is thus foldable easily",
+        "dimensions differ between description and images"
+      ]
+    },
+    "volume": "38 ml",
+    "//longest_side": [
+      "roughly 50% of the height (horizontal breadth) of the pad = 1.325 in = 33.655 mm",
+      "we presume this to be the length of the pad itself, excluding the slip-on portion"
+    ],
+    "longest_side": "34 mm",
+
+    "material": ["rubber"],
+
+    "symbol": ":",
+    "color": "dark_gray",
+
+    "location": "stock accessory",
+    "install_time": "15 s",
+    "mod_targets": ["pistol", "smg", "rifle", "shotgun", "launcher"],
+    "handling_modifier": 3,
+
+    "price": "14 USD 99 cent"
   }
 ]

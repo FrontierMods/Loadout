@@ -169,6 +169,11 @@
     "type": "MIGRATION",
     "replace": "cheek_pad/blackhawk/tactical"
   },
+  {
+    "id": ["butt_hook"],
+    "type": "MIGRATION",
+    "replace": "recoil_pad/allen/slip_on"
+  },
 
   {
     "id": ["grip"],
