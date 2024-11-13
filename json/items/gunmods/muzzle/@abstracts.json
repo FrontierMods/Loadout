@@ -100,7 +100,8 @@
 
     "add_mod": [["suppressor cover", 1]],
 
-    "//flags": ["CONSUMABLE"]
+    "//flags": ["CONSUMABLE"],
+    "flags": ["FLASH_HIDER"]
   },
 
   {
@@ -166,7 +167,9 @@
     "handling_modifier": 5,
 
     "//loudness_modifier": "apparently some shooters claim flash hiders to reduce sound signature slightly",
-    "loudness_modifier": -5
+    "loudness_modifier": -5,
+
+    "flags": ["FLASH_HIDER"]
   },
 
   {
