@@ -106,7 +106,7 @@
     "name": {
       "str": "RMR reflex sight"
     },
-    "description": "A tiny reflex sight.  Often installed on a pistol due to its small footprint.  Requires a special RMR adapter to install.  With an extra adapter, could be mounted onto the ACOG sight.",
+    "description": "A tiny reflex sight.  Often installed on pistols due to its small footprint.  Requires a special RMR adapter to install.  With an extra adapter, could be mounted onto the ACOG sight.",
 
     "variant_type": "gun",
     "variants": [
