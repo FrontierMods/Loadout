@@ -62,6 +62,12 @@
     "//material": "assumed from the nature of the item",
     "material": ["aluminum", "plastic"],
 
+    "symbol": ":",
+    "color": "dark_gray",
+
+    "location": "stock",
+    "//install_time": "a guess",
+    "install_time": "2 m",
     "//mod_targets": [
       "let's pretend for a moment that the Rivtech gun has the same grip slot",
       "removing the gun from the list would mean the stock won't be allowed to spawn attached to the gun"
@@ -72,9 +78,6 @@
       ["underbarrel", 1],
       ["sights", 1]
     ],
-
-    "//install_time": "a guess",
-    "install_time": "2 m",
 
     "//handling_modifier": [
       "the stock's butt seems to be hanging just forward for the grip",
