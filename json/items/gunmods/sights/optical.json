@@ -1,7 +1,7 @@
 [
   {
     "id": "sight/trijicon/ta01",
-    "copy-from": "@sight_mount/rifle",
+    "copy-from": "@sight/rifle",
     "type": "GUNMOD",
 
     "//sources": [
@@ -267,7 +267,7 @@
 
   {
     "id": "sight/elcan/specterdr/legacy",
-    "copy-from": "@sight_mount/rifle",
+    "copy-from": "@sight/rifle",
     "type": "GUNMOD",
 
     "//sources": [
