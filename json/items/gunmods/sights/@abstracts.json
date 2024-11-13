@@ -15,9 +15,27 @@
     "location": "sights",
     "install_time": "2 m",
 
-    "mod_targets": ["pistol", "rifle", "smg", "shotgun", "bow", "launcher"],
+    "mod_targets": ["pistol", "rifle", "smg", "shotgun", "launcher"],
 
     "flags": ["DISABLE_SIGHTS"]
+  },
+  {
+    "abstract": "@sight/rifle",
+    "copy-from": "@sight",
+    "type": "GUNMOD",
+
+    "name": { "str": "long-gun sight" },
+
+    "mod_targets": ["rifle", "smg", "shotgun", "launcher"]
+  },
+  {
+    "abstract": "@sight/bow",
+    "copy-from": "@sight",
+    "type": "GUNMOD",
+
+    "name": { "str": "long-gun sight" },
+
+    "mod_targets": ["bow"]
   },
   {
     "abstract": "@sight/reflex",
