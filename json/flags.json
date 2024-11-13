@@ -2,5 +2,9 @@
   {
     "id": "RAISED_OPTIC_MOUNT",
     "type": "json_flag"
+  },
+  {
+    "id": "FLASH_HIDER",
+    "type": "json_flag"
   }
 ]
