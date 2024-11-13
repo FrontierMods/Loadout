@@ -1,29 +1,5 @@
 [
   {
-    "//experiment": {
-      "goals": [
-        "implement M26 as a fully-modular accessory which can be successfully attached to be the underbarrel of a gun and to its on stock assembly and function equally with both"
-      ],
-      "optional_goals": [
-        "implement the stock assembly as a gunmod for the `GUN`-implemented M26, making the M26 usable as both a gun and an underbarrel gun"
-      ],
-      "results": [
-        "the resulting gunmod operates successfully in both situations",
-        "because it's technically a separate gun when attached, the owner gun (whether a legitimate firearm or the stock assembly, which is implemented as a firearm) cannot display the shotgun's ammo count",
-        [
-          "using the shotgun with the stock assembly requires the player to manually switch over to the shotgun's fire mode, even if the stock assembly 'gun' has no legitimate way of firing on its own",
-          "this, though within the parameters of the experiment, precludes it from making it into the mod proper because it's inconvenient to the player, as well as unintuitive"
-        ],
-        [
-          "using stock assembly as a gunmod on the M26 doesn't work because the M26 is hardcoded (probably due to being an underbarrel slot gun) to not be able to fire",
-          "it has to be installed on a gun, which negates the entire point"
-        ]
-      ],
-      "notes": [
-        "stock assembly was modelled before Loadout changes to the ID, weight, and dimensions"
-      ]
-    },
-
     "id": "shotgun/underbarrel/c-more/m26",
     "type": "GUNMOD",
 
