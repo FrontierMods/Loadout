@@ -59,9 +59,10 @@
 
     "use_action": {
       "type": "transform",
+      "target": "bipod/harris/s-l2p:deployed",
+
       "menu_text": "Deploy",
-      "msg": "You swing the bipod's legs into the vertical position.",
-      "target": "bipod/harris/s-l2p:deployed"
+      "msg": "You swing the bipod's legs into the vertical position."
     },
 
     "price": "135 USD 18 cent"
@@ -111,9 +112,10 @@
 
     "use_action": {
       "type": "transform",
+      "target": "bipod/harris/s-l2p",
+
       "menu_text": "Stow",
-      "msg": "You push the bipod's legs back up, rendering them useless.",
-      "target": "bipod/harris/s-l2p"
+      "msg": "You push the bipod's legs back up, rendering them useless."
     },
 
     "flags": ["BIPOD"]
