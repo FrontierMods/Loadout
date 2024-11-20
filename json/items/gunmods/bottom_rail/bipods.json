@@ -7,8 +7,8 @@
     "//sources": [
       "https://www.harrisbipods.com/product/s-l2p-bipod/",
       [
-        "https://internationalshootingsupplies.com/product/harris-s-series-swivel-bipod-9-13-picatinny-mount-self-leveling-legs/",
-        "dimensions"
+        "https://sklep.hubertusprohunting.pl/bipod-harris-s-l2p-na-picatinny.html",
+        "area reference"
       ]
     ],
 
@@ -40,17 +40,18 @@
     "//weight": "14 oz = 396.89 g",
     "weight": "397 g",
     "//dimensions": {
-      "length": "9.5 in",
-      "width": "3 in",
-      "height": "2.1 in",
-      "raw": "980.77 ml",
-      "trim": 0.8,
+      "area": "31.62 in2",
+      "width": "1 in",
+      "raw": "518.16 ml",
+      "trim": [0.3, 0.23],
       "notes": [
-        "we presume the dimensions from the dimensions source to be correct, and the manufacturer's word of legs extending from 9″ up is based on the legs themselves, not overall length of the bipod"
+        "first trim is to account for the legs notably thinner than 1 inch",
+        "second trim is to account for this item being undeployed, and thus having a smaller area we cannot easily calculate from source"
       ]
     },
-    "volume": "196 ml",
-    "longest_side": "241 mm",
+    "volume": "279 ml",
+    "//longest_side": "17.47 in (Feret distance of deployed bipod) - 13 in (length of legs, extended) + 9 in (length of legs, contracted) = 13.47 in = 342.14 mm",
+    "longest_side": "342 mm",
 
     "material": ["aluminum", "steel", "rubber"],
 
@@ -93,14 +94,17 @@
     ],
 
     "//dimensions": {
-      "length": "13.5 in",
-      "width": "3 in",
-      "height": "2.1 in",
-      "raw": "1393.72 ml",
-      "trim": 0.8
+      "area": "31.62 in2",
+      "width": "1 in",
+      "raw": "518.16 ml",
+      "trim": 0.3,
+      "notes": [
+        "first trim is to account for the legs notably thinner than 1 inch"
+      ]
     },
-    "volume": "279 ml",
-    "longest_side": "343 mm",
+    "volume": "363 ml",
+    "//longest_side": "17.47 in = 443.74 mm",
+    "longest_side": "444 mm",
 
     "dispersion_modifier": -4,
     "handling_modifier": 12,
