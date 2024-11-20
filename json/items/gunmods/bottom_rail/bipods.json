@@ -53,7 +53,7 @@
     "//longest_side": "17.47 in (Feret distance of deployed bipod) - 13 in (length of legs, extended) + 9 in (length of legs, contracted) = 13.47 in = 342.14 mm",
     "longest_side": "342 mm",
 
-    "material": ["aluminum", "steel", "rubber"],
+    "material": ["plastic", "steel", "rubber"],
 
     "//interfaces": ["Picatinny"],
 
