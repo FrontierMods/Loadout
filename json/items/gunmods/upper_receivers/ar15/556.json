@@ -162,7 +162,7 @@
         "name": {
           "str": "Colt M16A2 20″ 5.56mm AR-15 upper receiver"
         },
-        "description": "A complete upper receiver assembly for AR-15-style firearms.  Includes a 20-inch barrel chambered in 5.56mm NATO, standard-issue internal components, and a classic round handguard without any railing.  This model has been standard issue with the U.S. Army for years, and has now been stockpiled state-side for emergencies.  <variant:black>\n\nThis receiver has clearly seen a fair amount of use, with scratches, blemishes, and dried stains of who knows what.  On the receiver, names have been scratched:\n<name/scratched><name/scratched><name/scratched><name/scratched><name/scratched>",
+        "description": "A complete upper receiver assembly for AR-15-style firearms.  Includes a 20-inch barrel chambered in 5.56mm NATO, standard-issue internal components, and a classic round handguard without any railing.  This model has been standard issue with the U.S. Army for years, and has now been stockpiled state-side for emergencies.  <variant:black>\n\nThis receiver has clearly seen a fair amount of use, with scratches, blemishes, and dried stains of who knows what.  On the receiver, names have been scratched:\n\n<name/scratched:first><name/scratched><name/scratched><name/scratched><name/scratched><name/scratched>",
         "expand_snippets": true,
         "weight": 4
       }
@@ -289,7 +289,7 @@
         "name": {
           "str": "Colt M4A1 14.5″ 5.56mm AR-15 upper receiver"
         },
-        "description": "A complete upper receiver assembly for AR-15-style firearms.  Includes a 14.5-inch barrel chambered in 5.56mm NATO, standard-issue internal components, and a quad-rail handguard which stops just in front of the front sight post gas block.  This model has been standard issue with the U.S. Army for years, and has now been stockpiled state-side for emergencies.  <variant:black>\n\nThis receiver has clearly seen a fair amount of use, with scratches, blemishes, and dried stains of who knows what.  On the receiver, names have been scratched:\n<name/scratched><name/scratched><name/scratched><name/scratched><name/scratched>",
+        "description": "A complete upper receiver assembly for AR-15-style firearms.  Includes a 14.5-inch barrel chambered in 5.56mm NATO, standard-issue internal components, and a quad-rail handguard which stops just in front of the front sight post gas block.  This model has been standard issue with the U.S. Army for years, and has now been stockpiled state-side for emergencies.  <variant:black>\n\nThis receiver has clearly seen a fair amount of use, with scratches, blemishes, and dried stains of who knows what.  On the receiver, names have been scratched:\n\n<name/scratched:first><name/scratched><name/scratched><name/scratched><name/scratched><name/scratched>",
         "expand_snippets": true,
         "weight": 4
       }

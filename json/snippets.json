@@ -8,6 +8,90 @@
       "either gives a name or an empty string, so can be used to randomize name density",
       "line break before name doesn't create an empty line in the description"
     ],
-    "text": [{ "text": "\n<name/unofficial>" }, { "text": "" }]
+    "text": [
+      { "text": "<name/separator:raw><name/unofficial>" },
+      { "text": "" }
+    ]
+  },
+  {
+    "type": "snippet",
+    "category": "<name/scratched:first>",
+    "//": [
+      "first name on the scratched list must follow different rules in order to appear more cohesive",
+      "it cannot start with a line break: this would hurt the formatting of the items that use these names",
+      "it cannot start with a slash: slashes are intended to represent improvised name separators carved in when two names are too close together on the item",
+      "it can start with any number of spaces",
+      "it is guaranteed to produce a name"
+    ],
+    "text": [{ "text": "<separator/space:up_to/6><name/unofficial>" }]
+  },
+
+  {
+    "type": "snippet",
+    "category": "<name/separator:raw>",
+    "//": [
+      "random separator for names which may have been carved in, welded, or otherwise inscribed in an uncaring fashion"
+    ],
+    "text": [
+      {
+        "text": "<separator/space:up_to/6>",
+        "weight": 3
+      },
+
+      {
+        "text": "<separator/space:up_to/3>/<separator/space:up_to/3>",
+        "weight": 2
+      },
+      {
+        "text": "<separator/space:up_to/3>|<separator/space:up_to/3>",
+        "weight": 2
+      },
+      {
+        "text": "<separator/space:up_to/3>\\<separator/space:up_to/3>",
+        "weight": 2
+      },
+
+      { "text": "\n<separator/space:up_to/3>", "weight": 2 },
+
+      {
+        "text": "<separator/space:up_to/3>-<separator/space:up_to/3>",
+        "weight": 1
+      },
+      {
+        "text": "<separator/space:up_to/3>·<separator/space:up_to/3>",
+        "weight": 1
+      },
+      {
+        "text": "<separator/space:up_to/3>×<separator/space:up_to/3>",
+        "weight": 1
+      }
+    ]
+  },
+
+  {
+    "type": "snippet",
+    "category": "<separator/space:up_to/6>",
+    "text": [
+      {
+        "text": "<separator/space:up_to/3><separator/space:up_to/3>"
+      }
+    ]
+  },
+  {
+    "type": "snippet",
+    "category": "<separator/space:up_to/3>",
+    "text": [
+      {
+        "text": "<separator/space><separator/space><separator/space>"
+      }
+    ]
+  },
+  {
+    "type": "snippet",
+    "category": "<separator/space>",
+    "text": [
+      { "text": " ", "weight": 4 },
+      { "text": "", "weight": 6 }
+    ]
   }
 ]
