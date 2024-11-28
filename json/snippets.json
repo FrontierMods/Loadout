@@ -23,7 +23,7 @@
       "it can start with any number of spaces",
       "it is guaranteed to produce a name"
     ],
-    "text": [{ "text": "<separator/space:up_to/6><name/unofficial>" }]
+    "text": [{ "text": "<separator/space:large><name/unofficial>" }]
   },
 
   {
@@ -34,35 +34,35 @@
     ],
     "text": [
       {
-        "text": "<separator/space:up_to/6>",
+        "text": "<separator/space:large>",
         "weight": 3
       },
 
       {
-        "text": "<separator/space:up_to/3>/<separator/space:up_to/3>",
+        "text": "<separator/space:medium>/<separator/space:medium>",
         "weight": 2
       },
       {
-        "text": "<separator/space:up_to/3>|<separator/space:up_to/3>",
+        "text": "<separator/space:medium>|<separator/space:medium>",
         "weight": 2
       },
       {
-        "text": "<separator/space:up_to/3>\\<separator/space:up_to/3>",
+        "text": "<separator/space:medium>\\<separator/space:medium>",
         "weight": 2
       },
 
-      { "text": "\n<separator/space:up_to/3>", "weight": 2 },
+      { "text": "\n<separator/space:medium>", "weight": 2 },
 
       {
-        "text": "<separator/space:up_to/3>-<separator/space:up_to/3>",
+        "text": "<separator/space:medium>-<separator/space:medium>",
         "weight": 1
       },
       {
-        "text": "<separator/space:up_to/3>·<separator/space:up_to/3>",
+        "text": "<separator/space:medium>·<separator/space:medium>",
         "weight": 1
       },
       {
-        "text": "<separator/space:up_to/3>×<separator/space:up_to/3>",
+        "text": "<separator/space:medium>×<separator/space:medium>",
         "weight": 1
       }
     ]
@@ -70,16 +70,16 @@
 
   {
     "type": "snippet",
-    "category": "<separator/space:up_to/6>",
+    "category": "<separator/space:large>",
     "text": [
       {
-        "text": "<separator/space:up_to/3><separator/space:up_to/3>"
+        "text": "<separator/space:medium><separator/space:medium>"
       }
     ]
   },
   {
     "type": "snippet",
-    "category": "<separator/space:up_to/3>",
+    "category": "<separator/space:medium>",
     "text": [
       {
         "text": "<separator/space><separator/space><separator/space>"
