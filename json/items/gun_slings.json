@@ -135,7 +135,7 @@
         "max_contains_weight": "8200 g",
         "min_item_volume": "1 L",
         "max_contains_volume": "8 L",
-        "max_item_length": "120 cm",
+        "max_item_length": "150 cm",
 
         "moves": 170
       }
@@ -203,7 +203,7 @@
         "max_contains_weight": "8200 g",
         "min_item_volume": "1 L",
         "max_contains_volume": "8 L",
-        "max_item_length": "120 cm",
+        "max_item_length": "150 cm",
 
         "moves": 130
       }
