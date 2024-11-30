@@ -1,0 +1,228 @@
+[
+  {
+    "result": "adjustable_stock",
+    "type": "recipe",
+    "obsolete": true
+  },
+  {
+    "result": "folding_stock",
+    "type": "recipe",
+    "obsolete": true
+  },
+  {
+    "result": "sights_mount",
+    "type": "recipe",
+    "obsolete": true
+  },
+  {
+    "result": "underbarrel_mount",
+    "type": "recipe",
+    "obsolete": true
+  },
+  {
+    "result": "rail_mount",
+    "type": "recipe",
+    "obsolete": true
+  },
+  {
+    "result": "arredondo_chute",
+    "type": "recipe",
+    "obsolete": true
+  },
+  {
+    "result": "improve_sights",
+    "type": "recipe",
+    "obsolete": true
+  },
+  {
+    "result": "offset_sights",
+    "type": "recipe",
+    "obsolete": true
+  },
+  {
+    "result": "sights_mount_pistol",
+    "type": "recipe",
+    "obsolete": true
+  },
+  {
+    "result": "shoulder_strap",
+    "type": "recipe",
+    "obsolete": true
+  },
+  {
+    "result": "shoulder_strap_simple",
+    "type": "recipe",
+    "obsolete": true
+  },
+  {
+    "result": "suppressor",
+    "type": "recipe",
+    "obsolete": true
+  },
+  {
+    "result": "brass_catcher",
+    "type": "recipe",
+    "obsolete": true
+  },
+  {
+    "result": "folding_stock",
+    "type": "recipe",
+    "obsolete": true
+  },
+  {
+    "result": "barrel_ported",
+    "type": "recipe",
+    "obsolete": true
+  },
+  {
+    "result": "bipod",
+    "type": "recipe",
+    "obsolete": true
+  },
+  {
+    "result": "grip",
+    "type": "recipe",
+    "obsolete": true
+  },
+  {
+    "result": "muzzle_brake",
+    "type": "recipe",
+    "obsolete": true
+  },
+  {
+    "result": "pistol_grip",
+    "type": "recipe",
+    "obsolete": true
+  },
+  {
+    "result": "pistol_stock",
+    "type": "recipe",
+    "obsolete": true
+  },
+  {
+    "result": "pistol_stock",
+    "type": "recipe",
+    "id_suffix": "with_plastic_molding",
+    "obsolete": true
+  },
+  {
+    "result": "recoil_stock",
+    "type": "recipe",
+    "obsolete": true
+  },
+  {
+    "result": "choke",
+    "type": "recipe",
+    "obsolete": true
+  },
+  {
+    "result": "dias",
+    "type": "recipe",
+    "obsolete": true
+  },
+  {
+    "result": "gun_crossbow",
+    "type": "recipe",
+    "obsolete": true
+  },
+  {
+    "result": "ugl_buttstock",
+    "type": "recipe",
+    "obsolete": true
+  },
+  {
+    "result": "pistol_bayonet",
+    "type": "recipe",
+    "obsolete": true
+  },
+  {
+    "result": "bipod_mod",
+    "type": "recipe",
+    "obsolete": true
+  },
+  {
+    "result": "grip_mod",
+    "type": "recipe",
+    "obsolete": true
+  },
+  {
+    "result": "m203_mod",
+    "type": "recipe",
+    "obsolete": true
+  },
+  {
+    "result": "m320_mod_mod",
+    "type": "recipe",
+    "obsolete": true
+  },
+  {
+    "result": "masterkey_mod",
+    "type": "recipe",
+    "obsolete": true
+  },
+  {
+    "result": "m26_mass_mod",
+    "type": "recipe",
+    "obsolete": true
+  },
+  {
+    "result": "rm121aux_mod",
+    "type": "recipe",
+    "obsolete": true
+  },
+  {
+    "result": "u_shotgun_mod",
+    "type": "recipe",
+    "obsolete": true
+  },
+  {
+    "result": "knife_combat_mod",
+    "type": "recipe",
+    "obsolete": true
+  },
+  {
+    "result": "sword_bayonet_mod",
+    "type": "recipe",
+    "obsolete": true
+  },
+  {
+    "result": "offset_sight_rail_mod",
+    "type": "recipe",
+    "obsolete": true
+  },
+  {
+    "result": "stabilizer_mod",
+    "type": "recipe",
+    "obsolete": true
+  },
+  {
+    "result": "muzzle_brake_mod",
+    "type": "recipe",
+    "obsolete": true
+  },
+  {
+    "result": "rifle_scope_mod",
+    "type": "recipe",
+    "obsolete": true
+  },
+  {
+    "result": "acog_scope_mod",
+    "type": "recipe",
+    "obsolete": true
+  },
+  {
+    "result": "offset_sights_mod",
+    "type": "recipe",
+    "obsolete": true
+  },
+  {
+    "result": "single_sling",
+    "type": "recipe",
+    "obsolete": true
+  },
+  {
+    "result": "rail_bayonet_lug",
+    "type": "recipe",
+    "obsolete": true
+  }
+]
