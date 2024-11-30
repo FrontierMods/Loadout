@@ -192,6 +192,11 @@
     "replace": "sling/double/bfg/vickers"
   },
   {
+    "id": ["shoulder_strap_front"],
+    "type": "MIGRATION",
+    "replace": "sling/double/bfg/vickers:front"
+  },
+  {
     "id": ["belt_clip"],
     "type": "MIGRATION",
     "replace": "belt_clip/clipdraw/universal"
