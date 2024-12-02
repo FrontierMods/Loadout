@@ -72,8 +72,7 @@
 
   {
     "id": "sling/double/bfg/vickers",
-    "copy-from": "@sling",
-    "type": "ARMOR",
+    "type": "GUNMOD",
 
     "//sources": [
       "https://www.blueforcegear.com/nsn-vickers-combat-applications-sling.html",
@@ -126,23 +125,27 @@
       { "type": "plastic", "portion": 5 }
     ],
 
-    "pocket_data": [
-      {
-        "pocket_type": "CONTAINER",
+    "symbol": ":",
+    "color": "green",
 
-        "holster": true,
+    "location": "sling",
+    "install_time": "20 s",
+    "mod_targets": ["rifle", "shotgun", "smg", "crossbow", "launcher"],
 
-        "max_contains_weight": "8200 g",
-        "min_item_volume": "1 L",
-        "max_contains_volume": "8 L",
-        "max_item_length": "150 cm",
+    "armor_data": {
+      "armor": [
+        {
+          "encumbrance": 0,
+          "volume_encumber_modifier": 0.33,
 
-        "moves": 170
-      }
-    ],
+          "coverage": 3,
+          "covers": ["torso"],
+          "specifically_covers": ["torso_hanging_back"]
+        }
+      ]
+    },
 
     "use_action": [
-      { "type": "holster" },
       {
         "type": "transform",
         "target": "sling/double/bfg/vickers:front",
@@ -154,12 +157,14 @@
       }
     ],
 
+    "flags": ["IS_ARMOR", "BELTED", "OVERSIZE", "WATER_FRIENDLY"],
+
     "price": "82 USD 95 cent"
   },
   {
     "id": "sling/double/bfg/vickers:front",
     "copy-from": "sling/double/bfg/vickers",
-    "type": "ARMOR",
+    "type": "GUNMOD",
 
     "name": {
       "str": "two-point sling (front)",
@@ -194,20 +199,25 @@
       }
     ],
 
-    "pocket_data": [
-      {
-        "pocket_type": "CONTAINER",
+    "symbol": ":",
+    "color": "green",
 
-        "holster": true,
+    "location": "sling",
+    "install_time": "20 s",
+    "mod_targets": ["rifle", "shotgun", "smg", "crossbow", "launcher"],
 
-        "max_contains_weight": "8200 g",
-        "min_item_volume": "1 L",
-        "max_contains_volume": "8 L",
-        "max_item_length": "150 cm",
+    "armor_data": {
+      "armor": [
+        {
+          "encumbrance": 0,
+          "volume_encumber_modifier": 0.33,
 
-        "moves": 130
-      }
-    ],
+          "coverage": 3,
+          "covers": ["torso"],
+          "specifically_covers": ["torso_hanging_front"]
+        }
+      ]
+    },
 
     "use_action": [
       { "type": "holster" },
