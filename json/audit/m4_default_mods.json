@@ -1,0 +1,4012 @@
+[
+  {
+    "//": [
+      "emulates changes from a fix PR that hasn't been backported for 0.H",
+      "https://github.com/CleverRaven/Cataclysm-DDA/pull/75298/"
+    ],
+
+    "id": "modular_m4a1",
+    "type": "item_group",
+    "subtype": "collection",
+    "entries": [
+      {
+        "item": "modular_m4_carbine",
+        "variant": "modular_m4a1",
+        "contents-item": "retool_ar15_223rem_medium"
+      }
+    ]
+  },
+
+  {
+    "id": "modular_m4_carbine",
+    "looks_like": "modular_ar15",
+    "type": "GUN",
+    "copy-from": "rifle_auto",
+    "name": { "str": "M4 carbine" },
+    "description": "A popular carbine, long used by the US military.  Though accurate, small, and lightweight, it is infamous for its unreliability when not properly maintained.  It is chambered in 5.56x45mm and accepts STANAG magazines.",
+    "ascii_picture": "modular_m4a1",
+    "weight": "880 g",
+    "volume": "1760 ml",
+    "longest_side": "470 mm",
+    "//": "The volume, weight, and overall length of an average AR-15’s complete upper receiver module have been deducted and will be made up for by the installable upper assemblies.",
+    "price": 240000,
+    "price_postapoc": 5000,
+    "variant_type": "gun",
+    "variants": [
+      {
+        "id": "modular_m4a1",
+        "name": { "str": "M4A1" },
+        "description": "A popular carbine, long used by the US military.  Though accurate, small, and lightweight, it is infamous for its unreliability when not properly maintained.",
+        "ascii_picture": "modular_m4a1"
+      },
+      {
+        "id": "m4_cqbr",
+        "name": { "str": "Mk 18 CQBR" },
+        "description": "This is a shorter M4 carbine with a 10.3 inch barrel, intended for confined spaces and close quarters battle situations.",
+        "weight": 1
+      }
+    ],
+    "to_hit": -1,
+    "material": ["aluminum", "steel", "plastic"],
+    "symbol": "(",
+    "color": "dark_gray",
+    "ammo": ["NULL"],
+    "dispersion": 180,
+    "durability": 6,
+    "min_cycle_recoil": 1350,
+    "weapon_category": ["AUTOMATIC_RIFLES"],
+    "modes": [
+      ["DEFAULT", "semi-auto", 1],
+      ["AUTO", "auto", 4]
+    ],
+    "valid_mod_locations": [
+      ["bore", 1],
+      ["grip", 1],
+      ["mechanism", 4],
+      ["sling", 1],
+      ["stock accessory", 2],
+      ["stock", 1]
+    ],
+    "flags": ["NO_TURRET"],
+    "//2": "This should be removed once vehicle turrets are capable of mounting guns with mods attached. As it stands, trying to mount this style of weapon would require the player to remove the conversion kit, thus rendering it unusable anyhow.",
+    "melee_damage": { "bash": 12 }
+  },
+
+  {
+    "type": "item_group",
+    "id": "defense_caravan_ranged",
+    "subtype": "collection",
+    "items": [
+      { "item": "crossbow" },
+      { "item": "marlin_9a" },
+      { "item": "hk_mp5" },
+      { "item": "taurus_spectrum" },
+      { "item": "deagle_44" },
+      { "item": "m1911" },
+      { "item": "hk_ump45" },
+      { "item": "fn_p90" },
+      { "item": "remington_870" },
+      { "item": "browning_blr" },
+      { "item": "ak47" },
+      { "group": "modular_m4a1" },
+      { "item": "savage_111f" },
+      { "item": "hk_g3" },
+      { "item": "hk_g80" },
+      { "item": "plasma_rifle" },
+      { "item": "compbow" }
+    ]
+  },
+
+  {
+    "type": "furniture",
+    "id": "f_battlefield_cross",
+    "name": "battlefield cross",
+    "description": "A makeshift memorial marker, made of a service rifle - buried in the dirt, or nestled in a pair of boots - with a helmet perched on the stock.  A small way to honor the dead.",
+    "symbol": "(",
+    "color": "dark_gray",
+    "move_cost_mod": 0,
+    "coverage": 20,
+    "required_str": -1,
+    "flags": ["EASY_DECONSTRUCT", "TRANSPARENT", "MOUNTABLE"],
+    "deconstruct": {
+      "items": [
+        { "group": "modular_m4a1", "count": 1, "charges": 0 },
+        { "item": "helmet_army", "count": 1, "damage": [0, 3] },
+        { "item": "boots_combat", "count": [0, 1], "damage": [0, 3] }
+      ]
+    },
+    "bash": {
+      "str_min": 1,
+      "str_max": 4,
+      "sound": "thump.",
+      "sound_fail": "whack.",
+      "items": [
+        { "group": "modular_m4a1", "count": 1, "charges": 0 },
+        { "item": "helmet_army", "count": 1, "damage": [0, 3] },
+        { "item": "boots_combat", "count": [0, 1], "damage": [0, 3] }
+      ]
+    }
+  },
+
+  {
+    "type": "item_group",
+    "id": "guns_rifle_obscure_display",
+    "//": "Imported or otherwise very obscure rifles, unloaded for storage in gunstore and unavailable for sale",
+    "subtype": "distribution",
+    "items": [
+      { "item": "ak47", "prob": 30 },
+      { "item": "m249_semi", "prob": 5 },
+      { "item": "bfg50", "prob": 5 },
+      { "item": "win70_458", "prob": 5 },
+      { "item": "ak74", "prob": 5 },
+      { "item": "vz58_p", "variant": "vz58_p", "prob": 5 },
+      { "item": "vz58_p", "variant": "vz58_v", "prob": 5 },
+      {
+        "item": "type99",
+        "variant": "type99",
+        "contents-group": "type99_mods",
+        "prob": 5,
+        "charges-min": 0,
+        "charges-max": 0
+      },
+      {
+        "item": "type99_sniper",
+        "contents-item": "arisaka_monopod",
+        "prob": 2,
+        "charges-min": 0,
+        "charges-max": 0
+      },
+      { "item": "famas", "prob": 5 },
+      { "item": "m60_semi", "prob": 5 },
+      { "item": "oa93", "prob": 3 },
+      { "item": "steyr_aug", "prob": 5 },
+      { "item": "fn_fal_semi", "variant": "fal_dsa", "prob": 40 },
+      { "item": "hk_g3", "prob": 40 },
+      { "item": "hk_g36", "prob": 30 },
+      { "item": "m1918", "prob": 30 },
+      { "group": "modular_m4a1", "prob": 45 },
+      { "item": "m14ebr", "prob": 15 },
+      { "item": "arx160", "prob": 10 },
+      {
+        "item": "modular_m16_auto_rifle",
+        "variant": "modular_acr",
+        "prob": 25
+      },
+      { "item": "fs2000", "prob": 6 },
+      { "item": "acr_300blk", "prob": 15 },
+      { "item": "hk417_13", "prob": 40 },
+      { "item": "m2carbine", "prob": 5 },
+      { "item": "ak308", "prob": 10 },
+      { "item": "ak308", "variant": "papm77", "prob": 5 }
+    ]
+  },
+  {
+    "type": "item_group",
+    "id": "guns_swat",
+    "//": "Guns issued to paramilitary forces in addition to standard police issue.",
+    "items": [
+      { "group": "guns_cop", "prob": 100 },
+      { "item": "hk_ump45", "prob": 15, "charges-min": 0, "charges-max": 25 },
+      { "item": "hk_mp5", "prob": 50, "charges-min": 0, "charges-max": 30 },
+      { "item": "hk_mp5k", "prob": 10, "charges-min": 0, "charges-max": 30 },
+      { "item": "hk_mp5sd", "prob": 5, "charges-min": 0, "charges-max": 30 },
+      { "item": "fn_p90", "prob": 25 },
+      {
+        "item": "mossberg_930",
+        "variant": "m1014",
+        "prob": 10,
+        "charges-min": 0,
+        "charges-max": 8
+      },
+      {
+        "group": "modular_m4a1",
+        "prob": 35,
+        "charges-min": 0,
+        "charges-max": 30
+      },
+      { "item": "as50", "prob": 5, "charges-min": 0, "charges-max": 10 },
+      { "group": "axmc", "prob": 10, "charges-min": 0, "charges-max": 10 },
+      { "item": "hk417_13", "prob": 30, "charges-min": 0, "charges-max": 20 }
+    ]
+  },
+
+  {
+    "id": "helicopter_osprey_2a",
+    "type": "vehicle",
+    "name": "V-22 Osprey",
+    "parts": [
+      {
+        "x": 0,
+        "y": 0,
+        "parts": [
+          "frame#cross",
+          "stowboard#horizontal_front",
+          "plating_steel",
+          "roof"
+        ]
+      },
+      { "x": 0, "y": 0, "parts": ["cam_control"] },
+      {
+        "x": 0,
+        "y": -1,
+        "parts": ["frame#cross", "seat", "plating_steel", "roof", "controls"]
+      },
+      { "x": 0, "y": -1, "parts": ["dashboard", "seatbelt"] },
+      {
+        "x": 0,
+        "y": 1,
+        "parts": ["frame#cross", "seat", "plating_steel", "roof", "controls"]
+      },
+      {
+        "x": 0,
+        "y": -2,
+        "parts": ["frame#cross", "windshield#vertical_left", "plating_steel"]
+      },
+      { "x": 0, "y": 1, "parts": ["black_box", "dashboard", "seatbelt"] },
+      {
+        "x": 0,
+        "y": 2,
+        "parts": ["frame#cross", "windshield#vertical_right", "plating_steel"]
+      },
+      {
+        "x": 1,
+        "y": 0,
+        "parts": ["frame#horizontal_2", "windshield#horizontal_front"]
+      },
+      {
+        "x": 1,
+        "y": -1,
+        "parts": ["frame#horizontal_2", "windshield#horizontal_front"]
+      },
+      { "x": 1, "y": -2, "parts": ["frame#vertical_T_left", "windshield#nw"] },
+      { "x": 1, "y": -2, "parts": ["plating_steel"] },
+      {
+        "x": 1,
+        "y": 1,
+        "parts": ["frame#horizontal_2", "windshield#horizontal_front"]
+      },
+      { "x": 1, "y": 2, "parts": ["frame#vertical_T_right", "windshield#ne"] },
+      { "x": 1, "y": 2, "parts": ["plating_steel"] },
+      {
+        "x": 2,
+        "y": 0,
+        "parts": ["frame#horizontal_front", "halfboard#horizontal_front"]
+      },
+      { "x": 2, "y": 0, "parts": ["plating_steel"] },
+      {
+        "x": 2,
+        "y": -1,
+        "parts": ["frame#horizontal_front", "halfboard#horizontal_front"]
+      },
+      { "x": 2, "y": -2, "parts": ["frame#nw", "halfboard#nw"] },
+      { "x": 2, "y": -2, "parts": ["plating_steel"] },
+      {
+        "x": 2,
+        "y": 1,
+        "parts": ["frame#horizontal_front", "halfboard#horizontal_front"]
+      },
+      { "x": 2, "y": 2, "parts": ["frame#ne", "halfboard#ne"] },
+      { "x": 2, "y": 2, "parts": ["plating_steel"] },
+      {
+        "x": -1,
+        "y": 0,
+        "parts": ["frame#cross", "medium_storage_battery", "roof"]
+      },
+      { "x": -1, "y": 0, "parts": ["aisle#horizontal", "plating_steel"] },
+      {
+        "x": -1,
+        "y": -1,
+        "parts": ["frame#cross", "roof", "aisle#horizontal", "plating_steel"]
+      },
+      {
+        "x": -1,
+        "y": -2,
+        "parts": [
+          "frame#vertical_left",
+          "stowboard#vertical_left",
+          "plating_steel"
+        ]
+      },
+      {
+        "x": -1,
+        "y": 1,
+        "parts": ["frame#cross", "roof", "aisle#horizontal", "plating_steel"]
+      },
+      {
+        "x": -1,
+        "y": 2,
+        "parts": [
+          "frame#vertical_right",
+          "stowboard#vertical_right",
+          "plating_steel"
+        ]
+      },
+      {
+        "x": -2,
+        "y": 0,
+        "parts": ["frame#cross", "door_opaque#front", "roof", "plating_steel"]
+      },
+      { "x": -2, "y": 0, "parts": ["omnicam"] },
+      {
+        "x": -2,
+        "y": -1,
+        "parts": ["frame#cross", "roof", "stowboard#horizontal_front"]
+      },
+      {
+        "x": -2,
+        "y": -2,
+        "parts": [
+          "frame#horizontal",
+          "plating_military",
+          "board#horizontal_front"
+        ]
+      },
+      { "x": -2, "y": -2, "parts": ["roof"] },
+      {
+        "x": -2,
+        "y": -3,
+        "parts": ["frame#sw", "board#nw", "plating_steel", "roof"]
+      },
+      {
+        "x": -2,
+        "y": 1,
+        "parts": ["frame#cross", "roof", "stowboard#horizontal_front"]
+      },
+      {
+        "x": -2,
+        "y": 2,
+        "parts": [
+          "frame#horizontal",
+          "plating_military",
+          "board#horizontal_front"
+        ]
+      },
+      { "x": -2, "y": 2, "parts": ["roof"] },
+      {
+        "x": -2,
+        "y": 3,
+        "parts": ["frame#se", "board#ne", "plating_steel", "roof"]
+      },
+      { "x": -3, "y": 0, "parts": ["frame#cross", "aisle#vertical", "roof"] },
+      { "x": -3, "y": -1, "parts": ["frame#cross", "aisle#vertical", "roof"] },
+      { "x": -3, "y": -2, "parts": ["frame#cross", "roof", "aisle#vertical"] },
+      {
+        "x": -3,
+        "y": -3,
+        "parts": [
+          "frame#vertical_left",
+          "door_opaque#left",
+          "plating_steel",
+          "roof"
+        ]
+      },
+      { "x": -3, "y": 1, "parts": ["frame#cross", "aisle#vertical", "roof"] },
+      { "x": -3, "y": 2, "parts": ["frame#cross", "roof", "aisle#vertical"] },
+      {
+        "x": -3,
+        "y": 3,
+        "parts": [
+          "frame#vertical_right",
+          "door_opaque#right",
+          "plating_steel",
+          "roof"
+        ]
+      },
+      {
+        "x": -4,
+        "y": 0,
+        "parts": ["frame#cross", "aisle#vertical", "roof", "aisle_lights"]
+      },
+      {
+        "x": -4,
+        "y": -1,
+        "parts": ["frame#cross", "roof", "seat", "plating_steel", "seatbelt"]
+      },
+      { "x": -4, "y": -2, "parts": ["frame#cross", "board#ne", "roof"] },
+      {
+        "x": -4,
+        "y": -2,
+        "parts": [{ "part": "tank_55gal_drum", "fuel": "jp8" }]
+      },
+      {
+        "x": -4,
+        "y": -3,
+        "parts": ["frame#vertical_left", "board#vertical_left", "plating_steel"]
+      },
+      { "x": -4, "y": -3, "parts": ["roof"] },
+      {
+        "x": -4,
+        "y": 1,
+        "parts": ["frame#cross", "roof", "seat", "plating_steel", "seatbelt"]
+      },
+      { "x": -4, "y": 2, "parts": ["frame#cross", "board#nw", "roof"] },
+      {
+        "x": -4,
+        "y": 2,
+        "parts": [{ "part": "tank_55gal_drum", "fuel": "jp8" }]
+      },
+      {
+        "x": -4,
+        "y": 3,
+        "parts": ["frame#vertical_2", "board#vertical_right", "plating_steel"]
+      },
+      { "x": -4, "y": 3, "parts": ["roof"] },
+      { "x": -5, "y": 0, "parts": ["frame#cross", "aisle#vertical", "roof"] },
+      {
+        "x": -5,
+        "y": -1,
+        "parts": ["frame#cross", "roof", "seat", "plating_steel", "seatbelt"]
+      },
+      {
+        "x": -5,
+        "y": -2,
+        "parts": ["frame#cross", "board#vertical_left", "roof"]
+      },
+      {
+        "x": -5,
+        "y": -2,
+        "parts": [{ "part": "tank_55gal_drum", "fuel": "jp8" }]
+      },
+      {
+        "x": -5,
+        "y": -3,
+        "parts": ["frame#vertical", "board#sw", "plating_steel"]
+      },
+      {
+        "x": -5,
+        "y": -4,
+        "parts": ["frame#horizontal", "halfboard#horizontal"]
+      },
+      {
+        "x": -5,
+        "y": -5,
+        "parts": ["frame#horizontal", "halfboard#horizontal"]
+      },
+      {
+        "x": -5,
+        "y": -6,
+        "parts": ["frame#horizontal", "halfboard#horizontal"]
+      },
+      { "x": -5, "y": -7, "parts": ["frame#vertical", "halfboard#vertical"] },
+      {
+        "x": -5,
+        "y": -8,
+        "parts": ["frame#cover", "halfboard#cover", "engine_turbine_large"]
+      },
+      { "x": -5, "y": -8, "parts": ["alternator_car"] },
+      { "x": -5, "y": -9, "parts": ["frame#vertical", "halfboard#vertical"] },
+      {
+        "x": -5,
+        "y": 1,
+        "parts": ["frame#cross", "roof", "seat", "plating_steel", "seatbelt"]
+      },
+      {
+        "x": -5,
+        "y": 2,
+        "parts": ["frame#cross", "board#vertical_right", "roof"]
+      },
+      {
+        "x": -5,
+        "y": 2,
+        "parts": [{ "part": "tank_55gal_drum", "fuel": "jp8" }]
+      },
+      { "x": -5, "y": 3, "parts": ["frame#se", "board#se", "plating_steel"] },
+      {
+        "x": -5,
+        "y": 4,
+        "parts": ["frame#horizontal", "halfboard#horizontal"]
+      },
+      {
+        "x": -5,
+        "y": 5,
+        "parts": ["frame#horizontal", "halfboard#horizontal"]
+      },
+      {
+        "x": -5,
+        "y": 6,
+        "parts": ["frame#horizontal", "halfboard#horizontal"]
+      },
+      { "x": -5, "y": 7, "parts": ["frame#vertical", "halfboard#vertical"] },
+      {
+        "x": -5,
+        "y": 8,
+        "parts": ["frame#cover", "halfboard#cover", "engine_turbine_large"]
+      },
+      { "x": -5, "y": 9, "parts": ["frame#vertical", "halfboard#vertical"] },
+      { "x": -4, "y": -7, "parts": ["frame#vertical", "halfboard#vertical"] },
+      { "x": -4, "y": -8, "parts": ["frame#cover", "halfboard#cover"] },
+      { "x": -4, "y": -9, "parts": ["frame#vertical", "halfboard#vertical"] },
+      { "x": -4, "y": 7, "parts": ["frame#vertical", "halfboard#vertical"] },
+      { "x": -4, "y": 8, "parts": ["frame#cover", "halfboard#cover"] },
+      { "x": -4, "y": 9, "parts": ["frame#vertical", "halfboard#vertical"] },
+      { "x": -6, "y": 0, "parts": ["frame#cross", "aisle#vertical", "roof"] },
+      {
+        "x": -6,
+        "y": -1,
+        "parts": ["frame#cross", "roof", "seat", "plating_steel", "seatbelt"]
+      },
+      {
+        "x": -6,
+        "y": -2,
+        "parts": ["frame#cross", "board#vertical_left", "plating_steel", "roof"]
+      },
+      {
+        "x": -6,
+        "y": -3,
+        "parts": ["frame#horizontal", "halfboard#horizontal"]
+      },
+      { "x": -6, "y": -4, "parts": ["frame#ne", "halfboard#horizontal"] },
+      {
+        "x": -6,
+        "y": -5,
+        "parts": ["frame#horizontal", "halfboard#horizontal"]
+      },
+      {
+        "x": -6,
+        "y": -6,
+        "parts": ["frame#horizontal", "halfboard#horizontal"]
+      },
+      { "x": -6, "y": -7, "parts": ["frame#se", "halfboard#se"] },
+      {
+        "x": -6,
+        "y": -8,
+        "parts": ["frame#horizontal", "halfboard#horizontal"]
+      },
+      { "x": -6, "y": -8, "parts": ["heavy_duty_military_osprey_rotors"] },
+      { "x": -6, "y": -9, "parts": ["frame#sw", "halfboard#sw"] },
+      {
+        "x": -6,
+        "y": 1,
+        "parts": ["frame#cross", "roof", "seat", "plating_steel", "seatbelt"]
+      },
+      {
+        "x": -6,
+        "y": 2,
+        "parts": [
+          "frame#cross",
+          "board#vertical_right",
+          "plating_steel",
+          "roof"
+        ]
+      },
+      {
+        "x": -6,
+        "y": 2,
+        "parts": [{ "part": "tank_55gal_drum", "fuel": "jp8" }]
+      },
+      {
+        "x": -6,
+        "y": -2,
+        "parts": [{ "part": "tank_55gal_drum", "fuel": "jp8" }]
+      },
+      {
+        "x": -6,
+        "y": 3,
+        "parts": ["frame#horizontal", "halfboard#horizontal"]
+      },
+      {
+        "x": -6,
+        "y": 4,
+        "parts": ["frame#horizontal", "halfboard#horizontal"]
+      },
+      {
+        "x": -6,
+        "y": 5,
+        "parts": ["frame#horizontal", "halfboard#horizontal"]
+      },
+      {
+        "x": -6,
+        "y": 6,
+        "parts": ["frame#horizontal", "halfboard#horizontal"]
+      },
+      { "x": -6, "y": 7, "parts": ["frame#sw", "halfboard#sw"] },
+      {
+        "x": -6,
+        "y": 8,
+        "parts": ["frame#horizontal", "halfboard#horizontal"]
+      },
+      { "x": -6, "y": 8, "parts": ["heavy_duty_military_osprey_rotors"] },
+      { "x": -6, "y": 9, "parts": ["frame#se", "halfboard#se"] },
+      {
+        "x": -7,
+        "y": 0,
+        "parts": ["frame#cross", "aisle#vertical", "aisle_lights", "roof"]
+      },
+      {
+        "x": -7,
+        "y": -1,
+        "parts": ["frame#cross", "seat", "plating_steel", "roof", "seatbelt"]
+      },
+      {
+        "x": -7,
+        "y": -2,
+        "parts": ["frame#cross", "stowboard#vertical_left", "plating_steel"]
+      },
+      {
+        "x": -7,
+        "y": -2,
+        "parts": ["roof", { "part": "tank_55gal_drum", "fuel": "jp8" }]
+      },
+      {
+        "x": -7,
+        "y": -3,
+        "parts": ["frame#horizontal", "halfboard#horizontal"]
+      },
+      { "x": -7, "y": -4, "parts": ["frame#sw", "halfboard#sw"] },
+      { "x": -7, "y": -7, "parts": ["frame#se", "halfboard#se"] },
+      { "x": -7, "y": -9, "parts": ["frame#sw", "halfboard#sw"] },
+      {
+        "x": -7,
+        "y": 1,
+        "parts": ["frame#cross", "seat", "plating_steel", "roof", "seatbelt"]
+      },
+      {
+        "x": -7,
+        "y": 2,
+        "parts": ["frame#cross", "stowboard#vertical_right", "plating_steel"]
+      },
+      {
+        "x": -7,
+        "y": 2,
+        "parts": ["roof", { "part": "tank_55gal_drum", "fuel": "jp8" }]
+      },
+      {
+        "x": -7,
+        "y": 3,
+        "parts": ["frame#horizontal", "halfboard#horizontal"]
+      },
+      { "x": -7, "y": 4, "parts": ["frame#se", "halfboard#se"] },
+      { "x": -7, "y": 7, "parts": ["frame#sw", "halfboard#sw"] },
+      { "x": -7, "y": 9, "parts": ["frame#se", "halfboard#se"] },
+      { "x": -8, "y": 0, "parts": ["frame#cross", "aisle#vertical", "roof"] },
+      {
+        "x": -8,
+        "y": -1,
+        "parts": ["frame#cross", "seat", "plating_steel", "roof", "seatbelt"]
+      },
+      {
+        "x": -8,
+        "y": -2,
+        "parts": ["frame#cross", "board#vertical_left", "plating_steel", "roof"]
+      },
+      {
+        "x": -8,
+        "y": -2,
+        "parts": [{ "part": "tank_55gal_drum", "fuel": "jp8" }]
+      },
+      { "x": -8, "y": -3, "parts": ["frame#sw", "halfboard#sw"] },
+      {
+        "x": -8,
+        "y": 1,
+        "parts": ["frame#cross", "seat", "plating_steel", "roof", "seatbelt"]
+      },
+      {
+        "x": -8,
+        "y": 2,
+        "parts": [
+          "frame#cross",
+          "board#vertical_right",
+          "plating_steel",
+          "roof"
+        ]
+      },
+      {
+        "x": -8,
+        "y": 2,
+        "parts": [{ "part": "tank_55gal_drum", "fuel": "jp8" }]
+      },
+      { "x": -8, "y": 3, "parts": ["frame#se", "halfboard#se"] },
+      { "x": -9, "y": 0, "parts": ["frame#cross", "aisle#vertical", "roof"] },
+      {
+        "x": -9,
+        "y": -1,
+        "parts": ["frame#cross", "seat", "plating_steel", "roof", "seatbelt"]
+      },
+      {
+        "x": -9,
+        "y": -2,
+        "parts": [
+          "frame#vertical_left",
+          "board#vertical_left",
+          "plating_steel",
+          "roof"
+        ]
+      },
+      {
+        "x": -9,
+        "y": -2,
+        "parts": [{ "part": "tank_55gal_drum", "fuel": "jp8" }]
+      },
+      {
+        "x": -9,
+        "y": 1,
+        "parts": ["frame#cross", "seat", "plating_steel", "roof", "seatbelt"]
+      },
+      {
+        "x": -9,
+        "y": 2,
+        "parts": [
+          "frame#vertical_right",
+          "board#vertical_right",
+          "plating_steel",
+          "roof"
+        ]
+      },
+      {
+        "x": -9,
+        "y": 2,
+        "parts": [{ "part": "tank_55gal_drum", "fuel": "jp8" }]
+      },
+      {
+        "x": -10,
+        "y": 0,
+        "parts": ["frame#cross", "aisle#vertical", "aisle_lights", "roof"]
+      },
+      {
+        "x": -10,
+        "y": -1,
+        "parts": ["frame#cross", "seat", "plating_steel", "roof", "seatbelt"]
+      },
+      {
+        "x": -10,
+        "y": -2,
+        "parts": ["frame#vertical_left", "board#vertical_left", "plating_steel"]
+      },
+      {
+        "x": -10,
+        "y": -2,
+        "parts": ["roof", { "part": "tank_55gal_drum", "fuel": "jp8" }]
+      },
+      {
+        "x": -10,
+        "y": 1,
+        "parts": ["frame#cross", "seat", "plating_steel", "roof", "seatbelt"]
+      },
+      {
+        "x": -10,
+        "y": 2,
+        "parts": [
+          "frame#vertical_right",
+          "board#vertical_right",
+          "plating_steel"
+        ]
+      },
+      {
+        "x": -10,
+        "y": 2,
+        "parts": ["roof", { "part": "tank_55gal_drum", "fuel": "jp8" }]
+      },
+      { "x": -11, "y": 0, "parts": ["frame#cross", "aisle#vertical", "roof"] },
+      {
+        "x": -11,
+        "y": -1,
+        "parts": ["frame#cross", "seat", "plating_steel", "roof", "seatbelt"]
+      },
+      {
+        "x": -11,
+        "y": -2,
+        "parts": [
+          "frame#vertical_left",
+          "board#vertical_left",
+          "plating_steel",
+          "roof"
+        ]
+      },
+      {
+        "x": -11,
+        "y": -2,
+        "parts": [{ "part": "tank_55gal_drum", "fuel": "jp8" }]
+      },
+      {
+        "x": -11,
+        "y": 1,
+        "parts": ["frame#cross", "seat", "plating_steel", "roof", "seatbelt"]
+      },
+      {
+        "x": -11,
+        "y": 2,
+        "parts": [
+          "frame#vertical_right",
+          "board#vertical_right",
+          "plating_steel",
+          "roof"
+        ]
+      },
+      {
+        "x": -11,
+        "y": 2,
+        "parts": [{ "part": "tank_55gal_drum", "fuel": "jp8" }]
+      },
+      { "x": -12, "y": 0, "parts": ["frame#cross", "aisle#vertical", "roof"] },
+      {
+        "x": -12,
+        "y": -1,
+        "parts": ["frame#cross", "seat", "plating_steel", "roof", "seatbelt"]
+      },
+      {
+        "x": -12,
+        "y": -2,
+        "parts": ["frame#vertical_left", "board#vertical_left", "plating_steel"]
+      },
+      {
+        "x": -12,
+        "y": -2,
+        "parts": ["roof", { "part": "tank_55gal_drum", "fuel": "jp8" }]
+      },
+      {
+        "x": -12,
+        "y": 1,
+        "parts": ["frame#cross", "seat", "aisle_curtain", "plating_steel"]
+      },
+      { "x": -12, "y": 1, "parts": ["roof", "seatbelt"] },
+      {
+        "x": -12,
+        "y": 2,
+        "parts": [
+          "frame#vertical_right",
+          "board#vertical_right",
+          "plating_steel"
+        ]
+      },
+      {
+        "x": -12,
+        "y": 2,
+        "parts": ["roof", { "part": "tank_55gal_drum", "fuel": "jp8" }]
+      },
+      {
+        "x": -13,
+        "y": -2,
+        "parts": ["frame#sw", "board#sw", "plating_steel", "roof"]
+      },
+      {
+        "x": -13,
+        "y": 0,
+        "parts": ["frame#horizontal", "hatch_opaque#rear", "roof"]
+      },
+      {
+        "x": -13,
+        "y": -1,
+        "parts": ["frame#horizontal", "hatch_opaque#rear", "roof"]
+      },
+      {
+        "x": -13,
+        "y": 1,
+        "parts": ["frame#horizontal", "hatch_opaque#rear", "roof"]
+      },
+      {
+        "x": -13,
+        "y": 2,
+        "parts": ["frame#se", "board#se", "plating_steel", "roof"]
+      },
+      { "x": -14, "y": 0, "parts": ["frame#vertical", "aisle#horizontal"] },
+      {
+        "x": -14,
+        "y": -1,
+        "parts": ["frame#vertical_left", "aisle#horizontal"]
+      },
+      {
+        "x": -14,
+        "y": 1,
+        "parts": ["frame#vertical_right", "aisle#horizontal"]
+      },
+      { "x": -15, "y": 0, "parts": ["frame#vertical", "halfboard#vertical"] },
+      {
+        "x": -15,
+        "y": -1,
+        "parts": ["frame#vertical_left", "halfboard#vertical_left"]
+      },
+      {
+        "x": -15,
+        "y": 1,
+        "parts": ["frame#vertical_right", "halfboard#vertical_right"]
+      },
+      { "x": -16, "y": 0, "parts": ["frame#vertical", "halfboard#vertical"] },
+      { "x": -16, "y": -1, "parts": ["frame#sw", "halfboard#sw"] },
+      { "x": -16, "y": 1, "parts": ["frame#se", "halfboard#se"] },
+      { "x": -17, "y": 0, "parts": ["frame#vertical", "halfboard#vertical"] },
+      {
+        "x": -17,
+        "y": -1,
+        "parts": ["frame#horizontal", "halfboard#horizontal"]
+      },
+      { "x": -17, "y": -2, "parts": ["frame#nw", "halfboard#cover"] },
+      {
+        "x": -17,
+        "y": 1,
+        "parts": ["frame#horizontal", "halfboard#horizontal"]
+      },
+      { "x": -17, "y": 2, "parts": ["frame#ne", "halfboard#cover"] },
+      {
+        "x": -18,
+        "y": 0,
+        "parts": ["frame#horizontal", "halfboard#horizontal"]
+      },
+      {
+        "x": -18,
+        "y": -1,
+        "parts": ["frame#horizontal", "halfboard#horizontal"]
+      },
+      { "x": -18, "y": -2, "parts": ["frame#sw", "halfboard#cover"] },
+      {
+        "x": -18,
+        "y": 1,
+        "parts": ["frame#horizontal", "halfboard#horizontal"]
+      },
+      { "x": -18, "y": 2, "parts": ["frame#se", "halfboard#cover"] }
+    ],
+    "items": [
+      { "x": -12, "y": -1, "chance": 5, "items": ["grenade"] },
+      { "x": -11, "y": 1, "chance": 5, "items": ["chestpouch"] },
+      { "x": -10, "y": 1, "chance": 7, "items": ["knife_combat"] },
+      { "x": -9, "y": -1, "chance": 7, "items": ["rucksack"] },
+      { "x": -8, "y": -1, "chance": 5, "items": ["m9"] },
+      { "x": -7, "y": -2, "chance": 5, "items": ["223"] },
+      {
+        "x": -7,
+        "y": -2,
+        "chance": 5,
+        "magazine": 90,
+        "ammo": 70,
+        "item_groups": "modular_m4a1"
+      },
+      { "x": -7, "y": -2, "chance": 7, "items": ["EMPbomb"] },
+      { "x": -7, "y": -2, "chance": 15, "items": ["mask_gas"] },
+      { "x": -7, "y": -2, "chance": 7, "items": ["flashlight"], "ammo": 100 },
+      { "x": -7, "y": -2, "chance": 7, "items": ["large_repairkit"] },
+      { "x": -7, "y": -2, "chance": 5, "item_groups": ["MRE"] },
+      { "x": -7, "y": -2, "chance": 5, "item_groups": ["MRE"] },
+      { "x": -7, "y": -2, "chance": 5, "item_groups": ["MRE"] },
+      { "x": -7, "y": -2, "chance": 5, "item_groups": ["MRE"] },
+      { "x": -7, "y": -2, "chance": 5, "item_groups": ["MRE"] },
+      { "x": -7, "y": -2, "chance": 10, "items": ["manual_rifle"] },
+      { "x": -7, "y": -2, "chance": 10, "items": ["manual_stabbing"] },
+      { "x": -7, "y": 2, "chance": 10, "ammo": 70, "items": ["m9mag"] },
+      {
+        "x": -7,
+        "y": 2,
+        "chance": 10,
+        "magazine": 90,
+        "ammo": 80,
+        "items": ["m9"]
+      },
+      { "x": -7, "y": 2, "chance": 10, "items": ["9mmfmj"] },
+      { "x": -7, "y": 2, "chance": 20, "ammo": 80, "items": ["mask_gas"] },
+      { "x": -7, "y": 2, "chance": 10, "items": ["flashlight"], "ammo": 100 },
+      { "x": -7, "y": 2, "chance": 7, "items": ["ballistic_vest_esapi"] },
+      { "x": -4, "y": -1, "chance": 7, "ammo": 80, "items": ["mp3"] },
+      { "x": -2, "y": 1, "chance": 7, "items": ["screwdriver"] },
+      { "x": -2, "y": 1, "chance": 10, "items": ["mag_fieldrepair"] },
+      { "x": -2, "y": 1, "chance": 7, "items": ["wrench"] },
+      { "x": -2, "y": 1, "chance": 5, "items": ["two_way_radio"] }
+    ]
+  },
+  {
+    "id": "helicopter_osprey_2b",
+    "type": "vehicle",
+    "name": "V-22 Osprey",
+    "parts": [
+      {
+        "x": 0,
+        "y": 0,
+        "parts": [
+          "frame#cross",
+          "stowboard#horizontal_front",
+          "plating_steel",
+          "roof"
+        ]
+      },
+      { "x": 0, "y": 0, "parts": ["cam_control"] },
+      {
+        "x": 0,
+        "y": -1,
+        "parts": ["frame#cross", "seat", "plating_steel", "roof", "controls"]
+      },
+      { "x": 0, "y": -1, "parts": ["dashboard", "seatbelt"] },
+      {
+        "x": 0,
+        "y": 1,
+        "parts": ["frame#cross", "seat", "plating_steel", "roof", "controls"]
+      },
+      {
+        "x": 0,
+        "y": -2,
+        "parts": ["frame#cross", "windshield#vertical_left", "plating_steel"]
+      },
+      { "x": 0, "y": 1, "parts": ["black_box", "dashboard", "seatbelt"] },
+      {
+        "x": 0,
+        "y": 2,
+        "parts": ["frame#cross", "windshield#vertical_right", "plating_steel"]
+      },
+      {
+        "x": 1,
+        "y": 0,
+        "parts": ["frame#horizontal_2", "windshield#horizontal_front"]
+      },
+      {
+        "x": 1,
+        "y": -1,
+        "parts": ["frame#horizontal_2", "windshield#horizontal_front"]
+      },
+      { "x": 1, "y": -2, "parts": ["frame#vertical_T_left", "windshield#nw"] },
+      { "x": 1, "y": -2, "parts": ["plating_steel"] },
+      {
+        "x": 1,
+        "y": 1,
+        "parts": ["frame#horizontal_2", "windshield#horizontal_front"]
+      },
+      { "x": 1, "y": 2, "parts": ["frame#vertical_T_right", "windshield#ne"] },
+      { "x": 1, "y": 2, "parts": ["plating_steel"] },
+      {
+        "x": 2,
+        "y": 0,
+        "parts": ["frame#horizontal_front", "halfboard#horizontal_front"]
+      },
+      { "x": 2, "y": 0, "parts": ["plating_steel"] },
+      {
+        "x": 2,
+        "y": -1,
+        "parts": ["frame#horizontal_front", "halfboard#horizontal_front"]
+      },
+      { "x": 2, "y": -2, "parts": ["frame#nw", "halfboard#nw"] },
+      { "x": 2, "y": -2, "parts": ["plating_steel"] },
+      {
+        "x": 2,
+        "y": 1,
+        "parts": ["frame#horizontal_front", "halfboard#horizontal_front"]
+      },
+      { "x": 2, "y": 2, "parts": ["frame#ne", "halfboard#ne"] },
+      { "x": 2, "y": 2, "parts": ["plating_steel"] },
+      {
+        "x": -1,
+        "y": 0,
+        "parts": ["frame#cross", "medium_storage_battery", "roof"]
+      },
+      { "x": -1, "y": 0, "parts": ["aisle#horizontal", "plating_steel"] },
+      {
+        "x": -1,
+        "y": -1,
+        "parts": ["frame#cross", "roof", "aisle#horizontal", "plating_steel"]
+      },
+      {
+        "x": -1,
+        "y": -2,
+        "parts": [
+          "frame#vertical_left",
+          "stowboard#vertical_left",
+          "plating_steel"
+        ]
+      },
+      {
+        "x": -1,
+        "y": 1,
+        "parts": ["frame#cross", "roof", "aisle#horizontal", "plating_steel"]
+      },
+      {
+        "x": -1,
+        "y": 2,
+        "parts": [
+          "frame#vertical_right",
+          "stowboard#vertical_right",
+          "plating_steel"
+        ]
+      },
+      {
+        "x": -2,
+        "y": 0,
+        "parts": ["frame#cross", "door_opaque#front", "roof", "plating_steel"]
+      },
+      { "x": -2, "y": 0, "parts": ["omnicam"] },
+      {
+        "x": -2,
+        "y": -1,
+        "parts": ["frame#cross", "roof", "stowboard#horizontal_front"]
+      },
+      {
+        "x": -2,
+        "y": -2,
+        "parts": [
+          "frame#horizontal",
+          "plating_military",
+          "board#horizontal_front"
+        ]
+      },
+      { "x": -2, "y": -2, "parts": ["roof"] },
+      {
+        "x": -2,
+        "y": -3,
+        "parts": ["frame#sw", "board#nw", "plating_steel", "roof"]
+      },
+      {
+        "x": -2,
+        "y": 1,
+        "parts": ["frame#cross", "roof", "stowboard#horizontal_front"]
+      },
+      {
+        "x": -2,
+        "y": 2,
+        "parts": [
+          "frame#horizontal",
+          "plating_military",
+          "board#horizontal_front"
+        ]
+      },
+      { "x": -2, "y": 2, "parts": ["roof"] },
+      {
+        "x": -2,
+        "y": 3,
+        "parts": ["frame#se", "board#ne", "plating_steel", "roof"]
+      },
+      { "x": -3, "y": 0, "parts": ["frame#cross", "aisle#vertical", "roof"] },
+      { "x": -3, "y": -1, "parts": ["frame#cross", "aisle#vertical", "roof"] },
+      { "x": -3, "y": -2, "parts": ["frame#cross", "roof", "aisle#vertical"] },
+      {
+        "x": -3,
+        "y": -3,
+        "parts": [
+          "frame#vertical_left",
+          "door_opaque#left",
+          "plating_steel",
+          "roof"
+        ]
+      },
+      { "x": -3, "y": 1, "parts": ["frame#cross", "aisle#vertical", "roof"] },
+      { "x": -3, "y": 2, "parts": ["frame#cross", "roof", "aisle#vertical"] },
+      {
+        "x": -3,
+        "y": 3,
+        "parts": [
+          "frame#vertical_right",
+          "door_opaque#right",
+          "plating_steel",
+          "roof"
+        ]
+      },
+      {
+        "x": -4,
+        "y": 0,
+        "parts": ["frame#cross", "aisle#vertical", "roof", "aisle_lights"]
+      },
+      {
+        "x": -4,
+        "y": 1,
+        "parts": ["frame#cross", "roof", "seat", "plating_steel", "seatbelt"]
+      },
+      {
+        "x": -4,
+        "y": -1,
+        "parts": ["frame#cross", "roof", "seat", "plating_steel", "seatbelt"]
+      },
+      { "x": -4, "y": -2, "parts": ["frame#cross", "board#ne", "roof"] },
+      {
+        "x": -4,
+        "y": -3,
+        "parts": ["frame#vertical_left", "board#vertical_left", "plating_steel"]
+      },
+      { "x": -4, "y": 2, "parts": ["frame#cross", "board#nw", "roof"] },
+      {
+        "x": -4,
+        "y": 3,
+        "parts": ["frame#vertical_2", "board#vertical_right", "plating_steel"]
+      },
+      { "x": -4, "y": 3, "parts": ["roof"] },
+      { "x": -4, "y": -3, "parts": ["roof"] },
+      {
+        "x": -4,
+        "y": -2,
+        "parts": [{ "part": "tank_55gal_drum", "fuel": "jp8" }]
+      },
+      {
+        "x": -4,
+        "y": 2,
+        "parts": [{ "part": "tank_55gal_drum", "fuel": "jp8" }]
+      },
+      { "x": -5, "y": 0, "parts": ["frame#cross", "aisle#vertical", "roof"] },
+      {
+        "x": -5,
+        "y": -1,
+        "parts": ["frame#cross", "roof", "seat", "plating_steel", "seatbelt"]
+      },
+      { "x": -5, "y": -2, "parts": ["frame#cross", "board#vertical_left"] },
+      {
+        "x": -5,
+        "y": -2,
+        "parts": [{ "part": "tank_55gal_drum", "fuel": "jp8" }, "roof"]
+      },
+      {
+        "x": -5,
+        "y": -3,
+        "parts": ["frame#vertical", "board#sw", "plating_steel"]
+      },
+      {
+        "x": -5,
+        "y": -4,
+        "parts": ["frame#horizontal", "halfboard#horizontal"]
+      },
+      {
+        "x": -5,
+        "y": -5,
+        "parts": ["frame#horizontal", "halfboard#horizontal"]
+      },
+      {
+        "x": -5,
+        "y": -6,
+        "parts": ["frame#horizontal", "halfboard#horizontal"]
+      },
+      { "x": -5, "y": -7, "parts": ["frame#vertical", "halfboard#vertical"] },
+      {
+        "x": -5,
+        "y": -8,
+        "parts": ["frame#cover", "halfboard#cover", "engine_turbine_large"]
+      },
+      { "x": -5, "y": -8, "parts": ["alternator_car"] },
+      { "x": -5, "y": -9, "parts": ["frame#vertical", "halfboard#vertical"] },
+      {
+        "x": -5,
+        "y": 1,
+        "parts": ["frame#cross", "roof", "seat", "plating_steel", "seatbelt"]
+      },
+      { "x": -5, "y": 2, "parts": ["frame#cross", "board#vertical_right"] },
+      {
+        "x": -5,
+        "y": 2,
+        "parts": [{ "part": "tank_55gal_drum", "fuel": "jp8" }, "roof"]
+      },
+      { "x": -5, "y": 3, "parts": ["frame#se", "board#se", "plating_steel"] },
+      {
+        "x": -5,
+        "y": 4,
+        "parts": ["frame#horizontal", "halfboard#horizontal"]
+      },
+      { "x": -5, "y": 5, "parts": ["frame#horizontal"] },
+      { "x": -5, "y": 6, "parts": ["frame#horizontal"] },
+      { "x": -6, "y": 0, "parts": ["frame#cross", "aisle#vertical", "roof"] },
+      {
+        "x": -6,
+        "y": -1,
+        "parts": ["frame#cross", "roof", "seat", "plating_steel", "seatbelt"]
+      },
+      {
+        "x": -6,
+        "y": -2,
+        "parts": ["frame#cross", "board#vertical_left", "plating_steel", "roof"]
+      },
+      {
+        "x": -6,
+        "y": -2,
+        "parts": [{ "part": "tank_55gal_drum", "fuel": "jp8" }]
+      },
+      {
+        "x": -6,
+        "y": -3,
+        "parts": ["frame#horizontal", "halfboard#horizontal"]
+      },
+      { "x": -6, "y": -4, "parts": ["frame#ne", "halfboard#horizontal"] },
+      {
+        "x": -6,
+        "y": -5,
+        "parts": ["frame#horizontal", "halfboard#horizontal"]
+      },
+      {
+        "x": -6,
+        "y": -6,
+        "parts": ["frame#horizontal", "halfboard#horizontal"]
+      },
+      { "x": -6, "y": -7, "parts": ["frame#se", "halfboard#se"] },
+      {
+        "x": -6,
+        "y": -8,
+        "parts": ["frame#horizontal", "halfboard#horizontal"]
+      },
+      { "x": -6, "y": -8, "parts": ["heavy_duty_military_osprey_rotors"] },
+      { "x": -6, "y": -9, "parts": ["frame#sw", "halfboard#sw"] },
+      {
+        "x": -6,
+        "y": 1,
+        "parts": ["frame#cross", "roof", "seat", "plating_steel"]
+      },
+      {
+        "x": -6,
+        "y": 2,
+        "parts": ["frame#cross", "board#vertical_right", "plating_steel"]
+      },
+      {
+        "x": -6,
+        "y": 2,
+        "parts": [{ "part": "tank_55gal_drum", "fuel": "jp8" }, "roof"]
+      },
+      {
+        "x": -6,
+        "y": 3,
+        "parts": ["frame#horizontal", "halfboard#horizontal"]
+      },
+      {
+        "x": -6,
+        "y": 4,
+        "parts": ["frame#horizontal", "halfboard#horizontal"]
+      },
+      { "x": -6, "y": 5, "parts": ["frame#horizontal"] },
+      {
+        "x": -7,
+        "y": 0,
+        "parts": ["frame#cross", "aisle#vertical", "aisle_lights", "roof"]
+      },
+      {
+        "x": -7,
+        "y": -1,
+        "parts": ["frame#cross", "seat", "plating_steel", "seatbelt", "roof"]
+      },
+      { "x": -7, "y": -4, "parts": ["frame#sw", "halfboard#sw"] },
+      {
+        "x": -7,
+        "y": -2,
+        "parts": ["frame#cross", "stowboard#vertical_left", "plating_steel"]
+      },
+      {
+        "x": -7,
+        "y": -2,
+        "parts": [{ "part": "tank_55gal_drum", "fuel": "jp8" }, "roof"]
+      },
+      {
+        "x": -7,
+        "y": -3,
+        "parts": ["frame#horizontal", "halfboard#horizontal"]
+      },
+      { "x": -7, "y": -7, "parts": ["frame#se", "halfboard#se"] },
+      { "x": -7, "y": -9, "parts": ["frame#sw", "halfboard#sw"] },
+      {
+        "x": -7,
+        "y": 1,
+        "parts": ["frame#cross", "seat", "plating_steel", "seatbelt"]
+      },
+      {
+        "x": -7,
+        "y": 2,
+        "parts": ["frame#cross", "stowboard#vertical_right", "plating_steel"]
+      },
+      {
+        "x": -7,
+        "y": 2,
+        "parts": [{ "part": "tank_55gal_drum", "fuel": "jp8" }, "roof"]
+      },
+      {
+        "x": -7,
+        "y": 3,
+        "parts": ["frame#horizontal", "halfboard#horizontal"]
+      },
+      { "x": -7, "y": 4, "parts": ["frame#se", "halfboard#se"] },
+      { "x": -8, "y": 0, "parts": ["frame#cross", "aisle#vertical", "roof"] },
+      {
+        "x": -8,
+        "y": -1,
+        "parts": ["frame#cross", "seat", "plating_steel", "seatbelt", "roof"]
+      },
+      {
+        "x": -8,
+        "y": -2,
+        "parts": ["frame#cross", "board#vertical_left", "plating_steel"]
+      },
+      {
+        "x": -8,
+        "y": -2,
+        "parts": [{ "part": "tank_55gal_drum", "fuel": "jp8" }, "roof"]
+      },
+      { "x": -8, "y": -3, "parts": ["frame#sw", "halfboard#sw"] },
+      { "x": -8, "y": 1, "parts": ["frame#cross", "seat", "plating_steel"] },
+      {
+        "x": -8,
+        "y": 2,
+        "parts": [
+          "frame#cross",
+          "board#vertical_right",
+          "plating_steel",
+          "roof"
+        ]
+      },
+      { "x": -8, "y": 3, "parts": ["frame#se", "halfboard#se"] },
+      { "x": -9, "y": 0, "parts": ["frame#cross", "aisle#vertical", "roof"] },
+      {
+        "x": -9,
+        "y": -1,
+        "parts": ["frame#cross", "seat", "plating_steel", "seatbelt", "roof"]
+      },
+      {
+        "x": -9,
+        "y": -2,
+        "parts": ["frame#vertical_left", "board#vertical_left", "plating_steel"]
+      },
+      {
+        "x": -9,
+        "y": -2,
+        "parts": [{ "part": "tank_55gal_drum", "fuel": "jp8" }, "roof"]
+      },
+      {
+        "x": -9,
+        "y": 1,
+        "parts": ["frame#cross", "seat", "plating_steel", "seatbelt", "roof"]
+      },
+      {
+        "x": -9,
+        "y": 2,
+        "parts": [
+          "frame#vertical_right",
+          "board#vertical_right",
+          "plating_steel"
+        ]
+      },
+      {
+        "x": -9,
+        "y": 2,
+        "parts": [{ "part": "tank_55gal_drum", "fuel": "jp8" }, "roof"]
+      },
+      {
+        "x": -10,
+        "y": 0,
+        "parts": ["frame#cross", "aisle#vertical", "aisle_lights", "roof"]
+      },
+      {
+        "x": -10,
+        "y": -1,
+        "parts": ["frame#cross", "seat", "plating_steel", "roof"]
+      },
+      {
+        "x": -10,
+        "y": -2,
+        "parts": ["frame#vertical_left", "board#vertical_left"]
+      },
+      {
+        "x": -10,
+        "y": 1,
+        "parts": ["frame#cross", "seat", "plating_steel", "seatbelt", "roof"]
+      },
+      {
+        "x": -10,
+        "y": 2,
+        "parts": ["frame#vertical_right", "board#vertical_right"]
+      },
+      {
+        "x": -10,
+        "y": 2,
+        "parts": [{ "part": "tank_55gal_drum", "fuel": "jp8" }]
+      },
+      { "x": -11, "y": 0, "parts": ["frame#cross", "aisle#vertical", "roof"] },
+      {
+        "x": -11,
+        "y": -1,
+        "parts": ["frame#cross", "seat", "plating_steel", "seatbelt", "roof"]
+      },
+      {
+        "x": -11,
+        "y": -2,
+        "parts": ["frame#vertical_left", "board#vertical_left", "plating_steel"]
+      },
+      {
+        "x": -11,
+        "y": -2,
+        "parts": [{ "part": "tank_55gal_drum", "fuel": "jp8" }, "roof"]
+      },
+      {
+        "x": -11,
+        "y": 1,
+        "parts": ["frame#cross", "seat", "plating_steel", "roof"]
+      },
+      { "x": -11, "y": 2, "parts": ["frame#cross"] },
+      { "x": -12, "y": 0, "parts": ["frame#cross", "aisle#vertical", "roof"] },
+      { "x": -12, "y": -1, "parts": ["frame#cross", "seat", "plating_steel"] },
+      {
+        "x": -12,
+        "y": -2,
+        "parts": ["frame#vertical_left", "board#vertical_left"]
+      },
+      {
+        "x": -12,
+        "y": 1,
+        "parts": ["frame#cross", "seat", "aisle_curtain", "plating_steel"]
+      },
+      { "x": -12, "y": 1, "parts": ["roof"] },
+      {
+        "x": -12,
+        "y": 2,
+        "parts": [
+          "frame#vertical_right",
+          "board#vertical_right",
+          "plating_steel"
+        ]
+      },
+      { "x": -12, "y": 2, "parts": ["roof"] },
+      {
+        "x": -13,
+        "y": 0,
+        "parts": ["frame#horizontal", "hatch_opaque#rear", "roof"]
+      },
+      {
+        "x": -13,
+        "y": -1,
+        "parts": ["frame#horizontal", "hatch_opaque#rear", "roof"]
+      },
+      { "x": -13, "y": -2, "parts": ["frame#sw", "board#sw"] },
+      {
+        "x": -13,
+        "y": 1,
+        "parts": ["frame#horizontal", "hatch_opaque#rear", "roof"]
+      },
+      { "x": -13, "y": 2, "parts": ["frame#se", "board#se", "roof"] },
+      { "x": -14, "y": 0, "parts": ["frame#vertical", "aisle#horizontal"] },
+      { "x": -14, "y": -1, "parts": ["frame#vertical", "aisle#horizontal"] },
+      { "x": -14, "y": 1, "parts": ["frame#vertical", "aisle#horizontal"] },
+      { "x": -15, "y": 0, "parts": ["frame#vertical"] },
+      { "x": -15, "y": -1, "parts": ["frame#vertical"] }
+    ],
+    "items": [
+      { "x": -12, "y": -1, "chance": 5, "items": ["grenade"] },
+      { "x": -12, "y": 1, "chance": 20, "item_groups": ["remains_soldier"] },
+      { "x": -11, "y": 1, "chance": 5, "items": ["chestpouch"] },
+      { "x": -10, "y": -1, "chance": 20, "item_groups": ["remains_soldier"] },
+      { "x": -10, "y": 1, "chance": 7, "items": ["knife_combat"] },
+      { "x": -9, "y": -1, "chance": 7, "items": ["rucksack"] },
+      { "x": -8, "y": -1, "chance": 5, "items": ["m9"] },
+      { "x": -7, "y": -2, "chance": 5, "items": ["223"] },
+      {
+        "x": -7,
+        "y": -2,
+        "chance": 5,
+        "magazine": 90,
+        "ammo": 70,
+        "item_groups": "modular_m4a1"
+      },
+      { "x": -7, "y": -2, "chance": 7, "items": ["EMPbomb"] },
+      { "x": -7, "y": -2, "chance": 15, "items": ["mask_gas"] },
+      { "x": -7, "y": -2, "chance": 7, "items": ["flashlight"], "ammo": 100 },
+      { "x": -7, "y": -2, "chance": 7, "items": ["large_repairkit"] },
+      { "x": -7, "y": -2, "chance": 5, "item_groups": ["MRE"] },
+      { "x": -7, "y": -2, "chance": 5, "item_groups": ["MRE"] },
+      { "x": -7, "y": -2, "chance": 5, "item_groups": ["MRE"] },
+      { "x": -7, "y": -2, "chance": 5, "item_groups": ["MRE"] },
+      { "x": -7, "y": -2, "chance": 5, "item_groups": ["MRE"] },
+      { "x": -7, "y": -2, "chance": 10, "items": ["manual_rifle"] },
+      { "x": -7, "y": -2, "chance": 10, "items": ["manual_stabbing"] },
+      { "x": -7, "y": 1, "chance": 20, "item_groups": ["remains_soldier"] },
+      { "x": -7, "y": 2, "chance": 10, "ammo": 70, "items": ["m9mag"] },
+      {
+        "x": -7,
+        "y": 2,
+        "chance": 10,
+        "magazine": 90,
+        "ammo": 80,
+        "items": ["m9"]
+      },
+      { "x": -7, "y": 2, "chance": 10, "items": ["9mmfmj"] },
+      { "x": -7, "y": 2, "chance": 20, "ammo": 80, "items": ["mask_gas"] },
+      { "x": -7, "y": 2, "chance": 10, "items": ["flashlight"], "ammo": 100 },
+      { "x": -7, "y": 2, "chance": 7, "items": ["ballistic_vest_esapi"] },
+      { "x": -6, "y": -1, "chance": 20, "item_groups": ["remains_soldier"] },
+      { "x": -5, "y": 1, "chance": 20, "item_groups": ["remains_soldier"] },
+      { "x": -4, "y": -1, "chance": 7, "ammo": 80, "items": ["mp3"] },
+      { "x": -2, "y": -1, "chance": 7, "items": ["aspirin"] },
+      { "x": -2, "y": -1, "chance": 7, "items": ["ibuprofen"] },
+      { "x": -2, "y": -1, "chance": 7, "items": ["acetaminophen"] },
+      { "x": -2, "y": -1, "chance": 7, "items": ["naproxen"] },
+      { "x": -2, "y": -1, "chance": 7, "items": ["bandages"] },
+      { "x": -2, "y": -1, "chance": 7, "items": ["bandages"] },
+      { "x": -2, "y": -1, "chance": 7, "items": ["bandages"] },
+      { "x": -2, "y": -1, "chance": 10, "item_groups": ["full_ifak"] },
+      { "x": -2, "y": 1, "chance": 7, "items": ["screwdriver"] },
+      { "x": -2, "y": 1, "chance": 10, "items": ["mag_fieldrepair"] },
+      { "x": -2, "y": 1, "chance": 7, "items": ["wrench"] },
+      { "x": -2, "y": 1, "chance": 5, "items": ["two_way_radio"] },
+      { "x": 0, "y": -1, "chance": 5, "items": ["advanced_ecig"] },
+      { "x": 0, "y": -1, "chance": 10, "items": ["helmet_army"] },
+      { "x": 0, "y": 1, "chance": 20, "item_groups": ["remains_pilot"] }
+    ]
+  },
+  {
+    "id": "helicopter_osprey_2c",
+    "type": "vehicle",
+    "name": "V-22 Osprey",
+    "parts": [
+      {
+        "x": 0,
+        "y": 0,
+        "parts": ["frame#cross", "aisle#vertical", "plating_steel"]
+      },
+      { "x": 0, "y": -1, "parts": ["frame#cross"] },
+      { "x": 0, "y": -2, "parts": ["frame#vertical"] },
+      {
+        "x": 0,
+        "y": 1,
+        "parts": ["frame#cross", "seat", "plating_steel", "controls"]
+      },
+      { "x": 0, "y": 1, "parts": ["dashboard", "black_box"] },
+      { "x": 0, "y": 2, "parts": ["frame#vertical"] },
+      {
+        "x": -1,
+        "y": 0,
+        "parts": ["frame#cross", "medium_storage_battery", "roof"]
+      },
+      { "x": -1, "y": 0, "parts": ["aisle#vertical", "plating_steel"] },
+      {
+        "x": -1,
+        "y": -1,
+        "parts": ["frame#cross", "roof", "aisle#vertical", "plating_steel"]
+      },
+      {
+        "x": -1,
+        "y": -2,
+        "parts": ["frame#vertical", "windshield#vertical_left"]
+      },
+      { "x": -1, "y": -3, "parts": ["frame#vertical"] },
+      {
+        "x": -1,
+        "y": 1,
+        "parts": ["frame#cross", "roof", "aisle#vertical", "plating_steel"]
+      },
+      {
+        "x": -1,
+        "y": 2,
+        "parts": [
+          "frame#vertical",
+          "windshield#vertical_right",
+          "plating_steel"
+        ]
+      },
+      {
+        "x": -2,
+        "y": 0,
+        "parts": ["frame#cross", "door_internal#rear", "roof", "plating_steel"]
+      },
+      { "x": -2, "y": -1, "parts": ["frame#cross"] },
+      {
+        "x": -2,
+        "y": 1,
+        "parts": ["frame#cross", "roof", "stowboard#horizontal"]
+      },
+      {
+        "x": -2,
+        "y": 2,
+        "parts": ["frame#horizontal", "plating_military", "board#horizontal"]
+      },
+      { "x": -2, "y": 3, "parts": ["frame#se", "board#ne", "plating_steel"] },
+      { "x": -3, "y": 0, "parts": ["frame#cross", "aisle#vertical", "roof"] },
+      { "x": -3, "y": -1, "parts": ["frame#cross", "aisle#vertical", "roof"] },
+      { "x": -3, "y": -2, "parts": ["frame#cross"] },
+      { "x": -3, "y": -3, "parts": ["frame#vertical"] },
+      { "x": -3, "y": 1, "parts": ["frame#cross", "aisle#vertical", "roof"] },
+      { "x": -3, "y": 2, "parts": ["frame#cross", "roof", "aisle#vertical"] },
+      {
+        "x": -3,
+        "y": 3,
+        "parts": [
+          "frame#vertical",
+          "door_opaque#right",
+          "plating_steel",
+          "roof"
+        ]
+      },
+      {
+        "x": -4,
+        "y": 0,
+        "parts": ["frame#cross", "aisle#vertical", "roof", "aisle_lights"]
+      },
+      {
+        "x": -4,
+        "y": -1,
+        "parts": ["frame#cross", "roof", "seat", "plating_steel", "seatbelt"]
+      },
+      { "x": -4, "y": -2, "parts": ["frame#cross", "board#ne"] },
+      {
+        "x": -4,
+        "y": -3,
+        "parts": ["frame#vertical", "board#vertical_left", "plating_steel"]
+      },
+      { "x": -4, "y": -3, "parts": ["roof"] },
+      {
+        "x": -4,
+        "y": 1,
+        "parts": ["frame#cross", "roof", "seat", "plating_steel"]
+      },
+      { "x": -4, "y": 2, "parts": ["frame#cross", "board#nw"] },
+      {
+        "x": -4,
+        "y": 3,
+        "parts": ["frame#vertical", "board#vertical_right", "plating_steel"]
+      },
+      { "x": -5, "y": 0, "parts": ["frame#cross", "aisle#vertical", "roof"] },
+      {
+        "x": -5,
+        "y": -1,
+        "parts": ["frame#cross", "roof", "seat", "plating_steel", "seatbelt"]
+      },
+      { "x": -5, "y": -2, "parts": ["frame#cross", "board#vertical_right"] },
+      {
+        "x": -5,
+        "y": -3,
+        "parts": ["frame#vertical", "board#sw", "plating_steel"]
+      },
+      { "x": -5, "y": -4, "parts": ["frame#horizontal"] },
+      { "x": -5, "y": -5, "parts": ["frame#horizontal"] },
+      {
+        "x": -5,
+        "y": 1,
+        "parts": ["frame#cross", "roof", "seat", "plating_steel"]
+      },
+      { "x": -5, "y": 2, "parts": ["frame#cross", "board#vertical_right"] },
+      { "x": -5, "y": 3, "parts": ["frame#se", "board#se", "plating_steel"] },
+      {
+        "x": -5,
+        "y": 4,
+        "parts": ["frame#horizontal", "halfboard#horizontal"]
+      },
+      {
+        "x": -5,
+        "y": 5,
+        "parts": ["frame#horizontal", "halfboard#horizontal"]
+      },
+      { "x": -5, "y": 6, "parts": ["frame#horizontal"] },
+      { "x": -6, "y": 0, "parts": ["frame#cross", "aisle#vertical", "roof"] },
+      {
+        "x": -6,
+        "y": -1,
+        "parts": ["frame#cross", "roof", "seat", "plating_steel", "seatbelt"]
+      },
+      {
+        "x": -6,
+        "y": -2,
+        "parts": ["frame#cross", "board#vertical_left", "plating_steel", "roof"]
+      },
+      {
+        "x": -6,
+        "y": -3,
+        "parts": ["frame#horizontal", "halfboard#horizontal"]
+      },
+      {
+        "x": -6,
+        "y": 1,
+        "parts": ["frame#cross", "roof", "seat", "plating_steel", "seatbelt"]
+      },
+      {
+        "x": -6,
+        "y": 2,
+        "parts": [
+          "frame#cross",
+          "board#vertical_right",
+          "plating_steel",
+          "roof"
+        ]
+      },
+      {
+        "x": -6,
+        "y": 3,
+        "parts": ["frame#horizontal", "halfboard#horizontal"]
+      },
+      {
+        "x": -6,
+        "y": 4,
+        "parts": ["frame#horizontal", "halfboard#horizontal"]
+      },
+      {
+        "x": -6,
+        "y": 5,
+        "parts": ["frame#horizontal", "halfboard#horizontal"]
+      },
+      { "x": -6, "y": 6, "parts": ["frame#horizontal"] },
+      {
+        "x": -7,
+        "y": 0,
+        "parts": ["frame#cross", "aisle#vertical", "aisle_lights", "roof"]
+      },
+      { "x": -7, "y": -1, "parts": ["frame#cross", "seat", "plating_steel"] },
+      {
+        "x": -7,
+        "y": -2,
+        "parts": ["frame#cross", "stowboard#vertical_left", "plating_steel"]
+      },
+      { "x": -7, "y": -2, "parts": ["roof"] },
+      {
+        "x": -7,
+        "y": -3,
+        "parts": ["frame#horizontal", "halfboard#horizontal"]
+      },
+      {
+        "x": -7,
+        "y": 1,
+        "parts": ["frame#cross", "seat", "plating_steel", "roof"]
+      },
+      {
+        "x": -7,
+        "y": 2,
+        "parts": ["frame#cross", "stowboard#vertical_right", "plating_steel"]
+      },
+      { "x": -7, "y": 2, "parts": ["roof"] },
+      {
+        "x": -7,
+        "y": 3,
+        "parts": ["frame#horizontal", "halfboard#horizontal"]
+      },
+      { "x": -7, "y": 4, "parts": ["frame#se", "halfboard#se"] },
+      { "x": -8, "y": 0, "parts": ["frame#cross", "aisle#vertical", "roof"] },
+      {
+        "x": -8,
+        "y": -1,
+        "parts": ["frame#cross", "seat", "plating_steel", "seatbelt", "roof"]
+      },
+      {
+        "x": -8,
+        "y": -2,
+        "parts": ["frame#cross", "board#vertical_left", "plating_steel", "roof"]
+      },
+      { "x": -8, "y": -3, "parts": ["frame#sw", "halfboard#sw"] },
+      { "x": -8, "y": 1, "parts": ["frame#cross", "seat", "plating_steel"] },
+      {
+        "x": -8,
+        "y": 2,
+        "parts": [
+          "frame#cross",
+          "board#vertical_right",
+          "plating_steel",
+          "roof"
+        ]
+      },
+      { "x": -8, "y": 3, "parts": ["frame#se", "halfboard#se"] },
+      { "x": -9, "y": 0, "parts": ["frame#cross", "aisle#vertical", "roof"] },
+      {
+        "x": -9,
+        "y": -1,
+        "parts": ["frame#cross", "seat", "plating_steel", "seatbelt", "roof"]
+      },
+      {
+        "x": -9,
+        "y": -2,
+        "parts": ["frame#cross", "board#vertical_left", "plating_steel", "roof"]
+      },
+      { "x": -9, "y": 1, "parts": ["frame#cross", "plating_steel"] },
+      {
+        "x": -9,
+        "y": 2,
+        "parts": [
+          "frame#cross",
+          "board#vertical_right",
+          "plating_steel",
+          "roof"
+        ]
+      },
+      {
+        "x": -10,
+        "y": 0,
+        "parts": ["frame#cross", "aisle#vertical", "aisle_lights", "roof"]
+      },
+      {
+        "x": -10,
+        "y": -1,
+        "parts": ["frame#cross", "seat", "plating_steel", "seatbelt", "roof"]
+      },
+      {
+        "x": -10,
+        "y": -2,
+        "parts": ["frame#vertical_left", "board#vertical_left", "plating_steel"]
+      },
+      { "x": -10, "y": -2, "parts": ["roof"] },
+      {
+        "x": -10,
+        "y": 1,
+        "parts": ["frame#cross", "seat", "plating_steel", "seatbelt"]
+      },
+      {
+        "x": -10,
+        "y": 2,
+        "parts": ["frame#vertical_right", "board#vertical_right"]
+      },
+      { "x": -11, "y": 0, "parts": ["frame#cross", "aisle#vertical", "roof"] },
+      { "x": -11, "y": -1, "parts": ["frame#cross", "plating_steel"] },
+      {
+        "x": -11,
+        "y": -2,
+        "parts": ["frame#cross", "board#vertical_left", "plating_steel", "roof"]
+      },
+      {
+        "x": -11,
+        "y": 1,
+        "parts": ["frame#cross", "seat", "plating_steel", "seatbelt"]
+      },
+      {
+        "x": -11,
+        "y": 2,
+        "parts": [
+          "frame#cross",
+          "board#vertical_right",
+          "plating_steel",
+          "roof"
+        ]
+      },
+      { "x": -12, "y": 0, "parts": ["frame#cross", "aisle#vertical"] },
+      {
+        "x": -12,
+        "y": -1,
+        "parts": ["frame#cross", "seat", "plating_steel", "seatbelt", "roof"]
+      },
+      {
+        "x": -12,
+        "y": -2,
+        "parts": ["frame#vertical_left", "board#vertical_left", "plating_steel"]
+      },
+      { "x": -12, "y": -2, "parts": ["roof"] },
+      {
+        "x": -12,
+        "y": 1,
+        "parts": ["frame#cross", "seat", "aisle_curtain", "plating_steel"]
+      },
+      { "x": -12, "y": 1, "parts": ["seatbelt", "roof"] },
+      {
+        "x": -12,
+        "y": 2,
+        "parts": [
+          "frame#vertical_right",
+          "board#vertical_right",
+          "plating_steel"
+        ]
+      },
+      { "x": -12, "y": 2, "parts": ["roof"] },
+      {
+        "x": -13,
+        "y": 0,
+        "parts": ["frame#horizontal", "hatch_opaque#rear", "roof"]
+      },
+      {
+        "x": -13,
+        "y": -1,
+        "parts": ["frame#horizontal", "hatch_opaque#rear", "roof"]
+      },
+      {
+        "x": -13,
+        "y": -2,
+        "parts": ["frame#sw", "board#sw", "plating_steel", "roof"]
+      },
+      {
+        "x": -13,
+        "y": 1,
+        "parts": ["frame#horizontal", "hatch_opaque#rear", "roof"]
+      },
+      {
+        "x": -13,
+        "y": 2,
+        "parts": ["frame#se", "board#se", "plating_steel", "roof"]
+      },
+      { "x": -14, "y": 0, "parts": ["frame#vertical", "aisle#horizontal"] },
+      { "x": -14, "y": -1, "parts": ["frame#vertical", "aisle#horizontal"] },
+      { "x": -14, "y": 1, "parts": ["frame#vertical", "aisle#horizontal"] },
+      { "x": -15, "y": 0, "parts": ["frame#vertical", "halfboard#vertical"] },
+      {
+        "x": -15,
+        "y": -1,
+        "parts": ["frame#vertical_left", "halfboard#vertical_left"]
+      },
+      {
+        "x": -15,
+        "y": 1,
+        "parts": ["frame#vertical_right", "halfboard#vertical_right"]
+      },
+      { "x": -16, "y": 0, "parts": ["frame#vertical", "halfboard#vertical"] },
+      { "x": -16, "y": -1, "parts": ["frame#sw", "halfboard#sw"] },
+      { "x": -16, "y": 1, "parts": ["frame#se", "halfboard#se"] },
+      { "x": -17, "y": 0, "parts": ["frame#vertical", "halfboard#vertical"] },
+      {
+        "x": -17,
+        "y": -1,
+        "parts": ["frame#horizontal", "halfboard#horizontal"]
+      },
+      { "x": -17, "y": -2, "parts": ["frame#nw", "halfboard#cover"] },
+      {
+        "x": -17,
+        "y": 1,
+        "parts": ["frame#horizontal", "halfboard#horizontal"]
+      },
+      { "x": -17, "y": 2, "parts": ["frame#ne", "halfboard#cover"] },
+      {
+        "x": -18,
+        "y": 0,
+        "parts": ["frame#horizontal", "halfboard#horizontal"]
+      },
+      {
+        "x": -18,
+        "y": -1,
+        "parts": ["frame#horizontal", "halfboard#horizontal"]
+      },
+      { "x": -18, "y": -2, "parts": ["frame#sw", "halfboard#cover"] },
+      {
+        "x": -18,
+        "y": 1,
+        "parts": ["frame#horizontal", "halfboard#horizontal"]
+      },
+      { "x": -18, "y": 2, "parts": ["frame#se", "halfboard#cover"] }
+    ],
+    "items": [
+      { "x": -12, "y": -1, "chance": 5, "items": ["grenade"] },
+      { "x": -12, "y": 1, "chance": 20, "item_groups": ["remains_soldier"] },
+      { "x": -11, "y": 1, "chance": 5, "items": ["chestpouch"] },
+      { "x": -10, "y": -1, "chance": 20, "item_groups": ["remains_soldier"] },
+      { "x": -10, "y": 1, "chance": 7, "items": ["knife_combat"] },
+      { "x": -9, "y": -1, "chance": 7, "items": ["rucksack"] },
+      { "x": -8, "y": -1, "chance": 5, "items": ["m9"] },
+      { "x": -7, "y": -2, "chance": 5, "items": ["223"] },
+      {
+        "x": -7,
+        "y": -2,
+        "chance": 5,
+        "magazine": 90,
+        "ammo": 70,
+        "item_groups": "modular_m4a1"
+      },
+      { "x": -7, "y": -2, "chance": 7, "items": ["EMPbomb"] },
+      { "x": -7, "y": -2, "chance": 15, "items": ["mask_gas"] },
+      { "x": -7, "y": -2, "chance": 7, "items": ["flashlight"], "ammo": 100 },
+      { "x": -7, "y": -2, "chance": 7, "items": ["large_repairkit"] },
+      { "x": -7, "y": -2, "chance": 5, "item_groups": ["MRE"] },
+      { "x": -7, "y": -2, "chance": 5, "item_groups": ["MRE"] },
+      { "x": -7, "y": -2, "chance": 5, "item_groups": ["MRE"] },
+      { "x": -7, "y": -2, "chance": 5, "item_groups": ["MRE"] },
+      { "x": -7, "y": -2, "chance": 5, "item_groups": ["MRE"] },
+      { "x": -7, "y": -2, "chance": 10, "items": ["manual_rifle"] },
+      { "x": -7, "y": -2, "chance": 10, "items": ["manual_stabbing"] },
+      { "x": -7, "y": 1, "chance": 20, "item_groups": ["remains_soldier"] },
+      { "x": -7, "y": 2, "chance": 10, "ammo": 70, "items": ["m9mag"] },
+      {
+        "x": -7,
+        "y": 2,
+        "chance": 10,
+        "magazine": 90,
+        "ammo": 80,
+        "items": ["m9"]
+      },
+      { "x": -7, "y": 2, "chance": 10, "items": ["9mmfmj"] },
+      { "x": -7, "y": 2, "chance": 20, "ammo": 80, "items": ["mask_gas"] },
+      { "x": -7, "y": 2, "chance": 10, "items": ["flashlight"], "ammo": 100 },
+      { "x": -7, "y": 2, "chance": 7, "items": ["ballistic_vest_esapi"] },
+      { "x": -6, "y": -1, "chance": 20, "item_groups": ["remains_soldier"] },
+      { "x": -5, "y": 1, "chance": 20, "item_groups": ["remains_soldier"] },
+      { "x": -4, "y": -1, "chance": 7, "ammo": 80, "items": ["mp3"] },
+      { "x": -2, "y": 1, "chance": 7, "items": ["screwdriver"] },
+      { "x": -2, "y": 1, "chance": 10, "items": ["mag_fieldrepair"] },
+      { "x": -2, "y": 1, "chance": 7, "items": ["wrench"] },
+      { "x": -2, "y": 1, "chance": 5, "items": ["two_way_radio"] },
+      { "x": 0, "y": 1, "chance": 20, "item_groups": ["remains_pilot"] }
+    ]
+  },
+  {
+    "id": "helicopter_blackhawk_3a",
+    "type": "vehicle",
+    "name": "UH-60 Blackhawk",
+    "parts": [
+      {
+        "x": 0,
+        "y": 0,
+        "parts": ["frame#cross", "seat", "controls", "dashboard"]
+      },
+      { "x": 0, "y": 0, "parts": ["black_box", "roof", "seatbelt"] },
+      {
+        "x": 0,
+        "y": -1,
+        "parts": ["frame#vertical_left", "windshield#vertical_left"]
+      },
+      {
+        "x": 0,
+        "y": 1,
+        "parts": ["frame#cross", "medium_storage_battery", "roof"]
+      },
+      { "x": 0, "y": 1, "parts": ["aisle#vertical"] },
+      {
+        "x": 0,
+        "y": 2,
+        "parts": ["frame#cross", "seat", "controls", "dashboard", "roof"]
+      },
+      { "x": 0, "y": 2, "parts": ["seatbelt"] },
+      {
+        "x": 0,
+        "y": 3,
+        "parts": ["frame#vertical_right", "windshield#vertical_right"]
+      },
+      { "x": 1, "y": -1, "parts": ["frame#nw", "halfboard#nw"] },
+      {
+        "x": 1,
+        "y": 0,
+        "parts": ["frame#horizontal", "windshield#horizontal_front"]
+      },
+      {
+        "x": 1,
+        "y": 1,
+        "parts": ["frame#horizontal", "windshield#horizontal_front"]
+      },
+      {
+        "x": 1,
+        "y": 2,
+        "parts": ["frame#horizontal", "windshield#horizontal_front"]
+      },
+      { "x": 1, "y": 3, "parts": ["frame#ne", "halfboard#ne"] },
+      { "x": 2, "y": 0, "parts": ["frame#nw", "halfboard#nw"] },
+      {
+        "x": 2,
+        "y": 1,
+        "parts": ["frame#horizontal", "halfboard#horizontal_front"]
+      },
+      { "x": 2, "y": 2, "parts": ["frame#ne", "halfboard#ne"] },
+      {
+        "x": -1,
+        "y": -1,
+        "parts": ["frame#vertical_left", "board#vertical_left"]
+      },
+      {
+        "x": -1,
+        "y": 0,
+        "parts": ["frame#cross", "roof", "stowboard#horizontal_rear"]
+      },
+      { "x": -1, "y": 1, "parts": ["frame#cross", "door_opaque#rear", "roof"] },
+      {
+        "x": -1,
+        "y": 2,
+        "parts": ["frame#cross", "roof", "stowboard#horizontal_rear"]
+      },
+      {
+        "x": -1,
+        "y": 3,
+        "parts": ["frame#vertical_right", "board#vertical_right"]
+      },
+      {
+        "x": -2,
+        "y": -1,
+        "parts": ["frame#vertical_left", "door_opaque#left", "roof"]
+      },
+      { "x": -2, "y": 0, "parts": ["frame#cross", "aisle#vertical", "roof"] },
+      {
+        "x": -2,
+        "y": 1,
+        "parts": ["frame#cross", "aisle#vertical", "aisle_lights", "roof"]
+      },
+      { "x": -2, "y": 2, "parts": ["frame#cross", "aisle#vertical", "roof"] },
+      {
+        "x": -2,
+        "y": 3,
+        "parts": ["frame#vertical_right", "door_opaque#right", "roof"]
+      },
+      { "x": -3, "y": -1, "parts": ["frame#vertical_left"] },
+      {
+        "x": -3,
+        "y": -1,
+        "parts": [{ "part": "tank_55gal_drum", "fuel": "jp8" }]
+      },
+      { "x": -3, "y": -1, "parts": ["door_opaque#left", "roof"] },
+      { "x": -3, "y": 0, "parts": ["frame#cross", "seat", "roof", "seatbelt"] },
+      { "x": -3, "y": 1, "parts": ["frame#cross", "aisle#vertical", "roof"] },
+      { "x": -3, "y": 2, "parts": ["frame#cross", "seat", "roof", "seatbelt"] },
+      { "x": -3, "y": 3, "parts": ["frame#vertical_right"] },
+      {
+        "x": -3,
+        "y": 3,
+        "parts": [{ "part": "tank_55gal_drum", "fuel": "jp8" }]
+      },
+      { "x": -3, "y": 3, "parts": ["door_opaque#right", "roof"] },
+      {
+        "x": -4,
+        "y": -1,
+        "parts": ["frame#vertical_left", "board#vertical_left"]
+      },
+      {
+        "x": -4,
+        "y": -1,
+        "parts": [{ "part": "tank_55gal_drum", "fuel": "jp8" }, "roof"]
+      },
+      { "x": -4, "y": 0, "parts": ["frame#cross", "seat", "roof", "seatbelt"] },
+      {
+        "x": -4,
+        "y": 1,
+        "parts": ["frame#cross", "aisle#vertical", "aisle_lights"]
+      },
+      {
+        "x": -4,
+        "y": 1,
+        "parts": ["heavy_duty_military_blackhawk_rotors", "roof"]
+      },
+      { "x": -4, "y": 2, "parts": ["frame#cross", "seat", "roof", "seatbelt"] },
+      {
+        "x": -4,
+        "y": 3,
+        "parts": ["frame#vertical_right", "board#vertical_right"]
+      },
+      {
+        "x": -4,
+        "y": 3,
+        "parts": [{ "part": "tank_55gal_drum", "fuel": "jp8" }, "roof"]
+      },
+      {
+        "x": -5,
+        "y": -1,
+        "parts": ["frame#vertical_left", "board#vertical_left"]
+      },
+      {
+        "x": -5,
+        "y": -1,
+        "parts": [{ "part": "tank_55gal_drum", "fuel": "jp8" }, "roof"]
+      },
+      { "x": -5, "y": 0, "parts": ["frame#cross", "seat", "roof", "seatbelt"] },
+      { "x": -5, "y": 0, "parts": ["engine_turbine_medium", "alternator_car"] },
+      { "x": -5, "y": 1, "parts": ["frame#cross", "aisle#vertical", "roof"] },
+      { "x": -5, "y": 2, "parts": ["frame#cross", "seat", "roof", "seatbelt"] },
+      { "x": -5, "y": 2, "parts": ["engine_turbine_medium"] },
+      {
+        "x": -5,
+        "y": 3,
+        "parts": ["frame#vertical_right", "board#vertical_right"]
+      },
+      {
+        "x": -5,
+        "y": 3,
+        "parts": [{ "part": "tank_55gal_drum", "fuel": "jp8" }, "roof"]
+      },
+      { "x": -6, "y": -1, "parts": ["frame#sw", "board#sw", "roof"] },
+      { "x": -6, "y": 0, "parts": ["frame#ne", "board#ne", "roof"] },
+      { "x": -6, "y": 1, "parts": ["frame#vertical_2", "cargo_space", "roof"] },
+      { "x": -6, "y": 2, "parts": ["frame#nw", "board#nw", "roof"] },
+      { "x": -6, "y": 3, "parts": ["frame#se", "board#se", "roof"] },
+      { "x": -7, "y": 0, "parts": ["frame#sw", "board#sw", "roof"] },
+      {
+        "x": -7,
+        "y": 1,
+        "parts": ["frame#horizontal", "board#horizontal_rear", "roof"]
+      },
+      { "x": -7, "y": 2, "parts": ["frame#se", "board#se", "roof"] },
+      { "x": -8, "y": 1, "parts": ["frame#vertical", "halfboard#vertical"] },
+      { "x": -9, "y": 1, "parts": ["frame#vertical", "halfboard#vertical"] },
+      { "x": -10, "y": 1, "parts": ["frame#vertical", "halfboard#vertical"] },
+      { "x": -10, "y": 0, "parts": ["frame#cover", "halfboard#nw"] },
+      { "x": -10, "y": 2, "parts": ["frame#cover", "halfboard#ne"] }
+    ],
+    "items": [
+      { "x": -6, "y": 1, "chance": 7, "item_groups": ["MRE"] },
+      { "x": -6, "y": 1, "chance": 7, "item_groups": ["MRE"] },
+      { "x": -6, "y": 1, "chance": 7, "item_groups": ["MRE"] },
+      { "x": -6, "y": 1, "chance": 7, "item_groups": ["MRE"] },
+      { "x": -6, "y": 1, "chance": 7, "item_groups": ["MRE"] },
+      { "x": -6, "y": 1, "chance": 10, "items": ["helmet_liner"] },
+      {
+        "x": -6,
+        "y": 1,
+        "chance": 5,
+        "magazine": 70,
+        "ammo": 70,
+        "items": ["9mm"]
+      },
+      { "x": -6, "y": 1, "chance": 5, "items": ["223"] },
+      { "x": -6, "y": 1, "chance": 5, "items": ["9mmfmj"] },
+      { "x": -6, "y": 1, "chance": 7, "items": ["large_repairkit"] },
+      { "x": -6, "y": 1, "chance": 7, "items": ["grenade"] },
+      { "x": -6, "y": 1, "chance": 7, "items": ["EMPbomb"] },
+      { "x": -6, "y": 1, "chance": 10, "items": ["manual_stabbing"] },
+      { "x": -6, "y": 1, "chance": 7, "ammo": 70, "items": ["stanag30"] },
+      { "x": -6, "y": 1, "chance": 10, "items": ["helmet_army"] },
+      { "x": -6, "y": 1, "chance": 15, "items": ["gasfilter_med"] },
+      {
+        "x": -6,
+        "y": 1,
+        "chance": 100,
+        "magazine": 70,
+        "ammo": 70,
+        "item_groups": "modular_m4a1"
+      },
+      { "x": -5, "y": 0, "chance": 3, "items": ["cig_butt"] },
+      { "x": -5, "y": 0, "chance": 5, "items": ["cig"] },
+      { "x": -5, "y": 2, "chance": 7, "ammo": 70, "items": ["stanag30"] },
+      { "x": -4, "y": 0, "chance": 7, "ammo": 70, "items": ["stanag30"] },
+      { "x": -4, "y": 2, "chance": 5, "items": ["hood_rain"] },
+      { "x": -3, "y": 0, "chance": 7, "items": ["knife_combat"] },
+      { "x": -1, "y": 0, "chance": 7, "items": ["aspirin"] },
+      { "x": -1, "y": 0, "chance": 7, "items": ["ibuprofen"] },
+      { "x": -1, "y": 0, "chance": 7, "items": ["acetaminophen"] },
+      { "x": -1, "y": 0, "chance": 7, "items": ["naproxen"] },
+      { "x": -1, "y": 0, "chance": 7, "items": ["bandages"] },
+      { "x": -1, "y": 0, "chance": 7, "items": ["bandages"] },
+      { "x": -1, "y": 0, "chance": 7, "items": ["bandages"] },
+      { "x": -1, "y": 0, "chance": 10, "item_groups": ["full_ifak"] },
+      { "x": -1, "y": 0, "chance": 10, "items": ["pocket_firstaid"] },
+      { "x": -1, "y": 2, "chance": 7, "items": ["screwdriver"] },
+      { "x": -1, "y": 2, "chance": 7, "items": ["wrench"] },
+      { "x": -1, "y": 2, "chance": 5, "items": ["duct_tape"] },
+      { "x": -1, "y": 2, "chance": 7, "items": ["mag_fieldrepair"] },
+      { "x": -1, "y": 2, "chance": 7, "items": ["misc_repairkit"] },
+      { "x": -1, "y": 2, "chance": 5, "items": ["two_way_radio"] },
+      { "x": 0, "y": 2, "chance": 7, "items": ["roadmap"] },
+      { "x": 0, "y": 2, "chance": 7, "items": ["pockknife"] },
+      { "x": 0, "y": 2, "chance": 5, "items": ["box_cigarette"] }
+    ]
+  },
+  {
+    "id": "helicopter_blackhawk_3b",
+    "type": "vehicle",
+    "name": "UH-60 Blackhawk",
+    "parts": [
+      {
+        "x": 0,
+        "y": 0,
+        "parts": ["frame#cross", "seat", "controls", "dashboard"]
+      },
+      { "x": 0, "y": 0, "parts": ["black_box", "roof", "seatbelt"] },
+      {
+        "x": 0,
+        "y": -1,
+        "parts": ["frame#vertical_left", "windshield#vertical_left"]
+      },
+      {
+        "x": 0,
+        "y": 1,
+        "parts": ["frame#cross", "medium_storage_battery", "roof"]
+      },
+      { "x": 0, "y": 1, "parts": ["aisle#vertical"] },
+      {
+        "x": 0,
+        "y": 2,
+        "parts": ["frame#cross", "seat", "controls", "dashboard", "roof"]
+      },
+      { "x": 0, "y": 2, "parts": ["seatbelt"] },
+      {
+        "x": 0,
+        "y": 3,
+        "parts": ["frame#vertical_right", "windshield#vertical_right"]
+      },
+      { "x": 1, "y": -1, "parts": ["frame#nw"] },
+      {
+        "x": 1,
+        "y": 0,
+        "parts": ["frame#horizontal", "windshield#horizontal_front"]
+      },
+      {
+        "x": 1,
+        "y": 1,
+        "parts": ["frame#horizontal", "windshield#horizontal_front"]
+      },
+      {
+        "x": 1,
+        "y": 2,
+        "parts": ["frame#horizontal", "windshield#horizontal_front"]
+      },
+      { "x": 1, "y": 3, "parts": ["frame#ne", "halfboard#ne"] },
+      { "x": 2, "y": 0, "parts": ["frame#nw"] },
+      {
+        "x": 2,
+        "y": 1,
+        "parts": ["frame#horizontal", "halfboard#horizontal_front"]
+      },
+      { "x": 2, "y": 2, "parts": ["frame#ne", "halfboard#ne"] },
+      {
+        "x": -1,
+        "y": -1,
+        "parts": ["frame#vertical_left", "board#vertical_left"]
+      },
+      {
+        "x": -1,
+        "y": 0,
+        "parts": ["frame#cross", "roof", "stowboard#horizontal_rear"]
+      },
+      { "x": -1, "y": 1, "parts": ["frame#cross", "door_opaque#rear", "roof"] },
+      {
+        "x": -1,
+        "y": 2,
+        "parts": ["frame#cross", "roof", "stowboard#horizontal_rear"]
+      },
+      {
+        "x": -1,
+        "y": 3,
+        "parts": ["frame#vertical_right", "board#vertical_right"]
+      },
+      {
+        "x": -2,
+        "y": -1,
+        "parts": ["frame#vertical_left", "door_opaque#left", "roof"]
+      },
+      { "x": -2, "y": 0, "parts": ["frame#cross", "aisle#vertical", "roof"] },
+      {
+        "x": -2,
+        "y": 1,
+        "parts": ["frame#cross", "aisle#vertical", "aisle_lights", "roof"]
+      },
+      { "x": -2, "y": 2, "parts": ["frame#cross", "aisle#vertical", "roof"] },
+      {
+        "x": -2,
+        "y": 3,
+        "parts": ["frame#vertical_right", "door_opaque#right", "roof"]
+      },
+      { "x": -3, "y": -1, "parts": ["frame#vertical_left"] },
+      {
+        "x": -3,
+        "y": -1,
+        "parts": [{ "part": "tank_55gal_drum", "fuel": "jp8" }]
+      },
+      { "x": -3, "y": -1, "parts": ["door_opaque#left", "roof"] },
+      { "x": -3, "y": 0, "parts": ["frame#cross", "seat", "roof", "seatbelt"] },
+      { "x": -3, "y": 1, "parts": ["frame#cross", "aisle#vertical", "roof"] },
+      { "x": -3, "y": 2, "parts": ["frame#cross", "seat", "roof", "seatbelt"] },
+      { "x": -3, "y": 3, "parts": ["frame#vertical_right"] },
+      {
+        "x": -3,
+        "y": 3,
+        "parts": [{ "part": "tank_55gal_drum", "fuel": "jp8" }]
+      },
+      { "x": -3, "y": 3, "parts": ["door_opaque#right", "roof"] },
+      {
+        "x": -4,
+        "y": -1,
+        "parts": ["frame#vertical_left", "board#vertical_left"]
+      },
+      {
+        "x": -4,
+        "y": -1,
+        "parts": [{ "part": "tank_55gal_drum", "fuel": "jp8" }, "roof"]
+      },
+      { "x": -4, "y": 0, "parts": ["frame#cross", "seat", "roof", "seatbelt"] },
+      {
+        "x": -4,
+        "y": 1,
+        "parts": ["frame#cross", "aisle#vertical", "aisle_lights"]
+      },
+      {
+        "x": -4,
+        "y": 1,
+        "parts": ["heavy_duty_military_blackhawk_rotors", "roof"]
+      },
+      { "x": -4, "y": 2, "parts": ["frame#cross", "seat", "roof", "seatbelt"] },
+      {
+        "x": -4,
+        "y": 3,
+        "parts": ["frame#vertical_right", "board#vertical_right"]
+      },
+      {
+        "x": -4,
+        "y": 3,
+        "parts": [{ "part": "tank_55gal_drum", "fuel": "jp8" }, "roof"]
+      },
+      {
+        "x": -5,
+        "y": -1,
+        "parts": ["frame#vertical_left", "board#vertical_left"]
+      },
+      {
+        "x": -5,
+        "y": -1,
+        "parts": [{ "part": "tank_55gal_drum", "fuel": "jp8" }, "roof"]
+      },
+      { "x": -5, "y": 0, "parts": ["frame#cross", "seat", "roof", "seatbelt"] },
+      { "x": -5, "y": 0, "parts": ["engine_turbine_medium", "alternator_car"] },
+      { "x": -5, "y": 1, "parts": ["frame#cross", "aisle#vertical", "roof"] },
+      { "x": -5, "y": 2, "parts": ["frame#cross", "seat", "roof", "seatbelt"] },
+      { "x": -5, "y": 2, "parts": ["engine_turbine_medium"] },
+      {
+        "x": -5,
+        "y": 3,
+        "parts": ["frame#vertical_right", "board#vertical_right"]
+      },
+      {
+        "x": -5,
+        "y": 3,
+        "parts": [{ "part": "tank_55gal_drum", "fuel": "jp8" }, "roof"]
+      },
+      { "x": -6, "y": -1, "parts": ["frame#sw", "board#sw", "roof"] },
+      { "x": -6, "y": 0, "parts": ["frame#ne", "board#ne", "roof"] },
+      { "x": -6, "y": 1, "parts": ["frame#vertical_2", "cargo_space", "roof"] },
+      { "x": -6, "y": 2, "parts": ["frame#nw", "board#nw", "roof"] },
+      { "x": -6, "y": 3, "parts": ["frame#se", "board#se", "roof"] },
+      { "x": -7, "y": 0, "parts": ["frame#sw", "board#sw", "roof"] },
+      {
+        "x": -7,
+        "y": 1,
+        "parts": ["frame#horizontal", "board#horizontal_rear", "roof"]
+      },
+      { "x": -7, "y": 2, "parts": ["frame#se", "board#se", "roof"] },
+      { "x": -8, "y": 1, "parts": ["frame#vertical"] }
+    ],
+    "items": [
+      { "x": -6, "y": 1, "chance": 7, "item_groups": ["MRE"] },
+      { "x": -6, "y": 1, "chance": 7, "item_groups": ["MRE"] },
+      { "x": -6, "y": 1, "chance": 7, "item_groups": ["MRE"] },
+      { "x": -6, "y": 1, "chance": 7, "item_groups": ["MRE"] },
+      { "x": -6, "y": 1, "chance": 7, "item_groups": ["MRE"] },
+      { "x": -6, "y": 1, "chance": 10, "items": ["helmet_liner"] },
+      {
+        "x": -6,
+        "y": 1,
+        "chance": 5,
+        "magazine": 70,
+        "ammo": 70,
+        "items": ["9mm"]
+      },
+      { "x": -6, "y": 1, "chance": 5, "items": ["223"] },
+      { "x": -6, "y": 1, "chance": 5, "items": ["9mmfmj"] },
+      { "x": -6, "y": 1, "chance": 7, "items": ["large_repairkit"] },
+      { "x": -6, "y": 1, "chance": 7, "items": ["grenade"] },
+      { "x": -6, "y": 1, "chance": 7, "items": ["EMPbomb"] },
+      { "x": -6, "y": 1, "chance": 10, "items": ["manual_stabbing"] },
+      { "x": -6, "y": 1, "chance": 7, "ammo": 70, "items": ["stanag30"] },
+      { "x": -6, "y": 1, "chance": 10, "items": ["helmet_army"] },
+      { "x": -6, "y": 1, "chance": 15, "items": ["gasfilter_med"] },
+      {
+        "x": -6,
+        "y": 1,
+        "chance": 3,
+        "magazine": 70,
+        "ammo": 70,
+        "item_groups": "modular_m4a1"
+      },
+      { "x": -5, "y": 0, "chance": 20, "item_groups": ["remains_soldier"] },
+      { "x": -5, "y": 0, "chance": 3, "items": ["cig_butt"] },
+      { "x": -5, "y": 0, "chance": 5, "items": ["cig"] },
+      { "x": -5, "y": 2, "chance": 7, "ammo": 70, "items": ["stanag30"] },
+      { "x": -4, "y": 0, "chance": 7, "ammo": 70, "items": ["stanag30"] },
+      { "x": -4, "y": 2, "chance": 20, "item_groups": ["remains_soldier"] },
+      { "x": -4, "y": 2, "chance": 5, "items": ["hood_rain"] },
+      { "x": -3, "y": 0, "chance": 7, "items": ["knife_combat"] },
+      { "x": -1, "y": 0, "chance": 7, "items": ["aspirin"] },
+      { "x": -1, "y": 0, "chance": 7, "items": ["ibuprofen"] },
+      { "x": -1, "y": 0, "chance": 7, "items": ["acetaminophen"] },
+      { "x": -1, "y": 0, "chance": 7, "items": ["naproxen"] },
+      { "x": -1, "y": 0, "chance": 7, "items": ["bandages"] },
+      { "x": -1, "y": 0, "chance": 7, "items": ["bandages"] },
+      { "x": -1, "y": 0, "chance": 7, "items": ["bandages"] },
+      { "x": -1, "y": 0, "chance": 10, "item_groups": ["full_ifak"] },
+      { "x": -1, "y": 0, "chance": 10, "items": ["pocket_firstaid"] },
+      { "x": -1, "y": 2, "chance": 7, "items": ["screwdriver"] },
+      { "x": -1, "y": 2, "chance": 7, "items": ["wrench"] },
+      { "x": -1, "y": 2, "chance": 5, "items": ["duct_tape"] },
+      { "x": -1, "y": 2, "chance": 7, "items": ["mag_fieldrepair"] },
+      { "x": -1, "y": 2, "chance": 7, "items": ["misc_repairkit"] },
+      { "x": -1, "y": 2, "chance": 5, "items": ["two_way_radio"] },
+      { "x": 0, "y": 2, "chance": 7, "items": ["roadmap"] },
+      { "x": 0, "y": 2, "chance": 7, "items": ["pockknife"] },
+      { "x": 0, "y": 2, "chance": 5, "items": ["box_cigarette"] }
+    ]
+  },
+  {
+    "id": "helicopter_blackhawk_3c",
+    "type": "vehicle",
+    "name": "UH-60 Blackhawk",
+    "parts": [
+      {
+        "x": 0,
+        "y": 0,
+        "parts": ["frame#cross", "seat", "controls", "dashboard"]
+      },
+      { "x": 0, "y": 0, "parts": ["black_box", "roof", "seatbelt"] },
+      { "x": 0, "y": -1, "parts": ["frame#vertical_left"] },
+      {
+        "x": 0,
+        "y": 1,
+        "parts": ["frame#cross", "medium_storage_battery", "roof"]
+      },
+      { "x": 0, "y": 1, "parts": ["aisle#vertical"] },
+      {
+        "x": 0,
+        "y": 2,
+        "parts": ["frame#cross", "seat", "controls", "dashboard", "roof"]
+      },
+      { "x": 0, "y": 2, "parts": ["seatbelt"] },
+      {
+        "x": 0,
+        "y": 3,
+        "parts": ["frame#vertical_right", "windshield#vertical_right"]
+      },
+      { "x": 1, "y": -1, "parts": ["frame#nw"] },
+      { "x": 1, "y": 3, "parts": ["frame#ne"] },
+      { "x": -1, "y": -1, "parts": ["frame#vertical_left"] },
+      { "x": -1, "y": 0, "parts": ["frame#cross"] },
+      { "x": -1, "y": 1, "parts": ["frame#cross", "door_opaque#rear", "roof"] },
+      {
+        "x": -1,
+        "y": 2,
+        "parts": ["frame#cross", "roof", "stowboard#horizontal_rear"]
+      },
+      {
+        "x": -1,
+        "y": 3,
+        "parts": ["frame#vertical_right", "board#vertical_right"]
+      },
+      { "x": -2, "y": -1, "parts": ["frame#vertical_left"] },
+      { "x": -2, "y": 0, "parts": ["frame#cross"] },
+      {
+        "x": -2,
+        "y": 1,
+        "parts": ["frame#cross", "aisle#vertical", "aisle_lights", "roof"]
+      },
+      { "x": -2, "y": 2, "parts": ["frame#cross", "aisle#vertical", "roof"] },
+      {
+        "x": -2,
+        "y": 3,
+        "parts": ["frame#vertical_right", "door_opaque#right", "roof"]
+      },
+      { "x": -3, "y": -1, "parts": ["frame#vertical_left"] },
+      { "x": -3, "y": 0, "parts": ["frame#cross"] },
+      { "x": -3, "y": 1, "parts": ["frame#cross", "aisle#vertical", "roof"] },
+      { "x": -3, "y": 2, "parts": ["frame#cross", "seat", "roof", "seatbelt"] },
+      { "x": -3, "y": 3, "parts": ["frame#vertical_right"] },
+      {
+        "x": -3,
+        "y": 3,
+        "parts": [{ "part": "tank_55gal_drum", "fuel": "jp8" }]
+      },
+      { "x": -3, "y": 3, "parts": ["door_opaque#right", "roof"] },
+      { "x": -4, "y": -1, "parts": ["frame#vertical_left"] },
+      {
+        "x": -4,
+        "y": -1,
+        "parts": [{ "part": "tank_55gal_drum", "fuel": "jp8" }, "roof"]
+      },
+      { "x": -4, "y": 0, "parts": ["frame#cross", "seat", "roof", "seatbelt"] },
+      {
+        "x": -4,
+        "y": 1,
+        "parts": ["frame#cross", "aisle#vertical", "aisle_lights"]
+      },
+      {
+        "x": -4,
+        "y": 1,
+        "parts": ["heavy_duty_military_blackhawk_rotors", "roof"]
+      },
+      { "x": -4, "y": 2, "parts": ["frame#cross", "seat", "roof", "seatbelt"] },
+      {
+        "x": -4,
+        "y": 3,
+        "parts": ["frame#vertical_right", "board#vertical_right"]
+      },
+      {
+        "x": -4,
+        "y": 3,
+        "parts": [{ "part": "tank_55gal_drum", "fuel": "jp8" }, "roof"]
+      },
+      { "x": -5, "y": -1, "parts": ["frame#vertical_left"] },
+      {
+        "x": -5,
+        "y": -1,
+        "parts": [{ "part": "tank_55gal_drum", "fuel": "jp8" }, "roof"]
+      },
+      { "x": -5, "y": 0, "parts": ["frame#cross", "seat", "roof", "seatbelt"] },
+      { "x": -5, "y": 0, "parts": ["engine_turbine_medium", "alternator_car"] },
+      { "x": -5, "y": 1, "parts": ["frame#cross", "aisle#vertical", "roof"] },
+      { "x": -5, "y": 2, "parts": ["frame#cross", "seat", "roof", "seatbelt"] },
+      { "x": -5, "y": 2, "parts": ["engine_turbine_medium"] },
+      {
+        "x": -5,
+        "y": 3,
+        "parts": ["frame#vertical_right", "board#vertical_right"]
+      },
+      {
+        "x": -5,
+        "y": 3,
+        "parts": [{ "part": "tank_55gal_drum", "fuel": "jp8" }, "roof"]
+      },
+      { "x": -6, "y": -1, "parts": ["frame#sw"] },
+      { "x": -6, "y": 0, "parts": ["frame#ne", "board#ne", "roof"] },
+      { "x": -6, "y": 1, "parts": ["frame#vertical_2", "cargo_space", "roof"] },
+      { "x": -6, "y": 2, "parts": ["frame#nw", "board#nw", "roof"] },
+      { "x": -6, "y": 3, "parts": ["frame#se", "board#se", "roof"] },
+      { "x": -7, "y": 0, "parts": ["frame#sw", "board#sw", "roof"] },
+      {
+        "x": -7,
+        "y": 1,
+        "parts": ["frame#horizontal", "board#horizontal_rear", "roof"]
+      },
+      { "x": -7, "y": 2, "parts": ["frame#se", "board#se", "roof"] },
+      { "x": -8, "y": 1, "parts": ["frame#vertical", "halfboard#vertical"] },
+      { "x": -9, "y": 1, "parts": ["frame#vertical", "halfboard#vertical"] },
+      { "x": -10, "y": 1, "parts": ["frame#vertical", "halfboard#vertical"] },
+      { "x": -10, "y": 0, "parts": ["frame#cover", "halfboard#nw"] },
+      { "x": -10, "y": 2, "parts": ["frame#cover", "halfboard#ne"] }
+    ],
+    "items": [
+      { "x": -6, "y": 1, "chance": 7, "item_groups": ["MRE"] },
+      { "x": -6, "y": 1, "chance": 7, "item_groups": ["MRE"] },
+      { "x": -6, "y": 1, "chance": 7, "item_groups": ["MRE"] },
+      { "x": -6, "y": 1, "chance": 7, "item_groups": ["MRE"] },
+      { "x": -6, "y": 1, "chance": 7, "item_groups": ["MRE"] },
+      { "x": -6, "y": 1, "chance": 10, "items": ["helmet_liner"] },
+      {
+        "x": -6,
+        "y": 1,
+        "chance": 5,
+        "magazine": 70,
+        "ammo": 70,
+        "items": ["9mm"]
+      },
+      { "x": -6, "y": 1, "chance": 5, "items": ["223"] },
+      { "x": -6, "y": 1, "chance": 5, "items": ["9mmfmj"] },
+      { "x": -6, "y": 1, "chance": 7, "items": ["large_repairkit"] },
+      { "x": -6, "y": 1, "chance": 7, "items": ["grenade"] },
+      { "x": -6, "y": 1, "chance": 7, "items": ["EMPbomb"] },
+      { "x": -6, "y": 1, "chance": 10, "items": ["manual_stabbing"] },
+      { "x": -6, "y": 1, "chance": 7, "ammo": 70, "items": ["stanag30"] },
+      { "x": -6, "y": 1, "chance": 10, "items": ["helmet_army"] },
+      { "x": -6, "y": 1, "chance": 15, "items": ["gasfilter_med"] },
+      {
+        "x": -6,
+        "y": 1,
+        "chance": 3,
+        "magazine": 70,
+        "ammo": 70,
+        "item_groups": "modular_m4a1"
+      },
+      { "x": -5, "y": 0, "chance": 20, "item_groups": ["remains_soldier"] },
+      { "x": -5, "y": 0, "chance": 3, "items": ["cig_butt"] },
+      { "x": -5, "y": 0, "chance": 5, "items": ["cig"] },
+      { "x": -5, "y": 2, "chance": 7, "ammo": 70, "items": ["stanag30"] },
+      { "x": -4, "y": 0, "chance": 7, "ammo": 70, "items": ["stanag30"] },
+      { "x": -4, "y": 2, "chance": 20, "item_groups": ["remains_soldier"] },
+      { "x": -4, "y": 2, "chance": 5, "items": ["hood_rain"] },
+      { "x": -1, "y": 2, "chance": 7, "items": ["screwdriver"] },
+      { "x": -1, "y": 2, "chance": 7, "items": ["wrench"] },
+      { "x": -1, "y": 2, "chance": 5, "items": ["duct_tape"] },
+      { "x": -1, "y": 2, "chance": 7, "items": ["mag_fieldrepair"] },
+      { "x": -1, "y": 2, "chance": 7, "items": ["misc_repairkit"] },
+      { "x": -1, "y": 2, "chance": 5, "items": ["two_way_radio"] },
+      { "x": 0, "y": 2, "chance": 7, "items": ["roadmap"] },
+      { "x": 0, "y": 2, "chance": 7, "items": ["pockknife"] },
+      { "x": 0, "y": 2, "chance": 5, "items": ["box_cigarette"] }
+    ]
+  },
+
+  {
+    "type": "mapgen",
+    "method": "json",
+    "om_terrain": [
+      ["mil_base_5e", "mil_base_6e", "mil_base_7e", "mil_base_8e"],
+      ["mil_base_5f", "mil_base_6f", "mil_base_7f", "mil_base_8f"],
+      ["mil_base_5g", "mil_base_6g", "mil_base_7g", "mil_base_8g"]
+    ],
+    "weight": 250,
+    "object": {
+      "fill_ter": "t_thconc_floor",
+      "rows": [
+        "                                                                                      ,,,,b ,, x",
+        "                                                                                       ,,,b,,,,x",
+        "                                                 sssssssssssssssssssssssssssssssss     ,, b ,, x",
+        "  XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX            sssssssssssssssssssssssssssssssss     ,, b,,,,x",
+        "  X                                 X            ss--------z----------DDD--XssXXss     ,, b,,, x",
+        "  X                                 X            ss|..jjj|...|JJ.JJ.|e....|{ss{Xss    ,,, b ,, x",
+        "  X  sssssssssssssssssssssssssssss  X            ss|6....|...|......|..77.|{sssXss     ,, b ,, x",
+        "  X  sssssssssssssssssssssssssssss  X            ss|6....d...d......d..77.|{ss{Xss    ,,, b ,, x",
+        "  X  ss/////////////////////////ss  X sssssssssssss|6...u|...|u.pp.u|u.77.|{ss{Xsss   ,,, b ,, x",
+        "  X  ss/C.C]u.u]u.u]u.u]u.u]u.u/ss  X ssssssssssss~|u...u|...|l.pp.u|u....|{ss{Xsss   ,,, b,,, x",
+        "  X  ss/C.C]u.u]u.u]u.u]u.u]u.u/ss  X ss--w---w---w------|...|-------------------ss    ,,,b,,,,x",
+        "  X  ss/C.C]u.u]u.u]u.u]u.u]u.u/ss  X ss|$.OOt##t..`O|uuu|...|S...+T|c.??..??..?|ss   ,,,,b ,, x",
+        "  X  ss/C.C]u.u]u.u]u.u]u.u]u.u/ss  X ss|$...h##h...O|u..z...|c...|-|c.??..??..?|ss    ,, b,,,,x",
+        "  X  ss/](]]])]]])]]])]]])]]])]/ss  X ssw.....##....O|..h|...|S...+T|c.??..??..?|ss    ,, b ,, x",
+        "  X  ss/......................./ss  X ss|$........Y.l|tVV|-d----d---|c.??..??..?|ss   ,,, b ,, x",
+        "  X  ss/uuuuu.uuuuu.uuuuu....../ss  X ss|$..l------=------.........>|..........?|ss   ,,, b,,,,x",
+        "  X  ss///////////////////d///(/ss  X ssw...Y|......................d..........?|ss    ,,,b ,, x",
+        "  X  ss/th..$/uuuu$$/uuuu...u/>/ss  X ss|$...=......................|c.??..??..?|ss   ,,, b ,, x",
+        "  X  ss/###..D......d.......u///ss  X ss|$$OO|......................|c.??..??..?|ss    ,, b,,, x",
+        "  X  ssg###..5$$..[[/u..[[[.u/ssss  X ss|-----..-----------------...|c.??..??..?|ss    ,, b ,,,x",
+        "  X  ss/th..$///ggg//u..[[[../ssss  X ss|O$`Y|..|.`$$$|u.QV.qV.v|...|c.??..??..?|ss    ,, b ,, x",
+        "  X  ss/`....$/[.i.[/u....i../ss    X ssw....=..=.....|u.......V|...|...........|ss   ,,,,b ,, x",
+        "  X  ss/OO...Y/[...[/l.e...../ss    X ss|###.|..|Y.###|uh....h..d...|...........|ss    ,, b ,,,x",
+        "  XXXGX///gz///w/d/w////DDDD//XGXXXXX ss|th..|..|l..ht|VVVt.VVVu|...|l........e.|ss    ,, b ,, x",
+        "      ssssssssssssssssssssssssss      ss------w+--w--------d------d-----DDDDDD---ss   ,,, b,,, x",
+        "sssssssssssssssssssssssssssssssssssssssssssssssssss|l.uuuu...uuuu...|~s_______________ ,,,b ,, x",
+        "sssssssssssssssssssssssssssssssssssssssssssssssssssz................|{s_______________ ,, b ,,,x",
+        "sssssssssssssssssssssssssssssssssssssssssssssssssss|................|{s_______________ ,,,b ,, x",
+        "___________________________________________________|e..............e|_________________,,, b,,,,x",
+        "___________________________________________________D................D_________________ ,,,b ,, x",
+        "___________________________________________________D................D_________________,,, b ,, x",
+        "___________________________________________________D...&&&&&&&&&&...D_________________,,, b ,,,x",
+        "___________________________________________________D...&&&&&&&&&&...D_________________ ,, b ,,,x",
+        "___________________________________________________D................D_________________,,, b ,,,x",
+        "___________________________________________________D................D_________________,,, b,,, x",
+        "_yyy_yyy_yyy_yyy_yyy_yyy_yyy_yyy___________________|...uu..uu..uu...|_________________ ,,,b,,, x",
+        "_yyy_yyy_yyy_yyy_yyy_yyy_yyy_yyy___________________|...uu..uu..uu...|_________________ ,,,b,,, x",
+        "___________________________________________________D................D_________________,,, b ,, x",
+        "___________________________________________________D................D_________________,,, b ,,,x",
+        "___________________________________________________D...&&&&&&&&&&...D_________________,,,,b ,,,x",
+        "___________________________________________________D...&&&&&&&&&&...D_________________,,,,b,,, x",
+        "___________________________________________________D................D_________________,,, b ,, x",
+        "___________________________________________________D................D_________________,,,,b ,, x",
+        "___________________________________________________|e..............e|_________________ ,, b ,,,x",
+        "ssssssssssssssssssssssssssssssss________________sss|..VVVuu.VVVuuu.l|ss_______________ ,, b ,,,x",
+        "ssssssssssssssssssssssssssssssss________________sss------------------ss_______________,,,,b ,,,x",
+        "ssssssssssssssssssssssssssssssss________________ssss~ssssssssssssssssss_______________ ,,,b,,, x",
+        "ssssss--w----w-----w-----w---ss ________________sssssssssssssssssssssss_______________,,,,b,,, x",
+        "ssssss|[..|$$.`U|$`.$$|O...$|ss ________________                       _______________,,,,b ,, x",
+        "ssssss|...|th...|...ht|th..$|ss ______________________________________________________,,, b ,,,x",
+        "-ww-+--...|###..|..###|###.`|ss ______________________________________________________ ,, b,,, x",
+        "..........|.....|....O|....U|ss ______________________________________________________ ,, b ,,,x",
+        "###.......|Y..OO|Y...O|.Y---|ss ______________________________________________________ ,,,b ,,,x",
+        "th....|...--=-----=----=-///|ss ______________________________________________________,,, b ,, x",
+        "OOO$$$|..................D>/|ss ______________________________________________________,,, b,,, x",
+        "-------..................5//|ss ______________________________________________________ ,,,b ,,,x",
+        "OAAO.Y|...--=-----=----=-----ss ____1112111_______________________111111111111111_____,,,,b,,, x",
+        "......+...|Y.$$$|Y...`|.Y`$$|ss ____1B___^1__1112111______________1^M_M_M^MBM_M^1_____,,,,b ,, x",
+        "...[.A|...|.....|....$|.....|ss ____1MM_MM1__1____^1______________1_M_M_M_M_M_M_1_____ ,;,b,,, x",
+        "...[.A|...|..###|###.$|..#..|ss ____1^____1__1MM_MM1______________2_____________2_____ ,;,b,,, x",
+        "......|...|...ht|th..$|O.#h.|ss ____1MM_MM1__1B____1______________1_M_M_M_M_M_M_1_____,,; b ,, x",
+        "O.tOOO|...|$`..O|OO..U|O.#.t|ss ____1B___^1__1MM_MM1______________1_M^MBM_MBM_M^1_____,,, b,,, x",
+        "-+------+----w-----w-----w---ss ____1MM_MM1__1____^1______________111111111111111_____bbbbb ,,,x",
+        "t..u|T+..S|~sssssssssssssssssss ____1____B1__1MM_MM1__________________________________b.<.b ,, G",
+        "c..c|-|..t|ssssssssssssssssssss ____1MM_MM1__1^___B1_______________111111111111111____d...b,,,,G",
+        "c..S|T+..S|ss                   ____1^____1__1MM_MM1_______________1_M^M^MBMBM_M^1____b...b ,,,x",
+        "-+---------ss                   ____1MM_MM1__1B____1_______________1_M_M_M_M_M_M_1____bbbbb ,, x",
+        "sssss{{ssssss                   ____1^___B1__1MM_MM1_______________2_____________2____,;;;b ,, x",
+        "sssssssssssss                   ____1MM_MM1__1_____1_______________1_M_M_M_M_M_M_1____,;;;b,,,,x",
+        "sssssssssssss                   ____1B___^1__1MM_MM1_______________1^M_MBM^MBM^M_1____,,,;b ,, x",
+        "ssssssssssssssssssssssssssssss  ____1112111__1____^1_______________111111111111111____,,,;b,,,,x",
+        "ssss{{ssssssssssssssssssssssss  _____________1112111__________________________________ ,,;b,,, x"
+      ],
+      "palettes": ["mil_base_palette"],
+      "items": {
+        "M": [
+          { "item": "mil_base_bed_hospital", "chance": 50, "repeat": [1, 2] }
+        ],
+        "B": [
+          { "item": "mil_base_table_hospital", "chance": 25, "repeat": [1, 3] }
+        ],
+        "t": [{ "item": "trash_cart", "chance": 75, "repeat": [1, 10] }],
+        "{": [{ "item": "trash_cart", "chance": 75, "repeat": [10, 20] }],
+        "#": [{ "item": "SUS_office_desk", "chance": 10, "repeat": [1, 2] }],
+        "$": [
+          {
+            "item": "SUS_office_filing_cabinet",
+            "chance": 50,
+            "repeat": [1, 5]
+          }
+        ],
+        "O": [{ "item": "mil_base_books", "chance": 30, "repeat": [1, 5] }],
+        "Y": [{ "item": "mil_base_coats", "chance": 25, "repeat": [1, 2] }],
+        ";": [{ "item": "mil_base_bodybag", "chance": 90, "repeat": [0, 1] }],
+        "V": [{ "item": "tools_common", "chance": 50, "repeat": [0, 1] }],
+        "U": [
+          {
+            "item": "SUS_office_filing_cabinet",
+            "chance": 50,
+            "repeat": [1, 10]
+          },
+          { "item": "guns_obscure", "chance": 50, "repeat": [1, 2] },
+          { "item": "ammo_obscure", "chance": 50, "repeat": [2, 4] },
+          { "item": "mags_obscure", "chance": 50, "repeat": [2, 3] }
+        ],
+        "^": [{ "item": "mil_base_iv", "chance": 70 }]
+      },
+      "monster": { "i": { "monster": "mon_zombie_soldier", "chance": 30 } },
+      "place_loot": [
+        {
+          "group": "SUS_coffee_cupboard",
+          "x": 3,
+          "y": 63,
+          "chance": 50,
+          "repeat": [1, 2]
+        },
+        {
+          "group": "dinnerware",
+          "x": 3,
+          "y": 63,
+          "chance": 50,
+          "repeat": [5, 10]
+        },
+        {
+          "group": "liquor_and_spirits",
+          "x": 3,
+          "y": 63,
+          "chance": 50,
+          "repeat": [1, 2]
+        },
+        {
+          "group": "metal_workshop",
+          "x": 55,
+          "y": 20,
+          "chance": 50,
+          "repeat": [5, 20]
+        },
+        {
+          "group": "supplies_metal",
+          "x": 55,
+          "y": 21,
+          "chance": 50,
+          "repeat": [10, 40]
+        },
+        {
+          "group": "tools_electronics",
+          "x": 55,
+          "y": 22,
+          "chance": 50,
+          "repeat": [5, 20]
+        },
+        {
+          "group": "tools_common",
+          "x": 63,
+          "y": 23,
+          "chance": 50,
+          "repeat": [5, 20]
+        },
+        {
+          "group": "tools_common",
+          "x": 54,
+          "y": 11,
+          "chance": 50,
+          "repeat": [5, 10]
+        },
+        {
+          "group": "tools_electronics",
+          "x": 55,
+          "y": 11,
+          "chance": 50,
+          "repeat": [5, 10]
+        },
+        {
+          "group": "supplies_electronics",
+          "x": 56,
+          "y": 11,
+          "chance": 50,
+          "repeat": [5, 20]
+        },
+        {
+          "group": "supplies_metal",
+          "x": 54,
+          "y": 12,
+          "chance": 50,
+          "repeat": [5, 20]
+        },
+        {
+          "group": "SUS_welding_gear",
+          "x": 61,
+          "y": 25,
+          "chance": 100,
+          "repeat": [1, 2]
+        },
+        {
+          "group": "tools_mechanic",
+          "x": 62,
+          "y": 25,
+          "chance": 50,
+          "repeat": [10, 20]
+        },
+        {
+          "group": "ammo_medium_batteries",
+          "x": 63,
+          "y": 25,
+          "chance": 50,
+          "repeat": [5, 10]
+        },
+        { "item": "recharge_station", "x": 63, "y": 25, "chance": 90 },
+        {
+          "group": "supplies_metal",
+          "x": 64,
+          "y": 25,
+          "chance": 50,
+          "repeat": [10, 40]
+        },
+        {
+          "group": "tools_electronics",
+          "x": [56, 57],
+          "y": 25,
+          "chance": 50,
+          "repeat": [10, 40]
+        },
+        {
+          "group": "tools_common",
+          "x": [54, 55],
+          "y": 25,
+          "chance": 50,
+          "repeat": [10, 40]
+        },
+        {
+          "group": "mechanics",
+          "x": [55, 56],
+          "y": [35, 36],
+          "chance": 50,
+          "repeat": [1, 10]
+        },
+        {
+          "group": "mechanics",
+          "x": [59, 60],
+          "y": [35, 36],
+          "chance": 50,
+          "repeat": [1, 10]
+        },
+        {
+          "group": "mechanics",
+          "x": [63, 64],
+          "y": [35, 36],
+          "chance": 50,
+          "repeat": [1, 10]
+        },
+        {
+          "group": "tools_common",
+          "x": 57,
+          "y": 44,
+          "chance": 50,
+          "repeat": [5, 10]
+        },
+        {
+          "group": "supplies_mechanics",
+          "x": 58,
+          "y": 44,
+          "chance": 50,
+          "repeat": [5, 20]
+        },
+        {
+          "group": "tools_electronics",
+          "x": [63, 65],
+          "y": 44,
+          "chance": 50,
+          "repeat": [5, 10]
+        },
+        {
+          "group": "supplies_electronics",
+          "x": [63, 65],
+          "y": 44,
+          "chance": 50,
+          "repeat": [10, 40]
+        },
+        { "group": "tools_common", "x": 52, "y": 9, "chance": 20 },
+        {
+          "group": "tools_common",
+          "x": 56,
+          "y": [8, 9],
+          "chance": 20,
+          "repeat": [0, 1]
+        },
+        {
+          "group": "tools_common",
+          "x": 62,
+          "y": [8, 9],
+          "chance": 20,
+          "repeat": [0, 1]
+        },
+        {
+          "group": "tools_common",
+          "x": 66,
+          "y": [8, 9],
+          "chance": 20,
+          "repeat": [0, 1]
+        },
+        {
+          "group": "tools_common",
+          "x": 68,
+          "y": [8, 9],
+          "chance": 20,
+          "repeat": [0, 1]
+        },
+        {
+          "item": "hdframe",
+          "x": 71,
+          "y": [11, 12],
+          "chance": 75,
+          "repeat": [5, 20]
+        },
+        {
+          "item": "mil_plate",
+          "x": 71,
+          "y": 13,
+          "chance": 75,
+          "repeat": [5, 30]
+        },
+        {
+          "item": "alloy_plate",
+          "x": 71,
+          "y": 14,
+          "chance": 75,
+          "repeat": [5, 30]
+        },
+        {
+          "item": "steel_plate",
+          "x": 72,
+          "y": 11,
+          "chance": 75,
+          "repeat": [10, 40]
+        },
+        {
+          "item": "hard_plate",
+          "x": 72,
+          "y": 12,
+          "chance": 75,
+          "repeat": [5, 30]
+        },
+        {
+          "item": "reinforced_glass_sheet",
+          "x": 72,
+          "y": [13, 14],
+          "chance": 75,
+          "repeat": [5, 20]
+        },
+        {
+          "item": "wheel_mount_heavy",
+          "x": 75,
+          "y": [11, 12],
+          "chance": 75,
+          "repeat": [5, 10]
+        },
+        {
+          "item": "wheel_armor",
+          "x": 75,
+          "y": [13, 14],
+          "chance": 75,
+          "repeat": [5, 10]
+        },
+        {
+          "item": "v8_diesel",
+          "x": 76,
+          "y": [11, 12],
+          "chance": 75,
+          "repeat": [1, 2]
+        },
+        { "item": "v12_diesel", "x": 76, "y": 13, "chance": 75 },
+        { "item": "small_turbine_engine", "x": 76, "y": 14, "chance": 75 },
+        {
+          "item": "alternator_truck",
+          "x": 79,
+          "y": 11,
+          "chance": 50,
+          "repeat": [5, 10]
+        },
+        {
+          "item": "battery_car",
+          "x": 79,
+          "y": 12,
+          "chance": 75,
+          "repeat": [5, 10]
+        },
+        {
+          "item": "vehicle_controls",
+          "x": 79,
+          "y": 13,
+          "chance": 50,
+          "repeat": [1, 5]
+        },
+        {
+          "item": "vehicle_dashboard",
+          "x": 79,
+          "y": 14,
+          "chance": 50,
+          "repeat": [1, 5]
+        },
+        {
+          "item": "muffler",
+          "x": 79,
+          "y": 15,
+          "chance": 50,
+          "repeat": [1, 10]
+        },
+        {
+          "item": "drivebelt",
+          "x": 79,
+          "y": 16,
+          "chance": 50,
+          "repeat": [10, 40]
+        },
+        {
+          "item": "filter_air",
+          "x": 79,
+          "y": 16,
+          "chance": 50,
+          "repeat": [10, 40]
+        },
+        {
+          "item": "filter_liquid",
+          "x": 79,
+          "y": 16,
+          "chance": 50,
+          "repeat": [10, 40]
+        },
+        {
+          "item": "glowplug",
+          "x": 79,
+          "y": 16,
+          "chance": 50,
+          "repeat": [10, 40]
+        },
+        {
+          "item": "motor_small",
+          "x": 79,
+          "y": 17,
+          "chance": 50,
+          "repeat": [10, 20]
+        },
+        {
+          "item": "power_supply",
+          "x": 79,
+          "y": 17,
+          "chance": 50,
+          "repeat": [10, 20]
+        },
+        { "item": "cable", "x": 79, "y": 17, "chance": 50, "repeat": [1, 20] },
+        {
+          "item": "engine_block_large",
+          "x": 79,
+          "y": 18,
+          "chance": 50,
+          "repeat": [1, 3]
+        },
+        {
+          "item": "engine_block_massive",
+          "x": 79,
+          "y": 18,
+          "chance": 50,
+          "repeat": [1, 3]
+        },
+        {
+          "item": "well_pump",
+          "x": 79,
+          "y": 19,
+          "chance": 50,
+          "repeat": [1, 20]
+        },
+        {
+          "item": "pump_complex",
+          "x": 79,
+          "y": 19,
+          "chance": 50,
+          "repeat": [1, 20]
+        },
+        {
+          "item": "metal_tank_little",
+          "x": 79,
+          "y": 19,
+          "chance": 50,
+          "repeat": [10, 20]
+        },
+        {
+          "item": "turret_mount",
+          "x": 79,
+          "y": 20,
+          "chance": 50,
+          "repeat": [1, 5]
+        },
+        {
+          "item": "weldtank",
+          "x": 71,
+          "y": [17, 18],
+          "chance": 50,
+          "repeat": [5, 10]
+        },
+        {
+          "item": "weldtank",
+          "x": 72,
+          "y": [17, 18],
+          "chance": 50,
+          "repeat": [5, 10]
+        },
+        {
+          "item": "tinyweldtank",
+          "x": 71,
+          "y": [19, 20],
+          "chance": 50,
+          "repeat": [5, 10]
+        },
+        {
+          "item": "tinyweldtank",
+          "x": 72,
+          "y": [19, 20],
+          "chance": 50,
+          "repeat": [5, 10]
+        },
+        {
+          "item": "motor_oil",
+          "x": 75,
+          "y": [17, 18],
+          "chance": 50,
+          "repeat": [20, 40]
+        },
+        {
+          "group": "fuel_jp8",
+          "x": 75,
+          "y": 19,
+          "chance": 80,
+          "repeat": [1, 10]
+        },
+        {
+          "item": "jerrycan",
+          "x": 75,
+          "y": 20,
+          "chance": 80,
+          "repeat": [1, 10]
+        },
+        {
+          "group": "supplies_metal",
+          "x": 76,
+          "y": [17, 20],
+          "chance": 50,
+          "repeat": [20, 80]
+        },
+        { "item": "extinguisher", "x": 69, "y": 23, "chance": 75 },
+        { "item": "extinguisher", "x": 52, "y": 25, "chance": 75 },
+        { "item": "extinguisher", "x": 67, "y": 44, "chance": 75 },
+        { "item": "extinguisher", "x": 21, "y": 22, "chance": 75 },
+        { "item": "extinguisher", "x": 62, "y": 9, "chance": 75 },
+        { "item": "atgm_launcher", "x": 8, "y": 9, "chance": 75, "repeat": 1 },
+        { "item": "atgm_heat", "x": 8, "y": 10, "chance": 75, "repeat": 10 },
+        { "item": "LAW_Packed", "x": 8, "y": 11, "chance": 75, "repeat": 10 },
+        { "item": "c4", "x": 8, "y": 12, "chance": 75, "repeat": 20 },
+        { "item": "grenade", "x": 10, "y": 9, "chance": 75, "repeat": 50 },
+        { "item": "grenade_inc", "x": 10, "y": 9, "chance": 75, "repeat": 25 },
+        { "item": "smokebomb", "x": 10, "y": 10, "chance": 75, "repeat": 50 },
+        { "item": "flashbang", "x": 10, "y": 10, "chance": 75, "repeat": 20 },
+        { "item": "m320_mod", "x": 10, "y": 11, "chance": 75, "repeat": 10 },
+        { "item": "m203", "x": 10, "y": 11, "chance": 75, "repeat": 5 },
+        { "item": "mgl", "x": 10, "y": 11, "chance": 75, "repeat": 3 },
+        {
+          "item": "40x46mm_m433",
+          "x": 10,
+          "y": 12,
+          "chance": 75,
+          "repeat": 20
+        },
+        {
+          "group": "modular_m4a1",
+          "x": 12,
+          "y": [9, 11],
+          "magazine": 100,
+          "chance": 75,
+          "repeat": 30
+        },
+        {
+          "item": "modular_m27_assault_rifle",
+          "variant": "modular_m27iar",
+          "x": 12,
+          "y": 9,
+          "magazine": 100,
+          "chance": 75,
+          "repeat": 8
+        },
+        {
+          "item": "modular_m16a4",
+          "x": 12,
+          "y": 9,
+          "magazine": 100,
+          "chance": 75,
+          "repeat": 2
+        },
+        { "item": "stanag30", "x": 12, "y": 12, "chance": 75, "repeat": 80 },
+        { "item": "stanag50", "x": 12, "y": 12, "chance": 75, "repeat": 20 },
+        { "item": "556", "x": 14, "y": [9, 12], "chance": 75, "repeat": 150 },
+        {
+          "group": "modular_m4a1",
+          "x": 16,
+          "y": [9, 11],
+          "magazine": 100,
+          "chance": 75,
+          "repeat": 36
+        },
+        { "item": "stanag30", "x": 16, "y": 12, "chance": 75, "repeat": 100 },
+        { "item": "556", "x": 18, "y": [9, 12], "chance": 75, "repeat": 150 },
+        { "item": "m249", "x": 20, "y": 9, "chance": 75, "repeat": 6 },
+        { "item": "m240", "x": 20, "y": 9, "chance": 75, "repeat": 4 },
+        {
+          "item": "mossberg_930",
+          "variant": "m1014",
+          "x": 20,
+          "y": 10,
+          "chance": 75,
+          "repeat": 10
+        },
+        { "item": "mossberg_590", "x": 20, "y": 10, "chance": 75, "repeat": 8 },
+        {
+          "item": "m26_mass_standalone",
+          "x": 20,
+          "y": 10,
+          "chance": 10,
+          "repeat": 4
+        },
+        {
+          "item": "m2010",
+          "x": 20,
+          "y": 11,
+          "magazine": 100,
+          "chance": 75,
+          "repeat": 2
+        },
+        {
+          "item": "m110a1",
+          "x": 20,
+          "y": 11,
+          "magazine": 100,
+          "chance": 75,
+          "repeat": 8
+        },
+        { "item": "m2010mag", "x": 20, "y": 12, "chance": 75, "repeat": 10 },
+        {
+          "item": "hk417mag_20rd",
+          "x": 20,
+          "y": 12,
+          "chance": 75,
+          "repeat": 16
+        },
+        {
+          "item": "hk417mag_10rd",
+          "x": 20,
+          "y": 12,
+          "chance": 75,
+          "repeat": 8
+        },
+        { "item": "300_winmag", "x": 22, "y": 12, "chance": 75, "repeat": 10 },
+        { "group": "belt223_4ball_1tracer", "x": 22, "y": 9, "chance": 75 },
+        { "group": "belt308_4ball_1tracer", "x": 22, "y": 9, "chance": 75 },
+        { "item": "shot_00", "x": 22, "y": 10, "chance": 75, "repeat": 10 },
+        { "item": "shot_slug", "x": 22, "y": 10, "chance": 75, "repeat": 5 },
+        { "item": "shot_beanbag", "x": 22, "y": 10, "chance": 75, "repeat": 3 },
+        { "item": "shot_he", "x": 22, "y": 10, "chance": 75, "repeat": 5 },
+        {
+          "item": "shot_flechette",
+          "x": 22,
+          "y": 10,
+          "chance": 75,
+          "repeat": 5
+        },
+        {
+          "item": "762_51_incendiary",
+          "x": 22,
+          "y": 11,
+          "chance": 75,
+          "repeat": 5
+        },
+        {
+          "item": "762_51",
+          "x": 22,
+          "y": [11, 12],
+          "chance": 75,
+          "repeat": 30
+        },
+        {
+          "item": "m2browning",
+          "x": 24,
+          "y": [9, 10],
+          "chance": 75,
+          "repeat": 2
+        },
+        {
+          "item": "m107a1",
+          "x": 24,
+          "y": 11,
+          "magazine": 100,
+          "chance": 75,
+          "repeat": 1
+        },
+        { "item": "m107a1mag", "x": 24, "y": 12, "chance": 75, "repeat": 6 },
+        {
+          "group": "belt50_4ball_1tracer",
+          "x": 26,
+          "y": 9,
+          "chance": 75,
+          "repeat": 5
+        },
+        { "item": "50bmg", "x": 26, "y": [10, 12], "chance": 75, "repeat": 10 },
+        {
+          "item": "50_incendiary",
+          "x": 26,
+          "y": 12,
+          "chance": 75,
+          "repeat": 3
+        },
+        { "item": "50match", "x": 26, "y": 12, "chance": 75, "repeat": 3 },
+        { "item": "50ss", "x": 26, "y": 12, "chance": 75, "repeat": 3 },
+        {
+          "item": "m17",
+          "x": 28,
+          "y": [9, 10],
+          "magazine": 100,
+          "chance": 75,
+          "repeat": 90
+        },
+        {
+          "item": "m9",
+          "x": 28,
+          "y": 11,
+          "magazine": 100,
+          "chance": 75,
+          "repeat": 45
+        },
+        {
+          "item": "glock_19",
+          "x": 28,
+          "y": 11,
+          "magazine": 100,
+          "chance": 75,
+          "repeat": 10
+        },
+        {
+          "item": "p320mag_17rd_9x19mm",
+          "x": 28,
+          "y": 12,
+          "chance": 75,
+          "repeat": 90
+        },
+        { "item": "m9mag", "x": 28, "y": 12, "chance": 75, "repeat": 45 },
+        { "item": "glockmag", "x": 28, "y": 12, "chance": 75, "repeat": 10 },
+        { "item": "9mm", "x": 30, "y": 9, "chance": 75, "repeat": 25 },
+        {
+          "item": "9mmfmj",
+          "x": 30,
+          "y": [10, 12],
+          "chance": 75,
+          "repeat": 50
+        },
+        {
+          "item": "shoulder_strap",
+          "x": [8, 9],
+          "y": 15,
+          "chance": 75,
+          "repeat": 100
+        },
+        { "item": "holo_sight", "x": 10, "y": 15, "chance": 75, "repeat": 50 },
+        { "item": "acog_scope", "x": 11, "y": 15, "chance": 75, "repeat": 30 },
+        {
+          "item": "red_dot_sight",
+          "x": 12,
+          "y": 15,
+          "chance": 75,
+          "repeat": 20
+        },
+        {
+          "item": "goggles_ir",
+          "x": [14, 16],
+          "y": 15,
+          "chance": 75,
+          "repeat": 50
+        },
+        {
+          "item": "goggles_nv",
+          "x": [17, 18],
+          "y": 15,
+          "chance": 75,
+          "repeat": 40
+        },
+        { "item": "sheath", "x": 24, "y": 15, "chance": 75, "repeat": 100 },
+        {
+          "item": "knife_combat",
+          "x": [22, 23],
+          "y": 15,
+          "chance": 75,
+          "repeat": 100
+        },
+        {
+          "item": "holster",
+          "x": [20, 21],
+          "y": 15,
+          "chance": 75,
+          "repeat": 100
+        },
+        {
+          "group": "mil_base_tent_medical_thrash",
+          "x": [52, 64],
+          "y": [54, 71],
+          "chance": 25,
+          "repeat": 15
+        }
+      ],
+      "place_monsters": [
+        {
+          "monster": "GROUP_MIL_BASE",
+          "x": [0, 23],
+          "y": [26, 47],
+          "repeat": [6, 8],
+          "density": 0.1
+        },
+        {
+          "monster": "GROUP_MIL_BASE",
+          "x": [24, 47],
+          "y": [26, 47],
+          "repeat": [1, 2],
+          "density": 0.1
+        },
+        {
+          "monster": "GROUP_MIL_BASE_HOSPITAL",
+          "x": [0, 23],
+          "y": [48, 71],
+          "repeat": [0, 1],
+          "density": 0.1
+        },
+        {
+          "monster": "GROUP_MIL_BASE_HOSPITAL",
+          "x": [24, 47],
+          "y": [48, 71],
+          "repeat": [0, 1],
+          "density": 0.1
+        },
+        {
+          "monster": "GROUP_MIL_BASE_HOSPITAL",
+          "x": [48, 71],
+          "y": [48, 71],
+          "repeat": [4, 5],
+          "density": 0.1
+        },
+        {
+          "monster": "GROUP_MIL_BASE_HOSPITAL",
+          "x": [72, 95],
+          "y": [48, 71],
+          "repeat": [4, 5],
+          "density": 0.1
+        }
+      ],
+      "place_vehicles": [
+        { "vehicle": "military_vehicles", "x": 60, "y": 30, "chance": 50 },
+        { "vehicle": "military_vehicles", "x": 59, "y": 39, "chance": 50 },
+        {
+          "vehicle": "military_vehicles",
+          "x": 9,
+          "y": 32,
+          "chance": 25,
+          "status": 1
+        },
+        {
+          "vehicle": "military_vehicles",
+          "x": 18,
+          "y": 39,
+          "chance": 25,
+          "status": 1
+        },
+        {
+          "vehicle": "military_vehicles",
+          "x": 83,
+          "y": 39,
+          "chance": 25,
+          "rotation": 90
+        },
+        {
+          "vehicle": "welding_cart",
+          "x": 67,
+          "y": 36,
+          "chance": 80,
+          "status": 0
+        },
+        {
+          "vehicle": "engine_crane",
+          "x": 55,
+          "y": 26,
+          "chance": 80,
+          "status": 0
+        }
+      ]
+    }
+  },
+
+  {
+    "type": "item_group",
+    "id": "military_standard_assault_rifles",
+    "subtype": "distribution",
+    "entries": [
+      {
+        "group": "modular_m4a1",
+        "prob": 88,
+        "charges": [0, 30]
+      },
+      {
+        "item": "modular_m27_assault_rifle",
+        "variant": "modular_m27iar",
+        "prob": 10,
+        "charges": [0, 30]
+      },
+      {
+        "item": "modular_m27_assault_rifle",
+        "variant": "modular_m38dmr",
+        "contents-group": "m38dmr_mods",
+        "prob": 1,
+        "charges": [0, 30]
+      },
+      { "item": "modular_m16a4", "prob": 2, "charges": [0, 30] }
+    ]
+  },
+  {
+    "type": "item_group",
+    "id": "military_standard_assault_rifles_sighted",
+    "subtype": "distribution",
+    "entries": [
+      {
+        "group": "modular_m4a1",
+        "prob": 88,
+        "charges": [0, 30],
+        "contents-item": "acog_scope"
+      },
+      {
+        "item": "modular_m27_assault_rifle",
+        "variant": "modular_m27iar",
+        "prob": 10,
+        "charges": [0, 30],
+        "contents-item": "acog_scope"
+      },
+      {
+        "item": "modular_m16a4",
+        "prob": 2,
+        "charges": [0, 30],
+        "contents-item": "acog_scope"
+      }
+    ]
+  },
+  {
+    "type": "item_group",
+    "id": "military",
+    "subtype": "distribution",
+    "entries": [
+      { "group": "mil_food", "prob": 1251 },
+      { "group": "mil_armor", "prob": 575 },
+      { "item": "m107a1", "prob": 1 },
+      { "item": "bipod", "prob": 1 },
+      { "item": "50bmg", "prob": 3 },
+      { "item": "50ss", "prob": 2 },
+      { "item": "50match", "prob": 1 },
+      { "item": "50_mk211", "prob": 1 },
+      { "item": "small_repairkit", "prob": 10 },
+      { "item": "50_incendiary", "prob": 2 },
+      { "item": "water_clean", "prob": 90 },
+      { "item": "knuckle_brass", "prob": 10 },
+      { "item": "knuckle_steel_forged", "prob": 5 },
+      { "item": "battery_ups", "prob": 10 },
+      { "item": "bandages", "prob": 30, "count": [1, 3] },
+      { "group": "adhesive_bandages_box_used", "prob": 20 },
+      { "group": "cotton_ball_bag_used", "prob": 20 },
+      { "group": "cotton_ball_bag_full", "prob": 5 },
+      { "prob": 5, "group": "iodine_bottle_plastic_pill_supplement_10" },
+      { "prob": 5, "group": "prussian_blue_bottle_plastic_pill_supplement_10" },
+      { "item": "adrenaline_injector", "prob": 4 },
+      { "group": "tobacco_products", "prob": 146 },
+      { "group": "infantry_knives", "prob": 14 },
+      { "item": "kukri", "prob": 2 },
+      { "item": "throwing_knife", "prob": 7 },
+      { "item": "boots_steel", "prob": 50 },
+      { "item": "sneakers_steel", "prob": 35 },
+      { "item": "gloves_fingerless", "prob": 20 },
+      { "item": "glasses_safety", "prob": 40 },
+      { "item": "hat_boonie", "prob": 10 },
+      { "item": "nylon_holster", "prob": 15 },
+      { "item": "sholster", "prob": 10 },
+      { "item": "bandolier_shotgun", "prob": 12 },
+      { "item": "torso_bandolier_shotgun", "prob": 8 },
+      { "item": "torso_bandolier_grenade", "prob": 8 },
+      { "item": "bootstrap", "prob": 3 },
+      { "item": "legpouch", "prob": 8 },
+      { "item": "legpouch_large", "prob": 4 },
+      { "item": "chestpouch", "prob": 6 },
+      { "item": "ammo_satchel", "prob": 3 },
+      { "item": "ammo_pouch", "prob": 3 },
+      { "item": "gobag", "prob": 1 },
+      { "item": "mess_kit", "prob": 9 },
+      { "item": "tent_kit", "prob": 10 },
+      { "item": "large_tent_kit", "prob": 10 },
+      { "item": "pistol_bayonet", "prob": 4 },
+      { "item": "9mm", "prob": 8 },
+      { "item": "9mmfmj", "prob": 4 },
+      { "item": "45_acp", "prob": 7 },
+      { "item": "45_jhp", "prob": 3 },
+      { "item": "556", "prob": 6 },
+      { "item": "556_incendiary", "prob": 2 },
+      { "item": "762_51", "prob": 6 },
+      { "item": "762_51_incendiary", "prob": 6 },
+      { "item": "40x46mm_m433", "prob": 10 },
+      { "item": "40x46mm_m433", "prob": 8 },
+      { "item": "40x46mm_m651", "prob": 5 },
+      { "item": "40x46mm_m576", "prob": 12 },
+      { "item": "40x53mm_m1001", "prob": 6 },
+      { "item": "20x66_shot", "prob": 4 },
+      { "item": "20x66_exp", "prob": 1 },
+      { "item": "20x66_inc", "prob": 1 },
+      { "item": "20x66_flare", "prob": 2 },
+      { "item": "20x66_frag", "prob": 1 },
+      { "item": "20x66_slug", "prob": 4 },
+      { "item": "20x66_flechette", "prob": 3 },
+      { "item": "m9", "variant": "m9", "prob": 6 },
+      { "item": "usp_45", "prob": 6 },
+      { "group": "modular_m4a1", "prob": 7 },
+      { "group": "m4_cqbr", "prob": 1 },
+      { "item": "m231pfw", "prob": 1 },
+      { "item": "modular_m16a4", "prob": 5 },
+      {
+        "item": "modular_m16_auto_rifle",
+        "variant": "modular_m16a3",
+        "prob": 1
+      },
+      { "item": "colt_ro635", "prob": 1 },
+      { "item": "p226_9mm", "prob": 1 },
+      { "item": "sp2022", "prob": 1 },
+      {
+        "item": "modular_m27_assault_rifle",
+        "variant": "modular_h&k416a5",
+        "prob": 7
+      },
+      { "item": "mossberg_930", "variant": "m1014", "prob": 2 },
+      { "item": "m26_mass_standalone", "prob": 1 },
+      { "item": "scar_l", "prob": 6 },
+      { "item": "scar_h", "prob": 5 },
+      { "item": "sig_mcx_rattler_sbr", "prob": 1 },
+      { "item": "m249", "prob": 1 },
+      { "item": "m240", "prob": 1 },
+      {
+        "item": "modular_m27_assault_rifle",
+        "variant": "modular_m27iar",
+        "prob": 1
+      },
+      {
+        "item": "modular_m27_assault_rifle",
+        "variant": "modular_m38dmr",
+        "contents-group": "m38dmr_mods",
+        "prob": 1
+      },
+      { "item": "plasma_gun", "prob": 1 },
+      { "item": "m320", "prob": 5 },
+      { "item": "m320_mod", "prob": 10 },
+      { "item": "ugl_buttstock", "prob": 10 },
+      { "item": "mgl", "prob": 6 },
+      { "item": "suppressor", "prob": 15 },
+      { "item": "shot_suppressor", "prob": 1 },
+      { "item": "brass_catcher", "prob": 15 },
+      { "item": "lighter", "prob": 60, "charges": [0, 100] },
+      { "item": "small_lighter", "prob": 5, "charges": [0, 50] },
+      { "item": "ref_lighter", "prob": 5, "charges": [0, 50] },
+      { "item": "flashlight", "prob": 40, "charges": [0, 300] },
+      { "item": "heavy_flashlight", "prob": 40, "charges": [0, 300] },
+      { "item": "landmine", "prob": 3 },
+      { "item": "grenade", "prob": 3 },
+      { "item": "grenade_inc", "prob": 3 },
+      { "item": "flashbang", "prob": 3 },
+      { "item": "EMPbomb", "prob": 2 },
+      { "item": "gasbomb", "prob": 3 },
+      { "item": "smokebomb", "prob": 5 },
+      { "item": "tazer", "prob": 3, "charges": [0, 500] },
+      { "item": "c4", "prob": 5 },
+      { "item": "flamethrower", "prob": 1 },
+      { "item": "binoculars", "prob": 20 },
+      { "item": "masterkey", "prob": 2 },
+      { "item": "m26_mass", "prob": 3 },
+      { "item": "rm121aux", "prob": 1 },
+      { "item": "shot_flechette", "prob": 5 },
+      { "item": "canteen", "prob": 15 },
+      { "item": "2lcanteen", "prob": 10 },
+      { "item": "camelbak", "prob": 5 },
+      { "item": "jerrycan", "prob": 10 },
+      { "item": "rucksack", "prob": 20 },
+      { "group": "molle_backpacks_and_accessories", "prob": 15 },
+      { "item": "LAW_Packed", "prob": 30 },
+      { "item": "m3_carlgustav", "prob": 1 },
+      { "item": "m4_carlgustav", "prob": 1 },
+      { "item": "84x246mm_he", "prob": 3 },
+      { "item": "84x246mm_hedp", "prob": 2 },
+      { "item": "84x246mm_smoke", "prob": 3 },
+      { "item": "atgm_launcher", "prob": 1 },
+      { "item": "atgm_heat", "prob": 1 },
+      { "item": "m202_flash", "prob": 2 },
+      { "item": "m74_clip", "prob": 3 },
+      { "item": "rm51_assault_rifle", "prob": 1 },
+      { "item": "rm88_battle_rifle", "prob": 1 },
+      { "item": "rm614_lmg", "prob": 1 },
+      { "item": "rm2000_smg", "prob": 1 },
+      { "item": "8mm_jhp", "prob": 2 },
+      { "item": "8mm_caseless", "prob": 2 },
+      { "item": "laser_rifle", "prob": 1 },
+      { "item": "rm103a_pistol", "prob": 1 },
+      { "item": "laser_sight", "prob": 15 },
+      { "item": "rail_laser_sight", "prob": 10 },
+      { "item": "tac_helmet", "prob": 10 },
+      { "item": "tac_fullhelmet", "prob": 5 },
+      { "item": "flight_helmet", "prob": 5 },
+      { "item": "mil_flight_suit", "prob": 5 },
+      { "item": "gum", "prob": 90, "count": 10 },
+      { "item": "caff_gum", "prob": 10, "count": 10 },
+      { "item": "nic_gum", "prob": 1, "count": 10 },
+      { "item": "improve_sights", "prob": 10 },
+      { "item": "waterproof_gunmod", "prob": 4 },
+      { "item": "cleansuit", "prob": 5 },
+      { "item": "hazmat_suit", "prob": 5 },
+      { "item": "e_tool", "prob": 20 },
+      { "item": "knife_trench", "prob": 14 },
+      { "item": "flaregun", "prob": 20 },
+      { "item": "signal_flare", "prob": 25 },
+      { "item": "militarymap", "prob": 4 },
+      { "item": "halligan", "prob": 10 },
+      { "item": "fire_ax", "prob": 5 },
+      {
+        "prob": 2,
+        "group": "antiparasitic_bottle_plastic_pill_prescription_5"
+      },
+      { "item": "match_trigger", "prob": 2 },
+      { "item": "grapnel", "prob": 1 },
+      { "item": "bucket", "prob": 4 },
+      { "item": "sheath", "prob": 13 },
+      { "item": "bootsheath", "prob": 8 },
+      { "item": "leg_sheath6", "prob": 2 },
+      {
+        "item": "throwing_knife",
+        "count-min": 1,
+        "count-max": 6,
+        "entry-wrapper": "leg_sheath6",
+        "prob": 1
+      },
+      { "group": "tools_toolbox", "prob": 1 },
+      { "item": "survnote", "prob": 1 },
+      { "item": "rm11b_sniper_rifle", "prob": 1 },
+      { "item": "shoulder_strap", "prob": 16 },
+      { "item": "shoulder_strap_simple", "prob": 4 },
+      { "item": "single_sling", "prob": 16 },
+      { "item": "bot_manhack", "prob": 1 },
+      { "item": "bot_grenade_hack", "prob": 1 },
+      { "item": "chem_hexamine", "prob": 5 },
+      { "item": "esbit_stove", "prob": 8 },
+      { "item": "beam_scatterer", "prob": 1 },
+      { "item": "focusing_lens", "prob": 1 },
+      { "item": "electrolaser_conversion", "prob": 1 },
+      { "item": "effective_emitter", "prob": 1 },
+      { "item": "high_density_capacitor", "prob": 1 },
+      { "item": "emp_gun", "prob": 1 },
+      { "item": "bt_apc9k", "prob": 1 },
+      { "item": "kevlar_nape_protector", "prob": 5 },
+      { "item": "counterweight_pouch", "prob": 5 }
+    ]
+  },
+
+  {
+    "type": "item_group",
+    "id": "NC_ANCILLA_GRUNT_wield",
+    "subtype": "collection",
+    "items": [
+      {
+        "group": "modular_m4a1",
+        "ammo-item": "556",
+        "charges": 30,
+        "contents-item": ["shoulder_strap", "suppressor"]
+      }
+    ]
+  },
+
+  {
+    "type": "item_group",
+    "id": "NC_ARMY_rifle",
+    "subtype": "distribution",
+    "entries": [
+      { "group": "modular_m4a1", "prob": 50 },
+      { "item": "m14ebr", "prob": 35 },
+      { "item": "m249", "prob": 20 }
+    ]
+  },
+
+  {
+    "type": "item_group",
+    "id": "NC_ARSONIST_rifle",
+    "subtype": "distribution",
+    "entries": [
+      { "group": "modular_m4a1", "prob": 35 },
+      { "item": "m1a", "prob": 35 },
+      { "item": "ak47", "prob": 35 }
+    ]
+  },
+
+  {
+    "type": "item_group",
+    "id": "NC_SOLDIER_rifle",
+    "subtype": "distribution",
+    "entries": [
+      { "group": "modular_m4a1", "prob": 90 },
+      { "item": "m14ebr", "prob": 10 }
+    ]
+  },
+  {
+    "type": "item_group",
+    "id": "NC_SOLDIER_weapon_random",
+    "subtype": "distribution",
+    "entries": [{ "group": "modular_m4a1", "prob": 35 }]
+  },
+
+  {
+    "id": "nested_m4_carbine",
+    "type": "item_group",
+    "//": "this is a distribution for the gun, reasonable number of backup mags, and some ammo to repack",
+    "subtype": "collection",
+    "ammo": 100,
+    "entries": [
+      {
+        "group": "modular_m4a1",
+        "charges-min": 0,
+        "charges-max": 30
+      },
+      { "item": "stanag30" },
+      { "item": "stanag30", "prob": 50 },
+      { "group": "on_hand_223" }
+    ]
+  },
+
+  {
+    "type": "item_group",
+    "id": "NC_SCAVENGER_MERC_wield",
+    "subtype": "collection",
+    "items": [
+      {
+        "group": "modular_m4a1",
+        "ammo-item": "556",
+        "charges": 30,
+        "contents-item": ["shoulder_strap", "holo_sight", "suppressor"]
+      }
+    ]
+  }
+]
