@@ -1,0 +1,133 @@
+[
+  {
+    "id": "sights/holographic",
+    "type": "item_group",
+    "subtype": "distribution",
+
+    "items": ["sight/vortex/uh1", "sight/eotech/exps3", "sight/eotech/553"]
+  },
+
+  {
+    "id": "sights/offset",
+    "type": "item_group",
+    "subtype": "distribution",
+
+    "items": ["sight/offset/magpul/mbus_pro"]
+  },
+
+  {
+    "id": "sights/magnifier",
+    "type": "item_group",
+    "subtype": "distribution",
+
+    "items": [
+      "magnifier/eotech/g33",
+      "magnifier/eotech/g43",
+      "magnifier/eotech/g45"
+    ]
+  },
+
+  {
+    "id": "sights/reflex/direct_mount",
+    "type": "item_group",
+    "subtype": "distribution",
+
+    "items": ["sight/ncstar"]
+  },
+
+  {
+    "id": "sights/reflex/mounted",
+    "type": "item_group",
+    "subtype": "distribution",
+
+    "groups": [
+      "sight/trijicon/rmr",
+      "sight/vortex/strikefire_ii",
+      "sight/aimpoint/compm2",
+      "sight/trijicon/rx01",
+      "sight/noblex/sight_ii"
+    ]
+  },
+
+  {
+    "id": "sights/optical/direct_mount",
+    "type": "item_group",
+    "subtype": "distribution",
+
+    "entries": ["sight/trijicon/ta01", { "group": "sight/elcan/specterdr" }]
+  },
+
+  {
+    "id": "sights/optical/mounted",
+    "type": "item_group",
+    "subtype": "distribution",
+
+    "groups": ["sights/distribution/30mm"]
+  },
+
+  {
+    "id": "sights/reflex/all",
+    "type": "item_group",
+    "subtype": "collection",
+
+    "//notes": [
+      "for gun stores and other locations where you may see a variety of different attachments"
+    ],
+
+    "groups": [
+      ["sights/reflex/mounted", 75],
+      ["sights/reflex/direct_mount", 25]
+    ]
+  },
+
+  {
+    "id": "sights/iron/all",
+    "type": "item_group",
+    "subtype": "collection",
+
+    "//notes": [
+      "for gun stores and other locations where you may see a variety of different attachments",
+      [
+        "iron sights do not spawn currently due to not having the infrastructure to use them meaningfully",
+        "they used to spawn with 80% chance in this group"
+      ]
+    ],
+
+    "groups": [["sights_offset", 100]]
+  },
+
+  {
+    "id": "sights/enhanced/all",
+    "type": "item_group",
+    "subtype": "collection",
+
+    "//notes": [
+      "sights that are better than iron sights",
+      "for gun stores and other locations where you may see a variety of different attachments"
+    ],
+
+    "groups": [
+      ["sights/magnifier", 16],
+      ["sights/reflex/all", 54],
+      ["sights/holographic", 28],
+      ["sights/optical/mounted", 18],
+      ["sights/optical/direct_mount", 12]
+    ]
+  },
+
+  {
+    "id": "sights/all",
+    "type": "item_group",
+    "subtype": "collection",
+
+    "//notes": [
+      "all new sights",
+      "for gun stores and other locations where you may see a variety of different attachments"
+    ],
+
+    "groups": [
+      ["sights/iron/all", 5],
+      ["sights/enhanced/all", 95]
+    ]
+  }
+]

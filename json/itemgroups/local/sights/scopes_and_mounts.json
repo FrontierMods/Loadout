@@ -1,0 +1,42 @@
+[
+  {
+    "//": [
+      "these are the scopes and their relevant mounts",
+      "this structure is necessary because there may be multiple kinds of the same mount"
+    ],
+
+    "id": "sight_mounts/30mm",
+    "type": "item_group",
+    "subtype": "distribution",
+
+    "items": [["sight_mount/30mm/aero", 100]]
+  },
+  {
+    "id": "sights/30mm",
+    "type": "item_group",
+    "subtype": "distribution",
+
+    "items": [
+      ["sight/eotech/vudu/1-6x", 53],
+      ["sight/vortex/viper_pst/1-6x", 30],
+      ["sight/leupold/mark_4", 17]
+    ]
+  },
+  {
+    "id": "sights/distribution/30mm",
+    "type": "item_group",
+    "subtype": "collection",
+
+    "groups": ["sight_mounts/30mm", "sights/30mm"]
+  },
+  {
+    "id": "sight/elcan/specterdr",
+    "type": "item_group",
+    "subtype": "collection",
+
+    "items": [
+      { "item": "sight/elcan/specterdr/legacy", "prob": 100 },
+      { "item": "sight/noblex/sight_ii", "prob": 43 }
+    ]
+  }
+]
