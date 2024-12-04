@@ -8,28 +8,28 @@
       "removed `shoulder_strap_simple`: shouldn't be a common gunmod",
       "removed `match_trigger`",
       "removed `pistol_grip`",
-      "replaced `muzzle_brake` and `choke` with muzzle device group"
+      "replaced `muzzle_brake`, `compensator`, and `choke` with muzzle device group",
+      "replaced `rail_laser_sight` with laser sight group",
+      "replaced `rifle_scope`, `red_dot_sight`, and `offset_sights` with sights group"
     ],
 
     "items": [
-      ["belt_clip", 5],
-      ["brass_catcher", 100],
-      ["compensator", 40],
-      ["muzzle_brake", 20],
-      ["rifle_scope", 30],
+      ["belt_clip", 1],
+      ["brass_catcher", 30],
       ["shoulder_strap", 50],
-      ["single_sling", 50],
+      ["single_sling", 40],
       ["butt_hook", 30],
-      ["offset_sights", 40],
       ["offset_sight_rail", 30],
       ["cheek_pad", 25],
-      ["rail_laser_sight", 40],
-      ["red_dot_sight", 70],
 
       { "group": "foregrips/angled", "prob": 40 },
       { "group": "foregrips/tall", "prob": 30 },
 
-      { "group": "muzzle_devices/all", "prob": 30 }
+      { "group": "muzzle_devices/all", "prob": 30 },
+
+      { "group": "laser_sights/bottom_rail", "prob": 40 },
+
+      { "group": "sights/all", "prob": 50 }
     ]
   },
 
@@ -55,28 +55,25 @@
       "removed `suppressor`",
       "removed `suppressor_compact`",
       "removed `tail_hook_stock`",
-      "replaced `grip` with foregrip groups"
+      "replaced `grip` with foregrip groups",
+      "replaced `laser_sight` with laser sight groups",
+      "removed `holo_sight`, `holo_magnifier`, `acog_scope`, and `pistol_scope` in favor of all sights group in `gunmod_common`"
     ],
 
     "items": [
       ["bipod", 20],
-      ["wooden_grip", 5],
-      ["waterproof_gunmod", 40],
-      ["laser_sight", 40],
+      ["wooden_grip", 1],
+      ["waterproof_gunmod", 5],
       ["light_grip", 50],
-      ["pistol_scope", 10],
       ["pistol_stock", 10],
       ["butt_hook", 20],
       ["arredondo_chute", 20],
       ["shot_suppressor", 10],
-      ["suppressor", 60],
-      ["suppressor_compact", 40],
-      ["acog_scope", 40],
-      ["holo_sight", 50],
-      ["holo_magnifier", 30],
 
       { "group": "foregrips/short", "prob": 40 },
-      { "group": "foregrips/tiny", "prob": 30 }
+      { "group": "foregrips/tiny", "prob": 30 },
+
+      { "group": "laser_sights/rail", "prob": 40 }
     ]
   },
 
@@ -93,13 +90,15 @@
       ["holo_sight", 100],
       ["holo_magnifier", 80],
       ["m320_mod", 10],
-      ["m26_mass", 35]
+      ["m26_mass", 35],
+
+      { "group": "sight/elcan/specterdr", "prob": 50 }
     ]
   },
 
   {
-    "type": "item_group",
     "id": "pawn_guns",
+    "type": "item_group",
     "items": [
       ["win70_458", 1],
       ["combination_gun", 1],
