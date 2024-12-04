@@ -41,6 +41,15 @@
 
   {
     "type": "item_group",
+    "id": "compensators",
+
+    "subtype": "distribution",
+
+    "items": ["compensator/mft/slim"]
+  },
+
+  {
+    "type": "item_group",
     "id": "muzzle_devices/all",
 
     "//notes": [
@@ -54,6 +63,7 @@
       ["suppressors/direct", 50],
       ["muzzle_brakes", 70],
       ["flash_hiders", 40],
+      ["compensators", 40],
       ["chokes", 30]
     ]
   }
