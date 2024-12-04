@@ -362,10 +362,6 @@
       "notes": ["specific ammo type for the test unknown"]
     },
     "loudness_modifier": -10,
-    "damage_modifier": {
-      "damage_type": "bullet",
-      "amount": 2
-    },
 
     "//consume_divisor": 960,
 
@@ -436,10 +432,6 @@
       "we hope you appreciate the pun"
     ],
     "handling_modifier": 12,
-    "damage_modifier": {
-      "damage_type": "bullet",
-      "amount": 4
-    },
 
     "price": "1169 USD"
   }
