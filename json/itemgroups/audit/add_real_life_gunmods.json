@@ -1,0 +1,17 @@
+[
+  {
+    "id": "m38dmr_mods",
+    "type": "item_group",
+    "subtype": "collection",
+
+    "entries": [
+      { "item": "flash_hider/kac/m4qd" },
+      { "item": "suppressor/kac/qdss" },
+
+      { "item": "sight_mount/30mm/aero" },
+      { "item": "sight/leupold/mark_4", "variant": "black/modern" },
+
+      { "item": "bipod/harris/s-l2p" }
+    ]
+  }
+]
