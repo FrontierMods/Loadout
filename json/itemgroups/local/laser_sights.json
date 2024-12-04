@@ -1,0 +1,18 @@
+[
+  {
+    "type": "item_group",
+    "id": "laser_sights/rail",
+
+    "subtype": "distribution",
+
+    "items": ["laser_sight/l3harris/atpial", "laser_sight/steiner/dbal-a2"]
+  },
+  {
+    "type": "item_group",
+    "id": "laser_sights/bottom_rail",
+
+    "subtype": "distribution",
+
+    "items": ["laser_sight/steiner/tor_mini", "laser_sight/sightmark/readyfire"]
+  }
+]
