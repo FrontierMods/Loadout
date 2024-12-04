@@ -1,0 +1,63 @@
+[
+  {
+    "id": "compensator/mft/slim",
+    "copy-from": "@muzzle/compensator",
+    "type": "GUNMOD",
+
+    "//sources": [
+      "https://www.wingtactical.com/firearm-parts/ar-15/muzzle-devices/mission-first-tactical-slim-6-direction-compensator-5-56-223/",
+      [
+        "https://www.thetruthaboutguns.com/556-muzzle-device-shootout/",
+        "handling modifier reference"
+      ]
+    ],
+
+    "//notes": [
+      "technically its title is EvolV compensator, but we ignore this for the sake of sanity"
+    ],
+
+    "name": {
+      "str": "slim compensator"
+    },
+    "description": "A slim compensator.  Twelve holes along its front vent exhaust gases upon firing, negating most of the muzzle rise.",
+
+    "variant_type": "gun",
+    "variants": [
+      {
+        "id": "black",
+
+        "name": {
+          "str": "MFT 6-directional compensator"
+        },
+        "description": "A slim compensator, with the holes along its front venting gases in six directions.  Will install flush with an M4-profile barrel.  <variant:black>",
+        "expand_snippets": true,
+        "weight": 1
+      }
+    ],
+
+    "//weight": "1.66 oz = 47.06 g",
+    "weight": "47 g",
+    "//dimensions": {
+      "length": "2 in",
+      "diameter": "0.751 in",
+      "raw": "14.52 ml",
+      "trim": 0
+    },
+    "volume": "15 ml",
+    "longest_side": "51 mm",
+    "//integral_longest_side": "absorbs 16 mm of regular threading on a 1/2 in. × 24-threaded barrel",
+    "integral_longest_side": "26 mm",
+
+    "material": ["stainless_steel"],
+
+    "//calibers": ["556"],
+    "//thread": ["1/2″ x 28"],
+
+    "//handling_modifier": [
+      "we use Strike Industries J-Comp as the reference, with its 60.48% recoil reduction"
+    ],
+    "handling_modifier": 61,
+
+    "price": "54 USD 99 cent"
+  }
+]

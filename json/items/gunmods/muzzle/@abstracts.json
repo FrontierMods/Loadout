@@ -219,5 +219,17 @@
     "longest_side": "24 mm",
 
     "install_time": "10 s"
+  },
+
+  {
+    "abstract": "@muzzle/compensator",
+    "copy-from": "@muzzle/universal",
+    "type": "GUNMOD",
+
+    "name": {
+      "str": "compensator"
+    },
+
+    "handling_modifier": 60
   }
 ]
