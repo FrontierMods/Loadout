@@ -1,0 +1,45 @@
+[
+  {
+    "//": [
+      "these are the red dot sights that are affixed to a specific mount",
+      "mounts in these groups are set to high, but not absolute, spawn chance, to emulate real-life situations where one is likely, but may not always, come with its required mount"
+    ],
+
+    "id": "sight/trijicon/rmr",
+    "type": "item_group",
+    "subtype": "collection",
+
+    "items": ["sight/trijicon/rmr", ["sight_mount/rmr/trijicon/rm33", 90]]
+  },
+  {
+    "id": "sight/vortex/strikefire_ii",
+    "type": "item_group",
+    "subtype": "collection",
+
+    "items": [
+      "sight/vortex/strikefire_ii",
+      ["sight_mount/30mm/single/aero", 90]
+    ]
+  },
+  {
+    "id": "sight/aimpoint/compm2",
+    "type": "item_group",
+    "subtype": "collection",
+
+    "items": ["sight/aimpoint/compm2", ["sight_mount/30mm/single/aero", 90]]
+  },
+  {
+    "id": "sight/trijicon/rx01",
+    "type": "item_group",
+    "subtype": "collection",
+
+    "items": ["sight/trijicon/rx01", ["sight_mount/rx01/trijicon/rx11", 90]]
+  },
+  {
+    "id": "sight/noblex/sight_ii",
+    "type": "item_group",
+    "subtype": "collection",
+
+    "items": ["sight/noblex/sight_ii", ["sight_mount/docter/trijicon/ms10", 90]]
+  }
+]
