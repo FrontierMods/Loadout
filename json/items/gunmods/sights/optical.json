@@ -127,7 +127,7 @@
     "variant_type": "gun",
     "variants": [
       {
-        "id": "black:modern",
+        "id": "black/modern",
 
         "name": {
           "str": "Leupold Mark 4 MR/T 2.5—8×36 30mm scope"
