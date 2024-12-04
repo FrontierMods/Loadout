@@ -54,7 +54,10 @@
     "type": "item_group",
     "subtype": "distribution",
 
-    "entries": ["sight/trijicon/ta01", { "group": "sight/elcan/specterdr" }]
+    "entries": [
+      { "item": "sight/trijicon/ta01" },
+      { "group": "sight/elcan/specterdr" }
+    ]
   },
 
   {
@@ -93,7 +96,7 @@
       ]
     ],
 
-    "groups": [["sights_offset", 100]]
+    "groups": [["sights/offset", 100]]
   },
 
   {
