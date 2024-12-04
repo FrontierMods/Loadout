@@ -11,6 +11,7 @@
       { "item": "sight_mount/30mm/aero" },
       { "item": "sight/leupold/mark_4", "variant": "black/modern" },
 
+      { "item": "laser_sight/l3harris/atpial" },
       { "item": "bipod/harris/s-l2p" }
     ]
   }
