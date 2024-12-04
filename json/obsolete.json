@@ -1,0 +1,110 @@
+[
+  {
+    "type": "ITEM_BLACKLIST",
+    "whitelist": false,
+
+    "items": [
+      "hybrid_sight_4x",
+      "rifle_scope_high_end_mount",
+      "u_shotgun",
+      "stabilizer",
+      "sights_mount_launcher",
+      "gun_crossbow",
+      "masterkey",
+      "pistol_bayonet",
+      "sights_mount_pistol",
+
+      "barrel_small",
+      "waterproof_gunmod",
+      "grip_mount",
+      "stock_mount",
+      "bipod_handguard",
+
+      "muzzle_brake_mod",
+      "offset_sights_mod",
+      "offset_sight_rail_mod",
+      "stabilizer_mod",
+      "rifle_scope_mod",
+      "acog_scope_mod",
+      "bipod_mod",
+      "grip_mod",
+      "m203_mod",
+      "m320_mod_mod",
+      "masterkey_mod",
+      "m26_mass_mod",
+      "rm121aux_mod",
+      "u_shotgun_mod"
+    ],
+
+    "//notes": {
+      "hybrid_sight_4x": [
+        "assumed to be Trijicon ACOG sight with a mount for RMR",
+        "it's a popular model in films and video games, and may be favored over offset sights by some shooters",
+        "effectively replaced with giving the fleshed-out ACOG a separate mount for RMR"
+      ],
+      "rifle_scope_high_end_mount": ["replaced with extra mounts"],
+      "u_shotgun": [
+        "this one appears to be pure fiction and is thus disposed with",
+        "effectively replaced by the 'not-Masterkey' underbarrel shotgun: the latter is more compact, holds more rounds, and is (presumably) easier to shoot"
+      ],
+      "stabilizer": [
+        "gyroscopic stabilizers became a thing in 2020, having been tested for the Iron Man suit by the US Army",
+        "by the looks of it, they weren't very ergonomic for use in the field",
+        "perhaps an expansion could handle it as a fully-developed idea with civilian options available"
+      ],
+      "sights_mount_launcher": [
+        "attaching a plastic mount with screws only makes sense for a small number of launchers",
+        "e.g. M79 (has wooden stock grip to drill into), China Lake launcher (likewise)",
+        "even then, their construction makes the installation likely to be flimsy",
+        "beyond that, research yields no authentic attempts at installing anything remotely similar"
+      ],
+      "gun_crossbow": [
+        "this item appears to be pure fiction",
+        "besides, mounting a crossbow powerful-enough to be effective under the barrel (let alone on a side rail) of a rifle would likely make the gun (1) much too heavy, (2) much too unwieldy (due to balance issues), (3) not fit into any possible holster or case"
+      ],
+      "masterkey": [
+        "this attachment has been a rare issue to military units in real life",
+        "at this stage, it is obsolete and beyond outdated, having been replaced (and in greater numbers) by M26-MASS"
+      ],
+      "pistol_bayonet": [
+        "a rare, niche product, likely not to be very useful in combat anyway"
+      ],
+      "sights_mount_pistol": [
+        "this attachment makes no sense, as it's meant to be a generic sights rail but attached to pistols",
+        "while attachments for this exist aplenty on the market, they make no sense in the game without modifying every single pistol",
+        "most of these attachments slot into the underbarrel rail, and bend around the slide to provide an upper rail",
+        "pistols that have an underbarrel rail slot generally also have a sights slot already",
+        "the alternative is mounts which replace rear sights, which we don't model because we hate components disappearing into the ether",
+        "even those would be different for each sight footprint, and would only take in compact reflex sights"
+      ],
+
+      "barrel_small": [
+        "one of those 'replace thing into the ether' thing we're trying to avoid"
+      ],
+      "waterproof_gunmod": [
+        "one of those 'replace thing into the ether' thing we're trying to avoid",
+        "besides, there appears to be nothing of the sort that's generic enough to apply to multiple weapons"
+      ],
+      "grip_mount": [
+        "one of those 'replace thing into the ether' thing we're trying to avoid"
+      ],
+      "stock_mount": [
+        "one of those 'replace thing into the ether' thing we're trying to avoid"
+      ],
+      "bipod_handguard": [
+        "one of those 'replace thing into the ether' thing we're trying to avoid",
+        "besides, it is a niche product with very few applications or real-life examples"
+      ],
+
+      "*_mod": [
+        "any sort of modification that makes an item attachable to a wider variety of items makes no sense, unless it's an adaptation of a niche mod and/or for a niche platform",
+        "even then, it must be subject to consideration",
+        "most modern firearms feature Picatinny rails, which by default accept any compatible equipment",
+        "and in case of muzzle devices, the threads they mount onto are standardized",
+        "for muzzle devices, worth noting that one cannot attach any device on any thread:",
+        "instead, most devices are made for a range of threads common on their target platform(s)",
+        "the only consideration for rail devices (top, side, and bottom) is the amount of space they take on the rail, which will hopefully get implemented by the next stable release"
+      ]
+    }
+  }
+]
