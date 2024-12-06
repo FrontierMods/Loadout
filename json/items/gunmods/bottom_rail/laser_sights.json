@@ -27,6 +27,7 @@
     ],
 
     "//weight": [
+      "2.12 oz = 60.101 g",
       "weight is stated to be with batteries",
       "typical Duracell CR1/3N battery weighs around 3.3g",
       "https://www.duracell.com/wp-content/uploads/2021/06/DL1-3N_JP.pdf",
@@ -68,7 +69,11 @@
     "type": "GUNMOD",
 
     "//sources": [
-      "https://sightmark.com/products/readyfire-lw-r5-red-laser-sight"
+      "https://sightmark.com/products/readyfire-lw-r5-red-laser-sight",
+      [
+        "https://www.eblofficial.com/products/lr44-ag13-alkaline-button-cell-batteries",
+        "battery weight reference"
+      ]
     ],
 
     "name": {
@@ -93,9 +98,10 @@
 
     "//weight": [
       "2.3 oz = 65.204 g",
-      "we presume the weight is without battery"
+      "we presume the weight is without battery",
+      "as such, we add 2 g × 2 = 4 g to account for batteries"
     ],
-    "weight": "65 g",
+    "weight": "69 g",
     "//dimensions": {
       "length": "2.4 in",
       "width": "1.1 in",
