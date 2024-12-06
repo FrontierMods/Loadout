@@ -24,5 +24,25 @@
       { "item": "suppressor/kac/mk23" },
       { "item": "combo_device/insight/lam_1000" }
     ]
+  },
+  {
+    "id": "m4_cqbr",
+    "type": "item_group",
+    "subtype": "collection",
+
+    "entries": [
+      {
+        "item": "modular_m4_carbine",
+        "variant": "m4_cqbr",
+        "contents-item": [
+          "pistol_grip",
+          "retool_ar15_223rem_short",
+          "adjustable_stock",
+
+          "muzzle_brake/surefire/socom",
+          "suppressor/surefire/socom556_rc2"
+        ]
+      }
+    ]
   }
 ]
