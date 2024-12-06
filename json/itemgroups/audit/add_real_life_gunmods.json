@@ -14,5 +14,15 @@
       { "item": "laser_sight/l3harris/atpial" },
       { "item": "bipod/harris/s-l2p" }
     ]
+  },
+  {
+    "id": "mk23_mods",
+    "type": "item_group",
+    "subtype": "collection",
+
+    "entries": [
+      { "item": "suppressor/kac/mk23" },
+      { "item": "combo_device/insight/lam_1000" }
+    ]
   }
 ]

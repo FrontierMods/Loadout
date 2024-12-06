@@ -1,0 +1,75 @@
+[
+  {
+    "id": "combo_device/insight/lam_1000",
+    "//copy-from": "currently copying from laser sight class because the flashlight part cannot be implemented",
+    "copy-from": "@laser_sight/underbarrel",
+    "type": "GUNMOD",
+
+    "//sources": [
+      "https://www.night-optics.com/insight-technology-military-handgun-mounted-flashlight-visible-laser-aiming-module-ilwlp-lam-1000-wi.html",
+      [
+        "https://www.hkpro.com/threads/an-peq-6-mk23-lams.140766/",
+        "price reference"
+      ]
+    ],
+
+    "name": {
+      "str": "Mk23 red laser sight"
+    },
+    "description": "A combination device, intended to provide both illumination and a laser sight; the light module appears to be out of order.  <sight/laser:red>",
+    "expand_snippets": true,
+
+    "variant_type": "gun",
+    "variants": [
+      {
+        "id": "black",
+
+        "name": {
+          "str": "AN/PEQ-6 red laser sight"
+        },
+        "description": "A combination laser sight and flashlight device for the Mk23 pistol.  <sight/laser:red>  Designed to fit onto Picatinny rails of pistols, due to its compact size, it can just as easily fit onto any other type of firearms.  <variant:black>",
+        "expand_snippets": true,
+        "weight": 1
+      }
+    ],
+
+    "//weight": ["5 oz = 141.75 g", "weight is stated to be with batteries"],
+    "weight": "142 g",
+    "//dimensions": {
+      "length": "4.5 in",
+      "width": "1.6 in",
+      "height": "2 in",
+      "raw": "235.97 ml",
+      "trim": 0.15
+    },
+    "volume": "201 ml",
+    "longest_side": "114 mm",
+
+    "//laser": {
+      "class": "3R",
+      "power": "5 mW",
+      "divergence": "1.75 MOA",
+      "range": {
+        "day": "50 m",
+        "night": "700 m"
+      },
+      "notes": [
+        [
+          "the source states 'target repeatability' to be ~1.27 cm @ 25 meters",
+          "we presume this to be beam divergence"
+        ],
+        "laser class and power are presumed"
+      ]
+    },
+
+    "sight_dispersion": 175,
+    "//aim_speed_modifier": 5,
+
+    "//power": {
+      "source": [["DL123A", "DL123A"]],
+      "lifetime": "??? h"
+    },
+
+    "price": "3500 USD"
+  }
+]
