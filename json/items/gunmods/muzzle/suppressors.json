@@ -434,5 +434,66 @@
     "handling_modifier": 12,
 
     "price": "1169 USD"
+  },
+  {
+    "id": "suppressor/kac/mk23",
+    "copy-from": "@muzzle/suppressor:no_cover",
+    "type": "GUNMOD",
+
+    "//sources": [
+      "https://www.impactguns.com/Suppressors/Knight-s-MK23-45-Caliber-Suppressor-819064014645-94368/",
+      [
+        "https://www.knightarmco.com/wp-content/uploads/2021/05/KAC-SRD-2013.pdf",
+        "weight"
+      ]
+    ],
+
+    "//notes": [
+      "we disable cover on this suppressor, despite it having appropriate length, because this is intended to be a pistol suppressor, and a cover mounted on it would disable sights",
+      "since we cannot target platforms separately in any way, we leave this suppressor uncoverable"
+    ],
+
+    "name": {
+      "str": "Mk23 suppressor"
+    },
+    "description": "A long pistol suppressor.  <muzzle/rating:9mm>  <muzzle/suppressor/mount:thread>  <muzzle/suppressor>",
+    "expand_snippets": true,
+
+    "variant_type": "gun",
+    "variants": [
+      {
+        "id": "black",
+
+        "name": {
+          "str": "KAC Mk23 suppressor"
+        },
+        "description": "A long pistol suppressor.  Designed for the Mk23 pistol, but can be threaded onto any .45 ACP barrel.  <muzzle/rating:9mm>  <muzzle/suppressor/mount:thread>  <variant:black>",
+        "expand_snippets": true,
+        "weight": 1
+      }
+    ],
+
+    "//weight": "15.4 oz = 436.58 g",
+    "weight": "437 g",
+    "//dimensions": {
+      "length": "7.5 in",
+      "diameter": "1.375 in",
+      "raw": "182.5 ml",
+      "trim": 0.025,
+      "notes": ["the lower-diameter collar is reflected in the trim value"]
+    },
+    "volume": "178 ml",
+    "longest_side": "191 mm",
+
+    "material": [{ "type": "stainless_steel" }],
+
+    "//rated_for": [".45 ACP"],
+
+    "//sound_mitigation": "-28 dB",
+    "loudness_modifier": -20,
+
+    "//consume_divisor": 960,
+
+    "price": "1608 USD 89 cent"
   }
 ]
