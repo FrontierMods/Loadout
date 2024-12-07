@@ -1,0 +1,56 @@
+[
+  {
+    "//changes": ["removed pistol stock from default mods"],
+
+    "id": "rm228",
+    "looks_like": "remington_870",
+    "type": "GUN",
+    "reload_noise_volume": 10,
+    "name": {
+      "str": "compact caseless shotgun"
+    },
+    "description": "Designed by Rivtech and designated the RM228 PDW, chambering the powerful 20x66mm caseless shotgun cartridge, this gun was designed for the civilian personal defense market with durability and ease of use as priorities.  While lauded for its small size and light weight, its hefty price tag kept it out of the reach of casual collectors.",
+    "variant_type": "gun",
+    "variants": [
+      {
+        "id": "rm228",
+        "name": {
+          "str": "RM228 PDW"
+        },
+        "description": "Chambering the powerful 20x66mm caseless shotgun cartridge, the Rivtech RM228 PDW was designed for the civilian personal defense market with durability and ease of use as priorities.  While lauded for its small size and light weight, its hefty price tag kept it out of the reach of casual collectors."
+      }
+    ],
+    "weight": "780 g",
+    "volume": "750 ml",
+    "longest_side": "165 mm",
+    "price": "3 kUSD 300 USD",
+    "price_postapoc": "100 USD",
+    "material": ["superalloy", "ceramic"],
+    "symbol": "(",
+    "color": "dark_gray",
+    "ammo": ["20x66mm"],
+    "skill": "pistol",
+    "dispersion": 400,
+    "durability": 9,
+    "valid_mod_locations": [
+      ["grip", 1],
+      ["mechanism", 2],
+      ["rail", 1],
+      ["sights", 1],
+      ["stock", 1],
+      ["stock accessory", 2],
+      ["underbarrel mount", 1]
+    ],
+    "flags": ["WATERPROOF_GUN", "NEVER_JAMS"],
+    "pocket_data": [
+      {
+        "magazine_well": "250 ml",
+        "pocket_type": "MAGAZINE_WELL",
+        "item_restriction": ["20x66_10_mag"]
+      }
+    ],
+    "melee_damage": {
+      "bash": 6
+    }
+  }
+]

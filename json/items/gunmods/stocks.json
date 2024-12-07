@@ -68,11 +68,7 @@
     "location": "stock",
     "//install_time": "a guess",
     "install_time": "2 m",
-    "//mod_targets": [
-      "let's pretend for a moment that the Rivtech gun has the same grip slot",
-      "removing the gun from the list would mean the stock won't be allowed to spawn attached to the gun"
-    ],
-    "mod_targets": ["glock_17", "glock_19", "glock_22", "glock_31", "rm228"],
+    "mod_targets": ["glock_17", "glock_19", "glock_22", "glock_31"],
     "add_mod": [
       ["rail mount", 1],
       ["underbarrel", 1],
