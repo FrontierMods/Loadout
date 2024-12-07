@@ -55,6 +55,7 @@
       "removed `suppressor`",
       "removed `suppressor_compact`",
       "removed `tail_hook_stock`",
+      "removed `light_grip`",
       "replaced `grip` with foregrip groups",
       "replaced `laser_sight` with laser sight groups",
       "removed `holo_sight`, `holo_magnifier`, `acog_scope`, and `pistol_scope` in favor of all sights group in `gunmod_common`"
@@ -64,7 +65,6 @@
       ["bipod", 20],
       ["wooden_grip", 1],
       ["waterproof_gunmod", 5],
-      ["light_grip", 50],
       ["pistol_stock", 10],
       ["butt_hook", 20],
       ["arredondo_chute", 20],
