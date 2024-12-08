@@ -84,6 +84,11 @@
     "replace": "sight/eotech/exps3"
   },
   {
+    "id": ["holo_magnifier"],
+    "type": "MIGRATION",
+    "replace": "magnifier/eotech/g33"
+  },
+  {
     "id": ["rifle_scope"],
     "type": "MIGRATION",
     "replace": "sight/eotech/vudu/1-6x"
