@@ -82,16 +82,17 @@
     "type": "item_group",
 
     "//changes": [
-      "removed `m203`: the model we use in Loadout currently is not milspec"
+      "removed `m203`: the model we use in Loadout currently is not milspec",
+      "replaced `holo_sight` (currently EOTech EXPS3) with EOTech 553: 553 is actually used by SOCOM and has trickled down to Army grunts eventually"
     ],
 
     "items": [
       ["acog_scope", 100],
-      ["holo_sight", 100],
       ["holo_magnifier", 80],
       ["m320_mod", 10],
       ["m26_mass", 35],
 
+      { "item": "sight/eotech/553", "prob": 100 },
       { "group": "sight/elcan/specterdr", "prob": 50 }
     ]
   },
