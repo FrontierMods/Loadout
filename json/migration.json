@@ -89,6 +89,11 @@
     "replace": "magnifier/eotech/g33"
   },
   {
+    "id": ["acog_scope"],
+    "type": "MIGRATION",
+    "replace": "sight/trijicon/ta01"
+  },
+  {
     "id": ["rifle_scope"],
     "type": "MIGRATION",
     "replace": "sight/eotech/vudu/1-6x"
