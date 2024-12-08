@@ -127,7 +127,7 @@
   {
     "id": ["rail_laser_sight"],
     "type": "MIGRATION",
-    "replace": "laser_sight/l3harris/atpial"
+    "replace": "laser_sight/l3harris/atpial-c"
   },
 
   {

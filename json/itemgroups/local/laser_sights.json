@@ -5,7 +5,7 @@
 
     "subtype": "distribution",
 
-    "items": ["laser_sight/l3harris/atpial", "laser_sight/steiner/dbal-a2"]
+    "items": ["laser_sight/l3harris/atpial-c", "laser_sight/steiner/dbal-a2"]
   },
   {
     "type": "item_group",

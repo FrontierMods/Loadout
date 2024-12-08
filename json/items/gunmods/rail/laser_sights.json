@@ -1,6 +1,6 @@
 [
   {
-    "id": "laser_sight/l3harris/atpial",
+    "id": "laser_sight/l3harris/atpial-c",
     "copy-from": "@laser_sight/rail",
     "type": "GUNMOD",
 
@@ -22,7 +22,7 @@
     "name": {
       "str": "reproduction red laser sight"
     },
-    "description": "A boxy laser sight that provides you with a way to aim reliably and quickly at short distances.  This model is the commercial counterpart of the laser sight employed in the U.S. armed forces.  <sight/laser:red>",
+    "description": "A boxy laser sight that provides you with a way to aim reliably and quickly at short distances.  This model is the commercial counterpart of the laser sight employed by the U.S. armed forces.  <sight/laser:red>",
     "expand_snippets": true,
 
     "variant_type": "gun",
@@ -33,7 +33,7 @@
         "name": {
           "str": "L3Harris ATPIAL-C red laser sight"
         },
-        "description": "A boxy laser sight that provides the shooter with a reliable and quick way to aim at shorter distances.  <sight/laser:red>  This model is the commercial counterpart of the AN/PEQ-15, used by the U.S. Army and Navy.  The commercial variant features a weaker, civilian-legal laser, which can be difficult to see during the day.  <variant:black>",
+        "description": "A boxy laser sight that provides the shooter with a reliable and quick way to aim at shorter distances.  <sight/laser:red>  This model is the commercial counterpart of the AN/PEQ-15, used by the U.S. Army and Navy.  The commercial variant, indicated by the C suffix, features a weaker, civilian-legal laser, which can be difficult to see during the day.  <variant:black>",
         "expand_snippets": true,
         "weight": 1
       },
@@ -43,7 +43,7 @@
         "name": {
           "str": "L3Harris ATPIAL-C red laser sight"
         },
-        "description": "A boxy laser sight that provides the shooter with a reliable and quick way to aim at shorter distances.  <sight/laser:red>  This model is the commercial counterpart of the AN/PEQ-15, used by the U.S. Army and Navy.  The commercial variant features a weaker, civilian-legal laser, which can be difficult to see during the day.  <variant:fde>",
+        "description": "A boxy laser sight that provides the shooter with a reliable and quick way to aim at shorter distances.  <sight/laser:red>  This model is the commercial counterpart of the AN/PEQ-15, used by the U.S. Army and Navy.  The commercial variant, indicated by the C suffix, features a weaker, civilian-legal laser, which can be difficult to see during the day.  <variant:fde>",
         "expand_snippets": true,
         "weight": 1
       }
