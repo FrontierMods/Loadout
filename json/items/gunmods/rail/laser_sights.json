@@ -90,6 +90,74 @@
     "price": "1787 USD"
   },
   {
+    "id": "laser_sight/l3harris/la-5b/peq",
+    "copy-from": "laser_sight/l3harris/atpial-c",
+    "type": "GUNMOD",
+
+    "//sources": [
+      "https://tnvc.com/shop/l3-insight-high-power-atpial-la-5bpeq/",
+      ["https://www.hcctac.com/products/atpial-la-5b-peq-high-power", "price"]
+    ],
+
+    "//notes": [
+      "we presume this model's dimensions are identical to those of AN/PEQ-15 aka ATPIAL-C",
+      "this model also features an IR illuminator"
+    ],
+
+    "name": {
+      "str": "military red laser sight"
+    },
+    "description": "A boxy laser sight that provides you with a way to aim reliably and quickly at short distances.  This model is the commercial counterpart of the laser sight employed in the U.S. armed forces.  <sight/laser:red>",
+    "expand_snippets": true,
+
+    "variant_type": "gun",
+    "variants": [
+      {
+        "id": "black",
+
+        "name": {
+          "str": "LA-5B/PEQ red laser sight"
+        },
+        "description": "A boxy laser sight that provides the shooter with a reliable and quick way to aim at shorter distances.  <sight/laser:red>  This model is a high-power illuminator version of the AN/PEQ-15 aka ATPIAL, used by the U.S. Army and Navy.  Successfully aiming for the target's head will likely blind it due to the high energy output of the laser.  <variant:black>",
+        "expand_snippets": true,
+        "weight": 1
+      },
+      {
+        "id": "fde",
+
+        "name": {
+          "str": "LA-5B/PEQ red laser sight"
+        },
+        "description": "A boxy laser sight that provides the shooter with a reliable and quick way to aim at shorter distances.  <sight/laser:red>  This model is a high-power illuminator version of the AN/PEQ-15 aka ATPIAL, used by the U.S. Army and Navy.  Successfully aiming for the target's head will likely blind it due to the high energy output of the laser.  <variant:fde>",
+        "expand_snippets": true,
+        "weight": 1
+      }
+    ],
+
+    "//laser": {
+      "class": "3B",
+      "power": "20 mW",
+      "divergence": "1.72 MOA",
+      "range": {
+        "day": "150 meters",
+        "night": "2000 meters"
+      }
+    },
+
+    "ammo_effects": ["BLINDS_EYES"],
+
+    "//power": {
+      "source": [["CR123"]],
+      "lifetime": "3 h",
+      "notes": [
+        "lifetime is given when running both visible and IR laser on high settings",
+        "CR123 is equivalent to the DL123 listed in specs in sources"
+      ]
+    },
+
+    "price": "2950 USD"
+  },
+  {
     "id": "laser_sight/steiner/dbal-a2",
     "copy-from": "@laser_sight/rail",
     "type": "GUNMOD",
