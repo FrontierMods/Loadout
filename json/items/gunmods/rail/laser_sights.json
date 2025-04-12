@@ -51,9 +51,8 @@
 
     "//weight": [
       "7.5 oz = 212.62 g",
-      "weight is stated to be with batteries",
-      "DL123 weighs 0.6 oz = 17.01 g",
-      "https://www.duracell.com/wp-content/uploads/2018/09/2018-September-DL123_0918-002.pdf",
+      "weight is stated to be with batteries (CR123)",
+      "see REFERENCE.md for battery weights",
       "unless togglable/draining lasers are implemented, we assume the battery is always in and always active"
     ],
     "weight": "213 g",
@@ -194,9 +193,8 @@
 
     "//weight": [
       "8 oz = 226.8 g",
-      "weight is stated to be with batteries",
-      "DL123 weighs 0.6 oz = 17.01 g",
-      "https://www.duracell.com/wp-content/uploads/2018/09/2018-September-DL123_0918-002.pdf",
+      "weight is stated to be with batteries (CR123)",
+      "see REFERENCE.md for battery weights",
       "unless togglable/draining lasers are implemented, we assume the battery is always in and always active"
     ],
     "weight": "227 g",
