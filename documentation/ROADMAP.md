@@ -29,7 +29,7 @@
   - [ ] SIG Sauer TANGO6T variable scope
   - [ ] Aimpoint CompM4 red dot sight
   - [ ] AN/PSQ-23 laser sight/rangefinder
-  - [ ] DBAL-A2 (aka AN/PEQ-15A) laser sight
+  - [x] DBAL-A2 (aka AN/PEQ-15A) laser sight
 
 ## Released
 
