@@ -229,5 +229,86 @@
     },
 
     "price": "2098 USD 99 cent"
+  },
+  {
+    "id": "laser_sight/l3harris/an/psq-23",
+    "copy-from": "@laser_sight/rail:large",
+    "type": "GUNMOD",
+
+    "//sources": [
+      "TC 3-22.9",
+      [
+        "https://willsoptics.com/product/an-psq-23-storm-pi-aiming-laser/",
+        "price"
+      ]
+    ],
+
+    "//notes": [
+      "these don't have a commercial counterpart, therefore each one is government-issue",
+      "intended to go on long-range weapons: DMRs, sniper rifles, mortars, MANPADs etc."
+    ],
+
+    "name": {
+      "str": "rangefinder laser sight"
+    },
+    "description": " TODO  <sight/laser:red>",
+    "expand_snippets": true,
+
+    "variant_type": "gun",
+    "variants": [
+      {
+        "id": "fde",
+
+        "name": {
+          "str": "AN/PSQ-23 STORM rangefinder"
+        },
+        "description": "An elongated rangefinder/laser sight combination device.  <sight/laser:red>  TODO  <variant:fde>",
+        "expand_snippets": true,
+        "weight": 1
+      }
+    ],
+
+    "//weight": [
+      "20.8 oz = 589.67 g",
+      "weight is stated to be with batteries (CR123 ×2)",
+      "see REFERENCE.md for battery weights",
+      "unless togglable/draining lasers are implemented, we assume the battery is always in and always active"
+    ],
+    "weight": "590 g",
+    "//dimensions": {
+      "length": "7.3 in",
+      "width": "3.5 in",
+      "height": "1.9 in",
+      "raw": "795.51 ml",
+      "trim": 0.075
+    },
+    "volume": "736 ml",
+    "longest_side": "185 mm",
+
+    "//laser": {
+      "class": "3B",
+      "power": "20 mW",
+      "divergence": "1.72 MOA",
+      "range": {
+        "day": "???"
+      },
+      "notes": [
+        "power, class, and range values are not readily available online",
+        "power and class assumed from the nearest military-issued sight, the ATPIAL"
+      ]
+    },
+
+    "ammo_effects": ["BLINDS_EYES"],
+
+    "sight_dispersion": 172,
+    "range_modifier": 2,
+
+    "//power": {
+      "source": [["CR123", "CR123"]],
+      "lifetime": "5.5 h",
+      "notes": ["lifetime is stated as minimum when running at maximum output"]
+    },
+
+    "price": "9 kUSD"
   }
 ]

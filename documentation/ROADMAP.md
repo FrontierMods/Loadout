@@ -28,7 +28,7 @@
 - [ ] **modern Army rifle attachments**
   - [ ] SIG Sauer TANGO6T variable scope
   - [ ] Aimpoint CompM4 red dot sight
-  - [ ] AN/PSQ-23 laser sight/rangefinder
+  - [x] AN/PSQ-23 laser sight/rangefinder
   - [x] DBAL-A2 (aka AN/PEQ-15A) laser sight
 
 ## Released
