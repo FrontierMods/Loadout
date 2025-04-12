@@ -30,7 +30,6 @@
   - [ ] Aimpoint CompM4 red dot sight
   - [ ] AN/PSQ-23 laser sight/rangefinder
   - [ ] DBAL-A2 (aka AN/PEQ-15A) laser sight
-  - [ ] L3Harris AN/PEQ-16 laser sight
 
 ## Released
 
