@@ -1,70 +1,67 @@
 [
   {
-    "type": "item_group",
     "id": "suppressors/direct",
+    "type": "item_group",
+    "subtype": "distribution",
 
     "//notes": ["suppressors that mount directly onto muzzle thread"],
 
-    "subtype": "distribution",
-
-    "items": ["suppressor/thunder_beast/fly_9"]
+    "entries": [{ "item": "suppressor/thunder_beast/fly_9" }]
   },
 
   {
-    "type": "item_group",
     "id": "muzzle_brakes",
+    "type": "item_group",
+    "subtype": "distribution",
 
     "//notes": ["only those which make sense outside of mounting solutions"],
 
-    "subtype": "distribution",
-
-    "items": ["muzzle_brake/surefire/socom"]
+    "entries": [{ "item": "muzzle_brake/surefire/socom" }]
   },
 
   {
-    "type": "item_group",
     "id": "flash_hiders",
-
+    "type": "item_group",
     "subtype": "distribution",
 
-    "items": ["flash_hider/colt/a2", "flash_hider/kac/m4qd"]
+    "entries": [
+      { "item": "flash_hider/colt/a2" },
+      { "item": "flash_hider/kac/m4qd" }
+    ]
   },
 
   {
-    "type": "item_group",
     "id": "chokes",
-
+    "type": "item_group",
     "subtype": "distribution",
 
-    "items": ["choke/mueller/passing"]
+    "entries": [{ "item": "choke/mueller/passing" }]
   },
 
   {
-    "type": "item_group",
     "id": "compensators",
-
+    "type": "item_group",
     "subtype": "distribution",
 
-    "items": ["compensator/mft/slim"]
+    "entries": [{ "item": "compensator/mft/slim" }]
   },
 
   {
-    "type": "item_group",
     "id": "muzzle_devices/all",
+    "type": "item_group",
+    "subtype": "collection",
 
     "//notes": [
       "for gun stores and other locations where you may see a variety of different attachments"
     ],
 
-    "subtype": "collection",
-
-    "groups": [
-      ["suppressors/qd", 60],
-      ["suppressors/direct", 50],
-      ["muzzle_brakes", 70],
-      ["flash_hiders", 40],
-      ["compensators", 40],
-      ["chokes", 30]
+    "entries": [
+      { "group": "suppressors/qd", "prob": 60 },
+      { "group": "suppressors/direct", "prob": 50 },
+      { "group": "muzzle_brakes", "prob": 70 },
+      { "group": "flash_hiders", "prob": 40 },
+      { "group": "compensators", "prob": 40 },
+      { "group": "chokes", "prob": 30 }
     ]
   }
 ]

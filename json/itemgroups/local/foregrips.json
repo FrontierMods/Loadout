@@ -1,51 +1,58 @@
 [
   {
-    "type": "item_group",
     "id": "foregrips/tiny",
-
+    "type": "item_group",
     "subtype": "distribution",
 
-    "items": ["foregrip/strike/bikini", "foregrip/impact/barrier"]
+    "entries": [
+      { "item": "foregrip/strike/bikini" },
+      { "item": "foregrip/impact/barrier" }
+    ]
   },
 
   {
-    "type": "item_group",
     "id": "foregrips/short",
-
+    "type": "item_group",
     "subtype": "distribution",
 
-    "items": ["foregrip/dd/tornado", "foregrip/magpul/rvg"]
+    "entries": [
+      { "item": "foregrip/dd/tornado" },
+      { "item": "foregrip/magpul/rvg" }
+    ]
   },
 
   {
-    "type": "item_group",
     "id": "foregrips/angled",
-
+    "type": "item_group",
     "subtype": "distribution",
 
-    "items": ["foregrip/magpul/afg2", "foregrip/f1/skeletonized"]
+    "entries": [
+      { "item": "foregrip/magpul/afg2" },
+      { "item": "foregrip/f1/skeletonized" }
+    ]
   },
 
   {
-    "type": "item_group",
     "id": "foregrips/tall",
-
+    "type": "item_group",
     "subtype": "distribution",
 
-    "items": ["foregrip/kac/vertical", "foregrip/mission_first/react"]
+    "entries": [
+      { "item": "foregrip/kac/vertical" },
+      { "item": "foregrip/mission_first/react" }
+    ]
   },
 
   {
-    "type": "item_group",
     "id": "foregrips/all",
-
+    "type": "item_group",
     "subtype": "distribution",
 
-    "groups": [
-      "foregrips/tiny",
-      "foregrips/short",
-      "foregrips/angled",
-      "foregrips/tall"
+    "entries": [
+      { "group": "foregrips/tiny" },
+      { "group": "foregrips/short" },
+      { "group": "foregrips/angled" },
+      { "group": "foregrips/tall" }
     ]
   }
 ]

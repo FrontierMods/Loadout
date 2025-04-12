@@ -9,16 +9,19 @@
     "type": "item_group",
     "subtype": "collection",
 
-    "items": ["sight/trijicon/rmr", ["sight_mount/rmr/trijicon/rm33", 90]]
+    "entries": [
+      { "item": "sight/trijicon/rmr" },
+      { "item": "sight_mount/rmr/trijicon/rm33", "prob": 90 }
+    ]
   },
   {
     "id": "sight/vortex/strikefire_ii",
     "type": "item_group",
     "subtype": "collection",
 
-    "items": [
-      "sight/vortex/strikefire_ii",
-      ["sight_mount/30mm/single/aero", 90]
+    "entries": [
+      { "item": "sight/vortex/strikefire_ii" },
+      { "item": "sight_mount/30mm/single/aero", "prob": 90 }
     ]
   },
   {
@@ -26,20 +29,29 @@
     "type": "item_group",
     "subtype": "collection",
 
-    "items": ["sight/aimpoint/compm2", ["sight_mount/30mm/single/aero", 90]]
+    "entries": [
+      { "item": "sight/aimpoint/compm2" },
+      { "item": "sight_mount/30mm/single/aero", "prob": 90 }
+    ]
   },
   {
     "id": "sight/trijicon/rx01",
     "type": "item_group",
     "subtype": "collection",
 
-    "items": ["sight/trijicon/rx01", ["sight_mount/rx01/trijicon/rx11", 90]]
+    "entries": [
+      { "item": "sight/trijicon/rx01" },
+      { "item": "sight_mount/rx01/trijicon/rx11", "prob": 90 }
+    ]
   },
   {
     "id": "sight/noblex/sight_ii",
     "type": "item_group",
     "subtype": "collection",
 
-    "items": ["sight/noblex/sight_ii", ["sight_mount/docter/trijicon/ms10", 90]]
+    "entries": [
+      { "item": "sight/noblex/sight_ii" },
+      { "item": "sight_mount/docter/trijicon/ms10", "prob": 90 }
+    ]
   }
 ]
