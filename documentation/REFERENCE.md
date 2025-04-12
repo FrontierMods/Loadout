@@ -22,3 +22,9 @@
   - reference device: <https://kakindustry.com/fal-combo-flash-hider/>
     - outer diameter: `0.862 in.` = `21.895 mm` ≈ `21.9 mm`
     - secondary confirmation on the nature of the device: <https://reddit.com/r/FNFAL/comments/11psof3/can_these_muzzle_devices_be_used_to_launch_rifle/>
+
+## Auxiliary Items
+
+### Batteries
+
+See [`REFERENCE.md`](https://github.com/FrontierMods/Core/blob/main/documentation/REFERENCE.md) over at [_Core_](https://github.com/FrontierMods/Core)
