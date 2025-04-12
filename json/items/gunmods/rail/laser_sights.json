@@ -1,7 +1,7 @@
 [
   {
     "id": "laser_sight/l3harris/atpial-c",
-    "copy-from": "@laser_sight/rail",
+    "copy-from": "@laser_sight/rail:large",
     "type": "GUNMOD",
 
     "//sources": [
