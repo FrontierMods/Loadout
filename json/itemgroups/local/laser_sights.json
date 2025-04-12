@@ -1,18 +1,23 @@
 [
   {
-    "type": "item_group",
     "id": "laser_sights/rail",
-
+    "type": "item_group",
     "subtype": "distribution",
 
-    "items": ["laser_sight/l3harris/atpial-c", "laser_sight/steiner/dbal-a2"]
+    "entries": [
+      { "item": "laser_sight/l3harris/atpial-c" },
+      { "item": "laser_sight/steiner/dbal-a2" },
+      { "item": "laser_sight/l3harris/an/psq-23" }
+    ]
   },
   {
-    "type": "item_group",
     "id": "laser_sights/bottom_rail",
-
+    "type": "item_group",
     "subtype": "distribution",
 
-    "items": ["laser_sight/steiner/tor_mini", "laser_sight/sightmark/readyfire"]
+    "entries": [
+      { "item": "laser_sight/steiner/tor_mini" },
+      { "item": "laser_sight/sightmark/readyfire" }
+    ]
   }
 ]

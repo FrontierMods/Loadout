@@ -4,7 +4,11 @@
     "type": "item_group",
     "subtype": "distribution",
 
-    "items": ["sight/vortex/uh1", "sight/eotech/exps3", "sight/eotech/553"]
+    "entries": [
+      { "item": "sight/vortex/uh1" },
+      { "item": "sight/eotech/exps3" },
+      { "item": "sight/eotech/553" }
+    ]
   },
 
   {
@@ -12,7 +16,7 @@
     "type": "item_group",
     "subtype": "distribution",
 
-    "items": ["sight/offset/magpul/mbus_pro"]
+    "entries": [{ "item": "sight/offset/magpul/mbus_pro" }]
   },
 
   {
@@ -20,10 +24,10 @@
     "type": "item_group",
     "subtype": "distribution",
 
-    "items": [
-      "magnifier/eotech/g33",
-      "magnifier/eotech/g43",
-      "magnifier/eotech/g45"
+    "entries": [
+      { "item": "magnifier/eotech/g33" },
+      { "item": "magnifier/eotech/g43" },
+      { "item": "magnifier/eotech/g45" }
     ]
   },
 
@@ -32,7 +36,7 @@
     "type": "item_group",
     "subtype": "distribution",
 
-    "items": ["sight/ncstar"]
+    "entries": [{ "item": "sight/ncstar" }]
   },
 
   {
@@ -40,12 +44,12 @@
     "type": "item_group",
     "subtype": "distribution",
 
-    "groups": [
-      "sight/trijicon/rmr",
-      "sight/vortex/strikefire_ii",
-      "sight/aimpoint/compm2",
-      "sight/trijicon/rx01",
-      "sight/noblex/sight_ii"
+    "entries": [
+      { "group": "sight/trijicon/rmr" },
+      { "group": "sight/vortex/strikefire_ii" },
+      { "group": "sight/aimpoint/compm2" },
+      { "group": "sight/trijicon/rx01" },
+      { "group": "sight/noblex/sight_ii" }
     ]
   },
 
@@ -65,7 +69,7 @@
     "type": "item_group",
     "subtype": "distribution",
 
-    "groups": ["sights/distribution/30mm"]
+    "entries": [{ "group": "sights/distribution/30mm" }]
   },
 
   {
@@ -77,9 +81,9 @@
       "for gun stores and other locations where you may see a variety of different attachments"
     ],
 
-    "groups": [
-      ["sights/reflex/mounted", 75],
-      ["sights/reflex/direct_mount", 25]
+    "entries": [
+      { "group": "sights/reflex/mounted", "prob": 75 },
+      { "group": "sights/reflex/direct_mount", "prob": 25 }
     ]
   },
 
@@ -96,7 +100,7 @@
       ]
     ],
 
-    "groups": [["sights/offset", 100]]
+    "entries": [{ "group": "sights/offset", "prob": 100 }]
   },
 
   {
@@ -109,12 +113,12 @@
       "for gun stores and other locations where you may see a variety of different attachments"
     ],
 
-    "groups": [
-      ["sights/magnifier", 16],
-      ["sights/reflex/all", 54],
-      ["sights/holographic", 28],
-      ["sights/optical/mounted", 18],
-      ["sights/optical/direct_mount", 12]
+    "entries": [
+      { "group": "sights/magnifier", "prob": 16 },
+      { "group": "sights/reflex/all", "prob": 54 },
+      { "group": "sights/holographic", "prob": 28 },
+      { "group": "sights/optical/mounted", "prob": 18 },
+      { "group": "sights/optical/direct_mount", "prob": 12 }
     ]
   },
 
@@ -128,9 +132,9 @@
       "for gun stores and other locations where you may see a variety of different attachments"
     ],
 
-    "groups": [
-      ["sights/iron/all", 5],
-      ["sights/enhanced/all", 95]
+    "entries": [
+      { "group": "sights/iron/all", "prob": 5 },
+      { "group": "sights/enhanced/all", "prob": 95 }
     ]
   }
 ]

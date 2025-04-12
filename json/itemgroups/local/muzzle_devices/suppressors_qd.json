@@ -7,46 +7,45 @@
 
     "id": "suppressor/socom556_rc2",
     "type": "item_group",
-
     "subtype": "collection",
 
-    "items": [
-      "suppressor/surefire/socom556_rc2",
-      ["muzzle_brake/surefire/socom", 90]
+    "entries": [
+      { "item": "suppressor/surefire/socom556_rc2" },
+      { "item": "muzzle_brake/surefire/socom", "prob": 90 }
     ]
   },
 
   {
     "id": "suppressor/dominus_sr",
     "type": "item_group",
-
     "subtype": "collection",
 
-    "items": [
-      "suppressor/thunder_beast/dominus_sr",
-      ["muzzle_brake/thunder_beast/sr", 90]
+    "entries": [
+      { "item": "suppressor/thunder_beast/dominus_sr" },
+      { "item": "muzzle_brake/thunder_beast/sr", "prob": 90 }
     ]
   },
 
   {
     "id": "suppressor/qdss",
     "type": "item_group",
-
     "subtype": "collection",
 
-    "items": ["suppressor/kac/qdss", ["flash_hider/kac/m4qd", 90]]
+    "entries": [
+      { "item": "suppressor/kac/qdss" },
+      { "item": "flash_hider/kac/m4qd", "prob": 90 }
+    ]
   },
 
   {
-    "type": "item_group",
     "id": "suppressors/qd",
-
+    "type": "item_group",
     "subtype": "distribution",
 
-    "groups": [
-      "suppressor/socom556_rc2",
-      "suppressor/dominus_sr",
-      "suppressor/qdss"
+    "entries": [
+      { "group": "suppressor/socom556_rc2" },
+      { "group": "suppressor/dominus_sr" },
+      { "group": "suppressor/qdss" }
     ]
   }
 ]
