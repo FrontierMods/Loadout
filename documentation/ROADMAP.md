@@ -24,7 +24,7 @@
   - replace others with streamlined versions
     - no more three-part compact suppressor
   - variantize each attachment
-    - this should allow players who aren't tacticool-savvy to enjoy Armory as well
+    - allow players who aren't tacticool-savvy to enjoy Armory as well
 - [ ] **modern Army rifle attachments**
   - [ ] SIG Sauer TANGO6T variable scope
   - [ ] Aimpoint CompM4 red dot sight
