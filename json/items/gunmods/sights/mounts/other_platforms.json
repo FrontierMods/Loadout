@@ -146,5 +146,55 @@
 
     "price": "106 USD",
     "price_postapoc": "50 cent"
+  },
+  {
+    "id": "sight_mount/comp4/aimpoint/lrp",
+    "copy-from": "@sight_mount/rifle",
+    "type": "GUNMOD",
+
+    "//sources": [
+      "https://www.aimpoint.com/products/lrp-mount-lever-release-picatinny-for-comp-m4-m4s/",
+      [
+        "https://aimpoint.us/aimpoint-lrp-lever-release-picatinny-modular-base-only/",
+        "price"
+      ]
+    ],
+
+    "name": {
+      "str": "quick-detach CompM4 mount"
+    },
+    "description": "A Picatinny mount for the modern military reflex sight.  Latches onto the rail with a level, making installation extremely fast and easy.",
+
+    "variant_type": "gun",
+    "variants": [
+      {
+        "id": "black",
+
+        "name": {
+          "str": "Aimpoint LRP mount"
+        },
+        "description": "A thin machined plate with holes for the CompM4-pattern sights from Aimpoint.  Uses a lever to latch onto the rail, making installing and uninstalling the mount very quick and easy.",
+        "weight": 1
+      }
+    ],
+
+    "//weight": "2.7 oz = 76.544 g",
+    "weight": "77 g",
+    "//dimensions": {
+      "length": "3.1 in",
+      "width": "1.9 in",
+      "height": "0.57 in",
+      "raw": "55.02 ml",
+      "trim": 0.15,
+      "notes": ["height acquired from visual reference"]
+    },
+    "volume": "47 ml",
+    "longest_side": "79 mm",
+
+    "add_mod": [["Comp4 mount", 1]],
+    "install_time": "5 s",
+
+    "price": "147 USD",
+    "price_postapoc": "50 cent"
   }
 ]
