@@ -251,7 +251,7 @@
     "name": {
       "str": "rangefinder laser sight"
     },
-    "description": " TODO  <sight/laser:red>",
+    "description": "An elongated rangefinder/laser sight combination device.  While cumbersome, it helps with landing precise shots at long ranges, while also providing a laser sight for close-range engagements.  <sight/laser:red>",
     "expand_snippets": true,
 
     "variant_type": "gun",
@@ -262,7 +262,7 @@
         "name": {
           "str": "AN/PSQ-23 STORM rangefinder"
         },
-        "description": "An elongated rangefinder/laser sight combination device.  <sight/laser:red>  TODO  <variant:fde>",
+        "description": "An elongated rangefinder/laser sight combination device.  <sight/laser:red>  The AN/PSQ-23 is used to accurately assess range to desired landing point of the projectile, including mortar shells and anti-aircraft missiles, and is often issued to snipers.  The embedded laser sight can also help landing hits at closer ranges, though there are probably better options on the postapocalyptic market for that.  The high power output of the laser can blind the target. s <variant:fde>",
         "expand_snippets": true,
         "weight": 1
       }
