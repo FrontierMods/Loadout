@@ -163,8 +163,22 @@
     "volume": "20 ml",
     "longest_side": "46 mm",
 
+    "//field_of_view": [
+      "https://www.trijicon.com/uploads/product-uploads/product-downloads/PML5014_Rev%280%29_Miniature_Red_Dot_Reticle_Comparison_FINAL.pdf",
+      "0.9 in. × 0.45 in., measured, by reference excluding the 'dome' above the flat vertical sides",
+      [
+        "assumes arm length of 74.615 cm = , as an average of male and female average arm lengths",
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC8843142/"
+      ],
+      [
+        "calculated from diagonal of the window",
+        "sqrt(0.9^2 + 0.45^2) ≈ 1 in. = 2.54 cm"
+      ],
+      "2 × arctan( 2.54 cm / ( 2 * 74.615 cm ) ) ≈ 0.034 rad = 117.01 MoA"
+    ],
+    "field_of_view": 117,
     "sight_dispersion": 325,
-    "//aim_speed_modifier": 11,
+    "aim_speed_modifier": 6,
 
     "location": "RMR mount",
 
