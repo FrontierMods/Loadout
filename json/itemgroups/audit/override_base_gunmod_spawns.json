@@ -73,7 +73,8 @@
       { "group": "foregrips/short", "prob": 40 },
       { "group": "foregrips/tiny", "prob": 30 },
 
-      { "group": "laser_sights/rail", "prob": 40 }
+      { "group": "laser_sights/rail:civilian", "prob": 40 },
+      { "group": "laser_sights/rail:military", "prob": 5 }
     ]
   },
 
@@ -84,7 +85,7 @@
     "//changes": [
       "removed `m203`: the model we use in Loadout currently is not milspec",
       "replaced `holo_sight` (currently EOTech EXPS3) with EOTech 553: 553 is actually used by SOCOM and has trickled down to Army grunts eventually",
-      "added LA-5B/PEQ, the restricted high-power counterpart to ATPIAL aka AN/PEQ-15"
+      "added military laser sights group"
     ],
 
     "items": [
@@ -93,7 +94,7 @@
       ["m320_mod", 10],
       ["m26_mass", 35],
 
-      { "item": "laser_sight/l3harris/la-5b/peq", "prob": 30 },
+      { "group": "laser_sights/rail:military", "prob": 30 },
       { "item": "sight/eotech/553", "prob": 100 },
       { "group": "sight/elcan/specterdr", "prob": 50 }
     ]
