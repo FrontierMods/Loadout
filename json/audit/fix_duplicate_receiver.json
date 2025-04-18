@@ -1,0 +1,47 @@
+[
+  {
+    "type": "GUN",
+    "id": "modular_m4_carbine",
+    "copy-from": "modular_m4_carbine",
+
+    "name": { "str": "M4 carbine" },
+
+    "variant_type": "gun",
+    "variants": [
+      {
+        "id": "modular_m4a1",
+
+        "name": { "str": "M4A1" },
+        "description": "A popular carbine, long used by the US military.  Though accurate, small, and lightweight, it is infamous for its unreliability when not properly maintained.",
+
+        "ascii_picture": "modular_m4a1",
+        "weight": 1
+      }
+    ]
+  },
+  {
+    "type": "GUN",
+    "id": "modular_mk18_cqbr",
+    "copy-from": "modular_m4_carbine",
+
+    "name": { "str": "CQBR carbine" },
+    "description": "This is a shorter M4 carbine with a 10.3 inch barrel, intended for confined spaces and close quarters battle situations.",
+
+    "variant_type": "gun",
+    "variants": [
+      {
+        "id": "modular_mk18_cqbr",
+        "name": { "str": "Mk 18 CQBR" },
+        "description": "This is a shorter M4 carbine with a 10.3 inch barrel, intended for confined spaces and close quarters battle situations.",
+        "ascii_picture": "modular_m4a1"
+      }
+    ],
+    "default_mods": ["retool_ar15_223rem_short"]
+  },
+  {
+    "id": "modular_m4_carbine",
+    "from_variant": "m4_cqbr",
+    "type": "MIGRATION",
+    "replace": "modular_mk18_cqbr"
+  }
+]
