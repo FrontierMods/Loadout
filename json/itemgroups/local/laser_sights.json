@@ -1,11 +1,33 @@
 [
   {
-    "id": "laser_sights/rail",
+    "id": "laser_sights/rail:all",
+    "type": "item_group",
+    "subtype": "distribution",
+
+    "entries": [
+      { "item": "laser_sight/l3harris/la-5b/peq" },
+      { "item": "laser_sight/l3harris/atpial-c" },
+      { "item": "laser_sight/steiner/dbal-a2" },
+      { "item": "laser_sight/l3harris/an/psq-23" }
+    ]
+  },
+  {
+    "id": "laser_sights/rail:civilian",
     "type": "item_group",
     "subtype": "distribution",
 
     "entries": [
       { "item": "laser_sight/l3harris/atpial-c" },
+      { "item": "laser_sight/steiner/dbal-a2" }
+    ]
+  },
+  {
+    "id": "laser_sights/rail:military",
+    "type": "item_group",
+    "subtype": "distribution",
+
+    "entries": [
+      { "item": "laser_sight/l3harris/la-5b/peq" },
       { "item": "laser_sight/steiner/dbal-a2" },
       { "item": "laser_sight/l3harris/an/psq-23" }
     ]
