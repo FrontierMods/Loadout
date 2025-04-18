@@ -35,6 +35,16 @@
     ]
   },
   {
+    "id": "sight/aimpoint/compm4",
+    "type": "item_group",
+    "subtype": "collection",
+
+    "entries": [
+      { "item": "sight/aimpoint/compm4" },
+      { "item": "sight_mount/comp4/aimpoint/lrp", "prob": 90 }
+    ]
+  },
+  {
     "id": "sight/trijicon/rx01",
     "type": "item_group",
     "subtype": "collection",

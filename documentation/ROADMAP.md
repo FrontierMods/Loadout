@@ -27,7 +27,7 @@
     - allow players who aren't tacticool-savvy to enjoy Armory as well
 - [ ] **modern Army rifle attachments**
   - [ ] SIG Sauer TANGO6T variable scope
-  - [ ] Aimpoint CompM4 red dot sight
+  - [x] Aimpoint CompM4 red dot sight
   - [x] AN/PSQ-23 laser sight/rangefinder
   - [x] DBAL-A2 (aka AN/PEQ-15A) laser sight
 

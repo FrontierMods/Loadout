@@ -405,5 +405,57 @@
     },
 
     "price": "485 USD"
+  },
+  {
+    "id": "sight/aimpoint/compm4",
+    "copy-from": "@sight/reflex",
+    "type": "GUNMOD",
+
+    "//sources": [
+      "https://www.aimpoint.com/products/comp-m4-2-moa-red-dot-reflex-sight-without-mount/",
+      ["https://aimpoint.us/compm4-no-mount-in-cardboard-box/", "price"]
+    ],
+
+    "name": {
+      "str": "modern military reflex sight"
+    },
+    "description": "A tubular reflex sight, actively issued to the military prior to the Cataclysm.  Its design makes it easier to aim over a single target, though reaiming is hampered.",
+
+    "variant_type": "gun",
+    "variants": [
+      {
+        "id": "black",
+
+        "name": {
+          "str": "Aimpoint CompM4 reflex sight"
+        },
+        "description": "A tubular reflex sight.  This model is the latest to hold the title of the M68 Close Combat Optic at the employ of the U.S. Army prior to Cataclysm.  Unlike its predecessor, the CompM2, it uses a flat Picatinny mount, no longer requiring a single 30 mm ring mount.  <variant:black>",
+        "expand_snippets": true,
+        "weight": 1
+      }
+    ],
+
+    "weight": "269 g",
+    "//dimensions": {
+      "length": "4.7 in",
+      "diameter": "2 in",
+      "raw": "241.96 ml",
+      "trim": -0.2,
+      "notes": ["trim value is for the battery compartment"]
+    },
+    "volume": "290 ml",
+    "longest_side": "119 mm",
+
+    "location": "CompM4 mount",
+
+    "sight_dispersion": 200,
+
+    "//power": {
+      "source": [["AA"]],
+      "lifetime": "80000 h"
+    },
+
+    "price": "979 USD",
+    "price_postapoc": "50 cent"
   }
 ]

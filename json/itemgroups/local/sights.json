@@ -48,6 +48,7 @@
       { "group": "sight/trijicon/rmr" },
       { "group": "sight/vortex/strikefire_ii" },
       { "group": "sight/aimpoint/compm2" },
+      { "group": "sight/aimpoint/compm4" },
       { "group": "sight/trijicon/rx01" },
       { "group": "sight/noblex/sight_ii" }
     ]
