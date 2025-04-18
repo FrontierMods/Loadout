@@ -1,8 +1,8 @@
 [
   {
     "//": [
-      "these are the suppressors that mount on a QD (quick detach) device, e.g. a muzzle brake or flash hider",
-      "QD devices in these groups are set to high, but not absolute, spawn chance, to emulate real-life situations where one is likely, but may not always, come with its required mount"
+      "suppressors that mount on a QD (quick detach) device, e.g. a muzzle brake or flash hider",
+      "QD devices set to high, but not absolute, spawn chance, to emulate real-life situations where one is likely, but may not always, come with its required mount"
     ],
 
     "id": "suppressor/socom556_rc2",
