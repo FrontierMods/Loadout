@@ -199,7 +199,7 @@
         "name": {
           "str": "Aimpoint CompM2 reflex sight"
         },
-        "description": "A modern, though still outdated, design of a reflex sight, formerly issued to special forces.  Its tubular design makes it easy to retain aim over a single target due to constrained field of view, the same factor that makes aiming at other targets more difficult.   <variant:black>",
+        "description": "A modern, though still outdated, design of a reflex sight, formerly issued to special forces.  Its tubular design makes it easy to retain aim over a single target due to constrained field of view, the same factor that makes aiming at other targets more difficult.  <variant:black>",
         "expand_snippets": true,
         "weight": 1
       }

@@ -1,8 +1,8 @@
 [
   {
     "//": [
-      "these are the red dot sights that are affixed to a specific mount",
-      "mounts in these groups are set to high, but not absolute, spawn chance, to emulate real-life situations where one is likely, but may not always, come with its required mount"
+      "red dot sights affixed to a specific mount",
+      "mounts in non-guaranteed are set to high, but not absolute, spawn chance, to emulate real-life situations where one is likely, but may not always, come with its required mount"
     ],
 
     "id": "sight/trijicon/rmr",
