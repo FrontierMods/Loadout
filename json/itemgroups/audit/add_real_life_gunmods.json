@@ -4,6 +4,18 @@
     "type": "item_group",
     "subtype": "collection",
 
+    "//sources": ["https://en.wikipedia.org/wiki/M27_Infantry_Automatic_Rifle"],
+
+    "//TODO": [
+      [
+        "use Trijicon VCOG when available",
+        "https://www.trijicon.com/products/details/vc16-c-1600000",
+        "VCOGs (aka Squad Common Optic, SCO) were often issued with M38",
+        "ACOG and VCOG use the same mounting solution",
+        "VCOG even comes with ACOG's TA51 mount"
+      ]
+    ],
+
     "entries": [
       { "item": "flash_hider/kac/m4qd" },
       { "item": "suppressor/kac/qdss" },
