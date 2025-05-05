@@ -53,6 +53,22 @@
       { "group": "sight/noblex/sight_ii" }
     ]
   },
+  {
+    "id": "sights/reflex/mounted:definitely",
+    "type": "item_group",
+    "subtype": "distribution",
+
+    "//": "for use with item-group-spawn kitted guns",
+
+    "entries": [
+      { "group": "sight/trijicon/rmr:definitely" },
+      { "group": "sight/vortex/strikefire_ii:definitely" },
+      { "group": "sight/aimpoint/compm2:definitely" },
+      { "group": "sight/aimpoint/compm4:definitely" },
+      { "group": "sight/trijicon/rx01:definitely" },
+      { "group": "sight/noblex/sight_ii:definitely" }
+    ]
+  },
 
   {
     "id": "sights/optical/direct_mount",
