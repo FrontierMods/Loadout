@@ -18,7 +18,7 @@
 
 ### v2.0
 
-- [ ] **overhaul contents of the mod**
+- [x] **overhaul contents of the mod**
   - remove some of the gunmods
     - primarily those with overlapping domains or effects that are too similar
   - replace others with streamlined versions
