@@ -689,5 +689,162 @@
       "menu_text": "Demagnify",
       "msg": "You turn the scope's zoom all the way down."
     }
+  },
+
+  {
+    "id": "sight/sig/tango6t/1-6x",
+    "copy-from": "@sight/30mm",
+    "type": "GUNMOD",
+
+    "//sources": [
+      "https://www.sigsauer.com/tango6t-1-6x24-mm.html",
+      ["https://www.optics-trade.eu/en/sig-sauer-tango6-1-6x24.html", "length"],
+      [
+        "https://www.sigsauer.com/tango6t-scope-1-6x24mm-30mm-ffp-dwlr-556-illuminated-reticle-0-2-mrad-capped-turret-fde-dvo-optic-only.html",
+        "price"
+      ],
+      [
+        "https://www.sigsauer.com/media/sigsauer/resources/20SIG3114_TANGO6_Manual_7401308_R04.pdf",
+        "sight dispersion"
+      ]
+    ],
+
+    "//notes": [
+      "the HELLFIRE MOA Milling reticle model",
+      "comes with a throw level in the box it's sold or delivered in",
+      "very bright reticle"
+    ],
+
+    "name": {
+      "str": "Army 30mm variable scope"
+    },
+    "description": "A modern, high-performance variable scope for short to medium ranges.  This one had been adopted by the U.S. Army prior to Cataclysm.  <sight/optical/magnification:low>",
+    "expand_snippets": true,
+
+    "variant_type": "gun",
+    "variants": [
+      {
+        "id": "fde",
+
+        "name": {
+          "str": "SIG Sauer TANGO6T 1-6×24 30mm scope"
+        },
+        "description": "A modern variable scope, adopted by the U.S. Army for the marksman roles prior to Cataclysm. High-quality construction and solid sighting performance are reflected in its excessive pre-collapse price.  <variant:fde>  <sight/optical/magnification:low>",
+        "expand_snippets": true,
+        "weight": 8
+      },
+      {
+        "id": "black",
+
+        "name": {
+          "str": "SIG Sauer TANGO6T 1-6×24 30mm scope"
+        },
+        "description": "A modern variable scope, adopted by the U.S. Army for the marksman roles prior to Cataclysm. High-quality construction and solid sighting performance are reflected in its excessive pre-collapse price.  <variant:black>  <sight/optical/magnification:low>",
+        "expand_snippets": true,
+        "weight": 1
+      }
+    ],
+
+    "//weight": "20.9 oz = 592.51 g",
+    "weight": "593 g",
+    "//dimensions": [
+      {
+        "description": "main tube",
+
+        "length": "173 mm",
+        "diameter": "30 mm",
+        "raw": "122.29 ml",
+        "trim": -0.125,
+        "result": "137.58 ml",
+        "notes": [
+          "the adjustment knobs' volume is reflected in the negative trim value"
+        ]
+      },
+      {
+        "description": "eyepiece",
+
+        "length": "109 mm",
+        "diameter": "1.81 in",
+        "raw": "180.94 ml",
+        "trim": 0,
+        "result": "180.94 ml",
+        "notes": [
+          "we assume that the volumes of the zoom wheel and the negative space roughly even out, ultimately"
+        ]
+      }
+    ],
+    "volume": "319 ml",
+    "longest_side": "282 mm",
+
+    "//field_of_view": "106.7 ft @ 100 yds @ 1× magnification = 1210 MOA",
+    "field_of_view": 1210,
+    "//sight_dispersion": "0.6 MOA",
+    "sight_dispersion": 60,
+    "//aim_speed_modifier": 0,
+
+    "//power": {
+      "source": [["CR2032"]],
+      "lifetime": "150 h"
+    },
+
+    "use_action": {
+      "type": "transform",
+      "target": "sight/sig/tango6t/1-6x:magnified",
+      "moves": 230,
+
+      "menu_text": "Magnify",
+      "msg": "You turn the scope's zoom all the way up."
+    },
+
+    "price": "2199 USD 99 cent"
+  },
+  {
+    "id": "sight/sig/tango6t/1-6x:magnified",
+    "copy-from": "sight/sig/tango6t/1-6x",
+    "type": "GUNMOD",
+
+    "name": {
+      "str": "Army 30mm variable scope (magnified)",
+      "str_pl": "Army 30mm variable scopes (magnified)"
+    },
+    "description": "A modern, high-performance variable scope for short to medium ranges.  This one had been adopted by the U.S. Army prior to Cataclysm.  <sight/optical/magnification:high>",
+
+    "variant_type": "gun",
+    "variants": [
+      {
+        "id": "fde",
+
+        "name": {
+          "str": "SIG Sauer TANGO6T 1-6×24 30mm scope (magnified)",
+          "str_pl": "SIG Sauer TANGO6T 1-6×24 30mm scopes (magnified)"
+        },
+        "description": "A modern variable scope, adopted by the U.S. Army for the marksman roles prior to Cataclysm. High-quality construction and solid sighting performance are reflected in its excessive pre-collapse price.  <variant:black>  <sight/optical/magnification:low>",
+        "expand_snippets": true,
+        "weight": 8
+      },
+      {
+        "id": "black",
+
+        "name": {
+          "str": "SIG Sauer TANGO6T 1-6×24 30mm scope (magnified)",
+          "str_pl": "SIG Sauer TANGO6T 1-6×24 30mm scopes (magnified)"
+        },
+        "description": "A modern variable scope, adopted by the U.S. Army for the marksman roles prior to Cataclysm. High-quality construction and solid sighting performance are reflected in its excessive pre-collapse price.  <variant:black>  <sight/optical/magnification:high>",
+        "expand_snippets": true,
+        "weight": 1
+      }
+    ],
+
+    "//field_of_view": "17.7 ft @ 100 yds @ 6× magnification = 202.77 MOA",
+    "field_of_view": 203,
+
+    "use_action": {
+      "type": "transform",
+      "target": "sight/sig/tango6t/1-6x",
+      "moves": 230,
+
+      "menu_text": "Demagnify",
+      "msg": "You turn the scope's zoom all the way down."
+    }
   }
 ]

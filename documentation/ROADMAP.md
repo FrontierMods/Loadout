@@ -25,8 +25,8 @@
     - no more three-part compact suppressor
   - variantize each attachment
     - allow players who aren't tacticool-savvy to enjoy Armory as well
-- [ ] **modern Army rifle attachments**
-  - [ ] SIG Sauer TANGO6T variable scope
+- [x] **modern Army rifle attachments**
+  - [x] SIG Sauer TANGO6T variable scope
   - [x] Aimpoint CompM4 red dot sight
   - [x] AN/PSQ-23 laser sight/rangefinder
   - [x] DBAL-A2 (aka AN/PEQ-15A) laser sight

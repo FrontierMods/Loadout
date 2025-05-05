@@ -19,7 +19,8 @@
     "entries": [
       { "item": "sight/eotech/vudu/1-6x", "prob": 53 },
       { "item": "sight/vortex/viper_pst/1-6x", "prob": 30 },
-      { "item": "sight/leupold/mark_4", "prob": 17 }
+      { "item": "sight/leupold/mark_4", "prob": 17 },
+      { "item": "sight/sig/tango6t/1-6x", "prob": 1 }
     ]
   },
   {
