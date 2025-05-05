@@ -29,7 +29,7 @@ This also applies to things like gunmod slots: relying on base-game slots makes 
 There are dozens, if not hundreds, of items in any given class (e.g. angled grips, variable-magnification scopes), each performing slightly differently than the other. However, adding every one of them is going to be:
 
 1. **time-consuming**: for some models of items, it takes a lot of time to ascertain certain properties, most often physical dimensions
-2. **memory-intensive**: the game must hold these items in memory, potentially bloating safe files
+2. **memory-intensive**: the game must hold these items in memory, potentially bloating save files
 3. **confusing to players**: having too many items to remember, consider, or carry around will be a burden in a game already throwing a lot of knowledge-based survival at the player
 
 Therefore, quality (distinctive properties of an item) should be prioritized over quantity (sheer number of items). In other words: having fewer items that are distinct from each other within their class is preferable to having more items that offer gradual performance difference.
