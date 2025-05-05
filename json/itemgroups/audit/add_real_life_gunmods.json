@@ -38,21 +38,75 @@
     ]
   },
   {
+    "id": "muzzle_devices/cqbr",
+    "type": "item_group",
+    "subtype": "distribution",
+
+    "//TODO": [
+      [
+        "use SOCOM 4-prong flash hider when available",
+        "https://www.surefire.com/socom-4-prong-flash-hider/",
+        "4-prong flash hiders were the muzzle device that was issued with the CQBR"
+      ]
+    ],
+
+    "entries": [
+      {
+        "collection": [
+          { "item": "muzzle_brake/surefire/socom" },
+          { "item": "suppressor/surefire/socom556_rc2" }
+        ]
+      },
+      { "item": "muzzle_brake/surefire/socom" },
+      { "item": "flash_hider/colt/a2" }
+    ]
+  },
+  {
+    "id": "foregrips/cqbr",
+    "type": "item_group",
+    "subtype": "distribution",
+
+    "//sources": ["https://clonerifles.com/cqbrblockii/"],
+
+    "//TODO": ["Tango Down stubby foregrip"],
+
+    "entries": [
+      { "item": "foregrip/kac/vertical" },
+      { "item": "foregrip/magpul/afg2" }
+    ]
+  },
+  {
+    "id": "laser_sights/cqbr",
+    "type": "item_group",
+    "subtype": "distribution",
+
+    "//sources": ["https://clonerifles.com/cqbrblockii/"],
+
+    "//TODO": [
+      ["MIPIM aka AN/PEQ-16", "apparently used in limited quantities"]
+    ],
+
+    "entries": [
+      { "item": "laser_sight/l3harris/atpial-c" },
+      { "item": "laser_sight/l3harris/la-5b/peq" }
+    ]
+  },
+  {
     "id": "m4_cqbr",
     "type": "item_group",
     "subtype": "collection",
 
+    "//TODO": ["use rail covers", "use flashlights"],
+
     "entries": [
       {
-        "item": "modular_m4_carbine",
-        "variant": "m4_cqbr",
-        "contents-item": [
-          "pistol_grip",
-          "retool_ar15_223rem_short",
-          "adjustable_stock",
-
-          "muzzle_brake/surefire/socom",
-          "suppressor/surefire/socom556_rc2"
+        "item": "modular_mk18_cqbr",
+        "contents-item": ["pistol_grip", "adjustable_stock"],
+        "contents-group": [
+          "muzzle_devices/cqbr",
+          "sights/reflex/mounted:definitely",
+          "foregrips/cqbr",
+          "laser_sights/cqbr"
         ]
       }
     ]
