@@ -110,5 +110,72 @@
         ]
       }
     ]
+  },
+
+  {
+    "id": "m2010",
+    "type": "item_group",
+    "subtype": "collection",
+
+    "//sources": [
+      "https://charliescustomclones.com/remington-defense-xm2010-enhanced-sniper-rifle-racs-deployment-kit-demo/"
+    ],
+
+    "//notes": [
+      "sight is supposed to be Mark 4 6.5×20, but we don't have that in Loadout and, unless reality bubble diameter increases dramatically, never will",
+      "the original scope is mounted onto a pair of rings, but we don't have those yet"
+    ],
+
+    "//TODO": ["refactor sight + mount spawn to be a single group"],
+
+    "entries": [
+      {
+        "item": "m2010",
+        "contents-item": [
+          "bipod/harris/s-l2p",
+
+          "sight_mount/30mm/aero",
+          "sight/leupold/mark_4"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "m110a1",
+    "type": "item_group",
+    "subtype": "collection",
+
+    "//sources": [
+      "https://www.hkpro.com/threads/m110a1-csass-sdmr-build-list-answered-in-edited-post.564570/",
+      "https://en.wikipedia.org/wiki/M110A1_rifle",
+      ["KAC MAN-00011", "M110 manual"]
+    ],
+
+    "//notes": [
+      "muzzle brake is supposed to be OSS QD 7.62mm 5/8×24",
+      "suppressor is supposed to be OSS SRM6",
+      [
+        "bipod was Harris S-LM (aka LM-S) on M110 aka Mk 11",
+        "a reasonable approximation in price, appearance, and functionality would be Harris S-BRM"
+      ],
+      "CSASS variant has Schmidt & Bender 3–20×50 PM II Ultra Short scope instead of SDMR's TANGO6T",
+      "uses lots of Geissele parts, including the optics mount"
+    ],
+
+    "//TODO": ["refactor sight + mount spawn to be a single group"],
+
+    "entries": [
+      {
+        "item": "m110a1",
+        "contents-item": [
+          "bipod/harris/s-l2p",
+          "muzzle_brake/thunder_beast/sr",
+          "suppressor/thunder_beast/dominus_sr",
+
+          "sight_mount/30mm/aero",
+          "sight/sig/tango6t/1-6x"
+        ]
+      }
+    ]
   }
 ]
