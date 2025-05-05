@@ -202,6 +202,7 @@
     "use_action": {
       "type": "transform",
       "target": "sight/leupold/mark_4:magnified",
+      "moves": 230,
 
       "menu_text": "Magnify",
       "msg": "You turn the scope's zoom all the way up."
@@ -259,6 +260,7 @@
     "use_action": {
       "type": "transform",
       "target": "sight/leupold/mark_4",
+      "moves": 230,
 
       "menu_text": "Demagnify",
       "msg": "You turn the scope's zoom all the way down."
@@ -363,6 +365,7 @@
     "use_action": {
       "type": "transform",
       "target": "sight/elcan/specterdr/legacy:magnified",
+      "moves": 230,
 
       "menu_text": "Magnify",
       "msg": "You turn the scope's zoom all the way up."
@@ -405,6 +408,7 @@
     "use_action": {
       "type": "transform",
       "target": "sight/elcan/specterdr/legacy",
+      "moves": 230,
 
       "menu_text": "Demagnify",
       "msg": "You turn the scope's zoom all the way down."
@@ -502,6 +506,7 @@
     "use_action": {
       "type": "transform",
       "target": "sight/eotech/vudu/1-6x:magnified",
+      "moves": 230,
 
       "menu_text": "Magnify",
       "msg": "You turn the scope's zoom all the way up."
@@ -544,6 +549,7 @@
     "use_action": {
       "type": "transform",
       "target": "sight/eotech/vudu/1-6x",
+      "moves": 230,
 
       "menu_text": "Demagnify",
       "msg": "You turn the scope's zoom all the way down."
@@ -636,6 +642,7 @@
     "use_action": {
       "type": "transform",
       "target": "sight/vortex/viper_pst/1-6x:magnified",
+      "moves": 230,
 
       "menu_text": "Magnify",
       "msg": "You turn the scope's zoom all the way up."
@@ -677,6 +684,7 @@
     "use_action": {
       "type": "transform",
       "target": "sight/vortex/viper_pst/1-6x",
+      "moves": 230,
 
       "menu_text": "Demagnify",
       "msg": "You turn the scope's zoom all the way down."
