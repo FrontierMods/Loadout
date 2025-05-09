@@ -42,14 +42,6 @@
     "type": "item_group",
     "subtype": "distribution",
 
-    "//TODO": [
-      [
-        "use SOCOM 4-prong flash hider when available",
-        "https://www.surefire.com/socom-4-prong-flash-hider/",
-        "4-prong flash hiders were the muzzle device that was issued with the CQBR"
-      ]
-    ],
-
     "entries": [
       {
         "collection": [
@@ -57,8 +49,17 @@
           { "item": "suppressor/surefire/socom556_rc2" }
         ]
       },
+      {
+        "collection": [
+          { "item": "flash_hider/surefire/4_prong" },
+          { "item": "suppressor/surefire/socom556_rc2" }
+        ]
+      },
+
       { "item": "muzzle_brake/surefire/socom" },
-      { "item": "flash_hider/colt/a2" }
+
+      { "item": "flash_hider/colt/a2" },
+      { "item": "flash_hider/surefire/4_prong" }
     ]
   },
   {
@@ -123,7 +124,18 @@
 
     "//notes": [
       "sight is supposed to be Mark 4 6.5×20, but we don't have that in Loadout and, unless reality bubble diameter increases dramatically, never will",
-      "the original scope is mounted onto a pair of rings, but we don't have those yet"
+      "the original scope is mounted onto a pair of rings, but we don't have those yet",
+      [
+        "M2010 uses AAC Titan QD suppressor mounted atop AAC Blackout 90-tooth flash hider",
+        "https://advanced-armament.com/shop/silencers/precision/titan-qd-fde/",
+        "https://advanced-armament.com/shop/accessories/flash-hiders/blackout-flash-hider-90t/",
+        [
+          "https://www.joeboboutfitters.com/AAC-BLACKOUT-FH-51T-1-2X28-5-56MM-p/aac-64141.htm",
+          "length (2.5 in., closer to the bottom of the list) and weight of the same flash hider in 51-tooth variant",
+          "they should have the same stats"
+        ],
+        "we have neither at the moment"
+      ]
     ],
 
     "//TODO": ["refactor sight + mount spawn to be a single group"],
@@ -133,6 +145,9 @@
         "item": "m2010",
         "contents-item": [
           "bipod/harris/s-l2p",
+
+          "flash_hider/surefire/4_prong",
+          "suppressor/surefire/socom556_rc2",
 
           "sight_mount/30mm/aero",
           "sight/leupold/mark_4"
