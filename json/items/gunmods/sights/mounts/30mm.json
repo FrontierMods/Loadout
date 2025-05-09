@@ -44,5 +44,63 @@
     "longest_side": "121 mm",
 
     "price": "115 USD"
+  },
+  {
+    "id": "sight_mount/30mm/sig/alpha4",
+    "copy-from": "@sight_mount/30mm",
+    "type": "GUNMOD",
+
+    "//sources": [
+      [
+        "https://www.amazon.co.jp/-/en/Evolution-Ultralight-Diameter-Anodized-Aluminum/dp/B0BBZCFZFF",
+        "dimensions"
+      ],
+      [
+        "https://www.americanrifleman.org/content/review-sig-sauer-tango6t-and-alpha4-mount/",
+        "weight reference"
+      ],
+      ["https://www.sigsauer.com/alpha3-scope-mounts.html", "price reference"]
+    ],
+
+    "name": {
+      "str": "Army 30mm scope mount"
+    },
+    "description": "A single-piece mount with two rings set far apart, accomodating a single 30mm scope. ",
+
+    "variant_type": "gun",
+    "variants": [
+      {
+        "//": "Alpha4 appears to not have a black counterpart, likely because it's not sold on the market",
+        "id": "fde",
+
+        "name": {
+          "str": "SIG Sauer Alpha4 30mm scope mount"
+        },
+        "description": "A single-piece 30mm scope mount.  This model accompanies the SIG Sauer TANGO6T sight, in use with the U.S. Army before prior to the Cataclysm.  <variant:fde>",
+        "expand_snippets": true,
+        "weight": 1
+      }
+    ],
+
+    "//weight": "27.9 oz (scope + mount) - 22.1 oz (scope) = 5.8 oz ≈ 164 g",
+    "weight": "164 g",
+    "//dimensions": {
+      "length": "119 mm",
+      "width": "47 mm",
+      "height": "62 mm",
+      "raw": "346.77 ml",
+      "trim": 0.7
+    },
+    "volume": "104 ml",
+    "longest_side": "125 mm",
+
+    "//price": [
+      "we use the price of the Alpha3 mount, since it's a similar mount that's available on the market, unlike the Alpha4",
+      [
+        "it's also what TANGO6T is portrayed with in the sight's manual",
+        "https://www.sigsauer.com/media/sigsauer/resources/20SIG3114_TANGO6_Manual_7401308_R04.pdf"
+      ]
+    ],
+    "price": "229 USD"
   }
 ]

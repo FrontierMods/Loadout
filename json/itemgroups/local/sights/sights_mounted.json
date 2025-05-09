@@ -1,7 +1,7 @@
 [
   {
     "//": [
-      "red dot sights affixed to a specific mount",
+      "sights affixed to a specific mount",
       "mounts in non-guaranteed are set to high, but not absolute, spawn chance, to emulate real-life situations where one is likely, but may not always, come with its required mount"
     ],
 
@@ -122,6 +122,18 @@
     "entries": [
       { "item": "sight_mount/docter/trijicon/ms10" },
       { "item": "sight/noblex/sight_ii" }
+    ]
+  },
+
+  {
+    "//": "this group doesn't need a randomized variant because the Alpha4 mount is unlikely to ever surface in a private collection, on accounts of both being current (still rare) military issue and not being available on the aftermarket",
+    "id": "sight/sig/tango6t/1-6x:definitely",
+    "type": "item_group",
+    "subtype": "collection",
+
+    "entries": [
+      { "item": "sight_mount/30mm/sig/alpha4" },
+      { "item": "sight/sig/tango6t/1-6x" }
     ]
   }
 ]
