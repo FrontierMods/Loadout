@@ -19,7 +19,7 @@
     "name": {
       "str": "birdcage flash hider"
     },
-    "description": "A steel flash hider that attaches at the muzzle.  A standard muzzle device for U.S. military rifles.",
+    "description": "A steel flash hider that attaches at the muzzle.  A standard muzzle device for U.S. military rifles.  Aids handling slightly.",
 
     "variant_type": "gun",
     "variants": [
@@ -92,7 +92,7 @@
     "name": {
       "str": "army flash hider"
     },
-    "description": "A steel flash hider that attaches at the muzzle.  Primarily serves as a mounting point for the army suppressor.",
+    "description": "A steel flash hider that attaches at the muzzle.  Aids handling slightly.  Serves as a mounting point for the army suppressor.",
 
     "variant_type": "gun",
     "variants": [
