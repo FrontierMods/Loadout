@@ -94,7 +94,7 @@
       {
         "id": "black",
 
-        "name": { "str": "two-point Vickers sling" },
+        "name": { "str": "Vickers two-point sling" },
         "description": "A nylon strap with plastic furniture.  This model is the standard issue with the U.S. Marines.  <variant:black>",
         "expand_snippets": true,
         "weight": 1
@@ -102,7 +102,7 @@
       {
         "id": "fde",
 
-        "name": { "str": "two-point Vickers sling" },
+        "name": { "str": "Vickers two-point sling" },
         "description": "A nylon strap with plastic furniture.  This model is the standard issue with the U.S. Marines.  <variant:fde>",
         "expand_snippets": true,
         "weight": 1
@@ -179,8 +179,8 @@
         "id": "black",
 
         "name": {
-          "str": "two-point Vickers sling (front)",
-          "str_pl": "two-point Vickers slings (front)"
+          "str": "Vickers two-point sling (front)",
+          "str_pl": "Vickers two-point slings (front)"
         },
         "description": "A nylon strap with plastic furniture.  This model is the standard issue with the U.S. Marines.  <variant:black>  <sling/position:front>",
         "expand_snippets": true,
@@ -190,8 +190,8 @@
         "id": "fde",
 
         "name": {
-          "str": "two-point Vickers sling (front)",
-          "str_pl": "two-point Vickers slings (front)"
+          "str": "Vickers two-point sling (front)",
+          "str_pl": "Vickers two-point slings (front)"
         },
         "description": "A nylon strap with plastic furniture.  This model is the standard issue with the U.S. Marines.  <variant:fde>  <sling/position:front>",
         "expand_snippets": true,
