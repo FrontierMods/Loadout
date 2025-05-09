@@ -58,7 +58,7 @@
     "type": "item_group",
     "subtype": "distribution",
 
-    "//": "for use with item-group-spawn kitted guns",
+    "//": "for use with item-group-spawn kitted guns where sights must spawn with their respective mounts",
 
     "entries": [
       { "group": "sight/trijicon/rmr:definitely" },
