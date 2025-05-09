@@ -10,8 +10,8 @@
     "subtype": "collection",
 
     "entries": [
-      { "item": "sight/trijicon/rmr" },
-      { "item": "sight_mount/rmr/trijicon/rm33", "prob": 90 }
+      { "item": "sight_mount/rmr/trijicon/rm33", "prob": 90 },
+      { "item": "sight/trijicon/rmr" }
     ]
   },
   {
@@ -20,8 +20,8 @@
     "subtype": "collection",
 
     "entries": [
-      { "item": "sight/trijicon/rmr" },
-      { "item": "sight_mount/rmr/trijicon/rm33" }
+      { "item": "sight_mount/rmr/trijicon/rm33" },
+      { "item": "sight/trijicon/rmr" }
     ]
   },
   {
@@ -30,8 +30,8 @@
     "subtype": "collection",
 
     "entries": [
-      { "item": "sight/vortex/strikefire_ii" },
-      { "item": "sight_mount/30mm/single/aero", "prob": 90 }
+      { "item": "sight_mount/30mm/single/aero", "prob": 90 },
+      { "item": "sight/vortex/strikefire_ii" }
     ]
   },
   {
@@ -40,8 +40,8 @@
     "subtype": "collection",
 
     "entries": [
-      { "item": "sight/vortex/strikefire_ii" },
-      { "item": "sight_mount/30mm/single/aero" }
+      { "item": "sight_mount/30mm/single/aero" },
+      { "item": "sight/vortex/strikefire_ii" }
     ]
   },
   {
@@ -50,8 +50,8 @@
     "subtype": "collection",
 
     "entries": [
-      { "item": "sight/aimpoint/compm2" },
-      { "item": "sight_mount/30mm/single/aero", "prob": 90 }
+      { "item": "sight_mount/30mm/single/aero", "prob": 90 },
+      { "item": "sight/aimpoint/compm2" }
     ]
   },
   {
@@ -60,8 +60,8 @@
     "subtype": "collection",
 
     "entries": [
-      { "item": "sight/aimpoint/compm2" },
-      { "item": "sight_mount/30mm/single/aero" }
+      { "item": "sight_mount/30mm/single/aero" },
+      { "item": "sight/aimpoint/compm2" }
     ]
   },
   {
@@ -70,8 +70,8 @@
     "subtype": "collection",
 
     "entries": [
-      { "item": "sight/aimpoint/compm4" },
-      { "item": "sight_mount/comp4/aimpoint/lrp", "prob": 90 }
+      { "item": "sight_mount/comp4/aimpoint/lrp", "prob": 90 },
+      { "item": "sight/aimpoint/compm4" }
     ]
   },
   {
@@ -80,8 +80,8 @@
     "subtype": "collection",
 
     "entries": [
-      { "item": "sight/aimpoint/compm4" },
-      { "item": "sight_mount/comp4/aimpoint/lrp" }
+      { "item": "sight_mount/comp4/aimpoint/lrp" },
+      { "item": "sight/aimpoint/compm4" }
     ]
   },
   {
@@ -90,8 +90,8 @@
     "subtype": "collection",
 
     "entries": [
-      { "item": "sight/trijicon/rx01" },
-      { "item": "sight_mount/rx01/trijicon/rx11", "prob": 90 }
+      { "item": "sight_mount/rx01/trijicon/rx11", "prob": 90 },
+      { "item": "sight/trijicon/rx01" }
     ]
   },
   {
@@ -100,8 +100,8 @@
     "subtype": "collection",
 
     "entries": [
-      { "item": "sight/trijicon/rx01" },
-      { "item": "sight_mount/rx01/trijicon/rx11" }
+      { "item": "sight_mount/rx01/trijicon/rx11" },
+      { "item": "sight/trijicon/rx01" }
     ]
   },
   {
@@ -110,8 +110,8 @@
     "subtype": "collection",
 
     "entries": [
-      { "item": "sight/noblex/sight_ii" },
-      { "item": "sight_mount/docter/trijicon/ms10", "prob": 90 }
+      { "item": "sight_mount/docter/trijicon/ms10", "prob": 90 },
+      { "item": "sight/noblex/sight_ii" }
     ]
   },
   {
@@ -120,8 +120,8 @@
     "subtype": "collection",
 
     "entries": [
-      { "item": "sight/noblex/sight_ii" },
-      { "item": "sight_mount/docter/trijicon/ms10" }
+      { "item": "sight_mount/docter/trijicon/ms10" },
+      { "item": "sight/noblex/sight_ii" }
     ]
   }
 ]
