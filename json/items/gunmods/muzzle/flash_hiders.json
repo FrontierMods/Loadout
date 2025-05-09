@@ -132,5 +132,56 @@
     "add_mod": [["KAC QD muzzle mount", 1]],
 
     "price": "114 USD 35 cent"
+  },
+  {
+    "id": "flash_hider/surefire/4_prong",
+    "copy-from": "@muzzle/flash_hider",
+    "type": "GUNMOD",
+
+    "//sources": ["https://www.surefire.com/socom-4-prong-flash-hider/"],
+
+    "name": {
+      "str": "SOCOM flash hider"
+    },
+    "description": "A steel four-pronged flash hider that attaches at the muzzle.  Aids handling slightly.  Serves as a mounting point for the army suppressor.",
+
+    "variant_type": "gun",
+    "variants": [
+      {
+        "id": "steel",
+
+        "name": {
+          "str": "SureFire 4-prong flash hider"
+        },
+        "description": "A steel four-pronged flash hider, aka FH556RC, that mounts onto the threading at the muzzle.  While its primary function is to reduce muzzle flash, this model also serves as a mount for SureFire suppressors.  <variant:steel>",
+        "expand_snippets": true,
+        "weight": 1
+      }
+    ],
+
+    "//weight": "3.9 oz = 110.56 g",
+    "weight": "111 g",
+    "//dimensions": {
+      "length": "2.6 in",
+      "diameter": "21.9 mm",
+      "raw": "24.88 ml",
+      "trim": 0.075
+    },
+    "volume": "23 ml",
+    "longest_side": "66 mm",
+    "//integral_longest_side": "absorbs 16 mm of regular threading on a 1/2 in. × 24-threaded barrel",
+    "integral_longest_side": "50 mm",
+
+    "//calibers": ["556"],
+    "//threads": ["1/2″ x 28"],
+
+    "//handling_modifier": [
+      "we presume that, like the A2 birdcage, this flash hider has a compensator effect to it",
+      "the value for the modifier is copied from the A2, given their similar patterns of upwards gas redirection"
+    ],
+    "handling_modifier": 3,
+    "add_mod": [["SureFire muzzle mount", 1]],
+
+    "price": "199 USD"
   }
 ]
