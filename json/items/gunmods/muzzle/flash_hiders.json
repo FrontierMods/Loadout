@@ -24,12 +24,12 @@
     "variant_type": "gun",
     "variants": [
       {
-        "id": "black",
+        "id": "steel",
 
         "name": {
           "str": "Colt A2 flash hider"
         },
-        "description": "A steel flash hider that mounts onto the threading at the muzzle.  Its primary function is to reduce muzzle flash.  This is the baseline muzzle device for Army-issued AR-15-platform rifles.  <variant:black>",
+        "description": "A steel flash hider that mounts onto the threading at the muzzle.  Its primary function is to reduce muzzle flash.  This is the baseline muzzle device for Army-issued AR-15-platform rifles.  <variant:steel>",
         "expand_snippets": true,
         "weight": 1
       }
