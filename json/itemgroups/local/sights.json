@@ -40,9 +40,25 @@
   },
 
   {
+    "id": "sights/reflex/mounted:maybe",
+    "type": "item_group",
+    "subtype": "distribution",
+
+    "entries": [
+      { "group": "sight/trijicon/rmr:maybe" },
+      { "group": "sight/vortex/strikefire_ii:maybe" },
+      { "group": "sight/aimpoint/compm2:maybe" },
+      { "group": "sight/aimpoint/compm4:maybe" },
+      { "group": "sight/trijicon/rx01:maybe" },
+      { "group": "sight/noblex/sight_ii:maybe" }
+    ]
+  },
+  {
     "id": "sights/reflex/mounted",
     "type": "item_group",
     "subtype": "distribution",
+
+    "//": "for use with item-group-spawn kitted guns where sights must spawn with their respective mounts",
 
     "entries": [
       { "group": "sight/trijicon/rmr" },
@@ -51,22 +67,6 @@
       { "group": "sight/aimpoint/compm4" },
       { "group": "sight/trijicon/rx01" },
       { "group": "sight/noblex/sight_ii" }
-    ]
-  },
-  {
-    "id": "sights/reflex/mounted:definitely",
-    "type": "item_group",
-    "subtype": "distribution",
-
-    "//": "for use with item-group-spawn kitted guns where sights must spawn with their respective mounts",
-
-    "entries": [
-      { "group": "sight/trijicon/rmr:definitely" },
-      { "group": "sight/vortex/strikefire_ii:definitely" },
-      { "group": "sight/aimpoint/compm2:definitely" },
-      { "group": "sight/aimpoint/compm4:definitely" },
-      { "group": "sight/trijicon/rx01:definitely" },
-      { "group": "sight/noblex/sight_ii:definitely" }
     ]
   },
 
@@ -99,7 +99,7 @@
     ],
 
     "entries": [
-      { "group": "sights/reflex/mounted", "prob": 75 },
+      { "group": "sights/reflex/mounted:maybe", "prob": 75 },
       { "group": "sights/reflex/direct_mount", "prob": 25 }
     ]
   },
@@ -134,7 +134,7 @@
       { "group": "sights/magnifiers", "prob": 16 },
       { "group": "sights/reflex/all", "prob": 54 },
       { "group": "sights/holographic", "prob": 28 },
-      { "group": "sights/optical/mounted", "prob": 18 },
+      { "group": "sights/optical/mounted:maybe", "prob": 18 },
       { "group": "sights/optical/direct_mount", "prob": 12 }
     ]
   },

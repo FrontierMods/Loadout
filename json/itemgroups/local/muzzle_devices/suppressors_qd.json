@@ -5,7 +5,7 @@
       "QD devices set to high, but not absolute, spawn chance, to emulate real-life situations where one is likely, but may not always, come with its required mount"
     ],
 
-    "id": "suppressor/socom556_rc2",
+    "id": "suppressor/socom556_rc2:maybe",
     "type": "item_group",
     "subtype": "collection",
 
@@ -15,7 +15,7 @@
     ]
   },
   {
-    "id": "suppressor/socom556_rc2:definitely",
+    "id": "suppressor/socom556_rc2",
     "type": "item_group",
     "subtype": "collection",
 
@@ -26,7 +26,7 @@
   },
 
   {
-    "id": "suppressor/dominus_sr",
+    "id": "suppressor/dominus_sr:maybe",
     "type": "item_group",
     "subtype": "collection",
 
@@ -36,7 +36,7 @@
     ]
   },
   {
-    "id": "suppressor/dominus_sr:definitely",
+    "id": "suppressor/dominus_sr",
     "type": "item_group",
     "subtype": "collection",
 
@@ -47,7 +47,7 @@
   },
 
   {
-    "id": "suppressor/qdss",
+    "id": "suppressor/qdss:maybe",
     "type": "item_group",
     "subtype": "collection",
 
@@ -57,7 +57,7 @@
     ]
   },
   {
-    "id": "suppressor/qdss:definitely",
+    "id": "suppressor/qdss",
     "type": "item_group",
     "subtype": "collection",
 
@@ -76,6 +76,17 @@
       { "group": "suppressor/socom556_rc2" },
       { "group": "suppressor/dominus_sr" },
       { "group": "suppressor/qdss" }
+    ]
+  },
+  {
+    "id": "suppressors/qd:maybe",
+    "type": "item_group",
+    "subtype": "distribution",
+
+    "entries": [
+      { "group": "suppressor/socom556_rc2:maybe" },
+      { "group": "suppressor/dominus_sr:maybe" },
+      { "group": "suppressor/qdss:maybe" }
     ]
   }
 ]

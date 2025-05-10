@@ -56,7 +56,7 @@
     ],
 
     "entries": [
-      { "group": "suppressors/qd", "prob": 60 },
+      { "group": "suppressors/qd:maybe", "prob": 60 },
       { "group": "suppressors/direct", "prob": 50 },
       { "group": "muzzle_brakes", "prob": 70 },
       { "group": "flash_hiders", "prob": 40 },
