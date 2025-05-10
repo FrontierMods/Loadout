@@ -134,7 +134,7 @@
       { "group": "sights/magnifiers", "prob": 16 },
       { "group": "sights/reflex/all", "prob": 54 },
       { "group": "sights/holographic", "prob": 28 },
-      { "group": "sights/optical/mounted:maybe", "prob": 18 },
+      { "group": "sights/optical/mounted", "prob": 18 },
       { "group": "sights/optical/direct_mount", "prob": 12 }
     ]
   },
