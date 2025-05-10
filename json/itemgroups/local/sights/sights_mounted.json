@@ -5,7 +5,7 @@
       "mounts in non-guaranteed are set to high, but not absolute, spawn chance, to emulate real-life situations where one is likely, but may not always, come with its required mount"
     ],
 
-    "id": "sight/trijicon/rmr",
+    "id": "sight/trijicon/rmr:maybe",
     "type": "item_group",
     "subtype": "collection",
 
@@ -15,7 +15,7 @@
     ]
   },
   {
-    "id": "sight/trijicon/rmr:definitely",
+    "id": "sight/trijicon/rmr",
     "type": "item_group",
     "subtype": "collection",
 
@@ -25,7 +25,7 @@
     ]
   },
   {
-    "id": "sight/vortex/strikefire_ii",
+    "id": "sight/vortex/strikefire_ii:maybe",
     "type": "item_group",
     "subtype": "collection",
 
@@ -35,13 +35,23 @@
     ]
   },
   {
-    "id": "sight/vortex/strikefire_ii:definitely",
+    "id": "sight/vortex/strikefire_ii",
     "type": "item_group",
     "subtype": "collection",
 
     "entries": [
       { "item": "sight_mount/30mm/single/aero" },
       { "item": "sight/vortex/strikefire_ii" }
+    ]
+  },
+  {
+    "id": "sight/aimpoint/compm2:maybe",
+    "type": "item_group",
+    "subtype": "collection",
+
+    "entries": [
+      { "item": "sight_mount/30mm/single/aero", "prob": 90 },
+      { "item": "sight/aimpoint/compm2" }
     ]
   },
   {
@@ -50,22 +60,12 @@
     "subtype": "collection",
 
     "entries": [
-      { "item": "sight_mount/30mm/single/aero", "prob": 90 },
-      { "item": "sight/aimpoint/compm2" }
-    ]
-  },
-  {
-    "id": "sight/aimpoint/compm2:definitely",
-    "type": "item_group",
-    "subtype": "collection",
-
-    "entries": [
       { "item": "sight_mount/30mm/single/aero" },
       { "item": "sight/aimpoint/compm2" }
     ]
   },
   {
-    "id": "sight/aimpoint/compm4",
+    "id": "sight/aimpoint/compm4:maybe",
     "type": "item_group",
     "subtype": "collection",
 
@@ -75,7 +75,7 @@
     ]
   },
   {
-    "id": "sight/aimpoint/compm4:definitely",
+    "id": "sight/aimpoint/compm4",
     "type": "item_group",
     "subtype": "collection",
 
@@ -85,7 +85,7 @@
     ]
   },
   {
-    "id": "sight/trijicon/rx01",
+    "id": "sight/trijicon/rx01:maybe",
     "type": "item_group",
     "subtype": "collection",
 
@@ -95,7 +95,7 @@
     ]
   },
   {
-    "id": "sight/trijicon/rx01:definitely",
+    "id": "sight/trijicon/rx01",
     "type": "item_group",
     "subtype": "collection",
 
@@ -105,7 +105,7 @@
     ]
   },
   {
-    "id": "sight/noblex/sight_ii",
+    "id": "sight/noblex/sight_ii:maybe",
     "type": "item_group",
     "subtype": "collection",
 
@@ -115,7 +115,7 @@
     ]
   },
   {
-    "id": "sight/noblex/sight_ii:definitely",
+    "id": "sight/noblex/sight_ii",
     "type": "item_group",
     "subtype": "collection",
 
@@ -127,7 +127,7 @@
 
   {
     "//": "this group doesn't need a randomized variant because the Alpha4 mount is unlikely to ever surface in a private collection, on accounts of both being current (still rare) military issue and not being available on the aftermarket",
-    "id": "sight/sig/tango6t/1-6x:definitely",
+    "id": "sight/sig/tango6t/1-6x",
     "type": "item_group",
     "subtype": "collection",
 
