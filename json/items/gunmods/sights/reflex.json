@@ -96,7 +96,7 @@
   },
   {
     "id": "sight/trijicon/rmr",
-    "copy-from": "@sight/reflex",
+    "copy-from": "@sight/reflex:no_magnifier",
     "type": "GUNMOD",
 
     "//sources": ["https://www.trijicon.com/products/details/rm06-c-700672"],
@@ -181,6 +181,7 @@
     "aim_speed_modifier": 6,
 
     "location": "RMR mount",
+    "//add_mod": "RMR cannot have a magnifier in Loadout because of the potential issues with it being mounted over an ACOG",
 
     "//power": {
       "source": [["CR2032"]],
