@@ -1,7 +1,7 @@
 [
   {
-    "type": "recipe",
     "result": "brass_catcher/improvised",
+    "type": "recipe",
 
     "//notes": [
       "does pretty much what the Loadout `brass_catcher` does, except it has to attach at two points because it doesn't have a hinge",
@@ -38,8 +38,8 @@
   },
 
   {
-    "type": "recipe",
     "result": "sling/improvised",
+    "type": "recipe",
 
     "category": "CC_WEAPON",
     "subcategory": "CSC_WEAPON_MODS",
