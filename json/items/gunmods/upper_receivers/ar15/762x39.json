@@ -63,7 +63,8 @@
       ["underbarrel mount", 1],
       ["rail mount", 1],
       ["rail", 1],
-      ["muzzle", 1]
+      ["muzzle", 1],
+      ["sights", 1]
     ],
 
     "price": "369 USD 99 cent"
