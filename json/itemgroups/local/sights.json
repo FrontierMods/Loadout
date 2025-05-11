@@ -75,10 +75,7 @@
     "type": "item_group",
     "subtype": "distribution",
 
-    "entries": [
-      { "item": "sight/trijicon/ta01" },
-      { "group": "sight/elcan/specterdr" }
-    ]
+    "entries": [{ "group": "sight/elcan/specterdr" }]
   },
 
   {
@@ -86,7 +83,10 @@
     "type": "item_group",
     "subtype": "distribution",
 
-    "entries": [{ "group": "sights/distribution/30mm" }]
+    "entries": [
+      { "group": "sight/trijicon/ta01" },
+      { "group": "sights/distribution/30mm" }
+    ]
   },
 
   {
