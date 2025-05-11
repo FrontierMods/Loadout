@@ -36,7 +36,10 @@
         "prob": 70
       },
       {
-        "distribution": [{ "item": "laser_sight/l3harris/la-5b/peq" }],
+        "distribution": [
+          { "item": "laser_sight/l3harris/la-5b/peq" },
+          { "item": "laser_sight/steiner/dbal-a2" }
+        ],
         "prob": 50
       }
     ]
