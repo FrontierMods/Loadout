@@ -1,0 +1,152 @@
+[
+  {
+    "id": "longguns_cop/ar15",
+    "type": "item_group",
+    "subtype": "distribution",
+
+    "entries": [
+      {
+        "group": "modular_ar15",
+        "charges": [0, 30],
+        "contents-item": ["shoulder_strap", "flash_hider/colt/a2"],
+        "contents-group": "longguns_cop/kit/ar15"
+      }
+    ]
+  },
+
+  {
+    "id": "longguns_cop/kit/ar15/sights",
+    "type": "item_group",
+    "subtype": "distribution",
+
+    "entries": [
+      { "group": "sights/reflex/mounted", "prob": 100 },
+      { "group": "sights/holographic", "prob": 50 },
+      {
+        "collection": [
+          { "group": "sights/reflex/mounted" },
+          { "group": "sights/magnifiers", "prob": 30 }
+        ],
+        "prob": 50
+      },
+      {
+        "collection": [
+          { "group": "sights/holographic" },
+          { "group": "sights/magnifiers", "prob": 30 }
+        ],
+        "prob": 10
+      }
+    ]
+  },
+  {
+    "id": "longguns_cop/kit/ar15/foregrips",
+    "type": "item_group",
+    "subtype": "collection",
+
+    "//": [
+      "since all of the AR-15 uppers are now M-LOK-only, the police AR-15 must spawn with a Picatinny mount"
+    ],
+
+    "entries": [
+      { "item": "mount/underbarrel/magpul" },
+      {
+        "distribution": [
+          { "group": "foregrips/tiny", "prob": 7 },
+          { "group": "foregrips/short", "prob": 57 },
+          { "group": "foregrips/angled", "prob": 34 },
+          { "group": "foregrips/tall", "prob": 13 }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "longguns_cop/kit/ar15",
+    "type": "item_group",
+    "subtype": "collection",
+
+    "entries": [
+      { "group": "longguns_cop/kit/ar15/sights", "prob": 50 },
+      { "group": "longguns_cop/kit/ar15/foregrips", "prob": 50 }
+    ]
+  },
+
+  {
+    "id": "longguns_cop",
+    "type": "item_group",
+
+    "items": [
+      {
+        "group": "longguns_cop/ar15",
+        "prob": 20
+      },
+      {
+        "item": "mossberg_500",
+        "prob": 10,
+        "charges": [0, 6],
+        "contents-item": "shoulder_strap"
+      },
+      {
+        "item": "remington_700",
+        "prob": 5,
+        "charges": [0, 4],
+        "contents-item": "shoulder_strap"
+      },
+      {
+        "item": "remington_870",
+        "prob": 10,
+        "charges": [0, 5],
+        "contents-item": "shoulder_strap"
+      }
+    ]
+  },
+  {
+    "id": "longguns_cop_in_field",
+    "type": "item_group",
+
+    "items": [
+      {
+        "collection": [
+          { "group": "longguns_cop/ar15" },
+          { "group": "field_ar15" }
+        ],
+        "prob": 20
+      },
+      {
+        "collection": [
+          {
+            "item": "mossberg_500",
+            "prob": 100,
+            "charges": [0, 6],
+            "contents-item": "shoulder_strap"
+          },
+          { "group": "field_shotgun" }
+        ],
+        "prob": 10
+      },
+      {
+        "collection": [
+          {
+            "item": "remington_700",
+            "prob": 100,
+            "charges": [0, 4],
+            "contents-item": "shoulder_strap"
+          },
+          { "group": "field_3006" }
+        ],
+        "prob": 5
+      },
+      {
+        "collection": [
+          {
+            "item": "remington_870",
+            "prob": 100,
+            "charges": [0, 5],
+            "contents-item": "shoulder_strap"
+          },
+          { "group": "field_shotgun" }
+        ],
+        "prob": 10
+      }
+    ]
+  }
+]
