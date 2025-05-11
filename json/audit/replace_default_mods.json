@@ -1,15 +1,14 @@
 [
   {
-    "//changes": [
-      "replace hybrid 4x sight with an ACOG and an RMR mounted atop it"
-    ],
-
     "id": "robofac_gun",
     "copy-from": "robofac_gun",
     "type": "GUN",
 
     "name": { "str": "Hub 01 HWP" },
 
+    "//default_mods": [
+      "replace hybrid 4x sight with an ACOG and an RMR mounted atop it"
+    ],
     "default_mods": [
       "robofac_handguard",
       "robofac_laser_sight",
@@ -26,5 +25,94 @@
     "type": "GUN",
     "name": { "str": "M110A1" },
     "default_mods": []
+  },
+  {
+    "id": "modular_m16_auto_rifle",
+    "copy-from": "modular_m16_auto_rifle",
+    "type": "GUN",
+    "name": {
+      "str": "M16 auto rifle"
+    },
+    "variant_type": "gun",
+    "variants": [
+      {
+        "id": "modular_m16a3",
+        "name": {
+          "str": "M16A3"
+        },
+        "description": "The M16 is a very common assault rifle descended from the AR-15, used by militaries across the world for over 50 years.  It is a gas-operated, rotating bolt rifle known for its accuracy and controllable recoil.  This one is a relatively rare M16A3, with full auto capability."
+      },
+      {
+        "id": "modular_acr",
+        "name": {
+          "str": "Remington ACR"
+        },
+        "description": "This carbine was developed for military use in the early 21st century.  It is damaging and accurate, though its rate of fire is a bit slower than competing carbines."
+      }
+    ],
+    "//default_mods": [
+      "removed `adjustable_stock`: the M16A3 has a fixed stock"
+    ],
+    "default_mods": ["upper_receiver/ar15/556/20in/colt/m16a3"]
+  },
+  {
+    "id": "modular_m16a4",
+    "copy-from": "modular_m16a4",
+    "type": "GUN",
+    "name": {
+      "str": "M16 burst rifle"
+    },
+    "variant_type": "gun",
+    "variants": [
+      {
+        "id": "modular_m16a4",
+        "name": {
+          "str": "M16A4"
+        },
+        "description": "The M16 is a very common assault rifle descended from the AR-15, used by militaries across the world for over 50 years.  It is a gas-operated, rotating bolt rifle known for its accuracy and controllable recoil."
+      }
+    ],
+    "//default_mods": [
+      "removed `adjustable_stock`: the M16A4 has a fixed stock"
+    ],
+    "default_mods": ["upper_receiver/ar15/556/20in/colt/m16a4"]
+  },
+  {
+    "id": "modular_m27_assault_rifle",
+    "copy-from": "modular_m27_assault_rifle",
+    "type": "GUN",
+    "name": {
+      "str": "M27 assault rifle"
+    },
+    "variant_type": "gun",
+    "variants": [
+      {
+        "id": "modular_h&k416a5",
+        "name": {
+          "str": "H&K416 A5"
+        },
+        "description": "Designed to replace the M4A1, the Heckler and Koch 416A5 features most of the former's strengths, while being considerably more durable."
+      },
+      {
+        "id": "modular_m27iar",
+        "name": {
+          "str": "M27 IAR"
+        },
+        "description": "A H&K416 carbine outfitted with a heavier barrel to enable higher amounts of suppressive fire while retaining a good degree of mobility.",
+        "ascii_picture": "m27_iar"
+      },
+      {
+        "id": "modular_m38dmr",
+        "name": {
+          "str": "M38 DMR"
+        },
+        "description": "The M38 Designated Marksman Rifle is an M27 IAR, itself derived from a H&K416, selected for accuracy, and outfitted with a variable power scope and a QDSS suppressor."
+      }
+    ],
+    "//default_mods": [
+      "this is clearly not the right upper for this gun, but in the absence of any information about the real one, this will have to do",
+      "H&K has a 16.5-in. upper under the label of MR556, some models of which have Picatinny railing"
+    ],
+    "default_mods": ["upper_receiver/ar15/556/16in/aero/mod_4"]
   }
 ]
