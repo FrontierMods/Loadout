@@ -328,7 +328,8 @@
       ["bayonet lug", 1],
       ["underbarrel", 1],
       ["rail", 3],
-      ["muzzle", 1]
+      ["muzzle", 1],
+      ["sights", 1]
     ],
 
     "price": "899 USD"
@@ -398,7 +399,8 @@
       ["brass catcher", 1],
       ["underbarrel", 1],
       ["rail", 3],
-      ["muzzle", 1]
+      ["muzzle", 1],
+      ["sights", 1]
     ],
 
     "price": "1686 USD"
