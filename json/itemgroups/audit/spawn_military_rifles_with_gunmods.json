@@ -1,0 +1,214 @@
+[
+  {
+    "id": "mods/m4a1",
+    "type": "item_group",
+    "subtype": "collection",
+
+    "entries": [
+      {
+        "distribution": [
+          { "item": "flash_hider/colt/a2", "prob": 50 },
+          { "item": "flash_hider/kac/m4qd", "prob": 20 },
+          { "item": "flash_hider/surefire/4_prong", "prob": 20 },
+
+          {
+            "collection": [
+              { "item": "flash_hider/kac/m4qd" },
+              { "item": "suppressor/kac/qdss" }
+            ],
+            "prob": 10
+          },
+          {
+            "collection": [
+              { "item": "flash_hider/surefire/4_prong" },
+              { "item": "suppressor/surefire/socom556_rc2" }
+            ],
+            "prob": 10
+          }
+        ]
+      },
+      {
+        "distribution": [
+          { "item": "foregrip/kac/vertical" },
+          { "item": "foregrip/dd/tornado" },
+          { "item": "foregrip/magpul/rvg" }
+        ],
+        "prob": 70
+      },
+      {
+        "distribution": [{ "item": "laser_sight/l3harris/la-5b/peq" }],
+        "prob": 50
+      }
+    ]
+  },
+  {
+    "id": "mods/m4a1/sighted",
+    "type": "item_group",
+    "subtype": "distribution",
+
+    "entries": [
+      { "item": "sight/iron/carry_handle" },
+      {
+        "//TODO": "Add VCOG when it becomes available",
+        "collection": [
+          {
+            "distribution": [
+              { "item": "sight/eotech/553" },
+              { "item": "sight/eotech/exps3" },
+              { "group": "sight/aimpoint/compm2" },
+              { "group": "sight/aimpoint/compm4" }
+            ]
+          },
+          { "item": "magnifier/eotech/g33", "prob": 45 }
+        ]
+      },
+      { "group": "sight/trijicon/ta01" },
+      { "group": "sight/elcan/specterdr" }
+    ]
+  },
+  {
+    "id": "mods/m27iar",
+    "type": "item_group",
+    "subtype": "collection",
+
+    "//": [
+      "see also",
+      "https://www.marines.mil/News/Messages/Messages-Display/Article/1151682/authorized-individual-weapons-optics-modular-attachments-and-modifications-for/"
+    ],
+
+    "entries": [
+      {
+        "distribution": [
+          { "item": "flash_hider/colt/a2", "prob": 50 },
+          { "item": "flash_hider/kac/m4qd", "prob": 20 },
+
+          {
+            "collection": [
+              { "item": "flash_hider/kac/m4qd" },
+              { "item": "suppressor/kac/qdss" }
+            ],
+            "prob": 10
+          }
+        ]
+      },
+      {
+        "distribution": [
+          { "item": "foregrip/kac/vertical" },
+          { "item": "foregrip/dd/tornado" },
+          { "item": "foregrip/magpul/rvg" }
+        ]
+      },
+      {
+        "distribution": [{ "item": "laser_sight/l3harris/la-5b/peq" }],
+        "prob": 50
+      }
+    ]
+  },
+  {
+    "id": "mods/m27iar/sighted",
+    "type": "item_group",
+    "subtype": "distribution",
+
+    "//TODO": "Add VCOG when it becomes available",
+
+    "entries": [
+      { "group": "sight/trijicon/ta01" },
+      { "group": "sight/elcan/specterdr" }
+    ]
+  },
+  {
+    "id": "mods/m16a4",
+    "type": "item_group",
+    "subtype": "collection",
+
+    "entries": [{ "group": "mods/m4a1" }]
+  },
+  {
+    "id": "mods/m16a4/sighted",
+    "type": "item_group",
+    "subtype": "distribution",
+
+    "entries": [{ "group": "mods/m4a1/sighted" }]
+  },
+
+  {
+    "id": "military_standard_assault_rifles",
+    "type": "item_group",
+    "subtype": "distribution",
+
+    "entries": [
+      {
+        "item": "modular_m4_carbine",
+        "variant": "modular_m4a1",
+        "contents-group": "mods/m4a1",
+        "prob": 88,
+        "charges": [0, 30]
+      },
+      {
+        "item": "modular_m27_assault_rifle",
+        "variant": "modular_m27iar",
+        "contents-group": "mods/m27iar",
+        "prob": 10,
+        "charges": [0, 30]
+      },
+      {
+        "item": "modular_m16a4",
+        "contents-group": "mods/m16a4",
+        "prob": 2,
+        "charges": [0, 30]
+      }
+    ]
+  },
+  {
+    "id": "military_standard_assault_rifles_sighted",
+    "type": "item_group",
+    "subtype": "distribution",
+
+    "entries": [
+      {
+        "item": "modular_m4_carbine",
+        "variant": "modular_m4a1",
+        "contents-group": ["mods/m4a1", "mods/m4a1/sighted"],
+        "prob": 88,
+        "charges": [0, 30]
+      },
+      {
+        "item": "modular_m27_assault_rifle",
+        "variant": "modular_m27iar",
+        "contents-group": ["mods/m27iar", "mods/m27iar/sighted"],
+        "prob": 10,
+        "charges": [0, 30]
+      },
+      {
+        "item": "modular_m27_assault_rifle",
+        "variant": "modular_m38dmr",
+        "contents-group": "m38dmr_mods",
+        "prob": 1,
+        "charges": [0, 30]
+      },
+      {
+        "item": "modular_m16a4",
+        "contents-group": ["mods/m16a4", "mods/m16a4/sighted"],
+        "prob": 2,
+        "charges": [0, 30]
+      }
+    ]
+  },
+  {
+    "id": "military_grenadier_assault_rifles",
+    "type": "item_group",
+    "subtype": "distribution",
+
+    "entries": [
+      {
+        "item": "modular_m4_carbine",
+        "contents-group": [
+          "mods/m4a1",
+          "mods/m4a1/sighted",
+          "military_grenadier_mods"
+        ],
+        "charges": [0, 30]
+      }
+    ]
+  }
+]
