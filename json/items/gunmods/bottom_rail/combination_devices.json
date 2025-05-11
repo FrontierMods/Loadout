@@ -62,7 +62,7 @@
       ]
     },
 
-    "sight_dispersion": 175,
+    "sight_dispersion": 7,
     "//aim_speed_modifier": 5,
 
     "//power": {

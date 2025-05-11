@@ -75,7 +75,7 @@
       }
     },
 
-    "sight_dispersion": 172,
+    "sight_dispersion": 7,
 
     "//power": {
       "source": [["CR123"]],
@@ -217,7 +217,7 @@
       }
     },
 
-    "sight_dispersion": 275,
+    "sight_dispersion": 11,
 
     "//power": {
       "source": [["CR123"]],
@@ -300,8 +300,8 @@
 
     "ammo_effects": ["BLINDS_EYES"],
 
-    "sight_dispersion": 172,
-    "range_modifier": 2,
+    "sight_dispersion": 7,
+    "range_modifier": 1,
 
     "//power": {
       "source": [["CR123", "CR123"]],
