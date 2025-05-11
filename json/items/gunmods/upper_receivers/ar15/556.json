@@ -225,6 +225,125 @@
     "price": "1057 USD"
   },
   {
+    "id": "upper_receiver/ar15/556/20in/colt/m16a4",
+    "copy-from": "@upper_receiver/ar15/556",
+    "type": "GUNMOD",
+
+    "//sources": [
+      [
+        "https://fnamerica.com/products/accessories/fn-15-m16-upper-assembly/",
+        "weight reference",
+        "price reference"
+      ],
+      [
+        "https://reddit.com/r/canadaguns/comments/d5xzgi/lengths_guide_for_ar15_handguard_muzzle_devices/",
+        "length of handguard",
+        "length of leftover barrel"
+      ],
+      [
+        "M4A1 Technical Data Package",
+        "diameter of upper receiver",
+        "length of upper receiver",
+        "diameter of handguard",
+        "front sight post dimensions"
+      ]
+    ],
+
+    "name": {
+      "str": "20″ quad-rail 5.56mm AR-15 upper receiver"
+    },
+    "description": "<upper_receiver/ar15>  <upper_receiver>  <upper_receiver/caliber:556>  <upper_receiver/barrel:20>",
+    "expand_snippets": true,
+
+    "variant_type": "gun",
+    "variants": [
+      {
+        "id": "black",
+
+        "name": {
+          "str": "Colt M16A4 20″ 5.56mm AR-15 upper receiver"
+        },
+        "description": "A complete upper receiver assembly for AR-15-style firearms.  Includes a 20-inch barrel chambered in 5.56mm NATO, standard-issue internal components, and a four-rail handguard with plenty of space to mount accessories.  This model has been standard issue with the U.S. Army for years, and has now been stockpiled state-side for emergencies.  <variant:black>",
+        "expand_snippets": true,
+        "weight": 8
+      },
+      {
+        "id": "black:scratched",
+
+        "name": {
+          "str": "Colt M16A4 20″ 5.56mm AR-15 upper receiver"
+        },
+        "description": "A complete upper receiver assembly for AR-15-style firearms.  Includes a 20-inch barrel chambered in 5.56mm NATO, standard-issue internal components, and a four-rail handguard with plenty of space to mount accessories.  This model has been standard issue with the U.S. Army for years, and has now been stockpiled state-side for emergencies.  <variant:black>\n\nThis receiver has clearly seen a fair amount of use, with scratches, blemishes, and dried stains of who knows what.  On the receiver, names have been scratched:\n\n<name/scratched:first><name/scratched><name/scratched><name/scratched><name/scratched><name/scratched>",
+        "expand_snippets": true,
+        "weight": 1
+      }
+    ],
+
+    "//weight": "5.61 lbs = 2544.7 g",
+    "weight": "2545 g",
+    "//dimensions": [
+      {
+        "description": "upper receiver",
+
+        "length": "8.26 in",
+        "diameter": "1.39 in",
+        "raw": "205.4 ml",
+        "trim": 0,
+        "result": "205.4 ml",
+        "notes": [
+          "we assume that any irregularities in volume even out over the cylinder volume of the receiver"
+        ]
+      },
+      {
+        "description": "handguard",
+
+        "length": "12.7 in",
+        "diameter": "1.974 in",
+        "raw": "636.93 ml",
+        "trim": 0.25,
+        "result": "477.7 ml"
+      },
+      {
+        "description": "front sight",
+
+        "length": "1.948 in",
+        "width": "0.88 in",
+        "height": "3.669 in",
+        "raw": "103.07 ml",
+        "trim": 0.25,
+        "result": "77.3 ml"
+      },
+      {
+        "description": "leftover barrel",
+
+        "length": "5.125 in",
+        "diameter": "0.75 in",
+        "raw": "37.1 ml",
+        "trim": 0.12,
+        "result": "32.65 ml"
+      }
+    ],
+    "volume": "793 ml",
+    "//longest_side": [
+      "28.03 in = 711.96 mm",
+      "calculated from component lengths"
+    ],
+    "longest_side": "712 mm",
+    "integral_longest_side": "534 mm",
+    "barrel_length": "508 mm",
+
+    "add_mod": [
+      ["sights", 1],
+      ["rail", 3],
+      ["underbarrel", 1],
+      ["brass catcher", 1],
+      ["bayonet lug", 1],
+      ["muzzle", 1]
+    ],
+
+    "price": "1682 USD"
+  },
+  {
     "id": "upper_receiver/ar15/556/14.5in/colt/m4a1",
     "copy-from": "@upper_receiver/ar15/556",
     "type": "GUNMOD",
