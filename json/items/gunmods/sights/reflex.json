@@ -76,7 +76,8 @@
       "if it were to be interpreted as 15.7 *meters*, however, at 100 meters it amounts to 8.977° = 538.62 MOA, which is close enough to the other measurement"
     ],
     "field_of_view": 594,
-    "sight_dispersion": 400,
+    "//sight_dispersion": "4 MOA",
+    "sight_dispersion": 12,
     "//aim_speed_modifier": 10,
 
     "//power": {
@@ -177,7 +178,8 @@
       "2 × arctan( 2.54 cm / ( 2 * 74.615 cm ) ) ≈ 0.034 rad = 117.01 MoA"
     ],
     "field_of_view": 117,
-    "sight_dispersion": 325,
+    "//sight_dispersion": "3.25 MOA",
+    "sight_dispersion": 13,
     "aim_speed_modifier": 6,
 
     "location": "RMR mount",
@@ -235,7 +237,8 @@
 
     "location": "single 30mm mount",
 
-    "sight_dispersion": 650,
+    "//sight_dispersion": "6.5  MOA",
+    "sight_dispersion": 26,
     "//aim_speed_modifier": 8,
 
     "//power": {
@@ -289,7 +292,8 @@
 
     "//field_of_view": "30 mm [lens diameter] @ 100 m = 1.0314 MOA",
     "field_of_view": 103,
-    "sight_dispersion": 400,
+    "//sight_dispersion": "4 MOA",
+    "sight_dispersion": 16,
     "aim_speed_modifier": 12,
 
     "location": "single 30mm mount",
@@ -348,7 +352,8 @@
     "volume": "116 ml",
     "longest_side": "108 mm",
 
-    "sight_dispersion": 650,
+    "//sight_dispersion": "6.5 MOA",
+    "sight_dispersion": 26,
     "aim_speed_modifier": 8,
 
     "location": "RX01 mount",
@@ -412,7 +417,8 @@
 
     "location": "Docter mount",
 
-    "sight_dispersion": 700,
+    "//sight_dispersion": "7 MOA",
+    "sight_dispersion": 28,
 
     "//power": {
       "source": [["CR2032"]],
@@ -463,7 +469,8 @@
 
     "location": "CompM4 mount",
 
-    "sight_dispersion": 200,
+    "//sight_dispersion": "2 MOA",
+    "sight_dispersion": 8,
 
     "//power": {
       "source": [["AA"]],

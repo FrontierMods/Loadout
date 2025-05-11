@@ -64,7 +64,7 @@
       "13.05 MOA",
       "calculated as tangent of front sight post width (0.075 in.) over sight radius (19.75 in.)"
     ],
-    "sight_dispersion": 1305,
+    "sight_dispersion": 52,
     "//aim_speed_modifier": -5,
     "//mod_targets": [
       [

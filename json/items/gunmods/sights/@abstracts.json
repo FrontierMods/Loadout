@@ -47,7 +47,7 @@
     "//field_of_view": "small default value (`red_dot_sight`'s `field_of_view` × 0.6), since most of the red dot sights are small",
     "field_of_view": 378,
     "//sight_dispersion": "3 MOA",
-    "sight_dispersion": 300,
+    "sight_dispersion": 12,
     "//aim_speed_modifier": "±1 point for each half-MOA of deviation (rounded to the nearest half-MOA) from the baseline set above",
     "aim_speed_modifier": 10,
 
@@ -77,7 +77,7 @@
 
     "field_of_view": 1000,
     "//sight_dispersion": "1 MOA",
-    "sight_dispersion": 100,
+    "sight_dispersion": 4,
     "aim_speed_modifier": 14,
 
     "add_mod": [["magnifier", 1]]
@@ -92,7 +92,7 @@
     "//field_of_view": "what low-magnification scopes have (after strong rounding) @ 1× magnification",
     "field_of_view": 1000,
     "//sight_dispersion": "1 MOA",
-    "sight_dispersion": 100,
+    "sight_dispersion": 4,
     "//aim_speed_modifier": [
       "emulates having to aim that much more carefully with a sight this precise",
       "still better than aiming with no sights"
@@ -125,7 +125,7 @@
       "6 MOA",
       "assumes 3× magnification on a 2 MOA dot in front of the magnifier"
     ],
-    "sight_dispersion": 600,
+    "sight_dispersion": 24,
     "//aim_speed_modifier": "while a magnifier with a red-dot/holo sight is still better than iron sights, high-distance aiming is meant to be difficult and, therefore, slower",
     "aim_speed_modifier": 2,
 
@@ -177,8 +177,6 @@
     "field_of_view": 360,
     "//sight_dispersion": "1 MOA",
     "sight_dispersion": 100,
-    "//aim_speed_modifier": "minor bonus for better-than-default sights",
-    "aim_speed_modifier": 4,
 
     "flags": ["DISABLE_SIGHTS"]
   },
@@ -197,7 +195,7 @@
       "front sight post width (0.06 in.) from multiple models on the market",
       "distance (15 in.) from average distance between front and rear sight on a rifle"
     ],
-    "sight_dispersion": 138,
+    "sight_dispersion": 55,
 
     "///add_mod": "emulates possibly having another sight, e.g. a red dot sight, along with iron sights",
     "//add_mod": [["sights", 1]]
