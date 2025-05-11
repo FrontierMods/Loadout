@@ -126,14 +126,17 @@
   },
 
   {
-    "//": "this group doesn't need a randomized variant because the Alpha4 mount is unlikely to ever surface in a private collection, on accounts of both being current (still rare) military issue and not being available on the aftermarket",
-    "id": "sight/sig/tango6t/1-6x",
+    "id": "sight/elcan/specterdr",
     "type": "item_group",
     "subtype": "collection",
 
+    "//notes": [
+      "the primary sight with chance to also provide an auxiliary sight"
+    ],
+
     "entries": [
-      { "item": "sight_mount/30mm/sig/alpha4" },
-      { "item": "sight/sig/tango6t/1-6x" }
+      { "item": "sight/elcan/specterdr/legacy" },
+      { "item": "sight/noblex/sight_ii", "prob": 23 }
     ]
   }
 ]
