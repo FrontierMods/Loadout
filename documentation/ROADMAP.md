@@ -2,10 +2,6 @@
 
 ## Planned
 
-...
-
-## Current
-
 ### v2.1
 
 - [ ] **adjustable-length suppressors**
