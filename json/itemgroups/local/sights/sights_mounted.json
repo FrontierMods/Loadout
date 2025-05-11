@@ -138,5 +138,26 @@
       { "item": "sight/elcan/specterdr/legacy" },
       { "item": "sight/noblex/sight_ii", "prob": 23 }
     ]
+  },
+  {
+    "id": "sight/trijicon/ta01",
+    "type": "item_group",
+    "subtype": "collection",
+
+    "//notes": [
+      "the primary sight with chance to also provide an auxiliary sight"
+    ],
+
+    "entries": [
+      { "item": "sight_mount/ta01/trijicon/ta51" },
+      { "item": "sight/trijicon/ta01" },
+      {
+        "collection": [
+          { "item": "sight_mount/rmr/trijicon/rm35" },
+          { "item": "sight/trijicon/rmr" }
+        ],
+        "prob": 45
+      }
+    ]
   }
 ]
