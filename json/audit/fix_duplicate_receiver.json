@@ -17,7 +17,8 @@
         "ascii_picture": "modular_m4a1",
         "weight": 1
       }
-    ]
+    ],
+    "default_mods": ["upper_receiver/ar15/556/14.5in/colt/m4a1"]
   },
   {
     "type": "GUN",
@@ -36,7 +37,7 @@
         "ascii_picture": "modular_m4a1"
       }
     ],
-    "default_mods": ["retool_ar15_223rem_short"]
+    "default_mods": ["upper_receiver/ar15/556/10.3in/lmt/cqbr"]
   },
   {
     "id": "modular_m4_carbine",
