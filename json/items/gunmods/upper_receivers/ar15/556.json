@@ -106,7 +106,7 @@
     "price": "995 USD"
   },
   {
-    "id": "upper_receiver/ar15/556/20in/colt/m16a2",
+    "id": "upper_receiver/ar15/556/20in/colt/m16a3",
     "copy-from": "@upper_receiver/ar15/556",
     "type": "GUNMOD",
 
@@ -128,15 +128,8 @@
         "front sight post dimensions",
         "carry handle width"
       ],
-      [
-        "https://www.opticsplanet.com/ema-tactical-removable-carry-handle-for-ar15-and-m16-type-rifles-ch.html",
-        "carry handle length",
-        "carry handle height"
-      ],
       ["https://retrorifles.com/colt-m16a2/", "price"]
     ],
-
-    "//TODO": ["3-round burst, no auto fire", "sight dispersion?"],
 
     "name": {
       "str": "20″ 5.56mm AR-15 upper receiver"
@@ -150,9 +143,9 @@
         "id": "black",
 
         "name": {
-          "str": "Colt M16A2 20″ 5.56mm AR-15 upper receiver"
+          "str": "Colt M16A3 20″ 5.56mm AR-15 upper receiver"
         },
-        "description": "A complete upper receiver assembly for AR-15-style firearms.  Includes a 20-inch barrel chambered in 5.56mm NATO, standard-issue internal components, and a classic round handguard without any railing.  This model has been standard issue with the U.S. Army for years, and has now been stockpiled state-side for emergencies.  <variant:black>",
+        "description": "A complete upper receiver assembly for AR-15-style firearms.  Includes a 20-inch barrel chambered in 5.56mm NATO, standard-issue internal components, a classic round handguard without any railing, and a flat Picatinny rail at the top for mounting combat sights.  This model has been standard issue with the U.S. Army for years, and has now been stockpiled state-side for emergencies.  <variant:black>",
         "expand_snippets": true,
         "weight": 4
       },
@@ -160,16 +153,16 @@
         "id": "black:scratched",
 
         "name": {
-          "str": "Colt M16A2 20″ 5.56mm AR-15 upper receiver"
+          "str": "Colt M16A3 20″ 5.56mm AR-15 upper receiver"
         },
-        "description": "A complete upper receiver assembly for AR-15-style firearms.  Includes a 20-inch barrel chambered in 5.56mm NATO, standard-issue internal components, and a classic round handguard without any railing.  This model has been standard issue with the U.S. Army for years, and has now been stockpiled state-side for emergencies.  <variant:black>\n\nThis receiver has clearly seen a fair amount of use, with scratches, blemishes, and dried stains of who knows what.  On the receiver, names have been scratched:\n\n<name/scratched:first><name/scratched><name/scratched><name/scratched><name/scratched><name/scratched>",
+        "description": "A complete upper receiver assembly for AR-15-style firearms.  Includes a 20-inch barrel chambered in 5.56mm NATO, standard-issue internal components, a classic round handguard without any railing, and a flat Picatinny rail at the top for mounting combat sights.  This model has been standard issue with the U.S. Army for years, and has now been stockpiled state-side for emergencies.  <variant:black>\n\nThis receiver has clearly seen a fair amount of use, with scratches, blemishes, and dried stains of who knows what.  On the receiver, names have been scratched:\n\n<name/scratched:first><name/scratched><name/scratched><name/scratched><name/scratched><name/scratched>",
         "expand_snippets": true,
-        "weight": 4
+        "weight": 1
       }
     ],
 
-    "//weight": "4.43 lbs = 2.0094 g",
-    "weight": "2000 g",
+    "//weight": "4.43 lbs = 2009.4 g",
+    "weight": "2009 g",
     "//dimensions": [
       {
         "description": "upper receiver",
@@ -189,18 +182,8 @@
         "length": "12.7 in",
         "diameter": "2.17 in",
         "raw": "769.69 ml",
-        "trim": 0.025,
-        "result": "750.45 ml"
-      },
-      {
-        "description": "carry handle",
-
-        "length": "6.69 in",
-        "width": "0.71 in",
-        "height": "1.57 in",
-        "raw": "122.2 ml",
-        "trim": 0.025,
-        "result": "119.15 ml"
+        "trim": 0.25,
+        "result": "577.27 ml"
       },
       {
         "description": "front sight",
@@ -209,29 +192,30 @@
         "width": "0.88 in",
         "height": "3.669 in",
         "raw": "103.07 ml",
-        "trim": 0.2,
-        "result": "82.46 ml"
+        "trim": 0.25,
+        "result": "77.3 ml"
       },
       {
         "description": "leftover barrel",
 
-        "length": "5.6 in",
+        "length": "5.125 in",
         "diameter": "0.75 in",
-        "raw": "40.54 ml",
-        "trim": 0.0,
-        "result": "40.54 ml"
+        "raw": "37.1 ml",
+        "trim": 0.12,
+        "result": "32.65 ml"
       }
     ],
-    "volume": "1198 ml",
+    "volume": "893 ml",
     "//longest_side": [
-      "28.22 in = 716.79 mm",
-      "acquired from visual reference"
+      "28.03 in = 711.96 mm",
+      "calculated from component lengths"
     ],
-    "longest_side": "717 mm",
-    "integral_longest_side": "539 mm",
+    "longest_side": "712 mm",
+    "integral_longest_side": "534 mm",
     "barrel_length": "508 mm",
 
     "add_mod": [
+      ["sights", 1],
       ["brass catcher", 1],
       ["bayonet lug", 1],
       ["muzzle", 1]

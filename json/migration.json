@@ -287,7 +287,7 @@
   {
     "id": ["retool_ar15_223rem_extended"],
     "type": "MIGRATION",
-    "replace": "upper_receiver/ar15/556/20in/colt/m16a2"
+    "replace": "upper_receiver/ar15/556/20in/colt/m16a3"
   },
   {
     "id": ["retool_ar15_300blk_short"],
