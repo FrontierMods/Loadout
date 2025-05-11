@@ -4,7 +4,10 @@
     "copy-from": "@sight/holographic",
     "type": "GUNMOD",
 
-    "//sources": ["https://www.manualsdir.com/manuals/402192/eotech-553.html"],
+    "//sources": [
+      "https://www.manualsdir.com/manuals/402192/eotech-553.html",
+      ["https://www.eotechinc.com/eotech-hws-552", "sight dispersion"]
+    ],
 
     "name": {
       "str": "553 holographic sight"
@@ -47,6 +50,8 @@
 
     "//field_of_view": "30 yds @ 100 yds = 17.06° = 1023.6 MOA",
     "field_of_view": 1024,
+    "//sight_dispersion": "1 MOA",
+    "sight_dispersion": 4,
     "//aim_speed_modifier": 8,
 
     "//power": {
@@ -110,6 +115,8 @@
 
     "//field_of_view": "30 yds @ 100 yds = 17.06° = 1023.6 MOA",
     "field_of_view": 1024,
+    "//sight_dispersion": "1 MOA",
+    "sight_dispersion": 4,
     "//aim_speed_modifier": 14,
     "//install_time": "the embedded QD rail adapter makes installation very quick",
     "install_time": "5 s",
@@ -184,6 +191,8 @@
 
     "//field_of_view": "BadassOptic review says FOV of this sight is comparable to an EOTech sight, but possibly slightly worse",
     "field_of_view": 972,
+    "//sight_dispersion": "1 MOA",
+    "sight_dispersion": 4,
     "//install_time": "the embedded QD rail adapter makes installation very quick",
     "install_time": "5 s",
 

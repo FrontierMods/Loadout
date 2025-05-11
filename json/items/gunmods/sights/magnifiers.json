@@ -49,9 +49,10 @@
 
     "material": ["aluminum", "glass"],
 
-    "sight_dispersion": 600,
     "//field_of_view": "7.3° = 438 MOA",
     "field_of_view": 438,
+    "//sight_dispersion": "modelled as 6 MOA",
+    "sight_dispersion": 24,
 
     "//price": "with an included mount",
     "price": "629 USD",
@@ -107,9 +108,10 @@
 
     "material": ["aluminum", "glass"],
 
-    "sight_dispersion": 600,
     "//field_of_view": "7.5° = 450 MOA",
     "field_of_view": 450,
+    "//sight_dispersion": "modelled as 6 MOA",
+    "sight_dispersion": 24,
 
     "//price": "with an included mount",
     "price": "649 USD",

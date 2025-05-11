@@ -79,7 +79,7 @@
     "//field_of_view": "7° = 420 MOA",
     "field_of_view": 420,
     "//sight_dispersion": "0.4 MOA",
-    "sight_dispersion": 40,
+    "sight_dispersion": 2,
 
     "location": "ACOG mount",
 
@@ -191,7 +191,7 @@
       "0.15 MIL = 0.52 MOA @ 1× magnification",
       "line thickness is more likely to matter than the tiny aperture, at this level of magnification"
     ],
-    "sight_dispersion": 52,
+    "sight_dispersion": 2,
     "//aim_speed_modifier": 0,
 
     "//power": {
@@ -253,9 +253,10 @@
     "field_of_view": 156,
     "//sight_dispersion": [
       "0.18 MIL = 0.619 MOA @ 8× magnification",
-      "reticle manual states this to be the exact aperture for the center dot at 8× magnification"
+      "reticle manual states this to be the exact aperture for the center dot at 8× magnification",
+      "we round the value up to make this sight more distinct"
     ],
-    "sight_dispersion": 62,
+    "sight_dispersion": 3,
 
     "use_action": {
       "type": "transform",
@@ -344,7 +345,7 @@
     "//field_of_view": "26° @ 1× magnification = 1560 MOA",
     "field_of_view": 1560,
     "//sight_dispersion": "6 MOA @ 1× magnification",
-    "sight_dispersion": 600,
+    "sight_dispersion": 24,
     "///aim_speed_modifier": [
       "at 1× magnification",
       "bonus for ballistic reticle"
@@ -403,7 +404,7 @@
     "//field_of_view": "6.5° @ 4× magnification = 390 MOA",
     "field_of_view": 390,
     "//sight_dispersion": "1.5 MOA @ 4× magnification",
-    "sight_dispersion": 150,
+    "sight_dispersion": 6,
 
     "use_action": {
       "type": "transform",
@@ -492,7 +493,7 @@
     "//field_of_view": "102.4 ft @ 100 yds @ 1× magnification = 1162.20 MOA",
     "field_of_view": 1162,
     "//sight_dispersion": "1 MIL @ 6× magnification = 3.438 MOA @ 6× magnification = 0.573 MOA @ 1x magnification",
-    "sight_dispersion": 57,
+    "sight_dispersion": 2,
     "//aim_speed_modifier": [
       "should probably have a decent bonus due to its high lens quality",
       "https://coldboremiracle.com/2024/05/19/eotech-vudu-1-6/"
@@ -544,7 +545,7 @@
     "//field_of_view": "16.7 ft @ 100 yds @ 6× magnification = 191.32 MOA",
     "field_of_view": 191,
     "//sight_dispersion": "1 MOA dot",
-    "sight_dispersion": 100,
+    "sight_dispersion": 4,
 
     "use_action": {
       "type": "transform",
@@ -631,7 +632,7 @@
     "//field_of_view": "112.5 ft @ 100 yds @ 1× magnification = 1274.3 MOA",
     "field_of_view": 1274,
     "//sight_dispersion": "0.5 MOA",
-    "sight_dispersion": 50,
+    "sight_dispersion": 2,
     "//aim_speed_modifier": 0,
 
     "//power": {
@@ -679,7 +680,7 @@
     "//field_of_view": "18.8 ft @ 100 yds @ 6× magnification = 215.36 MOA",
     "field_of_view": 215,
     "//sight_dispersion": "0.5 MOA",
-    "sight_dispersion": 50,
+    "sight_dispersion": 2,
 
     "use_action": {
       "type": "transform",
@@ -779,7 +780,7 @@
     "//field_of_view": "106.7 ft @ 100 yds @ 1× magnification = 1210 MOA",
     "field_of_view": 1210,
     "//sight_dispersion": "0.6 MOA",
-    "sight_dispersion": 60,
+    "sight_dispersion": 3,
     "//aim_speed_modifier": 0,
 
     "//power": {
