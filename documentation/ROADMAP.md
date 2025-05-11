@@ -80,3 +80,10 @@
 - [ ] **foldable iron sights**
   - would allow installing other sights
   - postponed due to not behaving correctly in the latest stable
+- [ ] **night sights** and **night vision sight attachments**
+  - exist on the military and aftermarket levels
+  - to explore
+- [ ] **thermal sights** and **thermal vision sight attachments**
+  - available to today's military forces
+  - used to be impossible on a previous stable version where it was attempted
+  - to investigate viability with 0.H
