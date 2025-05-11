@@ -16,6 +16,10 @@
       "even though this suppressor is likely too short for a standard 7-in. cover, for now, we presume that "
     ],
 
+    "//TODO": [
+      "programmatically calculate `handling_modifier` based on the mount's model"
+    ],
+
     "name": {
       "str": "SOCOM suppressor"
     },
@@ -73,7 +77,7 @@
     },
     "//loudness_modifier": "-23 + -15 from muzzle brake",
     "loudness_modifier": -38,
-    "handling_modifier": -60,
+    "//handling_modifier": -60,
 
     "//consume_divisor": 860,
 
