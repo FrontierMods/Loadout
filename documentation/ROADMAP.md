@@ -10,8 +10,9 @@
 
 - [ ] **adjustable-length suppressors**
   - for the models that do support it
+- [ ] **enhanced magazine representation**
 - [ ] **magazine modding**
-  - [ ] conventional STANAG magazines
+  - [ ] STANAG magazines
   - [ ] Glock magazines
   - extended base plates to improve magazine capacity
   - carabiner adapters (aka ranger plates)
@@ -28,12 +29,17 @@
   - replace others with streamlined versions
     - no more three-part compact suppressor
   - variantize each attachment
+    - keep items generic while providing tacticool counterparts via `gun` variants
     - allow players who aren't tacticool-savvy to enjoy Armory as well
-- [x] **modern Army rifle attachments**
+- [x] **rework AR-15 upper receivers**
+  - model their dimensions and capabilities as accurately as possible
+- [x] **new Army rifle attachments**
   - [x] SIG Sauer TANGO6T variable scope
+    - [x] SIG Sauer Alpha4 scope mount
   - [x] Aimpoint CompM4 red dot sight
   - [x] AN/PSQ-23 laser sight/rangefinder
   - [x] DBAL-A2 (aka AN/PEQ-15A) laser sight
+  - [x] LA-5B/PEQ laser sight
 
 <details>
 	<summary>Released</summary>
