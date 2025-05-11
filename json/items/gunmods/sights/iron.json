@@ -1,0 +1,80 @@
+[
+  {
+    "id": "sight/iron/carry_handle",
+    "copy-from": "@sight/iron",
+    "type": "GUNMOD",
+
+    "//sources": [
+      [
+        "https://www.aeroprecisionusa.com/a2-carry-handle-1",
+        "visual reference",
+        "price"
+      ],
+      ["TC 3-22.9", "weight"],
+      [
+        "https://en.wikipedia.org/wiki/M16_rifle",
+        "sight dispersion reference",
+        "field of view reference"
+      ]
+    ],
+
+    "name": { "str": "AR-15 carry handle sight" },
+    "description": "An iconic carry-handle-style sight from military AR-15s, such as the M16 and the M4.  This one is detachable and can be mounted as a regular sight.  Can only be installed on AR-15-style rifles.",
+    "expand_snippets": true,
+
+    "variant_type": "gun",
+    "variants": [
+      {
+        "id": "steel",
+
+        "name": {
+          "str": "M16 carry handle sight"
+        },
+        "description": "An iconic M16-style carry handle rear sight.  This model is Picatinny-mounted, designed to provide a familiar set of irons to soldiers while also being replaceable with reflex or optical sights.  As this is just a rear sight, it requires the common gas-block front sight found on AR-15-style rifles, and thus can only be mounted on those.  <variant:steel>",
+        "expand_snippets": true,
+        "weight": 1
+      }
+    ],
+
+    "//weight": "20.8 oz = 589.67 g",
+    "weight": "590 g",
+    "//dimensions": {
+      "area": "9.99 in2",
+      "width": "1.01 in",
+      "raw": "165.34 ml",
+      "trim": 0.25,
+      "notes": [
+        "width acquired from ImageJ-based width calculation, using partial width provided in the M4A1 technical data package",
+        "area and subsequently width may be somewhat incorrect, as they don't clearly align with the given dimensions in TC 3-22.9"
+      ]
+    },
+    "volume": "124 ml",
+    "//longest_side": [
+      "6.86 in = 174.24 mm",
+      "acquired from Feret distance using ImageJ"
+    ],
+    "longest_side": "174 mm",
+
+    "//field_of_view": [
+      "12.18 MOA",
+      "calculated as tangent of rear aperture diameter (0.07 in.) over sight radius (19.75 in.)"
+    ],
+    "field_of_view": 12,
+    "//sight_dispersion": [
+      "13.05 MOA",
+      "calculated as tangent of front sight post width (0.075 in.) over sight radius (19.75 in.)"
+    ],
+    "sight_dispersion": 1305,
+    "//aim_speed_modifier": -5,
+    "//mod_targets": [
+      [
+        "our current CQBR model is Block II, and thus does not come with front sight post gas block",
+        "should we ever model a Block I CQBR, we should add it to the list"
+      ],
+      "M27 IAR does not use a front sight post gas block"
+    ],
+    "mod_targets": ["modular_ar15", "modular_m4_carbine", "modular_m16a4"],
+
+    "price": "90 USD"
+  }
+]
