@@ -158,7 +158,7 @@
   },
   {
     "id": "laser_sight/steiner/dbal-a2",
-    "copy-from": "@laser_sight/rail",
+    "copy-from": "@laser_sight/rail:large",
     "type": "GUNMOD",
 
     "//sources": [
