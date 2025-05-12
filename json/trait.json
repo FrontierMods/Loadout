@@ -1,0 +1,22 @@
+[
+  {
+    "id": "compute/SUREFIRE_SUPPRESSOR_HANDLING",
+    "type": "mutation",
+
+    "name": "SureFire suppressor handling calculation",
+    "description": "It's a bug if you see this.",
+
+    "points": 1,
+    "valid": false,
+    "purifiable": false,
+    "player_display": false,
+
+    "enchantments": [
+      {
+        "condition": "ALWAYS",
+
+        "values": [{ "value": "RECOIL_MODIFIER", "add": 20 }]
+      }
+    ]
+  }
+]

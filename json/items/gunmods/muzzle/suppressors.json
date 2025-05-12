@@ -16,10 +16,6 @@
       "even though this suppressor is likely too short for a standard 7-in. cover, for now, we presume that "
     ],
 
-    "//TODO": [
-      "programmatically calculate `handling_modifier` based on the mount's model"
-    ],
-
     "name": {
       "str": "SOCOM suppressor"
     },
@@ -82,6 +78,8 @@
     "//consume_divisor": 860,
 
     "location": "SureFire muzzle mount",
+
+    "flags": ["SUPPRESSOR/SUREFIRE"],
 
     "price": "1199 USD"
   },

@@ -77,6 +77,8 @@
 
     "add_mod": [["SureFire muzzle mount", 1]],
 
+    "flags": ["MUZZLE_BRAKE/SUREFIRE"],
+
     "//price": "presumed to be the price for the smaller caliber (.223 / 5.56mm)",
     "price": "169 USD"
   },

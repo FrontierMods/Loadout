@@ -1,0 +1,27 @@
+[
+  {
+    "id": "EOC/Armory/on_wield",
+    "type": "effect_on_condition",
+    "eoc_type": "EVENT",
+    "required_event": "character_wields_item",
+
+    "effect": { "run_eocs": ["EOC/Armory/adjust_suppressor_handling"] }
+  },
+  {
+    "id": "EOC/Armory/adjust_suppressor_handling",
+    "type": "effect_on_condition",
+
+    "condition": {
+      "and": [
+        { "u_has_wielded_with_flag": "SUPPRESSOR/SUREFIRE" },
+        { "u_has_wielded_with_flag": "MUZZLE_BRAKE/SUREFIRE" }
+      ]
+    },
+    "effect": {
+      "u_add_trait": "compute/SUREFIRE_SUPPRESSOR_HANDLING"
+    },
+    "false_effect": {
+      "u_lose_trait": "compute/SUREFIRE_SUPPRESSOR_HANDLING"
+    }
+  }
+]
