@@ -1,7 +1,7 @@
 [
   {
     "id": "suppressor/surefire/socom556_rc2",
-    "copy-from": "@muzzle/suppressor",
+    "copy-from": "@muzzle/suppressor:no_cover",
     "type": "GUNMOD",
 
     "//sources": [
@@ -10,10 +10,6 @@
         "https://www.silencershop.com/surefire-socom556-rc2.html",
         "specific materials"
       ]
-    ],
-
-    "//notes": [
-      "even though this suppressor is likely too short for a standard 7-in. cover, for now, we presume that "
     ],
 
     "name": {
