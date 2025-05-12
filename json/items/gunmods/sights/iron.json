@@ -6,16 +6,21 @@
 
     "//sources": [
       [
-        "https://www.aeroprecisionusa.com/a2-carry-handle-1",
-        "visual reference",
+        "https://www.midwayusa.com/product/1026502788",
+        "area  reference",
         "price"
       ],
       ["TC 3-22.9", "weight"],
+      ["M4 Technical Data Package", "width"],
       [
         "https://en.wikipedia.org/wiki/M16_rifle",
         "sight dispersion reference",
         "field of view reference"
       ]
+    ],
+
+    "//notes": [
+      "Colt website lists MidwayUSA as one of the two stores selling authentic Colt parts, so we assume their price is the most authentic"
     ],
 
     "name": { "str": "AR-15 carry handle sight" },
@@ -39,21 +44,18 @@
     "//weight": "20.8 oz = 589.67 g",
     "weight": "590 g",
     "//dimensions": {
-      "area": "9.99 in2",
+      "area": "11.1 in2",
       "width": "1.01 in",
       "raw": "165.34 ml",
       "trim": 0.25,
       "notes": [
-        "width acquired from ImageJ-based width calculation, using partial width provided in the M4A1 technical data package",
-        "area and subsequently width may be somewhat incorrect, as they don't clearly align with the given dimensions in TC 3-22.9"
+        "width acquired from measuring out all of the available dimensions of the carry handle sight",
+        "TC's width seems to account for every single bit sticking out, which is not the value we need"
       ]
     },
     "volume": "124 ml",
-    "//longest_side": [
-      "6.86 in = 174.24 mm",
-      "acquired from Feret distance using ImageJ"
-    ],
-    "longest_side": "174 mm",
+    "//longest_side": ["7.32 in = 185.93 mm", "Feret distance"],
+    "longest_side": "186 mm",
 
     "//field_of_view": [
       "12.18 MOA",
@@ -75,6 +77,6 @@
     ],
     "mod_targets": ["modular_ar15", "modular_m4_carbine", "modular_m16a4"],
 
-    "price": "90 USD"
+    "price": "142 USD 90 cent"
   }
 ]
