@@ -1,0 +1,130 @@
+[
+  {
+    "result": "magazine/magpul/pmag/20:ranger_plate",
+    "type": "recipe",
+
+    "category": "CC_WEAPON",
+    "subcategory": "CSC_WEAPON_MAGMODS",
+
+    "activity_level": "LIGHT_EXERCISE",
+    "difficulty": 1,
+    "time": "1 m",
+
+    "skill_used": "fabrication",
+    "autolearn": true,
+
+    "//qualities": [{ "id": "PUSH", "level": 1 }],
+    "components": [
+      [["magazine/magpul/pmag/20", 1]],
+      [["baseplate/magpul/ranger/usgi", 1]]
+    ],
+    "byproducts": [["baseplate/colt/stanag", 1]]
+  },
+  {
+    "result": "magazine/magpul/pmag/20",
+    "type": "recipe",
+
+    "category": "CC_WEAPON",
+    "subcategory": "CSC_WEAPON_MAGMODS",
+
+    "activity_level": "LIGHT_EXERCISE",
+    "difficulty": 1,
+    "time": "1 m",
+
+    "skill_used": "fabrication",
+    "autolearn": true,
+
+    "//qualities": [{ "id": "PUSH", "level": 1 }],
+    "components": [
+      [["magazine/magpul/pmag/20:ranger_plate", 1]],
+      [["baseplate/colt/stanag", 1]]
+    ],
+    "byproducts": [["baseplate/magpul/ranger/usgi", 1]]
+  },
+
+  {
+    "result": "magazine/colt/stanag/30:ranger_plate",
+    "type": "recipe",
+
+    "category": "CC_WEAPON",
+    "subcategory": "CSC_WEAPON_MAGMODS",
+
+    "activity_level": "LIGHT_EXERCISE",
+    "difficulty": 1,
+    "time": "1 m",
+
+    "skill_used": "fabrication",
+    "autolearn": true,
+
+    "//qualities": [{ "id": "PUSH", "level": 1 }],
+    "components": [
+      [["magazine/colt/stanag/30", 1]],
+      [["baseplate/magpul/ranger/usgi", 1]]
+    ],
+    "byproducts": [["baseplate/colt/stanag", 1]]
+  },
+  {
+    "result": "magazine/colt/stanag/30",
+    "type": "recipe",
+
+    "category": "CC_WEAPON",
+    "subcategory": "CSC_WEAPON_MAGMODS",
+
+    "activity_level": "LIGHT_EXERCISE",
+    "difficulty": 1,
+    "time": "1 m",
+
+    "skill_used": "fabrication",
+    "autolearn": true,
+
+    "//qualities": [{ "id": "PUSH", "level": 1 }],
+    "components": [
+      [["magazine/colt/stanag/30:ranger_plate", 1]],
+      [["baseplate/colt/stanag", 1]]
+    ],
+    "byproducts": [["baseplate/magpul/ranger/usgi", 1]]
+  },
+
+  {
+    "result": "magazine/magpul/pmag:ranger",
+    "type": "recipe",
+
+    "category": "CC_WEAPON",
+    "subcategory": "CSC_WEAPON_MAGMODS",
+
+    "activity_level": "LIGHT_EXERCISE",
+    "difficulty": 1,
+    "time": "1 m",
+
+    "skill_used": "fabrication",
+    "autolearn": true,
+
+    "//qualities": [{ "id": "PUSH", "level": 1 }],
+    "components": [
+      [["magazine/magpul/pmag", 1]],
+      [["baseplate/magpul/ranger", 1]]
+    ],
+    "byproducts": [["baseplate/magpul/pmag", 1]]
+  },
+  {
+    "result": "magazine/magpul/pmag",
+    "type": "recipe",
+
+    "category": "CC_WEAPON",
+    "subcategory": "CSC_WEAPON_MAGMODS",
+
+    "activity_level": "LIGHT_EXERCISE",
+    "difficulty": 1,
+    "time": "1 m",
+
+    "skill_used": "fabrication",
+    "autolearn": true,
+
+    "//qualities": [{ "id": "PUSH", "level": 1 }],
+    "components": [
+      [["magazine/magpul/pmag:ranger", 1]],
+      [["baseplate/magpul/pmag", 1]]
+    ],
+    "byproducts": [["baseplate/magpul/ranger", 1]]
+  }
+]
