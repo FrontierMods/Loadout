@@ -1,7 +1,5 @@
 [
   {
-    "//": "gunmod-adjacent items",
-
     "id": ["ugl_buttstock"],
     "type": "MIGRATION",
     "replace": "standalone_assembly/m320"
