@@ -1,7 +1,5 @@
 [
   {
-    "//": "actual Loadout gunmod migrations",
-
     "id": ["red_dot_sight"],
     "type": "MIGRATION",
     "replace": "sight/ncstar"
