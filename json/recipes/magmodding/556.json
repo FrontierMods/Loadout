@@ -1,5 +1,48 @@
 [
   {
+    "result": "magazine/magpul/pmag/10:ranger_plate",
+    "type": "recipe",
+
+    "category": "CC_WEAPON",
+    "subcategory": "CSC_WEAPON_MAGMODS",
+
+    "activity_level": "LIGHT_EXERCISE",
+    "difficulty": 1,
+    "time": "1 m",
+
+    "skill_used": "fabrication",
+    "autolearn": true,
+
+    "//qualities": [{ "id": "PUSH", "level": 1 }],
+    "components": [
+      [["magazine/magpul/pmag/10", 1]],
+      [["baseplate/magpul/ranger", 1]]
+    ],
+    "byproducts": [["baseplate/magpul/pmag", 1]]
+  },
+  {
+    "result": "magazine/magpul/pmag/10",
+    "type": "recipe",
+
+    "category": "CC_WEAPON",
+    "subcategory": "CSC_WEAPON_MAGMODS",
+
+    "activity_level": "LIGHT_EXERCISE",
+    "difficulty": 1,
+    "time": "1 m",
+
+    "skill_used": "fabrication",
+    "autolearn": true,
+
+    "//qualities": [{ "id": "PUSH", "level": 1 }],
+    "components": [
+      [["magazine/magpul/pmag/10:ranger_plate", 1]],
+      [["baseplate/magpul/pmag", 1]]
+    ],
+    "byproducts": [["baseplate/magpul/ranger", 1]]
+  },
+
+  {
     "result": "magazine/magpul/pmag/20:ranger_plate",
     "type": "recipe",
 
