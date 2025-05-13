@@ -1,6 +1,18 @@
 [
   {
+    "abstract": "@magmod",
+    "type": "GENERIC",
+    "name": { "str": "magmod" },
+
+    "symbol": "/",
+    "color": "light_gray",
+
+    "price_postapoc": "5 cent"
+  },
+
+  {
     "id": "baseplate/colt/stanag",
+    "copy-from": "@magmod",
     "type": "GENERIC",
 
     "//sources": ["M4 Technical Data Package"],
@@ -9,8 +21,6 @@
       "str": "STANAG magazine baseplate"
     },
     "description": "A thin aluminum plate with a curved edge, usually sitting at the bottom of a magazine.  You can use it to replace the baseplate of a modified magazine.",
-
-    "symbol": "/",
 
     "variant_type": "gun",
     "variants": [
@@ -38,14 +48,13 @@
     "//longest_side": "2.59 in = 65.79 mm",
     "longest_side": "66 mm",
 
-    "color": "light_gray",
-
     "material": ["aluminum"],
 
     "price": "1 cent"
   },
   {
     "id": "baseplate/magpul/pmag",
+    "copy-from": "@magmod",
     "type": "GENERIC",
 
     "//sources": [
@@ -60,8 +69,6 @@
       "str": "PMAG magazine baseplate"
     },
     "description": "A thin plastic plate with curved edges, usually sitting at the bottom of a magazine.  You can use it to replace the baseplate of a modified magazine.",
-
-    "symbol": "/",
 
     "variant_type": "gun",
     "variants": [
@@ -103,14 +110,13 @@
     "//longest_side": "2.63 in = 66.8 mm",
     "longest_side": "67 mm",
 
-    "color": "light_gray",
-
     "material": ["plastic"],
 
     "price": "5 cent"
   },
   {
     "id": "baseplate/magpul/ranger",
+    "copy-from": "@magmod",
     "type": "GENERIC",
 
     "//sources": [
@@ -130,8 +136,6 @@
       "str": "PMAG magazine ranger plate"
     },
     "description": "A plastic loop with curved edges, usually sitting at the bottom of a magazine.  You can use it to replace the baseplate of a modified magazine.",
-
-    "symbol": "/",
 
     "variant_type": "gun",
     "variants": [
@@ -176,6 +180,7 @@
   },
   {
     "id": "baseplate/magpul/ranger/usgi",
+    "copy-from": "@magmod",
     "type": "GENERIC",
 
     "//sources": [
@@ -190,8 +195,6 @@
       "str": "STANAG magazine ranger plate"
     },
     "description": "TODO",
-
-    "symbol": "/",
 
     "variant_type": "gun",
     "variants": [
@@ -228,8 +231,6 @@
     "volume": "33 ml",
     "//longest_side": "2.48 in = 62.99 mm",
     "longest_side": "63 mm",
-
-    "color": "light_gray",
 
     "material": ["stainless_steel", "rubber"],
 
