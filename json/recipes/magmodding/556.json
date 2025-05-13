@@ -16,9 +16,9 @@
     "//qualities": [{ "id": "PUSH", "level": 1 }],
     "components": [
       [["magazine/magpul/pmag/20", 1]],
-      [["baseplate/magpul/ranger/usgi", 1]]
+      [["baseplate/magpul/ranger", 1]]
     ],
-    "byproducts": [["baseplate/colt/stanag", 1]]
+    "byproducts": [["baseplate/magpul/pmag", 1]]
   },
   {
     "result": "magazine/magpul/pmag/20",
@@ -37,9 +37,9 @@
     "//qualities": [{ "id": "PUSH", "level": 1 }],
     "components": [
       [["magazine/magpul/pmag/20:ranger_plate", 1]],
-      [["baseplate/colt/stanag", 1]]
+      [["baseplate/magpul/pmag", 1]]
     ],
-    "byproducts": [["baseplate/magpul/ranger/usgi", 1]]
+    "byproducts": [["baseplate/magpul/ranger", 1]]
   },
 
   {
@@ -86,7 +86,7 @@
   },
 
   {
-    "result": "magazine/magpul/pmag:ranger",
+    "result": "magazine/magpul/pmag/30:ranger",
     "type": "recipe",
 
     "category": "CC_WEAPON",
@@ -101,13 +101,13 @@
 
     "//qualities": [{ "id": "PUSH", "level": 1 }],
     "components": [
-      [["magazine/magpul/pmag", 1]],
+      [["magazine/magpul/pmag/30", 1]],
       [["baseplate/magpul/ranger", 1]]
     ],
     "byproducts": [["baseplate/magpul/pmag", 1]]
   },
   {
-    "result": "magazine/magpul/pmag",
+    "result": "magazine/magpul/pmag/30",
     "type": "recipe",
 
     "category": "CC_WEAPON",
@@ -122,7 +122,7 @@
 
     "//qualities": [{ "id": "PUSH", "level": 1 }],
     "components": [
-      [["magazine/magpul/pmag:ranger", 1]],
+      [["magazine/magpul/pmag/30:ranger", 1]],
       [["baseplate/magpul/pmag", 1]]
     ],
     "byproducts": [["baseplate/magpul/ranger", 1]]

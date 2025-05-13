@@ -17,6 +17,7 @@
     "name": {
       "str": "PMAG STANAG 20-round magazine"
     },
+    "description": "TODO",
 
     "variant_type": "gun",
     "variants": [
@@ -72,6 +73,7 @@
       "str": "PMAG STANAG 20-round magazine (ranger plate)",
       "str_pl": "PMAG STANAG 20-round magazines (ranger plate)"
     },
+    "description": "TODO",
 
     "variant_type": "gun",
     "variants": [
@@ -102,7 +104,9 @@
 
     "material": ["plastic"],
 
-    "price": "14 USD 95 cent"
+    "//price": "price of the 20-round PMAG (14 USD 95 cent) + price of a single ranger plate (8 USD 33 cents) = 23 USD 28 cent",
+    "price": "23 USD 28 cent",
+    "price_postapoc": "2 USD 60 cent"
   },
   {
     "id": "magazine/colt/stanag/30",
@@ -218,6 +222,7 @@
       "str": "STANAG 30-round magazine (ranger plate)",
       "str_pl": "STANAG 30-round magazines (ranger plate)"
     },
+    "description": "TODO",
 
     "variant_type": "gun",
     "variants": [
@@ -287,7 +292,7 @@
   },
 
   {
-    "id": "magazine/magpul/pmag",
+    "id": "magazine/magpul/pmag/30",
     "copy-from": "@magazine/556",
     "type": "MAGAZINE",
 
@@ -356,8 +361,8 @@
     "price_postapoc": "2 USD 50 cent"
   },
   {
-    "id": "magazine/magpul/pmag:ranger",
-    "copy-from": "magazine/magpul/pmag",
+    "id": "magazine/magpul/pmag/30:ranger",
+    "copy-from": "magazine/magpul/pmag/30",
     "type": "MAGAZINE",
 
     "name": {
@@ -427,6 +432,7 @@
     "name": {
       "str": "STANAG 60-round drum magazine"
     },
+    "description": "TODO",
 
     "variant_type": "gun",
     "variants": [
@@ -507,6 +513,7 @@
     "name": {
       "str": "STANAG 100-round double drum magazine"
     },
+    "description": "TODO",
 
     "variant_type": "gun",
     "variants": [
