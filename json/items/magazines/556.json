@@ -493,6 +493,21 @@
     "//longest_side": ["7.47 in = 189.74 mm", "Feret distance"],
     "longest_side": "190 mm",
 
+    "pocket_data": [
+      {
+        "pocket_type": "MAGAZINE",
+
+        "rigid": true,
+
+        "allowed_speedloaders": ["clip223_10rd"],
+
+        "ammo_restriction": {
+          "223": 30,
+          "300blk": 30
+        }
+      }
+    ],
+
     "price": "14 USD 95 cent",
     "price_postapoc": "2 USD 50 cent"
   },
