@@ -161,17 +161,20 @@
       }
     ],
 
-    "//volume": "assumed to be the difference between the final volumes of the PMAG (251.04 ml) and the PMAG with the ranger plate (271.17 ml) = 20.13 ml",
-    "volume": "20 ml",
-    "//longest_side": "same as USGI ranger plate",
-    "longest_side": "63 mm",
-
-    "color": "light_gray",
     "//weight": [
       "two sources state roughly the same value between two different models of ranger plates: 52 g / 3 = 17.33 g, or 0.6 oz = 17.01 g",
       "even though this references two different models, we assume the difference between the two is negligible, and thus use the latter value for all ranger plates"
     ],
     "weight": "17 g",
+    "//dimensions": {
+      "area": "1.52 in2",
+      "width": "0.87 in",
+      "raw": "21.67 ml",
+      "trim": 0.25
+    },
+    "volume": "16 ml",
+    "//longest_side": ["2.65 in = 67.31 mm", "Feret distance"],
+    "longest_side": "67 mm",
 
     "material": ["stainless_steel", "rubber"],
 
@@ -226,9 +229,9 @@
       "area": "2.34 in2",
       "width": "0.87 in",
       "raw": "33.36 ml",
-      "trim": 0.025
+      "trim": 0.25
     },
-    "volume": "33 ml",
+    "volume": "25 ml",
     "//longest_side": "2.48 in = 62.99 mm",
     "longest_side": "63 mm",
 
