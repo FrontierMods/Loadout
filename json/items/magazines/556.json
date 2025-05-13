@@ -4,7 +4,26 @@
     "copy-from": "@magazine",
     "type": "MAGAZINE",
 
-    "ammo_type": ["223", "300blk"]
+    "name": {
+      "str": "5.56mm/.300 Blackout magazine"
+    },
+
+    "ammo_type": ["223", "300blk"],
+
+    "pocket_data": [
+      {
+        "pocket_type": "MAGAZINE",
+
+        "rigid": true,
+
+        "allowed_speedloaders": ["clip223_10rd"],
+
+        "ammo_restriction": {
+          "223": 1,
+          "300blk": 1
+        }
+      }
+    ]
   },
 
   {
