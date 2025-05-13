@@ -67,8 +67,8 @@
           "stanag30ranger_beowulf",
           "survivor223mag",
 
-          "magazine/magpul/pmag",
-          "magazine/magpul/pmag:ranger"
+          "magazine/magpul/pmag/30",
+          "magazine/magpul/pmag/30:ranger_plate"
         ]
       ]
     ],
@@ -99,8 +99,8 @@
           "stanag30ranger_beowulf",
           "survivor223mag",
 
-          "magazine/magpul/pmag",
-          "magazine/magpul/pmag:ranger"
+          "magazine/magpul/pmag/30",
+          "magazine/magpul/pmag/30:ranger_plate"
         ]
       }
     ]
@@ -142,8 +142,8 @@
           "stanag30ranger_beowulf",
           "survivor223mag",
 
-          "magazine/magpul/pmag",
-          "magazine/magpul/pmag:ranger"
+          "magazine/magpul/pmag/30",
+          "magazine/magpul/pmag/30:ranger_plate"
         ]
       ]
     ],
@@ -174,8 +174,8 @@
           "stanag30ranger_beowulf",
           "survivor223mag",
 
-          "magazine/magpul/pmag",
-          "magazine/magpul/pmag:ranger"
+          "magazine/magpul/pmag/30",
+          "magazine/magpul/pmag/30:ranger_plate"
         ]
       }
     ]
