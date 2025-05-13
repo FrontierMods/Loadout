@@ -1,0 +1,556 @@
+[
+  {
+    "abstract": "@magazine/556",
+    "copy-from": "@magazine",
+    "type": "MAGAZINE",
+
+    "ammo_type": ["223", "300blk"]
+  },
+
+  {
+    "id": "magazine/magpul/pmag/20",
+    "copy-from": "@magazine/556",
+    "type": "MAGAZINE",
+
+    "//sources": ["https://magpul.com/pmag-20-ar-m4-gen-m3.html"],
+
+    "name": {
+      "str": "PMAG STANAG 20-round magazine"
+    },
+
+    "variant_type": "gun",
+    "variants": [
+      {
+        "id": "black",
+
+        "name": {
+          "str": "Magpul PMAG M3 5.56mm 20-round magazine"
+        },
+        "description": "TODO  <variant:black>",
+        "expand_snippets": true,
+        "weight": 1
+      }
+    ],
+
+    "//weight": "4 oz = 113.4 g",
+    "weight": "113 g",
+    "//dimensions": {
+      "area": "13.24 in2",
+      "width": "0.883 in",
+      "raw": "191.58 ml",
+      "trim": 0
+    },
+    "volume": "192 ml",
+    "//longest_side": "5.75 in = 146.05 mm",
+    "longest_side": "146 mm",
+
+    "material": ["plastic"],
+
+    "pocket_data": [
+      {
+        "pocket_type": "MAGAZINE",
+
+        "rigid": true,
+
+        "allowed_speedloaders": ["clip223_10rd"],
+
+        "ammo_restriction": {
+          "223": 20,
+          "300blk": 20
+        }
+      }
+    ],
+
+    "price": "14 USD 95 cent"
+  },
+  {
+    "id": "magazine/magpul/pmag/20:ranger_plate",
+    "copy-from": "magazine/magpul/pmag/20",
+    "type": "MAGAZINE",
+
+    "name": {
+      "str": "PMAG STANAG 20-round magazine (ranger plate)",
+      "str_pl": "PMAG STANAG 20-round magazines (ranger plate)"
+    },
+
+    "variant_type": "gun",
+    "variants": [
+      {
+        "id": "black",
+
+        "name": {
+          "str": "Magpul PMAG M3 5.56mm 20-round magazine (ranger plate)",
+          "str_pl": "Magpul PMAG M3 5.56mm 20-round magazines (ranger plate)"
+        },
+        "description": "TODO  <variant:black>",
+        "expand_snippets": true,
+        "weight": 1
+      }
+    ],
+
+    "//weight": "20-round PMAG (4 oz = 113.4 g) + PMAG ranger plate (5.67 g) = 119.07 g",
+    "weight": "119 g",
+    "//dimensions": {
+      "area": "13.9 in2",
+      "width": "0.883 in",
+      "raw": "201.13 ml",
+      "trim": 0
+    },
+    "volume": "201 ml",
+    "//longest_side": "6.31 in = 160.27 mm",
+    "longest_side": "160 mm",
+
+    "material": ["plastic"],
+
+    "price": "14 USD 95 cent"
+  },
+  {
+    "id": "magazine/colt/stanag/30",
+    "copy-from": "@magazine/556",
+    "type": "MAGAZINE",
+
+    "//sources": [
+      ["M16 Technical Data Package", "dimensions"],
+      ["TM 05538/10012-IN", "TM 9-1005-319-23&P", "weight"],
+      ["https://en.wikipedia.org/wiki/M16_rifle", "material"],
+      ["https://www.midwayusa.com/product/1021821067?pid=827055", "price"]
+    ],
+
+    "//notes": [
+      "both the Marine M4/M16 manual and the Army one come up with the same value for the magazine's weight",
+      "Colt website lists MidwayUSA as one of the two stores selling authentic Colt parts, so we assume their price is the most authentic"
+    ],
+
+    "name": { "str": "STANAG 30-round magazine" },
+    "description": "A standard capacity 30-round box magazine for use with STANAG compatible rifles.",
+
+    "variant_type": "gun",
+    "variants": [
+      {
+        "id": "steel/black",
+
+        "name": {
+          "str": "Colt M16 30-round magazine"
+        },
+        "description": "A standard capacity 30-round box magazine for use with STANAG compatible rifles.  <variant:steel>  Its follower is all black.",
+        "expand_snippets": true,
+        "weight": 1
+      },
+      {
+        "id": "steel/green",
+
+        "name": {
+          "str": "Colt M16 30-round magazine"
+        },
+        "description": "A standard capacity 30-round box magazine for use with STANAG compatible rifles.  <variant:steel>  Its follower is colored dull green.",
+        "expand_snippets": true,
+        "weight": 1
+      },
+      {
+        "id": "steel/fde",
+
+        "name": {
+          "str": "Colt M16 30-round magazine"
+        },
+        "description": "A standard capacity 30-round box magazine for use with STANAG compatible rifles.  <variant:steel>  Its follower is colored pale brown.",
+        "expand_snippets": true,
+        "weight": 1
+      },
+      {
+        "id": "fde/blue",
+
+        "name": {
+          "str": "Colt M16 30-round magazine"
+        },
+        "description": "A standard capacity 30-round box magazine for use with STANAG compatible rifles.  <variant:fde>  Its follower is blue.",
+        "expand_snippets": true,
+        "weight": 1
+      }
+    ],
+
+    "//material": [
+      "this is a standard-issue Colt magazine, which are made of aluminium"
+    ],
+    "material": ["aluminum"],
+
+    "//weight": "0.25 lbs = 4 oz = 113.4 g",
+    "weight": "113 g",
+    "//dimensions": {
+      "area": "17.18 in2",
+      "width": "0.883 in",
+      "raw": "248.59 ml",
+      "trim": 0
+    },
+    "volume": "249 ml",
+    "//longest_side": ["7.17 in = 182.12 mm", "Feret distance"],
+    "longest_side": "182 mm",
+
+    "pocket_data": [
+      {
+        "pocket_type": "MAGAZINE",
+
+        "rigid": true,
+
+        "allowed_speedloaders": ["clip223_10rd"],
+
+        "ammo_restriction": {
+          "223": 30,
+          "300blk": 30
+        }
+      }
+    ],
+
+    "price": "24 USD 41 cent",
+    "price_postapoc": "2 USD 50 cent"
+  },
+  {
+    "id": "magazine/colt/stanag/30:ranger_plate",
+    "copy-from": "magazine/colt/stanag/30",
+    "type": "MAGAZINE",
+
+    "//sources": [
+      ["M16 Technical Data Package", "dimensions"],
+      ["TM 05538/10012-IN", "TM 9-1005-319-23&P", "weight"],
+      ["https://en.wikipedia.org/wiki/M16_rifle", "material"]
+    ],
+
+    "name": {
+      "str": "STANAG 30-round magazine (ranger plate)",
+      "str_pl": "STANAG 30-round magazines (ranger plate)"
+    },
+
+    "variant_type": "gun",
+    "variants": [
+      {
+        "id": "steel/black",
+
+        "name": {
+          "str": "Colt M16 30-round magazine (ranger plate)",
+          "str_pl": "Colt M16 30-round magazines (ranger plate)"
+        },
+        "description": "A standard capacity 30-round box magazine for use with STANAG compatible rifles.  The bottom has been modified with a ranger plate attachment to allow it to clip to carabiners.  <variant:steel>  Its follower is all black.",
+        "expand_snippets": true,
+        "weight": 1
+      },
+      {
+        "id": "steel/green",
+
+        "name": {
+          "str": "Colt M16 30-round magazine (ranger plate)",
+          "str_pl": "Colt M16 30-round magazines (ranger plate)"
+        },
+        "description": "A standard capacity 30-round box magazine for use with STANAG compatible rifles.  The bottom has been modified with a ranger plate attachment to allow it to clip to carabiners.  <variant:steel>  Its follower is colored dull green.",
+        "expand_snippets": true,
+        "weight": 1
+      },
+      {
+        "id": "steel/fde",
+
+        "name": {
+          "str": "Colt M16 30-round magazine (ranger plate)",
+          "str_pl": "Colt M16 30-round magazines (ranger plate)"
+        },
+        "description": "A standard capacity 30-round box magazine for use with STANAG compatible rifles.  The bottom has been modified with a ranger plate attachment to allow it to clip to carabiners.  <variant:steel>  Its follower is colored pale brown.",
+        "expand_snippets": true,
+        "weight": 1
+      },
+      {
+        "id": "fde/blue",
+
+        "name": {
+          "str": "Colt M16 30-round magazine (ranger plate)",
+          "str_pl": "Colt M16 30-round magazines (ranger plate)"
+        },
+        "description": "A standard capacity 30-round box magazine for use with STANAG compatible rifles.  The bottom has been modified with a ranger plate attachment to allow it to clip to carabiners.  <variant:fde>  Its follower is blue.",
+        "expand_snippets": true,
+        "weight": 1
+      }
+    ],
+
+    "material": ["aluminum", "stainless_steel", "rubber"],
+
+    "//weight": "STANAG magazine (113.4 g) + USGI ranger plate (5.67 g) = 119.07 g",
+    "weight": "119 g",
+    "//dimensions": {
+      "area": "19.30 in2",
+      "width": "0.883 in",
+      "raw": "279.27 ml",
+      "trim": 0
+    },
+    "volume": "279 ml",
+    "//longest_side": ["8.16 in = 207.26 mm", "Feret distance"],
+    "longest_side": "207 mm",
+
+    "//price": "price of the Colt M16 magazine (24 USD 41 cents) + price of a single ranger plate (8 USD 33 cents)",
+    "price": "32 USD 74 cent",
+    "price_postapoc": "2 USD 60 cent"
+  },
+
+  {
+    "id": "magazine/magpul/pmag",
+    "copy-from": "@magazine/556",
+    "type": "MAGAZINE",
+
+    "//sources": [
+      "https://magpul.com/pmag-30-ar-m4-gen-m3.html",
+      [
+        "https://www.trex-arms.com/store/MAGPUL-ARM4-PMAG/",
+        "weight",
+        "dimensions"
+      ]
+    ],
+
+    "//notes": [
+      [
+        "area sans baseplate: 17.36 in2",
+        "Feret distance sans baseplate: 7.35 in"
+      ],
+      [
+        "Soldier Systems lists the weight of an empty PMAG to be 4.9 oz = 138.9 g",
+        "https://soldiersystems.net/2015/12/07/magpul-pmag-d-60-comparison/"
+      ]
+    ],
+
+    "name": { "str": "PMAG STANAG 30-round magazine" },
+    "description": "A polymer magazine for the STANAG-compatible rifles.  It looks *really* cool.",
+
+    "variant_type": "gun",
+    "variants": [
+      {
+        "id": "black",
+
+        "name": {
+          "str": "Magpul PMAG M3 5.56mm 30-round magazine"
+        },
+        "description": "TODO  <variant:black>",
+        "expand_snippets": true,
+        "weight": 1
+      },
+      {
+        "id": "fde",
+
+        "name": {
+          "str": "Magpul PMAG M3 5.56mm 30-round magazine"
+        },
+        "description": "TODO  <variant:fde>",
+        "expand_snippets": true,
+        "weight": 1
+      }
+    ],
+
+    "material": ["plastic"],
+
+    "//weight": "5.1 oz = 144.58 g",
+    "weight": "145 g",
+    "//dimensions": {
+      "area": "18.06 in2",
+      "width": "0.87 in",
+      "raw": "257.48 ml",
+      "trim": 0.05
+    },
+    "volume": "251 ml",
+    "//longest_side": ["7.47 in = 189.74 mm", "Feret distance"],
+    "longest_side": "190 mm",
+
+    "price": "14 USD 95 cent",
+    "price_postapoc": "2 USD 50 cent"
+  },
+  {
+    "id": "magazine/magpul/pmag:ranger",
+    "copy-from": "magazine/magpul/pmag",
+    "type": "MAGAZINE",
+
+    "name": {
+      "str": "PMAG STANAG 30-round magazine (ranger plate)",
+      "str_pl": "PMAG STANAG 30-round magazines (ranger plate)"
+    },
+    "description": "TODO",
+
+    "variant_type": "gun",
+    "variants": [
+      {
+        "id": "black",
+
+        "name": {
+          "str": "Magpul PMAG M3 5.56mm 30-round magazine (ranger plate)",
+          "str_pl": "Magpul PMAG M3 5.56mm 30-round magazines (ranger plate)"
+        },
+        "description": "TODO  <variant:black>",
+        "expand_snippets": true,
+        "weight": 1
+      },
+      {
+        "id": "fde",
+
+        "name": {
+          "str": "Magpul PMAG M3 5.56mm 30-round magazine (ranger plate)",
+          "str_pl": "Magpul PMAG M3 5.56mm 30-round magazines (ranger plate)"
+        },
+        "description": "TODO  <variant:fde>",
+        "expand_snippets": true,
+        "weight": 1
+      }
+    ],
+
+    "material": ["plastic", "stainless_steel", "rubber"],
+
+    "//weight": "PMAG (5.1 oz = 144.58 g) - baseplate (12.6 g) + ranger plate (5.67 g) = 162.85 g",
+    "weight": "163 g",
+    "//dimensions": {
+      "area": "19.71 in2",
+      "width": "0.87 in",
+      "raw": "281 ml",
+      "trim": 0.035
+    },
+    "volume": "271 ml",
+    "//longest_side": "8.33 in = 211.58 mm",
+    "longest_side": "190 mm",
+
+    "//price": "price of the PMAG magazine (14 USD 95 cents) + price of a single ranger plate (8 USD 33 cents)",
+    "price": "23 USD 28 cent",
+    "price_postapoc": "2 USD 60 cent"
+  },
+
+  {
+    "id": "magazine/magpul/pmag/d-60",
+    "copy-from": "@magazine/556",
+    "type": "MAGAZINE",
+
+    "//sources": [
+      "https://magpul.com/pmag-d-60-ar-m4-gen-m3.html",
+      [
+        "https://soldiersystems.net/2015/12/07/magpul-pmag-d-60-comparison/",
+        "weight"
+      ]
+    ],
+
+    "name": {
+      "str": "STANAG 60-round drum magazine"
+    },
+
+    "variant_type": "gun",
+    "variants": [
+      {
+        "id": "black",
+
+        "name": {
+          "str": "Magpul PMAG D-60 magazine"
+        },
+        "description": "TODO  <variant:black>",
+        "expand_snippets": true,
+        "weight": 1
+      }
+    ],
+
+    "//weight": [
+      "20 oz = 566.99 g",
+      "it appears as though there is a typo on the manufacturer's website, citing regular weight to be 20.5 oz = 581.36 g",
+      "weight with dust cover is also listed as 20.5 oz",
+      "we presume the Soldier Systems number to be correct"
+    ],
+    "weight": "567 g",
+    "//dimensions": {
+      "area": "17.14 in2",
+      "width": "3.85 in",
+      "raw": "1081.37 ml",
+      "trim": 0.05,
+      "notes": [
+        "width acquired from visual reference",
+        "trim is for the small empty area in front of the tower"
+      ]
+    },
+    "volume": "1027 ml",
+    "longest_side": "188 mm",
+
+    "reload_time": 150,
+
+    "pocket_data": [
+      {
+        "pocket_type": "MAGAZINE",
+
+        "rigid": true,
+
+        "allowed_speedloaders": ["clip223_10rd"],
+
+        "ammo_restriction": {
+          "223": 60,
+          "300blk": 60
+        }
+      }
+    ],
+
+    "price": "134 USD 95 cent",
+    "price_postapoc": "5 USD"
+  },
+
+  {
+    "id": "magazine/beta/c-mag/m16",
+    "copy-from": "@magazine/556",
+    "type": "MAGAZINE",
+
+    "//sources": [
+      [
+        "https://spartanat.com/en/review-drum-magazines-magpul-d60-vs-beta-c-clone",
+        "weight"
+      ],
+      ["https://betaco.com/technical-manuals/", "dimensions"],
+      [
+        "https://web.archive.org/web/20240223201647/https://betaco.com/c-mag-systems/5-56mm/m16-m4/",
+        "price"
+      ]
+    ],
+
+    "//notes": [
+      "this item's ID could end in `stanag` instead of `m16`, but the item is based of a specific model labeled 'M16/M4', which is sufficiently dimensionally different from the STANAG model that we have to be specific"
+    ],
+
+    "name": {
+      "str": "STANAG 100-round double drum magazine"
+    },
+
+    "variant_type": "gun",
+    "variants": [
+      {
+        "id": "black",
+
+        "name": {
+          "str": "Beta C-Mag 100-round 5.56mm double-drum magazine"
+        },
+        "description": "TODO  <variant:black>",
+        "expand_snippets": true,
+        "weight": 1
+      }
+    ],
+
+    "weight": "1040 g",
+    "//dimensions": {
+      "area": "22288.87 mm2",
+      "width": "79.5 mm",
+      "raw": "1771.97 ml",
+      "trim": 0
+    },
+    "volume": "1772 ml",
+    "//longest_side": "from given dimensions",
+    "longest_side": "250 mm",
+
+    "reload_time": 200,
+
+    "pocket_data": [
+      {
+        "pocket_type": "MAGAZINE",
+
+        "rigid": true,
+
+        "allowed_speedloaders": ["clip223_10rd"],
+
+        "ammo_restriction": {
+          "223": 100,
+          "300blk": 100
+        }
+      }
+    ],
+
+    "price": "264 USD",
+    "price_postapoc": "10 USD"
+  }
+]
