@@ -129,7 +129,7 @@
   },
 
   {
-    "result": "magazine/magpul/pmag/30:ranger",
+    "result": "magazine/magpul/pmag/30:ranger_plate",
     "type": "recipe",
 
     "category": "CC_WEAPON",
@@ -165,7 +165,7 @@
 
     "//qualities": [{ "id": "PUSH", "level": 1 }],
     "components": [
-      [["magazine/magpul/pmag/30:ranger", 1]],
+      [["magazine/magpul/pmag/30:ranger_plate", 1]],
       [["baseplate/magpul/pmag", 1]]
     ],
     "byproducts": [["baseplate/magpul/ranger", 1]]
