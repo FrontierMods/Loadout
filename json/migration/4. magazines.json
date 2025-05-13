@@ -1,0 +1,54 @@
+[
+  {
+    "//": [
+      "no state in New England restricts magazine capacity below 10 rounds",
+      "the sole restrictor in the region is MA, with 10-round limits on all magazines",
+      "aside from that all of the magazines on the market are 10-rounders restricted down to 5 rounds anyway",
+      "Magpul sells magazine limiters, which are easy to remove with very little tooling"
+    ],
+    "id": ["stanag5"],
+    "type": "MIGRATION",
+    "replace": "stanag10"
+  },
+
+  {
+    "id": ["stanag10"],
+    "type": "MIGRATION",
+    "replace": "magazine/magpul/pmag/10"
+  },
+  {
+    "id": ["stanag10ranger"],
+    "type": "MIGRATION",
+    "replace": "magazine/magpul/pmag/10:ranger_plate"
+  },
+  {
+    "id": ["stanag20"],
+    "type": "MIGRATION",
+    "replace": "magazine/magpul/pmag/20"
+  },
+  {
+    "id": ["stanag20ranger"],
+    "type": "MIGRATION",
+    "replace": "magazine/magpul/pmag/20:ranger_plate"
+  },
+  {
+    "id": ["stanag30"],
+    "type": "MIGRATION",
+    "replace": "magazine/colt/stanag/30"
+  },
+  {
+    "id": ["stanag30ranger"],
+    "type": "MIGRATION",
+    "replace": "magazine/colt/stanag/30:ranger_plate"
+  },
+  {
+    "id": ["stanag60drum"],
+    "type": "MIGRATION",
+    "replace": "magazine/magpul/pmag/d-60"
+  },
+  {
+    "id": ["stanag100drum"],
+    "type": "MIGRATION",
+    "replace": "magazine/beta/c-mag/m16"
+  }
+]
