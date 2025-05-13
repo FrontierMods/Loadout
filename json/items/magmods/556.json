@@ -27,7 +27,7 @@
     ],
 
     "//weight": ["estimated based on the weight of the PMAG baseplate"],
-    "weight": "2 g",
+    "weight": "10 g",
     "//dimensions": {
       "area": "1.91 in2",
       "width": "0.04 in",
@@ -50,7 +50,7 @@
 
     "//sources": [
       [
-        "https://www.ar15.com/forums/ar-15/mag_weights/17-436974/?",
+        "https://www.amazon.com/Magpul-PMAG-Floor-Plate-Pack/dp/B07K55YYHX",
         "weight reference"
       ],
       ["https://magpul.com/pmag-30-ar-m4-gen-m3.html", "visual reference"]
@@ -88,10 +88,11 @@
     ],
 
     "//weight": [
-      "PMAG with window (5.3 oz) - PMAG w/ window and ranger plate (5.5 oz) = 0.2 oz = 5.67 g",
-      "we can surmise that a much smaller original plate would weight even less, so we dividethe result by 3 = 1.89 g"
+      "0.11 lbs = 49.9 g",
+      "we assume that the value is given per 5 plates in the package",
+      "49.9 g / 5 = 9.98 g"
     ],
-    "weight": "2 g",
+    "weight": "10 g",
     "//dimensions": {
       "area": "0.75 in2",
       "width": "0.87 in",
@@ -115,8 +116,9 @@
     "//sources": [
       "https://magpul.com/pmagrangerplate-genm35-56x45-3pack.html",
       [
-        "https://www.ar15.com/forums/ar-15/mag_weights/17-436974/?",
-        "weight reference"
+        "https://www.armamat.ch/en-ch/p/pmag-gen-m3-ranger-plate-3-pack-103802/",
+        "https://www.varusteleka.com/en/product/magpul-pmag-ranger-plate-ak-akm-3-pack/68659",
+        "weight"
       ],
       [
         "https://www.armamat.com/en/p/usgi-ranger-floorplate-3-pack-102951/",
@@ -155,14 +157,17 @@
       }
     ],
 
-    "//weight": "PMAG with window (5.3 oz) - PMAG w/ window and ranger plate (5.5 oz) = 0.2 oz = 5.6699 g",
-    "weight": "6 g",
     "//volume": "assumed to be the difference between the final volumes of the PMAG (251.04 ml) and the PMAG with the ranger plate (271.17 ml) = 20.13 ml",
     "volume": "20 ml",
     "//longest_side": "same as USGI ranger plate",
     "longest_side": "63 mm",
 
     "color": "light_gray",
+    "//weight": [
+      "two sources state roughly the same value between two different models of ranger plates: 52 g / 3 = 17.33 g, or 0.6 oz = 17.01 g",
+      "even though this references two different models, we assume the difference between the two is negligible, and thus use the latter value for all ranger plates"
+    ],
+    "weight": "17 g",
 
     "material": ["stainless_steel", "rubber"],
 
@@ -213,7 +218,7 @@
     ],
 
     "//weight": "presuming the same weight as the PMAG ranger plate",
-    "weight": "6 g",
+    "weight": "17 g",
     "//dimensions": {
       "area": "2.34 in2",
       "width": "0.87 in",
