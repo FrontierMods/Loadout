@@ -68,7 +68,7 @@
     "weight": "85 g",
     "//dimensions": {
       "area": "8.65 in2",
-      "width": "0.883 in",
+      "width": "0.87 in",
       "raw": "125.16 ml",
       "trim": 0
     },
@@ -126,11 +126,11 @@
     "weight": "92 g",
     "//dimensions": {
       "area": "9.87 in2",
-      "width": "0.883 in",
+      "width": "0.87 in",
       "raw": "142.82 ml",
-      "trim": 0
+      "trim": 0.02
     },
-    "volume": "143 ml",
+    "volume": "140 ml",
     "//longest_side": "4.83 in = 122.68 mm",
     "longest_side": "123 mm",
 
@@ -173,7 +173,7 @@
     "weight": "116 g",
     "//dimensions": {
       "area": "13.24 in2",
-      "width": "0.883 in",
+      "width": "0.87 in",
       "raw": "191.58 ml",
       "trim": 0
     },
@@ -230,11 +230,11 @@
     "weight": "123 g",
     "//dimensions": {
       "area": "13.9 in2",
-      "width": "0.883 in",
+      "width": "0.87 in",
       "raw": "201.13 ml",
-      "trim": 0
+      "trim": 0.02
     },
-    "volume": "201 ml",
+    "volume": "197 ml",
     "//longest_side": "6.31 in = 160.27 mm",
     "longest_side": "160 mm",
 
@@ -416,9 +416,9 @@
       "area": "19.30 in2",
       "width": "0.883 in",
       "raw": "279.27 ml",
-      "trim": 0
+      "trim": 0.02
     },
-    "volume": "279 ml",
+    "volume": "274 ml",
     "//longest_side": ["8.16 in = 207.26 mm", "Feret distance"],
     "longest_side": "207 mm",
 
@@ -487,9 +487,9 @@
       "area": "18.06 in2",
       "width": "0.87 in",
       "raw": "257.48 ml",
-      "trim": 0.05
+      "trim": 0
     },
-    "volume": "251 ml",
+    "volume": "258 ml",
     "//longest_side": ["7.47 in = 189.74 mm", "Feret distance"],
     "longest_side": "190 mm",
 
@@ -541,9 +541,9 @@
       "area": "19.71 in2",
       "width": "0.87 in",
       "raw": "281 ml",
-      "trim": 0.035
+      "trim": 0.02
     },
-    "volume": "271 ml",
+    "volume": "275 ml",
     "//longest_side": "8.33 in = 211.58 mm",
     "longest_side": "190 mm",
 
