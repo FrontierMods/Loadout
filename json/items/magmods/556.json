@@ -1,0 +1,234 @@
+[
+  {
+    "id": "baseplate/colt/stanag",
+    "type": "GENERIC",
+
+    "//sources": ["M4 Technical Data Package"],
+
+    "name": {
+      "str": "STANAG magazine baseplate"
+    },
+    "description": "A thin aluminum plate with a curved edge, usually sitting at the bottom of a magazine.  You can use it to replace the baseplate of a modified magazine.",
+
+    "symbol": "/",
+
+    "variant_type": "gun",
+    "variants": [
+      {
+        "id": "steel",
+
+        "name": {
+          "str": "STANAG magazine baseplate"
+        },
+        "description": "TODO  <variant:steel>",
+        "expand_snippets": true,
+        "weight": 1
+      }
+    ],
+
+    "//weight": ["estimated based on the weight of the PMAG baseplate"],
+    "weight": "2 g",
+    "//dimensions": {
+      "area": "1.91 in2",
+      "width": "0.04 in",
+      "raw": "1.25 ml",
+      "trim": 0
+    },
+    "volume": "1 ml",
+    "//longest_side": "2.59 in = 65.79 mm",
+    "longest_side": "66 mm",
+
+    "color": "light_gray",
+
+    "material": ["aluminum"],
+
+    "price": "1 cent"
+  },
+  {
+    "id": "baseplate/magpul/pmag",
+    "type": "GENERIC",
+
+    "//sources": [
+      [
+        "https://www.ar15.com/forums/ar-15/mag_weights/17-436974/?",
+        "weight reference"
+      ],
+      ["https://magpul.com/pmag-30-ar-m4-gen-m3.html", "visual reference"]
+    ],
+
+    "name": {
+      "str": "PMAG magazine baseplate"
+    },
+    "description": "A thin plastic plate with curved edges, usually sitting at the bottom of a magazine.  You can use it to replace the baseplate of a modified magazine.",
+
+    "symbol": "/",
+
+    "variant_type": "gun",
+    "variants": [
+      {
+        "id": "black",
+
+        "name": {
+          "str": "Magpul PMAG baseplate"
+        },
+        "description": "TODO  <variant:black>",
+        "expand_snippets": true,
+        "weight": 1
+      },
+      {
+        "id": "fde",
+
+        "name": {
+          "str": "Magpul PMAG baseplate"
+        },
+        "description": "TODO  <variant:fde>",
+        "expand_snippets": true,
+        "weight": 1
+      }
+    ],
+
+    "//weight": [
+      "PMAG with window (5.3 oz) - PMAG w/ window and ranger plate (5.5 oz) = 0.2 oz = 5.67 g",
+      "we can surmise that a much smaller original plate would weight even less, so we dividethe result by 3 = 1.89 g"
+    ],
+    "weight": "2 g",
+    "//dimensions": {
+      "area": "0.75 in2",
+      "width": "0.87 in",
+      "raw": "10.69 ml",
+      "trim": 0.7
+    },
+    "volume": "3 ml",
+    "//longest_side": "2.63 in = 66.8 mm",
+    "longest_side": "67 mm",
+
+    "color": "light_gray",
+
+    "material": ["plastic"],
+
+    "price": "5 cent"
+  },
+  {
+    "id": "baseplate/magpul/ranger",
+    "type": "GENERIC",
+
+    "//sources": [
+      "https://magpul.com/pmagrangerplate-genm35-56x45-3pack.html",
+      [
+        "https://www.ar15.com/forums/ar-15/mag_weights/17-436974/?",
+        "weight reference"
+      ],
+      [
+        "https://www.armamat.com/en/p/usgi-ranger-floorplate-3-pack-102951/",
+        "materials"
+      ]
+    ],
+
+    "name": {
+      "str": "PMAG magazine ranger plate"
+    },
+    "description": "A plastic loop with curved edges, usually sitting at the bottom of a magazine.  You can use it to replace the baseplate of a modified magazine.",
+
+    "symbol": "/",
+
+    "variant_type": "gun",
+    "variants": [
+      {
+        "id": "black",
+
+        "name": {
+          "str": "Magpul PMAG ranger plate"
+        },
+        "description": "TODO  <variant:black>",
+        "expand_snippets": true,
+        "weight": 1
+      },
+      {
+        "id": "fde",
+
+        "name": {
+          "str": "Magpul PMAG ranger plate"
+        },
+        "description": "TODO  <variant:fde>",
+        "expand_snippets": true,
+        "weight": 1
+      }
+    ],
+
+    "//weight": "PMAG with window (5.3 oz) - PMAG w/ window and ranger plate (5.5 oz) = 0.2 oz = 5.6699 g",
+    "weight": "6 g",
+    "//volume": "assumed to be the difference between the final volumes of the PMAG (251.04 ml) and the PMAG with the ranger plate (271.17 ml) = 20.13 ml",
+    "volume": "20 ml",
+    "//longest_side": "same as USGI ranger plate",
+    "longest_side": "63 mm",
+
+    "color": "light_gray",
+
+    "material": ["stainless_steel", "rubber"],
+
+    "//price": "we assume the price is for three pieces",
+    "price": "8 USD 33 cent"
+  },
+  {
+    "id": "baseplate/magpul/ranger/usgi",
+    "type": "GENERIC",
+
+    "//sources": [
+      "https://magpul.com/rangerplate-usgi5-56x45-3pack.html",
+      [
+        "https://tacticalproductscanada.com/products/mpimag020b-magpul-ranger-floor-plate-5-56-nato-3-pack-mag020",
+        "visual reference"
+      ]
+    ],
+
+    "name": {
+      "str": "STANAG magazine ranger plate"
+    },
+    "description": "TODO",
+
+    "symbol": "/",
+
+    "variant_type": "gun",
+    "variants": [
+      {
+        "id": "black",
+
+        "name": {
+          "str": "Magpul USGI ranger plate"
+        },
+        "description": "TODO  <variant:black>",
+        "expand_snippets": true,
+        "weight": 1
+      },
+      {
+        "id": "fde",
+
+        "name": {
+          "str": "Magpul USGI ranger plate"
+        },
+        "description": "TODO  <variant:fde>",
+        "expand_snippets": true,
+        "weight": 1
+      }
+    ],
+
+    "//weight": "presuming the same weight as the PMAG ranger plate",
+    "weight": "6 g",
+    "//dimensions": {
+      "area": "2.34 in2",
+      "width": "0.87 in",
+      "raw": "33.36 ml",
+      "trim": 0.025
+    },
+    "volume": "33 ml",
+    "//longest_side": "2.48 in = 62.99 mm",
+    "longest_side": "63 mm",
+
+    "color": "light_gray",
+
+    "material": ["stainless_steel", "rubber"],
+
+    "//price": "we assume the price is for three pieces",
+    "price": "8 USD 33 cent"
+  }
+]
