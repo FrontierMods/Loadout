@@ -60,5 +60,14 @@
     "flags": ["BELTED", "OVERSIZE", "WATER_FRIENDLY", "GUN_SLING"],
 
     "price_postapoc": "50 cent"
+  },
+  {
+    "abstract": "@magazine",
+    "type": "MAGAZINE",
+
+    "name": { "str": "magazine" },
+
+    "symbol": "#",
+    "color": "light_gray"
   }
 ]
