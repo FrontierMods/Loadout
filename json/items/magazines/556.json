@@ -8,6 +8,113 @@
   },
 
   {
+    "id": "magazine/magpul/pmag/10",
+    "copy-from": "@magazine/556",
+    "type": "MAGAZINE",
+
+    "//sources": ["https://magpul.com/pmag-10-ar-m4-gen-m3.html"],
+
+    "//notes": [
+      "area sans base plate: 7.87 in2",
+      "feret distance sans base plate: 4.13 in"
+    ],
+
+    "name": {
+      "str": "PMAG STANAG 10-round magazine"
+    },
+    "description": "TODO",
+
+    "variant_type": "gun",
+    "variants": [
+      {
+        "id": "black",
+
+        "name": {
+          "str": "Magpul PMAG M3 5.56mm 10-round magazine"
+        },
+        "description": "TODO  <variant:black>",
+        "expand_snippets": true,
+        "weight": 1
+      }
+    ],
+
+    "//weight": "3 oz = 85.05 g",
+    "weight": "85 g",
+    "//dimensions": {
+      "area": "8.65 in2",
+      "width": "0.883 in",
+      "raw": "125.16 ml",
+      "trim": 0
+    },
+    "volume": "125 ml",
+    "//longest_side": "4.19 in = 106.43 mm",
+    "longest_side": "106 mm",
+
+    "material": ["plastic"],
+
+    "pocket_data": [
+      {
+        "pocket_type": "MAGAZINE",
+
+        "rigid": true,
+
+        "allowed_speedloaders": ["clip223_10rd"],
+
+        "ammo_restriction": {
+          "223": 10,
+          "300blk": 10
+        }
+      }
+    ],
+
+    "price": "14 USD 95 cent",
+    "price_postapoc": "2 USD 50 cent"
+  },
+  {
+    "id": "magazine/magpul/pmag/10:ranger_plate",
+    "copy-from": "magazine/magpul/pmag/10",
+    "type": "MAGAZINE",
+
+    "name": {
+      "str": "PMAG STANAG 10-round magazine (ranger plate)",
+      "str_pl": "PMAG STANAG 10-round magazines (ranger plate)"
+    },
+    "description": "TODO",
+
+    "variant_type": "gun",
+    "variants": [
+      {
+        "id": "black",
+
+        "name": {
+          "str": "Magpul PMAG M3 5.56mm 10-round magazine (ranger plate)",
+          "str_pl": "Magpul PMAG M3 5.56mm 10-round magazines (ranger plate)"
+        },
+        "description": "TODO  <variant:black>",
+        "expand_snippets": true,
+        "weight": 1
+      }
+    ],
+
+    "//weight": "10-round PMAG (3 oz = 85.05 g) + PMAG ranger plate (5.67 g) = 90.72 g",
+    "weight": "91 g",
+    "//dimensions": {
+      "area": "9.87 in2",
+      "width": "0.883 in",
+      "raw": "142.82 ml",
+      "trim": 0
+    },
+    "volume": "143 ml",
+    "//longest_side": "4.83 in = 122.68 mm",
+    "longest_side": "123 mm",
+
+    "material": ["plastic"],
+
+    "//price": "price of the 10-round PMAG (14 USD 95 cent) + price of a single ranger plate (8 USD 33 cents) = 23 USD 28 cent",
+    "price": "23 USD 28 cent",
+    "price_postapoc": "2 USD 60 cent"
+  },
+  {
     "id": "magazine/magpul/pmag/20",
     "copy-from": "@magazine/556",
     "type": "MAGAZINE",
