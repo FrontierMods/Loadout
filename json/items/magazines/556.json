@@ -57,7 +57,14 @@
       }
     ],
 
-    "//weight": "3 oz = 85.05 g",
+    "//weight": [
+      "manufacturer's website claims 3 oz = 85.05 g",
+      "RifleMags.co.uk (https://riflemags.co.uk/magpul-pmag-10-round-ar-m4-gen-m3-5-56x45-223-magazine/): 101 g",
+      "e-militaria (https://e-militaria.eu/24117-magpul-pmag-10-arm4-gen-m3-magazine-black-mag559-blk-873750006192.html): 84 g, not far off from the original claim",
+      "Bushmaster (https://www.bushmaster.com/shop/magazines/magpul-pmag-10-ar-m4-gen-m3-5-56x45-black/): 0.2 lbs = 90.72 g in the description, but 3 oz in the stats",
+      "Smith & Edwards (https://www.smithandedwards.com/products/magpul--pmag-ar-m4-gen3-10-round-magazine-8027.html): 0.23 lbs = 104.33 g",
+      "we stick with the Magpul's value until a trustworthy review either confirms or challenges it"
+    ],
     "weight": "85 g",
     "//dimensions": {
       "area": "8.65 in2",
@@ -115,8 +122,8 @@
       }
     ],
 
-    "//weight": "10-round PMAG (3 oz = 85.05 g) + PMAG ranger plate (5.67 g) = 90.72 g",
-    "weight": "91 g",
+    "//weight": "10-round PMAG (3 oz = 85.05 g) - baseplate (9.98 g) + ranger plate (17.01 g) = 92.08 g",
+    "weight": "92 g",
     "//dimensions": {
       "area": "9.87 in2",
       "width": "0.883 in",
@@ -138,7 +145,10 @@
     "copy-from": "@magazine/556",
     "type": "MAGAZINE",
 
-    "//sources": ["https://magpul.com/pmag-20-ar-m4-gen-m3.html"],
+    "//sources": [
+      "https://magpul.com/pmag-20-ar-m4-gen-m3.html",
+      ["https://www.trex-arms.com/store/MAGPUL-ARM4-PMAG/", "weight"]
+    ],
 
     "name": {
       "str": "PMAG STANAG 20-round magazine"
@@ -159,8 +169,8 @@
       }
     ],
 
-    "//weight": "4 oz = 113.4 g",
-    "weight": "113 g",
+    "//weight": "4.1 oz = 116.24 g",
+    "weight": "116 g",
     "//dimensions": {
       "area": "13.24 in2",
       "width": "0.883 in",
@@ -216,8 +226,8 @@
       }
     ],
 
-    "//weight": "20-round PMAG (4 oz = 113.4 g) + PMAG ranger plate (5.67 g) = 119.07 g",
-    "weight": "119 g",
+    "//weight": "20-round PMAG (4.1 oz = 116.24 g) - baseplate (9.98 g) + ranger plate (17.01 g) = 123.27 g",
+    "weight": "123 g",
     "//dimensions": {
       "area": "13.9 in2",
       "width": "0.883 in",
@@ -400,8 +410,8 @@
 
     "material": ["aluminum", "stainless_steel", "rubber"],
 
-    "//weight": "STANAG magazine (113.4 g) + USGI ranger plate (5.67 g) = 119.07 g",
-    "weight": "119 g",
+    "//weight": "STANAG magazine (4 oz = 113.4 g) - baseplate (9.98 g) + USGI ranger plate (17.01 g) = 120.43 g",
+    "weight": "120 g",
     "//dimensions": {
       "area": "19.30 in2",
       "width": "0.883 in",
@@ -525,8 +535,8 @@
 
     "material": ["plastic", "stainless_steel", "rubber"],
 
-    "//weight": "PMAG (5.1 oz = 144.58 g) - baseplate (12.6 g) + ranger plate (5.67 g) = 162.85 g",
-    "weight": "163 g",
+    "//weight": "30-round PMAG (5.1 oz = 144.58 g) - baseplate (9.98 g) + ranger plate (17.01 g) = 151.61 g",
+    "weight": "152 g",
     "//dimensions": {
       "area": "19.71 in2",
       "width": "0.87 in",
@@ -621,11 +631,7 @@
     "type": "MAGAZINE",
 
     "//sources": [
-      [
-        "https://spartanat.com/en/review-drum-magazines-magpul-d60-vs-beta-c-clone",
-        "weight"
-      ],
-      ["https://betaco.com/technical-manuals/", "dimensions"],
+      ["https://betaco.com/technical-manuals/", "dimensions", "weight"],
       [
         "https://web.archive.org/web/20240223201647/https://betaco.com/c-mag-systems/5-56mm/m16-m4/",
         "price"
@@ -655,7 +661,8 @@
       }
     ],
 
-    "weight": "1040 g",
+    "//weight": "2.2 lbs = 997.9 g",
+    "weight": "998 g",
     "//dimensions": {
       "area": "22288.87 mm2",
       "width": "79.5 mm",
