@@ -1,78 +1,6 @@
 [
   {
-    "//": "SECTION 1: Migrate obsoleted variants to base items",
-
-    "id": ["muzzle_brake_mod"],
-    "type": "MIGRATION",
-    "replace": "muzzle_brake"
-  },
-  {
-    "id": ["offset_sights_mod"],
-    "type": "MIGRATION",
-    "replace": "offset_sights"
-  },
-  {
-    "id": ["offset_sight_rail_mod"],
-    "type": "MIGRATION",
-    "replace": "offset_sight_rail"
-  },
-  {
-    "id": ["rifle_scope_mod"],
-    "type": "MIGRATION",
-    "replace": "rifle_scope"
-  },
-  {
-    "id": ["acog_scope_mod"],
-    "type": "MIGRATION",
-    "replace": "acog_scope"
-  },
-  {
-    "id": ["bipod_mod"],
-    "type": "MIGRATION",
-    "replace": "bipod"
-  },
-  {
-    "id": ["grip_mod"],
-    "type": "MIGRATION",
-    "replace": "grip"
-  },
-  {
-    "id": ["m203_mod"],
-    "type": "MIGRATION",
-    "replace": "m203"
-  },
-  {
-    "id": ["m320_mod_mod"],
-    "type": "MIGRATION",
-    "replace": "m320_mod"
-  },
-  {
-    "id": ["masterkey_mod"],
-    "type": "MIGRATION",
-    "replace": "masterkey"
-  },
-  {
-    "id": ["m26_mass_mod"],
-    "type": "MIGRATION",
-    "replace": "m26_mass"
-  },
-  {
-    "id": ["rm121aux_mod"],
-    "type": "MIGRATION",
-    "replace": "rm121aux"
-  },
-  {
-    "id": ["retool_ar15_450_short"],
-    "//": [
-      "the 7.5-inch assembly appears to be so exceedingly rare that very few stores even sell it",
-      "this includes whatever apparent upper from Bear Creek Arsenal the original PR introduced it from"
-    ],
-    "type": "MIGRATION",
-    "replace": "retool_ar15_450_medium"
-  },
-
-  {
-    "//": "SECTION 2: Actual Loadout migrations",
+    "//": "actual Loadout gunmod migrations",
 
     "id": ["red_dot_sight"],
     "type": "MIGRATION",
@@ -270,72 +198,6 @@
   },
 
   {
-    "id": ["retool_ar15_223rem_short"],
-    "type": "MIGRATION",
-    "replace": "upper_receiver/ar15/556/10.3in/lmt/cqbr"
-  },
-  {
-    "id": ["retool_ar15_223rem"],
-    "type": "MIGRATION",
-    "replace": "upper_receiver/ar15/556/16in/aero/mod_4"
-  },
-  {
-    "id": ["retool_ar15_223rem_medium"],
-    "type": "MIGRATION",
-    "replace": "upper_receiver/ar15/556/14.5in/colt/m4a1"
-  },
-  {
-    "id": ["retool_ar15_223rem_extended"],
-    "type": "MIGRATION",
-    "replace": "upper_receiver/ar15/556/20in/colt/m16a3"
-  },
-  {
-    "id": ["retool_ar15_300blk_short"],
-    "type": "MIGRATION",
-    "replace": "upper_receiver/ar15/300blk/7.5in/bca/bc15"
-  },
-  {
-    "id": ["retool_ar15_300blk_medium"],
-    "type": "MIGRATION",
-    "replace": "upper_receiver/ar15/300blk/10.5in/ba/atlas"
-  },
-  {
-    "id": ["retool_ar15_300blk"],
-    "type": "MIGRATION",
-    "replace": "upper_receiver/ar15/300blk/16in/bca/bc15"
-  },
-  {
-    "id": ["retool_ar15_450_medium"],
-    "type": "MIGRATION",
-    "replace": "upper_receiver/ar15/450/10.5in/bca/bc15"
-  },
-  {
-    "id": ["retool_ar15_450"],
-    "type": "MIGRATION",
-    "replace": "upper_receiver/ar15/450/18in/bca/bc15"
-  },
-  {
-    "id": ["retool_ar15_50beowulf_short"],
-    "type": "MIGRATION",
-    "replace": "upper_receiver/ar15/50beowulf/10.5in/bca/bc15"
-  },
-  {
-    "id": ["retool_ar15_50beowulf_medium"],
-    "type": "MIGRATION",
-    "replace": "upper_receiver/ar15/50beowulf/16in/bca/bc15"
-  },
-  {
-    "id": ["retool_ar15_50beowulf"],
-    "type": "MIGRATION",
-    "replace": "upper_receiver/ar15/50beowulf/18in/bca/bc15"
-  },
-  {
-    "id": ["retool_ar15_762"],
-    "type": "MIGRATION",
-    "replace": "upper_receiver/ar15/762x39/16in/radical/pabu16"
-  },
-
-  {
     "id": ["rail_mount"],
     "type": "MIGRATION",
     "replace": "mount/rail/magpul"
@@ -344,28 +206,5 @@
     "id": ["underbarrel_mount"],
     "type": "MIGRATION",
     "replace": "mount/underbarrel/magpul"
-  },
-
-  {
-    "//": "SECTION 3: Adjacent item migration",
-
-    "id": ["ugl_buttstock"],
-    "type": "MIGRATION",
-    "replace": "standalone_assembly/m320"
-  },
-  {
-    "id": ["m320"],
-    "type": "MIGRATION",
-    "replace": "grenade_launcher/hk/m320"
-  },
-  {
-    "id": ["m26_mass_stock"],
-    "type": "MIGRATION",
-    "replace": "standalone_assembly/m26"
-  },
-  {
-    "id": ["m26_mass_standalone"],
-    "type": "MIGRATION",
-    "replace": "shotgun/c-more/m26"
   }
 ]

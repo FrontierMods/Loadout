@@ -1,0 +1,64 @@
+[
+  {
+    "//": "obsoleted variants → regular counterparts",
+
+    "id": ["muzzle_brake_mod"],
+    "type": "MIGRATION",
+    "replace": "muzzle_brake"
+  },
+  {
+    "id": ["offset_sights_mod"],
+    "type": "MIGRATION",
+    "replace": "offset_sights"
+  },
+  {
+    "id": ["offset_sight_rail_mod"],
+    "type": "MIGRATION",
+    "replace": "offset_sight_rail"
+  },
+  {
+    "id": ["rifle_scope_mod"],
+    "type": "MIGRATION",
+    "replace": "rifle_scope"
+  },
+  {
+    "id": ["acog_scope_mod"],
+    "type": "MIGRATION",
+    "replace": "acog_scope"
+  },
+  {
+    "id": ["bipod_mod"],
+    "type": "MIGRATION",
+    "replace": "bipod"
+  },
+  {
+    "id": ["grip_mod"],
+    "type": "MIGRATION",
+    "replace": "grip"
+  },
+  {
+    "id": ["m203_mod"],
+    "type": "MIGRATION",
+    "replace": "m203"
+  },
+  {
+    "id": ["m320_mod_mod"],
+    "type": "MIGRATION",
+    "replace": "m320_mod"
+  },
+  {
+    "id": ["masterkey_mod"],
+    "type": "MIGRATION",
+    "replace": "masterkey"
+  },
+  {
+    "id": ["m26_mass_mod"],
+    "type": "MIGRATION",
+    "replace": "m26_mass"
+  },
+  {
+    "id": ["rm121aux_mod"],
+    "type": "MIGRATION",
+    "replace": "rm121aux"
+  }
+]
