@@ -1,0 +1,77 @@
+[
+  {
+    "//": [
+      "the 7.5-inch assembly appears to be so exceedingly rare that very few stores even sell it",
+      "this includes whatever apparent upper from Bear Creek Arsenal the original PR introduced it from"
+    ],
+    "id": ["retool_ar15_450_short"],
+    "type": "MIGRATION",
+    "replace": "retool_ar15_450_medium"
+  },
+
+  {
+    "id": ["retool_ar15_223rem_short"],
+    "type": "MIGRATION",
+    "replace": "upper_receiver/ar15/556/10.3in/lmt/cqbr"
+  },
+  {
+    "id": ["retool_ar15_223rem"],
+    "type": "MIGRATION",
+    "replace": "upper_receiver/ar15/556/16in/aero/mod_4"
+  },
+  {
+    "id": ["retool_ar15_223rem_medium"],
+    "type": "MIGRATION",
+    "replace": "upper_receiver/ar15/556/14.5in/colt/m4a1"
+  },
+  {
+    "id": ["retool_ar15_223rem_extended"],
+    "type": "MIGRATION",
+    "replace": "upper_receiver/ar15/556/20in/colt/m16a3"
+  },
+  {
+    "id": ["retool_ar15_300blk_short"],
+    "type": "MIGRATION",
+    "replace": "upper_receiver/ar15/300blk/7.5in/bca/bc15"
+  },
+  {
+    "id": ["retool_ar15_300blk_medium"],
+    "type": "MIGRATION",
+    "replace": "upper_receiver/ar15/300blk/10.5in/ba/atlas"
+  },
+  {
+    "id": ["retool_ar15_300blk"],
+    "type": "MIGRATION",
+    "replace": "upper_receiver/ar15/300blk/16in/bca/bc15"
+  },
+  {
+    "id": ["retool_ar15_450_medium"],
+    "type": "MIGRATION",
+    "replace": "upper_receiver/ar15/450/10.5in/bca/bc15"
+  },
+  {
+    "id": ["retool_ar15_450"],
+    "type": "MIGRATION",
+    "replace": "upper_receiver/ar15/450/18in/bca/bc15"
+  },
+  {
+    "id": ["retool_ar15_50beowulf_short"],
+    "type": "MIGRATION",
+    "replace": "upper_receiver/ar15/50beowulf/10.5in/bca/bc15"
+  },
+  {
+    "id": ["retool_ar15_50beowulf_medium"],
+    "type": "MIGRATION",
+    "replace": "upper_receiver/ar15/50beowulf/16in/bca/bc15"
+  },
+  {
+    "id": ["retool_ar15_50beowulf"],
+    "type": "MIGRATION",
+    "replace": "upper_receiver/ar15/50beowulf/18in/bca/bc15"
+  },
+  {
+    "id": ["retool_ar15_762"],
+    "type": "MIGRATION",
+    "replace": "upper_receiver/ar15/762x39/16in/radical/pabu16"
+  }
+]
