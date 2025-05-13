@@ -1,0 +1,22 @@
+[
+  {
+    "id": "CC_WEAPON",
+    "type": "recipe_category",
+
+    "//changes": ["added MAGMODS subcategory"],
+
+    "recipe_subcategories": [
+      "CSC_ALL",
+      "CSC_WEAPON_BASHING",
+      "CSC_WEAPON_CUTTING",
+      "CSC_WEAPON_PIERCING",
+      "CSC_WEAPON_UNARMED",
+      "CSC_WEAPON_RANGED",
+      "CSC_WEAPON_EXPLOSIVE",
+      "CSC_WEAPON_MODS",
+      "CSC_WEAPON_MAGAZINES",
+      "CSC_WEAPON_MAGMODS",
+      "CSC_WEAPON_OTHER"
+    ]
+  }
+]
