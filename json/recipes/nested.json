@@ -1,0 +1,71 @@
+[
+  {
+    "id": "recipes/magazines",
+    "type": "nested_category",
+
+    "name": "buildable magazines",
+    "description": "Recipes that turn magazine bodies and base plates into usable magazines.",
+
+    "activity_level": "NO_EXERCISE",
+
+    "category": "CC_WEAPON",
+    "subcategory": "CSC_WEAPON_MAGMODS",
+
+    "difficulty": 0,
+    "skill_used": "fabrication",
+
+    "nested_category_data": [
+      "magazine/magpul/pmag/10",
+      "magazine/magpul/pmag/20",
+      "magazine/magpul/pmag/30",
+      "magazine/magpul/pmag/40",
+
+      "magazine/colt/stanag/30"
+    ]
+  },
+  {
+    "id": "recipes/magazines/ranger_plate",
+    "type": "nested_category",
+
+    "name": "ranger plate magazines",
+    "description": "Recipes that turn magazine bodies and ranger plates into ranged-plate magazines.",
+
+    "activity_level": "NO_EXERCISE",
+
+    "category": "CC_WEAPON",
+    "subcategory": "CSC_WEAPON_MAGMODS",
+
+    "difficulty": 0,
+    "skill_used": "fabrication",
+
+    "nested_category_data": [
+      "magazine/magpul/pmag/10:ranger_plate",
+      "magazine/magpul/pmag/20:ranger_plate",
+      "magazine/magpul/pmag/30:ranger_plate",
+      "magazine/magpul/pmag/40:ranger_plate",
+
+      "magazine/colt/stanag/30:ranger_plate"
+    ]
+  },
+  {
+    "id": "recipes/magazines/extended",
+    "type": "nested_category",
+
+    "name": "extended magazines",
+    "description": "Recipes that turn magazine bodies and extension plates into extended magazines.",
+
+    "activity_level": "NO_EXERCISE",
+
+    "category": "CC_WEAPON",
+    "subcategory": "CSC_WEAPON_MAGMODS",
+
+    "difficulty": 0,
+    "skill_used": "fabrication",
+
+    "nested_category_data": [
+      "magazine/magpul/pmag/20:extended/taran",
+      "magazine/magpul/pmag/30:extended/taran",
+      "magazine/magpul/pmag/40:extended/taran"
+    ]
+  }
+]
