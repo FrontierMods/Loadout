@@ -23,7 +23,20 @@
           "300blk": 1
         }
       }
-    ]
+    ],
+
+    "flags": ["MAG_COMPACT"]
+  },
+  {
+    "abstract": "@magazine/556:large",
+    "copy-from": "@magazine/556",
+    "type": "MAGAZINE",
+
+    "name": {
+      "str": "bulky 5.56mm/.300 Blackout magazine"
+    },
+
+    "flags": ["MAG_BULKY"]
   },
 
   {
@@ -49,7 +62,7 @@
         "id": "black",
 
         "name": {
-          "str": "Magpul PMAG M3 5.56mm 10-round magazine"
+          "str": "Magpul PMAG 10-round magazine"
         },
         "description": "TODO  <variant:black>",
         "expand_snippets": true,
@@ -113,8 +126,8 @@
         "id": "black",
 
         "name": {
-          "str": "Magpul PMAG M3 5.56mm 10-round magazine (ranger plate)",
-          "str_pl": "Magpul PMAG M3 5.56mm 10-round magazines (ranger plate)"
+          "str": "Magpul PMAG 10-round magazine (ranger plate)",
+          "str_pl": "Magpul PMAG 10-round magazines (ranger plate)"
         },
         "description": "TODO  <variant:black>",
         "expand_snippets": true,
@@ -161,7 +174,7 @@
         "id": "black",
 
         "name": {
-          "str": "Magpul PMAG M3 5.56mm 20-round magazine"
+          "str": "Magpul PMAG 20-round magazine"
         },
         "description": "TODO  <variant:black>",
         "expand_snippets": true,
@@ -217,8 +230,8 @@
         "id": "black",
 
         "name": {
-          "str": "Magpul PMAG M3 5.56mm 20-round magazine (ranger plate)",
-          "str_pl": "Magpul PMAG M3 5.56mm 20-round magazines (ranger plate)"
+          "str": "Magpul PMAG 20-round magazine (ranger plate)",
+          "str_pl": "Magpul PMAG 20-round magazines (ranger plate)"
         },
         "description": "TODO  <variant:black>",
         "expand_snippets": true,
@@ -443,12 +456,12 @@
 
     "//notes": [
       [
-        "area sans base plate: 17.36 in2",
-        "Feret distance sans base plate: 7.35 in"
-      ],
-      [
         "Soldier Systems lists the weight of an empty PMAG to be 4.9 oz = 138.9 g",
         "https://soldiersystems.net/2015/12/07/magpul-pmag-d-60-comparison/"
+      ],
+      [
+        "HAHO review of the PMAG 30 with Taran Tactical magazine extension lists unmodified PMAG 30's weight as 142 g",
+        "https://www.haho.online/post/review-taran-tactical-innovations-pmag-extension"
       ]
     ],
 
@@ -461,7 +474,7 @@
         "id": "black",
 
         "name": {
-          "str": "Magpul PMAG M3 5.56mm 30-round magazine"
+          "str": "Magpul PMAG 30-round magazine"
         },
         "description": "TODO  <variant:black>",
         "expand_snippets": true,
@@ -471,7 +484,7 @@
         "id": "fde",
 
         "name": {
-          "str": "Magpul PMAG M3 5.56mm 30-round magazine"
+          "str": "Magpul PMAG 30-round magazine"
         },
         "description": "TODO  <variant:fde>",
         "expand_snippets": true,
@@ -528,8 +541,8 @@
         "id": "black",
 
         "name": {
-          "str": "Magpul PMAG M3 5.56mm 30-round magazine (ranger plate)",
-          "str_pl": "Magpul PMAG M3 5.56mm 30-round magazines (ranger plate)"
+          "str": "Magpul PMAG 30-round magazine (ranger plate)",
+          "str_pl": "Magpul PMAG 30-round magazines (ranger plate)"
         },
         "description": "TODO  <variant:black>",
         "expand_snippets": true,
@@ -539,8 +552,8 @@
         "id": "fde",
 
         "name": {
-          "str": "Magpul PMAG M3 5.56mm 30-round magazine (ranger plate)",
-          "str_pl": "Magpul PMAG M3 5.56mm 30-round magazines (ranger plate)"
+          "str": "Magpul PMAG 30-round magazine (ranger plate)",
+          "str_pl": "Magpul PMAG 30-round magazines (ranger plate)"
         },
         "description": "TODO  <variant:fde>",
         "expand_snippets": true,
@@ -569,7 +582,7 @@
 
   {
     "id": "magazine/magpul/pmag/d-60",
-    "copy-from": "@magazine/556",
+    "copy-from": "@magazine/556:large",
     "type": "MAGAZINE",
 
     "//sources": [
@@ -642,7 +655,7 @@
 
   {
     "id": "magazine/beta/c-mag/m16",
-    "copy-from": "@magazine/556",
+    "copy-from": "@magazine/556:large",
     "type": "MAGAZINE",
 
     "//sources": [
