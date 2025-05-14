@@ -67,8 +67,13 @@
           "stanag30ranger_beowulf",
           "survivor223mag",
 
+          "magazine/magpul/pmag/20:extended/taran",
           "magazine/magpul/pmag/30",
-          "magazine/magpul/pmag/30:ranger_plate"
+          "magazine/magpul/pmag/30:ranger_plate",
+          "magazine/magpul/pmag/30:extended/taran",
+          "magazine/magpul/pmag/40:extended/taran",
+
+          "magazine/schmeisser/s60"
         ]
       ]
     ],
@@ -99,8 +104,13 @@
           "stanag30ranger_beowulf",
           "survivor223mag",
 
+          "magazine/magpul/pmag/20:extended/taran",
           "magazine/magpul/pmag/30",
-          "magazine/magpul/pmag/30:ranger_plate"
+          "magazine/magpul/pmag/30:ranger_plate",
+          "magazine/magpul/pmag/30:extended/taran",
+          "magazine/magpul/pmag/40:extended/taran",
+
+          "magazine/schmeisser/s60"
         ]
       }
     ]
@@ -142,8 +152,13 @@
           "stanag30ranger_beowulf",
           "survivor223mag",
 
+          "magazine/magpul/pmag/20:extended/taran",
           "magazine/magpul/pmag/30",
-          "magazine/magpul/pmag/30:ranger_plate"
+          "magazine/magpul/pmag/30:ranger_plate",
+          "magazine/magpul/pmag/30:extended/taran",
+          "magazine/magpul/pmag/40:extended/taran",
+
+          "magazine/schmeisser/s60"
         ]
       ]
     ],
@@ -174,8 +189,13 @@
           "stanag30ranger_beowulf",
           "survivor223mag",
 
+          "magazine/magpul/pmag/20:extended/taran",
           "magazine/magpul/pmag/30",
-          "magazine/magpul/pmag/30:ranger_plate"
+          "magazine/magpul/pmag/30:ranger_plate",
+          "magazine/magpul/pmag/30:extended/taran",
+          "magazine/magpul/pmag/40:extended/taran",
+
+          "magazine/schmeisser/s60"
         ]
       }
     ]
