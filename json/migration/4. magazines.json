@@ -42,6 +42,16 @@
     "replace": "magazine/colt/stanag/30:ranger_plate"
   },
   {
+    "id": ["stanag40"],
+    "type": "MIGRATION",
+    "replace": "magazine/magpul/pmag/40"
+  },
+  {
+    "id": ["stanag40ranger"],
+    "type": "MIGRATION",
+    "replace": "magazine/magpul/pmag/40:ranger_plate"
+  },
+  {
     "id": ["stanag60drum"],
     "type": "MIGRATION",
     "replace": "magazine/magpul/pmag/d-60"
