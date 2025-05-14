@@ -326,7 +326,7 @@
     "type": "MAGAZINE",
 
     "//sources": [
-      ["M16 Technical Data Package", "dimensions"],
+      ["M4 Technical Data Package", "dimensions"],
       ["TM 05538/10012-IN", "TM 9-1005-319-23&P", "weight"],
       ["https://en.wikipedia.org/wiki/M16_rifle", "material"],
       ["https://www.midwayusa.com/product/1021821067?pid=827055", "price"]
@@ -964,6 +964,8 @@
     },
     "volume": "1027 ml",
     "longest_side": "188 mm",
+
+    "material": ["plastic"],
 
     "reload_time": 150,
 
