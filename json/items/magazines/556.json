@@ -987,6 +987,155 @@
   },
 
   {
+    "id": "magazine/surefire/60",
+    "copy-from": "@magazine/556:large",
+    "type": "MAGAZINE",
+
+    "//sources": [
+      [
+        "https://americanresistancegear.com/product/surefire-magazine-ar-223-60-rd-alum-gray/",
+        "weight",
+        "dimensions"
+      ],
+      [
+        "https://www.thetruthaboutguns.com/gear-review-surefire-mag5-high-capacity-magazine/",
+        "price"
+      ]
+    ],
+
+    "//notes": [
+      "according to one review, the magazine is exceptionally reliable",
+      "https://www.activeresponsetraining.net/gear-review-surefires-60-round-ar-15-magazine"
+    ],
+
+    "name": {
+      "str": "STANAG 60-round magazine"
+    },
+    "description": "TODO",
+
+    "variant_type": "gun",
+    "variants": [
+      {
+        "id": "steel",
+
+        "name": {
+          "str": "SureFire MAG5 60-round magazine"
+        },
+        "description": "TODO  <variant:steel>",
+        "expand_snippets": true,
+        "weight": 1
+      }
+    ],
+
+    "//weight": "6.4 oz = 181.44 g",
+    "weight": "181 g",
+    "//dimensions": {
+      "area": "20.5 in2",
+      "width": "1.66 in",
+      "raw": "557.65 ml",
+      "trim": 0.16,
+      "notes": [
+        "trim is for the empty area in the tower relative to the rest of the magazine"
+      ]
+    },
+    "volume": "468 ml",
+    "//longest_side": ["8.72 in = 221.49 mm", "Feret distance"],
+    "longest_side": "222 mm",
+
+    "material": ["aluminum"],
+
+    "reload_time": 150,
+
+    "pocket_data": [
+      {
+        "pocket_type": "MAGAZINE",
+
+        "rigid": true,
+
+        "allowed_speedloaders": ["clip223_10rd"],
+
+        "ammo_restriction": {
+          "223": 60,
+          "300blk": 60
+        }
+      }
+    ],
+
+    "price": "129 USD",
+    "price_postapoc": "5 USD"
+  },
+
+  {
+    "id": "magazine/schmeisser/s60",
+    "copy-from": "@magazine/556:large",
+    "type": "MAGAZINE",
+
+    "//sources": [
+      [
+        "https://www.guns.com/news/reviews/review-schmeisser-s60w-ar-mag",
+        "dimensions"
+      ],
+      ["https://themagshack.com/173423-2/", "weight", "price"]
+    ],
+
+    "name": {
+      "str": "STANAG polymer 60-round magazine"
+    },
+    "description": "TODO",
+
+    "variant_type": "gun",
+    "variants": [
+      {
+        "id": "steel",
+
+        "name": {
+          "str": "Schmeisser S60 60-round magazine"
+        },
+        "description": "TODO  <variant:steel>",
+        "expand_snippets": true,
+        "weight": 1
+      }
+    ],
+
+    "//weight": "9.3 oz = 263.65 g",
+    "weight": "264 g",
+    "//dimensions": {
+      "area": "24.04 in2",
+      "width": "2 in",
+      "raw": "787.89 ml",
+      "trim": 0.16,
+      "notes": [
+        "trim is for the empty area in the tower relative to the rest of the magazine"
+      ]
+    },
+    "volume": "662 ml",
+    "//longest_side": ["9.74 in = 247.4 mm", "Feret distance"],
+    "longest_side": "247 mm",
+
+    "material": ["aluminum"],
+
+    "reload_time": 150,
+
+    "pocket_data": [
+      {
+        "pocket_type": "MAGAZINE",
+
+        "rigid": true,
+
+        "allowed_speedloaders": ["clip223_10rd"],
+
+        "ammo_restriction": {
+          "223": 60,
+          "300blk": 60
+        }
+      }
+    ],
+
+    "price": "49 USD 99 cent",
+    "price_postapoc": "5 USD"
+  },
+
+  {
     "id": "magazine/beta/c-mag/m16",
     "copy-from": "@magazine/556:large",
     "type": "MAGAZINE",
