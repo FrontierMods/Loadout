@@ -258,6 +258,69 @@
     "price_postapoc": "2 USD 60 cent"
   },
   {
+    "id": "magazine/magpul/pmag/20:extended/taran",
+    "copy-from": "magazine/magpul/pmag/20",
+    "type": "MAGAZINE",
+
+    "name": {
+      "str": "PMAG STANAG 20-round magazine (extension plate)",
+      "str_pl": "PMAG STANAG 20-round magazines (extension plate)"
+    },
+    "description": "TODO",
+
+    "variant_type": "gun",
+    "variants": [
+      {
+        "id": "black",
+
+        "name": {
+          "str": "Magpul PMAG 20-round magazine (extension plate)",
+          "str_pl": "Magpul PMAG 20-round magazines (extension plate)"
+        },
+        "description": "TODO  <variant:black>",
+        "expand_snippets": true,
+        "weight": 1
+      }
+    ],
+
+    "material": ["plastic", "aluminum"],
+
+    "//weight": "20-round PMAG (4.1 oz = 116.24 g) - baseplate (9.98 g) + extension plate (59.5 g) = 165.76 g",
+    "weight": "166 g",
+    "//dimensions": {
+      "area": "15.9 in2",
+      "width": "0.87 in",
+      "raw": "226.68 ml",
+      "trim": -0.1,
+      "notes": [
+        "trim is to account for the width of the extension plate (29 mm = 1.14 in) being that much wider than the magazine (0.87 in)"
+      ]
+    },
+    "volume": "249 ml",
+    "//longest_side": ["6.56 in = 166.62 mm", "Feret distance"],
+    "longest_side": "167 mm",
+
+    "pocket_data": [
+      {
+        "pocket_type": "MAGAZINE",
+
+        "rigid": true,
+
+        "allowed_speedloaders": ["clip223_10rd"],
+
+        "ammo_restriction": {
+          "223": 25,
+          "300blk": 25
+        }
+      }
+    ],
+
+    "//price": "price of the PMAG magazine (14 USD 95 cent) + price of a single ranger plate (43 USD 99 cents)",
+    "price": "58 USD 94 cent",
+    "price_postapoc": "4 USD"
+  },
+
+  {
     "id": "magazine/colt/stanag/30",
     "copy-from": "@magazine/556",
     "type": "MAGAZINE",
@@ -578,6 +641,276 @@
     "//price": "price of the PMAG magazine (14 USD 95 cents) + price of a single ranger plate (8 USD 33 cents)",
     "price": "23 USD 28 cent",
     "price_postapoc": "2 USD 60 cent"
+  },
+  {
+    "id": "magazine/magpul/pmag/30:extended/taran",
+    "copy-from": "magazine/magpul/pmag/30",
+    "type": "MAGAZINE",
+
+    "//notes": [
+      "HAHO review of the PMAG 30 with Taran Tactical magazine extension lists modified PMAG 30's weight as 201.5 g",
+      "https://www.haho.online/post/review-taran-tactical-innovations-pmag-extension"
+    ],
+
+    "name": {
+      "str": "PMAG STANAG 30-round magazine (extension plate)",
+      "str_pl": "PMAG STANAG 30-round magazines (extension plate)"
+    },
+    "description": "TODO",
+
+    "variant_type": "gun",
+    "variants": [
+      {
+        "id": "black",
+
+        "name": {
+          "str": "Magpul PMAG 30-round magazine (extension plate)",
+          "str_pl": "Magpul PMAG 30-round magazines (extension plate)"
+        },
+        "description": "TODO  <variant:black>",
+        "expand_snippets": true,
+        "weight": 1
+      },
+      {
+        "id": "fde",
+
+        "name": {
+          "str": "Magpul PMAG 30-round magazine (extension plate)",
+          "str_pl": "Magpul PMAG 30-round magazines (extension plate)"
+        },
+        "description": "TODO  <variant:fde>",
+        "expand_snippets": true,
+        "weight": 1
+      }
+    ],
+
+    "material": ["plastic", "aluminum"],
+
+    "//weight": "30-round PMAG (5.1 oz = 144.58 g) - baseplate (9.98 g) + extension plate (59.5 g) = 194.1 g",
+    "weight": "194 g",
+    "//dimensions": {
+      "area": "20.15 in2",
+      "width": "0.87 in",
+      "raw": "287.27 ml",
+      "trim": -0.09,
+      "notes": [
+        "trim is to account for the width of the extension plate (29 mm = 1.14 in) being that much wider than the magazine (0.87 in)"
+      ]
+    },
+    "volume": "313 ml",
+    "//longest_side": ["8.15 in = 207.01 mm", "Feret distance"],
+    "longest_side": "207 mm",
+
+    "pocket_data": [
+      {
+        "pocket_type": "MAGAZINE",
+
+        "rigid": true,
+
+        "allowed_speedloaders": ["clip223_10rd"],
+
+        "ammo_restriction": {
+          "223": 35,
+          "300blk": 35
+        }
+      }
+    ],
+
+    "//price": "price of the PMAG magazine (14 USD 95 cent) + price of a single ranger plate (43 USD 99 cents)",
+    "price": "58 USD 94 cent",
+    "price_postapoc": "4 USD"
+  },
+
+  {
+    "id": "magazine/magpul/pmag/40",
+    "copy-from": "@magazine/556",
+    "type": "MAGAZINE",
+
+    "//sources": [
+      "https://magpul.com/pmag-40-ar-m4-gen-m3.html",
+      [
+        "https://www.trex-arms.com/store/MAGPUL-ARM4-PMAG/",
+        "weight",
+        "dimensions"
+      ]
+    ],
+
+    "name": { "str": "PMAG STANAG 40-round magazine" },
+    "description": "A polymer magazine for the STANAG-compatible rifles.  It looks *really* cool.",
+
+    "variant_type": "gun",
+    "variants": [
+      {
+        "id": "black",
+
+        "name": {
+          "str": "Magpul PMAG 40-round magazine"
+        },
+        "description": "TODO  <variant:black>",
+        "expand_snippets": true,
+        "weight": 1
+      }
+    ],
+
+    "material": ["plastic"],
+
+    "//weight": "6.2 oz = 175.77 g",
+    "weight": "176 g",
+    "//dimensions": {
+      "area": "23.48 in2",
+      "width": "0.87 in",
+      "raw": "334.75 ml",
+      "trim": 0
+    },
+    "volume": "335 ml",
+    "//longest_side": ["9.56 in = 242.82 mm", "Feret distance"],
+    "longest_side": "243 mm",
+
+    "pocket_data": [
+      {
+        "pocket_type": "MAGAZINE",
+
+        "rigid": true,
+
+        "allowed_speedloaders": ["clip223_10rd"],
+
+        "ammo_restriction": {
+          "223": 40,
+          "300blk": 40
+        }
+      }
+    ],
+
+    "price": "22 USD 95 cent",
+    "price_postapoc": "3 USD 50 cent"
+  },
+  {
+    "id": "magazine/magpul/pmag/40:ranger_plate",
+    "copy-from": "magazine/magpul/pmag/40",
+    "type": "MAGAZINE",
+
+    "name": {
+      "str": "PMAG STANAG 40-round magazine (ranger plate)",
+      "str_pl": "PMAG STANAG 40-round magazines (ranger plate)"
+    },
+    "description": "TODO",
+
+    "variant_type": "gun",
+    "variants": [
+      {
+        "id": "black",
+
+        "name": {
+          "str": "Magpul PMAG 40-round magazine (ranger plate)",
+          "str_pl": "Magpul PMAG 40-round magazines (ranger plate)"
+        },
+        "description": "TODO  <variant:black>",
+        "expand_snippets": true,
+        "weight": 1
+      },
+      {
+        "id": "fde",
+
+        "name": {
+          "str": "Magpul PMAG 40-round magazine (ranger plate)",
+          "str_pl": "Magpul PMAG 40-round magazines (ranger plate)"
+        },
+        "description": "TODO  <variant:fde>",
+        "expand_snippets": true,
+        "weight": 1
+      }
+    ],
+
+    "material": ["plastic", "stainless_steel", "rubber"],
+
+    "//weight": "40-round PMAG (6.2 oz = 175.77 g) - baseplate (9.98 g) + ranger plate (17.01 g) = 192.76 g",
+    "weight": "193 g",
+    "//dimensions": {
+      "area": "24.29 in2",
+      "width": "0.87 in",
+      "raw": "346.15 ml",
+      "trim": 0.02
+    },
+    "volume": "339 ml",
+    "//longest_side": "10.2 in = 259.08 mm",
+    "longest_side": "259 mm",
+
+    "//price": "price of the PMAG magazine (22 USD 95 cents) + price of a single ranger plate (8 USD 33 cents)",
+    "price": "31 USD 28 cent",
+    "price_postapoc": "3 USD 60 cent"
+  },
+  {
+    "id": "magazine/magpul/pmag/40:extended/taran",
+    "copy-from": "magazine/magpul/pmag/40",
+    "type": "MAGAZINE",
+
+    "name": {
+      "str": "PMAG STANAG 40-round magazine (extension plate)",
+      "str_pl": "PMAG STANAG 40-round magazines (extension plate)"
+    },
+    "description": "TODO",
+
+    "variant_type": "gun",
+    "variants": [
+      {
+        "id": "black",
+
+        "name": {
+          "str": "Magpul PMAG 40-round magazine (extension plate)",
+          "str_pl": "Magpul PMAG 40-round magazines (extension plate)"
+        },
+        "description": "TODO  <variant:black>",
+        "expand_snippets": true,
+        "weight": 1
+      },
+      {
+        "id": "fde",
+
+        "name": {
+          "str": "Magpul PMAG 40-round magazine (extension plate)",
+          "str_pl": "Magpul PMAG 40-round magazines (extension plate)"
+        },
+        "description": "TODO  <variant:fde>",
+        "expand_snippets": true,
+        "weight": 1
+      }
+    ],
+
+    "material": ["plastic", "aluminum"],
+
+    "//weight": "40-round PMAG (6.2 oz = 175.77 g) - baseplate (9.98 g) + extension plate (59.5 g) = 225.29 g",
+    "weight": "225 g",
+    "//dimensions": {
+      "area": "25.89 in2",
+      "width": "0.87 in",
+      "raw": "369.1 ml",
+      "trim": -0.08,
+      "notes": [
+        "trim is to account for the width of the extension plate (29 mm = 1.14 in) being that much wider than the magazine (0.87 in)"
+      ]
+    },
+    "volume": "399 ml",
+    "//longest_side": ["10.38 in = 263.65 mm", "Feret distance"],
+    "longest_side": "264 mm",
+
+    "pocket_data": [
+      {
+        "pocket_type": "MAGAZINE",
+
+        "rigid": true,
+
+        "allowed_speedloaders": ["clip223_10rd"],
+
+        "ammo_restriction": {
+          "223": 46,
+          "300blk": 46
+        }
+      }
+    ],
+
+    "//price": "price of the PMAG magazine (22 USD 95 cents) + price of a single ranger plate (43 USD 99 cents)",
+    "price": "66 USD 94 cent",
+    "price_postapoc": "4 USD 50 cent"
   },
 
   {

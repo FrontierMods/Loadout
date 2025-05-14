@@ -69,5 +69,18 @@
 
     "symbol": "#",
     "color": "light_gray"
+  },
+  {
+    "abstract": "@magazine/body",
+    "type": "GENERIC",
+
+    "name": { "str": "magazine body" },
+
+    "symbol": "#",
+    "color": "dark_gray",
+
+    "//price": "based on nothing at all",
+    "price": "50 cent",
+    "price_postapoc": "5 cent"
   }
 ]
