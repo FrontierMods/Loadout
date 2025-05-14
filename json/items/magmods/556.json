@@ -65,6 +65,11 @@
       ["https://magpul.com/pmag-30-ar-m4-gen-m3.html", "visual reference"]
     ],
 
+    "//notes": [
+      "the base plate is said to be 69 mm in length",
+      "https://www.haho.online/post/review-taran-tactical-innovations-pmag-extension"
+    ],
+
     "name": {
       "str": "PMAG magazine baseplate"
     },
@@ -239,5 +244,65 @@
 
     "//price": "we assume the price is for three pieces",
     "price": "8 USD 33 cent"
+  },
+  {
+    "id": "baseplate/taran/extended/pmag",
+    "copy-from": "@magmod",
+    "type": "GENERIC",
+
+    "//sources": [
+      "https://tarantacticalinnovations.com/5-6-base-pad-for-ar-15-223-30-40-round-pmag-magazines/",
+      [
+        "https://www.haho.online/post/review-taran-tactical-innovations-pmag-extension",
+        "dimensions",
+        "weight"
+      ]
+    ],
+
+    "//notes": [
+      "there is a lot more colors of the plate, but we only implement the black one for the sake of simplicity for now",
+      "advertised as +5 on 30-round magazines, +6 on 40-round magazines",
+      [
+        "according to The Mag Shack, the extension is compatible with the 20-, 30-, and 40-round PMAGs, but not 10-rounders",
+        "it's also not compatible with the .300 Blackout-exclusive PMAGs",
+        "https://themagshack.com/shop/accessories/magazine-extensions/taran-tactical-magpul-pmag-ar-15-223-5-56-5-6-extension/"
+      ]
+    ],
+
+    "name": {
+      "str": "PMAG extension plate"
+    },
+    "description": "TODO",
+
+    "variant_type": "gun",
+    "variants": [
+      {
+        "id": "black",
+
+        "name": {
+          "str": "Taran Tactical PMAG +5/+6 extension plate"
+        },
+        "description": "TODO  <variant:black>",
+        "expand_snippets": true,
+        "weight": 1
+      }
+    ],
+
+    "//weight": "59.5 g originally",
+    "weight": "60 g",
+    "//dimensions": {
+      "length": "73 mm",
+      "height": "25 mm",
+      "width": "29 mm",
+      "raw": "52.93 ml",
+      "trim": 0.0625
+    },
+    "volume": "50 ml",
+    "longest_side": "73 mm",
+
+    "material": ["aluminum"],
+
+    "//price": "per pad?!",
+    "price": "43 USD 99 cent"
   }
 ]

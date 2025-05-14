@@ -1,18 +1,13 @@
 [
   {
     "result": "magazine/magpul/pmag/10:ranger_plate",
-    "type": "recipe",
-
-    "category": "CC_WEAPON",
-    "subcategory": "CSC_WEAPON_MAGMODS",
+    "type": "uncraft",
 
     "activity_level": "NO_EXERCISE",
     "difficulty": 0,
     "time": "30 s",
 
-    "skill_used": "fabrication",
-    "autolearn": true,
-
+    "qualities": [{ "id": "FINE_POINT", "level": 1 }],
     "components": [
       [["magazine/body/magpul/pmag/10", 1]],
       [["baseplate/magpul/ranger", 1]]
@@ -22,18 +17,13 @@
   },
   {
     "result": "magazine/magpul/pmag/10",
-    "type": "recipe",
-
-    "category": "CC_WEAPON",
-    "subcategory": "CSC_WEAPON_MAGMODS",
+    "type": "uncraft",
 
     "activity_level": "NO_EXERCISE",
     "difficulty": 0,
     "time": "30 s",
 
-    "skill_used": "fabrication",
-    "autolearn": true,
-
+    "qualities": [{ "id": "FINE_POINT", "level": 1 }],
     "components": [
       [["magazine/body/magpul/pmag/10", 1]],
       [["baseplate/magpul/pmag", 1]]
@@ -44,18 +34,13 @@
 
   {
     "result": "magazine/magpul/pmag/20:extended/taran",
-    "type": "recipe",
-
-    "category": "CC_WEAPON",
-    "subcategory": "CSC_WEAPON_MAGMODS",
+    "type": "uncraft",
 
     "activity_level": "NO_EXERCISE",
     "difficulty": 0,
     "time": "30 s",
 
-    "skill_used": "fabrication",
-    "autolearn": true,
-
+    "qualities": [{ "id": "FINE_POINT", "level": 1 }],
     "components": [
       [["magazine/body/magpul/pmag/20", 1]],
       [["baseplate/taran/extended/pmag", 1]]
@@ -65,18 +50,13 @@
   },
   {
     "result": "magazine/magpul/pmag/20:ranger_plate",
-    "type": "recipe",
-
-    "category": "CC_WEAPON",
-    "subcategory": "CSC_WEAPON_MAGMODS",
+    "type": "uncraft",
 
     "activity_level": "NO_EXERCISE",
     "difficulty": 0,
     "time": "30 s",
 
-    "skill_used": "fabrication",
-    "autolearn": true,
-
+    "qualities": [{ "id": "FINE_POINT", "level": 1 }],
     "components": [
       [["magazine/body/magpul/pmag/20", 1]],
       [["baseplate/magpul/ranger", 1]]
@@ -86,18 +66,13 @@
   },
   {
     "result": "magazine/magpul/pmag/20",
-    "type": "recipe",
-
-    "category": "CC_WEAPON",
-    "subcategory": "CSC_WEAPON_MAGMODS",
+    "type": "uncraft",
 
     "activity_level": "NO_EXERCISE",
     "difficulty": 0,
     "time": "30 s",
 
-    "skill_used": "fabrication",
-    "autolearn": true,
-
+    "qualities": [{ "id": "FINE_POINT", "level": 1 }],
     "components": [
       [["magazine/body/magpul/pmag/20", 1]],
       [["baseplate/magpul/pmag", 1]]
@@ -108,18 +83,17 @@
 
   {
     "result": "magazine/colt/stanag/30:ranger_plate",
-    "type": "recipe",
+    "type": "uncraft",
 
-    "category": "CC_WEAPON",
-    "subcategory": "CSC_WEAPON_MAGMODS",
+    "//sources": [
+      "https://magpul.com/media/wysiwyg/Instructions/MAG020_USGI_Ranger_Plate_INSRT.pdf"
+    ],
 
     "activity_level": "NO_EXERCISE",
     "difficulty": 0,
     "time": "30 s",
 
-    "skill_used": "fabrication",
-    "autolearn": true,
-
+    "qualities": [{ "id": "FINE_POINT", "level": 1 }],
     "components": [
       [["magazine/body/colt/stanag/30", 1]],
       [["baseplate/magpul/ranger/usgi", 1]]
@@ -129,18 +103,17 @@
   },
   {
     "result": "magazine/colt/stanag/30",
-    "type": "recipe",
+    "type": "uncraft",
 
-    "category": "CC_WEAPON",
-    "subcategory": "CSC_WEAPON_MAGMODS",
+    "//sources": [
+      "https://magpul.com/media/wysiwyg/Instructions/MAG020_USGI_Ranger_Plate_INSRT.pdf"
+    ],
 
     "activity_level": "NO_EXERCISE",
     "difficulty": 0,
     "time": "30 s",
 
-    "skill_used": "fabrication",
-    "autolearn": true,
-
+    "qualities": [{ "id": "FINE_POINT", "level": 1 }],
     "components": [
       [["magazine/body/colt/stanag/30", 1]],
       [["baseplate/colt/stanag", 1]]
@@ -151,18 +124,13 @@
 
   {
     "result": "magazine/magpul/pmag/30:extended/taran",
-    "type": "recipe",
-
-    "category": "CC_WEAPON",
-    "subcategory": "CSC_WEAPON_MAGMODS",
+    "type": "uncraft",
 
     "activity_level": "NO_EXERCISE",
     "difficulty": 0,
     "time": "30 s",
 
-    "skill_used": "fabrication",
-    "autolearn": true,
-
+    "qualities": [{ "id": "FINE_POINT", "level": 1 }],
     "components": [
       [["magazine/body/magpul/pmag/30", 1]],
       [["baseplate/taran/extended/pmag", 1]]
@@ -172,18 +140,13 @@
   },
   {
     "result": "magazine/magpul/pmag/30:ranger_plate",
-    "type": "recipe",
-
-    "category": "CC_WEAPON",
-    "subcategory": "CSC_WEAPON_MAGMODS",
+    "type": "uncraft",
 
     "activity_level": "NO_EXERCISE",
     "difficulty": 0,
     "time": "30 s",
 
-    "skill_used": "fabrication",
-    "autolearn": true,
-
+    "qualities": [{ "id": "FINE_POINT", "level": 1 }],
     "components": [
       [["magazine/body/magpul/pmag/30", 1]],
       [["baseplate/magpul/ranger", 1]]
@@ -193,18 +156,13 @@
   },
   {
     "result": "magazine/magpul/pmag/30",
-    "type": "recipe",
-
-    "category": "CC_WEAPON",
-    "subcategory": "CSC_WEAPON_MAGMODS",
+    "type": "uncraft",
 
     "activity_level": "NO_EXERCISE",
     "difficulty": 0,
     "time": "30 s",
 
-    "skill_used": "fabrication",
-    "autolearn": true,
-
+    "qualities": [{ "id": "FINE_POINT", "level": 1 }],
     "components": [
       [["magazine/body/magpul/pmag/30", 1]],
       [["baseplate/magpul/pmag", 1]]
@@ -215,18 +173,13 @@
 
   {
     "result": "magazine/magpul/pmag/40:extended/taran",
-    "type": "recipe",
-
-    "category": "CC_WEAPON",
-    "subcategory": "CSC_WEAPON_MAGMODS",
+    "type": "uncraft",
 
     "activity_level": "NO_EXERCISE",
     "difficulty": 0,
     "time": "30 s",
 
-    "skill_used": "fabrication",
-    "autolearn": true,
-
+    "qualities": [{ "id": "FINE_POINT", "level": 1 }],
     "components": [
       [["magazine/body/magpul/pmag/40", 1]],
       [["baseplate/taran/extended/pmag", 1]]
@@ -236,18 +189,13 @@
   },
   {
     "result": "magazine/magpul/pmag/40:ranger_plate",
-    "type": "recipe",
-
-    "category": "CC_WEAPON",
-    "subcategory": "CSC_WEAPON_MAGMODS",
+    "type": "uncraft",
 
     "activity_level": "NO_EXERCISE",
     "difficulty": 0,
     "time": "30 s",
 
-    "skill_used": "fabrication",
-    "autolearn": true,
-
+    "qualities": [{ "id": "FINE_POINT", "level": 1 }],
     "components": [
       [["magazine/body/magpul/pmag/40", 1]],
       [["baseplate/magpul/ranger", 1]]
@@ -257,18 +205,13 @@
   },
   {
     "result": "magazine/magpul/pmag/40",
-    "type": "recipe",
-
-    "category": "CC_WEAPON",
-    "subcategory": "CSC_WEAPON_MAGMODS",
+    "type": "uncraft",
 
     "activity_level": "NO_EXERCISE",
     "difficulty": 0,
     "time": "30 s",
 
-    "skill_used": "fabrication",
-    "autolearn": true,
-
+    "qualities": [{ "id": "FINE_POINT", "level": 1 }],
     "components": [
       [["magazine/body/magpul/pmag/40", 1]],
       [["baseplate/magpul/pmag", 1]]

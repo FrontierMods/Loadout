@@ -1,0 +1,210 @@
+[
+  {
+    "id": "magazine/body/magpul/pmag/10",
+    "copy-from": "@magazine/body",
+    "type": "GENERIC",
+
+    "//sources": ["https://magpul.com/pmag-10-ar-m4-gen-m3.html"],
+
+    "name": {
+      "str": "PMAG STANAG 10-round magazine body",
+      "str_pl": "PMAG STANAG 10-round magazine bodies"
+    },
+    "description": "TODO",
+
+    "variant_type": "gun",
+    "variants": [
+      {
+        "id": "black",
+
+        "name": {
+          "str": "Magpul PMAG M3 5.56mm 10-round magazine body",
+          "str_pl": "Magpul PMAG M3 5.56mm 10-round magazine bodies"
+        },
+        "description": "TODO  <variant:black>",
+        "expand_snippets": true,
+        "weight": 1
+      }
+    ],
+
+    "//weight": "PMAG 10 (3 oz = 85.05 g) - baseplate (9.98 g) = 75.07 g",
+    "weight": "75 g",
+    "//dimensions": {
+      "area": "7.87 in2",
+      "width": "0.87 in",
+      "raw": "112.2 ml",
+      "trim": 0
+    },
+    "volume": "112 ml",
+    "//longest_side": "4.13 in = 104.9 mm",
+    "longest_side": "105 mm",
+
+    "material": ["plastic"]
+  },
+  {
+    "id": "magazine/body/magpul/pmag/20",
+    "copy-from": "@magazine/body",
+    "type": "GENERIC",
+
+    "//sources": ["https://magpul.com/pmag-20-ar-m4-gen-m3.html"],
+
+    "name": {
+      "str": "PMAG STANAG 20-round magazine body",
+      "str_pl": "PMAG STANAG 20-round magazine bodies"
+    },
+    "description": "TODO",
+
+    "variant_type": "gun",
+    "variants": [
+      {
+        "id": "black",
+
+        "name": {
+          "str": "Magpul PMAG M3 5.56mm 20-round magazine body",
+          "str_pl": "Magpul PMAG M3 5.56mm 20-round magazine bodies"
+        },
+        "description": "TODO  <variant:black>",
+        "expand_snippets": true,
+        "weight": 1
+      }
+    ],
+
+    "//weight": "PMAG 20 (4.1 oz = 116.24 g) - baseplate (9.98 g) = 106.26 g",
+    "weight": "106 g",
+    "//dimensions": {
+      "area": "12.37 in2",
+      "width": "0.87 in",
+      "raw": "176.36 ml",
+      "trim": 0
+    },
+    "volume": "176 ml",
+    "//longest_side": "5.59 in = 141.99 mm",
+    "longest_side": "142 mm",
+
+    "material": ["plastic"]
+  },
+  {
+    "id": "magazine/body/magpul/pmag/30",
+    "copy-from": "@magazine/body",
+    "type": "GENERIC",
+
+    "//sources": ["https://magpul.com/pmag-30-ar-m4-gen-m3.html"],
+
+    "name": {
+      "str": "PMAG STANAG 30-round magazine body",
+      "str_pl": "PMAG STANAG 30-round magazine bodies"
+    },
+    "description": "TODO",
+
+    "variant_type": "gun",
+    "variants": [
+      {
+        "id": "black",
+
+        "name": {
+          "str": "Magpul PMAG M3 5.56mm 30-round magazine body",
+          "str_pl": "Magpul PMAG M3 5.56mm 30-round magazine bodies"
+        },
+        "description": "TODO  <variant:black>",
+        "expand_snippets": true,
+        "weight": 1
+      }
+    ],
+
+    "//weight": "PMAG 30 (5.1 oz = 144.58 g) - baseplate (9.98 g) = 134.6 g",
+    "weight": "135 g",
+    "//dimensions": {
+      "area": "17.36 in2",
+      "width": "0.87 in",
+      "raw": "247.5 ml",
+      "trim": 0
+    },
+    "volume": "248 ml",
+    "//longest_side": "7.35 in = 186.69 mm",
+    "longest_side": "187 mm",
+
+    "material": ["plastic"]
+  },
+  {
+    "id": "magazine/body/colt/stanag/30",
+    "copy-from": "@magazine/body",
+    "type": "GENERIC",
+
+    "//notes": ["based on the STANAG magazine"],
+
+    "name": {
+      "str": "STANAG 30-round magazine body",
+      "str_pl": "STANAG 30-round magazine bodies"
+    },
+    "description": "TODO",
+
+    "variant_type": "gun",
+    "variants": [
+      {
+        "id": "steel",
+
+        "name": {
+          "str": "Colt M16 30-round magazine body",
+          "str_pl": "Colt M16 30-round magazine bodies"
+        },
+        "description": "TODO  <variant:steel>",
+        "expand_snippets": true,
+        "weight": 1
+      }
+    ],
+
+    "material": ["aluminum"],
+
+    "//weight": "Colt mag (4 oz = 113.4 g) - base plate (9.98 g) = 103.42 g",
+    "weight": "103 g",
+    "//volume": "same volume as the magazine: the base plate is tiny and already fits into the magazine's silhouette",
+    "volume": "249 ml",
+    "//longest_side": "same longest side as the magazine: the base plate is tiny and already fits into the magazine's silhouette",
+    "longest_side": "182 mm"
+  },
+  {
+    "id": "magazine/body/magpul/pmag/40",
+    "copy-from": "@magazine/body",
+    "type": "GENERIC",
+
+    "//sources": [
+      "https://magpul.com/pmag-40-ar-m4-gen-m3.html",
+      [
+        "https://www.trex-arms.com/store/MAGPUL-ARM4-PMAG/",
+        "weight",
+        "dimensions"
+      ]
+    ],
+
+    "name": { "str": "PMAG STANAG 40-round magazine" },
+    "description": "A polymer magazine for the STANAG-compatible rifles.  It looks *really* cool.",
+
+    "variant_type": "gun",
+    "variants": [
+      {
+        "id": "black",
+
+        "name": {
+          "str": "Magpul PMAG M3 5.56mm 40-round magazine"
+        },
+        "description": "TODO  <variant:black>",
+        "expand_snippets": true,
+        "weight": 1
+      }
+    ],
+
+    "material": ["plastic"],
+
+    "//weight": "PMAG 40 (6.2 oz = 175.77 g) - baseplate (9.98 g) = 165.79 g",
+    "weight": "166 g",
+    "//dimensions": {
+      "area": "22.50 in2",
+      "width": "0.87 in",
+      "raw": "320.78 ml",
+      "trim": 0
+    },
+    "volume": "321 ml",
+    "//longest_side": ["9.22 in = 234.19 mm", "Feret distance"],
+    "longest_side": "234 mm"
+  }
+]
