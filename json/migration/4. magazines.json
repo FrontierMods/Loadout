@@ -52,6 +52,11 @@
     "replace": "magazine/magpul/pmag/40:ranger_plate"
   },
   {
+    "id": ["stanag60"],
+    "type": "MIGRATION",
+    "replace": "magazine/surefire/60"
+  },
+  {
     "id": ["stanag60drum"],
     "type": "MIGRATION",
     "replace": "magazine/magpul/pmag/d-60"
