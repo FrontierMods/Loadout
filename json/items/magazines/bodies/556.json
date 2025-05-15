@@ -176,7 +176,7 @@
       ]
     ],
 
-    "name": { "str": "PMAG STANAG 40-round magazine" },
+    "name": { "str": "PMAG STANAG 40-round magazine body" },
     "description": "A polymer magazine for the STANAG-compatible rifles.  It looks *really* cool.",
 
     "variant_type": "gun",
@@ -185,7 +185,7 @@
         "id": "black",
 
         "name": {
-          "str": "Magpul PMAG M3 5.56mm 40-round magazine"
+          "str": "Magpul PMAG M3 5.56mm 40-round magazine body"
         },
         "description": "TODO  <variant:black>",
         "expand_snippets": true,
