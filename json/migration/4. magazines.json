@@ -72,6 +72,11 @@
     "replace": "magazine/mwg/90"
   },
   {
+    "id": ["stanag100"],
+    "type": "MIGRATION",
+    "replace": "magazine/surefire/100"
+  },
+  {
     "id": ["stanag100drum"],
     "type": "MIGRATION",
     "replace": "magazine/beta/c-mag/m16"
