@@ -1308,6 +1308,84 @@
   },
 
   {
+    "id": "magazine/surefire/100",
+    "copy-from": "@magazine/556:large",
+    "type": "MAGAZINE",
+
+    "//sources": [
+      [
+        "https://defensereview.com/dr-exclusive-surefire-60-shot-and-100-shot-ar-ar-15m16-5-56mm-nato-box-magazines-for-infantry-combat-and-tactical-engagements-meet-the-surefire-mag5-60-and-mag5-100-high-capacity-magazines-hcms/",
+        "weight",
+        "dimensions"
+      ],
+      [
+        "https://www.thetruthaboutguns.com/gear-review-surefire-mag5-high-capacity-magazine/",
+        "price"
+      ]
+    ],
+
+    "//notes": [
+      "should a high-quality flat image of the magazine become available, its dimensions should be reviewed"
+    ],
+
+    "name": {
+      "str": "STANAG 100-round magazine"
+    },
+    "description": "TODO",
+
+    "variant_type": "gun",
+    "variants": [
+      {
+        "id": "steel",
+
+        "name": {
+          "str": "SureFire MAG5 100-round magazine"
+        },
+        "description": "TODO  <variant:steel>",
+        "expand_snippets": true,
+        "weight": 1
+      }
+    ],
+
+    "//weight": "9.6 oz = 272.16 g",
+    "weight": "272 g",
+    "//dimensions": {
+      "area": "35.13 in2",
+      "width": "1.66 in",
+      "raw": "955.62 ml",
+      "trim": 0.12,
+      "notes": [
+        "trim is for the empty area in the tower relative to the rest of the magazine"
+      ]
+    },
+    "volume": "841 ml",
+    "//longest_side": ["13.69 in = 347.73 mm", "Feret distance"],
+    "longest_side": "348 mm",
+
+    "material": ["aluminum"],
+
+    "reload_time": 200,
+
+    "pocket_data": [
+      {
+        "pocket_type": "MAGAZINE",
+
+        "rigid": true,
+
+        "allowed_speedloaders": ["clip223_10rd"],
+
+        "ammo_restriction": {
+          "223": 100,
+          "300blk": 100
+        }
+      }
+    ],
+
+    "price": "179 USD",
+    "price_postapoc": "10 USD"
+  },
+
+  {
     "id": "magazine/beta/c-mag/m16",
     "copy-from": "@magazine/556:large",
     "type": "MAGAZINE",
