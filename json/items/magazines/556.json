@@ -914,6 +914,91 @@
   },
 
   {
+    "id": "magazine/kci/50",
+    "copy-from": "@magazine/556:large",
+    "type": "MAGAZINE",
+
+    "//sources": [
+      "https://www.kcius.com/products/ar15/ar-15-50rd-magazine",
+      [
+        "https://redcon1tactical.com/kci-ar-15-223-5-56-50-round-drum-magazine-clear.html",
+        "dimensions"
+      ]
+    ],
+
+    "name": {
+      "str": "STANAG 50-round drum magazine"
+    },
+    "description": "TODO",
+
+    "variant_type": "gun",
+    "variants": [
+      {
+        "id": "black",
+
+        "name": {
+          "str": "KCI 50-round 5.56mm drum magazine"
+        },
+        "description": "TODO  <variant:black>",
+        "expand_snippets": true,
+        "weight": 1
+      }
+    ],
+
+    "//weight": "1.4 lbs = 635.03 g",
+    "weight": "635 g",
+    "//dimensions": [
+      {
+        "description": "tower and drum",
+
+        "area": "22.29 in2",
+        "width": "2.62 in",
+        "raw": "1081.37 ml",
+        "trim": 0,
+        "result": "1081.37 ml",
+        "notes": [
+          "width here is the 'height' of the magazine, along the axis of the loaded round"
+        ]
+      },
+      {
+        "description": "winding mechanism",
+
+        "diameter": "3.3 in",
+        "height": "0.6 in",
+        "raw": "184.1 ml",
+        "trim": 0.05,
+        "result": "174.9 ml",
+        "notes": ["trim is for the space between the 'teeth'"]
+      }
+    ],
+    "volume": "1256 ml",
+    "//longest_side": ["8.61 in = 218.69 mm", "Feret distance"],
+    "longest_side": "219 mm",
+
+    "material": ["plastic", "hc_steel"],
+
+    "reload_time": 140,
+
+    "pocket_data": [
+      {
+        "pocket_type": "MAGAZINE",
+
+        "rigid": true,
+
+        "allowed_speedloaders": ["clip223_10rd"],
+
+        "ammo_restriction": {
+          "223": 50,
+          "300blk": 50
+        }
+      }
+    ],
+
+    "price": "124 USD 99 cent",
+    "price_postapoc": "5 USD"
+  },
+
+  {
     "id": "magazine/magpul/pmag/d-60",
     "copy-from": "@magazine/556:large",
     "type": "MAGAZINE",
@@ -1138,6 +1223,91 @@
   },
 
   {
+    "id": "magazine/mwg/90",
+    "copy-from": "@magazine/556:large",
+    "type": "MAGAZINE",
+
+    "//sources": [
+      "https://www.mwgco.com/MWG-223-90A.html",
+      [
+        "https://reddit.com/r/ar15/comments/j8rgms/50_beowulf_pistol_i_can_fit_31_rounds_of_50_in_a/",
+        ".50 Beowulf capacity"
+      ]
+    ],
+
+    "//notes": [
+      "also holds 28 rounds of .458 SOCOM",
+      "https://reddit.com/r/GunPorn/comments/5exxph/drum_fed_458_socom_ar15_by_tromix_768x1024/"
+    ],
+
+    "name": {
+      "str": "STANAG 90-round snail drum magazine"
+    },
+    "description": "TODO",
+
+    "variant_type": "gun",
+    "variants": [
+      {
+        "id": "black",
+
+        "name": {
+          "str": "MWG 90-round 5.56mm snail-drum magazine"
+        },
+        "description": "TODO  <variant:black>",
+        "expand_snippets": true,
+        "weight": 1
+      }
+    ],
+
+    "//weight": "1.25 lbs = 566.99 g",
+    "weight": "567 g",
+    "//dimensions": {
+      "area": "48.31 in2",
+      "width": "2.64 in",
+      "raw": "2089.98 ml",
+      "trim": [0.0125, 0.2],
+      "notes": [
+        [
+          "first trim is for the slight recess on the round component next to the base of the magazine tower",
+          "second trim is for the empty space at the back of the magazine, inside the 'snail tail'"
+        ],
+        [
+          "width here is what would ordinarily be considered the 'height' of the magazine: distance on the axis parallel to the axis of the ammo loaded inside the magazine",
+          "we assume it to be the same as PMAG's thickest part"
+        ]
+      ]
+    },
+    "volume": "1651 ml",
+    "//longest_side": ["8.95 in = 227.33 mm", "Feret distance"],
+    "longest_side": "227 mm",
+
+    "//material": "we assume it's mostly plastic",
+    "material": ["plastic"],
+
+    "reload_time": 190,
+
+    "pocket_data": [
+      {
+        "pocket_type": "MAGAZINE",
+
+        "rigid": true,
+
+        "allowed_speedloaders": ["clip223_10rd"],
+
+        "ammo_restriction": {
+          "223": 90,
+          "300blk": 90,
+
+          "50beowulf": 31
+        }
+      }
+    ],
+
+    "price": "135 USD",
+    "price_postapoc": "10 USD"
+  },
+
+  {
     "id": "magazine/beta/c-mag/m16",
     "copy-from": "@magazine/556:large",
     "type": "MAGAZINE",
@@ -1203,6 +1373,79 @@
     ],
 
     "price": "264 USD",
+    "price_postapoc": "10 USD"
+  },
+
+  {
+    "id": "magazine/armatac/saw-mag",
+    "copy-from": "@magazine/556:large",
+    "type": "MAGAZINE",
+
+    "//sources": [
+      "https://www.armatac.com/product/products-saw-mag/",
+      ["https://betaco.com/technical-manuals/", "dimensions", "weight"],
+      [
+        "https://web.archive.org/web/20240223201647/https://betaco.com/c-mag-systems/5-56mm/m16-m4/",
+        "price"
+      ]
+    ],
+
+    "//notes": [
+      "this item's ID could end in `stanag` instead of `m16`, but the item is based of a specific model labeled 'M16/M4', which is sufficiently dimensionally different from the STANAG model that we have to be specific"
+    ],
+
+    "name": {
+      "str": "STANAG 150-round double drum magazine"
+    },
+    "description": "TODO",
+
+    "variant_type": "gun",
+    "variants": [
+      {
+        "id": "black",
+
+        "name": {
+          "str": "Armatac SAW-MAG 150-round 5.56mm double-drum magazine"
+        },
+        "description": "TODO  <variant:black>",
+        "expand_snippets": true,
+        "weight": 1
+      }
+    ],
+
+    "//weight": "4.9 lbs = 2222.6 g",
+    "weight": "2223 g",
+    "//dimensions": {
+      "area": "65.83 in2",
+      "width": "3.25 in",
+      "raw": "3505.97 ml",
+      "trim": 0.05
+    },
+    "volume": "3331 ml",
+    "//longest_side": ["13.53 in = 343.66 mm", "Feret distance"],
+    "longest_side": "344 mm",
+
+    "//material": ["plastic stands for glass nylon"],
+    "material": ["plastic", "steel"],
+
+    "reload_time": 250,
+
+    "pocket_data": [
+      {
+        "pocket_type": "MAGAZINE",
+
+        "rigid": true,
+
+        "allowed_speedloaders": ["clip223_10rd"],
+
+        "ammo_restriction": {
+          "223": 150,
+          "300blk": 150
+        }
+      }
+    ],
+
+    "price": "433 USD 67 cent",
     "price_postapoc": "10 USD"
   }
 ]

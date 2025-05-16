@@ -52,6 +52,11 @@
     "replace": "magazine/magpul/pmag/40:ranger_plate"
   },
   {
+    "id": ["stanag50"],
+    "type": "MIGRATION",
+    "replace": "magazine/kci/50"
+  },
+  {
     "id": ["stanag60"],
     "type": "MIGRATION",
     "replace": "magazine/surefire/60"
@@ -62,8 +67,18 @@
     "replace": "magazine/magpul/pmag/d-60"
   },
   {
+    "id": ["stanag90"],
+    "type": "MIGRATION",
+    "replace": "magazine/mwg/90"
+  },
+  {
     "id": ["stanag100drum"],
     "type": "MIGRATION",
     "replace": "magazine/beta/c-mag/m16"
+  },
+  {
+    "id": ["stanag150"],
+    "type": "MIGRATION",
+    "replace": "magazine/armatac/saw-mag"
   }
 ]
