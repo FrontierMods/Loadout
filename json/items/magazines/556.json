@@ -46,11 +46,6 @@
 
     "//sources": ["https://magpul.com/pmag-10-ar-m4-gen-m3.html"],
 
-    "//notes": [
-      "area sans base plate: 7.87 in2",
-      "feret distance sans base plate: 4.13 in"
-    ],
-
     "name": {
       "str": "PMAG STANAG 10-round magazine"
     },
