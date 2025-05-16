@@ -8,7 +8,12 @@
     ],
     "id": ["stanag5"],
     "type": "MIGRATION",
-    "replace": "stanag10"
+    "replace": "magazine/magpul/pmag/10"
+  },
+  {
+    "id": ["stanag5ranger"],
+    "type": "MIGRATION",
+    "replace": "magazine/magpul/pmag/10:ranger_plate"
   },
 
   {
