@@ -8,7 +8,7 @@
   - for the models that do support it
 - [ ] **enhanced magazine representation**
 - [ ] **magazine modding**
-  - [ ] STANAG magazines
+  - [x] STANAG magazines
   - [ ] Glock magazines
   - extended base plates to improve magazine capacity
   - carabiner adapters (aka ranger plates)
