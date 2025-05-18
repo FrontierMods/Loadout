@@ -1,16 +1,5 @@
 [
   {
-    "abstract": "@magmod",
-    "type": "GENERIC",
-    "name": { "str": "magmod" },
-
-    "symbol": "/",
-    "color": "light_gray",
-
-    "price_postapoc": "5 cent"
-  },
-
-  {
     "id": "baseplate/colt/stanag",
     "copy-from": "@magmod",
     "type": "GENERIC",

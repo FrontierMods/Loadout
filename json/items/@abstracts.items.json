@@ -61,6 +61,7 @@
 
     "price_postapoc": "50 cent"
   },
+
   {
     "abstract": "@magazine",
     "type": "MAGAZINE",
@@ -68,7 +69,9 @@
     "name": { "str": "magazine" },
 
     "symbol": "#",
-    "color": "light_gray"
+    "color": "light_gray",
+
+    "price_postapoc": "1 USD"
   },
   {
     "abstract": "@magazine/body",
@@ -81,6 +84,17 @@
 
     "//price": "based on nothing at all",
     "price": "50 cent",
+    "price_postapoc": "5 cent"
+  },
+
+  {
+    "abstract": "@magmod",
+    "type": "GENERIC",
+    "name": { "str": "magmod" },
+
+    "symbol": "/",
+    "color": "light_gray",
+
     "price_postapoc": "5 cent"
   }
 ]
