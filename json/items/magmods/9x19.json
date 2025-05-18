@@ -1,0 +1,126 @@
+[
+  {
+    "id": "baseplate/glock/oem",
+    "copy-from": "@magmod",
+    "type": "GENERIC",
+
+    "//sources": [
+      [
+        "https://www.glockstore.com/Heavy-Extended-Aluminum-Magazine-Base-Plate",
+        "weight"
+      ],
+      [
+        "https://www.forwardcontrolsdesign.com/MFP-G_p_381.html",
+        "width",
+        "length"
+      ],
+      [
+        "https://gear-report.com/review-preview-glock-magazine-extension/",
+        "height"
+      ],
+      [
+        "https://www.glockstore.com/Glock-Mag-Floor-Plate-9-40-357-45GAP",
+        "price"
+      ]
+    ],
+
+    "//notes": [
+      "unfortunately, we have to mix dimensions of different generations of magazines",
+      "this appears to be an insignificant tradeoff for having proper dimensions for such an out-of-sight item"
+    ],
+
+    "name": {
+      "str": "Glock magazine baseplate"
+    },
+    "description": "TODO",
+
+    "variant_type": "gun",
+    "variants": [
+      {
+        "id": "black",
+
+        "name": {
+          "str": "Glock magazine baseplate"
+        },
+        "description": "TODO  <variant:black>",
+        "expand_snippets": true,
+        "weight": 1
+      }
+    ],
+
+    "weight": "3 g 500 mg",
+    "//dimensions": {
+      "length": "1.701 in",
+      "width": "1.3 in",
+      "height": "0.335 in",
+      "raw": "12.14 ml",
+      "trim": 0.25,
+      "notes": [
+        "trim is to account for both the curved edges and the interior space",
+        "the latter becomes apparent from images in the height source"
+      ]
+    },
+    "volume": "9 ml",
+    "longest_side": "43 mm",
+
+    "material": ["plastic"],
+
+    "price": "3 USD 99 cent"
+  },
+  {
+    "id": "baseplate/glock/+2",
+    "copy-from": "@magmod",
+    "type": "GENERIC",
+
+    "//sources": [
+      [
+        "https://rockyourglock.com/glock-plus-2-magazine-extension-w-insert",
+        "price"
+      ]
+    ],
+
+    "//notes": [
+      "the source for weight and dimensions looks shady but also offers the best values",
+      "to avoid potentially harming players' and modders' computers, we refuse to link the source for those",
+      "a better, linkable source would be much appreciated"
+    ],
+
+    "name": {
+      "str": "Glock factory magazine extension"
+    },
+    "description": "TODO",
+
+    "variant_type": "gun",
+    "variants": [
+      {
+        "id": "black",
+
+        "name": {
+          "str": "Glock OEM +2 baseplate"
+        },
+        "description": "TODO  <variant:black>",
+        "expand_snippets": true,
+        "weight": 1
+      }
+    ],
+
+    "//weight": "0.5 oz = 14.175 g",
+    "weight": "14 g 175 mg",
+    "//dimensions": {
+      "area": "1.01 in2",
+      "width": "1.1 in",
+      "raw": "18.2 ml",
+      "trim": 0.6,
+      "notes": [
+        "trim is to account for both the curved edges and the interior space"
+      ]
+    },
+    "volume": "7 ml",
+    "//longest_side": ["1.55 in = 39.37 mm", "Feret distance"],
+    "longest_side": "39 mm",
+
+    "material": ["plastic"],
+
+    "price": "12 USD 95 cent"
+  }
+]

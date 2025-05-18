@@ -1,0 +1,7 @@
+[
+  {
+    "id": ["glock17_17"],
+    "type": "MIGRATION",
+    "replace": "magazine/glock/17"
+  }
+]

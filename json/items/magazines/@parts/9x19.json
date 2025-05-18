@@ -1,0 +1,47 @@
+[
+  {
+    "id": "magazine/body/glock/17",
+    "copy-from": "@magazine/body",
+    "type": "GENERIC",
+
+    "//sources": ["magazine/glock/17", "baseplate/glock/oem"],
+
+    "name": {
+      "str": "Glock 9x19mm 17-round magazine body",
+      "str_pl": "Glock 9x19mm 17-round magazine bodies"
+    },
+    "description": "TODO",
+
+    "variant_type": "gun",
+    "variants": [
+      {
+        "id": "black",
+
+        "name": {
+          "str": "Glock 9x19mm 17-round magazine body",
+          "str_pl": "Glock 9x19mm 17-round magazine bodies"
+        },
+        "description": "TODO  <variant:black>",
+        "expand_snippets": true,
+        "weight": 1
+      }
+    ],
+
+    "//weight": [
+      "Glock 17 with empty magazine (24.87 oz = 705.05 g) - Glock 17 without magazine (22.05 oz = 625.11 g) = 79.94 g",
+      "- 3.5 g = 76.44 g"
+    ],
+    "weight": "76 g 440 mg",
+    "//dimensions": {
+      "area": "5.68 in2",
+      "width": "0.888 in",
+      "raw": "82.65 ml",
+      "trim": 0
+    },
+    "volume": "83 ml",
+    "//longest_side": "4.92 in = 124.97 mm",
+    "longest_side": "125 mm",
+
+    "material": ["plastic"]
+  }
+]
