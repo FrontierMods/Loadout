@@ -1,0 +1,15 @@
+[
+  {
+    "abstract": "@gunmod/part/suppressor",
+    "type": "GENERIC",
+
+    "name": { "str": "gunmod part: suppressor" },
+
+    "symbol": "#",
+    "color": "dark_gray",
+
+    "//price": "based on nothing at all",
+    "price": "50 cent",
+    "price_postapoc": "5 cent"
+  }
+]
