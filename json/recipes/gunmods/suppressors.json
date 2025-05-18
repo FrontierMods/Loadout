@@ -1,0 +1,24 @@
+[
+  {
+    "result": "suppressor/thunder_beast/fly_9",
+    "type": "recipe",
+
+    "category": "CC_WEAPON",
+    "subcategory": "CSC_WEAPON_MODS",
+
+    "activity_level": "NO_EXERCISE",
+    "difficulty": 0,
+    "time": "15 s",
+
+    "skill_used": "fabrication",
+    "autolearn": true,
+    "reversible": true,
+
+    "components": [
+      [["suppressor/thunder_beast/fly_9:short", 1]],
+      [["gunmod/part/suppressor/thunder_beast/fly_9", 1]]
+    ],
+
+    "flags": ["BLIND_EASY"]
+  }
+]

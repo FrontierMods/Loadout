@@ -1,0 +1,44 @@
+[
+  {
+    "id": "gunmod/part/suppressor/thunder_beast/fly_9",
+    "copy-from": "@gunmod/part/suppressor",
+    "type": "GENERIC",
+
+    "//sources": ["https://thunderbeastarms.com/products/fly9"],
+
+    "//notes": ["end cap length: 0.5 in."],
+
+    "name": {
+      "str": "Fly suppressor extension"
+    },
+    "description": "TODO",
+
+    "variant_type": "gun",
+    "variants": [
+      {
+        "id": "black",
+
+        "name": {
+          "str": "Thunder Beast Fly 9 suppressor extension"
+        },
+        "description": "TODO  <variant:black>",
+        "expand_snippets": true,
+        "weight": 1
+      }
+    ],
+
+    "//weight": "weight of full suppressor (7.9 oz = 223.96 g) - weight of shortened supressor (5.5 oz = 155.92 g) = 68.04 g",
+    "weight": "68 g",
+    "//dimensions": {
+      "length": "3 in",
+      "diameter": "1.39 in",
+      "raw": "74.6 ml",
+      "trim": 0
+    },
+    "volume": "75 ml",
+    "//longest_side": "3 in = 76.2 mm",
+    "longest_side": "76 mm",
+
+    "material": ["titanium"]
+  }
+]
