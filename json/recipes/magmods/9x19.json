@@ -1,0 +1,44 @@
+[
+  {
+    "result": "magazine/glock/17/+2",
+    "type": "recipe",
+
+    "category": "CC_WEAPON",
+    "subcategory": "CSC_WEAPON_MAGMODS",
+
+    "activity_level": "NO_EXERCISE",
+    "difficulty": 0,
+    "time": "30 s",
+
+    "skill_used": "fabrication",
+    "autolearn": true,
+
+    "components": [
+      [["magazine/body/glock/17", 1]],
+      [["baseplate/glock/+2", 1]]
+    ],
+
+    "flags": ["BLIND_EASY"]
+  },
+  {
+    "result": "magazine/glock/17",
+    "type": "recipe",
+
+    "category": "CC_WEAPON",
+    "subcategory": "CSC_WEAPON_MAGMODS",
+
+    "activity_level": "NO_EXERCISE",
+    "difficulty": 0,
+    "time": "30 s",
+
+    "skill_used": "fabrication",
+    "autolearn": true,
+
+    "components": [
+      [["magazine/body/glock/17", 1]],
+      [["baseplate/glock/oem", 1]]
+    ],
+
+    "flags": ["BLIND_EASY"]
+  }
+]
