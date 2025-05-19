@@ -537,16 +537,6 @@
         "description": "TODO  <variant:black>",
         "expand_snippets": true,
         "weight": 1
-      },
-      {
-        "id": "fde",
-
-        "name": {
-          "str": "Magpul PMAG 30-round magazine"
-        },
-        "description": "TODO  <variant:fde>",
-        "expand_snippets": true,
-        "weight": 1
       }
     ],
 
@@ -605,17 +595,6 @@
         "description": "TODO  <variant:black>",
         "expand_snippets": true,
         "weight": 1
-      },
-      {
-        "id": "fde",
-
-        "name": {
-          "str": "Magpul PMAG 30-round magazine (ranger plate)",
-          "str_pl": "Magpul PMAG 30-round magazines (ranger plate)"
-        },
-        "description": "TODO  <variant:fde>",
-        "expand_snippets": true,
-        "weight": 1
       }
     ],
 
@@ -663,17 +642,6 @@
           "str_pl": "Magpul PMAG 30-round magazines (extension plate)"
         },
         "description": "TODO  <variant:black>",
-        "expand_snippets": true,
-        "weight": 1
-      },
-      {
-        "id": "fde",
-
-        "name": {
-          "str": "Magpul PMAG 30-round magazine (extension plate)",
-          "str_pl": "Magpul PMAG 30-round magazines (extension plate)"
-        },
-        "description": "TODO  <variant:fde>",
         "expand_snippets": true,
         "weight": 1
       }
@@ -802,17 +770,6 @@
         "description": "TODO  <variant:black>",
         "expand_snippets": true,
         "weight": 1
-      },
-      {
-        "id": "fde",
-
-        "name": {
-          "str": "Magpul PMAG 40-round magazine (ranger plate)",
-          "str_pl": "Magpul PMAG 40-round magazines (ranger plate)"
-        },
-        "description": "TODO  <variant:fde>",
-        "expand_snippets": true,
-        "weight": 1
       }
     ],
 
@@ -855,17 +812,6 @@
           "str_pl": "Magpul PMAG 40-round magazines (extension plate)"
         },
         "description": "TODO  <variant:black>",
-        "expand_snippets": true,
-        "weight": 1
-      },
-      {
-        "id": "fde",
-
-        "name": {
-          "str": "Magpul PMAG 40-round magazine (extension plate)",
-          "str_pl": "Magpul PMAG 40-round magazines (extension plate)"
-        },
-        "description": "TODO  <variant:fde>",
         "expand_snippets": true,
         "weight": 1
       }
