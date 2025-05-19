@@ -75,16 +75,6 @@
         "description": "TODO  <variant:black>",
         "expand_snippets": true,
         "weight": 1
-      },
-      {
-        "id": "fde",
-
-        "name": {
-          "str": "Magpul PMAG baseplate"
-        },
-        "description": "TODO  <variant:fde>",
-        "expand_snippets": true,
-        "weight": 1
       }
     ],
 
@@ -142,16 +132,6 @@
         "description": "TODO  <variant:black>",
         "expand_snippets": true,
         "weight": 1
-      },
-      {
-        "id": "fde",
-
-        "name": {
-          "str": "Magpul PMAG ranger plate"
-        },
-        "description": "TODO  <variant:fde>",
-        "expand_snippets": true,
-        "weight": 1
       }
     ],
 
@@ -202,16 +182,6 @@
           "str": "Magpul USGI ranger plate"
         },
         "description": "TODO  <variant:black>",
-        "expand_snippets": true,
-        "weight": 1
-      },
-      {
-        "id": "fde",
-
-        "name": {
-          "str": "Magpul USGI ranger plate"
-        },
-        "description": "TODO  <variant:fde>",
         "expand_snippets": true,
         "weight": 1
       }
