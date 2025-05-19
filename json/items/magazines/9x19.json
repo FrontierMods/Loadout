@@ -73,7 +73,7 @@
         "reference": "baseplate/glock/oem",
         "result": "9.105 ml",
         "notes": [
-          "we use the final dimensions of the base plate because they already account for the shared space"
+          "we use the final dimensions of the base plate because they already account for the space shared between the bottom of the magazine body and the top of the base plate"
         ]
       }
     ],
