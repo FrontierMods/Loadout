@@ -66,32 +66,5 @@
         "weight": 1
       }
     ]
-  },
-
-  {
-    "type": "snippet",
-    "category": "<separator/space:large>",
-    "text": [
-      {
-        "text": "<separator/space:medium><separator/space:medium>"
-      }
-    ]
-  },
-  {
-    "type": "snippet",
-    "category": "<separator/space:medium>",
-    "text": [
-      {
-        "text": "<separator/space><separator/space><separator/space>"
-      }
-    ]
-  },
-  {
-    "type": "snippet",
-    "category": "<separator/space>",
-    "text": [
-      { "text": " ", "weight": 4 },
-      { "text": "", "weight": 6 }
-    ]
   }
 ]
