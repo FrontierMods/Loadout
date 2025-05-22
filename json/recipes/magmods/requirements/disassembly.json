@@ -1,0 +1,10 @@
+[
+  {
+    "id": "requirement/magmod/disassembly",
+    "type": "requirement",
+
+    "//0.H": "this requirement must be referenced directly in the disassembly recipe, because inheriting it using either `using` (via `extend`) or `qualities` in the magmod disassembly abstract doesn't work",
+
+    "qualities": [{ "id": "FINE_POINT", "level": 1 }]
+  }
+]

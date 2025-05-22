@@ -1,0 +1,28 @@
+[
+  {
+    "abstract": "@magmod",
+    "type": "recipe",
+
+    "category": "CC_WEAPON",
+    "subcategory": "CSC_WEAPON_MAGMODS",
+
+    "activity_level": "NO_EXERCISE",
+    "difficulty": 0,
+    "time": "30 s",
+
+    "skill_used": "fabrication",
+    "autolearn": true,
+
+    "flags": ["BLIND_EASY"]
+  },
+  {
+    "abstract": "@magmod/disassembly",
+    "type": "uncraft",
+
+    "activity_level": "NO_EXERCISE",
+    "difficulty": 0,
+    "time": "30 s",
+
+    "flags": ["BLIND_EASY"]
+  }
+]

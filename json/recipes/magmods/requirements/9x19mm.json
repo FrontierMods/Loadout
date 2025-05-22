@@ -1,0 +1,21 @@
+[
+  {
+    "id": "requirement/magazine/body/glock/17",
+    "type": "requirement",
+
+    "components": [[["magazine/body/glock/17", 1]]]
+  },
+
+  {
+    "id": "requirement/magazine/baseplate/glock/oem",
+    "type": "requirement",
+
+    "components": [[["magazine/baseplate/glock/oem", 1]]]
+  },
+  {
+    "id": "requirement/magazine/baseplate/glock/+2",
+    "type": "requirement",
+
+    "components": [[["magazine/baseplate/glock/+2", 1]]]
+  }
+]

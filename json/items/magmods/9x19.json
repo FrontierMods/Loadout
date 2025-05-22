@@ -1,6 +1,6 @@
 [
   {
-    "id": "baseplate/glock/oem",
+    "id": "magazine/baseplate/glock/oem",
     "copy-from": "@magmod",
     "type": "GENERIC",
 
@@ -68,7 +68,7 @@
     "price": "3 USD 99 cent"
   },
   {
-    "id": "baseplate/glock/+2",
+    "id": "magazine/baseplate/glock/+2",
     "copy-from": "@magmod",
     "type": "GENERIC",
 
