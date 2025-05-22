@@ -1,222 +1,170 @@
 [
   {
-    "result": "magazine/magpul/pmag/10:ranger_plate",
-    "type": "uncraft",
-
-    "activity_level": "NO_EXERCISE",
-    "difficulty": 0,
-    "time": "30 s",
-
-    "qualities": [{ "id": "FINE_POINT", "level": 1 }],
-    "components": [
-      [["magazine/body/magpul/pmag/10", 1]],
-      [["baseplate/magpul/ranger", 1]]
-    ],
-
-    "flags": ["BLIND_EASY"]
-  },
-  {
     "result": "magazine/magpul/pmag/10",
+    "copy-from": "@magmod/disassembly",
     "type": "uncraft",
 
-    "activity_level": "NO_EXERCISE",
-    "difficulty": 0,
-    "time": "30 s",
+    "using": [
+      ["requirement/magmod/disassembly", 1],
 
-    "qualities": [{ "id": "FINE_POINT", "level": 1 }],
-    "components": [
-      [["magazine/body/magpul/pmag/10", 1]],
-      [["baseplate/magpul/pmag", 1]]
-    ],
+      ["requirement/magazine/body/magpul/pmag/10", 1],
+      ["requirement/magazine/baseplate/magpul/pmag", 1]
+    ]
+  },
+  {
+    "result": "magazine/magpul/pmag/10:ranger_plate",
+    "copy-from": "@magmod/disassembly",
+    "type": "uncraft",
 
-    "flags": ["BLIND_EASY"]
+    "using": [
+      ["requirement/magmod/disassembly", 1],
+
+      ["requirement/magazine/body/magpul/pmag/10", 1],
+      ["requirement/magazine/baseplate/magpul/ranger", 1]
+    ]
   },
 
   {
-    "result": "magazine/magpul/pmag/20:extended/taran",
+    "result": "magazine/magpul/pmag/20",
+    "copy-from": "@magmod/disassembly",
     "type": "uncraft",
 
-    "activity_level": "NO_EXERCISE",
-    "difficulty": 0,
-    "time": "30 s",
+    "using": [
+      ["requirement/magmod/disassembly", 1],
 
-    "qualities": [{ "id": "FINE_POINT", "level": 1 }],
-    "components": [
-      [["magazine/body/magpul/pmag/20", 1]],
-      [["baseplate/taran/extended/pmag", 1]]
-    ],
-
-    "flags": ["BLIND_EASY"]
+      ["requirement/magazine/body/magpul/pmag/20", 1],
+      ["requirement/magazine/baseplate/magpul/pmag", 1]
+    ]
   },
   {
     "result": "magazine/magpul/pmag/20:ranger_plate",
+    "copy-from": "@magmod/disassembly",
     "type": "uncraft",
 
-    "activity_level": "NO_EXERCISE",
-    "difficulty": 0,
-    "time": "30 s",
+    "using": [
+      ["requirement/magmod/disassembly", 1],
 
-    "qualities": [{ "id": "FINE_POINT", "level": 1 }],
-    "components": [
-      [["magazine/body/magpul/pmag/20", 1]],
-      [["baseplate/magpul/ranger", 1]]
-    ],
-
-    "flags": ["BLIND_EASY"]
+      ["requirement/magazine/body/magpul/pmag/20", 1],
+      ["requirement/magazine/baseplate/magpul/ranger", 1]
+    ]
   },
   {
-    "result": "magazine/magpul/pmag/20",
+    "result": "magazine/magpul/pmag/20:extended/taran",
+    "copy-from": "@magmod/disassembly",
     "type": "uncraft",
 
-    "activity_level": "NO_EXERCISE",
-    "difficulty": 0,
-    "time": "30 s",
+    "using": [
+      ["requirement/magmod/disassembly", 1],
 
-    "qualities": [{ "id": "FINE_POINT", "level": 1 }],
-    "components": [
-      [["magazine/body/magpul/pmag/20", 1]],
-      [["baseplate/magpul/pmag", 1]]
-    ],
-
-    "flags": ["BLIND_EASY"]
+      ["requirement/magazine/body/magpul/pmag/20", 1],
+      ["requirement/magazine/baseplate/taran/extended/pmag", 1]
+    ]
   },
 
-  {
-    "result": "magazine/colt/stanag/30:ranger_plate",
-    "type": "uncraft",
-
-    "//sources": [
-      "https://magpul.com/media/wysiwyg/Instructions/MAG020_USGI_Ranger_Plate_INSRT.pdf"
-    ],
-
-    "activity_level": "NO_EXERCISE",
-    "difficulty": 0,
-    "time": "30 s",
-
-    "qualities": [{ "id": "FINE_POINT", "level": 1 }],
-    "components": [
-      [["magazine/body/colt/stanag/30", 1]],
-      [["baseplate/magpul/ranger/usgi", 1]]
-    ],
-
-    "flags": ["BLIND_EASY"]
-  },
   {
     "result": "magazine/colt/stanag/30",
+    "copy-from": "@magmod/disassembly",
     "type": "uncraft",
 
     "//sources": [
       "https://magpul.com/media/wysiwyg/Instructions/MAG020_USGI_Ranger_Plate_INSRT.pdf"
     ],
 
-    "activity_level": "NO_EXERCISE",
-    "difficulty": 0,
-    "time": "30 s",
+    "using": [
+      ["requirement/magmod/disassembly", 1],
 
-    "qualities": [{ "id": "FINE_POINT", "level": 1 }],
-    "components": [
-      [["magazine/body/colt/stanag/30", 1]],
-      [["baseplate/colt/stanag", 1]]
+      ["requirement/magazine/body/colt/stanag/30", 1],
+      ["requirement/magazine/baseplate/colt/stanag", 1]
+    ]
+  },
+  {
+    "result": "magazine/colt/stanag/30:ranger_plate",
+    "copy-from": "@magmod/disassembly",
+    "type": "uncraft",
+
+    "//sources": [
+      "https://magpul.com/media/wysiwyg/Instructions/MAG020_USGI_Ranger_Plate_INSRT.pdf"
     ],
 
-    "flags": ["BLIND_EASY"]
+    "using": [
+      ["requirement/magmod/disassembly", 1],
+
+      ["requirement/magazine/body/colt/stanag/30", 1],
+      ["requirement/magazine/baseplate/magpul/ranger/usgi", 1]
+    ]
   },
 
   {
-    "result": "magazine/magpul/pmag/30:extended/taran",
+    "result": "magazine/magpul/pmag/30",
+    "copy-from": "@magmod/disassembly",
     "type": "uncraft",
 
-    "activity_level": "NO_EXERCISE",
-    "difficulty": 0,
-    "time": "30 s",
+    "using": [
+      ["requirement/magmod/disassembly", 1],
 
-    "qualities": [{ "id": "FINE_POINT", "level": 1 }],
-    "components": [
-      [["magazine/body/magpul/pmag/30", 1]],
-      [["baseplate/taran/extended/pmag", 1]]
-    ],
-
-    "flags": ["BLIND_EASY"]
+      ["requirement/magazine/body/magpul/pmag/30", 1],
+      ["requirement/magazine/baseplate/magpul/pmag", 1]
+    ]
   },
   {
     "result": "magazine/magpul/pmag/30:ranger_plate",
+    "copy-from": "@magmod/disassembly",
     "type": "uncraft",
 
-    "activity_level": "NO_EXERCISE",
-    "difficulty": 0,
-    "time": "30 s",
+    "using": [
+      ["requirement/magmod/disassembly", 1],
 
-    "qualities": [{ "id": "FINE_POINT", "level": 1 }],
-    "components": [
-      [["magazine/body/magpul/pmag/30", 1]],
-      [["baseplate/magpul/ranger", 1]]
-    ],
-
-    "flags": ["BLIND_EASY"]
+      ["requirement/magazine/body/magpul/pmag/30", 1],
+      ["requirement/magazine/baseplate/magpul/ranger", 1]
+    ]
   },
   {
-    "result": "magazine/magpul/pmag/30",
+    "result": "magazine/magpul/pmag/30:extended/taran",
+    "copy-from": "@magmod/disassembly",
     "type": "uncraft",
 
-    "activity_level": "NO_EXERCISE",
-    "difficulty": 0,
-    "time": "30 s",
+    "using": [
+      ["requirement/magmod/disassembly", 1],
 
-    "qualities": [{ "id": "FINE_POINT", "level": 1 }],
-    "components": [
-      [["magazine/body/magpul/pmag/30", 1]],
-      [["baseplate/magpul/pmag", 1]]
-    ],
-
-    "flags": ["BLIND_EASY"]
+      ["requirement/magazine/body/magpul/pmag/30", 1],
+      ["requirement/magazine/baseplate/taran/extended/pmag", 1]
+    ]
   },
 
   {
-    "result": "magazine/magpul/pmag/40:extended/taran",
+    "result": "magazine/magpul/pmag/40",
+    "copy-from": "@magmod/disassembly",
     "type": "uncraft",
 
-    "activity_level": "NO_EXERCISE",
-    "difficulty": 0,
-    "time": "30 s",
+    "using": [
+      ["requirement/magmod/disassembly", 1],
 
-    "qualities": [{ "id": "FINE_POINT", "level": 1 }],
-    "components": [
-      [["magazine/body/magpul/pmag/40", 1]],
-      [["baseplate/taran/extended/pmag", 1]]
-    ],
-
-    "flags": ["BLIND_EASY"]
+      ["requirement/magazine/body/magpul/pmag/40", 1],
+      ["requirement/magazine/baseplate/magpul/pmag", 1]
+    ]
   },
   {
     "result": "magazine/magpul/pmag/40:ranger_plate",
+    "copy-from": "@magmod/disassembly",
     "type": "uncraft",
 
-    "activity_level": "NO_EXERCISE",
-    "difficulty": 0,
-    "time": "30 s",
+    "using": [
+      ["requirement/magmod/disassembly", 1],
 
-    "qualities": [{ "id": "FINE_POINT", "level": 1 }],
-    "components": [
-      [["magazine/body/magpul/pmag/40", 1]],
-      [["baseplate/magpul/ranger", 1]]
-    ],
-
-    "flags": ["BLIND_EASY"]
+      ["requirement/magazine/body/magpul/pmag/40", 1],
+      ["requirement/magazine/baseplate/magpul/ranger", 1]
+    ]
   },
   {
-    "result": "magazine/magpul/pmag/40",
+    "result": "magazine/magpul/pmag/40:extended/taran",
+    "copy-from": "@magmod/disassembly",
     "type": "uncraft",
 
-    "activity_level": "NO_EXERCISE",
-    "difficulty": 0,
-    "time": "30 s",
+    "using": [
+      ["requirement/magmod/disassembly", 1],
 
-    "qualities": [{ "id": "FINE_POINT", "level": 1 }],
-    "components": [
-      [["magazine/body/magpul/pmag/40", 1]],
-      [["baseplate/magpul/pmag", 1]]
-    ],
-
-    "flags": ["BLIND_EASY"]
+      ["requirement/magazine/body/magpul/pmag/40", 1],
+      ["requirement/magazine/baseplate/taran/extended/pmag", 1]
+    ]
   }
 ]
