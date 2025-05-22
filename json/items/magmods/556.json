@@ -1,6 +1,6 @@
 [
   {
-    "id": "baseplate/colt/stanag",
+    "id": "magazine/baseplate/colt/stanag",
     "copy-from": "@magmod",
     "type": "GENERIC",
 
@@ -42,7 +42,7 @@
     "price": "1 cent"
   },
   {
-    "id": "baseplate/magpul/pmag",
+    "id": "magazine/baseplate/magpul/pmag",
     "copy-from": "@magmod",
     "type": "GENERIC",
 
@@ -99,7 +99,7 @@
     "price": "5 cent"
   },
   {
-    "id": "baseplate/magpul/ranger",
+    "id": "magazine/baseplate/magpul/ranger",
     "copy-from": "@magmod",
     "type": "GENERIC",
 
@@ -156,7 +156,7 @@
     "price": "8 USD 33 cent"
   },
   {
-    "id": "baseplate/magpul/ranger/usgi",
+    "id": "magazine/baseplate/magpul/ranger/usgi",
     "copy-from": "@magmod",
     "type": "GENERIC",
 
@@ -205,7 +205,7 @@
     "price": "8 USD 33 cent"
   },
   {
-    "id": "baseplate/taran/extended/pmag",
+    "id": "magazine/baseplate/taran/extended/pmag",
     "copy-from": "@magmod",
     "type": "GENERIC",
 

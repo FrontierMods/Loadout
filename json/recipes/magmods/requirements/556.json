@@ -1,0 +1,72 @@
+[
+  {
+    "id": "requirement/magazine/body/magpul/pmag/10",
+    "type": "requirement",
+
+    "components": [[["magazine/body/magpul/pmag/10", 1]]]
+  },
+  {
+    "id": "requirement/magazine/body/magpul/pmag/20",
+    "type": "requirement",
+
+    "components": [[["magazine/body/magpul/pmag/20", 1]]]
+  },
+  {
+    "id": "requirement/magazine/body/magpul/pmag/30",
+    "type": "requirement",
+
+    "components": [[["magazine/body/magpul/pmag/30", 1]]]
+  },
+  {
+    "id": "requirement/magazine/body/magpul/pmag/40",
+    "type": "requirement",
+
+    "components": [[["magazine/body/magpul/pmag/40", 1]]]
+  },
+
+  {
+    "id": "requirement/magazine/body/colt/stanag/30",
+    "type": "requirement",
+
+    "components": [[["magazine/body/colt/stanag/30", 1]]]
+  },
+
+  {
+    "id": "requirement/magazine/baseplate/magpul/pmag",
+    "type": "requirement",
+
+    "components": [[["magazine/baseplate/magpul/pmag", 1]]]
+  },
+  {
+    "id": "requirement/magazine/baseplate/magpul/ranger",
+    "type": "requirement",
+
+    "components": [[["magazine/baseplate/magpul/ranger", 1]]]
+  },
+  {
+    "id": "requirement/magazine/baseplate/magpul/ranger",
+    "type": "requirement",
+
+    "components": [[["magazine/baseplate/magpul/ranger", 1]]]
+  },
+
+  {
+    "id": "requirement/magazine/baseplate/taran/extended/pmag",
+    "type": "requirement",
+
+    "components": [[["magazine/baseplate/taran/extended/pmag", 1]]]
+  },
+
+  {
+    "id": "requirement/magazine/baseplate/colt/stanag",
+    "type": "requirement",
+
+    "components": [[["magazine/baseplate/colt/stanag", 1]]]
+  },
+  {
+    "id": "requirement/magazine/baseplate/magpul/ranger/usgi",
+    "type": "requirement",
+
+    "components": [[["magazine/baseplate/magpul/ranger/usgi", 1]]]
+  }
+]

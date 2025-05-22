@@ -1,34 +1,26 @@
 [
   {
-    "result": "magazine/glock/17/+2",
+    "result": "magazine/glock/17",
+    "copy-from": "@magmod/disassembly",
     "type": "uncraft",
 
-    "activity_level": "NO_EXERCISE",
-    "difficulty": 0,
-    "time": "30 s",
+    "using": [
+      ["requirement/magmod/disassembly", 1],
 
-    "qualities": [{ "id": "FINE_POINT", "level": 1 }],
-    "components": [
-      [["magazine/body/glock/17", 1]],
-      [["baseplate/glock/+2", 1]]
-    ],
-
-    "flags": ["BLIND_EASY"]
+      ["requirement/magazine/body/glock/17", 1],
+      ["requirement/magazine/baseplate/glock/oem", 1]
+    ]
   },
   {
-    "result": "magazine/glock/17",
+    "result": "magazine/glock/17/+2",
+    "copy-from": "@magmod/disassembly",
     "type": "uncraft",
 
-    "activity_level": "NO_EXERCISE",
-    "difficulty": 0,
-    "time": "30 s",
+    "using": [
+      ["requirement/magmod/disassembly", 1],
 
-    "qualities": [{ "id": "FINE_POINT", "level": 1 }],
-    "components": [
-      [["magazine/body/glock/17", 1]],
-      [["baseplate/glock/oem", 1]]
-    ],
-
-    "flags": ["BLIND_EASY"]
+      ["requirement/magazine/body/glock/17", 1],
+      ["requirement/magazine/baseplate/glock/+2", 1]
+    ]
   }
 ]
