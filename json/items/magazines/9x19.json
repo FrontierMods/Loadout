@@ -129,21 +129,21 @@
         "description": "magazine body",
 
         "reference": "magazine/body/glock/17",
-        "result": "82.65 ml"
+        "result": "83.38 ml"
       },
       {
         "description": "+2 OEM base plate",
 
         "reference": "baseplate/glock/+2",
-        "raw": "18.2 ml",
-        "trim": 0.22,
-        "result": "14.2 ml",
+        "raw": "19.83 ml",
+        "trim": 0.1,
+        "result": "17.85 ml",
         "notes": [
           "trim is to roughly accomodate the same relative reduction in volume that happened with the OEM plate"
         ]
       }
     ],
-    "volume": "97 ml",
+    "volume": "101 ml",
     "//longest_side": ["5.43 in = 137.92 mm", "Feret distance"],
     "longest_side": "138 mm",
 
