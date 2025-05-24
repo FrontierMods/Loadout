@@ -5,6 +5,12 @@
 
     "components": [[["magazine/body/glock/9x19mm/17", 1]]]
   },
+  {
+    "id": "requirement/magazine/body/glock/9x19mm/15",
+    "type": "requirement",
+
+    "components": [[["magazine/body/glock/9x19mm/15", 1]]]
+  },
 
   {
     "id": "requirement/magazine/baseplate/glock/9x19mm/oem",
