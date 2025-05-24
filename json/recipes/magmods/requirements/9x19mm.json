@@ -17,5 +17,11 @@
     "type": "requirement",
 
     "components": [[["magazine/baseplate/glock/+2", 1]]]
+  },
+  {
+    "id": "requirement/magazine/baseplate/kriss/9x19mm",
+    "type": "requirement",
+
+    "components": [[["magazine/baseplate/kriss/9x19mm", 1]]]
   }
 ]

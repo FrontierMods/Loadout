@@ -18,5 +18,15 @@
       ["requirement/magazine/body/glock/17", 1],
       ["requirement/magazine/baseplate/glock/+2", 1]
     ]
+  },
+  {
+    "result": "magazine/kriss/9x19mm",
+    "copy-from": "@magmod",
+    "type": "recipe",
+
+    "using": [
+      ["requirement/magazine/body/glock/17", 1],
+      ["requirement/magazine/baseplate/kriss/9x19mm", 1]
+    ]
   }
 ]
