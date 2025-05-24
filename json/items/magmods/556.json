@@ -229,7 +229,7 @@
     ],
 
     "name": {
-      "str": "PMAG extension plate"
+      "str": "PMAG magazine extension"
     },
     "description": "A thick aluminum cup with the manufacturer's logo stamped on the side.  Can be attached to PMAG magazine bodies to turn them into usable magazines with capacity extended.  30-round magazines get 5 extra rounds, while 40-round ones get 6.",
 
@@ -239,7 +239,7 @@
         "id": "black",
 
         "name": {
-          "str": "Taran Tactical PMAG +5/+6 extension plate"
+          "str": "Taran Tactical PMAG +5/+6 magazine extension"
         },
         "description": "TODO  <variant:black>",
         "expand_snippets": true,

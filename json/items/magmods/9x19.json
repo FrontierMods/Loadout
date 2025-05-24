@@ -97,7 +97,7 @@
         "id": "black",
 
         "name": {
-          "str": "Glock OEM +2 baseplate"
+          "str": "Glock +2 magazine extension"
         },
         "description": "Glock's own extension plate for their magazines.  Extends the length of the magazine and adds 2 extra rounds to its capacity.  <variant:black>",
         "expand_snippets": true,
