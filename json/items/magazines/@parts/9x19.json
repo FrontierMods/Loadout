@@ -39,7 +39,7 @@
       "trim": 0
     },
     "volume": "83 ml",
-    "//longest_side": "4.92 in = 124.97 mm",
+    "//longest_side": ["4.92 in = 124.97 mm", "Feret distance"],
     "longest_side": "125 mm",
 
     "material": ["plastic"]
