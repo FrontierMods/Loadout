@@ -108,17 +108,14 @@
     "//weight": "0.5 oz = 14.175 g",
     "weight": "14 g 175 mg",
     "//dimensions": {
-      "area": "1.01 in2",
+      "area": "1.1 in2",
       "width": "1.1 in",
-      "raw": "18.2 ml",
-      "trim": 0.6,
-      "notes": [
-        "trim is to account for both the curved edges and the interior space"
-      ]
+      "raw": "19.83 ml",
+      "trim": 0
     },
-    "volume": "7 ml",
-    "//longest_side": ["1.55 in = 39.37 mm", "Feret distance"],
-    "longest_side": "39 mm",
+    "volume": "20 ml",
+    "//longest_side": ["1.61 in = 40.89 mm", "Feret distance"],
+    "longest_side": "41 mm",
 
     "material": ["plastic"],
 
