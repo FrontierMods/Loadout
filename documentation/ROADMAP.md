@@ -8,7 +8,7 @@
 
 ### v2.1
 
-- [ ] **adjustable-length suppressors**
+- [x] **adjustable-length suppressors**
   - for the models that do support it
 - [x] **enhanced magazine representation**
   - more aftermarket options for popular platforms
