@@ -32,7 +32,7 @@
     "name": {
       "str": "Glock magazine baseplate"
     },
-    "description": "TODO",
+    "description": "A flat piece of plastic that finishes the construction of a magazine.  This one is for the magazines of the Glock brand.  Can be attached to a Glock magazine body to make it a usable magazine.",
 
     "variant_type": "gun",
     "variants": [
@@ -42,7 +42,7 @@
         "name": {
           "str": "Glock magazine baseplate"
         },
-        "description": "TODO  <variant:black>",
+        "description": "A flat piece of plastic that prevents the magazine spring from falling out.  This one is an original base plate from Glock, and comes standard with the magazines of the brand.  Can be attached to Glock magazine bodies to finalize it into a usable magazine.  <variant:black>",
         "expand_snippets": true,
         "weight": 1
       }
@@ -81,6 +81,7 @@
 
     "//notes": [
       "the source for weight and dimensions looks shady but also offers the best values",
+      "it's clear that took original values from a different source, but we were unable to find it",
       "to avoid potentially harming players' and modders' computers, we refuse to link the source for those",
       "a better, linkable source would be much appreciated"
     ],
@@ -88,7 +89,7 @@
     "name": {
       "str": "Glock factory magazine extension"
     },
-    "description": "TODO",
+    "description": "A small, cube-ish plastic cup that finishes the construction of a magazine.  This one is for the magazines of the Glock brand.  Can be attached to a Glock magazine body to make an extended magazine.",
 
     "variant_type": "gun",
     "variants": [
@@ -98,7 +99,7 @@
         "name": {
           "str": "Glock OEM +2 baseplate"
         },
-        "description": "TODO  <variant:black>",
+        "description": "Glock's own extension plate for their magazines.  Extends the length of the magazine and adds 2 extra rounds to its capacity.  <variant:black>",
         "expand_snippets": true,
         "weight": 1
       }
