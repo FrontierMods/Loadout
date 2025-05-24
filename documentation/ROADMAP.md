@@ -4,7 +4,7 @@
 
 ### v2.1
 
-- [ ] **adjustable-length suppressors**
+- [x] **adjustable-length suppressors**
   - for the models that do support it
 - [ ] **enhanced magazine representation**
 - [ ] **magazine modding**
