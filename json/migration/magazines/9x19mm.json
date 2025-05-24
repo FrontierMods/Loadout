@@ -2,6 +2,6 @@
   {
     "id": ["glock17_17"],
     "type": "MIGRATION",
-    "replace": "magazine/glock/17"
+    "replace": "magazine/glock/9x19mm/17"
   }
 ]

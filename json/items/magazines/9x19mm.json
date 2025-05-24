@@ -37,7 +37,7 @@
   },
 
   {
-    "id": "magazine/glock/17",
+    "id": "magazine/glock/9x19mm/17",
     "copy-from": "@magazine/9x19mm",
     "type": "MAGAZINE",
 
@@ -66,7 +66,7 @@
       {
         "description": "magazine body",
 
-        "reference": "magazine/body/glock/17",
+        "reference": "magazine/body/glock/9x19mm/17",
         "result": "82.65 ml"
       },
       {
@@ -101,7 +101,7 @@
     "price_postapoc": "1 USD"
   },
   {
-    "id": "magazine/glock/17/+2",
+    "id": "magazine/glock/9x19mm/17+2",
     "copy-from": "@magazine/9x19mm",
     "type": "MAGAZINE",
 
@@ -128,7 +128,7 @@
       {
         "description": "magazine body",
 
-        "reference": "magazine/body/glock/17",
+        "reference": "magazine/body/glock/9x19mm/17",
         "result": "83.38 ml"
       },
       {
@@ -193,7 +193,7 @@
       {
         "description": "magazine body",
 
-        "reference": "magazine/body/glock/17",
+        "reference": "magazine/body/glock/9x19mm/17",
         "result": "82.65 ml"
       },
       {

@@ -1,22 +1,22 @@
 [
   {
-    "id": "requirement/magazine/body/glock/17",
+    "id": "requirement/magazine/body/glock/9x19mm/17",
     "type": "requirement",
 
-    "components": [[["magazine/body/glock/17", 1]]]
+    "components": [[["magazine/body/glock/9x19mm/17", 1]]]
   },
 
   {
-    "id": "requirement/magazine/baseplate/glock/oem",
+    "id": "requirement/magazine/baseplate/glock/9x19mm/oem",
     "type": "requirement",
 
-    "components": [[["magazine/baseplate/glock/oem", 1]]]
+    "components": [[["magazine/baseplate/glock/9x19mm/oem", 1]]]
   },
   {
-    "id": "requirement/magazine/baseplate/glock/+2",
+    "id": "requirement/magazine/baseplate/glock/9x19mm/+2",
     "type": "requirement",
 
-    "components": [[["magazine/baseplate/glock/+2", 1]]]
+    "components": [[["magazine/baseplate/glock/9x19mm/+2", 1]]]
   },
   {
     "id": "requirement/magazine/baseplate/kriss/9x19mm",

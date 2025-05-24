@@ -1,10 +1,10 @@
 [
   {
-    "id": "magazine/body/glock/17",
+    "id": "magazine/body/glock/9x19mm/17",
     "copy-from": "@magazine/body",
     "type": "GENERIC",
 
-    "//sources": ["magazine/glock/17", "baseplate/glock/oem"],
+    "//sources": ["magazine/glock/9x19mm/17", "baseplate/glock/oem"],
 
     "name": {
       "str": "Glock 9x19mm 17-round magazine body",
