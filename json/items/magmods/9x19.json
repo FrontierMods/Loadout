@@ -123,5 +123,66 @@
     "material": ["plastic"],
 
     "price": "12 USD 95 cent"
+  },
+  {
+    "id": "magazine/baseplate/kriss/9x19mm",
+    "copy-from": "@magmod",
+    "type": "GENERIC",
+
+    "//sources": [
+      [
+        "https://shop.springerprecision.com/kriss-vector-gen-2-9mm-23-round-magazine-extension-kit-for-glock-17-magazines-3-pack/",
+        "visual reference",
+        "weight"
+      ],
+      ["https://kriss-usa.com/kriss-mag-ex2-kit/", "price"]
+    ],
+
+    "//notes": [
+      "different sources list different weights per extension, with most of them citing 0.3 lbs = 136.08 g",
+      "e.g. https://gatguns.com/product/kriss-usa-mag-ex2-kriss-kvamx2k90bl00-magex2-kit-glock-17-9mm-40rd/",
+      "X-Ray Parts and Rifle Mags list 200 g and 199 g, respectively",
+      "https://xrayparts.it/en/magazine-base-pad-for-glock/3068-magex2-extension-kit-alpine-40-round-for-glock-9-mm-magazine-kriss.html",
+      "https://riflemags.co.uk/kriss-magex2-magazine-extension-kit-for-glock-magazines/",
+      "we rely on the weight in source until a more definitely value is found"
+    ],
+
+    "name": {
+      "str": "Glock SMG magazine extension"
+    },
+    "description": "A plastic tower as tall as a Glock magazine.  Originally developed to fit SMGs that accept Glock magazines, to accomodate an SMG's increased fire rate relative to its magazine capacity.  Can be attached to a Glock magazine body to make a significantly more extended magazine.",
+
+    "variant_type": "gun",
+    "variants": [
+      {
+        "id": "black",
+
+        "name": {
+          "str": "KRISS Vector +23 magazine extension"
+        },
+        "description": "A tall magazine extension for 9x19mm Glock magazines, intended to augment their capacity for a better fit with the Vector SMGs.  <variant:black>",
+        "expand_snippets": true,
+        "weight": 1
+      }
+    ],
+
+    "//weight": [
+      "we presume the weight listed is per a 3-pack of extensions",
+      "12 oz / 3 = 4 oz = 113.4 g"
+    ],
+    "weight": "113 g 400 mg",
+    "//dimensions": {
+      "area": "9.03 in2",
+      "width": "1.21 in",
+      "raw": "179.05 ml",
+      "trim": 0
+    },
+    "volume": "196 ml",
+    "//longest_side": ["5.81 in = 147.57 mm", "Feret distance"],
+    "longest_side": "148 mm",
+
+    "material": ["plastic"],
+
+    "price": "32 USD 99 cent"
   }
 ]

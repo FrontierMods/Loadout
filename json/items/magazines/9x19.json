@@ -162,5 +162,70 @@
     "//price": "TODO",
     "price": "29 USD 99 cent",
     "price_postapoc": "1 USD"
+  },
+  {
+    "id": "magazine/kriss/9x19mm",
+    "copy-from": "@magazine/9x19mm",
+    "type": "MAGAZINE",
+
+    "//sources": [
+      "https://us.glock.com/en/pistols/g17",
+      [
+        "https://www.northeastshooters.com/xen/threads/anyone-have-glock-dimensions-n00b-questions.181051/",
+        "dimensions"
+      ],
+      ["https://kriss-usa.com/kriss-mag-ex2-extended-magazine/", "price"]
+    ],
+
+    "//notes": [
+      "the final volume seem off, being that the extension is only about 40% larger than the magazine body, but inputs for calculations all appear to be correct"
+    ],
+
+    "name": {
+      "str": "Glock 9x19mm 17+23-round magazine"
+    },
+    "description": "Made for the Glock 17, this magazine holds 40 rounds thanks to an extension attached to its bottom.",
+
+    "//weight": "magazine body (76.44 g) + +23 extension (113.4 g) = 189.84 g",
+    "weight": "189 g 840 mg",
+    "//dimensions": [
+      {
+        "description": "magazine body",
+
+        "reference": "magazine/body/glock/17",
+        "result": "82.65 ml"
+      },
+      {
+        "description": "+23 KRISS extension",
+
+        "reference": "baseplate/kriss/9x19mm",
+        "raw": "195.33 ml",
+        "trim": 0.01,
+        "result": "193.38 ml",
+        "notes": [
+          "trim is to roughly accomodate the same relative reduction in volume that happened with the OEM plate"
+        ]
+      }
+    ],
+    "volume": "276 ml",
+    "//longest_side": ["9.98 in = 253.49 mm", "Feret distance"],
+    "longest_side": "254 mm",
+
+    "material": ["plastic"],
+
+    "pocket_data": [
+      {
+        "pocket_type": "MAGAZINE",
+
+        "rigid": true,
+
+        "ammo_restriction": {
+          "9mm": 40
+        }
+      }
+    ],
+
+    "price": "69 USD 99 cent",
+    "price_postapoc": "4 USD"
   }
 ]
