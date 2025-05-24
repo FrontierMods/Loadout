@@ -978,18 +978,29 @@
       "we presume the Soldier Systems number to be correct"
     ],
     "weight": "567 g",
-    "//dimensions": {
-      "area": "17.14 in2",
-      "width": "3.85 in",
-      "raw": "1081.37 ml",
-      "trim": 0.05,
-      "notes": [
-        "width acquired from visual reference",
-        "trim is for the small empty area in front of the tower"
-      ]
-    },
-    "volume": "1027 ml",
-    "longest_side": "188 mm",
+    "//dimensions": [
+      {
+        "description": "tower",
+
+        "area": "2.67 in2",
+        "width": "2.6 in",
+        "raw": "113.76 ml",
+        "trim": 0,
+        "result": "113.76 ml"
+      },
+      {
+        "description": "drum",
+
+        "area": "14.44 in2",
+        "width": "4.11 in",
+        "raw": "972.55 ml",
+        "trim": 0,
+        "result": "972.55 ml"
+      }
+    ],
+    "volume": "1086 ml",
+    "//longest_side": ["7.44 in = 188.98 mm", "Feret distance"],
+    "longest_side": "189 mm",
 
     "material": ["plastic"],
 
