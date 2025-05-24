@@ -53,6 +53,8 @@
       ]
     ],
 
+    "//notes": ["body depth: 1.3 in"],
+
     "name": {
       "str": "Glock 9x19mm 17-round magazine"
     },
@@ -142,8 +144,8 @@
       }
     ],
     "volume": "97 ml",
-    "//longest_side": "TODO; temporary value",
-    "longest_side": "132 mm",
+    "//longest_side": ["5.43 in = 137.92 mm", "Feret distance"],
+    "longest_side": "138 mm",
 
     "material": ["plastic"],
 
@@ -159,7 +161,6 @@
       }
     ],
 
-    "//price": "TODO",
     "price": "29 USD 99 cent",
     "price_postapoc": "1 USD"
   },
