@@ -49,7 +49,7 @@
     "name": {
       "str": "PMAG STANAG 10-round magazine"
     },
-    "description": "TODO",
+    "description": "A polymer magazine for the STANAG-compatible rifles.  Has an elaborate texture that should make it easier to handle.  Its low capacity becomes an asset for cases of hunting or recreational shooting.",
 
     "variant_type": "gun",
     "variants": [
@@ -59,7 +59,7 @@
         "name": {
           "str": "Magpul PMAG 10-round magazine"
         },
-        "description": "TODO  <variant:black>",
+        "description": "A polymer magazine for 5.56mm and .300 Blackout rifles.  Its texture is intended to make it handle better than conventional aluminum magazines.  Intended for hunting and recreational shooting, as its low capacity means less ammunition to weigh you down.  Its reduced capacity also makes it the only legal Magpul magazine in the state of Massachusetts.  <variant:black>",
         "expand_snippets": true,
         "weight": 1
       }
@@ -113,7 +113,7 @@
       "str": "PMAG STANAG 10-round magazine (ranger plate)",
       "str_pl": "PMAG STANAG 10-round magazines (ranger plate)"
     },
-    "description": "TODO",
+    "description": "A polymer magazine for the STANAG-compatible rifles.  Has an elaborate texture that should make it easier to handle.  Its low capacity becomes an asset for cases of hunting or recreational shooting.  <magazine/ranger_plate:generic>",
 
     "variant_type": "gun",
     "variants": [
@@ -124,7 +124,7 @@
           "str": "Magpul PMAG 10-round magazine (ranger plate)",
           "str_pl": "Magpul PMAG 10-round magazines (ranger plate)"
         },
-        "description": "TODO  <variant:black>",
+        "description": "A polymer magazine for 5.56mm and .300 Blackout rifles.  Its texture is intended to make it handle better than conventional aluminum magazines.  Intended for hunting and recreational shooting, as its low capacity means less ammunition to weigh you down.  <magazine/ranger_plate>  <variant:black>",
         "expand_snippets": true,
         "weight": 1
       }
@@ -161,7 +161,7 @@
     "name": {
       "str": "PMAG STANAG 20-round magazine"
     },
-    "description": "TODO",
+    "description": "A polymer magazine for the STANAG-compatible rifles.  Has an elaborate texture that should make it easier to handle.  Its reduced capacity makes it commonly used for recreational shooting.",
 
     "variant_type": "gun",
     "variants": [
@@ -171,7 +171,7 @@
         "name": {
           "str": "Magpul PMAG 20-round magazine"
         },
-        "description": "TODO  <variant:black>",
+        "description": "A polymer magazine for 5.56mm and .300 Blackout rifles.  Its texture is intended to make it handle better than conventional aluminum magazines.  Intended for recreational shooting, as its reduced size makes shooting prone a lot easier.  <variant:black>",
         "expand_snippets": true,
         "weight": 1
       }
@@ -217,7 +217,7 @@
       "str": "PMAG STANAG 20-round magazine (ranger plate)",
       "str_pl": "PMAG STANAG 20-round magazines (ranger plate)"
     },
-    "description": "TODO",
+    "description": "A polymer magazine for the STANAG-compatible rifles.  Has an elaborate texture that should make it easier to handle.  Its reduced capacity makes it commonly used for recreational shooting.  <magazine/ranger_plate:generic>",
 
     "variant_type": "gun",
     "variants": [
@@ -228,7 +228,7 @@
           "str": "Magpul PMAG 20-round magazine (ranger plate)",
           "str_pl": "Magpul PMAG 20-round magazines (ranger plate)"
         },
-        "description": "TODO  <variant:black>",
+        "description": "A polymer magazine for 5.56mm and .300 Blackout rifles.  Its texture is intended to make it handle better than conventional aluminum magazines.  Intended for recreational shooting, as its reduced size makes shooting prone a lot easier.  <magazine/ranger_plate>  <variant:black>",
         "expand_snippets": true,
         "weight": 1
       }
@@ -261,7 +261,7 @@
       "str": "PMAG STANAG 20-round magazine (extension plate)",
       "str_pl": "PMAG STANAG 20-round magazines (extension plate)"
     },
-    "description": "TODO",
+    "description": "A polymer magazine for the STANAG-compatible rifles.  Has an elaborate texture that should make it easier to handle.  Its reduced capacity makes it commonly used for recreational shooting.  <magazine/extension_plate:generic>",
 
     "variant_type": "gun",
     "variants": [
@@ -272,7 +272,7 @@
           "str": "Magpul PMAG 20-round magazine (extension plate)",
           "str_pl": "Magpul PMAG 20-round magazines (extension plate)"
         },
-        "description": "TODO  <variant:black>",
+        "description": "A polymer magazine for 5.56mm and .300 Blackout rifles.  Its texture is intended to make it handle better than conventional aluminum magazines.  Intended for recreational shooting, as its reduced size makes shooting prone a lot easier.  <magazine/extension_plate:5>  <variant:black>",
         "expand_snippets": true,
         "weight": 1
       }
@@ -333,7 +333,7 @@
     ],
 
     "name": { "str": "STANAG 30-round magazine" },
-    "description": "A standard capacity 30-round box magazine for use with STANAG compatible rifles.",
+    "description": "An aluminum magazine for STANAG-compatible rifles.  Commonly used with the M16, the M4, and other similar rifles, particularly in the U.S. military.",
 
     "variant_type": "gun",
     "variants": [
@@ -343,7 +343,7 @@
         "name": {
           "str": "Colt M16 30-round magazine"
         },
-        "description": "A standard capacity 30-round box magazine for use with STANAG compatible rifles.  <variant:steel>  Its follower is all black.",
+        "description": "An aluminum magazine for STANAG-compatible rifles, serving as the primary issued magazine throughout the majority of the U.S. military.  <variant:steel>  Its follower is all black, indicating it to be an obsolete model.",
         "expand_snippets": true,
         "weight": 1
       },
@@ -353,7 +353,7 @@
         "name": {
           "str": "Colt M16 30-round magazine"
         },
-        "description": "A standard capacity 30-round box magazine for use with STANAG compatible rifles.  <variant:steel>  Its follower is colored dull green.",
+        "description": "An aluminum magazine for STANAG-compatible rifles, serving as the primary issued magazine throughout the majority of the U.S. military.  <variant:steel>  Its follower is colored dull green.",
         "expand_snippets": true,
         "weight": 1
       },
@@ -363,7 +363,7 @@
         "name": {
           "str": "Colt M16 30-round magazine"
         },
-        "description": "A standard capacity 30-round box magazine for use with STANAG compatible rifles.  <variant:steel>  Its follower is colored pale brown.",
+        "description": "An aluminum magazine for STANAG-compatible rifles, serving as the primary issued magazine throughout the majority of the U.S. military.  <variant:steel>  Its follower is colored pale brown.",
         "expand_snippets": true,
         "weight": 1
       },
@@ -373,7 +373,7 @@
         "name": {
           "str": "Colt M16 30-round magazine"
         },
-        "description": "A standard capacity 30-round box magazine for use with STANAG compatible rifles.  <variant:fde>  Its follower is blue.",
+        "description": "An aluminum magazine for STANAG-compatible rifles, serving as the primary issued magazine throughout the majority of the U.S. military.  <variant:fde>  Its follower is blue; both of these color indicate the magazine to be the newer Enhanced Performance Round (EPR) model of the magazine.",
         "expand_snippets": true,
         "weight": 1
       }
@@ -429,7 +429,7 @@
       "str": "STANAG 30-round magazine (ranger plate)",
       "str_pl": "STANAG 30-round magazines (ranger plate)"
     },
-    "description": "TODO",
+    "description": "An aluminum magazine for STANAG-compatible rifles.  Commonly used with the M16, the M4, and other similar rifles, particularly in the U.S. military.  <magazine/ranger_plate:generic>",
 
     "variant_type": "gun",
     "variants": [
@@ -440,7 +440,7 @@
           "str": "Colt M16 30-round magazine (ranger plate)",
           "str_pl": "Colt M16 30-round magazines (ranger plate)"
         },
-        "description": "A standard capacity 30-round box magazine for use with STANAG compatible rifles.  The bottom has been modified with a ranger plate attachment to allow it to clip to carabiners.  <variant:steel>  Its follower is all black.",
+        "description": "An aluminum magazine for STANAG-compatible rifles, serving as the primary issued magazine throughout the majority of the U.S. military.  <magazine/ranger_plate>  <variant:steel>  Its follower is all black, indicating it to be an obsolete model.",
         "expand_snippets": true,
         "weight": 1
       },
@@ -451,7 +451,7 @@
           "str": "Colt M16 30-round magazine (ranger plate)",
           "str_pl": "Colt M16 30-round magazines (ranger plate)"
         },
-        "description": "A standard capacity 30-round box magazine for use with STANAG compatible rifles.  The bottom has been modified with a ranger plate attachment to allow it to clip to carabiners.  <variant:steel>  Its follower is colored dull green.",
+        "description": "An aluminum magazine for STANAG-compatible rifles, serving as the primary issued magazine throughout the majority of the U.S. military.  <magazine/ranger_plate>  <variant:steel>  Its follower is colored dull green.",
         "expand_snippets": true,
         "weight": 1
       },
@@ -462,7 +462,7 @@
           "str": "Colt M16 30-round magazine (ranger plate)",
           "str_pl": "Colt M16 30-round magazines (ranger plate)"
         },
-        "description": "A standard capacity 30-round box magazine for use with STANAG compatible rifles.  The bottom has been modified with a ranger plate attachment to allow it to clip to carabiners.  <variant:steel>  Its follower is colored pale brown.",
+        "description": "An aluminum magazine for STANAG-compatible rifles, serving as the primary issued magazine throughout the majority of the U.S. military.  <magazine/ranger_plate>  <variant:steel>  Its follower is colored pale brown.",
         "expand_snippets": true,
         "weight": 1
       },
@@ -473,7 +473,7 @@
           "str": "Colt M16 30-round magazine (ranger plate)",
           "str_pl": "Colt M16 30-round magazines (ranger plate)"
         },
-        "description": "A standard capacity 30-round box magazine for use with STANAG compatible rifles.  The bottom has been modified with a ranger plate attachment to allow it to clip to carabiners.  <variant:fde>  Its follower is blue.",
+        "description": "An aluminum magazine for STANAG-compatible rifles, serving as the primary issued magazine throughout the majority of the U.S. military.  <magazine/ranger_plate>  <variant:fde>  Its follower is blue; both of these color indicate the magazine to be the newer Enhanced Performance Round (EPR) model of the magazine.",
         "expand_snippets": true,
         "weight": 1
       }
@@ -524,7 +524,7 @@
     ],
 
     "name": { "str": "PMAG STANAG 30-round magazine" },
-    "description": "A polymer magazine for the STANAG-compatible rifles.  It looks *really* cool.",
+    "description": "A polymer magazine for the STANAG-compatible rifles.  Has an elaborate texture that should make it easier to handle.  Its standard capacity makes it useful for firefights… or dealing with a group of zombies.",
 
     "variant_type": "gun",
     "variants": [
@@ -534,7 +534,7 @@
         "name": {
           "str": "Magpul PMAG 30-round magazine"
         },
-        "description": "TODO  <variant:black>",
+        "description": "A polymer magazine for 5.56mm and .300 Blackout rifles.  Its texture is intended to make it handle better than conventional aluminum magazines.  Intended for conventional warfare, supplementing its ammo capacity with high reliability.  <variant:black>",
         "expand_snippets": true,
         "weight": 1
       }
@@ -581,7 +581,7 @@
       "str": "PMAG STANAG 30-round magazine (ranger plate)",
       "str_pl": "PMAG STANAG 30-round magazines (ranger plate)"
     },
-    "description": "TODO",
+    "description": "A polymer magazine for the STANAG-compatible rifles.  Has an elaborate texture that should make it easier to handle.  Its standard capacity makes it useful for firefights… or dealing with a group of zombies.  <magazine/ranger_plate:generic>",
 
     "variant_type": "gun",
     "variants": [
@@ -592,7 +592,7 @@
           "str": "Magpul PMAG 30-round magazine (ranger plate)",
           "str_pl": "Magpul PMAG 30-round magazines (ranger plate)"
         },
-        "description": "TODO  <variant:black>",
+        "description": "A polymer magazine for 5.56mm and .300 Blackout rifles.  Its texture is intended to make it handle better than conventional aluminum magazines.  Intended for conventional warfare, supplementing its ammo capacity with high reliability.  <magazine/ranger_plate>  <variant:black>",
         "expand_snippets": true,
         "weight": 1
       }
@@ -630,7 +630,7 @@
       "str": "PMAG STANAG 30-round magazine (extension plate)",
       "str_pl": "PMAG STANAG 30-round magazines (extension plate)"
     },
-    "description": "TODO",
+    "description": "A polymer magazine for the STANAG-compatible rifles.  Has an elaborate texture that should make it easier to handle.  Its standard capacity makes it useful for firefights… or dealing with a group of zombies.  <magazine/extension_plate:generic>",
 
     "variant_type": "gun",
     "variants": [
@@ -641,7 +641,7 @@
           "str": "Magpul PMAG 30-round magazine (extension plate)",
           "str_pl": "Magpul PMAG 30-round magazines (extension plate)"
         },
-        "description": "TODO  <variant:black>",
+        "description": "A polymer magazine for 5.56mm and .300 Blackout rifles.  Its texture is intended to make it handle better than conventional aluminum magazines.  Intended for conventional warfare, supplementing its ammo capacity with high reliability.  <magazine/extension_plate:5>  <variant:black>",
         "expand_snippets": true,
         "weight": 1
       }
@@ -699,7 +699,7 @@
     ],
 
     "name": { "str": "PMAG STANAG 40-round magazine" },
-    "description": "A polymer magazine for the STANAG-compatible rifles.  It looks *really* cool.",
+    "description": "A polymer magazine for the STANAG-compatible rifles.  Has an elaborate texture that should make it easier to handle.  Intended for competition shooting, to save time on reloads.  Would probably help in a firefight, all the same.",
 
     "variant_type": "gun",
     "variants": [
@@ -709,7 +709,7 @@
         "name": {
           "str": "Magpul PMAG 40-round magazine"
         },
-        "description": "TODO  <variant:black>",
+        "description": "A polymer magazine for 5.56mm and .300 Blackout rifles.  Its texture is intended to make it handle better than conventional aluminum magazines.  Intended for competition shooting, where saving a few seconds on reloading can make or break your time.  Would probably help in a firefight, all the same.  <variant:black>",
         "expand_snippets": true,
         "weight": 1
       }
@@ -756,7 +756,7 @@
       "str": "PMAG STANAG 40-round magazine (ranger plate)",
       "str_pl": "PMAG STANAG 40-round magazines (ranger plate)"
     },
-    "description": "TODO",
+    "description": "A polymer magazine for the STANAG-compatible rifles.  Has an elaborate texture that should make it easier to handle.  Intended for competition shooting, to save time on reloads.  Would probably help in a firefight, all the same.  <magazine/ranger_plate:generic>",
 
     "variant_type": "gun",
     "variants": [
@@ -767,7 +767,7 @@
           "str": "Magpul PMAG 40-round magazine (ranger plate)",
           "str_pl": "Magpul PMAG 40-round magazines (ranger plate)"
         },
-        "description": "TODO  <variant:black>",
+        "description": "A polymer magazine for 5.56mm and .300 Blackout rifles.  Its texture is intended to make it handle better than conventional aluminum magazines.  Intended for competition shooting, where saving a few seconds on reloading can make or break your time.  Would probably help in a firefight, all the same.  <magazine/ranger_plate>  <variant:black>",
         "expand_snippets": true,
         "weight": 1
       }
@@ -800,7 +800,7 @@
       "str": "PMAG STANAG 40-round magazine (extension plate)",
       "str_pl": "PMAG STANAG 40-round magazines (extension plate)"
     },
-    "description": "TODO",
+    "description": "A polymer magazine for the STANAG-compatible rifles.  Has an elaborate texture that should make it easier to handle.  Intended for competition shooting, to save time on reloads.  Would probably help in a firefight, all the same.  <magazine/extension_plate:generic>",
 
     "variant_type": "gun",
     "variants": [
@@ -811,7 +811,7 @@
           "str": "Magpul PMAG 40-round magazine (extension plate)",
           "str_pl": "Magpul PMAG 40-round magazines (extension plate)"
         },
-        "description": "TODO  <variant:black>",
+        "description": "A polymer magazine for 5.56mm and .300 Blackout rifles.  Its texture is intended to make it handle better than conventional aluminum magazines.  Intended for competition shooting, where saving a few seconds on reloading can make or break your time.  Would probably help in a firefight, all the same.  <magazine/extension_plate:6>  <variant:black>",
         "expand_snippets": true,
         "weight": 1
       }
@@ -870,17 +870,17 @@
     "name": {
       "str": "STANAG 50-round drum magazine"
     },
-    "description": "TODO",
+    "description": "A high-capacity polymer drum magazine with translucent body and a large winding mechanism ring.  While it allows you to fire more rounds before reloading, which can be an advantage against large groups of enemies, the magazine is also large and unwieldy compared to a box sibling.",
 
     "variant_type": "gun",
     "variants": [
       {
-        "id": "black",
+        "id": "translucent",
 
         "name": {
           "str": "KCI 50-round 5.56mm drum magazine"
         },
-        "description": "TODO  <variant:black>",
+        "description": "A translucent plastic magazine, boastfully exposing how inefficient drum ammunition storage is, volume-wise.  Its advantage is allowing to fire more rounds before reloading, which can be an advantage against large groups of enemies.",
         "expand_snippets": true,
         "weight": 1
       }
@@ -955,7 +955,7 @@
     "name": {
       "str": "STANAG 60-round drum magazine"
     },
-    "description": "TODO",
+    "description": "A high-capacity polymer drum magazine.  Inefficiently stores ammunition in a circular pattern inside the drum to allow the magazine to be shorter, which is supposed to help with shooting while prone.",
 
     "variant_type": "gun",
     "variants": [
@@ -965,7 +965,7 @@
         "name": {
           "str": "Magpul PMAG D-60 magazine"
         },
-        "description": "TODO  <variant:black>",
+        "description": "A high-capacity drum magazine.  Its opaque exterior hides the inefficient inner workings of a drum magazine.  Its advantage is allowing to fire more rounds before reloading, which can be an advantage against large groups of enemies.  <variant:black>",
         "expand_snippets": true,
         "weight": 1
       }
@@ -1039,7 +1039,7 @@
     "name": {
       "str": "STANAG 60-round magazine"
     },
-    "description": "TODO",
+    "description": "A large aluminum box magazine, similar to the one used by the military, but with a much thicker body.  It's only somewhat longer than its military counterpart, but holds a lot more rounds, effectively acting as two magazines in one.",
 
     "variant_type": "gun",
     "variants": [
@@ -1049,7 +1049,7 @@
         "name": {
           "str": "SureFire MAG5 60-round magazine"
         },
-        "description": "TODO  <variant:steel>",
+        "description": "A large aluminum box magazine, similar in appearance to the conventional STANAG magazine, but much thicker.  Effectively acts as two magazines in one, in terms of both capacity and bulk, they were intended to provide a more-continuous stream of lead down range in an event of a firefight while maintaining the same reliability as the conventional magazine.  <variant:steel>",
         "expand_snippets": true,
         "weight": 1
       }
@@ -1109,17 +1109,17 @@
     "name": {
       "str": "STANAG polymer 60-round magazine"
     },
-    "description": "TODO",
+    "description": "A large box magazine with a clear window to display the rough count of the ammunition inside.  The polymer exterior, aided by its shape making it flush with the width of the gun it's loaded into, makes it look slick.",
 
     "variant_type": "gun",
     "variants": [
       {
-        "id": "steel",
+        "id": "black",
 
         "name": {
           "str": "Schmeisser S60 60-round magazine"
         },
-        "description": "TODO  <variant:steel>",
+        "description": "A large polymer magazine with a clear window to give an estimate of the ammo inside.  Its bulky shape allows it to stay flush with the magazine well of the AR-15, and its exterior makes it look slick and modern.   <variant:black>",
         "expand_snippets": true,
         "weight": 1
       }
@@ -1184,7 +1184,7 @@
     "name": {
       "str": "STANAG 90-round snail drum magazine"
     },
-    "description": "TODO",
+    "description": "An awkwardly-shaped polymer magazine, clearly displaying its not-quite-circular way to load the ammunition inside.  Wielding a gun with this magazine that clearly pulls to one side the more it's loaded takes some getting used to, but if you need a lot of firepower in relatively small package, this one comes quite handy.",
 
     "variant_type": "gun",
     "variants": [
@@ -1194,7 +1194,7 @@
         "name": {
           "str": "MWG 90-round 5.56mm snail-drum magazine"
         },
-        "description": "TODO  <variant:black>",
+        "description": "A large polymer drum magazine, awkwardly balanced to one side of the gun.  While having a clear view of the ammo count through the translucent back of the drum is an advantage, the magazine steering the gun heavily in one direction while loaded takes some time to get used to.  The upside is: a lot of ammo in a relatively small package.  <variant:black>",
         "expand_snippets": true,
         "weight": 1
       }
@@ -1272,7 +1272,7 @@
     "name": {
       "str": "STANAG 100-round magazine"
     },
-    "description": "TODO",
+    "description": "A large aluminum box magazine, similar to the one used by the military.  It's much larger than its military counterpart, crossing well into awkwardness, but the large capacity makes it a good choice for static engagements against numerous opponents.",
 
     "variant_type": "gun",
     "variants": [
@@ -1282,7 +1282,7 @@
         "name": {
           "str": "SureFire MAG5 100-round magazine"
         },
-        "description": "TODO  <variant:steel>",
+        "description": "A large aluminum box magazine, similar in appearance to the conventional STANAG magazine, but much larger in both thickness and length.  Effectively acts as a box equivalent to an ammo belt, in terms of both capacity and bulk, they were intended to provide a more-continuous stream of lead down range from a semi-stationary position in an event of a firefight while maintaining the same reliability as the conventional magazine.  <variant:steel>",
         "expand_snippets": true,
         "weight": 1
       }
@@ -1346,7 +1346,7 @@
     "name": {
       "str": "STANAG 100-round double drum magazine"
     },
-    "description": "TODO",
+    "description": "A polymer magazine with a drum on each side feeding into a plastic tower.  Appropriately large for its capacity, this magazine was intended for emulating machine-gun capacity for rifles which could not accept ammunition belts.",
 
     "variant_type": "gun",
     "variants": [
@@ -1356,7 +1356,7 @@
         "name": {
           "str": "Beta C-Mag 100-round 5.56mm double-drum magazine"
         },
-        "description": "TODO  <variant:black>",
+        "description": "A pair of polymer drums feeding into a plastic tower.  This magazine was intended to enable rifle infantry to a similar capacity for suppressing fire as the support gunner, as well as sustaining a much higher lead hale downrange.  <variant:black>",
         "expand_snippets": true,
         "weight": 1
       }
@@ -1416,7 +1416,7 @@
     "name": {
       "str": "STANAG 150-round double drum magazine"
     },
-    "description": "TODO",
+    "description": "An enormous pair of polymer drums surrounding a plastic tower.  Intended as something of a replacement for belt ammunition for rifles that cannot accept belts, this unwieldy magazine allows a rifleman to send an absurd amount of bullets – at least relative to a regular magazine – at the target before a reload is required.",
 
     "variant_type": "gun",
     "variants": [
@@ -1426,7 +1426,7 @@
         "name": {
           "str": "Armatac SAW-MAG 150-round 5.56mm double-drum magazine"
         },
-        "description": "TODO  <variant:black>",
+        "description": "A massive polymer magazine with two enormous drums.  Intended to replicate the suppressive and sustained-fire capacity of an LMG in a rifle package, though how successful that ended up is up for debate.  Still, in a stationary position against a large group of undead enemies, you probably won't regret having this at hand.  <variant:black>",
         "expand_snippets": true,
         "weight": 1
       }

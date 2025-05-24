@@ -11,7 +11,7 @@
     "name": {
       "str": "Fly suppressor extension"
     },
-    "description": "TODO",
+    "description": "A short tube filled with titanium baffles.  Can be attached to a shorter Fly suppressor to extend it, exchanging its compactness for better sound suppression.",
 
     "variant_type": "gun",
     "variants": [
@@ -21,7 +21,7 @@
         "name": {
           "str": "Thunder Beast Fly 9 suppressor extension"
         },
-        "description": "TODO  <variant:black>",
+        "description": "A short titanium tube filled with baffles.  Can be attached to a shorter Fly 9 to extend it, exchanging its compactness for better performance.  <variant:black>",
         "expand_snippets": true,
         "weight": 1
       }

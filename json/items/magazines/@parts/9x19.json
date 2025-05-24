@@ -10,7 +10,7 @@
       "str": "Glock 9x19mm 17-round magazine body",
       "str_pl": "Glock 9x19mm 17-round magazine bodies"
     },
-    "description": "TODO",
+    "description": "The polymer body of a Glock 17 magazine.  It's missing the base plate, which makes it unusable as a magazine.  Attach a base plate to it to make it usable.",
 
     "variant_type": "gun",
     "variants": [
@@ -21,7 +21,7 @@
           "str": "Glock 9x19mm 17-round magazine body",
           "str_pl": "Glock 9x19mm 17-round magazine bodies"
         },
-        "description": "TODO  <variant:black>",
+        "description": "The polymer body of a Glock 17 magazine.  Without a base plate to hold up the spring inside, it cannot be used as a proper magazine.  Attach a base plate to make it usable.  <variant:black>",
         "expand_snippets": true,
         "weight": 1
       }
