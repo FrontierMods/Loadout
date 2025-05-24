@@ -1,0 +1,46 @@
+[
+  {
+    "id": "recipes/magazines/9x19mm",
+    "type": "nested_category",
+
+    "name": "9x19mm magazines",
+    "description": "Recipes that turn magazine bodies and base plates into usable magazines.",
+
+    "activity_level": "NO_EXERCISE",
+
+    "category": "CC_WEAPON",
+    "subcategory": "CSC_WEAPON_MAGAZINES",
+
+    "difficulty": 0,
+    "skill_used": "fabrication",
+
+    "nested_category_data": [
+      "magazine/glock/9x19mm/15",
+      "magazine/glock/9x19mm/17",
+
+      "recipes/magazines/9x19mm/extended"
+    ]
+  },
+  {
+    "id": "recipes/magazines/9x19mm/extended",
+    "type": "nested_category",
+
+    "name": "extended magazines",
+    "description": "Recipes that turn magazine bodies and extension plates into extended magazines.",
+
+    "activity_level": "NO_EXERCISE",
+
+    "category": "CC_*",
+    "subcategory": "CSC_*_NESTED",
+
+    "difficulty": 0,
+    "skill_used": "fabrication",
+
+    "nested_category_data": [
+      "magazine/glock/9x19mm/15+2",
+      "magazine/glock/9x19mm/17+2",
+
+	  "magazine/kriss/9x19mm"
+    ]
+  }
+]
