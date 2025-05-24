@@ -3,8 +3,8 @@
     "abstract": "@magmod",
     "type": "recipe",
 
-    "category": "CC_WEAPON",
-    "subcategory": "CSC_WEAPON_MAGMODS",
+    "category": "CC_*",
+    "subcategory": "CSC_*_NESTED",
 
     "activity_level": "NO_EXERCISE",
     "difficulty": 0,
