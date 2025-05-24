@@ -43,5 +43,50 @@
     "longest_side": "125 mm",
 
     "material": ["plastic"]
+  },
+  {
+    "id": "magazine/body/glock/9x19mm/15",
+    "copy-from": "@magazine/body",
+    "type": "GENERIC",
+
+    "//sources": ["magazine/glock/9x19mm/15", "baseplate/glock/oem"],
+
+    "name": {
+      "str": "Glock 9x19mm 15-round magazine body",
+      "str_pl": "Glock 9x19mm 15-round magazine bodies"
+    },
+    "description": "The polymer body of a Glock 19 magazine.  It's missing the base plate, which makes it unusable as a magazine.  Attach a base plate to it to make it usable.",
+
+    "variant_type": "gun",
+    "variants": [
+      {
+        "id": "black",
+
+        "name": {
+          "str": "Glock 9x19mm 15-round magazine body",
+          "str_pl": "Glock 9x19mm 15-round magazine bodies"
+        },
+        "description": "The polymer body of a Glock 19 magazine.  Without a base plate to hold up the spring inside, it cannot be used as a proper magazine.  Attach a base plate to make it usable.  <variant:black>",
+        "expand_snippets": true,
+        "weight": 1
+      }
+    ],
+
+    "//weight": [
+      "Glock 19 with empty magazine (23.63 oz = 669.9 g) - Glock 19 without magazine (21.16 oz = 599.88 g) = 70.02 g",
+      "- Glock base plate (3.5 g) = 66.52 g"
+    ],
+    "weight": "66 g 520 mg",
+    "//dimensions": {
+      "area": "5.23 in2",
+      "width": "0.888 in",
+      "raw": "76.11 ml",
+      "trim": 0
+    },
+    "volume": "76 ml",
+    "//longest_side": ["4.43 in = 112.52 mm", "Feret distance"],
+    "longest_side": "113 mm",
+
+    "material": ["plastic"]
   }
 ]
