@@ -9,7 +9,7 @@
     "name": {
       "str": "STANAG magazine baseplate"
     },
-    "description": "A thin aluminum plate with a curved edge, usually sitting at the bottom of a magazine.  You can use it to replace the baseplate of a modified magazine.",
+    "description": "A thin aluminum plate, usually sitting at the bottom of a magazine.  Can be attached to aluminum STANAG magazine bodies to turn them into usable magazines.",
 
     "variant_type": "gun",
     "variants": [
@@ -19,7 +19,7 @@
         "name": {
           "str": "STANAG magazine baseplate"
         },
-        "description": "TODO  <variant:steel>",
+        "description": "A thin aluminum plate with a curved edge.  When installed, prevents the magazine spring from falling out of the magazine.  Can be installed onto a relevant magazine body in order to make it a usable magazine.  <variant:steel>",
         "expand_snippets": true,
         "weight": 1
       }
@@ -62,7 +62,7 @@
     "name": {
       "str": "PMAG magazine baseplate"
     },
-    "description": "A thin plastic plate with curved edges, usually sitting at the bottom of a magazine.  You can use it to replace the baseplate of a modified magazine.",
+    "description": "A thin plastic plate, usually sitting at the bottom of a magazine. Can be attached to PMAG magazine bodies to turn them into usable magazines.",
 
     "variant_type": "gun",
     "variants": [
@@ -72,7 +72,7 @@
         "name": {
           "str": "Magpul PMAG baseplate"
         },
-        "description": "TODO  <variant:black>",
+        "description": "A thin plastic plate with curved edges.  When installed, prevents the magazine spring from falling out of the magazine.  Can be installed onto a relevant magazine body in order to make it a usable magazine.  <variant:black>",
         "expand_snippets": true,
         "weight": 1
       }
@@ -119,7 +119,7 @@
     "name": {
       "str": "PMAG magazine ranger plate"
     },
-    "description": "A plastic loop with curved edges, usually sitting at the bottom of a magazine.  You can use it to replace the baseplate of a modified magazine.",
+    "description": "A plastic loop skewed to one side, usually sitting at the bottom of a magazine.  Can be attached to PMAG magazine bodies to turn them into usable magazines with a hook to hang them off carabiners with.",
 
     "variant_type": "gun",
     "variants": [
@@ -129,7 +129,7 @@
         "name": {
           "str": "Magpul PMAG ranger plate"
         },
-        "description": "TODO  <variant:black>",
+        "description": "A plastic loop with curved edges and skewed to one side.  Can be attached to PMAG magazines to allow the resulting usable magazines to hang off carabiners and other hooks.  Note: PMAG-specific plates do not fit conventional STANAG magazines.  <variant:black>",
         "expand_snippets": true,
         "weight": 1
       }
@@ -171,7 +171,7 @@
     "name": {
       "str": "STANAG magazine ranger plate"
     },
-    "description": "TODO",
+    "description": "A plastic loop skewed to one side, usually sitting at the bottom of a magazine.  Can be attached to STANAG magazine bodies to turn them into usable magazines with a hook to hang them off carabiners with.",
 
     "variant_type": "gun",
     "variants": [
@@ -181,7 +181,7 @@
         "name": {
           "str": "Magpul USGI ranger plate"
         },
-        "description": "TODO  <variant:black>",
+        "description": "A plastic loop with curved edges and skewed to one side.  Can be attached to conventional STANAG magazines to allow the resulting usable magazines to hang off carabiners and other hooks.  Note: STANAG-specific plates do not fit PMAGs or other types of 5.56mm magazines.  <variant:black>",
         "expand_snippets": true,
         "weight": 1
       }
@@ -231,7 +231,7 @@
     "name": {
       "str": "PMAG extension plate"
     },
-    "description": "TODO",
+    "description": "A thick aluminum cup with the manufacturer's logo stamped on the side.  Can be attached to PMAG magazine bodies to turn them into usable magazines with capacity extended.  30-round magazines get 5 extra rounds, while 40-round ones get 6.",
 
     "variant_type": "gun",
     "variants": [
