@@ -1,9 +1,9 @@
 [
   {
-    "id": "recipes/magazines",
+    "id": "recipes/magazines/5.56x45mm",
     "type": "nested_category",
 
-    "name": "buildable magazines",
+    "name": "5.56x45mm magazines",
     "description": "Recipes that turn magazine bodies and base plates into usable magazines.",
 
     "activity_level": "NO_EXERCISE",
@@ -20,11 +20,14 @@
       "magazine/magpul/pmag/30",
       "magazine/magpul/pmag/40",
 
-      "magazine/colt/stanag/30"
+      "magazine/colt/stanag/30",
+
+      "recipes/magazines/5.56x45mm/ranger_plate",
+      "recipes/magazines/5.56x45mm/extended"
     ]
   },
   {
-    "id": "recipes/magazines/ranger_plate",
+    "id": "recipes/magazines/5.56x45mm/ranger_plate",
     "type": "nested_category",
 
     "name": "ranger plate magazines",
@@ -32,8 +35,8 @@
 
     "activity_level": "NO_EXERCISE",
 
-    "category": "CC_WEAPON",
-    "subcategory": "CSC_WEAPON_MAGMODS",
+    "category": "CC_*",
+    "subcategory": "CSC_*_NESTED",
 
     "difficulty": 0,
     "skill_used": "fabrication",
@@ -48,7 +51,7 @@
     ]
   },
   {
-    "id": "recipes/magazines/extended",
+    "id": "recipes/magazines/5.56x45mm/extended",
     "type": "nested_category",
 
     "name": "extended magazines",
@@ -56,8 +59,8 @@
 
     "activity_level": "NO_EXERCISE",
 
-    "category": "CC_WEAPON",
-    "subcategory": "CSC_WEAPON_MAGMODS",
+    "category": "CC_*",
+    "subcategory": "CSC_*_NESTED",
 
     "difficulty": 0,
     "skill_used": "fabrication",
