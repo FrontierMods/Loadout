@@ -57,6 +57,8 @@
           "magazine/magpul/pmag/d-50",
           "magazine/beta/c-mag/glock",
 
+          "magazine/torkmag/glock",
+
           "magazine/kriss/9x19mm"
         ]
       }
@@ -169,6 +171,49 @@
         "magazine_well": "83 ml",
 
         "item_restriction": [
+          "magazine/glock/9x19mm/17",
+          "magazine/glock/9x19mm/17+2",
+          "magazine/glock/9x19mm/24",
+          "magazine/glock/9x19mm/24+2",
+          "magazine/glock/9x19mm/31",
+          "magazine/glock/9x19mm/31+2",
+
+          "magazine/magpul/pmag/d-50",
+          "magazine/beta/c-mag/glock",
+
+          "magazine/kriss/9x19mm"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "ksub2000",
+    "copy-from": "ksub2000",
+    "type": "GUN",
+
+    "name": {
+      "str_sp": "Kel-Tec SUB-2000"
+    },
+
+    "pocket_data": [
+      {
+        "pocket_type": "MAGAZINE_WELL",
+
+        "//magazine_well": [
+          [
+            "volume of the standard 15-round Glock magazine's body",
+            "base plate sticks outside of the well"
+          ],
+          [
+            "we assume this the model with a grip that allows 15-round Glock magazines in",
+            "there are grip models which only allows 17-rounders and up"
+          ]
+        ],
+        "magazine_well": "76 ml",
+
+        "item_restriction": [
+          "magazine/glock/9x19mm/15",
+          "magazine/glock/9x19mm/15+2",
           "magazine/glock/9x19mm/17",
           "magazine/glock/9x19mm/17+2",
           "magazine/glock/9x19mm/24",
