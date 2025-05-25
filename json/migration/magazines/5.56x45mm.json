@@ -59,7 +59,7 @@
   {
     "id": ["stanag50"],
     "type": "MIGRATION",
-    "replace": "magazine/kci/50"
+    "replace": "magazine/kci/5.56x45mm/50"
   },
   {
     "id": ["stanag60"],

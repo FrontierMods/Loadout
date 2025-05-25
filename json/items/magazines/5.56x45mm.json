@@ -855,7 +855,7 @@
   },
 
   {
-    "id": "magazine/kci/50",
+    "id": "magazine/kci/5.56x45mm/50",
     "copy-from": "@magazine/556:large",
     "type": "MAGAZINE",
 
