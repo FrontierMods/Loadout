@@ -2,20 +2,26 @@
 
 ## Planned
 
+...
+
+## In Progress
+
 ### v2.1
 
 - [ ] **adjustable-length suppressors**
   - for the models that do support it
-- [ ] **enhanced magazine representation**
-- [ ] **magazine modding**
-  - [ ] STANAG magazines
-  - [ ] Glock magazines
+- [x] **enhanced magazine representation**
+  - more aftermarket options for popular platforms
+- [x] **magazine modding**
+  - [x] STANAG magazines
+  - [x] Glock 9x19mm magazines
   - extended base plates to improve magazine capacity
   - carabiner adapters (aka ranger plates)
-  - magazine decoration?
-  - labels and markings?
 
-## In Progress
+<details>
+	<summary>Released</summary>
+
+## Released
 
 ### v2.0
 
@@ -36,11 +42,6 @@
   - [x] AN/PSQ-23 laser sight/rangefinder
   - [x] DBAL-A2 (aka AN/PEQ-15A) laser sight
   - [x] LA-5B/PEQ laser sight
-
-<details>
-	<summary>Released</summary>
-
-## Released
 
 ### v1.1
 
@@ -81,7 +82,7 @@
 
 - [ ] **foldable iron sights**
   - would allow installing other sights
-  - postponed due to not behaving correctly in the latest stable
+  - postponed due to not behaving correctly in the 0.H
 - [ ] **night sights** and **night vision sight attachments**
   - exist on the military and aftermarket levels
   - to explore
