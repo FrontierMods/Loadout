@@ -45,15 +45,18 @@
         "magazine_well": "76 ml",
 
         "item_restriction": [
-          "glockbigmag",
-          "glock17_22",
-          "glock_drum_50rd",
-          "glock_drum_100rd",
-
           "magazine/glock/9x19mm/15",
           "magazine/glock/9x19mm/15+2",
           "magazine/glock/9x19mm/17",
           "magazine/glock/9x19mm/17+2",
+          "magazine/glock/9x19mm/24",
+          "magazine/glock/9x19mm/24+2",
+          "magazine/glock/9x19mm/31",
+          "magazine/glock/9x19mm/31+2",
+
+          "magazine/magpul/pmag/d-50",
+          "magazine/beta/c-mag/glock",
+
           "magazine/kriss/9x19mm"
         ]
       }
@@ -105,13 +108,16 @@
         "magazine_well": "83 ml",
 
         "item_restriction": [
-          "glockbigmag",
-          "glock17_22",
-          "glock_drum_50rd",
-          "glock_drum_100rd",
-
           "magazine/glock/9x19mm/17",
           "magazine/glock/9x19mm/17+2",
+          "magazine/glock/9x19mm/24",
+          "magazine/glock/9x19mm/24+2",
+          "magazine/glock/9x19mm/31",
+          "magazine/glock/9x19mm/31+2",
+
+          "magazine/magpul/pmag/d-50",
+          "magazine/beta/c-mag/glock",
+
           "magazine/kriss/9x19mm"
         ]
       }
@@ -131,9 +137,9 @@
       {
         "id": "glock_18c",
         "name": {
-          "str": "Glock 17"
+          "str": "Glock 18C"
         },
-        "description": "Commonly seen tucked away in the holsters of police officers, certain military professionals, and civilian shooters, this is a larger, older, service-oriented version of the popular Glock 19.  Similarly firing the 9x19mm cartridge and using higher capacity magazines, it performs largely the same, but due to the longer magazine well, it can't fit magazines shorter than the standard 17-round ones."
+        "description": "A selective-fire variation on the Glock 17, originally designed for Austria's EKO Cobra unit.  It has compensator cuts along its barrel to make recoil more manageable."
       }
     ],
 
@@ -163,13 +169,16 @@
         "magazine_well": "83 ml",
 
         "item_restriction": [
-          "glockbigmag",
-          "glock17_22",
-          "glock_drum_50rd",
-          "glock_drum_100rd",
-
           "magazine/glock/9x19mm/17",
           "magazine/glock/9x19mm/17+2",
+          "magazine/glock/9x19mm/24",
+          "magazine/glock/9x19mm/24+2",
+          "magazine/glock/9x19mm/31",
+          "magazine/glock/9x19mm/31+2",
+
+          "magazine/magpul/pmag/d-50",
+          "magazine/beta/c-mag/glock",
+
           "magazine/kriss/9x19mm"
         ]
       }

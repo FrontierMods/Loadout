@@ -88,5 +88,89 @@
     "longest_side": "125 mm",
 
     "material": ["plastic"]
+  },
+  {
+    "id": "magazine/body/glock/9x19mm/24",
+    "copy-from": "@magazine/body",
+    "type": "GENERIC",
+
+    "//sources": ["magazine/glock/9x19mm/24", "baseplate/glock/oem"],
+
+    "name": {
+      "str": "Glock 9x19mm 24-round magazine body",
+      "str_pl": "Glock 9x19mm 24-round magazine bodies"
+    },
+    "description": "The polymer body of a long Glock magazine.  It's missing the base plate, which makes it unusable as a magazine.  Attach a base plate to it to make it usable.",
+
+    "variant_type": "gun",
+    "variants": [
+      {
+        "id": "black",
+
+        "name": {
+          "str": "Glock 9x19mm 24-round magazine body",
+          "str_pl": "Glock 9x19mm 24-round magazine bodies"
+        },
+        "description": "The polymer body of a long Glock magazine.  Without a base plate to hold up the spring inside, it cannot be used as a proper magazine.  Attach a base plate to make it usable.  <variant:black>",
+        "expand_snippets": true,
+        "weight": 1
+      }
+    ],
+
+    "//weight": "complete magazine (105 g) - Glock base plate (3.5 g) = 101.5 g",
+    "weight": "101 g 500 mg",
+    "//dimensions": {
+      "area": "8.07 in2",
+      "width": "0.888 in",
+      "raw": "117.43 ml",
+      "trim": 0
+    },
+    "volume": "117 ml",
+    "//longest_side": ["6.71 in = 170.43 mm", "Feret distance"],
+    "longest_side": "170 mm",
+
+    "material": ["plastic"]
+  },
+  {
+    "id": "magazine/body/glock/9x19mm/31",
+    "copy-from": "@magazine/body",
+    "type": "GENERIC",
+
+    "//sources": ["magazine/glock/9x19mm/31", "baseplate/glock/oem"],
+
+    "name": {
+      "str": "Glock 9x19mm 31-round magazine body",
+      "str_pl": "Glock 9x19mm 31-round magazine bodies"
+    },
+    "description": "The polymer body of an extra-long Glock magazine.  It's missing the base plate, which makes it unusable as a magazine.  Attach a base plate to it to make it usable.",
+
+    "variant_type": "gun",
+    "variants": [
+      {
+        "id": "black",
+
+        "name": {
+          "str": "Glock 9x19mm 31-round magazine body",
+          "str_pl": "Glock 9x19mm 31-round magazine bodies"
+        },
+        "description": "The polymer body of an extra-long Glock magazine.  Without a base plate to hold up the spring inside, it cannot be used as a proper magazine.  Attach a base plate to make it usable.  <variant:black>",
+        "expand_snippets": true,
+        "weight": 1
+      }
+    ],
+
+    "//weight": "complete magazine (117 g) - Glock base plate (3.5 g) = 113.5 g",
+    "weight": "113 g 500 mg",
+    "//dimensions": {
+      "area": "9.72 in2",
+      "width": "0.888 in",
+      "raw": "141.44 ml",
+      "trim": 0
+    },
+    "volume": "141 ml",
+    "//longest_side": ["7.99 in = 202.95 mm", "Feret distance"],
+    "longest_side": "203 mm",
+
+    "material": ["plastic"]
   }
 ]

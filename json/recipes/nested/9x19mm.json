@@ -17,6 +17,8 @@
     "nested_category_data": [
       "magazine/glock/9x19mm/15",
       "magazine/glock/9x19mm/17",
+      "magazine/glock/9x19mm/24",
+      "magazine/glock/9x19mm/31",
 
       "recipes/magazines/9x19mm/extended"
     ]
@@ -39,6 +41,8 @@
     "nested_category_data": [
       "magazine/glock/9x19mm/15+2",
       "magazine/glock/9x19mm/17+2",
+      "magazine/glock/9x19mm/24+2",
+      "magazine/glock/9x19mm/31+2",
 
       "magazine/kriss/9x19mm"
     ]
