@@ -120,6 +120,8 @@
           "magazine/magpul/pmag/d-50",
           "magazine/beta/c-mag/glock",
 
+          "magazine/torkmag/glock",
+
           "magazine/kriss/9x19mm"
         ]
       }
@@ -181,6 +183,8 @@
           "magazine/magpul/pmag/d-50",
           "magazine/beta/c-mag/glock",
 
+          "magazine/torkmag/glock",
+
           "magazine/kriss/9x19mm"
         ]
       }
@@ -223,6 +227,8 @@
 
           "magazine/magpul/pmag/d-50",
           "magazine/beta/c-mag/glock",
+
+          "magazine/torkmag/glock",
 
           "magazine/kriss/9x19mm"
         ]

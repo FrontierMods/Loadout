@@ -279,6 +279,41 @@
   },
 
   {
+    "id": "magazine/torkmag/glock",
+    "copy-from": "magazine/glock/9x19mm/17+2",
+    "type": "MAGAZINE",
+
+    "//sources": [
+      "https://torkmag.com/20rd-g17-magazine-9mm-para-torkmag-20/",
+      ["https://www.primerpeak.com/g17-torkmag-glock-magazine/", "weight"]
+    ],
+
+    "name": {
+      "str": "Glock 9x19mm 20-round magazine"
+    },
+    "description": "Made for the Glock 17, this magazine holds 20 rounds in the same size as the 17+2-round magazine.",
+
+    "//weight": "1.8 oz = 51.03 g",
+    "weight": "51 g 030 mg",
+
+    "pocket_data": [
+      {
+        "pocket_type": "MAGAZINE",
+
+        "rigid": true,
+
+        "ammo_restriction": {
+          "9mm": 20
+        }
+      }
+    ],
+
+    "price": "19 USD 95 cent",
+    "//price_postapoc": "arguably slightly better because it offers a slightly-larger capacity in the same size",
+    "price_postapoc": "1 USD 25 cent"
+  },
+
+  {
     "id": "magazine/glock/9x19mm/24",
     "copy-from": "@magazine/9x19mm",
     "type": "MAGAZINE",
