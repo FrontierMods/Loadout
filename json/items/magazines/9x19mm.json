@@ -686,6 +686,70 @@
   },
 
   {
+    "id": "magazine/kci/9x19mm/glock",
+    "copy-from": "@magazine/9x19mm:large",
+    "type": "MAGAZINE",
+
+    "//sources": [
+      "https://www.kcius.com/products/glock/9mm-50rd-gen-2-drum-magazine",
+      [
+        "https://glockparts.com/kci-tactical-50-round-drum-magazine-9mm/",
+        "weight"
+      ],
+      [
+        "https://www.northeastshooters.com/xen/threads/anyone-have-glock-dimensions-n00b-questions.181051/",
+        "dimensions"
+      ],
+      [
+        "https://gunmagwarehouse.com/kci-9mm-50-round-drum-magazine-for-glock-pistols.html",
+        "price"
+      ]
+    ],
+
+    "//notes": [
+      "may be worth recalculating dimensions as those of the tower + the drum",
+      "the tower is roughly the length of the 17-round magazine (body + factory plate)"
+    ],
+
+    "name": {
+      "str": "Glock 9x19mm affordable 50-round drum magazine"
+    },
+    "description": "Made for Glock pistols, this drum magazine holds 50 rounds.  It is more affordable than other models on the market.",
+
+    "//weight": "1.46 lbs = 662.24 g",
+    "weight": "662 g 240 mg",
+    "//dimensions": {
+      "area": "24.28 in2",
+      "width": "3.13 in",
+      "raw": "1245.36 ml",
+      "trim": 0.3,
+      "notes": [
+        "trim is for the tower, which does not stretch for the entirety of the magazine's width (which is that of the drum)"
+      ]
+    },
+    "volume": "872 ml",
+    "//longest_side": ["9.9 in = 253.49 mm", "Feret distance"],
+    "longest_side": "254 mm",
+
+    "material": ["plastic", "hc_steel"],
+
+    "pocket_data": [
+      {
+        "pocket_type": "MAGAZINE",
+
+        "rigid": true,
+
+        "ammo_restriction": {
+          "9mm": 50
+        }
+      }
+    ],
+
+    "price": "99 USD 99 cent",
+    "price_postapoc": "3 USD 50 cent"
+  },
+
+  {
     "id": "magazine/beta/c-mag/glock",
     "copy-from": "@magazine/9x19mm:large",
     "type": "MAGAZINE",
