@@ -8,5 +8,25 @@
     "id": ["glock17_17"],
     "type": "MIGRATION",
     "replace": "magazine/glock/9x19mm/17"
+  },
+  {
+    "id": ["glock17_22"],
+    "type": "MIGRATION",
+    "replace": "magazine/glock/9x19mm/24"
+  },
+  {
+    "id": ["glockbigmag"],
+    "type": "MIGRATION",
+    "replace": "magazine/glock/9x19mm/31"
+  },
+  {
+    "id": ["glock_drum_50rd"],
+    "type": "MIGRATION",
+    "replace": "magazine/magpul/pmag/d-50"
+  },
+  {
+    "id": ["glock_drum_100rd"],
+    "type": "MIGRATION",
+    "replace": "magazine/beta/c-mag/glock"
   }
 ]
