@@ -1,0 +1,163 @@
+[
+  {
+    "//": [
+      "sights affixed to a specific mount",
+      "mounts in non-guaranteed are set to high, but not absolute, spawn chance, to emulate real-life situations where one is likely, but may not always, come with its required mount",
+    ],
+
+    id: "sight/trijicon/rmr:maybe",
+    type: "item_group",
+    subtype: "collection",
+
+    entries: [
+      { item: "sight_mount/rmr/trijicon/rm33", prob: 90 },
+      { item: "sight/trijicon/rmr" },
+    ],
+  },
+  {
+    id: "sight/trijicon/rmr",
+    type: "item_group",
+    subtype: "collection",
+
+    entries: [
+      { item: "sight_mount/rmr/trijicon/rm33" },
+      { item: "sight/trijicon/rmr" },
+    ],
+  },
+  {
+    id: "sight/vortex/strikefire_ii:maybe",
+    type: "item_group",
+    subtype: "collection",
+
+    entries: [
+      { item: "sight_mount/30mm/single/aero", prob: 90 },
+      { item: "sight/vortex/strikefire_ii" },
+    ],
+  },
+  {
+    id: "sight/vortex/strikefire_ii",
+    type: "item_group",
+    subtype: "collection",
+
+    entries: [
+      { item: "sight_mount/30mm/single/aero" },
+      { item: "sight/vortex/strikefire_ii" },
+    ],
+  },
+  {
+    id: "sight/aimpoint/compm2:maybe",
+    type: "item_group",
+    subtype: "collection",
+
+    entries: [
+      { item: "sight_mount/30mm/single/aero", prob: 90 },
+      { item: "sight/aimpoint/compm2" },
+    ],
+  },
+  {
+    id: "sight/aimpoint/compm2",
+    type: "item_group",
+    subtype: "collection",
+
+    entries: [
+      { item: "sight_mount/30mm/single/aero" },
+      { item: "sight/aimpoint/compm2" },
+    ],
+  },
+  {
+    id: "sight/aimpoint/compm4:maybe",
+    type: "item_group",
+    subtype: "collection",
+
+    entries: [
+      { item: "sight_mount/comp4/aimpoint/lrp", prob: 90 },
+      { item: "sight/aimpoint/compm4" },
+    ],
+  },
+  {
+    id: "sight/aimpoint/compm4",
+    type: "item_group",
+    subtype: "collection",
+
+    entries: [
+      { item: "sight_mount/comp4/aimpoint/lrp" },
+      { item: "sight/aimpoint/compm4" },
+    ],
+  },
+  {
+    id: "sight/trijicon/rx01:maybe",
+    type: "item_group",
+    subtype: "collection",
+
+    entries: [
+      { item: "sight_mount/rx01/trijicon/rx11", prob: 90 },
+      { item: "sight/trijicon/rx01" },
+    ],
+  },
+  {
+    id: "sight/trijicon/rx01",
+    type: "item_group",
+    subtype: "collection",
+
+    entries: [
+      { item: "sight_mount/rx01/trijicon/rx11" },
+      { item: "sight/trijicon/rx01" },
+    ],
+  },
+  {
+    id: "sight/noblex/sight_ii:maybe",
+    type: "item_group",
+    subtype: "collection",
+
+    entries: [
+      { item: "sight_mount/docter/trijicon/ms10", prob: 90 },
+      { item: "sight/noblex/sight_ii" },
+    ],
+  },
+  {
+    id: "sight/noblex/sight_ii",
+    type: "item_group",
+    subtype: "collection",
+
+    entries: [
+      { item: "sight_mount/docter/trijicon/ms10" },
+      { item: "sight/noblex/sight_ii" },
+    ],
+  },
+
+  {
+    id: "sight/elcan/specterdr",
+    type: "item_group",
+    subtype: "collection",
+
+    "//notes": [
+      "the primary sight with chance to also provide an auxiliary sight",
+    ],
+
+    entries: [
+      { item: "sight/elcan/specterdr/legacy" },
+      { item: "sight/noblex/sight_ii", prob: 23 },
+    ],
+  },
+  {
+    id: "sight/trijicon/ta01",
+    type: "item_group",
+    subtype: "collection",
+
+    "//notes": [
+      "the primary sight with chance to also provide an auxiliary sight",
+    ],
+
+    entries: [
+      { item: "sight_mount/ta01/trijicon/ta51" },
+      { item: "sight/trijicon/ta01" },
+      {
+        collection: [
+          { item: "sight_mount/rmr/trijicon/rm35" },
+          { item: "sight/trijicon/rmr" },
+        ],
+        prob: 45,
+      },
+    ],
+  },
+]

@@ -1,0 +1,196 @@
+[
+  {
+    id: "m38dmr_mods",
+    type: "item_group",
+    subtype: "collection",
+
+    "//sources": ["https://en.wikipedia.org/wiki/M27_Infantry_Automatic_Rifle"],
+
+    "//TODO": [
+      [
+        "use Trijicon VCOG when available",
+        "https://www.trijicon.com/products/details/vc16-c-1600000",
+        "VCOGs (aka Squad Common Optic, SCO) were often issued with M38",
+        "ACOG and VCOG use the same mounting solution",
+        "VCOG even comes with ACOG's TA51 mount",
+      ],
+    ],
+
+    entries: [
+      { item: "flash_hider/kac/m4qd" },
+      { item: "suppressor/kac/qdss" },
+
+      { item: "sight_mount/30mm/aero" },
+      { item: "sight/leupold/mark_4", variant: "black/modern" },
+
+      { item: "laser_sight/l3harris/atpial-c" },
+      { item: "bipod/harris/s-l2p" },
+    ],
+  },
+  {
+    id: "mk23_mods",
+    type: "item_group",
+    subtype: "collection",
+
+    entries: [
+      { item: "suppressor/kac/mk23" },
+      { item: "combo_device/insight/lam_1000" },
+    ],
+  },
+  {
+    id: "muzzle_devices/cqbr",
+    type: "item_group",
+    subtype: "distribution",
+
+    entries: [
+      {
+        collection: [
+          { item: "muzzle_brake/surefire/socom" },
+          { item: "suppressor/surefire/socom556_rc2" },
+        ],
+      },
+      {
+        collection: [
+          { item: "flash_hider/surefire/4_prong" },
+          { item: "suppressor/surefire/socom556_rc2" },
+        ],
+      },
+
+      { item: "muzzle_brake/surefire/socom" },
+
+      { item: "flash_hider/colt/a2" },
+      { item: "flash_hider/surefire/4_prong" },
+    ],
+  },
+  {
+    id: "foregrips/cqbr",
+    type: "item_group",
+    subtype: "distribution",
+
+    "//sources": ["https://clonerifles.com/cqbrblockii/"],
+
+    "//TODO": ["Tango Down stubby foregrip"],
+
+    entries: [
+      { item: "foregrip/kac/vertical" },
+      { item: "foregrip/magpul/afg2" },
+    ],
+  },
+  {
+    id: "laser_sights/cqbr",
+    type: "item_group",
+    subtype: "distribution",
+
+    "//sources": ["https://clonerifles.com/cqbrblockii/"],
+
+    "//TODO": [
+      ["MIPIM aka AN/PEQ-16", "apparently used in limited quantities"],
+    ],
+
+    entries: [
+      { item: "laser_sight/l3harris/atpial-c" },
+      { item: "laser_sight/l3harris/la-5b/peq" },
+    ],
+  },
+  {
+    id: "m4_cqbr",
+    type: "item_group",
+    subtype: "collection",
+
+    "//TODO": ["use rail covers", "use flashlights"],
+
+    entries: [
+      {
+        item: "modular_mk18_cqbr",
+        "contents-item": ["pistol_grip", "adjustable_stock"],
+        "contents-group": [
+          "muzzle_devices/cqbr",
+          "sights/reflex/mounted",
+          "foregrips/cqbr",
+          "laser_sights/cqbr",
+        ],
+      },
+    ],
+  },
+
+  {
+    id: "m2010",
+    type: "item_group",
+    subtype: "collection",
+
+    "//sources": [
+      "https://charliescustomclones.com/remington-defense-xm2010-enhanced-sniper-rifle-racs-deployment-kit-demo/",
+    ],
+
+    "//notes": [
+      "sight is supposed to be Mark 4 6.5×20, but we don't have that in Loadout and, unless reality bubble diameter increases dramatically, never will",
+      "the original scope is mounted onto a pair of rings, but we don't have those yet",
+      [
+        "M2010 uses AAC Titan QD suppressor mounted atop AAC Blackout 90-tooth flash hider",
+        "https://advanced-armament.com/shop/silencers/precision/titan-qd-fde/",
+        "https://advanced-armament.com/shop/accessories/flash-hiders/blackout-flash-hider-90t/",
+        [
+          "https://www.joeboboutfitters.com/AAC-BLACKOUT-FH-51T-1-2X28-5-56MM-p/aac-64141.htm",
+          "length (2.5 in., closer to the bottom of the list) and weight of the same flash hider in 51-tooth variant",
+          "they should have the same stats",
+        ],
+        "we have neither at the moment",
+      ],
+    ],
+
+    "//TODO": ["refactor sight + mount spawn to be a single group"],
+
+    entries: [
+      {
+        item: "m2010",
+        "contents-item": [
+          "bipod/harris/s-l2p",
+
+          "flash_hider/surefire/4_prong",
+          "suppressor/surefire/socom556_rc2",
+
+          "sight_mount/30mm/aero",
+          "sight/leupold/mark_4",
+        ],
+      },
+    ],
+  },
+  {
+    id: "m110a1",
+    type: "item_group",
+    subtype: "collection",
+
+    "//sources": [
+      "https://www.hkpro.com/threads/m110a1-csass-sdmr-build-list-answered-in-edited-post.564570/",
+      "https://en.wikipedia.org/wiki/M110A1_rifle",
+      ["KAC MAN-00011", "M110 manual"],
+    ],
+
+    "//notes": [
+      "muzzle brake is supposed to be OSS QD 7.62mm 5/8×24",
+      "suppressor is supposed to be OSS SRM6",
+      [
+        "bipod was Harris S-LM (aka LM-S) on M110 aka Mk 11",
+        "a reasonable approximation in price, appearance, and functionality would be Harris S-BRM",
+      ],
+      "CSASS variant has Schmidt & Bender 3–20×50 PM II Ultra Short scope instead of SDMR's TANGO6T",
+      "uses lots of Geissele parts, including the optics mount",
+    ],
+
+    "//TODO": ["refactor sight + mount spawn to be a single group"],
+
+    entries: [
+      {
+        item: "m110a1",
+        "contents-item": [
+          "bipod/harris/s-l2p",
+          "muzzle_brake/thunder_beast/sr",
+          "suppressor/thunder_beast/dominus_sr",
+
+          "sight_mount/30mm/aero",
+          "sight/sig/tango6t/1-6x",
+        ],
+      },
+    ],
+  },
+]

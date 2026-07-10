@@ -1,0 +1,55 @@
+[
+  {
+    id: "foregrips/tiny",
+    type: "item_group",
+    subtype: "distribution",
+
+    entries: [
+      { item: "foregrip/strike/bikini" },
+      { item: "foregrip/impact/barrier" },
+    ],
+  },
+
+  {
+    id: "foregrips/short",
+    type: "item_group",
+    subtype: "distribution",
+
+    entries: [{ item: "foregrip/dd/tornado" }, { item: "foregrip/magpul/rvg" }],
+  },
+
+  {
+    id: "foregrips/angled",
+    type: "item_group",
+    subtype: "distribution",
+
+    entries: [
+      { item: "foregrip/magpul/afg2" },
+      { item: "foregrip/f1/skeletonized" },
+    ],
+  },
+
+  {
+    id: "foregrips/tall",
+    type: "item_group",
+    subtype: "distribution",
+
+    entries: [
+      { item: "foregrip/kac/vertical" },
+      { item: "foregrip/mission_first/react" },
+    ],
+  },
+
+  {
+    id: "foregrips/all",
+    type: "item_group",
+    subtype: "distribution",
+
+    entries: [
+      { group: "foregrips/tiny" },
+      { group: "foregrips/short" },
+      { group: "foregrips/angled" },
+      { group: "foregrips/tall" },
+    ],
+  },
+]

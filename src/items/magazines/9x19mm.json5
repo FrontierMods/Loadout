@@ -1,0 +1,801 @@
+[
+  {
+    abstract: "@magazine/9x19mm",
+    "copy-from": "@magazine",
+    type: "MAGAZINE",
+
+    name: {
+      str: "9x19mm magazine",
+    },
+
+    ammo_type: ["9mm"],
+
+    pocket_data: [
+      {
+        pocket_type: "MAGAZINE",
+
+        rigid: true,
+
+        ammo_restriction: {
+          "9mm": 1,
+        },
+      },
+    ],
+
+    flags: ["MAG_COMPACT"],
+  },
+  {
+    abstract: "@magazine/9x19mm:large",
+    "copy-from": "@magazine/9x19mm",
+    type: "MAGAZINE",
+
+    name: {
+      str: "bulky 9x19mm magazine",
+    },
+
+    flags: ["MAG_BULKY"],
+  },
+
+  {
+    id: "magazine/glock/9x19mm/15",
+    "copy-from": "@magazine/9x19mm",
+    type: "MAGAZINE",
+
+    "//sources": [
+      "https://us.glock.com/en/pistols/g19",
+      [
+        "https://www.northeastshooters.com/xen/threads/anyone-have-glock-dimensions-n00b-questions.181051/",
+        "dimensions",
+      ],
+      [
+        "https://gunmagwarehouse.com/glock-gen-5-glock-19-9mm-15-round-factory-magazine.html",
+        "price",
+      ],
+    ],
+
+    name: {
+      str: "Glock 9x19mm 15-round magazine",
+    },
+    description: "Made for the Glock 19, this magazine holds 15 rounds.",
+
+    "//weight": "Glock 19 with empty magazine (23.63 oz = 669.9 g) - Glock 19 without magazine (21.16 oz = 599.88 g) = 70.02 g",
+    weight: "70 g 020 mg",
+    "//dimensions": [
+      {
+        description: "magazine body",
+
+        reference: "magazine/body/glock/9x19mm/15",
+        result: "76.11 ml",
+      },
+      {
+        description: "OEM base plate",
+
+        reference: "baseplate/glock/oem",
+        result: "9.105 ml",
+        notes: [
+          "we use the final dimensions of the base plate because they already account for the space shared between the bottom of the magazine body and the top of the base plate",
+        ],
+      },
+    ],
+    volume: "85 ml",
+    "//longest_side": ["4.69 in = 119.13 mm", "Feret distance"],
+    longest_side: "119 mm",
+
+    material: ["plastic"],
+
+    pocket_data: [
+      {
+        pocket_type: "MAGAZINE",
+
+        rigid: true,
+
+        ammo_restriction: {
+          "9mm": 15,
+        },
+      },
+    ],
+
+    price: "29 USD 99 cent",
+    price_postapoc: "1 USD",
+  },
+  {
+    id: "magazine/glock/9x19mm/15+2",
+    "copy-from": "@magazine/9x19mm",
+    type: "MAGAZINE",
+
+    "//sources": [
+      "magazine/glock/9x19mm/15",
+      "magazine/baseplate/glock/9x19mm/+2",
+    ],
+
+    name: {
+      str: "Glock 9x19mm 15+2-round magazine",
+    },
+    description: "Made for the Glock 19, this magazine holds 17 rounds thanks to an extension attached to its bottom.",
+
+    "//weight": "magazine body (66.52 g) + +2 extension (14.175 g) = 80.695 g",
+    weight: "80 g 695 mg",
+    "//dimensions": [
+      {
+        description: "magazine body",
+
+        reference: "magazine/body/glock/9x19mm/15",
+        result: "76.11 ml",
+      },
+      {
+        description: "+2 OEM base plate",
+
+        reference: "baseplate/glock/+2",
+        raw: "19.83 ml",
+        trim: 0.1,
+        result: "17.85 ml",
+        notes: [
+          "trim is to roughly accomodate the same relative reduction in volume that happened with the OEM plate",
+        ],
+      },
+    ],
+    volume: "94 ml",
+    "//longest_side": ["4.83 in = 122.68 g", "Feret distance"],
+    longest_side: "123 mm",
+
+    material: ["plastic"],
+
+    pocket_data: [
+      {
+        pocket_type: "MAGAZINE",
+
+        rigid: true,
+
+        ammo_restriction: {
+          "9mm": 17,
+        },
+      },
+    ],
+
+    price: "29 USD 99 cent",
+    price_postapoc: "1 USD",
+  },
+
+  {
+    id: "magazine/glock/9x19mm/17",
+    "copy-from": "@magazine/9x19mm",
+    type: "MAGAZINE",
+
+    "//sources": [
+      "https://us.glock.com/en/pistols/g17",
+      [
+        "https://www.northeastshooters.com/xen/threads/anyone-have-glock-dimensions-n00b-questions.181051/",
+        "dimensions",
+      ],
+      [
+        "https://gunmagwarehouse.com/glock-gen-5-glock-17-9mm-17-round-factory-magazine.html",
+        "price",
+      ],
+    ],
+
+    "//notes": ["body depth: 1.3 in"],
+
+    name: {
+      str: "Glock 9x19mm 17-round magazine",
+    },
+    description: "Made for the Glock 17, this magazine holds 17 rounds.",
+
+    "//weight": "Glock 17 with empty magazine (24.87 oz = 705.05 g) - Glock 17 without magazine (22.05 oz = 625.11 g) = 79.94 g",
+    weight: "79 g 940 mg",
+    "//dimensions": [
+      {
+        description: "magazine body",
+
+        reference: "magazine/body/glock/9x19mm/17",
+        result: "82.65 ml",
+      },
+      {
+        description: "OEM base plate",
+
+        reference: "baseplate/glock/oem",
+        result: "9.105 ml",
+        notes: [
+          "we use the final dimensions of the base plate because they already account for the space shared between the bottom of the magazine body and the top of the base plate",
+        ],
+      },
+    ],
+    volume: "92 ml",
+    "//longest_side": ["5.18 in = 131.57 mm", "Feret distance"],
+    longest_side: "132 mm",
+
+    material: ["plastic"],
+
+    pocket_data: [
+      {
+        pocket_type: "MAGAZINE",
+
+        rigid: true,
+
+        ammo_restriction: {
+          "9mm": 17,
+        },
+      },
+    ],
+
+    price: "29 USD 99 cent",
+    price_postapoc: "1 USD",
+  },
+  {
+    id: "magazine/glock/9x19mm/17+2",
+    "copy-from": "@magazine/9x19mm",
+    type: "MAGAZINE",
+
+    "//sources": [
+      "magazine/glock/9x19mm/17",
+      "magazine/baseplate/glock/9x19mm/+2",
+    ],
+
+    name: {
+      str: "Glock 9x19mm 17+2-round magazine",
+    },
+    description: "Made for the Glock 17, this magazine holds 19 rounds thanks to an extension attached to its bottom.",
+
+    "//weight": "magazine body (76.44 g) + +2 extension (14.175 g) = 90.615 g",
+    weight: "90 g 615 mg",
+    "//dimensions": [
+      {
+        description: "magazine body",
+
+        reference: "magazine/body/glock/9x19mm/17",
+        result: "83.38 ml",
+      },
+      {
+        description: "+2 OEM base plate",
+
+        reference: "baseplate/glock/+2",
+        raw: "19.83 ml",
+        trim: 0.1,
+        result: "17.85 ml",
+        notes: [
+          "trim is to roughly accomodate the same relative reduction in volume that happened with the OEM plate",
+        ],
+      },
+    ],
+    volume: "101 ml",
+    "//longest_side": ["5.43 in = 137.92 mm", "Feret distance"],
+    longest_side: "138 mm",
+
+    material: ["plastic"],
+
+    pocket_data: [
+      {
+        pocket_type: "MAGAZINE",
+
+        rigid: true,
+
+        ammo_restriction: {
+          "9mm": 19,
+        },
+      },
+    ],
+
+    price: "29 USD 99 cent",
+    price_postapoc: "1 USD",
+  },
+
+  {
+    id: "magazine/torkmag/glock",
+    "copy-from": "magazine/glock/9x19mm/17+2",
+    type: "MAGAZINE",
+
+    "//sources": [
+      "https://torkmag.com/20rd-g17-magazine-9mm-para-torkmag-20/",
+      ["https://www.primerpeak.com/g17-torkmag-glock-magazine/", "weight"],
+    ],
+
+    name: {
+      str: "Glock 9x19mm 20-round magazine",
+    },
+    description: "Made for the Glock 17, this magazine holds 20 rounds in the same size as the 17+2-round magazine.",
+
+    "//weight": "1.8 oz = 51.03 g",
+    weight: "51 g 030 mg",
+
+    pocket_data: [
+      {
+        pocket_type: "MAGAZINE",
+
+        rigid: true,
+
+        ammo_restriction: {
+          "9mm": 20,
+        },
+      },
+    ],
+
+    price: "19 USD 95 cent",
+    "//price_postapoc": "arguably slightly better because it offers a slightly-larger capacity in the same size",
+    price_postapoc: "1 USD 25 cent",
+  },
+
+  {
+    id: "magazine/glock/9x19mm/24",
+    "copy-from": "@magazine/9x19mm",
+    type: "MAGAZINE",
+
+    "//sources": [
+      [
+        "https://www.armamat.ch/en-ch/p/magazine-glock-9mm-para-24rds-112433/",
+        "weight",
+      ],
+      [
+        "https://www.northeastshooters.com/xen/threads/anyone-have-glock-dimensions-n00b-questions.181051/",
+        "dimensions",
+      ],
+      [
+        "https://gunmagwarehouse.com/glock-9mm-24-round-factory-magazine.html",
+        "price",
+      ],
+    ],
+
+    name: {
+      str: "Glock 9x19mm 24-round magazine",
+    },
+    description: "Made for the Glock 17, this magazine holds 24 rounds.",
+
+    weight: "105 g",
+    "//dimensions": [
+      {
+        description: "magazine body",
+
+        reference: "magazine/body/glock/9x19mm/24",
+        result: "117.43 ml",
+      },
+      {
+        description: "OEM base plate",
+
+        reference: "baseplate/glock/oem",
+        result: "9.105 ml",
+        notes: [
+          "we use the final dimensions of the base plate because they already account for the space shared between the bottom of the magazine body and the top of the base plate",
+        ],
+      },
+    ],
+    volume: "127 ml",
+    "//longest_side": ["6.95 in = 176.53 mm", "Feret distance"],
+    longest_side: "177 mm",
+
+    material: ["plastic"],
+
+    pocket_data: [
+      {
+        pocket_type: "MAGAZINE",
+
+        rigid: true,
+
+        ammo_restriction: {
+          "9mm": 24,
+        },
+      },
+    ],
+
+    price: "39 USD 99 cent",
+    price_postapoc: "1 USD 50 cent",
+  },
+  {
+    id: "magazine/glock/9x19mm/24+2",
+    "copy-from": "@magazine/9x19mm",
+    type: "MAGAZINE",
+
+    "//sources": [
+      "magazine/glock/9x19mm/24",
+      "magazine/baseplate/glock/9x19mm/+2",
+    ],
+
+    name: {
+      str: "Glock 9x19mm 24+2-round magazine",
+    },
+    description: "Made for the Glock 17, this magazine holds 24 rounds thanks to an extension attached to its bottom.",
+
+    "//weight": "magazine body (101.5 g) + +2 extension (14.175 g) = 115.675 g",
+    weight: "115 g 675 mg",
+    "//dimensions": [
+      {
+        description: "magazine body",
+
+        reference: "magazine/body/glock/9x19mm/24",
+        result: "117.43 ml",
+      },
+      {
+        description: "+2 OEM base plate",
+
+        reference: "baseplate/glock/+2",
+        raw: "19.83 ml",
+        trim: 0.1,
+        result: "17.85 ml",
+        notes: [
+          "trim is to roughly accomodate the same relative reduction in volume that happened with the OEM plate",
+        ],
+      },
+    ],
+    volume: "135 ml",
+    "//longest_side": [
+      "derived from the difference between the lengths of the 15- and 17-rounder with and without extension plates each",
+      "images of the 24+2 magazine are not readily available online",
+      "assuming ~0.2 in added (rough average of difference between 15- and 17-rounders with and without extension plates)",
+      "6.95 in + 0.2 in = 7.15 in = 181.61 mm",
+    ],
+    longest_side: "182 mm",
+
+    material: ["plastic"],
+
+    pocket_data: [
+      {
+        pocket_type: "MAGAZINE",
+
+        rigid: true,
+
+        ammo_restriction: {
+          "9mm": 26,
+        },
+      },
+    ],
+
+    price: "29 USD 99 cent",
+    price_postapoc: "1 USD",
+  },
+
+  {
+    id: "magazine/glock/9x19mm/31",
+    "copy-from": "@magazine/9x19mm",
+    type: "MAGAZINE",
+
+    "//sources": [
+      [
+        "https://en.specshop.pl/product-eng-41776-Glock-Pistol-Magazine-for-Glock-9x19-mm-Luger-Parabellum-31-2-rounds-4450.html",
+        "weight",
+      ],
+      [
+        "https://www.northeastshooters.com/xen/threads/anyone-have-glock-dimensions-n00b-questions.181051/",
+        "dimensions",
+      ],
+      [
+        "https://gunmagwarehouse.com/glock-gen-4-5-glock-17-19-26-34-9mm-33-round-factory-magazine.html",
+        "price",
+      ],
+    ],
+
+    name: {
+      str: "Glock 9x19mm 31-round magazine",
+    },
+    description: "Made for the Glock 17, this magazine holds 31 rounds.",
+
+    weight: "117 g",
+    "//dimensions": [
+      {
+        description: "magazine body",
+
+        reference: "magazine/body/glock/9x19mm/31",
+        result: "141.44 ml",
+      },
+      {
+        description: "OEM base plate",
+
+        reference: "baseplate/glock/oem",
+        result: "9.105 ml",
+        notes: [
+          "we use the final dimensions of the base plate because they already account for the space shared between the bottom of the magazine body and the top of the base plate",
+        ],
+      },
+    ],
+    volume: "151 ml",
+    "//longest_side": ["8.28 in = 210.31 mm", "Feret distance"],
+    longest_side: "210 mm",
+
+    material: ["plastic"],
+
+    pocket_data: [
+      {
+        pocket_type: "MAGAZINE",
+
+        rigid: true,
+
+        ammo_restriction: {
+          "9mm": 31,
+        },
+      },
+    ],
+
+    "//price": "the price remains unchanged between the 24-rounder and the 31+2-rounder, so we assume the price for this model is the same",
+    price: "39 USD 99 cent",
+    price_postapoc: "2 USD",
+  },
+  {
+    id: "magazine/glock/9x19mm/31+2",
+    "copy-from": "@magazine/9x19mm",
+    type: "MAGAZINE",
+
+    "//sources": [
+      "magazine/glock/9x19mm/31",
+      "magazine/baseplate/glock/9x19mm/+2",
+    ],
+
+    name: {
+      str: "Glock 9x19mm 31+2-round magazine",
+    },
+    description: "Made for the Glock 17, this magazine holds 33 rounds thanks to an extension attached to its bottom.",
+
+    "//weight": "magazine body (113.5 g) + +2 extension (14.175 g) = 127.675 g",
+    weight: "127 g 675 mg",
+    "//dimensions": [
+      {
+        description: "magazine body",
+
+        reference: "magazine/body/glock/9x19mm/24",
+        result: "141.44 ml",
+      },
+      {
+        description: "+2 OEM base plate",
+
+        reference: "baseplate/glock/+2",
+        raw: "19.83 ml",
+        trim: 0.1,
+        result: "17.85 ml",
+        notes: [
+          "trim is to roughly accomodate the same relative reduction in volume that happened with the OEM plate",
+        ],
+      },
+    ],
+    volume: "159 ml",
+    "//longest_side": ["8.52 in = 216.41 mm", "Feret distance"],
+    longest_side: "216 mm",
+
+    material: ["plastic"],
+
+    pocket_data: [
+      {
+        pocket_type: "MAGAZINE",
+
+        rigid: true,
+
+        ammo_restriction: {
+          "9mm": 33,
+        },
+      },
+    ],
+
+    price: "39 USD 99 cent",
+    price_postapoc: "2 USD",
+  },
+
+  {
+    id: "magazine/kriss/9x19mm",
+    "copy-from": "@magazine/9x19mm",
+    type: "MAGAZINE",
+
+    "//sources": [
+      "https://us.glock.com/en/pistols/g17",
+      [
+        "https://www.northeastshooters.com/xen/threads/anyone-have-glock-dimensions-n00b-questions.181051/",
+        "dimensions",
+      ],
+      ["https://kriss-usa.com/kriss-mag-ex2-extended-magazine/", "price"],
+    ],
+
+    "//notes": [
+      "the final volume seem off, being that the extension is only about 40% larger than the magazine body, but inputs for calculations all appear to be correct",
+    ],
+
+    name: {
+      str: "Glock 9x19mm 17+23-round magazine",
+    },
+    description: "Made for the Glock 17, this magazine holds 40 rounds thanks to an extension attached to its bottom.",
+
+    "//weight": "magazine body (76.44 g) + +23 extension (113.4 g) = 189.84 g",
+    weight: "189 g 840 mg",
+    "//dimensions": [
+      {
+        description: "magazine body",
+
+        reference: "magazine/body/glock/9x19mm/17",
+        result: "82.65 ml",
+      },
+      {
+        description: "+23 KRISS extension",
+
+        reference: "magazine/baseplate/kriss/9x19mm",
+        raw: "179.05 ml",
+        trim: 0.01,
+        result: "177.26 ml",
+        notes: [
+          "trim is to roughly accomodate the same relative reduction in volume that happened with the OEM plate",
+        ],
+      },
+    ],
+    volume: "260 ml",
+    "//longest_side": ["9.98 in = 253.49 mm", "Feret distance"],
+    longest_side: "254 mm",
+
+    material: ["plastic"],
+
+    pocket_data: [
+      {
+        pocket_type: "MAGAZINE",
+
+        rigid: true,
+
+        ammo_restriction: {
+          "9mm": 40,
+        },
+      },
+    ],
+
+    price: "69 USD 99 cent",
+    price_postapoc: "4 USD",
+  },
+
+  {
+    id: "magazine/magpul/pmag/d-50",
+    "copy-from": "@magazine/9x19mm:large",
+    type: "MAGAZINE",
+
+    "//sources": [
+      "https://magpul.com/pmag-d-50-gl9-glock.html",
+      [
+        "https://www.northeastshooters.com/xen/threads/anyone-have-glock-dimensions-n00b-questions.181051/",
+        "dimensions",
+      ],
+    ],
+
+    "//notes": [
+      "may be worth recalculating dimensions as those of the tower + the drum",
+      "the tower is roughly the length of the 17-round magazine (body + factory plate)",
+    ],
+
+    name: {
+      str: "Glock 9x19mm 50-round drum magazine",
+    },
+    description: "Made for Glock pistols, this drum magazine holds 50 rounds.",
+
+    "//weight": "17.3 oz = 490.45 g",
+    weight: "490 g 450 mg",
+    "//dimensions": {
+      area: "20.82 in2",
+      width: "2.61 in",
+      raw: "890.48 ml",
+      trim: 0.3,
+      notes: [
+        "trim is for the tower, which does not stretch for the entirety of the magazine's width (which is that of the drum)",
+      ],
+    },
+    volume: "623 ml",
+    "//longest_side": ["9.11 in = 231.39 mm", "Feret distance"],
+    longest_side: "231 mm",
+
+    material: ["plastic"],
+
+    pocket_data: [
+      {
+        pocket_type: "MAGAZINE",
+
+        rigid: true,
+
+        ammo_restriction: {
+          "9mm": 50,
+        },
+      },
+    ],
+
+    price: "124 USD 95 cent",
+    price_postapoc: "4 USD",
+  },
+
+  {
+    id: "magazine/kci/9x19mm/glock",
+    "copy-from": "@magazine/9x19mm:large",
+    type: "MAGAZINE",
+
+    "//sources": [
+      "https://www.kcius.com/products/glock/9mm-50rd-gen-2-drum-magazine",
+      [
+        "https://glockparts.com/kci-tactical-50-round-drum-magazine-9mm/",
+        "weight",
+      ],
+      [
+        "https://www.northeastshooters.com/xen/threads/anyone-have-glock-dimensions-n00b-questions.181051/",
+        "dimensions",
+      ],
+      [
+        "https://gunmagwarehouse.com/kci-9mm-50-round-drum-magazine-for-glock-pistols.html",
+        "price",
+      ],
+    ],
+
+    "//notes": [
+      "may be worth recalculating dimensions as those of the tower + the drum",
+      "the tower is roughly the length of the 17-round magazine (body + factory plate)",
+    ],
+
+    name: {
+      str: "Glock 9x19mm affordable 50-round drum magazine",
+    },
+    description: "Made for Glock pistols, this drum magazine holds 50 rounds.  It is more affordable than other models on the market.",
+
+    "//weight": "1.46 lbs = 662.24 g",
+    weight: "662 g 240 mg",
+    "//dimensions": {
+      area: "24.28 in2",
+      width: "3.13 in",
+      raw: "1245.36 ml",
+      trim: 0.3,
+      notes: [
+        "trim is for the tower, which does not stretch for the entirety of the magazine's width (which is that of the drum)",
+      ],
+    },
+    volume: "872 ml",
+    "//longest_side": ["9.9 in = 253.49 mm", "Feret distance"],
+    longest_side: "254 mm",
+
+    material: ["plastic", "hc_steel"],
+
+    pocket_data: [
+      {
+        pocket_type: "MAGAZINE",
+
+        rigid: true,
+
+        ammo_restriction: {
+          "9mm": 50,
+        },
+      },
+    ],
+
+    price: "99 USD 99 cent",
+    price_postapoc: "3 USD 50 cent",
+  },
+
+  {
+    id: "magazine/beta/c-mag/glock",
+    "copy-from": "@magazine/9x19mm:large",
+    type: "MAGAZINE",
+
+    "//sources": [
+      "https://web.archive.org/web/20230321133228/https://betaco.com/c-mag-systems/9mm/9mm-glock/",
+      ["https://betaco.com/technical-manuals/", "dimensions", "weight"],
+    ],
+
+    "//notes": [
+      "may be worth recalculating dimensions as those of the tower + the drum",
+      "the tower is roughly the length of the 17-round magazine (body + factory plate)",
+    ],
+
+    name: {
+      str: "Glock 9x19mm 100-round double-drum magazine",
+    },
+    description: "Made for Glock pistols, this drum magazine holds 100 rounds.",
+
+    "//weight": "2.2 lbs = 997.9 g",
+    weight: "977 g 900 mg",
+    "//dimensions": {
+      area: "45.77 in2",
+      width: "3 in",
+      raw: "2250.11 ml",
+      trim: 0,
+    },
+    volume: "2 L 250 ml",
+    "//longest_side": ["10.87 in = 276.1 mm", "Feret distance"],
+    longest_side: "276 mm",
+
+    material: ["plastic"],
+
+    pocket_data: [
+      {
+        pocket_type: "MAGAZINE",
+
+        rigid: true,
+
+        ammo_restriction: {
+          "9mm": 100,
+        },
+      },
+    ],
+
+    price: "360 USD",
+    price_postapoc: "5 USD",
+  },
+]

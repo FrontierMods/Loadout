@@ -1,0 +1,92 @@
+[
+  {
+    "//": [
+      "suppressors that mount on a QD (quick detach) device, e.g. a muzzle brake or flash hider",
+      "QD devices set to high, but not absolute, spawn chance, to emulate real-life situations where one is likely, but may not always, come with its required mount",
+    ],
+
+    id: "suppressor/socom556_rc2:maybe",
+    type: "item_group",
+    subtype: "collection",
+
+    entries: [
+      { item: "suppressor/surefire/socom556_rc2" },
+      { item: "muzzle_brake/surefire/socom", prob: 90 },
+    ],
+  },
+  {
+    id: "suppressor/socom556_rc2",
+    type: "item_group",
+    subtype: "collection",
+
+    entries: [
+      { item: "suppressor/surefire/socom556_rc2" },
+      { item: "muzzle_brake/surefire/socom" },
+    ],
+  },
+
+  {
+    id: "suppressor/dominus_sr:maybe",
+    type: "item_group",
+    subtype: "collection",
+
+    entries: [
+      { item: "suppressor/thunder_beast/dominus_sr" },
+      { item: "muzzle_brake/thunder_beast/sr", prob: 90 },
+    ],
+  },
+  {
+    id: "suppressor/dominus_sr",
+    type: "item_group",
+    subtype: "collection",
+
+    entries: [
+      { item: "suppressor/thunder_beast/dominus_sr" },
+      { item: "muzzle_brake/thunder_beast/sr" },
+    ],
+  },
+
+  {
+    id: "suppressor/qdss:maybe",
+    type: "item_group",
+    subtype: "collection",
+
+    entries: [
+      { item: "suppressor/kac/qdss" },
+      { item: "flash_hider/kac/m4qd", prob: 90 },
+    ],
+  },
+  {
+    id: "suppressor/qdss",
+    type: "item_group",
+    subtype: "collection",
+
+    entries: [
+      { item: "suppressor/kac/qdss" },
+      { item: "flash_hider/kac/m4qd" },
+    ],
+  },
+
+  {
+    id: "suppressors/qd",
+    type: "item_group",
+    subtype: "distribution",
+
+    entries: [
+      { group: "suppressor/socom556_rc2" },
+      { group: "suppressor/dominus_sr" },
+      { group: "suppressor/qdss" },
+    ],
+  },
+  {
+    id: "suppressors/qd:maybe",
+    type: "item_group",
+    subtype: "distribution",
+
+    entries: [
+      { group: "suppressor/socom556_rc2:maybe" },
+      { group: "suppressor/dominus_sr:maybe" },
+      { group: "suppressor/qdss:maybe" },
+    ],
+  },
+]

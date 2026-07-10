@@ -1,0 +1,68 @@
+[
+  {
+    id: "suppressors/direct",
+    type: "item_group",
+    subtype: "distribution",
+
+    "//notes": ["suppressors that mount directly onto muzzle thread"],
+
+    entries: [{ item: "suppressor/thunder_beast/fly_9" }],
+  },
+
+  {
+    id: "muzzle_brakes",
+    type: "item_group",
+    subtype: "distribution",
+
+    "//notes": ["only those which make sense outside of mounting solutions"],
+
+    entries: [{ item: "muzzle_brake/surefire/socom" }],
+  },
+
+  {
+    id: "flash_hiders",
+    type: "item_group",
+    subtype: "distribution",
+
+    entries: [
+      { item: "flash_hider/colt/a2" },
+      { item: "flash_hider/kac/m4qd" },
+      { item: "flash_hider/surefire/4_prong" },
+    ],
+  },
+
+  {
+    id: "chokes",
+    type: "item_group",
+    subtype: "distribution",
+
+    entries: [{ item: "choke/mueller/passing" }],
+  },
+
+  {
+    id: "compensators",
+    type: "item_group",
+    subtype: "distribution",
+
+    entries: [{ item: "compensator/mft/slim" }],
+  },
+
+  {
+    id: "muzzle_devices/all",
+    type: "item_group",
+    subtype: "collection",
+
+    "//notes": [
+      "for gun stores and other locations where you may see a variety of different attachments",
+    ],
+
+    entries: [
+      { group: "suppressors/qd:maybe", prob: 60 },
+      { group: "suppressors/direct", prob: 50 },
+      { group: "muzzle_brakes", prob: 70 },
+      { group: "flash_hiders", prob: 40 },
+      { group: "compensators", prob: 40 },
+      { group: "chokes", prob: 30 },
+    ],
+  },
+]

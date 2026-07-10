@@ -1,0 +1,185 @@
+[
+  {
+    id: "magazine/baseplate/glock/9x19mm/oem",
+    "copy-from": "@magmod",
+    type: "GENERIC",
+
+    "//sources": [
+      [
+        "https://www.glockstore.com/Heavy-Extended-Aluminum-Magazine-Base-Plate",
+        "weight",
+      ],
+      [
+        "https://www.forwardcontrolsdesign.com/MFP-G_p_381.html",
+        "width",
+        "length",
+      ],
+      [
+        "https://gear-report.com/review-preview-glock-magazine-extension/",
+        "height",
+      ],
+      [
+        "https://www.glockstore.com/Glock-Mag-Floor-Plate-9-40-357-45GAP",
+        "price",
+      ],
+    ],
+
+    "//notes": [
+      "unfortunately, we have to mix dimensions of different generations of magazines",
+      "this appears to be an insignificant tradeoff for having proper dimensions for such an out-of-sight item",
+    ],
+
+    name: {
+      str: "Glock magazine baseplate",
+    },
+    description: "A flat piece of plastic that finishes the construction of a magazine.  This one is for the magazines of the Glock brand.  Can be attached to a Glock magazine body to make it a usable magazine.",
+
+    variant_type: "gun",
+    variants: [
+      {
+        id: "black",
+
+        name: {
+          str: "Glock magazine baseplate",
+        },
+        description: "A flat piece of plastic that prevents the magazine spring from falling out.  This one is an original base plate from Glock, and comes standard with the magazines of the brand.  Can be attached to Glock magazine bodies to finalize it into a usable magazine.  <variant:black>",
+        expand_snippets: true,
+        weight: 1,
+      },
+    ],
+
+    weight: "3 g 500 mg",
+    "//dimensions": {
+      length: "1.701 in",
+      width: "1.3 in",
+      height: "0.335 in",
+      raw: "12.14 ml",
+      trim: 0.25,
+      notes: [
+        "trim is to account for both the curved edges and the interior space",
+        "the latter becomes apparent from images in the height source",
+      ],
+    },
+    volume: "9 ml",
+    longest_side: "43 mm",
+
+    material: ["plastic"],
+
+    price: "3 USD 99 cent",
+  },
+  {
+    id: "magazine/baseplate/glock/9x19mm/+2",
+    "copy-from": "@magmod",
+    type: "GENERIC",
+
+    "//sources": [
+      [
+        "https://rockyourglock.com/glock-plus-2-magazine-extension-w-insert",
+        "price",
+      ],
+    ],
+
+    "//notes": [
+      "the source for weight and dimensions looks shady but also offers the best values",
+      "it's clear that took original values from a different source, but we were unable to find it",
+      "to avoid potentially harming players' and modders' computers, we refuse to link the source for those",
+      "a better, linkable source would be much appreciated",
+    ],
+
+    name: {
+      str: "Glock factory magazine extension",
+    },
+    description: "A small, cube-ish plastic cup that finishes the construction of a magazine.  This one is for the magazines of the Glock brand.  Can be attached to a Glock magazine body to make an extended magazine.",
+
+    variant_type: "gun",
+    variants: [
+      {
+        id: "black",
+
+        name: {
+          str: "Glock +2 magazine extension",
+        },
+        description: "Glock's own extension plate for their magazines.  Extends the length of the magazine and adds 2 extra rounds to its capacity.  <variant:black>",
+        expand_snippets: true,
+        weight: 1,
+      },
+    ],
+
+    "//weight": "0.5 oz = 14.175 g",
+    weight: "14 g 175 mg",
+    "//dimensions": {
+      area: "1.1 in2",
+      width: "1.1 in",
+      raw: "19.83 ml",
+      trim: 0,
+    },
+    volume: "20 ml",
+    "//longest_side": ["1.61 in = 40.89 mm", "Feret distance"],
+    longest_side: "41 mm",
+
+    material: ["plastic"],
+
+    price: "12 USD 95 cent",
+  },
+  {
+    id: "magazine/baseplate/kriss/9x19mm",
+    "copy-from": "@magmod",
+    type: "GENERIC",
+
+    "//sources": [
+      [
+        "https://shop.springerprecision.com/kriss-vector-gen-2-9mm-23-round-magazine-extension-kit-for-glock-17-magazines-3-pack/",
+        "visual reference",
+        "weight",
+      ],
+      ["https://kriss-usa.com/kriss-mag-ex2-kit/", "price"],
+    ],
+
+    "//notes": [
+      "different sources list different weights per extension, with most of them citing 0.3 lbs = 136.08 g",
+      "e.g. https://gatguns.com/product/kriss-usa-mag-ex2-kriss-kvamx2k90bl00-magex2-kit-glock-17-9mm-40rd/",
+      "X-Ray Parts and Rifle Mags list 200 g and 199 g, respectively",
+      "https://xrayparts.it/en/magazine-base-pad-for-glock/3068-magex2-extension-kit-alpine-40-round-for-glock-9-mm-magazine-kriss.html",
+      "https://riflemags.co.uk/kriss-magex2-magazine-extension-kit-for-glock-magazines/",
+      "we rely on the weight in source until a more definitely value is found",
+    ],
+
+    name: {
+      str: "Glock SMG magazine extension",
+    },
+    description: "A plastic tower as tall as a Glock magazine.  Originally developed to fit SMGs that accept Glock magazines, to accomodate an SMG's increased fire rate relative to its magazine capacity.  Can be attached to a Glock magazine body to make a significantly more extended magazine.",
+
+    variant_type: "gun",
+    variants: [
+      {
+        id: "black",
+
+        name: {
+          str: "KRISS Vector +23 magazine extension",
+        },
+        description: "A tall magazine extension for 9x19mm Glock magazines, intended to augment their capacity for a better fit with the Vector SMGs.  <variant:black>",
+        expand_snippets: true,
+        weight: 1,
+      },
+    ],
+
+    "//weight": [
+      "we presume the weight listed is per a 3-pack of extensions",
+      "12 oz / 3 = 4 oz = 113.4 g",
+    ],
+    weight: "113 g 400 mg",
+    "//dimensions": {
+      area: "9.03 in2",
+      width: "1.21 in",
+      raw: "179.05 ml",
+      trim: 0,
+    },
+    volume: "179 ml",
+    "//longest_side": ["5.81 in = 147.57 mm", "Feret distance"],
+    longest_side: "148 mm",
+
+    material: ["plastic"],
+
+    price: "32 USD 99 cent",
+  },
+]

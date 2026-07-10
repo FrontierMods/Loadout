@@ -1,0 +1,200 @@
+[
+  {
+    id: "sight_mount/ta01/trijicon/ta51",
+    "copy-from": "@sight_mount/rifle",
+    type: "GUNMOD",
+
+    "//sources": ["https://www.trijicon.com/products/details/ta51"],
+
+    name: {
+      str: "ACOG mount",
+    },
+    description: "A bulky mount for installing the ACOG sight onto the sight rail.",
+
+    variant_type: "gun",
+    variants: [
+      {
+        id: "black",
+
+        name: {
+          str: "Trijicon ACOG TA51 mount",
+        },
+        description: "A heavy slab for mounting ACOG sights onto the Picatinny rail.  Fits all popular models of the ACOG.",
+        expand_snippets: true,
+        weight: 1,
+      },
+    ],
+
+    "//weight": "4 oz = 113.4 g",
+    weight: "113 g",
+    "//dimensions": {
+      length: "3.5 in",
+      width: "1.6 in",
+      height: "0.4 in",
+      raw: "37 ml",
+      trim: 0.3,
+      notes: ["height and width acquired through visual reference"],
+    },
+    volume: "26 ml",
+    longest_side: "89 mm",
+
+    add_mod: [["ACOG mount", 1]],
+
+    price: "83 USD",
+    price_postapoc: "50 cent",
+  },
+  {
+    id: "sight_mount/rx01/trijicon/rx11",
+    "copy-from": "@sight_mount/rifle",
+    type: "GUNMOD",
+
+    "//sources": [
+      "https://palmettostatearmory.com/trijicon-reflex-weaver-rail-adapter-rx11.html",
+      [
+        "https://www.omahaoutdoors.com/trijicon-rx11-reflex-weaver-rail-adapter/",
+        "price",
+      ],
+    ],
+
+    name: {
+      str: "bulky reflex sight mount",
+    },
+    description: "A Picatinny mount for Trijicon RX01.  Latches onto the rail using thumbscrews similar to those on the TA51 ACOG mount.",
+
+    variant_type: "gun",
+    variants: [
+      {
+        id: "black",
+
+        name: {
+          str: "Trijicon RX11 mount",
+        },
+        description: "A thin slab for mounting the RX01 reflex sight onto the Picatinny rail.",
+        expand_snippets: true,
+        weight: 1,
+      },
+    ],
+
+    "//weight": "1.6 oz = 45.359 g",
+    weight: "45 g",
+    "//dimensions": {
+      length: "3.19 in",
+      width: "1.35 in",
+      height: "0.295 in",
+      raw: "20.82 ml",
+      trim: 0.35,
+      notes: ["width equals to width of RX01"],
+    },
+    volume: "14 ml",
+    longest_side: "81 mm",
+
+    add_mod: [["RX01 mount", 1]],
+
+    price: "75 USD",
+    price_postapoc: "50 cent",
+  },
+  {
+    id: "sight_mount/docter/trijicon/ms10",
+    "copy-from": "sight_mount/rmr/trijicon/rm35",
+    type: "GUNMOD",
+
+    "//sources": [
+      "https://www.opticsplanet.com/trijicon-docter-red-dot-sight-mount-ms10.html",
+    ],
+
+    "//notes": [
+      "no decent dimensions seem to be available for this mount",
+      "however, it looks very much like RM35, so we're going to copy its dimensions",
+    ],
+
+    name: {
+      str: "backup reflex sight mount for ACOG",
+      str_pl: "backup reflex sight mounts for ACOG",
+    },
+    description: "A specialized mount that allows installing the military backup reflex sight on top of the ACOG sight.  <sight_mount/secondary_mount>",
+
+    variant_type: "gun",
+    variants: [
+      {
+        id: "black",
+
+        name: {
+          str: "Trijicon MS10 Docter mount for ACOG",
+          str_pl: "Trijicon MS10 Docter mounts for ACOG",
+        },
+        description: "A specialized mount allowing one to install Docter-footprint reflex sights on top of some Trijicon ACOG sights.  <sight_mount/secondary_mount:alt>",
+        weight: 1,
+      },
+    ],
+
+    "//weight": "reusing the weight of RM35",
+    weight: "20 g",
+    "//dimensions": {
+      length: "1.78 in",
+      width: "1.65 in",
+      height: "0.78 in",
+      raw: "37.54 ml",
+      trim: 0.55,
+      notes: ["see also: notes for RM35"],
+    },
+    volume: "17 ml",
+    longest_side: "45 mm",
+
+    location: "ACOG bosses",
+
+    add_mod: [["Docter mount", 1]],
+
+    price: "106 USD",
+    price_postapoc: "50 cent",
+  },
+  {
+    id: "sight_mount/comp4/aimpoint/lrp",
+    "copy-from": "@sight_mount/rifle",
+    type: "GUNMOD",
+
+    "//sources": [
+      "https://www.aimpoint.com/products/lrp-mount-lever-release-picatinny-for-comp-m4-m4s/",
+      [
+        "https://aimpoint.us/aimpoint-lrp-lever-release-picatinny-modular-base-only/",
+        "price",
+      ],
+    ],
+
+    name: {
+      str: "quick-detach CompM4 mount",
+    },
+    description: "A Picatinny mount for the modern military reflex sight.  Latches onto the rail with a level, making installation extremely fast and easy.",
+
+    variant_type: "gun",
+    variants: [
+      {
+        id: "black",
+
+        name: {
+          str: "Aimpoint LRP mount",
+        },
+        description: "A thin machined plate with holes for the CompM4-pattern sights from Aimpoint.  Uses a lever to latch onto the rail, making installing and uninstalling the mount very quick and easy.",
+        weight: 1,
+      },
+    ],
+
+    "//weight": "2.7 oz = 76.544 g",
+    weight: "77 g",
+    "//dimensions": {
+      length: "3.1 in",
+      width: "1.9 in",
+      height: "0.57 in",
+      raw: "55.02 ml",
+      trim: 0.15,
+      notes: ["height acquired from visual reference"],
+    },
+    volume: "47 ml",
+    longest_side: "79 mm",
+
+    add_mod: [["CompM4 mount", 1]],
+    install_time: "5 s",
+
+    price: "147 USD",
+    price_postapoc: "50 cent",
+  },
+]

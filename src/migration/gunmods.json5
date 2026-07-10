@@ -1,0 +1,208 @@
+[
+  {
+    id: ["red_dot_sight"],
+    type: "MIGRATION",
+    replace: "sight/ncstar",
+  },
+  {
+    id: ["holo_sight"],
+    type: "MIGRATION",
+    replace: "sight/eotech/exps3",
+  },
+  {
+    id: ["holo_magnifier"],
+    type: "MIGRATION",
+    replace: "magnifier/eotech/g33",
+  },
+  {
+    id: ["acog_scope"],
+    type: "MIGRATION",
+    replace: "sight/trijicon/ta01",
+  },
+  {
+    id: ["rifle_scope"],
+    type: "MIGRATION",
+    replace: "sight/eotech/vudu/1-6x",
+  },
+  {
+    id: ["pistol_scope"],
+    type: "MIGRATION",
+    replace: "sight/vortex/viper_pst/1-6x",
+  },
+  {
+    id: ["magnifier"],
+    type: "MIGRATION",
+    replace: "magnifier/eotech/g33",
+  },
+  {
+    id: ["offset_sight_rail"],
+    type: "MIGRATION",
+    replace: "sight_mount/offset/si/ambush",
+  },
+  {
+    id: ["offset_sights"],
+    type: "MIGRATION",
+    replace: "sight/offset/magpul/mbus_pro",
+  },
+
+  {
+    id: ["laser_sight"],
+    type: "MIGRATION",
+    replace: "laser_sight/sightmark/readyfire",
+  },
+  {
+    id: ["rail_laser_sight"],
+    type: "MIGRATION",
+    replace: "laser_sight/l3harris/atpial-c",
+  },
+
+  {
+    id: ["suppressor"],
+    type: "MIGRATION",
+    replace: "suppressor/kac/qdss",
+  },
+  {
+    id: ["suppressor_compact"],
+    type: "MIGRATION",
+    replace: "suppressor/thunder_beast/fly_9",
+  },
+  {
+    id: ["shot_suppressor"],
+    type: "MIGRATION",
+    replace: "suppressor/silencerco/salvo_12",
+  },
+  {
+    id: ["muzzle_brake"],
+    type: "MIGRATION",
+    replace: "muzzle_brake/surefire/socom",
+  },
+  {
+    id: ["choke"],
+    type: "MIGRATION",
+    replace: "choke/mueller/passing",
+  },
+  {
+    id: ["compensator"],
+    type: "MIGRATION",
+    replace: "compensator/mft/slim",
+  },
+
+  {
+    id: ["bipod"],
+    type: "MIGRATION",
+    replace: "bipod/harris/s-l2p",
+  },
+
+  {
+    id: ["pistol_stock"],
+    type: "MIGRATION",
+    replace: "stock/glock/bt/usw",
+  },
+
+  {
+    id: ["brass_catcher"],
+    type: "MIGRATION",
+    replace: "brass_catcher/caldwell/universal",
+  },
+
+  {
+    id: ["cheek_pad"],
+    type: "MIGRATION",
+    replace: "cheek_pad/blackhawk/tactical",
+  },
+  {
+    id: ["butt_hook"],
+    type: "MIGRATION",
+    replace: "recoil_pad/allen/slip_on",
+  },
+
+  {
+    id: ["grip"],
+    type: "MIGRATION",
+    replace: "foregrip/kac/vertical",
+  },
+
+  {
+    id: ["single_sling"],
+    type: "MIGRATION",
+    replace: "sling/single/magpul/ms3",
+  },
+  {
+    id: ["shoulder_strap"],
+    type: "MIGRATION",
+    replace: "sling/double/bfg/vickers",
+  },
+  {
+    id: ["shoulder_strap_front"],
+    type: "MIGRATION",
+    replace: "sling/double/bfg/vickers:front",
+  },
+  {
+    id: ["belt_clip"],
+    type: "MIGRATION",
+    replace: "belt_clip/clipdraw/universal",
+  },
+
+  {
+    id: ["m203"],
+    type: "MIGRATION",
+    replace: "grenade_launcher/underbarrel/lmt/l2b",
+  },
+  {
+    id: ["m320_mod"],
+    type: "MIGRATION",
+    replace: "grenade_launcher/underbarrel/hk/m320",
+  },
+  {
+    id: ["m26_mass"],
+    type: "MIGRATION",
+    replace: "shotgun/underbarrel/c-more/m26",
+  },
+
+  {
+    id: ["arredondo_chute"],
+    type: "MIGRATION",
+    replace: "chute/arredondo/remington/870",
+  },
+  {
+    id: ["arredondo_chute_mossberg_500"],
+    type: "MIGRATION",
+    replace: "chute/arredondo/mossberg/500",
+  },
+  {
+    id: ["arredondo_chute_mossberg_590"],
+    type: "MIGRATION",
+    replace: "chute/arredondo/mossberg/590",
+  },
+  {
+    id: ["arredondo_chute_mossberg_930"],
+    type: "MIGRATION",
+    replace: "chute/arredondo/mossberg/930",
+  },
+  {
+    id: ["arredondo_chute_remington_870"],
+    type: "MIGRATION",
+    replace: "chute/arredondo/remington/870",
+  },
+  {
+    id: ["arredondo_chute_remington_870_breacher"],
+    type: "MIGRATION",
+    replace: "chute/arredondo/remington/870:breacher",
+  },
+  {
+    id: ["arredondo_chute_benelli_sa"],
+    type: "MIGRATION",
+    replace: "chute/arredondo/benelli/sa",
+  },
+
+  {
+    id: ["rail_mount"],
+    type: "MIGRATION",
+    replace: "mount/rail/magpul",
+  },
+  {
+    id: ["underbarrel_mount"],
+    type: "MIGRATION",
+    replace: "mount/underbarrel/magpul",
+  },
+]

@@ -1,0 +1,24 @@
+[
+  {
+    abstract: "@laser_sight/rail",
+    "copy-from": "@laser_sight",
+    type: "GUNMOD",
+
+    name: {
+      str: "rail laser sight",
+    },
+
+    location: "rail",
+  },
+  {
+    abstract: "@laser_sight/rail:large",
+    "copy-from": "@laser_sight/rail",
+    type: "GUNMOD",
+
+    name: {
+      str: "large rail laser sight",
+    },
+
+    mod_targets: ["rifle", "smg", "shotgun", "launcher"],
+  },
+]

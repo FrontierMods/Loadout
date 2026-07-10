@@ -1,0 +1,1481 @@
+[
+  {
+    abstract: "@magazine/556",
+    "copy-from": "@magazine",
+    type: "MAGAZINE",
+
+    name: {
+      str: "5.56mm/.300 Blackout magazine",
+    },
+
+    ammo_type: ["223", "300blk"],
+
+    pocket_data: [
+      {
+        pocket_type: "MAGAZINE",
+
+        rigid: true,
+
+        allowed_speedloaders: ["clip223_10rd"],
+
+        ammo_restriction: {
+          "223": 1,
+          "300blk": 1,
+        },
+      },
+    ],
+
+    flags: ["MAG_COMPACT"],
+  },
+  {
+    abstract: "@magazine/556:large",
+    "copy-from": "@magazine/556",
+    type: "MAGAZINE",
+
+    name: {
+      str: "bulky 5.56mm/.300 Blackout magazine",
+    },
+
+    flags: ["MAG_BULKY"],
+  },
+
+  {
+    id: "magazine/magpul/pmag/10",
+    "copy-from": "@magazine/556",
+    type: "MAGAZINE",
+
+    "//sources": ["https://magpul.com/pmag-10-ar-m4-gen-m3.html"],
+
+    name: {
+      str: "PMAG STANAG 10-round magazine",
+    },
+    description: "A polymer magazine for the STANAG-compatible rifles.  Has an elaborate texture that should make it easier to handle.  Its low capacity becomes an asset for cases of hunting or recreational shooting.",
+
+    variant_type: "gun",
+    variants: [
+      {
+        id: "black",
+
+        name: {
+          str: "Magpul PMAG 10-round magazine",
+        },
+        description: "A polymer magazine for 5.56mm and .300 Blackout rifles.  Its texture is intended to make it handle better than conventional aluminum magazines.  Intended for hunting and recreational shooting, as its low capacity means less ammunition to weigh you down.  Its reduced capacity also makes it the only legal Magpul magazine in the state of Massachusetts.  <variant:black>",
+        expand_snippets: true,
+        weight: 1,
+      },
+    ],
+
+    "//weight": [
+      "manufacturer's website claims 3 oz = 85.05 g",
+      "RifleMags.co.uk (https://riflemags.co.uk/magpul-pmag-10-round-ar-m4-gen-m3-5-56x45-223-magazine/): 101 g",
+      "e-militaria (https://e-militaria.eu/24117-magpul-pmag-10-arm4-gen-m3-magazine-black-mag559-blk-873750006192.html): 84 g, not far off from the original claim",
+      "Bushmaster (https://www.bushmaster.com/shop/magazines/magpul-pmag-10-ar-m4-gen-m3-5-56x45-black/): 0.2 lbs = 90.72 g in the description, but 3 oz in the stats",
+      "Smith & Edwards (https://www.smithandedwards.com/products/magpul--pmag-ar-m4-gen3-10-round-magazine-8027.html): 0.23 lbs = 104.33 g",
+      "we stick with the Magpul's value until a trustworthy review either confirms or challenges it",
+    ],
+    weight: "85 g",
+    "//dimensions": {
+      area: "8.65 in2",
+      width: "0.87 in",
+      raw: "125.16 ml",
+      trim: 0,
+    },
+    volume: "125 ml",
+    "//longest_side": "4.19 in = 106.43 mm",
+    longest_side: "106 mm",
+
+    material: ["plastic"],
+
+    pocket_data: [
+      {
+        pocket_type: "MAGAZINE",
+
+        rigid: true,
+
+        allowed_speedloaders: ["clip223_10rd"],
+
+        ammo_restriction: {
+          "223": 10,
+          "300blk": 10,
+        },
+      },
+    ],
+
+    price: "14 USD 95 cent",
+    price_postapoc: "2 USD 50 cent",
+  },
+  {
+    id: "magazine/magpul/pmag/10:ranger_plate",
+    "copy-from": "magazine/magpul/pmag/10",
+    type: "MAGAZINE",
+
+    name: {
+      str: "PMAG STANAG 10-round magazine (ranger plate)",
+      str_pl: "PMAG STANAG 10-round magazines (ranger plate)",
+    },
+    description: "A polymer magazine for the STANAG-compatible rifles.  Has an elaborate texture that should make it easier to handle.  Its low capacity becomes an asset for cases of hunting or recreational shooting.  <magazine/ranger_plate:generic>",
+
+    variant_type: "gun",
+    variants: [
+      {
+        id: "black",
+
+        name: {
+          str: "Magpul PMAG 10-round magazine (ranger plate)",
+          str_pl: "Magpul PMAG 10-round magazines (ranger plate)",
+        },
+        description: "A polymer magazine for 5.56mm and .300 Blackout rifles.  Its texture is intended to make it handle better than conventional aluminum magazines.  Intended for hunting and recreational shooting, as its low capacity means less ammunition to weigh you down.  <magazine/ranger_plate>  <variant:black>",
+        expand_snippets: true,
+        weight: 1,
+      },
+    ],
+
+    "//weight": "10-round PMAG (3 oz = 85.05 g) - baseplate (9.98 g) + ranger plate (17.01 g) = 92.08 g",
+    weight: "92 g",
+    "//dimensions": {
+      area: "9.87 in2",
+      width: "0.87 in",
+      raw: "142.82 ml",
+      trim: 0.02,
+    },
+    volume: "140 ml",
+    "//longest_side": "4.83 in = 122.68 mm",
+    longest_side: "123 mm",
+
+    material: ["plastic"],
+
+    "//price": "price of the 10-round PMAG (14 USD 95 cent) + price of a single ranger plate (8 USD 33 cents) = 23 USD 28 cent",
+    price: "23 USD 28 cent",
+    price_postapoc: "2 USD 60 cent",
+  },
+  {
+    id: "magazine/magpul/pmag/20",
+    "copy-from": "@magazine/556",
+    type: "MAGAZINE",
+
+    "//sources": [
+      "https://magpul.com/pmag-20-ar-m4-gen-m3.html",
+      ["https://www.trex-arms.com/store/MAGPUL-ARM4-PMAG/", "weight"],
+    ],
+
+    name: {
+      str: "PMAG STANAG 20-round magazine",
+    },
+    description: "A polymer magazine for the STANAG-compatible rifles.  Has an elaborate texture that should make it easier to handle.  Its reduced capacity makes it commonly used for recreational shooting.",
+
+    variant_type: "gun",
+    variants: [
+      {
+        id: "black",
+
+        name: {
+          str: "Magpul PMAG 20-round magazine",
+        },
+        description: "A polymer magazine for 5.56mm and .300 Blackout rifles.  Its texture is intended to make it handle better than conventional aluminum magazines.  Intended for recreational shooting, as its reduced size makes shooting prone a lot easier.  <variant:black>",
+        expand_snippets: true,
+        weight: 1,
+      },
+    ],
+
+    "//weight": "4.1 oz = 116.24 g",
+    weight: "116 g",
+    "//dimensions": {
+      area: "13.24 in2",
+      width: "0.87 in",
+      raw: "191.58 ml",
+      trim: 0,
+    },
+    volume: "192 ml",
+    "//longest_side": "5.75 in = 146.05 mm",
+    longest_side: "146 mm",
+
+    material: ["plastic"],
+
+    pocket_data: [
+      {
+        pocket_type: "MAGAZINE",
+
+        rigid: true,
+
+        allowed_speedloaders: ["clip223_10rd"],
+
+        ammo_restriction: {
+          "223": 20,
+          "300blk": 20,
+        },
+      },
+    ],
+
+    price: "14 USD 95 cent",
+  },
+  {
+    id: "magazine/magpul/pmag/20:ranger_plate",
+    "copy-from": "magazine/magpul/pmag/20",
+    type: "MAGAZINE",
+
+    name: {
+      str: "PMAG STANAG 20-round magazine (ranger plate)",
+      str_pl: "PMAG STANAG 20-round magazines (ranger plate)",
+    },
+    description: "A polymer magazine for the STANAG-compatible rifles.  Has an elaborate texture that should make it easier to handle.  Its reduced capacity makes it commonly used for recreational shooting.  <magazine/ranger_plate:generic>",
+
+    variant_type: "gun",
+    variants: [
+      {
+        id: "black",
+
+        name: {
+          str: "Magpul PMAG 20-round magazine (ranger plate)",
+          str_pl: "Magpul PMAG 20-round magazines (ranger plate)",
+        },
+        description: "A polymer magazine for 5.56mm and .300 Blackout rifles.  Its texture is intended to make it handle better than conventional aluminum magazines.  Intended for recreational shooting, as its reduced size makes shooting prone a lot easier.  <magazine/ranger_plate>  <variant:black>",
+        expand_snippets: true,
+        weight: 1,
+      },
+    ],
+
+    "//weight": "20-round PMAG (4.1 oz = 116.24 g) - baseplate (9.98 g) + ranger plate (17.01 g) = 123.27 g",
+    weight: "123 g",
+    "//dimensions": {
+      area: "13.9 in2",
+      width: "0.87 in",
+      raw: "201.13 ml",
+      trim: 0.02,
+    },
+    volume: "197 ml",
+    "//longest_side": "6.31 in = 160.27 mm",
+    longest_side: "160 mm",
+
+    material: ["plastic"],
+
+    "//price": "price of the 20-round PMAG (14 USD 95 cent) + price of a single ranger plate (8 USD 33 cents) = 23 USD 28 cent",
+    price: "23 USD 28 cent",
+    price_postapoc: "2 USD 60 cent",
+  },
+  {
+    id: "magazine/magpul/pmag/20:extended/taran",
+    "copy-from": "magazine/magpul/pmag/20",
+    type: "MAGAZINE",
+
+    name: {
+      str: "PMAG STANAG 20-round magazine (extension plate)",
+      str_pl: "PMAG STANAG 20-round magazines (extension plate)",
+    },
+    description: "A polymer magazine for the STANAG-compatible rifles.  Has an elaborate texture that should make it easier to handle.  Its reduced capacity makes it commonly used for recreational shooting.  <magazine/extension_plate:generic>",
+
+    variant_type: "gun",
+    variants: [
+      {
+        id: "black",
+
+        name: {
+          str: "Magpul PMAG 20-round magazine (extension plate)",
+          str_pl: "Magpul PMAG 20-round magazines (extension plate)",
+        },
+        description: "A polymer magazine for 5.56mm and .300 Blackout rifles.  Its texture is intended to make it handle better than conventional aluminum magazines.  Intended for recreational shooting, as its reduced size makes shooting prone a lot easier.  <magazine/extension_plate:5>  <variant:black>",
+        expand_snippets: true,
+        weight: 1,
+      },
+    ],
+
+    material: ["plastic", "aluminum"],
+
+    "//weight": "20-round PMAG (4.1 oz = 116.24 g) - baseplate (9.98 g) + extension plate (59.5 g) = 165.76 g",
+    weight: "166 g",
+    "//dimensions": {
+      area: "15.9 in2",
+      width: "0.87 in",
+      raw: "226.68 ml",
+      trim: -0.1,
+      notes: [
+        "trim is to account for the width of the extension plate (29 mm = 1.14 in) being that much wider than the magazine (0.87 in)",
+      ],
+    },
+    volume: "249 ml",
+    "//longest_side": ["6.56 in = 166.62 mm", "Feret distance"],
+    longest_side: "167 mm",
+
+    pocket_data: [
+      {
+        pocket_type: "MAGAZINE",
+
+        rigid: true,
+
+        allowed_speedloaders: ["clip223_10rd"],
+
+        ammo_restriction: {
+          "223": 25,
+          "300blk": 25,
+        },
+      },
+    ],
+
+    "//price": "price of the PMAG magazine (14 USD 95 cent) + price of a single ranger plate (43 USD 99 cents)",
+    price: "58 USD 94 cent",
+    price_postapoc: "4 USD",
+  },
+
+  {
+    id: "magazine/colt/stanag/30",
+    "copy-from": "@magazine/556",
+    type: "MAGAZINE",
+
+    "//sources": [
+      ["M4 Technical Data Package", "dimensions"],
+      ["TM 05538/10012-IN", "TM 9-1005-319-23&P", "weight"],
+      ["https://en.wikipedia.org/wiki/M16_rifle", "material"],
+      ["https://www.midwayusa.com/product/1021821067?pid=827055", "price"],
+    ],
+
+    "//notes": [
+      "both the Marine M4/M16 manual and the Army one come up with the same value for the magazine's weight",
+      "Colt website lists MidwayUSA as one of the two stores selling authentic Colt parts, so we assume their price is the most authentic",
+    ],
+
+    name: { str: "STANAG 30-round magazine" },
+    description: "An aluminum magazine for STANAG-compatible rifles.  Commonly used with the M16, the M4, and other similar rifles, particularly in the U.S. military.",
+
+    variant_type: "gun",
+    variants: [
+      {
+        id: "steel/black",
+
+        name: {
+          str: "Colt M16 30-round magazine",
+        },
+        description: "An aluminum magazine for STANAG-compatible rifles, serving as the primary issued magazine throughout the majority of the U.S. military.  <variant:steel>  Its follower is all black, indicating it to be an obsolete model.",
+        expand_snippets: true,
+        weight: 1,
+      },
+      {
+        id: "steel/green",
+
+        name: {
+          str: "Colt M16 30-round magazine",
+        },
+        description: "An aluminum magazine for STANAG-compatible rifles, serving as the primary issued magazine throughout the majority of the U.S. military.  <variant:steel>  Its follower is colored dull green.",
+        expand_snippets: true,
+        weight: 1,
+      },
+      {
+        id: "steel/fde",
+
+        name: {
+          str: "Colt M16 30-round magazine",
+        },
+        description: "An aluminum magazine for STANAG-compatible rifles, serving as the primary issued magazine throughout the majority of the U.S. military.  <variant:steel>  Its follower is colored pale brown.",
+        expand_snippets: true,
+        weight: 1,
+      },
+      {
+        id: "fde/blue",
+
+        name: {
+          str: "Colt M16 30-round magazine",
+        },
+        description: "An aluminum magazine for STANAG-compatible rifles, serving as the primary issued magazine throughout the majority of the U.S. military.  <variant:fde>  Its follower is blue; both of these color indicate the magazine to be the newer Enhanced Performance Round (EPR) model of the magazine.",
+        expand_snippets: true,
+        weight: 1,
+      },
+    ],
+
+    "//material": [
+      "this is a standard-issue Colt magazine, which are made of aluminium",
+    ],
+    material: ["aluminum"],
+
+    "//weight": "0.25 lbs = 4 oz = 113.4 g",
+    weight: "113 g",
+    "//dimensions": {
+      area: "17.18 in2",
+      width: "0.883 in",
+      raw: "248.59 ml",
+      trim: 0,
+    },
+    volume: "249 ml",
+    "//longest_side": ["7.17 in = 182.12 mm", "Feret distance"],
+    longest_side: "182 mm",
+
+    pocket_data: [
+      {
+        pocket_type: "MAGAZINE",
+
+        rigid: true,
+
+        allowed_speedloaders: ["clip223_10rd"],
+
+        ammo_restriction: {
+          "223": 30,
+          "300blk": 30,
+        },
+      },
+    ],
+
+    price: "24 USD 41 cent",
+    price_postapoc: "2 USD 50 cent",
+  },
+  {
+    id: "magazine/colt/stanag/30:ranger_plate",
+    "copy-from": "magazine/colt/stanag/30",
+    type: "MAGAZINE",
+
+    "//sources": [
+      ["M16 Technical Data Package", "dimensions"],
+      ["TM 05538/10012-IN", "TM 9-1005-319-23&P", "weight"],
+      ["https://en.wikipedia.org/wiki/M16_rifle", "material"],
+    ],
+
+    name: {
+      str: "STANAG 30-round magazine (ranger plate)",
+      str_pl: "STANAG 30-round magazines (ranger plate)",
+    },
+    description: "An aluminum magazine for STANAG-compatible rifles.  Commonly used with the M16, the M4, and other similar rifles, particularly in the U.S. military.  <magazine/ranger_plate:generic>",
+
+    variant_type: "gun",
+    variants: [
+      {
+        id: "steel/black",
+
+        name: {
+          str: "Colt M16 30-round magazine (ranger plate)",
+          str_pl: "Colt M16 30-round magazines (ranger plate)",
+        },
+        description: "An aluminum magazine for STANAG-compatible rifles, serving as the primary issued magazine throughout the majority of the U.S. military.  <magazine/ranger_plate>  <variant:steel>  Its follower is all black, indicating it to be an obsolete model.",
+        expand_snippets: true,
+        weight: 1,
+      },
+      {
+        id: "steel/green",
+
+        name: {
+          str: "Colt M16 30-round magazine (ranger plate)",
+          str_pl: "Colt M16 30-round magazines (ranger plate)",
+        },
+        description: "An aluminum magazine for STANAG-compatible rifles, serving as the primary issued magazine throughout the majority of the U.S. military.  <magazine/ranger_plate>  <variant:steel>  Its follower is colored dull green.",
+        expand_snippets: true,
+        weight: 1,
+      },
+      {
+        id: "steel/fde",
+
+        name: {
+          str: "Colt M16 30-round magazine (ranger plate)",
+          str_pl: "Colt M16 30-round magazines (ranger plate)",
+        },
+        description: "An aluminum magazine for STANAG-compatible rifles, serving as the primary issued magazine throughout the majority of the U.S. military.  <magazine/ranger_plate>  <variant:steel>  Its follower is colored pale brown.",
+        expand_snippets: true,
+        weight: 1,
+      },
+      {
+        id: "fde/blue",
+
+        name: {
+          str: "Colt M16 30-round magazine (ranger plate)",
+          str_pl: "Colt M16 30-round magazines (ranger plate)",
+        },
+        description: "An aluminum magazine for STANAG-compatible rifles, serving as the primary issued magazine throughout the majority of the U.S. military.  <magazine/ranger_plate>  <variant:fde>  Its follower is blue; both of these color indicate the magazine to be the newer Enhanced Performance Round (EPR) model of the magazine.",
+        expand_snippets: true,
+        weight: 1,
+      },
+    ],
+
+    material: ["aluminum", "stainless_steel", "rubber"],
+
+    "//weight": "STANAG magazine (4 oz = 113.4 g) - baseplate (9.98 g) + USGI ranger plate (17.01 g) = 120.43 g",
+    weight: "120 g",
+    "//dimensions": {
+      area: "19.30 in2",
+      width: "0.883 in",
+      raw: "279.27 ml",
+      trim: 0.02,
+    },
+    volume: "274 ml",
+    "//longest_side": ["8.16 in = 207.26 mm", "Feret distance"],
+    longest_side: "207 mm",
+
+    "//price": "price of the Colt M16 magazine (24 USD 41 cents) + price of a single ranger plate (8 USD 33 cents)",
+    price: "32 USD 74 cent",
+    price_postapoc: "2 USD 60 cent",
+  },
+
+  {
+    id: "magazine/magpul/pmag/30",
+    "copy-from": "@magazine/556",
+    type: "MAGAZINE",
+
+    "//sources": [
+      "https://magpul.com/pmag-30-ar-m4-gen-m3.html",
+      [
+        "https://www.trex-arms.com/store/MAGPUL-ARM4-PMAG/",
+        "weight",
+        "dimensions",
+      ],
+    ],
+
+    "//notes": [
+      [
+        "Soldier Systems lists the weight of an empty PMAG to be 4.9 oz = 138.9 g",
+        "https://soldiersystems.net/2015/12/07/magpul-pmag-d-60-comparison/",
+      ],
+      [
+        "HAHO review of the PMAG 30 with Taran Tactical magazine extension lists unmodified PMAG 30's weight as 142 g",
+        "https://www.haho.online/post/review-taran-tactical-innovations-pmag-extension",
+      ],
+    ],
+
+    name: { str: "PMAG STANAG 30-round magazine" },
+    description: "A polymer magazine for the STANAG-compatible rifles.  Has an elaborate texture that should make it easier to handle.  Its standard capacity makes it useful for firefights… or dealing with a group of zombies.",
+
+    variant_type: "gun",
+    variants: [
+      {
+        id: "black",
+
+        name: {
+          str: "Magpul PMAG 30-round magazine",
+        },
+        description: "A polymer magazine for 5.56mm and .300 Blackout rifles.  Its texture is intended to make it handle better than conventional aluminum magazines.  Intended for conventional warfare, supplementing its ammo capacity with high reliability.  <variant:black>",
+        expand_snippets: true,
+        weight: 1,
+      },
+    ],
+
+    material: ["plastic"],
+
+    "//weight": "5.1 oz = 144.58 g",
+    weight: "145 g",
+    "//dimensions": {
+      area: "18.06 in2",
+      width: "0.87 in",
+      raw: "257.48 ml",
+      trim: 0,
+    },
+    volume: "258 ml",
+    "//longest_side": ["7.47 in = 189.74 mm", "Feret distance"],
+    longest_side: "190 mm",
+
+    pocket_data: [
+      {
+        pocket_type: "MAGAZINE",
+
+        rigid: true,
+
+        allowed_speedloaders: ["clip223_10rd"],
+
+        ammo_restriction: {
+          "223": 30,
+          "300blk": 30,
+        },
+      },
+    ],
+
+    price: "14 USD 95 cent",
+    price_postapoc: "2 USD 50 cent",
+  },
+  {
+    id: "magazine/magpul/pmag/30:ranger_plate",
+    "copy-from": "magazine/magpul/pmag/30",
+    type: "MAGAZINE",
+
+    name: {
+      str: "PMAG STANAG 30-round magazine (ranger plate)",
+      str_pl: "PMAG STANAG 30-round magazines (ranger plate)",
+    },
+    description: "A polymer magazine for the STANAG-compatible rifles.  Has an elaborate texture that should make it easier to handle.  Its standard capacity makes it useful for firefights… or dealing with a group of zombies.  <magazine/ranger_plate:generic>",
+
+    variant_type: "gun",
+    variants: [
+      {
+        id: "black",
+
+        name: {
+          str: "Magpul PMAG 30-round magazine (ranger plate)",
+          str_pl: "Magpul PMAG 30-round magazines (ranger plate)",
+        },
+        description: "A polymer magazine for 5.56mm and .300 Blackout rifles.  Its texture is intended to make it handle better than conventional aluminum magazines.  Intended for conventional warfare, supplementing its ammo capacity with high reliability.  <magazine/ranger_plate>  <variant:black>",
+        expand_snippets: true,
+        weight: 1,
+      },
+    ],
+
+    material: ["plastic", "stainless_steel", "rubber"],
+
+    "//weight": "30-round PMAG (5.1 oz = 144.58 g) - baseplate (9.98 g) + ranger plate (17.01 g) = 151.61 g",
+    weight: "152 g",
+    "//dimensions": {
+      area: "19.71 in2",
+      width: "0.87 in",
+      raw: "281 ml",
+      trim: 0.02,
+    },
+    volume: "275 ml",
+    "//longest_side": "8.33 in = 211.58 mm",
+    longest_side: "190 mm",
+
+    "//price": "price of the PMAG magazine (14 USD 95 cents) + price of a single ranger plate (8 USD 33 cents)",
+    price: "23 USD 28 cent",
+    price_postapoc: "2 USD 60 cent",
+  },
+  {
+    id: "magazine/magpul/pmag/30:extended/taran",
+    "copy-from": "magazine/magpul/pmag/30",
+    type: "MAGAZINE",
+
+    "//notes": [
+      "HAHO review of the PMAG 30 with Taran Tactical magazine extension lists modified PMAG 30's weight as 201.5 g",
+      "https://www.haho.online/post/review-taran-tactical-innovations-pmag-extension",
+    ],
+
+    name: {
+      str: "PMAG STANAG 30-round magazine (extension plate)",
+      str_pl: "PMAG STANAG 30-round magazines (extension plate)",
+    },
+    description: "A polymer magazine for the STANAG-compatible rifles.  Has an elaborate texture that should make it easier to handle.  Its standard capacity makes it useful for firefights… or dealing with a group of zombies.  <magazine/extension_plate:generic>",
+
+    variant_type: "gun",
+    variants: [
+      {
+        id: "black",
+
+        name: {
+          str: "Magpul PMAG 30-round magazine (extension plate)",
+          str_pl: "Magpul PMAG 30-round magazines (extension plate)",
+        },
+        description: "A polymer magazine for 5.56mm and .300 Blackout rifles.  Its texture is intended to make it handle better than conventional aluminum magazines.  Intended for conventional warfare, supplementing its ammo capacity with high reliability.  <magazine/extension_plate:5>  <variant:black>",
+        expand_snippets: true,
+        weight: 1,
+      },
+    ],
+
+    material: ["plastic", "aluminum"],
+
+    "//weight": "30-round PMAG (5.1 oz = 144.58 g) - baseplate (9.98 g) + extension plate (59.5 g) = 194.1 g",
+    weight: "194 g",
+    "//dimensions": {
+      area: "20.15 in2",
+      width: "0.87 in",
+      raw: "287.27 ml",
+      trim: -0.09,
+      notes: [
+        "trim is to account for the width of the extension plate (29 mm = 1.14 in) being that much wider than the magazine (0.87 in)",
+      ],
+    },
+    volume: "313 ml",
+    "//longest_side": ["8.15 in = 207.01 mm", "Feret distance"],
+    longest_side: "207 mm",
+
+    pocket_data: [
+      {
+        pocket_type: "MAGAZINE",
+
+        rigid: true,
+
+        allowed_speedloaders: ["clip223_10rd"],
+
+        ammo_restriction: {
+          "223": 35,
+          "300blk": 35,
+        },
+      },
+    ],
+
+    "//price": "price of the PMAG magazine (14 USD 95 cent) + price of a single ranger plate (43 USD 99 cents)",
+    price: "58 USD 94 cent",
+    price_postapoc: "4 USD",
+  },
+
+  {
+    id: "magazine/magpul/pmag/40",
+    "copy-from": "@magazine/556",
+    type: "MAGAZINE",
+
+    "//sources": [
+      "https://magpul.com/pmag-40-ar-m4-gen-m3.html",
+      [
+        "https://www.trex-arms.com/store/MAGPUL-ARM4-PMAG/",
+        "weight",
+        "dimensions",
+      ],
+    ],
+
+    name: { str: "PMAG STANAG 40-round magazine" },
+    description: "A polymer magazine for the STANAG-compatible rifles.  Has an elaborate texture that should make it easier to handle.  Intended for competition shooting, to save time on reloads.  Would probably help in a firefight, all the same.",
+
+    variant_type: "gun",
+    variants: [
+      {
+        id: "black",
+
+        name: {
+          str: "Magpul PMAG 40-round magazine",
+        },
+        description: "A polymer magazine for 5.56mm and .300 Blackout rifles.  Its texture is intended to make it handle better than conventional aluminum magazines.  Intended for competition shooting, where saving a few seconds on reloading can make or break your time.  Would probably help in a firefight, all the same.  <variant:black>",
+        expand_snippets: true,
+        weight: 1,
+      },
+    ],
+
+    material: ["plastic"],
+
+    "//weight": "6.2 oz = 175.77 g",
+    weight: "176 g",
+    "//dimensions": {
+      area: "23.48 in2",
+      width: "0.87 in",
+      raw: "334.75 ml",
+      trim: 0,
+    },
+    volume: "335 ml",
+    "//longest_side": ["9.56 in = 242.82 mm", "Feret distance"],
+    longest_side: "243 mm",
+
+    pocket_data: [
+      {
+        pocket_type: "MAGAZINE",
+
+        rigid: true,
+
+        allowed_speedloaders: ["clip223_10rd"],
+
+        ammo_restriction: {
+          "223": 40,
+          "300blk": 40,
+        },
+      },
+    ],
+
+    price: "22 USD 95 cent",
+    price_postapoc: "3 USD 50 cent",
+  },
+  {
+    id: "magazine/magpul/pmag/40:ranger_plate",
+    "copy-from": "magazine/magpul/pmag/40",
+    type: "MAGAZINE",
+
+    name: {
+      str: "PMAG STANAG 40-round magazine (ranger plate)",
+      str_pl: "PMAG STANAG 40-round magazines (ranger plate)",
+    },
+    description: "A polymer magazine for the STANAG-compatible rifles.  Has an elaborate texture that should make it easier to handle.  Intended for competition shooting, to save time on reloads.  Would probably help in a firefight, all the same.  <magazine/ranger_plate:generic>",
+
+    variant_type: "gun",
+    variants: [
+      {
+        id: "black",
+
+        name: {
+          str: "Magpul PMAG 40-round magazine (ranger plate)",
+          str_pl: "Magpul PMAG 40-round magazines (ranger plate)",
+        },
+        description: "A polymer magazine for 5.56mm and .300 Blackout rifles.  Its texture is intended to make it handle better than conventional aluminum magazines.  Intended for competition shooting, where saving a few seconds on reloading can make or break your time.  Would probably help in a firefight, all the same.  <magazine/ranger_plate>  <variant:black>",
+        expand_snippets: true,
+        weight: 1,
+      },
+    ],
+
+    material: ["plastic", "stainless_steel", "rubber"],
+
+    "//weight": "40-round PMAG (6.2 oz = 175.77 g) - baseplate (9.98 g) + ranger plate (17.01 g) = 192.76 g",
+    weight: "193 g",
+    "//dimensions": {
+      area: "24.29 in2",
+      width: "0.87 in",
+      raw: "346.15 ml",
+      trim: 0.02,
+    },
+    volume: "339 ml",
+    "//longest_side": "10.2 in = 259.08 mm",
+    longest_side: "259 mm",
+
+    "//price": "price of the PMAG magazine (22 USD 95 cents) + price of a single ranger plate (8 USD 33 cents)",
+    price: "31 USD 28 cent",
+    price_postapoc: "3 USD 60 cent",
+  },
+  {
+    id: "magazine/magpul/pmag/40:extended/taran",
+    "copy-from": "magazine/magpul/pmag/40",
+    type: "MAGAZINE",
+
+    name: {
+      str: "PMAG STANAG 40-round magazine (extension plate)",
+      str_pl: "PMAG STANAG 40-round magazines (extension plate)",
+    },
+    description: "A polymer magazine for the STANAG-compatible rifles.  Has an elaborate texture that should make it easier to handle.  Intended for competition shooting, to save time on reloads.  Would probably help in a firefight, all the same.  <magazine/extension_plate:generic>",
+
+    variant_type: "gun",
+    variants: [
+      {
+        id: "black",
+
+        name: {
+          str: "Magpul PMAG 40-round magazine (extension plate)",
+          str_pl: "Magpul PMAG 40-round magazines (extension plate)",
+        },
+        description: "A polymer magazine for 5.56mm and .300 Blackout rifles.  Its texture is intended to make it handle better than conventional aluminum magazines.  Intended for competition shooting, where saving a few seconds on reloading can make or break your time.  Would probably help in a firefight, all the same.  <magazine/extension_plate:6>  <variant:black>",
+        expand_snippets: true,
+        weight: 1,
+      },
+    ],
+
+    material: ["plastic", "aluminum"],
+
+    "//weight": "40-round PMAG (6.2 oz = 175.77 g) - baseplate (9.98 g) + extension plate (59.5 g) = 225.29 g",
+    weight: "225 g",
+    "//dimensions": {
+      area: "25.89 in2",
+      width: "0.87 in",
+      raw: "369.1 ml",
+      trim: -0.08,
+      notes: [
+        "trim is to account for the width of the extension plate (29 mm = 1.14 in) being that much wider than the magazine (0.87 in)",
+      ],
+    },
+    volume: "399 ml",
+    "//longest_side": ["10.38 in = 263.65 mm", "Feret distance"],
+    longest_side: "264 mm",
+
+    pocket_data: [
+      {
+        pocket_type: "MAGAZINE",
+
+        rigid: true,
+
+        allowed_speedloaders: ["clip223_10rd"],
+
+        ammo_restriction: {
+          "223": 46,
+          "300blk": 46,
+        },
+      },
+    ],
+
+    "//price": "price of the PMAG magazine (22 USD 95 cents) + price of a single ranger plate (43 USD 99 cents)",
+    price: "66 USD 94 cent",
+    price_postapoc: "4 USD 50 cent",
+  },
+
+  {
+    id: "magazine/kci/5.56x45mm/50",
+    "copy-from": "@magazine/556:large",
+    type: "MAGAZINE",
+
+    "//sources": [
+      "https://www.kcius.com/products/ar15/ar-15-50rd-magazine",
+      [
+        "https://redcon1tactical.com/kci-ar-15-223-5-56-50-round-drum-magazine-clear.html",
+        "dimensions",
+      ],
+    ],
+
+    name: {
+      str: "STANAG 50-round drum magazine",
+    },
+    description: "A high-capacity polymer drum magazine with translucent body and a large winding mechanism ring.  While it allows you to fire more rounds before reloading, which can be an advantage against large groups of enemies, the magazine is also large and unwieldy compared to a box sibling.",
+
+    variant_type: "gun",
+    variants: [
+      {
+        id: "translucent",
+
+        name: {
+          str: "KCI 50-round 5.56mm drum magazine",
+        },
+        description: "A translucent plastic magazine, boastfully exposing how inefficient drum ammunition storage is, volume-wise.  Its advantage is allowing to fire more rounds before reloading, which can be an advantage against large groups of enemies.",
+        expand_snippets: true,
+        weight: 1,
+      },
+    ],
+
+    "//weight": "1.4 lbs = 635.03 g",
+    weight: "635 g",
+    "//dimensions": [
+      {
+        description: "tower and drum",
+
+        area: "22.29 in2",
+        width: "2.62 in",
+        raw: "1081.37 ml",
+        trim: 0,
+        result: "1081.37 ml",
+        notes: [
+          "width here is the 'height' of the magazine, along the axis of the loaded round",
+        ],
+      },
+      {
+        description: "winding mechanism",
+
+        diameter: "3.3 in",
+        height: "0.6 in",
+        raw: "184.1 ml",
+        trim: 0.05,
+        result: "174.9 ml",
+        notes: ["trim is for the space between the 'teeth'"],
+      },
+    ],
+    volume: "1256 ml",
+    "//longest_side": ["8.61 in = 218.69 mm", "Feret distance"],
+    longest_side: "219 mm",
+
+    material: ["plastic", "hc_steel"],
+
+    reload_time: 140,
+
+    pocket_data: [
+      {
+        pocket_type: "MAGAZINE",
+
+        rigid: true,
+
+        allowed_speedloaders: ["clip223_10rd"],
+
+        ammo_restriction: {
+          "223": 50,
+          "300blk": 50,
+        },
+      },
+    ],
+
+    price: "124 USD 99 cent",
+    price_postapoc: "5 USD",
+  },
+
+  {
+    id: "magazine/magpul/pmag/d-60",
+    "copy-from": "@magazine/556:large",
+    type: "MAGAZINE",
+
+    "//sources": [
+      "https://magpul.com/pmag-d-60-ar-m4-gen-m3.html",
+      [
+        "https://soldiersystems.net/2015/12/07/magpul-pmag-d-60-comparison/",
+        "weight",
+      ],
+    ],
+
+    name: {
+      str: "STANAG 60-round drum magazine",
+    },
+    description: "A high-capacity polymer drum magazine.  Inefficiently stores ammunition in a circular pattern inside the drum to allow the magazine to be shorter, which is supposed to help with shooting while prone.",
+
+    variant_type: "gun",
+    variants: [
+      {
+        id: "black",
+
+        name: {
+          str: "Magpul PMAG D-60 magazine",
+        },
+        description: "A high-capacity drum magazine.  Its opaque exterior hides the inefficient inner workings of a drum magazine.  Its advantage is allowing to fire more rounds before reloading, which can be an advantage against large groups of enemies.  <variant:black>",
+        expand_snippets: true,
+        weight: 1,
+      },
+    ],
+
+    "//weight": [
+      "20 oz = 566.99 g",
+      "it appears as though there is a typo on the manufacturer's website, citing regular weight to be 20.5 oz = 581.36 g",
+      "weight with dust cover is also listed as 20.5 oz",
+      "we presume the Soldier Systems number to be correct",
+    ],
+    weight: "567 g",
+    "//dimensions": [
+      {
+        description: "tower",
+
+        area: "2.67 in2",
+        width: "2.6 in",
+        raw: "113.76 ml",
+        trim: 0,
+        result: "113.76 ml",
+      },
+      {
+        description: "drum",
+
+        area: "14.44 in2",
+        width: "4.11 in",
+        raw: "972.55 ml",
+        trim: 0,
+        result: "972.55 ml",
+      },
+    ],
+    volume: "1086 ml",
+    "//longest_side": ["7.44 in = 188.98 mm", "Feret distance"],
+    longest_side: "189 mm",
+
+    material: ["plastic"],
+
+    reload_time: 150,
+
+    pocket_data: [
+      {
+        pocket_type: "MAGAZINE",
+
+        rigid: true,
+
+        allowed_speedloaders: ["clip223_10rd"],
+
+        ammo_restriction: {
+          "223": 60,
+          "300blk": 60,
+        },
+      },
+    ],
+
+    price: "134 USD 95 cent",
+    price_postapoc: "5 USD",
+  },
+
+  {
+    id: "magazine/surefire/60",
+    "copy-from": "@magazine/556:large",
+    type: "MAGAZINE",
+
+    "//sources": [
+      [
+        "https://americanresistancegear.com/product/surefire-magazine-ar-223-60-rd-alum-gray/",
+        "weight",
+        "dimensions",
+      ],
+      [
+        "https://www.thetruthaboutguns.com/gear-review-surefire-mag5-high-capacity-magazine/",
+        "price",
+      ],
+    ],
+
+    "//notes": [
+      "according to one review, the magazine is exceptionally reliable",
+      "https://www.activeresponsetraining.net/gear-review-surefires-60-round-ar-15-magazine",
+    ],
+
+    name: {
+      str: "STANAG 60-round magazine",
+    },
+    description: "A large aluminum box magazine, similar to the one used by the military, but with a much thicker body.  It's only somewhat longer than its military counterpart, but holds a lot more rounds, effectively acting as two magazines in one.",
+
+    variant_type: "gun",
+    variants: [
+      {
+        id: "steel",
+
+        name: {
+          str: "SureFire MAG5 60-round magazine",
+        },
+        description: "A large aluminum box magazine, similar in appearance to the conventional STANAG magazine, but much thicker.  Effectively acts as two magazines in one, in terms of both capacity and bulk, they were intended to provide a more-continuous stream of lead down range in an event of a firefight while maintaining the same reliability as the conventional magazine.  <variant:steel>",
+        expand_snippets: true,
+        weight: 1,
+      },
+    ],
+
+    "//weight": "6.4 oz = 181.44 g",
+    weight: "181 g",
+    "//dimensions": {
+      area: "20.5 in2",
+      width: "1.66 in",
+      raw: "557.65 ml",
+      trim: 0.16,
+      notes: [
+        "trim is for the empty area in the tower relative to the rest of the magazine",
+      ],
+    },
+    volume: "468 ml",
+    "//longest_side": ["8.72 in = 221.49 mm", "Feret distance"],
+    longest_side: "222 mm",
+
+    material: ["aluminum"],
+
+    reload_time: 150,
+
+    pocket_data: [
+      {
+        pocket_type: "MAGAZINE",
+
+        rigid: true,
+
+        allowed_speedloaders: ["clip223_10rd"],
+
+        ammo_restriction: {
+          "223": 60,
+          "300blk": 60,
+        },
+      },
+    ],
+
+    price: "129 USD",
+    price_postapoc: "5 USD",
+  },
+
+  {
+    id: "magazine/schmeisser/s60",
+    "copy-from": "@magazine/556:large",
+    type: "MAGAZINE",
+
+    "//sources": [
+      [
+        "https://www.guns.com/news/reviews/review-schmeisser-s60w-ar-mag",
+        "dimensions",
+      ],
+      ["https://themagshack.com/173423-2/", "weight", "price"],
+    ],
+
+    name: {
+      str: "STANAG polymer 60-round magazine",
+    },
+    description: "A large box magazine with a clear window to display the rough count of the ammunition inside.  The polymer exterior, aided by its shape making it flush with the width of the gun it's loaded into, makes it look slick.",
+
+    variant_type: "gun",
+    variants: [
+      {
+        id: "black",
+
+        name: {
+          str: "Schmeisser S60 60-round magazine",
+        },
+        description: "A large polymer magazine with a clear window to give an estimate of the ammo inside.  Its bulky shape allows it to stay flush with the magazine well of the AR-15, and its exterior makes it look slick and modern.   <variant:black>",
+        expand_snippets: true,
+        weight: 1,
+      },
+    ],
+
+    "//weight": "9.3 oz = 263.65 g",
+    weight: "264 g",
+    "//dimensions": {
+      area: "24.04 in2",
+      width: "2 in",
+      raw: "787.89 ml",
+      trim: 0.16,
+      notes: [
+        "trim is for the empty area in the tower relative to the rest of the magazine",
+      ],
+    },
+    volume: "662 ml",
+    "//longest_side": ["9.74 in = 247.4 mm", "Feret distance"],
+    longest_side: "247 mm",
+
+    material: ["aluminum"],
+
+    reload_time: 150,
+
+    pocket_data: [
+      {
+        pocket_type: "MAGAZINE",
+
+        rigid: true,
+
+        allowed_speedloaders: ["clip223_10rd"],
+
+        ammo_restriction: {
+          "223": 60,
+          "300blk": 60,
+        },
+      },
+    ],
+
+    price: "49 USD 99 cent",
+    price_postapoc: "5 USD",
+  },
+
+  {
+    id: "magazine/mwg/90",
+    "copy-from": "@magazine/556:large",
+    type: "MAGAZINE",
+
+    "//sources": [
+      "https://www.mwgco.com/MWG-223-90A.html",
+      [
+        "https://reddit.com/r/ar15/comments/j8rgms/50_beowulf_pistol_i_can_fit_31_rounds_of_50_in_a/",
+        ".50 Beowulf capacity",
+      ],
+    ],
+
+    "//notes": [
+      "also holds 28 rounds of .458 SOCOM",
+      "https://reddit.com/r/GunPorn/comments/5exxph/drum_fed_458_socom_ar15_by_tromix_768x1024/",
+    ],
+
+    name: {
+      str: "STANAG 90-round snail drum magazine",
+    },
+    description: "An awkwardly-shaped polymer magazine, clearly displaying its not-quite-circular way to load the ammunition inside.  Wielding a gun with this magazine that clearly pulls to one side the more it's loaded takes some getting used to, but if you need a lot of firepower in relatively small package, this one comes quite handy.",
+
+    variant_type: "gun",
+    variants: [
+      {
+        id: "black",
+
+        name: {
+          str: "MWG 90-round 5.56mm snail-drum magazine",
+        },
+        description: "A large polymer drum magazine, awkwardly balanced to one side of the gun.  While having a clear view of the ammo count through the translucent back of the drum is an advantage, the magazine steering the gun heavily in one direction while loaded takes some time to get used to.  The upside is: a lot of ammo in a relatively small package.  <variant:black>",
+        expand_snippets: true,
+        weight: 1,
+      },
+    ],
+
+    "//weight": "1.25 lbs = 566.99 g",
+    weight: "567 g",
+    "//dimensions": {
+      area: "48.31 in2",
+      width: "2.64 in",
+      raw: "2089.98 ml",
+      trim: [0.0125, 0.2],
+      notes: [
+        [
+          "first trim is for the slight recess on the round component next to the base of the magazine tower",
+          "second trim is for the empty space at the back of the magazine, inside the 'snail tail'",
+        ],
+        [
+          "width here is what would ordinarily be considered the 'height' of the magazine: distance on the axis parallel to the axis of the ammo loaded inside the magazine",
+          "we assume it to be the same as PMAG's thickest part",
+        ],
+      ],
+    },
+    volume: "1651 ml",
+    "//longest_side": ["8.95 in = 227.33 mm", "Feret distance"],
+    longest_side: "227 mm",
+
+    "//material": "we assume it's mostly plastic",
+    material: ["plastic"],
+
+    reload_time: 190,
+
+    pocket_data: [
+      {
+        pocket_type: "MAGAZINE",
+
+        rigid: true,
+
+        allowed_speedloaders: ["clip223_10rd"],
+
+        ammo_restriction: {
+          "223": 90,
+          "300blk": 90,
+
+          "50beowulf": 31,
+        },
+      },
+    ],
+
+    price: "135 USD",
+    price_postapoc: "10 USD",
+  },
+
+  {
+    id: "magazine/surefire/100",
+    "copy-from": "@magazine/556:large",
+    type: "MAGAZINE",
+
+    "//sources": [
+      [
+        "https://defensereview.com/dr-exclusive-surefire-60-shot-and-100-shot-ar-ar-15m16-5-56mm-nato-box-magazines-for-infantry-combat-and-tactical-engagements-meet-the-surefire-mag5-60-and-mag5-100-high-capacity-magazines-hcms/",
+        "weight",
+        "dimensions",
+      ],
+      [
+        "https://www.thetruthaboutguns.com/gear-review-surefire-mag5-high-capacity-magazine/",
+        "price",
+      ],
+    ],
+
+    "//notes": [
+      "should a high-quality flat image of the magazine become available, its dimensions should be reviewed",
+    ],
+
+    name: {
+      str: "STANAG 100-round magazine",
+    },
+    description: "A large aluminum box magazine, similar to the one used by the military.  It's much larger than its military counterpart, crossing well into awkwardness, but the large capacity makes it a good choice for static engagements against numerous opponents.",
+
+    variant_type: "gun",
+    variants: [
+      {
+        id: "steel",
+
+        name: {
+          str: "SureFire MAG5 100-round magazine",
+        },
+        description: "A large aluminum box magazine, similar in appearance to the conventional STANAG magazine, but much larger in both thickness and length.  Effectively acts as a box equivalent to an ammo belt, in terms of both capacity and bulk, they were intended to provide a more-continuous stream of lead down range from a semi-stationary position in an event of a firefight while maintaining the same reliability as the conventional magazine.  <variant:steel>",
+        expand_snippets: true,
+        weight: 1,
+      },
+    ],
+
+    "//weight": "9.6 oz = 272.16 g",
+    weight: "272 g",
+    "//dimensions": {
+      area: "35.13 in2",
+      width: "1.66 in",
+      raw: "955.62 ml",
+      trim: 0.12,
+      notes: [
+        "trim is for the empty area in the tower relative to the rest of the magazine",
+      ],
+    },
+    volume: "841 ml",
+    "//longest_side": ["13.69 in = 347.73 mm", "Feret distance"],
+    longest_side: "348 mm",
+
+    material: ["aluminum"],
+
+    reload_time: 200,
+
+    pocket_data: [
+      {
+        pocket_type: "MAGAZINE",
+
+        rigid: true,
+
+        allowed_speedloaders: ["clip223_10rd"],
+
+        ammo_restriction: {
+          "223": 100,
+          "300blk": 100,
+        },
+      },
+    ],
+
+    price: "179 USD",
+    price_postapoc: "10 USD",
+  },
+
+  {
+    id: "magazine/beta/c-mag/m16",
+    "copy-from": "@magazine/556:large",
+    type: "MAGAZINE",
+
+    "//sources": [
+      ["https://betaco.com/technical-manuals/", "dimensions", "weight"],
+      [
+        "https://web.archive.org/web/20240223201647/https://betaco.com/c-mag-systems/5-56mm/m16-m4/",
+        "price",
+      ],
+    ],
+
+    "//notes": [
+      "this item's ID could end in `stanag` instead of `m16`, but the item is based of a specific model labeled 'M16/M4', which is sufficiently dimensionally different from the STANAG model that we have to be specific",
+    ],
+
+    name: {
+      str: "STANAG 100-round double drum magazine",
+    },
+    description: "A polymer magazine with a drum on each side feeding into a plastic tower.  Appropriately large for its capacity, this magazine was intended for emulating machine-gun capacity for rifles which could not accept ammunition belts.",
+
+    variant_type: "gun",
+    variants: [
+      {
+        id: "black",
+
+        name: {
+          str: "Beta C-Mag 100-round 5.56mm double-drum magazine",
+        },
+        description: "A pair of polymer drums feeding into a plastic tower.  This magazine was intended to enable rifle infantry to a similar capacity for suppressing fire as the support gunner, as well as sustaining a much higher lead hale downrange.  <variant:black>",
+        expand_snippets: true,
+        weight: 1,
+      },
+    ],
+
+    "//weight": "2.2 lbs = 997.9 g",
+    weight: "998 g",
+    "//dimensions": {
+      area: "22288.87 mm2",
+      width: "79.5 mm",
+      raw: "1771.97 ml",
+      trim: 0,
+    },
+    volume: "1772 ml",
+    "//longest_side": "from given dimensions",
+    longest_side: "250 mm",
+
+    reload_time: 200,
+
+    pocket_data: [
+      {
+        pocket_type: "MAGAZINE",
+
+        rigid: true,
+
+        allowed_speedloaders: ["clip223_10rd"],
+
+        ammo_restriction: {
+          "223": 100,
+          "300blk": 100,
+        },
+      },
+    ],
+
+    price: "264 USD",
+    price_postapoc: "10 USD",
+  },
+
+  {
+    id: "magazine/armatac/saw-mag",
+    "copy-from": "@magazine/556:large",
+    type: "MAGAZINE",
+
+    "//sources": [
+      "https://www.armatac.com/product/products-saw-mag/",
+      ["https://betaco.com/technical-manuals/", "dimensions", "weight"],
+      [
+        "https://web.archive.org/web/20240223201647/https://betaco.com/c-mag-systems/5-56mm/m16-m4/",
+        "price",
+      ],
+    ],
+
+    "//notes": [
+      "this item's ID could end in `stanag` instead of `m16`, but the item is based of a specific model labeled 'M16/M4', which is sufficiently dimensionally different from the STANAG model that we have to be specific",
+    ],
+
+    name: {
+      str: "STANAG 150-round double drum magazine",
+    },
+    description: "An enormous pair of polymer drums surrounding a plastic tower.  Intended as something of a replacement for belt ammunition for rifles that cannot accept belts, this unwieldy magazine allows a rifleman to send an absurd amount of bullets – at least relative to a regular magazine – at the target before a reload is required.",
+
+    variant_type: "gun",
+    variants: [
+      {
+        id: "black",
+
+        name: {
+          str: "Armatac SAW-MAG 150-round 5.56mm double-drum magazine",
+        },
+        description: "A massive polymer magazine with two enormous drums.  Intended to replicate the suppressive and sustained-fire capacity of an LMG in a rifle package, though how successful that ended up is up for debate.  Still, in a stationary position against a large group of undead enemies, you probably won't regret having this at hand.  <variant:black>",
+        expand_snippets: true,
+        weight: 1,
+      },
+    ],
+
+    "//weight": "4.9 lbs = 2222.6 g",
+    weight: "2223 g",
+    "//dimensions": {
+      area: "65.83 in2",
+      width: "3.25 in",
+      raw: "3505.97 ml",
+      trim: 0.05,
+    },
+    volume: "3331 ml",
+    "//longest_side": ["13.53 in = 343.66 mm", "Feret distance"],
+    longest_side: "344 mm",
+
+    "//material": ["plastic stands for glass nylon"],
+    material: ["plastic", "steel"],
+
+    reload_time: 250,
+
+    pocket_data: [
+      {
+        pocket_type: "MAGAZINE",
+
+        rigid: true,
+
+        allowed_speedloaders: ["clip223_10rd"],
+
+        ammo_restriction: {
+          "223": 150,
+          "300blk": 150,
+        },
+      },
+    ],
+
+    price: "433 USD 67 cent",
+    price_postapoc: "10 USD",
+  },
+]
