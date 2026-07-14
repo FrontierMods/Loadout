@@ -1,7 +1,7 @@
 [
   {
     id: "compensator/mft/slim",
-    "copy-from": "@muzzle/compensator",
+    inherit: "@muzzle/compensator",
     type: "GUNMOD",
 
     "//sources": [

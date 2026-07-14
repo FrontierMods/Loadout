@@ -1,7 +1,7 @@
 [
   {
     id: "laser_sight/steiner/tor_mini",
-    "copy-from": "@laser_sight/underbarrel",
+    inherit: ["@laser_sight", "@underbarrel"],
     type: "GUNMOD",
 
     "//sources": ["https://www.steiner-optics.com/laser-devices/tor-mini"],
@@ -65,7 +65,7 @@
   },
   {
     id: "laser_sight/sightmark/readyfire",
-    "copy-from": "@laser_sight/underbarrel",
+    inherit: ["@laser_sight", "@underbarrel"],
     type: "GUNMOD",
 
     "//sources": [

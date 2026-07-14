@@ -1,7 +1,7 @@
 [
   {
     id: "sight/eotech/553",
-    "copy-from": "@sight/holographic",
+    inherit: ["@sight/holographic", "@with_magnifier"],
     type: "GUNMOD",
 
     "//sources": [
@@ -63,7 +63,7 @@
   },
   {
     id: "sight/eotech/exps3",
-    "copy-from": "@sight/holographic",
+    inherit: ["@sight/holographic", "@with_magnifier"],
     type: "GUNMOD",
 
     "//sources": [
@@ -131,7 +131,7 @@
   },
   {
     id: "sight/vortex/uh1",
-    "copy-from": "@sight/holographic",
+    inherit: ["@sight/holographic", "@with_magnifier"],
     type: "GUNMOD",
 
     "//sources": [

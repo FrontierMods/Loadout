@@ -1,7 +1,7 @@
 [
   {
     id: "suppressor/surefire/socom556_rc2",
-    "copy-from": "@muzzle/suppressor:no_cover",
+    inherit: "@muzzle/suppressor",
     type: "GUNMOD",
 
     "//sources": [
@@ -81,7 +81,7 @@
   },
   {
     id: "suppressor/kac/qdss",
-    "copy-from": "@muzzle/suppressor",
+    inherit: "@muzzle/suppressor/with_cover",
     type: "GUNMOD",
 
     "//sources": [
@@ -177,7 +177,7 @@
   },
   {
     id: "suppressor/thunder_beast/dominus_sr",
-    "copy-from": "@muzzle/suppressor",
+    inherit: "@muzzle/suppressor/with_cover",
     type: "GUNMOD",
 
     "//sources": [
@@ -288,7 +288,7 @@
 
   {
     id: "suppressor/thunder_beast/fly_9",
-    "copy-from": "@muzzle/suppressor:no_cover",
+    inherit: "@muzzle/suppressor",
     type: "GUNMOD",
 
     "//sources": ["https://thunderbeastarms.com/products/fly9"],
@@ -394,7 +394,7 @@
 
   {
     id: "suppressor/silencerco/salvo_12",
-    "copy-from": "@muzzle/shotgun/suppressor",
+    inherit: "@muzzle/shotgun/suppressor",
     type: "GUNMOD",
 
     "//sources": [
@@ -462,7 +462,7 @@
   },
   {
     id: "suppressor/kac/mk23",
-    "copy-from": "@muzzle/suppressor:no_cover",
+    inherit: "@muzzle/suppressor",
     type: "GUNMOD",
 
     "//sources": [

@@ -1,7 +1,7 @@
 [
   {
     id: "magazine/baseplate/colt/stanag",
-    "copy-from": "@magmod",
+    inherit: "@magmod",
     type: "GENERIC",
 
     "//sources": ["M4 Technical Data Package"],
@@ -43,7 +43,7 @@
   },
   {
     id: "magazine/baseplate/magpul/pmag",
-    "copy-from": "@magmod",
+    inherit: "@magmod",
     type: "GENERIC",
 
     "//sources": [
@@ -100,7 +100,7 @@
   },
   {
     id: "magazine/baseplate/magpul/ranger",
-    "copy-from": "@magmod",
+    inherit: "@magmod",
     type: "GENERIC",
 
     "//sources": [
@@ -157,7 +157,7 @@
   },
   {
     id: "magazine/baseplate/magpul/ranger/usgi",
-    "copy-from": "@magmod",
+    inherit: "@magmod",
     type: "GENERIC",
 
     "//sources": [
@@ -206,7 +206,7 @@
   },
   {
     id: "magazine/baseplate/taran/extended/pmag",
-    "copy-from": "@magmod",
+    inherit: "@magmod",
     type: "GENERIC",
 
     "//sources": [

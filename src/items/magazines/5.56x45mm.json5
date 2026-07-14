@@ -1,47 +1,7 @@
 [
   {
-    abstract: "@magazine/556",
-    "copy-from": "@magazine",
-    type: "MAGAZINE",
-
-    name: {
-      str: "5.56mm/.300 Blackout magazine",
-    },
-
-    ammo_type: ["223", "300blk"],
-
-    pocket_data: [
-      {
-        pocket_type: "MAGAZINE",
-
-        rigid: true,
-
-        allowed_speedloaders: ["clip223_10rd"],
-
-        ammo_restriction: {
-          "223": 1,
-          "300blk": 1,
-        },
-      },
-    ],
-
-    flags: ["MAG_COMPACT"],
-  },
-  {
-    abstract: "@magazine/556:large",
-    "copy-from": "@magazine/556",
-    type: "MAGAZINE",
-
-    name: {
-      str: "bulky 5.56mm/.300 Blackout magazine",
-    },
-
-    flags: ["MAG_BULKY"],
-  },
-
-  {
     id: "magazine/magpul/pmag/10",
-    "copy-from": "@magazine/556",
+    inherit: ["@magazine/5.56x45mm", "@magazine/compact"],
     type: "MAGAZINE",
 
     "//sources": ["https://magpul.com/pmag-10-ar-m4-gen-m3.html"],
@@ -150,7 +110,7 @@
   },
   {
     id: "magazine/magpul/pmag/20",
-    "copy-from": "@magazine/556",
+    inherit: ["@magazine/5.56x45mm", "@magazine/compact"],
     type: "MAGAZINE",
 
     "//sources": [
@@ -317,7 +277,7 @@
 
   {
     id: "magazine/colt/stanag/30",
-    "copy-from": "@magazine/556",
+    inherit: ["@magazine/5.56x45mm", "@magazine/compact"],
     type: "MAGAZINE",
 
     "//sources": [
@@ -500,7 +460,7 @@
 
   {
     id: "magazine/magpul/pmag/30",
-    "copy-from": "@magazine/556",
+    inherit: ["@magazine/5.56x45mm", "@magazine/compact"],
     type: "MAGAZINE",
 
     "//sources": [
@@ -686,7 +646,7 @@
 
   {
     id: "magazine/magpul/pmag/40",
-    "copy-from": "@magazine/556",
+    inherit: ["@magazine/5.56x45mm", "@magazine/compact"],
     type: "MAGAZINE",
 
     "//sources": [
@@ -856,7 +816,7 @@
 
   {
     id: "magazine/kci/5.56x45mm/50",
-    "copy-from": "@magazine/556:large",
+    inherit: ["@magazine/5.56x45mm", "@magazine/bulky"],
     type: "MAGAZINE",
 
     "//sources": [
@@ -941,7 +901,7 @@
 
   {
     id: "magazine/magpul/pmag/d-60",
-    "copy-from": "@magazine/556:large",
+    inherit: ["@magazine/5.56x45mm", "@magazine/bulky"],
     type: "MAGAZINE",
 
     "//sources": [
@@ -1027,7 +987,7 @@
 
   {
     id: "magazine/surefire/60",
-    "copy-from": "@magazine/556:large",
+    inherit: ["@magazine/5.56x45mm", "@magazine/bulky"],
     type: "MAGAZINE",
 
     "//sources": [
@@ -1106,7 +1066,7 @@
 
   {
     id: "magazine/schmeisser/s60",
-    "copy-from": "@magazine/556:large",
+    inherit: ["@magazine/5.56x45mm", "@magazine/bulky"],
     type: "MAGAZINE",
 
     "//sources": [
@@ -1176,7 +1136,7 @@
 
   {
     id: "magazine/mwg/90",
-    "copy-from": "@magazine/556:large",
+    inherit: ["@magazine/5.56x45mm", "@magazine/bulky"],
     type: "MAGAZINE",
 
     "//sources": [
@@ -1261,7 +1221,7 @@
 
   {
     id: "magazine/surefire/100",
-    "copy-from": "@magazine/556:large",
+    inherit: ["@magazine/5.56x45mm", "@magazine/bulky"],
     type: "MAGAZINE",
 
     "//sources": [
@@ -1339,7 +1299,7 @@
 
   {
     id: "magazine/beta/c-mag/m16",
-    "copy-from": "@magazine/556:large",
+    inherit: ["@magazine/5.56x45mm", "@magazine/bulky"],
     type: "MAGAZINE",
 
     "//sources": [
@@ -1408,7 +1368,7 @@
 
   {
     id: "magazine/armatac/saw-mag",
-    "copy-from": "@magazine/556:large",
+    inherit: ["@magazine/5.56x45mm", "@magazine/bulky"],
     type: "MAGAZINE",
 
     "//sources": [

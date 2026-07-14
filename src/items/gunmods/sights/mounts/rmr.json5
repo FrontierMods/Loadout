@@ -1,7 +1,7 @@
 [
   {
     id: "sight_mount/rmr/trijicon/rm33",
-    "copy-from": "@sight_mount/rmr",
+    inherit: "@sight_mount/rmr",
     type: "GUNMOD",
 
     "//sources": ["https://www.trijicon.com/products/details/rm33"],
@@ -40,7 +40,7 @@
   },
   {
     id: "sight_mount/rmr/trijicon/rm35",
-    "copy-from": "@sight_mount/rmr",
+    inherit: "@sight_mount/rmr",
     type: "GUNMOD",
 
     "//sources": [
@@ -103,7 +103,7 @@
   },
   {
     id: "sight_mount/rmr/scalarworks/leap_04",
-    "copy-from": "@sight_mount/rmr:disable_sights",
+    inherit: "@sight_mount/rmr:disable_sights",
     type: "GUNMOD",
 
     "//sources": [

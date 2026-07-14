@@ -1,7 +1,7 @@
 [
   {
     id: "sight/ncstar",
-    "copy-from": "@sight/reflex",
+    inherit: ["@sight/reflex", "@with_magnifier"],
     type: "GUNMOD",
 
     "//sources": [
@@ -97,7 +97,7 @@
   },
   {
     id: "sight/trijicon/rmr",
-    "copy-from": "@sight/reflex:no_magnifier",
+    inherit: "@sight/reflex",
     type: "GUNMOD",
 
     "//sources": ["https://www.trijicon.com/products/details/rm06-c-700672"],
@@ -195,7 +195,7 @@
   },
   {
     id: "sight/aimpoint/compm2",
-    "copy-from": "@sight/reflex",
+    inherit: ["@sight/reflex", "@with_magnifier"],
     type: "GUNMOD",
 
     "//sources": [
@@ -251,7 +251,7 @@
   },
   {
     id: "sight/vortex/strikefire_ii",
-    "copy-from": "@sight/reflex",
+    inherit: ["@sight/reflex", "@with_magnifier"],
     type: "GUNMOD",
 
     "//sources": [
@@ -311,7 +311,7 @@
   },
   {
     id: "sight/trijicon/rx01",
-    "copy-from": "@sight/reflex:no_magnifier",
+    inherit: "@sight/reflex",
     type: "GUNMOD",
 
     "//sources": [
@@ -368,7 +368,7 @@
   },
   {
     id: "sight/noblex/sight_ii",
-    "copy-from": "@sight/reflex",
+    inherit: ["@sight/reflex", "@with_magnifier"],
     type: "GUNMOD",
 
     "//sources": [
@@ -429,7 +429,7 @@
   },
   {
     id: "sight/aimpoint/compm4",
-    "copy-from": "@sight/reflex",
+    inherit: ["@sight/reflex", "@with_magnifier"],
     type: "GUNMOD",
 
     "//sources": [

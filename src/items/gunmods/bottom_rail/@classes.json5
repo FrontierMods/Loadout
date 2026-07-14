@@ -1,0 +1,57 @@
+[
+  {
+    id: "@underbarrel",
+    inherit: "@gunmod",
+    type: "PARTIAL",
+
+    location: "underbarrel",
+  },
+  {
+    id: "@underbarrel/weapon",
+    inherit: ["@underbarrel", "@secondary"],
+    type: "PARTIAL",
+
+    mod_targets: ["rifle"],
+  },
+  {
+    id: "@bipod",
+    inherit: "@underbarrel",
+    type: "PARTIAL",
+
+    material: ["aluminum", "rubber"],
+
+    to_hit: {
+      grip: "solid",
+      length: "hand",
+      surface: "line",
+      balance: "neutral",
+    },
+    melee_damage: {
+      bash: 10,
+    },
+
+    install_time: "40 s",
+  },
+  {
+    id: "@bipod:deployed",
+    inherit: "@bipod",
+    type: "PARTIAL",
+
+    to_hit: {
+      grip: "solid",
+      length: "hand",
+      surface: "point",
+      balance: "neutral",
+    },
+    melee_damage: {
+      bash: 5,
+    },
+
+    "//dispersion_modifier": "simulates improved ease of aim",
+    dispersion_modifier: -4,
+    "//handling_modifier": "offset relative to the base game's bipod for the purposes of balance against improved accuracy",
+    handling_modifier: 9,
+
+    flags: ["BIPOD"],
+  },
+]

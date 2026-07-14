@@ -1,7 +1,7 @@
 [
   {
     id: "muzzle_brake/surefire/socom",
-    "copy-from": "@muzzle/brake",
+    inherit: "@muzzle/brake",
     type: "GUNMOD",
 
     "//sources": [
@@ -84,7 +84,7 @@
   },
   {
     id: "muzzle_brake/thunder_beast/sr",
-    "copy-from": "@muzzle/brake",
+    inherit: "@muzzle/brake",
     type: "GUNMOD",
 
     "//sources": [

@@ -1,7 +1,7 @@
 [
   {
     id: "sight/trijicon/ta01",
-    "copy-from": "@sight/rifle",
+    inherit: "@sight/rifle",
     type: "GUNMOD",
 
     "//sources": [
@@ -96,7 +96,7 @@
 
   {
     id: "sight/leupold/mark_4",
-    "copy-from": "@sight/30mm",
+    inherit: "@sight/30mm",
     type: "GUNMOD",
 
     "//sources": [
@@ -270,7 +270,7 @@
 
   {
     id: "sight/elcan/specterdr/legacy",
-    "copy-from": "@sight/rifle",
+    inherit: "@sight/rifle",
     type: "GUNMOD",
 
     "//sources": [
@@ -418,7 +418,7 @@
 
   {
     id: "sight/eotech/vudu/1-6x",
-    "copy-from": "@sight/30mm",
+    inherit: "@sight/30mm",
     type: "GUNMOD",
 
     "//sources": ["https://www.eotechinc.com/eotech-vudu-1-6x24-ffp"],
@@ -559,7 +559,7 @@
 
   {
     id: "sight/vortex/viper_pst/1-6x",
-    "copy-from": "@sight/30mm",
+    inherit: "@sight/30mm",
     type: "GUNMOD",
 
     "//sources": [
@@ -694,7 +694,7 @@
 
   {
     id: "sight/sig/tango6t/1-6x",
-    "copy-from": "@sight/30mm",
+    inherit: "@sight/30mm",
     type: "GUNMOD",
 
     "//sources": [

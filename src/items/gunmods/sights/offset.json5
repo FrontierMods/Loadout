@@ -1,7 +1,7 @@
 [
   {
     id: "sight/offset/magpul/mbus_pro",
-    "copy-from": "@sight/offset",
+    inherit: "@sight/offset",
     type: "GUNMOD",
 
     "//sources": [

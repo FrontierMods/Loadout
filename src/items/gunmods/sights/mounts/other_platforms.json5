@@ -1,7 +1,7 @@
 [
   {
     id: "sight_mount/ta01/trijicon/ta51",
-    "copy-from": "@sight_mount/rifle",
+    inherit: "@sight_mount/rifle",
     type: "GUNMOD",
 
     "//sources": ["https://www.trijicon.com/products/details/ta51"],
@@ -45,7 +45,7 @@
   },
   {
     id: "sight_mount/rx01/trijicon/rx11",
-    "copy-from": "@sight_mount/rifle",
+    inherit: "@sight_mount/rifle",
     type: "GUNMOD",
 
     "//sources": [
@@ -149,7 +149,7 @@
   },
   {
     id: "sight_mount/comp4/aimpoint/lrp",
-    "copy-from": "@sight_mount/rifle",
+    inherit: "@sight_mount/rifle",
     type: "GUNMOD",
 
     "//sources": [

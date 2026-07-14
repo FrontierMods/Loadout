@@ -1,7 +1,7 @@
 [
   {
     id: "upper_receiver/ar15/50beowulf/10.5in/bca/bc15",
-    "copy-from": "@upper_receiver/ar15/50beowulf",
+    inherit: "@upper_receiver/ar15/50beowulf",
     type: "GUNMOD",
 
     "//sources": [
@@ -66,7 +66,7 @@
   },
   {
     id: "upper_receiver/ar15/50beowulf/16in/bca/bc15",
-    "copy-from": "@upper_receiver/ar15/50beowulf",
+    inherit: "@upper_receiver/ar15/50beowulf",
     type: "GUNMOD",
 
     "//sources": [
@@ -131,7 +131,7 @@
   },
   {
     id: "upper_receiver/ar15/50beowulf/18in/bca/bc15",
-    "copy-from": "@upper_receiver/ar15/50beowulf",
+    inherit: "@upper_receiver/ar15/50beowulf",
     type: "GUNMOD",
 
     "//sources": [

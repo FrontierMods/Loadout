@@ -1,7 +1,7 @@
 [
   {
     id: "magazine/body/magpul/pmag/10",
-    "copy-from": "@magazine/body",
+    inherit: "@magazine/body",
     type: "GENERIC",
 
     "//sources": ["https://magpul.com/pmag-10-ar-m4-gen-m3.html"],
@@ -43,7 +43,7 @@
   },
   {
     id: "magazine/body/magpul/pmag/20",
-    "copy-from": "@magazine/body",
+    inherit: "@magazine/body",
     type: "GENERIC",
 
     "//sources": ["https://magpul.com/pmag-20-ar-m4-gen-m3.html"],
@@ -85,7 +85,7 @@
   },
   {
     id: "magazine/body/magpul/pmag/30",
-    "copy-from": "@magazine/body",
+    inherit: "@magazine/body",
     type: "GENERIC",
 
     "//sources": ["https://magpul.com/pmag-30-ar-m4-gen-m3.html"],
@@ -127,7 +127,7 @@
   },
   {
     id: "magazine/body/colt/stanag/30",
-    "copy-from": "@magazine/body",
+    inherit: "@magazine/body",
     type: "GENERIC",
 
     "//notes": ["based on the STANAG magazine"],
@@ -164,7 +164,7 @@
   },
   {
     id: "magazine/body/magpul/pmag/40",
-    "copy-from": "@magazine/body",
+    inherit: "@magazine/body",
     type: "GENERIC",
 
     "//sources": [

@@ -1,6 +1,7 @@
 [
   {
     id: "standalone_assembly/m320",
+    inherit: ["@part", "@parkerized"],
     type: "GENERIC",
     category: "spare_parts",
 
@@ -64,9 +65,6 @@
     volume: "223 ml",
     longest_side: "316 mm",
 
-    symbol: ",",
-    color: "dark_gray",
-
     "//material": "portion value acquired through ratio of volumes of the two parts",
     material: [
       { type: "rubber", portion: 2.44 },
@@ -80,6 +78,7 @@
   },
   {
     id: "grenade_launcher/hk/m320",
+    inherit: ["@gun"],
     "copy-from": "launcher_base",
     type: "GUN",
 
@@ -122,8 +121,6 @@
     "//longest_side": "with the stock extended all the way",
     longest_side: "500 mm",
 
-    symbol: "(",
-    color: "light_gray",
     looks_like: "m79",
 
     faults: ["fault_gun_blackpowder", "fault_gun_dirt"],

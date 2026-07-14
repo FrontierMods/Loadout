@@ -1,7 +1,7 @@
 [
   {
     id: "foregrip/magpul/afg2",
-    "copy-from": "@foregrip",
+    inherit: "@foregrip",
     type: "GUNMOD",
 
     "//sources": [
@@ -73,7 +73,7 @@
   },
   {
     id: "foregrip/f1/skeletonized",
-    "copy-from": "@foregrip",
+    inherit: "@foregrip",
     type: "GUNMOD",
 
     "//sources": [

@@ -1,49 +1,29 @@
 [
   {
-    abstract: "@muzzle",
-    type: "GUNMOD",
-
-    name: {
-      str: "muzzle device",
-    },
-
-    weight: "50 g",
-    volume: "50 ml",
-    longest_side: "50 mm",
+    id: "@muzzle",
+    inherit: "@gunmod",
+    type: "PARTIAL",
 
     material: ["steel"],
-
-    symbol: ":",
-    color: "dark_gray",
 
     location: "muzzle",
     install_time: "20 s",
 
     mod_targets: ["pistol", "smg", "shotgun", "rifle"],
-
-    price_postapoc: "50 cent",
   },
 
   {
-    abstract: "@muzzle/universal",
-    "copy-from": "@muzzle",
-    type: "GUNMOD",
-
-    name: {
-      str: "universal muzzle device",
-    },
+    id: "@muzzle/universal",
+    inherit: "@muzzle",
+    type: "PARTIAL",
 
     mod_targets: ["pistol", "smg", "rifle"],
   },
 
   {
-    abstract: "@muzzle/brake",
-    "copy-from": "@muzzle/universal",
-    type: "GUNMOD",
-
-    name: {
-      str: "muzzle brake",
-    },
+    id: "@muzzle/brake",
+    inherit: "@muzzle/universal",
+    type: "PARTIAL",
 
     material: ["stainless_steel"],
 
@@ -62,18 +42,14 @@
   },
 
   {
-    abstract: "@muzzle/suppressor",
-    "copy-from": "@muzzle/universal",
-    type: "GUNMOD",
+    id: "@muzzle/suppressor",
+    inherit: "@muzzle/universal",
+    type: "PARTIAL",
 
-    name: {
-      str: "suppressor",
-    },
+    "//longest_side": "we assume this suppressor is shorter than 7 in., making it average 6 in.",
+    longest_side: "6 in",
 
-    "//longest_side": "a typical suppressor is 7 in. long",
-    longest_side: "178 mm",
-
-    loudness_modifier: -40,
+    loudness_modifier: -35,
     "//dispersion_modifier": "suppressors generally only have a minor effect on accuracy",
     dispersion_modifier: 1,
     "//handling_modifier": [
@@ -87,55 +63,42 @@
     "//consume_divisor": "default taken from base-game `suppressor`",
     consume_divisor: 840,
 
-    mod_targets: ["pistol", "smg", "rifle"],
     install_time: "10 s",
 
-    add_mod: [["suppressor cover", 1]],
+    "//add_mod": [
+      "this one specifically doesn't add a slot for suppressor cover",
+      "covers often require a suppressor with a minimum of 7 in. of length",
+    ],
 
     "//flags": ["CONSUMABLE"],
     flags: ["FLASH_HIDER"],
   },
 
   {
-    abstract: "@muzzle/suppressor:no_cover",
-    "copy-from": "@muzzle/universal",
-    type: "GUNMOD",
+    id: "@muzzle/suppressor/with_cover",
+    inherit: "@muzzle/universal",
+    type: "PARTIAL",
 
-    name: {
-      str: "shorter suppressor",
-    },
+    "//longest_side": "a typical suppressor that can be outfitted with a cover is 7 in. long",
+    longest_side: "7 in",
 
-    "//longest_side": "we assume this suppressor is shorter than 7 in., making it average 6 in.",
-    longest_side: "152 mm",
+    loudness_modifier: -40,
 
-    loudness_modifier: -35,
-
-    "//add_mod": [
-      "this one specifically doesn't add a slot for suppressor cover",
-      "covers often require a suppressor with a minimum of 7 in. of length",
-    ],
+    add_mod: [["suppressor cover", 1]],
   },
 
   {
-    abstract: "@muzzle/shotgun",
-    "copy-from": "@muzzle",
-    type: "GUNMOD",
-
-    name: {
-      str: "shotgun muzzle device",
-    },
+    id: "@muzzle/shotgun",
+    inherit: "@muzzle",
+    type: "PARTIAL",
 
     mod_targets: ["shotgun"],
   },
 
   {
-    abstract: "@muzzle/shotgun/suppressor",
-    "copy-from": "@muzzle/shotgun",
-    type: "GUNMOD",
-
-    name: {
-      str: "shotgun suppressor",
-    },
+    id: "@muzzle/shotgun/suppressor",
+    inherit: "@muzzle/shotgun",
+    type: "PARTIAL",
 
     "//damage_modifier": "average for a 7 in. suppressor",
     damage_modifier: {
@@ -148,13 +111,9 @@
   },
 
   {
-    abstract: "@muzzle/flash_hider",
-    "copy-from": "@muzzle/universal",
-    type: "GUNMOD",
-
-    name: {
-      str: "flash hider",
-    },
+    id: "@muzzle/flash_hider",
+    inherit: "@muzzle/universal",
+    type: "PARTIAL",
 
     handling_modifier: 5,
 
@@ -165,13 +124,9 @@
   },
 
   {
-    abstract: "@muzzle/thread_mount",
-    "copy-from": "@muzzle",
-    type: "GUNMOD",
-
-    name: {
-      str: "thread mount",
-    },
+    id: "@muzzle/thread_mount",
+    inherit: "@muzzle",
+    type: "PARTIAL",
 
     "//weight": [
       "based on SilencerCo Hybrid 46 direct thread mount's weight",
@@ -191,13 +146,9 @@
   },
 
   {
-    abstract: "@muzzle/thread_protector",
-    "copy-from": "@muzzle",
-    type: "GUNMOD",
-
-    name: {
-      str: "thread protector",
-    },
+    id: "@muzzle/thread_protector",
+    inherit: "@muzzle",
+    type: "PARTIAL",
 
     "//weight": [
       "based on stated 'delivery weight' of EGW thread protector minus 5 g for the plastic bag",
@@ -214,13 +165,9 @@
   },
 
   {
-    abstract: "@muzzle/compensator",
-    "copy-from": "@muzzle/universal",
-    type: "GUNMOD",
-
-    name: {
-      str: "compensator",
-    },
+    id: "@muzzle/compensator",
+    inherit: "@muzzle/universal",
+    type: "PARTIAL",
 
     handling_modifier: 60,
   },

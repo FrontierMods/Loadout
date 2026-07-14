@@ -1,6 +1,7 @@
 [
   {
     id: "grenade_launcher/underbarrel/lmt/l2b",
+    inherit: ["@underbarrel/weapon"],
     "copy-from": "underbarrel_base",
     type: "GUNMOD",
 
@@ -37,8 +38,6 @@
 
     material: ["steel", "plastic"],
 
-    symbol: ":",
-    color: "light_red",
     faults: ["fault_gun_blackpowder", "fault_gun_dirt"],
 
     "//weight": "2.2 lbs = 997.9 g",
@@ -53,9 +52,7 @@
     volume: "364 ml",
     longest_side: "318 mm",
 
-    location: "underbarrel",
     install_time: "2 m",
-    mod_targets: ["rifle"],
     blacklist_mod: [
       "knife_combat_army",
       "knife_combat",
@@ -98,6 +95,7 @@
 
   {
     id: "grenade_launcher/underbarrel/hk/m320",
+    inherit: ["@underbarrel/weapon"],
     "copy-from": "underbarrel_base",
     type: "GUNMOD",
 
@@ -180,14 +178,9 @@
     volume: "2385 ml",
     longest_side: "284 mm",
 
-    symbol: ":",
-    color: "dark_gray",
-
     material: ["steel", "plastic"],
 
-    location: "underbarrel",
     install_time: "5 m",
-    mod_targets: ["rifle", "crossbow"],
     blacklist_mod: [
       "knife_combat_army",
       "knife_combat",

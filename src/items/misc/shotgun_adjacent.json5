@@ -1,6 +1,7 @@
 [
   {
     id: "standalone_assembly/m26",
+    inherit: ["@part", "@parkerized"],
     type: "GENERIC",
     category: "spare_parts",
 
@@ -97,9 +98,6 @@
     "//integral_longest_side": "26.5 in. (length of standalone configuration) − 16.5 in. (length of underbarrel configuration) = 10 in. = 254 mm",
     integral_longest_side: "254 mm",
 
-    symbol: ":",
-    color: "dark_gray",
-
     material: ["plastic", "steel"],
 
     to_hit: 1,
@@ -110,6 +108,7 @@
   },
   {
     id: "shotgun/c-more/m26",
+    inherit: ["@gun"],
     "copy-from": "shotgun_base",
     type: "GUN",
 
@@ -150,9 +149,6 @@
     volume: "2145 ml",
     longest_side: "673 mm",
     barrel_length: "197 mm",
-
-    symbol: "(",
-    color: "light_gray",
 
     material: ["steel", "plastic"],
 

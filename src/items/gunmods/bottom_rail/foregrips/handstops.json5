@@ -1,7 +1,7 @@
 [
   {
     id: "foregrip/strike/bikini",
-    "copy-from": "@foregrip",
+    inherit: "@foregrip",
     type: "GUNMOD",
 
     "//sources": [
@@ -60,7 +60,7 @@
   },
   {
     id: "foregrip/impact/barrier",
-    "copy-from": "@foregrip",
+    inherit: "@foregrip",
     type: "GUNMOD",
 
     "//sources": [

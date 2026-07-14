@@ -1,7 +1,7 @@
 [
   {
     id: "bipod/harris/s-l2p",
-    "copy-from": "@bipod",
+    inherit: "@bipod",
     type: "GUNMOD",
 
     "//sources": [
@@ -69,6 +69,7 @@
   },
   {
     id: "bipod/harris/s-l2p:deployed",
+    inherit: ["@bipod:deployed"],
     "copy-from": "bipod/harris/s-l2p",
     type: "GUNMOD",
 

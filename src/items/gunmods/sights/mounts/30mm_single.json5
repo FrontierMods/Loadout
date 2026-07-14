@@ -1,7 +1,7 @@
 [
   {
     id: "sight_mount/30mm/single/aero",
-    "copy-from": "@sight_mount/rifle:disable_sights",
+    inherit: "@sight_mount/rifle:disable_sights",
     type: "GUNMOD",
 
     "//sources": [

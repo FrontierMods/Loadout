@@ -1,7 +1,7 @@
 [
   {
     id: "sight_mount/30mm/aero",
-    "copy-from": "@sight_mount/30mm",
+    inherit: "@sight_mount/30mm",
     type: "GUNMOD",
 
     "//sources": [
@@ -47,7 +47,7 @@
   },
   {
     id: "sight_mount/30mm/sig/alpha4",
-    "copy-from": "@sight_mount/30mm",
+    inherit: "@sight_mount/30mm",
     type: "GUNMOD",
 
     "//sources": [

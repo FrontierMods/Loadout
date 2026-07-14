@@ -1,6 +1,7 @@
 [
   {
     id: "cheek_pad/blackhawk/tactical",
+    inherit: "@gunmod",
     type: "GUNMOD",
 
     "//sources": [
@@ -51,12 +52,8 @@
     ],
     material: ["neoprene", "nylon", "leather"],
 
-    symbol: ":",
-    color: "dark_gray",
-
     location: "stock accessory",
     install_time: "1 m",
-    mod_targets: ["pistol", "smg", "rifle", "shotgun", "launcher"],
     dispersion_modifier: -1,
     handling_modifier: 2,
 
@@ -65,6 +62,7 @@
 
   {
     id: "recoil_pad/allen/slip_on",
+    inherit: "@gunmod",
     type: "GUNMOD",
 
     "//sources": [
@@ -113,12 +111,8 @@
 
     material: ["rubber"],
 
-    symbol: ":",
-    color: "dark_gray",
-
     location: "stock accessory",
     install_time: "15 s",
-    mod_targets: ["pistol", "smg", "rifle", "shotgun", "launcher"],
     handling_modifier: 3,
 
     price: "14 USD 99 cent",

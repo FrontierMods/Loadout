@@ -1,12 +1,8 @@
 [
   {
-    abstract: "@upper_receiver/ar15",
-    "copy-from": "@upper_receiver",
-    type: "GUNMOD",
-
-    name: {
-      str: "AR-15 upper receiver",
-    },
+    id: "@upper_receiver/ar15",
+    inherit: "@upper_receiver",
+    type: "PARTIAL",
 
     material: ["steel", "aluminum", "plastic"],
 
@@ -31,13 +27,9 @@
     price_postapoc: "10 USD",
   },
   {
-    abstract: "@upper_receiver/ar15/556",
-    "copy-from": "@upper_receiver/ar15",
-    type: "GUNMOD",
-
-    name: {
-      str: "AR-15 5.56mm upper receiver",
-    },
+    id: "@upper_receiver/ar15/556",
+    inherit: "@upper_receiver/ar15",
+    type: "PARTIAL",
 
     ammo_modifier: ["223"],
     magazine_adaptor: [
@@ -114,13 +106,9 @@
     ],
   },
   {
-    abstract: "@upper_receiver/ar15/300blk",
-    "copy-from": "@upper_receiver/ar15",
-    type: "GUNMOD",
-
-    name: {
-      str: "AR-15 .300 Blackout upper receiver",
-    },
+    id: "@upper_receiver/ar15/300blk",
+    inherit: "@upper_receiver/ar15",
+    type: "PARTIAL",
 
     ammo_modifier: ["300blk"],
     magazine_adaptor: [
@@ -198,13 +186,9 @@
     ],
   },
   {
-    abstract: "@upper_receiver/ar15/450",
-    "copy-from": "@upper_receiver/ar15",
-    type: "GUNMOD",
-
-    name: {
-      str: "AR-15 .450 Bushmaster upper receiver",
-    },
+    id: "@upper_receiver/ar15/450",
+    inherit: "@upper_receiver/ar15",
+    type: "PARTIAL",
 
     ammo_modifier: ["450"],
     magazine_adaptor: [["450", ["450_ar15mag"]]],
@@ -216,13 +200,9 @@
     ],
   },
   {
-    abstract: "@upper_receiver/ar15/50beowulf",
-    "copy-from": "@upper_receiver/ar15",
-    type: "GUNMOD",
-
-    name: {
-      str: "AR-15 .50 Beowulf upper receiver",
-    },
+    id: "@upper_receiver/ar15/50beowulf",
+    inherit: "@upper_receiver/ar15",
+    type: "PARTIAL",
 
     ammo_modifier: ["50beowulf"],
     magazine_adaptor: [
@@ -251,13 +231,9 @@
     ],
   },
   {
-    abstract: "@upper_receiver/ar15/762x39",
-    "copy-from": "@upper_receiver/ar15",
-    type: "GUNMOD",
-
-    name: {
-      str: "AR-15 7.62×39mm upper receiver",
-    },
+    id: "@upper_receiver/ar15/762x39",
+    inherit: "@upper_receiver/ar15",
+    type: "PARTIAL",
 
     ammo_modifier: ["762"],
     magazine_adaptor: [

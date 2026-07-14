@@ -1,0 +1,9 @@
+[
+  {
+    id: "@upper_receiver",
+    inherit: "@gunmod",
+    type: "PARTIAL",
+
+    location: "bore",
+  },
+]

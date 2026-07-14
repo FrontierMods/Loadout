@@ -1,7 +1,7 @@
 [
   {
     id: "upper_receiver/ar15/762x39/16in/radical/pabu16",
-    "copy-from": "@upper_receiver/ar15/762x39",
+    inherit: "@upper_receiver/ar15/762x39",
     type: "GUNMOD",
 
     "//sources": [

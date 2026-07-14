@@ -1,6 +1,7 @@
 [
   {
     id: "shotgun/underbarrel/c-more/m26",
+    inherit: ["@underbarrel/weapon"],
     type: "GUNMOD",
 
     "//sources": [
@@ -48,9 +49,6 @@
     volume: "1068 ml",
     longest_side: "419 mm",
 
-    symbol: ":",
-    color: "white",
-
     material: ["steel", "plastic"],
 
     gun_data: {
@@ -66,7 +64,6 @@
     "//faults": "this is a bolt-action firearm, and thus cannot have many of the same faults as semi-automatic ones",
     faults: ["fault_gun_blackpowder", "fault_gun_dirt"],
 
-    location: "underbarrel",
     install_time: "2 m",
     blacklist_mod: [
       "knife_combat_army",
@@ -76,7 +73,6 @@
       "makeshift_bayonet",
       "sword_bayonet",
     ],
-    mod_targets: ["rifle"],
     min_skills: [
       ["weapon", 1],
       ["shotgun", 1],

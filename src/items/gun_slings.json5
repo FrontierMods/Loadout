@@ -1,7 +1,7 @@
 [
   {
     id: "sling/single/magpul/ms3",
-    "copy-from": "@sling",
+    inherit: "@sling",
     type: "ARMOR",
 
     "//sources": [
@@ -72,6 +72,7 @@
 
   {
     id: "sling/double/bfg/vickers",
+    inherit: ["@gunmod", "@camo", "@mod_target/long_guns"],
     type: "GUNMOD",
 
     "//sources": [
@@ -125,12 +126,8 @@
       { type: "plastic", portion: 5 },
     ],
 
-    symbol: ":",
-    color: "green",
-
     location: "sling",
     install_time: "20 s",
-    mod_targets: ["rifle", "shotgun", "smg", "crossbow", "launcher"],
 
     armor_data: {
       armor: [
@@ -199,12 +196,8 @@
       },
     ],
 
-    symbol: ":",
-    color: "green",
-
     location: "sling",
     install_time: "20 s",
-    mod_targets: ["rifle", "shotgun", "smg", "crossbow", "launcher"],
 
     armor_data: {
       armor: [
@@ -235,7 +228,7 @@
 
   {
     id: "sling/improvised",
-    "copy-from": "@sling",
+    inherit: "@sling",
     type: "ARMOR",
 
     name: { str: "improvised gun sling" },

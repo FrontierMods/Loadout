@@ -1,6 +1,7 @@
 [
   {
     id: "mount/underbarrel/magpul",
+    inherit: ["@gunmod", "@mod_target/long_guns"],
     type: "GUNMOD",
 
     "//sources": [
@@ -36,11 +37,7 @@
 
     material: ["plastic"],
 
-    symbol: ":",
-    color: "light_gray",
-
     location: "underbarrel mount",
-    mod_targets: ["smg", "rifle", "shotgun", "crossbow", "launcher"],
     install_time: "2 m",
     min_skills: [["gun", 1]],
     add_mod: [["underbarrel", 1]],

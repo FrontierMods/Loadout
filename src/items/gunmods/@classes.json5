@@ -1,23 +1,14 @@
 [
   {
-    abstract: "@gunmod",
-    type: "GUNMOD",
-
-    "//notes": ["baseline class for classes and non-class attachments"],
-
-    name: {
-      str: "baseline gunmod",
-    },
-
-    symbol: ":",
-    color: "dark_gray",
-
-    price_postapoc: "50 cent",
+    id: "@gunmod",
+    inherit: ["@installable", "@metallic", "@mod_target/firearms"],
+    type: "PARTIAL",
   },
+
   {
-    abstract: "@chute",
-    "copy-from": "@gunmod",
-    type: "GUNMOD",
+    id: "@chute",
+    inherit: "@gunmod",
+    type: "PARTIAL",
 
     "//sources": [
       "https://www.arredondoaccessories.com/product/speed-loader-assist/",
@@ -35,10 +26,6 @@
         "we currently model chutes per in-game manufacturer, rather than by attachment mechanism, out of simplicity",
       ],
     ],
-
-    name: {
-      str: "shotgun chute",
-    },
 
     "//weight": [
       "source description says 4.7 oz ≈ 133 g, source additional information says 4.2 oz ≈ 119 g",
@@ -73,8 +60,7 @@
     ],
 
     location: "loading port",
-    "//mod_targets": "the only pistol in-game that has a loading port is Remington 870 in breacher configuration",
-    mod_targets: ["pistol", "shotgun"],
+    mod_targets: ["shotgun"],
     install_time: "90 s",
     acceptable_ammo: ["shot"],
     reload_modifier: -25,
@@ -82,9 +68,9 @@
     price: "163 USD 75 cent",
   },
   {
-    abstract: "@suppressor_cover",
-    "copy-from": "@gunmod",
-    type: "GUNMOD",
+    id: "@suppressor_cover",
+    inherit: "@gunmod",
+    type: "PARTIAL",
 
     "//notes": [
       [
@@ -96,10 +82,6 @@
         "we model it as dispersion reduction",
       ],
     ],
-
-    name: {
-      str: "suppressor cover",
-    },
 
     weight: "130 g",
     "//dimensions": {
@@ -143,17 +125,9 @@
     dispersion_modifier: -2,
   },
   {
-    abstract: "@laser_sight",
-    "copy-from": "@gunmod",
-    type: "GUNMOD",
-
-    name: {
-      str: "laser sight",
-    },
-
-    weight: "50 g",
-    volume: "50 ml",
-    longest_side: "50 mm",
+    id: "@laser_sight",
+    inherit: "@gunmod",
+    type: "PARTIAL",
 
     material: ["aluminum"],
 
@@ -162,24 +136,12 @@
 
     field_of_view: 3000,
 
-    mod_targets: ["pistol", "rifle", "smg", "shotgun", "launcher"],
-
     flags: ["LASER_SIGHT"],
   },
   {
-    abstract: "@brass_catcher",
-    "copy-from": "@gunmod",
-    type: "GUNMOD",
-
-    name: {
-      str: "brass catcher",
-    },
-
-    weight: "50 g",
-    volume: "50 ml",
-    longest_side: "50 mm",
-
-    color: "light_gray",
+    id: "@brass_catcher",
+    inherit: ["@gunmod", "@camo"],
+    type: "PARTIAL",
 
     "//material": "steel is presumed to be the material for the hinge",
     material: [{ type: "nylon", portion: 99 }, { type: "steel" }],
@@ -187,13 +149,6 @@
     location: "brass catcher",
     install_time: "40 s",
     min_skills: [["weapon", 1]],
-    "//mod_targets": [
-      "removes pistols from possible targets because",
-      "(1) the catcher is just too large for a regular pistol",
-      "(2) it would likely prevent a pistol from functioning correctly, given that the slide has to move",
-      "(so either the catcher's nylon latch cuts, or the slide is slowed down, thus not ejecting or chambering correctly)",
-    ],
-    mod_targets: ["shotgun", "rifle", "smg"],
 
     flags: ["BRASS_CATCHER"],
   },

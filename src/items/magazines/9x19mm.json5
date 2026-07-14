@@ -1,44 +1,7 @@
 [
   {
-    abstract: "@magazine/9x19mm",
-    "copy-from": "@magazine",
-    type: "MAGAZINE",
-
-    name: {
-      str: "9x19mm magazine",
-    },
-
-    ammo_type: ["9mm"],
-
-    pocket_data: [
-      {
-        pocket_type: "MAGAZINE",
-
-        rigid: true,
-
-        ammo_restriction: {
-          "9mm": 1,
-        },
-      },
-    ],
-
-    flags: ["MAG_COMPACT"],
-  },
-  {
-    abstract: "@magazine/9x19mm:large",
-    "copy-from": "@magazine/9x19mm",
-    type: "MAGAZINE",
-
-    name: {
-      str: "bulky 9x19mm magazine",
-    },
-
-    flags: ["MAG_BULKY"],
-  },
-
-  {
     id: "magazine/glock/9x19mm/15",
-    "copy-from": "@magazine/9x19mm",
+    inherit: ["@magazine/9x19mm", "@magazine/compact"],
     type: "MAGAZINE",
 
     "//sources": [
@@ -100,7 +63,7 @@
   },
   {
     id: "magazine/glock/9x19mm/15+2",
-    "copy-from": "@magazine/9x19mm",
+    inherit: ["@magazine/9x19mm", "@magazine/compact"],
     type: "MAGAZINE",
 
     "//sources": [
@@ -158,7 +121,7 @@
 
   {
     id: "magazine/glock/9x19mm/17",
-    "copy-from": "@magazine/9x19mm",
+    inherit: ["@magazine/9x19mm", "@magazine/compact"],
     type: "MAGAZINE",
 
     "//sources": [
@@ -222,7 +185,7 @@
   },
   {
     id: "magazine/glock/9x19mm/17+2",
-    "copy-from": "@magazine/9x19mm",
+    inherit: ["@magazine/9x19mm", "@magazine/compact"],
     type: "MAGAZINE",
 
     "//sources": [
@@ -315,7 +278,7 @@
 
   {
     id: "magazine/glock/9x19mm/24",
-    "copy-from": "@magazine/9x19mm",
+    inherit: ["@magazine/9x19mm", "@magazine/compact"],
     type: "MAGAZINE",
 
     "//sources": [
@@ -379,7 +342,7 @@
   },
   {
     id: "magazine/glock/9x19mm/24+2",
-    "copy-from": "@magazine/9x19mm",
+    inherit: ["@magazine/9x19mm", "@magazine/compact"],
     type: "MAGAZINE",
 
     "//sources": [
@@ -442,7 +405,7 @@
 
   {
     id: "magazine/glock/9x19mm/31",
-    "copy-from": "@magazine/9x19mm",
+    inherit: ["@magazine/9x19mm", "@magazine/compact"],
     type: "MAGAZINE",
 
     "//sources": [
@@ -507,7 +470,7 @@
   },
   {
     id: "magazine/glock/9x19mm/31+2",
-    "copy-from": "@magazine/9x19mm",
+    inherit: ["@magazine/9x19mm", "@magazine/compact"],
     type: "MAGAZINE",
 
     "//sources": [
@@ -565,7 +528,7 @@
 
   {
     id: "magazine/kriss/9x19mm",
-    "copy-from": "@magazine/9x19mm",
+    inherit: ["@magazine/9x19mm", "@magazine/compact"],
     type: "MAGAZINE",
 
     "//sources": [
@@ -631,7 +594,7 @@
 
   {
     id: "magazine/magpul/pmag/d-50",
-    "copy-from": "@magazine/9x19mm:large",
+    inherit: ["@magazine/9x19mm", "@magazine/bulky"],
     type: "MAGAZINE",
 
     "//sources": [
@@ -687,7 +650,7 @@
 
   {
     id: "magazine/kci/9x19mm/glock",
-    "copy-from": "@magazine/9x19mm:large",
+    inherit: ["@magazine/9x19mm", "@magazine/bulky"],
     type: "MAGAZINE",
 
     "//sources": [
@@ -751,7 +714,7 @@
 
   {
     id: "magazine/beta/c-mag/glock",
-    "copy-from": "@magazine/9x19mm:large",
+    inherit: ["@magazine/9x19mm", "@magazine/bulky"],
     type: "MAGAZINE",
 
     "//sources": [

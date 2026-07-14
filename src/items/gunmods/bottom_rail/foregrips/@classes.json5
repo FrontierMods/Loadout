@@ -1,0 +1,11 @@
+[
+  {
+    id: "@foregrip",
+    inherit: ["@gunmod", "@underbarrel"],
+    type: "PARTIAL",
+
+    material: ["plastic"],
+
+    install_time: "20 s",
+  },
+]

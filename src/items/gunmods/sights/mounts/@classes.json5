@@ -1,0 +1,82 @@
+[
+  {
+    id: "@sight_mount",
+    inherit: "@gunmod",
+    type: "PARTIAL",
+
+    material: ["aluminum"],
+
+    location: "sights",
+    install_time: "45 s",
+
+    min_skills: [["weapon", 1]],
+
+    mod_targets: ["pistol", "smg", "shotgun", "rifle", "bow", "launcher"],
+
+    price_postapoc: "50 cent",
+  },
+  {
+    id: "@sight_mount:disable_sights",
+    inherit: "@sight_mount",
+    type: "PARTIAL",
+
+    flags: ["DISABLE_SIGHTS"],
+  },
+
+  {
+    id: "@sight_mount/rifle",
+    inherit: ["@sight_mount", "@mod_target/long_guns"],
+    type: "PARTIAL",
+  },
+  {
+    id: "@sight_mount/rifle:disable_sights",
+    inherit: ["@sight_mount:disable_sights", "@mod_target/long_guns"],
+    type: "PARTIAL",
+  },
+
+  {
+    id: "@sight_mount/offset",
+    inherit: "@sight_mount/rifle",
+    type: "PARTIAL",
+
+    location: "rail",
+    add_mod: [["sights", 1]],
+  },
+
+  {
+    id: "@sight_mount/rmr",
+    inherit: "@sight_mount",
+    type: "PARTIAL",
+
+    add_mod: [["RMR mount", 1]],
+  },
+  {
+    id: "@sight_mount/rmr:disable_sights",
+    inherit: ["@sight_mount:disable_sights", "@sight_mount/rmr"],
+    type: "PARTIAL",
+  },
+
+  {
+    id: "@sight_mount/30mm",
+    inherit: "@sight_mount/rifle",
+    type: "PARTIAL",
+
+    add_mod: [["30mm scope mount", 1]],
+  },
+
+  {
+    id: "@sight_mount/34mm",
+    inherit: "@sight_mount/rifle",
+    type: "PARTIAL",
+
+    add_mod: [["34mm scope mount", 1]],
+  },
+
+  {
+    id: "@sight_mount/1in",
+    inherit: "@sight_mount/rifle",
+    type: "PARTIAL",
+
+    add_mod: [["1-inch sight mount", 1]],
+  },
+]

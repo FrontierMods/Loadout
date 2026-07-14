@@ -1,7 +1,7 @@
 [
   {
     id: "sight_mount/offset/si/ambush",
-    "copy-from": "@sight_mount/rifle",
+    inherit: "@sight_mount/offset",
     type: "GUNMOD",
 
     "//sources": [
@@ -52,9 +52,7 @@
 
     material: ["steel", "aluminum"],
 
-    location: "rail",
     install_time: "20 s",
-    add_mod: [["sights", 1]],
 
     price: "75 USD",
   },

@@ -1,9 +1,37 @@
 [
-  {
-    abstract: "@sling",
-    type: "ARMOR",
+  { id: "@part", type: "PARTIAL", symbol: "," },
+  { id: "@installable", type: "PARTIAL", symbol: ":" },
+  { id: "@wearable", type: "PARTIAL", symbol: "[" },
 
-    name: { str: "sling" },
+  { id: "@metallic", type: "PARTIAL", color: "light_gray" },
+  { id: "@parkerized", type: "PARTIAL", color: "dark_gray" },
+  { id: "@camo", type: "PARTIAL", color: "green" },
+  { id: "@restricted", type: "PARTIAL", color: "red" },
+  { id: "@secondary", type: "PARTIAL", color: "light_red" },
+
+  {
+    id: "@mod_target/firearms",
+    type: "PARTIAL",
+    mod_targets: ["pistol", "rifle", "smg", "shotgun", "launcher"],
+  },
+  {
+    id: "@mod_target/long_guns",
+    type: "PARTIAL",
+    mod_targets: ["rifle", "smg", "shotgun", "launcher"],
+  },
+
+  {
+    id: "@gun",
+    inherit: ["@parkerized"],
+    type: "PARTIAL",
+
+    symbol: "(",
+  },
+
+  {
+    id: "@sling",
+    inherit: ["@wearable", "@camo"],
+    type: "PARTIAL",
 
     weight: "240 g",
     "//dimensions": {
@@ -26,8 +54,6 @@
     ],
     material_thickness: 1.27,
 
-    symbol: "[",
-    color: "green",
     looks_like: "slingpack",
 
     armor: [
@@ -63,38 +89,21 @@
   },
 
   {
-    abstract: "@magazine",
-    type: "MAGAZINE",
-
-    name: { str: "magazine" },
+    id: "@magazine",
+    inherit: ["@metallic"],
+    type: "PARTIAL",
 
     symbol: "#",
-    color: "light_gray",
-
-    price_postapoc: "1 USD",
   },
   {
-    abstract: "@magazine/body",
-    type: "GENERIC",
-
-    name: { str: "magazine body" },
-
-    symbol: "#",
-    color: "dark_gray",
-
-    "//price": "based on nothing at all",
-    price: "50 cent",
-    price_postapoc: "5 cent",
+    id: "@magazine/body",
+    inherit: ["@part", "@metallic"],
+    type: "PARTIAL",
   },
 
   {
-    abstract: "@magmod",
-    type: "GENERIC",
-    name: { str: "magmod" },
-
-    symbol: "/",
-    color: "light_gray",
-
-    price_postapoc: "5 cent",
+    id: "@magmod",
+    inherit: ["@part", "@parkerized"],
+    type: "PARTIAL",
   },
 ]

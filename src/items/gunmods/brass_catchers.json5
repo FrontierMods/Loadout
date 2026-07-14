@@ -1,7 +1,7 @@
 [
   {
     id: "brass_catcher/caldwell/universal",
-    "copy-from": "@brass_catcher",
+    inherit: "@brass_catcher",
     type: "GUNMOD",
 
     "//sources": [
@@ -53,7 +53,6 @@
     volume: "774 ml",
     longest_side: "152 mm",
 
-    mod_targets: ["shotgun", "smg", "rifle"],
     install_time: "25 s",
 
     pocket_data: [
@@ -77,7 +76,7 @@
 
   {
     id: "brass_catcher/improvised",
-    "copy-from": "@brass_catcher",
+    inherit: "@brass_catcher",
     type: "GUNMOD",
 
     name: { str: "improvised brass catcher" },

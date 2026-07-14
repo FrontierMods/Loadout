@@ -1,7 +1,7 @@
 [
   {
     id: "belt_clip/clipdraw/universal",
-    "copy-from": "@gunmod",
+    inherit: "@gunmod",
     type: "GUNMOD",
 
     "//sources": [
@@ -55,8 +55,6 @@
     },
     volume: "1 ml",
     longest_side: "76 mm",
-
-    color: "light_gray",
 
     material: ["plastic", "steel"],
 

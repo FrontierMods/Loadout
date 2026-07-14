@@ -1,0 +1,31 @@
+[
+  {
+    id: "@magazine/compact",
+    inherit: "@magazine",
+    type: "PARTIAL",
+
+    flags: ["MAG_COMPACT"],
+  },
+  {
+    id: "@magazine/bulky",
+    inherit: "@magazine",
+    type: "PARTIAL",
+
+    flags: ["MAG_BULKY"],
+  },
+
+  {
+    id: "@magazine/5.56x45mm",
+    inherit: "@magazine",
+    type: "PARTIAL",
+
+    ammo_type: ["223", "300blk"],
+  },
+  {
+    id: "@magazine/9x19mm",
+    inherit: "@magazine",
+    type: "PARTIAL",
+
+    ammo_type: ["9mm"],
+  },
+]

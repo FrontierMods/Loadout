@@ -1,7 +1,7 @@
 [
   {
     id: "sight/iron/carry_handle",
-    "copy-from": "@sight/iron",
+    inherit: "@sight/iron",
     type: "GUNMOD",
 
     "//sources": [

@@ -1,7 +1,7 @@
 [
   {
     id: "foregrip/dd/tornado",
-    "copy-from": "@foregrip",
+    inherit: "@foregrip",
     type: "GUNMOD",
 
     "//sources": [
@@ -74,7 +74,7 @@
   },
   {
     id: "foregrip/mission_first/react",
-    "copy-from": "@foregrip",
+    inherit: "@foregrip",
     type: "GUNMOD",
 
     "//sources": [
@@ -138,7 +138,7 @@
   },
   {
     id: "foregrip/magpul/rvg",
-    "copy-from": "@foregrip",
+    inherit: "@foregrip",
     type: "GUNMOD",
 
     "//sources": [
@@ -209,7 +209,7 @@
   },
   {
     id: "foregrip/kac/vertical",
-    "copy-from": "@foregrip",
+    inherit: "@foregrip",
     type: "GUNMOD",
 
     "//sources": [

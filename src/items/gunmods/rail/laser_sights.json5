@@ -1,7 +1,7 @@
 [
   {
     id: "laser_sight/l3harris/atpial-c",
-    "copy-from": "@laser_sight/rail:large",
+    inherit: ["@laser_sight", "@mod_target/long_guns"],
     type: "GUNMOD",
 
     "//sources": [
@@ -158,7 +158,7 @@
   },
   {
     id: "laser_sight/steiner/dbal-a2",
-    "copy-from": "@laser_sight/rail:large",
+    inherit: ["@laser_sight", "@mod_target/long_guns"],
     type: "GUNMOD",
 
     "//sources": [
@@ -232,7 +232,7 @@
   },
   {
     id: "laser_sight/l3harris/an/psq-23",
-    "copy-from": "@laser_sight/rail:large",
+    inherit: ["@laser_sight", "@mod_target/long_guns"],
     type: "GUNMOD",
 
     "//sources": [

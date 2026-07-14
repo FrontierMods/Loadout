@@ -1,6 +1,7 @@
 [
   {
     id: "stock/glock/bt/usw",
+    inherit: "@gunmod",
     type: "GUNMOD",
 
     "//sources": [
@@ -61,9 +62,6 @@
 
     "//material": "assumed from the nature of the item",
     material: ["aluminum", "plastic"],
-
-    symbol: ":",
-    color: "dark_gray",
 
     location: "stock",
     "//install_time": "a guess",

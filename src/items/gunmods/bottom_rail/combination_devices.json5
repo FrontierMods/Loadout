@@ -1,8 +1,7 @@
 [
   {
     id: "combo_device/insight/lam_1000",
-    "//copy-from": "currently copying from laser sight class because the flashlight part cannot be implemented",
-    "copy-from": "@laser_sight/underbarrel",
+    inherit: ["@laser_sight", "@underbarrel"],
     type: "GUNMOD",
 
     "//sources": [
