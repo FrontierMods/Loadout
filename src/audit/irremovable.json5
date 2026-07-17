@@ -8,7 +8,6 @@
 
     extend: {
       flags: ["IRREMOVABLE"],
-      add_mod: [["stock accessory", 2]],
     },
   },
   {
@@ -20,7 +19,6 @@
 
     extend: {
       flags: ["IRREMOVABLE"],
-      add_mod: [["stock accessory", 1]],
     },
   },
   {
@@ -35,7 +33,6 @@
 
     extend: {
       flags: ["IRREMOVABLE"],
-      add_mod: [["stock accessory", 1]],
     },
   },
   {
@@ -47,7 +44,6 @@
 
     extend: {
       flags: ["IRREMOVABLE"],
-      add_mod: [["stock accessory", 2]],
     },
   },
   {
@@ -62,7 +58,6 @@
 
     extend: {
       flags: ["IRREMOVABLE"],
-      add_mod: [["stock accessory", 2]],
     },
   },
   {
@@ -74,7 +69,6 @@
 
     extend: {
       flags: ["IRREMOVABLE"],
-      add_mod: [["stock accessory", 2]],
     },
   },
   {
