@@ -72,17 +72,6 @@
     },
   },
   {
-    id: "pistol_grip",
-    "copy-from": "pistol_grip",
-    type: "GUNMOD",
-
-    name: { str: "ergonomic grip" },
-
-    extend: {
-      flags: ["IRREMOVABLE"],
-    },
-  },
-  {
     id: "match_trigger",
     "copy-from": "match_trigger",
     type: "GUNMOD",
