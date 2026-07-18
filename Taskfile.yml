@@ -1,0 +1,46 @@
+version: "3"
+
+vars:
+  MOD: Loadout
+  # allowlist
+  PACKAGE: json modinfo.json documentation LICENSE README.md
+
+tasks:
+  build:
+    desc: "Build the mod"
+    cmds:
+      - frontier run autodoc build
+
+  package:
+    desc: "Build the mod and zip the release's output"
+    vars:
+      TAG:
+        sh: ghnr publish --dry-run --json | jq -r .tag
+    cmds:
+      - task: build
+      - rm -rf .staging "{{.MOD}}"-*.zip
+      - mkdir -p ".staging/{{.MOD}}"
+      - cp -r {{.PACKAGE}} ".staging/{{.MOD}}"
+      - cd .staging && zip -qr "../{{.MOD}}-{{.TAG}}.zip" "{{.MOD}}"
+      - rm -rf .staging
+
+  release:
+    desc: "Publish release to GitHub"
+    vars:
+      TAG:
+        sh: ghnr publish --dry-run --json | jq -r .tag
+    cmds:
+      - task: package
+      - ghnr publish --asset "{{.MOD}}-{{.TAG}}.zip"
+      - rm "{{.MOD}}-{{.TAG}}.zip"
+
+  dry:
+    desc: "Dry-run the release"
+    vars:
+      TAG:
+        sh: ghnr publish --dry-run --json | jq -r .tag
+    cmds:
+      - task: package
+      - unzip -l "{{.MOD}}-{{.TAG}}.zip"
+      - ghnr publish --dry-run --asset "{{.MOD}}-{{.TAG}}.zip"
+      - rm "{{.MOD}}-{{.TAG}}.zip"
