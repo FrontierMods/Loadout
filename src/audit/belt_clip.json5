@@ -19,17 +19,7 @@
       },
     ],
 
-    valid_mod_locations: [
-      ["barrel", 1],
-      ["bore", 1],
-      ["grip", 1],
-      ["mechanism", 4],
-      ["belt clip", 1],
-      ["rail mount", 1],
-      ["sights mount", 1],
-      ["stock mount", 1],
-      ["underbarrel mount", 1],
-    ],
+    extend: { valid_mod_locations: [["belt clip", 1]] },
   },
   {
     id: "ashot",
@@ -40,15 +30,7 @@
       str: "12 gauge pistol",
     },
 
-    valid_mod_locations: [
-      ["grip", 1],
-      ["stock mount", 1],
-      ["mechanism", 4],
-      ["belt clip", 1],
-      ["sights mount", 1],
-      ["rail mount", 1],
-      ["underbarrel mount", 1],
-    ],
+    extend: { valid_mod_locations: [["belt clip", 1]] },
   },
   {
     id: "2_shot_special",
@@ -58,14 +40,8 @@
     name: {
       str: "double barrel .38 pistol",
     },
-    valid_mod_locations: [
-      ["grip", 1],
-      ["sights", 1],
-      ["underbarrel", 1],
-      ["belt clip", 1],
-      ["rail mount", 1],
-      ["stock mount", 1],
-    ],
+
+    extend: { valid_mod_locations: [["belt clip", 1]] },
   },
   {
     id: "fn57",
@@ -87,17 +63,7 @@
       },
     ],
 
-    valid_mod_locations: [
-      ["barrel", 1],
-      ["grip", 1],
-      ["mechanism", 4],
-      ["belt clip", 1],
-      ["muzzle", 1],
-      ["rail", 1],
-      ["sights", 1],
-      ["stock", 1],
-      ["underbarrel", 1],
-    ],
+    extend: { valid_mod_locations: [["belt clip", 1]] },
   },
   {
     id: "px4",
@@ -108,18 +74,7 @@
       str: "Beretta Px4 Storm pistol",
     },
 
-    valid_mod_locations: [
-      ["barrel", 1],
-      ["bore", 1],
-      ["grip", 1],
-      ["mechanism", 4],
-      ["belt clip", 1],
-      ["muzzle", 1],
-      ["rail", 1],
-      ["sights", 1],
-      ["stock", 1],
-      ["underbarrel", 1],
-    ],
+    extend: { valid_mod_locations: [["belt clip", 1]] },
   },
   {
     id: "px4_40",
@@ -130,18 +85,7 @@
       str: "Beretta Px4 Storm .40 S&W",
     },
 
-    valid_mod_locations: [
-      ["barrel", 1],
-      ["bore", 1],
-      ["grip", 1],
-      ["mechanism", 4],
-      ["belt clip", 1],
-      ["muzzle", 1],
-      ["rail", 1],
-      ["sights", 1],
-      ["stock", 1],
-      ["underbarrel", 1],
-    ],
+    extend: { valid_mod_locations: [["belt clip", 1]] },
   },
   {
     id: "bond_410",
@@ -161,16 +105,9 @@
         },
         description: "Derringers are old-fashioned conceal carry weapons, usually sporting one or two barrels.  The Bond Arms Derringer is a modern series of multi-barrel compact pistols.  Most commonly chambered for .45 Colt, with chambers long enough to accept .410 shotgun shells.  Though, with modern handguns, derringers have become less and less practical as a conceal carry option.",
       },
-    valid_mod_locations: [
-      ["barrel", 1],
-      ["bore", 1],
-      ["grip", 1],
-      ["mechanism", 2],
-      ["belt clip", 1],
-      ["sights mount", 1],
-      ["stock mount", 1],
-      ["underbarrel mount", 1],
     ],
+
+    extend: { valid_mod_locations: [["belt clip", 1]] },
   },
   {
     id: "mauser_c96",
@@ -192,18 +129,7 @@
       },
     ],
 
-    valid_mod_locations: [
-      ["barrel", 1],
-      ["bore", 1],
-      ["grip", 1],
-      ["mechanism", 4],
-      ["belt clip", 1],
-      ["muzzle", 1],
-      ["rail mount", 1],
-      ["sights mount", 1],
-      ["stock mount", 1],
-      ["underbarrel mount", 1],
-    ],
+    extend: { valid_mod_locations: [["belt clip", 1]] },
   },
   {
     id: "hi_power_40",
@@ -214,18 +140,7 @@
       str: "Browning Hi-Power .40 S&W",
     },
 
-    valid_mod_locations: [
-      ["barrel", 1],
-      ["bore", 1],
-      ["grip", 1],
-      ["mechanism", 4],
-      ["belt clip", 1],
-      ["muzzle", 1],
-      ["rail", 1],
-      ["sights", 1],
-      ["stock", 1],
-      ["underbarrel", 1],
-    ],
+    extend: { valid_mod_locations: [["belt clip", 1]] },
   },
   {
     id: "hi_power_9mm",
@@ -236,18 +151,7 @@
       str: "Browning Hi-Power 9x19mm handgun",
     },
 
-    valid_mod_locations: [
-      ["barrel", 1],
-      ["bore", 1],
-      ["grip", 1],
-      ["mechanism", 4],
-      ["belt clip", 1],
-      ["muzzle", 1],
-      ["rail", 1],
-      ["sights", 1],
-      ["stock", 1],
-      ["underbarrel", 1],
-    ],
+    extend: { valid_mod_locations: [["belt clip", 1]] },
   },
   {
     id: "m1911_10",
@@ -269,17 +173,7 @@
       },
     ],
 
-    valid_mod_locations: [
-      ["barrel", 1],
-      ["bore", 1],
-      ["grip", 1],
-      ["mechanism", 4],
-      ["belt clip", 1],
-      ["muzzle", 1],
-      ["sights mount", 1],
-      ["stock", 1],
-      ["underbarrel mount", 1],
-    ],
+    extend: { valid_mod_locations: [["belt clip", 1]] },
   },
   {
     id: "glock_29",
@@ -301,18 +195,7 @@
       },
     ],
 
-    valid_mod_locations: [
-      ["barrel", 1],
-      ["bore", 1],
-      ["grip", 1],
-      ["mechanism", 4],
-      ["belt clip", 1],
-      ["muzzle", 1],
-      ["rail", 1],
-      ["sights", 1],
-      ["stock", 1],
-      ["underbarrel", 1],
-    ],
+    extend: { valid_mod_locations: [["belt clip", 1]] },
   },
   {
     id: "m18",
@@ -334,18 +217,7 @@
       },
     ],
 
-    valid_mod_locations: [
-      ["barrel", 1],
-      ["bore", 1],
-      ["grip", 1],
-      ["mechanism", 4],
-      ["belt clip", 1],
-      ["muzzle", 1],
-      ["rail", 1],
-      ["sights", 1],
-      ["stock", 1],
-      ["underbarrel", 1],
-    ],
+    extend: { valid_mod_locations: [["belt clip", 1]] },
   },
   {
     id: "cz75",
@@ -356,18 +228,7 @@
       str: "CZ 75 B pistol",
     },
 
-    valid_mod_locations: [
-      ["barrel", 1],
-      ["bore", 1],
-      ["grip", 1],
-      ["mechanism", 4],
-      ["belt clip", 1],
-      ["muzzle", 1],
-      ["rail", 1],
-      ["sights", 1],
-      ["stock", 1],
-      ["underbarrel", 1],
-    ],
+    extend: { valid_mod_locations: [["belt clip", 1]] },
   },
   {
     id: "witness_10",
@@ -389,17 +250,7 @@
       },
     ],
 
-    valid_mod_locations: [
-      ["barrel", 1],
-      ["bore", 1],
-      ["grip", 1],
-      ["mechanism", 4],
-      ["belt clip", 1],
-      ["muzzle", 1],
-      ["sights mount", 1],
-      ["stock", 1],
-      ["underbarrel mount", 1],
-    ],
+    extend: { valid_mod_locations: [["belt clip", 1]] },
   },
   {
     id: "flaregun",
@@ -410,14 +261,7 @@
       str: "flaregun",
     },
 
-    valid_mod_locations: [
-      ["grip", 1],
-      ["stock", 1],
-      ["belt clip", 1],
-      ["rail mount", 1],
-      ["sights mount", 1],
-      ["underbarrel mount", 1],
-    ],
+    extend: { valid_mod_locations: [["belt clip", 1]] },
   },
   {
     id: "glock_22",
@@ -428,18 +272,7 @@
       str_sp: "Glock 22",
     },
 
-    valid_mod_locations: [
-      ["barrel", 1],
-      ["bore", 1],
-      ["grip", 1],
-      ["mechanism", 4],
-      ["belt clip", 1],
-      ["muzzle", 1],
-      ["rail", 1],
-      ["sights", 1],
-      ["stock", 1],
-      ["underbarrel", 1],
-    ],
+    extend: { valid_mod_locations: [["belt clip", 1]] },
   },
   {
     id: "glock_31",
@@ -450,18 +283,7 @@
       str: "Glock 31",
     },
 
-    valid_mod_locations: [
-      ["barrel", 1],
-      ["bore", 1],
-      ["grip", 1],
-      ["mechanism", 4],
-      ["belt clip", 1],
-      ["muzzle", 1],
-      ["rail", 1],
-      ["sights", 1],
-      ["stock", 1],
-      ["underbarrel", 1],
-    ],
+    extend: { valid_mod_locations: [["belt clip", 1]] },
   },
   {
     id: "glock_20",
@@ -483,18 +305,7 @@
       },
     ],
 
-    valid_mod_locations: [
-      ["barrel", 1],
-      ["bore", 1],
-      ["grip", 1],
-      ["mechanism", 4],
-      ["belt clip", 1],
-      ["muzzle", 1],
-      ["rail", 1],
-      ["sights", 1],
-      ["stock", 1],
-      ["underbarrel", 1],
-    ],
+    extend: { valid_mod_locations: [["belt clip", 1]] },
   },
   {
     id: "glock_21",
@@ -516,18 +327,7 @@
       },
     ],
 
-    valid_mod_locations: [
-      ["barrel", 1],
-      ["bore", 1],
-      ["grip", 1],
-      ["mechanism", 4],
-      ["belt clip", 1],
-      ["muzzle", 1],
-      ["rail", 1],
-      ["sights", 1],
-      ["stock", 1],
-      ["underbarrel", 1],
-    ],
+    extend: { valid_mod_locations: [["belt clip", 1]] },
   },
   {
     id: "hptc9",
@@ -538,18 +338,7 @@
       str: "Hi-Point C-9 pistol",
     },
 
-    valid_mod_locations: [
-      ["barrel", 1],
-      ["bore", 1],
-      ["grip", 1],
-      ["mechanism", 4],
-      ["belt clip", 1],
-      ["muzzle", 1],
-      ["rail", 1],
-      ["sights", 1],
-      ["stock", 1],
-      ["underbarrel", 1],
-    ],
+    extend: { valid_mod_locations: [["belt clip", 1]] },
   },
   {
     id: "hptcf380",
@@ -560,18 +349,7 @@
       str: "Hi-Point CF-380 pistol",
     },
 
-    valid_mod_locations: [
-      ["barrel", 1],
-      ["bore", 1],
-      ["grip", 1],
-      ["mechanism", 4],
-      ["belt clip", 1],
-      ["muzzle", 1],
-      ["rail", 1],
-      ["sights", 1],
-      ["stock", 1],
-      ["underbarrel", 1],
-    ],
+    extend: { valid_mod_locations: [["belt clip", 1]] },
   },
   {
     id: "hptjcp",
@@ -582,18 +360,7 @@
       str_sp: "Hi-Point Model JCP",
     },
 
-    valid_mod_locations: [
-      ["barrel", 1],
-      ["bore", 1],
-      ["grip", 1],
-      ["mechanism", 4],
-      ["belt clip", 1],
-      ["muzzle", 1],
-      ["rail", 1],
-      ["sights", 1],
-      ["stock", 1],
-      ["underbarrel", 1],
-    ],
+    extend: { valid_mod_locations: [["belt clip", 1]] },
   },
   {
     id: "hptjhp",
@@ -615,18 +382,7 @@
       },
     ],
 
-    valid_mod_locations: [
-      ["barrel", 1],
-      ["bore", 1],
-      ["grip", 1],
-      ["mechanism", 4],
-      ["belt clip", 1],
-      ["muzzle", 1],
-      ["rail", 1],
-      ["sights", 1],
-      ["stock", 1],
-      ["underbarrel", 1],
-    ],
+    extend: { valid_mod_locations: [["belt clip", 1]] },
   },
   {
     id: "p50",
@@ -648,17 +404,7 @@
       },
     ],
 
-    valid_mod_locations: [
-      ["barrel", 1],
-      ["grip", 1],
-      ["mechanism", 4],
-      ["belt clip", 1],
-      ["muzzle", 1],
-      ["rail", 1],
-      ["sights", 1],
-      ["stock", 1],
-      ["underbarrel", 1],
-    ],
+    extend: { valid_mod_locations: [["belt clip", 1]] },
   },
   {
     id: "glock_40",
@@ -680,18 +426,7 @@
       },
     ],
 
-    valid_mod_locations: [
-      ["barrel", 1],
-      ["bore", 1],
-      ["grip", 1],
-      ["mechanism", 4],
-      ["belt clip", 1],
-      ["muzzle", 1],
-      ["rail", 1],
-      ["sights", 1],
-      ["stock", 1],
-      ["underbarrel", 1],
-    ],
+    extend: { valid_mod_locations: [["belt clip", 1]] },
   },
   {
     id: "p08",
@@ -702,18 +437,7 @@
       str: "Luger P08 pistol",
     },
 
-    valid_mod_locations: [
-      ["barrel", 1],
-      ["bore", 1],
-      ["grip", 1],
-      ["mechanism", 4],
-      ["belt clip", 1],
-      ["muzzle", 1],
-      ["rail mount", 1],
-      ["sights mount", 1],
-      ["stock mount", 1],
-      ["underbarrel mount", 1],
-    ],
+    extend: { valid_mod_locations: [["belt clip", 1]] },
   },
   {
     id: "m11",
@@ -724,18 +448,7 @@
       str: "M11 pistol",
     },
 
-    valid_mod_locations: [
-      ["barrel", 1],
-      ["bore", 1],
-      ["grip", 1],
-      ["mechanism", 4],
-      ["belt clip", 1],
-      ["muzzle", 1],
-      ["rail", 1],
-      ["sights", 1],
-      ["stock", 1],
-      ["underbarrel", 1],
-    ],
+    extend: { valid_mod_locations: [["belt clip", 1]] },
   },
   {
     id: "m1911",
@@ -765,18 +478,7 @@
       },
     ],
 
-    valid_mod_locations: [
-      ["barrel", 1],
-      ["bore", 1],
-      ["grip", 1],
-      ["mechanism", 4],
-      ["belt clip", 1],
-      ["muzzle", 1],
-      ["rail", 1],
-      ["sights", 1],
-      ["stock", 1],
-      ["underbarrel", 1],
-    ],
+    extend: { valid_mod_locations: [["belt clip", 1]] },
   },
   {
     id: "m1911a1_38super",
@@ -787,18 +489,7 @@
       str: "M1911A1",
     },
 
-    valid_mod_locations: [
-      ["barrel", 1],
-      ["bore", 1],
-      ["grip", 1],
-      ["mechanism", 4],
-      ["belt clip", 1],
-      ["muzzle", 1],
-      ["rail", 1],
-      ["sights", 1],
-      ["stock", 1],
-      ["underbarrel", 1],
-    ],
+    extend: { valid_mod_locations: [["belt clip", 1]] },
   },
   {
     id: "m9",
@@ -827,18 +518,7 @@
       },
     ],
 
-    valid_mod_locations: [
-      ["barrel", 1],
-      ["bore", 1],
-      ["grip", 1],
-      ["mechanism", 4],
-      ["belt clip", 1],
-      ["muzzle", 1],
-      ["rail", 1],
-      ["sights", 1],
-      ["stock", 1],
-      ["underbarrel", 1],
-    ],
+    extend: { valid_mod_locations: [["belt clip", 1]] },
   },
   {
     id: "makarov",
@@ -861,18 +541,7 @@
       },
     ],
 
-    valid_mod_locations: [
-      ["barrel", 1],
-      ["bore", 1],
-      ["grip", 1],
-      ["mechanism", 4],
-      ["belt clip", 1],
-      ["muzzle", 1],
-      ["rail", 1],
-      ["sights", 1],
-      ["stock", 1],
-      ["underbarrel", 1],
-    ],
+    extend: { valid_mod_locations: [["belt clip", 1]] },
   },
   {
     id: "walther_ppq_45",
@@ -894,18 +563,7 @@
       },
     ],
 
-    valid_mod_locations: [
-      ["barrel", 1],
-      ["bore", 1],
-      ["grip", 1],
-      ["mechanism", 4],
-      ["belt clip", 1],
-      ["muzzle", 1],
-      ["rail", 1],
-      ["sights", 1],
-      ["stock", 1],
-      ["underbarrel", 1],
-    ],
+    extend: { valid_mod_locations: [["belt clip", 1]] },
   },
   {
     id: "ruger_57",
@@ -927,17 +585,7 @@
       },
     ],
 
-    valid_mod_locations: [
-      ["barrel", 1],
-      ["grip", 1],
-      ["mechanism", 4],
-      ["belt clip", 1],
-      ["muzzle", 1],
-      ["rail", 1],
-      ["sights", 1],
-      ["stock", 1],
-      ["underbarrel", 1],
-    ],
+    extend: { valid_mod_locations: [["belt clip", 1]] },
   },
   {
     id: "m17",
@@ -959,18 +607,7 @@
       },
     ],
 
-    valid_mod_locations: [
-      ["barrel", 1],
-      ["bore", 1],
-      ["grip", 1],
-      ["mechanism", 4],
-      ["belt clip", 1],
-      ["muzzle", 1],
-      ["rail", 1],
-      ["sights", 1],
-      ["stock", 1],
-      ["underbarrel", 1],
-    ],
+    extend: { valid_mod_locations: [["belt clip", 1]] },
   },
   {
     id: "p226_357sig",
@@ -981,18 +618,7 @@
       str: "SIG P226",
     },
 
-    valid_mod_locations: [
-      ["barrel", 1],
-      ["bore", 1],
-      ["grip", 1],
-      ["mechanism", 4],
-      ["belt clip", 1],
-      ["muzzle", 1],
-      ["rail", 1],
-      ["sights", 1],
-      ["stock", 1],
-      ["underbarrel", 1],
-    ],
+    extend: { valid_mod_locations: [["belt clip", 1]] },
   },
   {
     id: "p226_9mm",
@@ -1003,18 +629,7 @@
       str: "SIG P226 MK25 pistol",
     },
 
-    valid_mod_locations: [
-      ["barrel", 1],
-      ["bore", 1],
-      ["grip", 1],
-      ["mechanism", 4],
-      ["belt clip", 1],
-      ["muzzle", 1],
-      ["rail", 1],
-      ["sights", 1],
-      ["stock", 1],
-      ["underbarrel", 1],
-    ],
+    extend: { valid_mod_locations: [["belt clip", 1]] },
   },
   {
     id: "p320_357sig",
@@ -1025,18 +640,7 @@
       str: "SIG P320 Compact",
     },
 
-    valid_mod_locations: [
-      ["barrel", 1],
-      ["bore", 1],
-      ["grip", 1],
-      ["mechanism", 4],
-      ["belt clip", 1],
-      ["muzzle", 1],
-      ["rail", 1],
-      ["sights", 1],
-      ["stock", 1],
-      ["underbarrel", 1],
-    ],
+    extend: { valid_mod_locations: [["belt clip", 1]] },
   },
   {
     id: "p220_10",
@@ -1058,18 +662,7 @@
       },
     ],
 
-    valid_mod_locations: [
-      ["barrel", 1],
-      ["bore", 1],
-      ["grip", 1],
-      ["mechanism", 4],
-      ["belt clip", 1],
-      ["muzzle", 1],
-      ["rail", 1],
-      ["sights", 1],
-      ["stock", 1],
-      ["underbarrel", 1],
-    ],
+    extend: { valid_mod_locations: [["belt clip", 1]] },
   },
   {
     id: "sig_40",
@@ -1080,18 +673,7 @@
       str_sp: "SIG Pro .40",
     },
 
-    valid_mod_locations: [
-      ["barrel", 1],
-      ["bore", 1],
-      ["grip", 1],
-      ["mechanism", 4],
-      ["belt clip", 1],
-      ["muzzle", 1],
-      ["rail", 1],
-      ["sights", 1],
-      ["stock", 1],
-      ["underbarrel", 1],
-    ],
+    extend: { valid_mod_locations: [["belt clip", 1]] },
   },
   {
     id: "sp2022",
@@ -1102,18 +684,7 @@
       str: "SIG Pro SP2022 9mm pistol",
     },
 
-    valid_mod_locations: [
-      ["barrel", 1],
-      ["bore", 1],
-      ["grip", 1],
-      ["mechanism", 4],
-      ["belt clip", 1],
-      ["muzzle", 1],
-      ["rail", 1],
-      ["sights", 1],
-      ["stock", 1],
-      ["underbarrel", 1],
-    ],
+    extend: { valid_mod_locations: [["belt clip", 1]] },
   },
   {
     id: "sig_mosquito",
@@ -1136,18 +707,7 @@
       },
     ],
 
-    valid_mod_locations: [
-      ["barrel", 1],
-      ["bore", 1],
-      ["grip", 1],
-      ["mechanism", 4],
-      ["belt clip", 1],
-      ["muzzle", 1],
-      ["rail mount", 1],
-      ["sights mount", 1],
-      ["stock", 1],
-      ["underbarrel", 1],
-    ],
+    extend: { valid_mod_locations: [["belt clip", 1]] },
   },
   {
     id: "pressin",
@@ -1158,7 +718,7 @@
       str_sp: "the Pressin",
     },
 
-    valid_mod_locations: [["belt clip", 1]],
+    extend: { valid_mod_locations: [["belt clip", 1]] },
   },
   {
     id: "tokarev",
@@ -1180,18 +740,7 @@
       },
     ],
 
-    valid_mod_locations: [
-      ["barrel", 1],
-      ["bore", 1],
-      ["grip", 1],
-      ["mechanism", 4],
-      ["belt clip", 1],
-      ["muzzle", 1],
-      ["rail", 1],
-      ["sights", 1],
-      ["stock", 1],
-      ["underbarrel", 1],
-    ],
+    extend: { valid_mod_locations: [["belt clip", 1]] },
   },
   {
     id: "usp_9mm",
@@ -1202,18 +751,7 @@
       str: "USP 9x19mm pistol",
     },
 
-    valid_mod_locations: [
-      ["barrel", 1],
-      ["bore", 1],
-      ["grip", 1],
-      ["mechanism", 4],
-      ["belt clip", 1],
-      ["muzzle", 1],
-      ["rail", 1],
-      ["sights", 1],
-      ["stock", 1],
-      ["underbarrel", 1],
-    ],
+    extend: { valid_mod_locations: [["belt clip", 1]] },
   },
   {
     id: "usp_45",
@@ -1242,18 +780,7 @@
       },
     ],
 
-    valid_mod_locations: [
-      ["barrel", 1],
-      ["bore", 1],
-      ["grip", 1],
-      ["mechanism", 4],
-      ["belt clip", 1],
-      ["muzzle", 1],
-      ["rail", 1],
-      ["sights", 1],
-      ["stock", 1],
-      ["underbarrel", 1],
-    ],
+    extend: { valid_mod_locations: [["belt clip", 1]] },
   },
   {
     id: "walther_ccp",
@@ -1264,18 +791,7 @@
       str: "Walther CCP pistol",
     },
 
-    valid_mod_locations: [
-      ["barrel", 1],
-      ["bore", 1],
-      ["grip", 1],
-      ["mechanism", 4],
-      ["belt clip", 1],
-      ["muzzle", 1],
-      ["rail", 1],
-      ["sights", 1],
-      ["stock", 1],
-      ["underbarrel", 1],
-    ],
+    extend: { valid_mod_locations: [["belt clip", 1]] },
   },
   {
     id: "walther_p38",
@@ -1286,18 +802,7 @@
       str: "Walther P38 handgun",
     },
 
-    valid_mod_locations: [
-      ["barrel", 1],
-      ["bore", 1],
-      ["grip", 1],
-      ["mechanism", 4],
-      ["belt clip", 1],
-      ["muzzle", 1],
-      ["rail", 1],
-      ["sights", 1],
-      ["stock", 1],
-      ["underbarrel", 1],
-    ],
+    extend: { valid_mod_locations: [["belt clip", 1]] },
   },
   {
     id: "walther_ppk",
@@ -1308,18 +813,7 @@
       str_sp: "Walther PPK pistol",
     },
 
-    valid_mod_locations: [
-      ["barrel", 1],
-      ["bore", 1],
-      ["grip", 1],
-      ["mechanism", 4],
-      ["belt clip", 1],
-      ["muzzle", 1],
-      ["rail", 1],
-      ["sights", 1],
-      ["stock", 1],
-      ["underbarrel", 1],
-    ],
+    extend: { valid_mod_locations: [["belt clip", 1]] },
   },
   {
     id: "walther_ppq_9mm",
@@ -1330,18 +824,7 @@
       str: "Walther PPQ 9mm pistol",
     },
 
-    valid_mod_locations: [
-      ["barrel", 1],
-      ["bore", 1],
-      ["grip", 1],
-      ["mechanism", 4],
-      ["belt clip", 1],
-      ["muzzle", 1],
-      ["rail", 1],
-      ["sights", 1],
-      ["stock", 1],
-      ["underbarrel", 1],
-    ],
+    extend: { valid_mod_locations: [["belt clip", 1]] },
   },
   {
     id: "walther_p22",
@@ -1363,18 +846,7 @@
       },
     ],
 
-    valid_mod_locations: [
-      ["barrel", 1],
-      ["bore", 1],
-      ["grip", 1],
-      ["mechanism", 4],
-      ["belt clip", 1],
-      ["muzzle", 1],
-      ["rail", 1],
-      ["sights", 1],
-      ["stock", 1],
-      ["underbarrel", 1],
-    ],
+    extend: { valid_mod_locations: [["belt clip", 1]] },
   },
   {
     id: "xd_10",
@@ -1396,17 +868,6 @@
       },
     ],
 
-    valid_mod_locations: [
-      ["barrel", 1],
-      ["bore", 1],
-      ["grip", 1],
-      ["mechanism", 4],
-      ["belt clip", 1],
-      ["muzzle", 1],
-      ["rail", 1],
-      ["sights", 1],
-      ["stock", 1],
-      ["underbarrel", 1],
-    ],
+    extend: { valid_mod_locations: [["belt clip", 1]] },
   },
 ]
