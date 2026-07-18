@@ -82,7 +82,7 @@
         rigid: true,
 
         ammo_restriction: { shot: 4 },
-        allowed_speedloaders: ["shot_speedloader6", "shot_speedloader8"],
+        //allowed_speedloaders: ["shot_speedloader6", "shot_speedloader8"],
       },
     ],
   },
