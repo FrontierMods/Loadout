@@ -2,7 +2,8 @@
   {
     id: "wooden_grip",
     "copy-from": "wooden_grip",
-    type: "GUNMOD",
+    type: "ITEM",
+    subtypes: ["GUNMOD"],
 
     // * this is meant to be a basic foregrip carved from nearby objects out of desperation
     // * it's intended to only go on guns that have enough wooden furniture to nail the foregrip into
@@ -48,7 +49,7 @@
     min_skills: [["weapon", 1]],
     install_time: "90 s",
 
-    "//handling_modifier": {
+    handling_modifier: {
       grip_short: 2,
     },
     handling_modifier: 2,
@@ -86,21 +87,20 @@
     description: "A nylon shoulder strap for carrying musical instruments.  In a pinch it could be tied around a gun to carry it  However, it offers no protection.",
 
     weight: "70 g",
-    "//dimensions": {
+    dimensions: {
+      type: "rectangle",
+
       length: "41 in",
       width: "2 in",
       height: "1 mm",
-      raw: "52.9 ml",
+      // * compensation for buckles
       trim: -0.05,
-      notes: ["negative trim compensates for buckles etc."],
     },
-    volume: "56 ml",
 
     material: ["nylon"],
 
-    mod_targets: ["rifle", "shotgun", "smg", "launcher"],
     location: "sling",
-    install_time: "50 s",
+    install_time: "20 s",
 
     armor_data: {
       armor: [

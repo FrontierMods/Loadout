@@ -2,7 +2,8 @@
   {
     id: "cheek_pad/blackhawk/tactical",
     inherit: "@gunmod",
-    type: "GUNMOD",
+    type: "ITEM",
+    subtypes: ["GUNMOD"],
 
     "//sources": [
       "https://www.blackhawk.com/accessories/cheekpads/tactical-cheek-pad/BH-90CP01BK.html",
@@ -63,7 +64,8 @@
   {
     id: "recoil_pad/allen/slip_on",
     inherit: "@gunmod",
-    type: "GUNMOD",
+    type: "ITEM",
+    subtypes: ["GUNMOD"],
 
     "//sources": [
       "https://byallen.com/allen-company-recoil-eraser-ii-slip-on-pad-medium-black",

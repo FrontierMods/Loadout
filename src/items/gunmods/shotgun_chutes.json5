@@ -2,7 +2,8 @@
   {
     id: "chute/arredondo/mossberg/930",
     inherit: "@chute",
-    type: "GUNMOD",
+    type: "ITEM",
+    subtypes: ["GUNMOD"],
 
     "//sources": [
       "https://www.arredondoaccessories.com/product/speed-loader-assist/",
@@ -46,7 +47,8 @@
   {
     id: "chute/arredondo/benelli/sa",
     inherit: "@chute",
-    type: "GUNMOD",
+    type: "ITEM",
+    subtypes: ["GUNMOD"],
 
     "//sources": [
       "https://www.arredondoaccessories.com/product/speed-loader-assist/",

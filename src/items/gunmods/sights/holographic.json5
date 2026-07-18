@@ -2,7 +2,8 @@
   {
     id: "sight/eotech/553",
     inherit: ["@sight/holographic", "@with_magnifier"],
-    type: "GUNMOD",
+    type: "ITEM",
+    subtypes: ["GUNMOD"],
 
     "//sources": [
       "https://www.manualsdir.com/manuals/402192/eotech-553.html",
@@ -64,7 +65,8 @@
   {
     id: "sight/eotech/exps3",
     inherit: ["@sight/holographic", "@with_magnifier"],
-    type: "GUNMOD",
+    type: "ITEM",
+    subtypes: ["GUNMOD"],
 
     "//sources": [
       "https://www.eotechinc.com/eotech-hws-exps3",
@@ -132,7 +134,8 @@
   {
     id: "sight/vortex/uh1",
     inherit: ["@sight/holographic", "@with_magnifier"],
-    type: "GUNMOD",
+    type: "ITEM",
+    subtypes: ["GUNMOD"],
 
     "//sources": [
       "https://vortexoptics.com/vortex-amg-uh1-gen2-holographic-sight.html",

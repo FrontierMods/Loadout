@@ -2,7 +2,8 @@
   {
     id: "foregrip/magpul/afg2",
     inherit: "@foregrip",
-    type: "GUNMOD",
+    type: "ITEM",
+    subtypes: ["GUNMOD"],
 
     "//sources": [
       "https://www.wingtactical.com/firearm-parts/ar-15/grips-accessories/foregrips/magpul-afg2-angled-fore-grip/",
@@ -74,7 +75,8 @@
   {
     id: "foregrip/f1/skeletonized",
     inherit: "@foregrip",
-    type: "GUNMOD",
+    type: "ITEM",
+    subtypes: ["GUNMOD"],
 
     "//sources": [
       "https://www.wingtactical.com/firearm-parts/ar-15/grips-foregrips/foregrips/f-1-firearms-m-lok-skeletonized-angled-foregrip/",

@@ -2,7 +2,8 @@
   {
     id: "sight/offset/magpul/mbus_pro",
     inherit: "@sight/offset",
-    type: "GUNMOD",
+    type: "ITEM",
+    subtypes: ["GUNMOD"],
 
     "//sources": [
       "https://magpul.com/mbus-pro-offset-sight-rear.html",

@@ -2,7 +2,7 @@
   {
     id: "gunmod/part/suppressor/thunder_beast/fly_9",
     inherit: ["@part", "@metallic"],
-    type: "GENERIC",
+    type: "ITEM",
 
     "//sources": ["https://thunderbeastarms.com/products/fly9"],
 

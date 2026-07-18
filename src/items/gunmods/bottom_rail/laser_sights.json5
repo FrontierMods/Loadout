@@ -2,7 +2,8 @@
   {
     id: "laser_sight/steiner/tor_mini",
     inherit: ["@laser_sight", "@underbarrel"],
-    type: "GUNMOD",
+    type: "ITEM",
+    subtypes: ["GUNMOD"],
 
     "//sources": ["https://www.steiner-optics.com/laser-devices/tor-mini"],
 
@@ -66,7 +67,8 @@
   {
     id: "laser_sight/sightmark/readyfire",
     inherit: ["@laser_sight", "@underbarrel"],
-    type: "GUNMOD",
+    type: "ITEM",
+    subtypes: ["GUNMOD"],
 
     "//sources": [
       "https://sightmark.com/products/readyfire-lw-r5-red-laser-sight",

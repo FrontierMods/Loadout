@@ -2,7 +2,8 @@
   {
     id: "robofac_gun",
     "copy-from": "robofac_gun",
-    type: "GUN",
+    type: "ITEM",
+    subtypes: ["GUN"],
 
     name: { str: "Hub 01 HWP" },
 
@@ -20,7 +21,9 @@
   {
     id: "m110a1",
     "copy-from": "m110a1",
-    type: "GUN",
+    type: "ITEM",
+    subtypes: ["GUN"],
+
     name: { str: "M110A1" },
 
     // * keep stock on because a rifle, even out of use, would most likely be equipped with one
@@ -29,10 +32,13 @@
   {
     id: "modular_m16_auto_rifle",
     "copy-from": "modular_m16_auto_rifle",
-    type: "GUN",
+    type: "ITEM",
+    subtypes: ["GUN"],
+
     name: {
       str: "M16 auto rifle",
     },
+
     variant_type: "gun",
     variants: [
       {
@@ -50,7 +56,9 @@
   {
     id: "modular_m16a4",
     "copy-from": "modular_m16a4",
-    type: "GUN",
+    type: "ITEM",
+    subtypes: ["GUN"],
+
     name: {
       str: "M16 burst rifle",
     },
@@ -72,7 +80,9 @@
   {
     id: "modular_m27_assault_rifle",
     "copy-from": "modular_m27_assault_rifle",
-    type: "GUN",
+    type: "ITEM",
+    subtypes: ["GUN"],
+
     name: {
       str: "M27 assault rifle",
     },

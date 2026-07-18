@@ -2,7 +2,8 @@
   {
     id: "sight/trijicon/ta01",
     inherit: "@sight/rifle",
-    type: "GUNMOD",
+    type: "ITEM",
+    subtypes: ["GUNMOD"],
 
     "//sources": [
       "https://www.trijicon.com/discontinued-products/details/ta01",
@@ -97,7 +98,8 @@
   {
     id: "sight/leupold/mark_4",
     inherit: "@sight/30mm",
-    type: "GUNMOD",
+    type: "ITEM",
+    subtypes: ["GUNMOD"],
 
     "//sources": [
       "https://charliescustomclones.com/leupold-mark-4-scope-mr-t-2-5-8x36mm-illum-tmr-ret/",
@@ -215,7 +217,8 @@
   {
     id: "sight/leupold/mark_4:magnified",
     "copy-from": "sight/leupold/mark_4",
-    type: "GUNMOD",
+    type: "ITEM",
+    subtypes: ["GUNMOD"],
 
     name: {
       str: "Marines variable scope (magnified)",
@@ -271,7 +274,8 @@
   {
     id: "sight/elcan/specterdr/legacy",
     inherit: "@sight/rifle",
-    type: "GUNMOD",
+    type: "ITEM",
+    subtypes: ["GUNMOD"],
 
     "//sources": [
       "https://armament.com/specterdr-1x-4x-legacy/",
@@ -378,7 +382,8 @@
   {
     id: "sight/elcan/specterdr/legacy:magnified",
     "copy-from": "sight/elcan/specterdr/legacy",
-    type: "GUNMOD",
+    type: "ITEM",
+    subtypes: ["GUNMOD"],
 
     name: {
       str: "Elcan variable sight (magnified)",
@@ -419,7 +424,8 @@
   {
     id: "sight/eotech/vudu/1-6x",
     inherit: "@sight/30mm",
-    type: "GUNMOD",
+    type: "ITEM",
+    subtypes: ["GUNMOD"],
 
     "//sources": ["https://www.eotechinc.com/eotech-vudu-1-6x24-ffp"],
 
@@ -518,7 +524,8 @@
   {
     id: "sight/eotech/vudu/1-6x:magnified",
     "copy-from": "sight/eotech/vudu/1-6x",
-    type: "GUNMOD",
+    type: "ITEM",
+    subtypes: ["GUNMOD"],
 
     name: {
       str: "slim 30mm variable scope (magnified)",
@@ -560,7 +567,8 @@
   {
     id: "sight/vortex/viper_pst/1-6x",
     inherit: "@sight/30mm",
-    type: "GUNMOD",
+    type: "ITEM",
+    subtypes: ["GUNMOD"],
 
     "//sources": [
       "https://vortexoptics.com/vortex-viper-pst-gen-2-1-6x24-riflescope+reticle-VMR-2~MOA",
@@ -654,7 +662,8 @@
   {
     id: "sight/vortex/viper_pst/1-6x:magnified",
     "copy-from": "sight/vortex/viper_pst/1-6x",
-    type: "GUNMOD",
+    type: "ITEM",
+    subtypes: ["GUNMOD"],
 
     name: {
       str: "hunting 30mm variable scope (magnified)",
@@ -695,7 +704,8 @@
   {
     id: "sight/sig/tango6t/1-6x",
     inherit: "@sight/30mm",
-    type: "GUNMOD",
+    type: "ITEM",
+    subtypes: ["GUNMOD"],
 
     "//sources": [
       "https://www.sigsauer.com/tango6t-1-6x24-mm.html",
@@ -802,7 +812,8 @@
   {
     id: "sight/sig/tango6t/1-6x:magnified",
     "copy-from": "sight/sig/tango6t/1-6x",
-    type: "GUNMOD",
+    type: "ITEM",
+    subtypes: ["GUNMOD"],
 
     name: {
       str: "Army 30mm variable scope (magnified)",

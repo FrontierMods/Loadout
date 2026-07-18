@@ -2,7 +2,7 @@
   {
     id: "magazine/baseplate/colt/stanag",
     inherit: "@magmod",
-    type: "GENERIC",
+    type: "ITEM",
 
     "//sources": ["M4 Technical Data Package"],
 
@@ -44,7 +44,7 @@
   {
     id: "magazine/baseplate/magpul/pmag",
     inherit: "@magmod",
-    type: "GENERIC",
+    type: "ITEM",
 
     "//sources": [
       [
@@ -101,7 +101,7 @@
   {
     id: "magazine/baseplate/magpul/ranger",
     inherit: "@magmod",
-    type: "GENERIC",
+    type: "ITEM",
 
     "//sources": [
       "https://magpul.com/pmagrangerplate-genm35-56x45-3pack.html",
@@ -158,7 +158,7 @@
   {
     id: "magazine/baseplate/magpul/ranger/usgi",
     inherit: "@magmod",
-    type: "GENERIC",
+    type: "ITEM",
 
     "//sources": [
       "https://magpul.com/rangerplate-usgi5-56x45-3pack.html",
@@ -207,7 +207,7 @@
   {
     id: "magazine/baseplate/taran/extended/pmag",
     inherit: "@magmod",
-    type: "GENERIC",
+    type: "ITEM",
 
     "//sources": [
       "https://tarantacticalinnovations.com/5-6-base-pad-for-ar-15-223-30-40-round-pmag-magazines/",

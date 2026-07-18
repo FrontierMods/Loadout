@@ -2,7 +2,8 @@
   {
     id: "adjustable_stock",
     "copy-from": "adjustable_stock",
-    type: "GUNMOD",
+    type: "ITEM",
+    subtypes: ["GUNMOD"],
 
     name: { str: "adjustable stock" },
 
@@ -13,7 +14,8 @@
   {
     id: "folding_stock",
     "copy-from": "folding_stock",
-    type: "GUNMOD",
+    type: "ITEM",
+    subtypes: ["GUNMOD"],
 
     name: { str: "folding stock" },
 
@@ -24,7 +26,8 @@
   {
     id: "folding_stock_folded",
     "copy-from": "folding_stock_folded",
-    type: "GUNMOD",
+    type: "ITEM",
+    subtypes: ["GUNMOD"],
 
     name: {
       str: "folding stock (folded)",
@@ -38,7 +41,8 @@
   {
     id: "high_end_folding_stock",
     "copy-from": "high_end_folding_stock",
-    type: "GUNMOD",
+    type: "ITEM",
+    subtypes: ["GUNMOD"],
 
     name: { str: "modular folding stock" },
 
@@ -49,7 +53,8 @@
   {
     id: "high_end_folding_stock_folded",
     "copy-from": "high_end_folding_stock_folded",
-    type: "GUNMOD",
+    type: "ITEM",
+    subtypes: ["GUNMOD"],
 
     name: {
       str: "modular folding stock (folded)",
@@ -63,7 +68,8 @@
   {
     id: "recoil_stock",
     "copy-from": "recoil_stock",
-    type: "GUNMOD",
+    type: "ITEM",
+    subtypes: ["GUNMOD"],
 
     name: { str: "recoil stock" },
 
@@ -74,7 +80,8 @@
   {
     id: "match_trigger",
     "copy-from": "match_trigger",
-    type: "GUNMOD",
+    type: "ITEM",
+    subtypes: ["GUNMOD"],
 
     name: { str: "match trigger" },
 

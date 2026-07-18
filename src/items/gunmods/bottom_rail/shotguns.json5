@@ -2,7 +2,8 @@
   {
     id: "shotgun/underbarrel/c-more/m26",
     inherit: ["@underbarrel/weapon"],
-    type: "GUNMOD",
+    type: "ITEM",
+    subtypes: ["GUNMOD"],
 
     "//sources": [
       ["TM 9-1005-341-10", "weight", "length"],

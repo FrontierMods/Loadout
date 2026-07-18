@@ -2,7 +2,8 @@
   {
     id: "bipod/harris/s-l2p",
     inherit: "@bipod",
-    type: "GUNMOD",
+    type: "ITEM",
+    subtypes: ["GUNMOD"],
 
     "//sources": [
       "https://www.harrisbipods.com/product/s-l2p-bipod/",
@@ -71,7 +72,8 @@
     id: "bipod/harris/s-l2p:deployed",
     inherit: ["@bipod:deployed"],
     "copy-from": "bipod/harris/s-l2p",
-    type: "GUNMOD",
+    type: "ITEM",
+    subtypes: ["GUNMOD"],
 
     name: {
       str: "sniper bipod (deployed)",

@@ -2,7 +2,8 @@
   {
     id: "sight/iron/carry_handle",
     inherit: "@sight/iron",
-    type: "GUNMOD",
+    type: "ITEM",
+    subtypes: ["GUNMOD"],
 
     "//sources": [
       [

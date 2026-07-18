@@ -2,7 +2,7 @@
   {
     id: "magazine/baseplate/glock/9x19mm/oem",
     inherit: "@magmod",
-    type: "GENERIC",
+    type: "ITEM",
 
     "//sources": [
       [
@@ -70,7 +70,7 @@
   {
     id: "magazine/baseplate/glock/9x19mm/+2",
     inherit: "@magmod",
-    type: "GENERIC",
+    type: "ITEM",
 
     "//sources": [
       [
@@ -124,7 +124,7 @@
   {
     id: "magazine/baseplate/kriss/9x19mm",
     inherit: "@magmod",
-    type: "GENERIC",
+    type: "ITEM",
 
     "//sources": [
       [

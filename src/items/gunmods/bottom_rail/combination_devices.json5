@@ -2,7 +2,8 @@
   {
     id: "combo_device/insight/lam_1000",
     inherit: ["@laser_sight", "@underbarrel"],
-    type: "GUNMOD",
+    type: "ITEM",
+    subtypes: ["GUNMOD"],
 
     "//sources": [
       "https://www.night-optics.com/insight-technology-military-handgun-mounted-flashlight-visible-laser-aiming-module-ilwlp-lam-1000-wi.html",

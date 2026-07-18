@@ -2,7 +2,8 @@
   {
     id: "upper_receiver/ar15/556/16in/aero/mod_4",
     inherit: "@upper_receiver/ar15/556",
-    type: "GUNMOD",
+    type: "ITEM",
+    subtypes: ["GUNMOD"],
 
     "//sources": [
       "https://www.aeroprecisionusa.com/m4e1-threaded-complete-upper-16-in-5pt-56-mid-length-gov-w-15-mod-4-handguard",
@@ -108,7 +109,8 @@
   {
     id: "upper_receiver/ar15/556/20in/colt/m16a3",
     inherit: "@upper_receiver/ar15/556",
-    type: "GUNMOD",
+    type: "ITEM",
+    subtypes: ["GUNMOD"],
 
     "//sources": [
       [
@@ -227,7 +229,8 @@
   {
     id: "upper_receiver/ar15/556/20in/colt/m16a4",
     inherit: "@upper_receiver/ar15/556",
-    type: "GUNMOD",
+    type: "ITEM",
+    subtypes: ["GUNMOD"],
 
     "//sources": [
       [
@@ -346,7 +349,8 @@
   {
     id: "upper_receiver/ar15/556/14.5in/colt/m4a1",
     inherit: "@upper_receiver/ar15/556",
-    type: "GUNMOD",
+    type: "ITEM",
+    subtypes: ["GUNMOD"],
 
     "//sources": [
       "M4A1 Technical Data Package",
@@ -440,7 +444,8 @@
   {
     id: "upper_receiver/ar15/556/10.3in/lmt/cqbr",
     inherit: "@upper_receiver/ar15/556",
-    type: "GUNMOD",
+    type: "ITEM",
+    subtypes: ["GUNMOD"],
 
     "//sources": [
       "M4A1 Technical Data Package",

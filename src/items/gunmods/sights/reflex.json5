@@ -2,7 +2,8 @@
   {
     id: "sight/ncstar",
     inherit: ["@sight/reflex", "@with_magnifier"],
-    type: "GUNMOD",
+    type: "ITEM",
+    subtypes: ["GUNMOD"],
 
     "//sources": [
       [
@@ -98,7 +99,8 @@
   {
     id: "sight/trijicon/rmr",
     inherit: "@sight/reflex",
-    type: "GUNMOD",
+    type: "ITEM",
+    subtypes: ["GUNMOD"],
 
     "//sources": ["https://www.trijicon.com/products/details/rm06-c-700672"],
 
@@ -196,7 +198,8 @@
   {
     id: "sight/aimpoint/compm2",
     inherit: ["@sight/reflex", "@with_magnifier"],
-    type: "GUNMOD",
+    type: "ITEM",
+    subtypes: ["GUNMOD"],
 
     "//sources": [
       "https://www.aimpoint.com/products/comp-m2-4-moa-red-dot-reflex-sight-without-mount/",
@@ -252,7 +255,8 @@
   {
     id: "sight/vortex/strikefire_ii",
     inherit: ["@sight/reflex", "@with_magnifier"],
-    type: "GUNMOD",
+    type: "ITEM",
+    subtypes: ["GUNMOD"],
 
     "//sources": [
       "https://vortexoptics.com/vortex-strikefire-2-red-dot+reticle-Red",
@@ -312,7 +316,8 @@
   {
     id: "sight/trijicon/rx01",
     inherit: "@sight/reflex",
-    type: "GUNMOD",
+    type: "ITEM",
+    subtypes: ["GUNMOD"],
 
     "//sources": [
       "https://www.trijicon.com/discontinued-products/details/rx01",
@@ -369,7 +374,8 @@
   {
     id: "sight/noblex/sight_ii",
     inherit: ["@sight/reflex", "@with_magnifier"],
-    type: "GUNMOD",
+    type: "ITEM",
+    subtypes: ["GUNMOD"],
 
     "//sources": [
       "https://us.noblex-e-optics.com/products/sight-ii-plus-leuchtpunktvisier",
@@ -430,7 +436,8 @@
   {
     id: "sight/aimpoint/compm4",
     inherit: ["@sight/reflex", "@with_magnifier"],
-    type: "GUNMOD",
+    type: "ITEM",
+    subtypes: ["GUNMOD"],
 
     "//sources": [
       "https://www.aimpoint.com/products/comp-m4-2-moa-red-dot-reflex-sight-without-mount/",

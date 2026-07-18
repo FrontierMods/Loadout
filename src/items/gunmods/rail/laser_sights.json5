@@ -2,7 +2,8 @@
   {
     id: "laser_sight/l3harris/atpial-c",
     inherit: ["@laser_sight", "@mod_target/long_guns"],
-    type: "GUNMOD",
+    type: "ITEM",
+    subtypes: ["GUNMOD"],
 
     "//sources": [
       "https://www.l3harris.com/all-capabilities/advanced-target-pointer-illuminator-aiming-laser-atpial-an-peq-15",
@@ -91,7 +92,8 @@
   {
     id: "laser_sight/l3harris/la-5b/peq",
     "copy-from": "laser_sight/l3harris/atpial-c",
-    type: "GUNMOD",
+    type: "ITEM",
+    subtypes: ["GUNMOD"],
 
     "//sources": [
       "https://tnvc.com/shop/l3-insight-high-power-atpial-la-5bpeq/",
@@ -159,7 +161,8 @@
   {
     id: "laser_sight/steiner/dbal-a2",
     inherit: ["@laser_sight", "@mod_target/long_guns"],
-    type: "GUNMOD",
+    type: "ITEM",
+    subtypes: ["GUNMOD"],
 
     "//sources": [
       "https://www.steiner-defense.com/laser-devices/dbal-series/dbal-a2",
@@ -233,7 +236,8 @@
   {
     id: "laser_sight/l3harris/an/psq-23",
     inherit: ["@laser_sight", "@mod_target/long_guns"],
-    type: "GUNMOD",
+    type: "ITEM",
+    subtypes: ["GUNMOD"],
 
     "//sources": [
       "TC 3-22.9",

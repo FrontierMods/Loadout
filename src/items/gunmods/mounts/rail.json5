@@ -2,7 +2,8 @@
   {
     id: "mount/rail/magpul",
     inherit: ["@gunmod", "@mod_target/long_guns"],
-    type: "GUNMOD",
+    type: "ITEM",
+    subtypes: ["GUNMOD"],
 
     "//sources": [
       "https://magpul.com/m-lokaluminumrail-9slots.html",
@@ -50,7 +51,8 @@
   {
     id: "mount/rail/magpul:double",
     "copy-from": "mount/rail/magpul",
-    type: "GUNMOD",
+    type: "ITEM",
+    subtypes: ["GUNMOD"],
 
     name: {
       str: "double rail mount",
@@ -68,7 +70,8 @@
   {
     id: "mount/rail/magpul:triple",
     "copy-from": "mount/rail/magpul",
-    type: "GUNMOD",
+    type: "ITEM",
+    subtypes: ["GUNMOD"],
 
     name: {
       str: "triple rail mount",

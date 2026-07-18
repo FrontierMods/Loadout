@@ -2,7 +2,8 @@
   {
     id: "foregrip/strike/bikini",
     inherit: "@foregrip",
-    type: "GUNMOD",
+    type: "ITEM",
+    subtypes: ["GUNMOD"],
 
     "//sources": [
       "https://www.wingtactical.com/firearm-parts/ar-15-parts/grips-foregrips/foregrips/strike-industries-bikini-hand-stop-2-pack/",
@@ -61,7 +62,8 @@
   {
     id: "foregrip/impact/barrier",
     inherit: "@foregrip",
-    type: "GUNMOD",
+    type: "ITEM",
+    subtypes: ["GUNMOD"],
 
     "//sources": [
       "https://www.wingtactical.com/firearm-parts/ar-15/grips-foregrips/foregrips/impact-weapons-components-m-lok-hand-stop/",

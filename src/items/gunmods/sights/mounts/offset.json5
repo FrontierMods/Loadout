@@ -2,7 +2,8 @@
   {
     id: "sight_mount/offset/si/ambush",
     inherit: "@sight_mount/offset",
-    type: "GUNMOD",
+    type: "ITEM",
+    subtypes: ["GUNMOD"],
 
     "//sources": [
       "https://www.wingtactical.com/accessories/optics-sights/optic-sight-mounts/strike-industries-ambush-45-degree-offset-optic-mount/",

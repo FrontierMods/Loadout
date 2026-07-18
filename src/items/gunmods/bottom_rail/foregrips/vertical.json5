@@ -2,7 +2,8 @@
   {
     id: "foregrip/dd/tornado",
     inherit: "@foregrip",
-    type: "GUNMOD",
+    type: "ITEM",
+    subtypes: ["GUNMOD"],
 
     "//sources": [
       "https://danieldefense.com/daniel-defense-vertical-foregrip-daniel-defense-tornado.html",
@@ -75,7 +76,8 @@
   {
     id: "foregrip/mission_first/react",
     inherit: "@foregrip",
-    type: "GUNMOD",
+    type: "ITEM",
+    subtypes: ["GUNMOD"],
 
     "//sources": [
       "https://www.wingtactical.com/firearm-parts/ar-15/grips-foregrips/foregrips/mission-first-tactical-react-full-size-grip-reg/",
@@ -139,7 +141,8 @@
   {
     id: "foregrip/magpul/rvg",
     inherit: "@foregrip",
-    type: "GUNMOD",
+    type: "ITEM",
+    subtypes: ["GUNMOD"],
 
     "//sources": [
       "https://www.wingtactical.com/firearm-parts/ar-15/grips-accessories/foregrips/magpul-rail-vertical-grip-rvg/",
@@ -210,7 +213,8 @@
   {
     id: "foregrip/kac/vertical",
     inherit: "@foregrip",
-    type: "GUNMOD",
+    type: "ITEM",
+    subtypes: ["GUNMOD"],
 
     "//sources": [
       ["M4A1 Technical Data Package", "dimensions", "material"],

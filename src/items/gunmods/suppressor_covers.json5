@@ -2,7 +2,8 @@
   {
     id: "suppressor_cover/coletac/corset",
     inherit: "@suppressor_cover",
-    type: "GUNMOD",
+    type: "ITEM",
+    subtypes: ["GUNMOD"],
 
     "//sources": [
       "https://www.cole-tac.com/product/corset-suppressor-cover/",
@@ -59,7 +60,8 @@
   {
     id: "suppressor_cover/bpg/heavy",
     inherit: "@suppressor_cover",
-    type: "GUNMOD",
+    type: "ITEM",
+    subtypes: ["GUNMOD"],
 
     "//sources": ["https://www.burnproofgear.com/product/bpg-sc-h/"],
 

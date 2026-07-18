@@ -2,7 +2,8 @@
   {
     id: "stock/glock/bt/usw",
     inherit: "@gunmod",
-    type: "GUNMOD",
+    type: "ITEM",
+    subtypes: ["GUNMOD"],
 
     "//sources": [
       "https://bt-parts.com/bt-430200-b-t-usw-g17-conversion-kit/",
@@ -97,7 +98,8 @@
   {
     id: "stock/glock/bt/usw:unfolded",
     "copy-from": "stock/glock/bt/usw",
-    type: "GUNMOD",
+    type: "ITEM",
+    subtypes: ["GUNMOD"],
 
     name: {
       str_sp: "Glock stock chassis",

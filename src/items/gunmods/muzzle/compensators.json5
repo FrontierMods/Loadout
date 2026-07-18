@@ -2,7 +2,8 @@
   {
     id: "compensator/mft/slim",
     inherit: "@muzzle/compensator",
-    type: "GUNMOD",
+    type: "ITEM",
+    subtypes: ["GUNMOD"],
 
     "//sources": [
       "https://www.wingtactical.com/firearm-parts/ar-15/muzzle-devices/mission-first-tactical-slim-6-direction-compensator-5-56-223/",

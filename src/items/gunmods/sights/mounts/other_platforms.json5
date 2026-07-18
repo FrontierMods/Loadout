@@ -2,7 +2,8 @@
   {
     id: "sight_mount/ta01/trijicon/ta51",
     inherit: "@sight_mount/rifle",
-    type: "GUNMOD",
+    type: "ITEM",
+    subtypes: ["GUNMOD"],
 
     "//sources": ["https://www.trijicon.com/products/details/ta51"],
 
@@ -46,7 +47,8 @@
   {
     id: "sight_mount/rx01/trijicon/rx11",
     inherit: "@sight_mount/rifle",
-    type: "GUNMOD",
+    type: "ITEM",
+    subtypes: ["GUNMOD"],
 
     "//sources": [
       "https://palmettostatearmory.com/trijicon-reflex-weaver-rail-adapter-rx11.html",
@@ -96,7 +98,8 @@
   {
     id: "sight_mount/docter/trijicon/ms10",
     "copy-from": "sight_mount/rmr/trijicon/rm35",
-    type: "GUNMOD",
+    type: "ITEM",
+    subtypes: ["GUNMOD"],
 
     "//sources": [
       "https://www.opticsplanet.com/trijicon-docter-red-dot-sight-mount-ms10.html",
@@ -150,7 +153,8 @@
   {
     id: "sight_mount/comp4/aimpoint/lrp",
     inherit: "@sight_mount/rifle",
-    type: "GUNMOD",
+    type: "ITEM",
+    subtypes: ["GUNMOD"],
 
     "//sources": [
       "https://www.aimpoint.com/products/lrp-mount-lever-release-picatinny-for-comp-m4-m4s/",

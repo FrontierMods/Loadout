@@ -2,7 +2,8 @@
   {
     id: "ruger_lcr_22",
     "copy-from": "ruger_lcr_22",
-    type: "GUN",
+    type: "ITEM",
+    subtypes: ["GUN"],
 
     name: {
       str: ".22 caliber revolver",
@@ -24,7 +25,8 @@
   {
     id: "ashot",
     "copy-from": "ashot",
-    type: "GUN",
+    type: "ITEM",
+    subtypes: ["GUN"],
 
     name: {
       str: "12 gauge pistol",
@@ -35,7 +37,8 @@
   {
     id: "2_shot_special",
     "copy-from": "2_shot_special",
-    type: "GUN",
+    type: "ITEM",
+    subtypes: ["GUN"],
 
     name: {
       str: "double barrel .38 pistol",
@@ -46,7 +49,8 @@
   {
     id: "fn57",
     "copy-from": "fn57",
-    type: "GUN",
+    type: "ITEM",
+    subtypes: ["GUN"],
 
     name: {
       str: "FN 5.7mm pistol",
@@ -68,7 +72,8 @@
   {
     id: "px4",
     "copy-from": "px4",
-    type: "GUN",
+    type: "ITEM",
+    subtypes: ["GUN"],
 
     name: {
       str: "Beretta Px4 Storm pistol",
@@ -79,7 +84,8 @@
   {
     id: "px4_40",
     "copy-from": "px4_40",
-    type: "GUN",
+    type: "ITEM",
+    subtypes: ["GUN"],
 
     name: {
       str: "Beretta Px4 Storm .40 S&W",
@@ -90,7 +96,8 @@
   {
     id: "bond_410",
     "copy-from": "bond_410",
-    type: "GUN",
+    type: "ITEM",
+    subtypes: ["GUN"],
 
     name: {
       str: "double-barrel derringer",
@@ -112,7 +119,8 @@
   {
     id: "mauser_c96",
     "copy-from": "mauser_c96",
-    type: "GUN",
+    type: "ITEM",
+    subtypes: ["GUN"],
 
     name: {
       str: "Mauser pistol",
@@ -134,7 +142,8 @@
   {
     id: "hi_power_40",
     "copy-from": "hi_power_40",
-    type: "GUN",
+    type: "ITEM",
+    subtypes: ["GUN"],
 
     name: {
       str: "Browning Hi-Power .40 S&W",
@@ -145,7 +154,8 @@
   {
     id: "hi_power_9mm",
     "copy-from": "hi_power_9mm",
-    type: "GUN",
+    type: "ITEM",
+    subtypes: ["GUN"],
 
     name: {
       str: "Browning Hi-Power 9x19mm handgun",
@@ -156,7 +166,8 @@
   {
     id: "m1911_10",
     "copy-from": "m1911_10",
-    type: "GUN",
+    type: "ITEM",
+    subtypes: ["GUN"],
 
     name: {
       str: "Colt Delta Elite pistol",
@@ -178,7 +189,8 @@
   {
     id: "glock_29",
     "copy-from": "glock_29",
-    type: "GUN",
+    type: "ITEM",
+    subtypes: ["GUN"],
 
     name: {
       str: "compact Glock pistol",
@@ -200,7 +212,8 @@
   {
     id: "m18",
     "copy-from": "m18",
-    type: "GUN",
+    type: "ITEM",
+    subtypes: ["GUN"],
 
     name: {
       str: "compact service handgun",
@@ -222,7 +235,8 @@
   {
     id: "cz75",
     "copy-from": "cz75",
-    type: "GUN",
+    type: "ITEM",
+    subtypes: ["GUN"],
 
     name: {
       str: "CZ 75 B pistol",
@@ -233,7 +247,8 @@
   {
     id: "witness_10",
     "copy-from": "witness_10",
-    type: "GUN",
+    type: "ITEM",
+    subtypes: ["GUN"],
 
     name: {
       str: "EAA Witness pistol",
@@ -255,7 +270,8 @@
   {
     id: "flaregun",
     "copy-from": "flaregun",
-    type: "GUN",
+    type: "ITEM",
+    subtypes: ["GUN"],
 
     name: {
       str: "flaregun",
@@ -266,7 +282,8 @@
   {
     id: "glock_22",
     "copy-from": "glock_22",
-    type: "GUN",
+    type: "ITEM",
+    subtypes: ["GUN"],
 
     name: {
       str_sp: "Glock 22",
@@ -277,7 +294,8 @@
   {
     id: "glock_31",
     "copy-from": "glock_31",
-    type: "GUN",
+    type: "ITEM",
+    subtypes: ["GUN"],
 
     name: {
       str: "Glock 31",
@@ -288,7 +306,8 @@
   {
     id: "glock_20",
     "copy-from": "glock_20",
-    type: "GUN",
+    type: "ITEM",
+    subtypes: ["GUN"],
 
     name: {
       str: "Glock pistol",
@@ -310,7 +329,8 @@
   {
     id: "glock_21",
     "copy-from": "glock_21",
-    type: "GUN",
+    type: "ITEM",
+    subtypes: ["GUN"],
 
     name: {
       str: "Glock pistol",
@@ -332,7 +352,8 @@
   {
     id: "hptc9",
     "copy-from": "hptc9",
-    type: "GUN",
+    type: "ITEM",
+    subtypes: ["GUN"],
 
     name: {
       str: "Hi-Point C-9 pistol",
@@ -343,7 +364,8 @@
   {
     id: "hptcf380",
     "copy-from": "hptcf380",
-    type: "GUN",
+    type: "ITEM",
+    subtypes: ["GUN"],
 
     name: {
       str: "Hi-Point CF-380 pistol",
@@ -354,7 +376,8 @@
   {
     id: "hptjcp",
     "copy-from": "hptjcp",
-    type: "GUN",
+    type: "ITEM",
+    subtypes: ["GUN"],
 
     name: {
       str_sp: "Hi-Point Model JCP",
@@ -365,7 +388,8 @@
   {
     id: "hptjhp",
     "copy-from": "hptjhp",
-    type: "GUN",
+    type: "ITEM",
+    subtypes: ["GUN"],
 
     name: {
       str: "Model JHP pistol",
@@ -387,7 +411,8 @@
   {
     id: "p50",
     "copy-from": "p50",
-    type: "GUN",
+    type: "ITEM",
+    subtypes: ["GUN"],
 
     name: {
       str: "high-capacity P90 handgun",
@@ -409,7 +434,8 @@
   {
     id: "glock_40",
     "copy-from": "glock_40",
-    type: "GUN",
+    type: "ITEM",
+    subtypes: ["GUN"],
 
     name: {
       str: "hunter Glock pistol",
@@ -431,7 +457,8 @@
   {
     id: "p08",
     "copy-from": "p08",
-    type: "GUN",
+    type: "ITEM",
+    subtypes: ["GUN"],
 
     name: {
       str: "Luger P08 pistol",
@@ -442,7 +469,8 @@
   {
     id: "m11",
     "copy-from": "m11",
-    type: "GUN",
+    type: "ITEM",
+    subtypes: ["GUN"],
 
     name: {
       str: "M11 pistol",
@@ -453,7 +481,8 @@
   {
     id: "m1911",
     "copy-from": "m1911",
-    type: "GUN",
+    type: "ITEM",
+    subtypes: ["GUN"],
 
     name: {
       str: "M1911 pistol",
@@ -483,7 +512,8 @@
   {
     id: "m1911a1_38super",
     "copy-from": "m1911a1_38super",
-    type: "GUN",
+    type: "ITEM",
+    subtypes: ["GUN"],
 
     name: {
       str: "M1911A1",
@@ -494,7 +524,8 @@
   {
     id: "m9",
     "copy-from": "m9",
-    type: "GUN",
+    type: "ITEM",
+    subtypes: ["GUN"],
 
     name: {
       str: "M9 combat pistol",
@@ -523,7 +554,8 @@
   {
     id: "makarov",
     "copy-from": "makarov",
-    type: "GUN",
+    type: "ITEM",
+    subtypes: ["GUN"],
 
     name: {
       str: "Makarov pistol",
@@ -546,7 +578,8 @@
   {
     id: "walther_ppq_45",
     "copy-from": "walther_ppq_45",
-    type: "GUN",
+    type: "ITEM",
+    subtypes: ["GUN"],
 
     name: {
       str: "PPQ pistol",
@@ -568,7 +601,8 @@
   {
     id: "ruger_57",
     "copy-from": "ruger_57",
-    type: "GUN",
+    type: "ITEM",
+    subtypes: ["GUN"],
 
     name: {
       str: "Ruger-57 handgun",
@@ -590,7 +624,8 @@
   {
     id: "m17",
     "copy-from": "m17",
-    type: "GUN",
+    type: "ITEM",
+    subtypes: ["GUN"],
 
     name: {
       str: "service handgun",
@@ -612,7 +647,8 @@
   {
     id: "p226_357sig",
     "copy-from": "p226_357sig",
-    type: "GUN",
+    type: "ITEM",
+    subtypes: ["GUN"],
 
     name: {
       str: "SIG P226",
@@ -623,7 +659,8 @@
   {
     id: "p226_9mm",
     "copy-from": "p226_9mm",
-    type: "GUN",
+    type: "ITEM",
+    subtypes: ["GUN"],
 
     name: {
       str: "SIG P226 MK25 pistol",
@@ -634,7 +671,8 @@
   {
     id: "p320_357sig",
     "copy-from": "p320_357sig",
-    type: "GUN",
+    type: "ITEM",
+    subtypes: ["GUN"],
 
     name: {
       str: "SIG P320 Compact",
@@ -645,7 +683,8 @@
   {
     id: "p220_10",
     "copy-from": "p220_10",
-    type: "GUN",
+    type: "ITEM",
+    subtypes: ["GUN"],
 
     name: {
       str: "SIG pistol",
@@ -667,7 +706,8 @@
   {
     id: "sig_40",
     "copy-from": "sig_40",
-    type: "GUN",
+    type: "ITEM",
+    subtypes: ["GUN"],
 
     name: {
       str_sp: "SIG Pro .40",
@@ -678,7 +718,8 @@
   {
     id: "sp2022",
     "copy-from": "sp2022",
-    type: "GUN",
+    type: "ITEM",
+    subtypes: ["GUN"],
 
     name: {
       str: "SIG Pro SP2022 9mm pistol",
@@ -689,7 +730,8 @@
   {
     id: "sig_mosquito",
     "copy-from": "sig_mosquito",
-    type: "GUN",
+    type: "ITEM",
+    subtypes: ["GUN"],
 
     name: {
       str: "firefly training pistol",
@@ -712,7 +754,8 @@
   {
     id: "pressin",
     "copy-from": "pressin",
-    type: "GUN",
+    type: "ITEM",
+    subtypes: ["GUN"],
 
     name: {
       str_sp: "the Pressin",
@@ -723,7 +766,8 @@
   {
     id: "tokarev",
     "copy-from": "tokarev",
-    type: "GUN",
+    type: "ITEM",
+    subtypes: ["GUN"],
 
     name: {
       str: "Tokarev handgun",
@@ -745,7 +789,8 @@
   {
     id: "usp_9mm",
     "copy-from": "usp_9mm",
-    type: "GUN",
+    type: "ITEM",
+    subtypes: ["GUN"],
 
     name: {
       str: "USP 9x19mm pistol",
@@ -756,7 +801,8 @@
   {
     id: "usp_45",
     "copy-from": "usp_45",
-    type: "GUN",
+    type: "ITEM",
+    subtypes: ["GUN"],
 
     name: {
       str: "USP pistol",
@@ -785,7 +831,8 @@
   {
     id: "walther_ccp",
     "copy-from": "walther_ccp",
-    type: "GUN",
+    type: "ITEM",
+    subtypes: ["GUN"],
 
     name: {
       str: "Walther CCP pistol",
@@ -796,7 +843,8 @@
   {
     id: "walther_p38",
     "copy-from": "walther_p38",
-    type: "GUN",
+    type: "ITEM",
+    subtypes: ["GUN"],
 
     name: {
       str: "Walther P38 handgun",
@@ -807,7 +855,8 @@
   {
     id: "walther_ppk",
     "copy-from": "walther_ppk",
-    type: "GUN",
+    type: "ITEM",
+    subtypes: ["GUN"],
 
     name: {
       str_sp: "Walther PPK pistol",
@@ -818,7 +867,8 @@
   {
     id: "walther_ppq_9mm",
     "copy-from": "walther_ppq_9mm",
-    type: "GUN",
+    type: "ITEM",
+    subtypes: ["GUN"],
 
     name: {
       str: "Walther PPQ 9mm pistol",
@@ -829,7 +879,8 @@
   {
     id: "walther_p22",
     "copy-from": "walther_p22",
-    type: "GUN",
+    type: "ITEM",
+    subtypes: ["GUN"],
 
     name: {
       str: "Walther training pistol",
@@ -851,7 +902,8 @@
   {
     id: "xd_10",
     "copy-from": "xd_10",
-    type: "GUN",
+    type: "ITEM",
+    subtypes: ["GUN"],
 
     name: {
       str: "XD-M pistol",

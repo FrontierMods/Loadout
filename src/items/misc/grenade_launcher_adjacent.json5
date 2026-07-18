@@ -2,7 +2,8 @@
   {
     id: "standalone_assembly/m320",
     inherit: ["@part", "@parkerized"],
-    type: "GENERIC",
+    type: "ITEM",
+
     category: "spare_parts",
 
     "//sources": [
@@ -80,7 +81,8 @@
     id: "grenade_launcher/hk/m320",
     inherit: ["@gun"],
     "copy-from": "launcher_base",
-    type: "GUN",
+    type: "ITEM",
+    subtypes: ["GUN"],
 
     "//sources": [
       ["TM 3-22.31", "dimensions", "weight", "barrel length"],

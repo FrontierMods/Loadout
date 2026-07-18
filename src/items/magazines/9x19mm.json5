@@ -2,7 +2,8 @@
   {
     id: "magazine/glock/9x19mm/15",
     inherit: ["@magazine/9x19mm", "@magazine/compact"],
-    type: "MAGAZINE",
+    type: "ITEM",
+    subtypes: ["MAGAZINE"],
 
     "//sources": [
       "https://us.glock.com/en/pistols/g19",
@@ -64,7 +65,8 @@
   {
     id: "magazine/glock/9x19mm/15+2",
     inherit: ["@magazine/9x19mm", "@magazine/compact"],
-    type: "MAGAZINE",
+    type: "ITEM",
+    subtypes: ["MAGAZINE"],
 
     "//sources": [
       "magazine/glock/9x19mm/15",
@@ -122,7 +124,8 @@
   {
     id: "magazine/glock/9x19mm/17",
     inherit: ["@magazine/9x19mm", "@magazine/compact"],
-    type: "MAGAZINE",
+    type: "ITEM",
+    subtypes: ["MAGAZINE"],
 
     "//sources": [
       "https://us.glock.com/en/pistols/g17",
@@ -186,7 +189,8 @@
   {
     id: "magazine/glock/9x19mm/17+2",
     inherit: ["@magazine/9x19mm", "@magazine/compact"],
-    type: "MAGAZINE",
+    type: "ITEM",
+    subtypes: ["MAGAZINE"],
 
     "//sources": [
       "magazine/glock/9x19mm/17",
@@ -244,7 +248,8 @@
   {
     id: "magazine/torkmag/glock",
     "copy-from": "magazine/glock/9x19mm/17+2",
-    type: "MAGAZINE",
+    type: "ITEM",
+    subtypes: ["MAGAZINE"],
 
     "//sources": [
       "https://torkmag.com/20rd-g17-magazine-9mm-para-torkmag-20/",
@@ -279,7 +284,8 @@
   {
     id: "magazine/glock/9x19mm/24",
     inherit: ["@magazine/9x19mm", "@magazine/compact"],
-    type: "MAGAZINE",
+    type: "ITEM",
+    subtypes: ["MAGAZINE"],
 
     "//sources": [
       [
@@ -343,7 +349,8 @@
   {
     id: "magazine/glock/9x19mm/24+2",
     inherit: ["@magazine/9x19mm", "@magazine/compact"],
-    type: "MAGAZINE",
+    type: "ITEM",
+    subtypes: ["MAGAZINE"],
 
     "//sources": [
       "magazine/glock/9x19mm/24",
@@ -406,7 +413,8 @@
   {
     id: "magazine/glock/9x19mm/31",
     inherit: ["@magazine/9x19mm", "@magazine/compact"],
-    type: "MAGAZINE",
+    type: "ITEM",
+    subtypes: ["MAGAZINE"],
 
     "//sources": [
       [
@@ -471,7 +479,8 @@
   {
     id: "magazine/glock/9x19mm/31+2",
     inherit: ["@magazine/9x19mm", "@magazine/compact"],
-    type: "MAGAZINE",
+    type: "ITEM",
+    subtypes: ["MAGAZINE"],
 
     "//sources": [
       "magazine/glock/9x19mm/31",
@@ -529,7 +538,8 @@
   {
     id: "magazine/kriss/9x19mm",
     inherit: ["@magazine/9x19mm", "@magazine/compact"],
-    type: "MAGAZINE",
+    type: "ITEM",
+    subtypes: ["MAGAZINE"],
 
     "//sources": [
       "https://us.glock.com/en/pistols/g17",
@@ -595,7 +605,8 @@
   {
     id: "magazine/magpul/pmag/d-50",
     inherit: ["@magazine/9x19mm", "@magazine/bulky"],
-    type: "MAGAZINE",
+    type: "ITEM",
+    subtypes: ["MAGAZINE"],
 
     "//sources": [
       "https://magpul.com/pmag-d-50-gl9-glock.html",
@@ -651,7 +662,8 @@
   {
     id: "magazine/kci/9x19mm/glock",
     inherit: ["@magazine/9x19mm", "@magazine/bulky"],
-    type: "MAGAZINE",
+    type: "ITEM",
+    subtypes: ["MAGAZINE"],
 
     "//sources": [
       "https://www.kcius.com/products/glock/9mm-50rd-gen-2-drum-magazine",
@@ -715,7 +727,8 @@
   {
     id: "magazine/beta/c-mag/glock",
     inherit: ["@magazine/9x19mm", "@magazine/bulky"],
-    type: "MAGAZINE",
+    type: "ITEM",
+    subtypes: ["MAGAZINE"],
 
     "//sources": [
       "https://web.archive.org/web/20230321133228/https://betaco.com/c-mag-systems/9mm/9mm-glock/",

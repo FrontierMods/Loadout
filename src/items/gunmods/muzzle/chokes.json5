@@ -2,7 +2,8 @@
   {
     id: "choke/mueller/passing",
     "copy-from": "choke",
-    type: "GUNMOD",
+    type: "ITEM",
+    subtypes: ["GUNMOD"],
 
     "//sources": [
       "https://mullerchokes.com/collections/remington-choke-tubes/products/12-gauge-remchoke-waterfowl?variant=946375717",

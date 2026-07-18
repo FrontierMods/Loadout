@@ -2,7 +2,8 @@
   {
     id: "glock_19",
     "copy-from": "glock_19",
-    type: "GUN",
+    type: "ITEM",
+    subtypes: ["GUN"],
 
     name: {
       str: "Glock carry pistol",
@@ -68,7 +69,8 @@
   {
     id: "glock_17",
     "copy-from": "glock_17",
-    type: "GUN",
+    type: "ITEM",
+    subtypes: ["GUN"],
 
     name: {
       str: "Glock duty pistol",
@@ -132,7 +134,8 @@
   {
     id: "glock_18c",
     "copy-from": "glock_18c",
-    type: "GUN",
+    type: "ITEM",
+    subtypes: ["GUN"],
 
     name: {
       str: "Glock machine pistol",
@@ -196,7 +199,8 @@
   {
     id: "ksub2000",
     "copy-from": "ksub2000",
-    type: "GUN",
+    type: "ITEM",
+    subtypes: ["GUN"],
 
     name: {
       str_sp: "Kel-Tec SUB-2000",

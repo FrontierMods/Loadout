@@ -2,7 +2,8 @@
   {
     id: "sight_mount/30mm/aero",
     inherit: "@sight_mount/30mm",
-    type: "GUNMOD",
+    type: "ITEM",
+    subtypes: ["GUNMOD"],
 
     "//sources": [
       "https://www.aeroprecisionusa.com/ultralight-30mm-extended-scope-mount",
@@ -48,7 +49,8 @@
   {
     id: "sight_mount/30mm/sig/alpha4",
     inherit: "@sight_mount/30mm",
-    type: "GUNMOD",
+    type: "ITEM",
+    subtypes: ["GUNMOD"],
 
     "//sources": [
       [

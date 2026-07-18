@@ -2,7 +2,8 @@
   {
     id: "suppressor/surefire/socom556_rc2",
     inherit: "@muzzle/suppressor",
-    type: "GUNMOD",
+    type: "ITEM",
+    subtypes: ["GUNMOD"],
 
     "//sources": [
       "https://www.surefire.com/socom556-rc2/",
@@ -82,7 +83,8 @@
   {
     id: "suppressor/kac/qdss",
     inherit: "@muzzle/suppressor/with_cover",
-    type: "GUNMOD",
+    type: "ITEM",
+    subtypes: ["GUNMOD"],
 
     "//sources": [
       [
@@ -178,7 +180,8 @@
   {
     id: "suppressor/thunder_beast/dominus_sr",
     inherit: "@muzzle/suppressor/with_cover",
-    type: "GUNMOD",
+    type: "ITEM",
+    subtypes: ["GUNMOD"],
 
     "//sources": [
       "https://thunderbeastarms.com/products/dominus-sr",
@@ -289,7 +292,8 @@
   {
     id: "suppressor/thunder_beast/fly_9",
     inherit: "@muzzle/suppressor",
-    type: "GUNMOD",
+    type: "ITEM",
+    subtypes: ["GUNMOD"],
 
     "//sources": ["https://thunderbeastarms.com/products/fly9"],
 
@@ -344,7 +348,8 @@
   {
     id: "suppressor/thunder_beast/fly_9:short",
     "copy-from": "suppressor/thunder_beast/fly_9",
-    type: "GUNMOD",
+    type: "ITEM",
+    subtypes: ["GUNMOD"],
 
     "//sources": ["https://thunderbeastarms.com/products/fly9"],
 
@@ -395,7 +400,8 @@
   {
     id: "suppressor/silencerco/salvo_12",
     inherit: "@muzzle/shotgun/suppressor",
-    type: "GUNMOD",
+    type: "ITEM",
+    subtypes: ["GUNMOD"],
 
     "//sources": [
       "https://silencerco.com/silencers/salvo-12/",
@@ -463,7 +469,8 @@
   {
     id: "suppressor/kac/mk23",
     inherit: "@muzzle/suppressor",
-    type: "GUNMOD",
+    type: "ITEM",
+    subtypes: ["GUNMOD"],
 
     "//sources": [
       "https://www.impactguns.com/Suppressors/Knight-s-MK23-45-Caliber-Suppressor-819064014645-94368/",

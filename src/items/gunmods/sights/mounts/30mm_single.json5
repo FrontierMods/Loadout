@@ -2,7 +2,8 @@
   {
     id: "sight_mount/30mm/single/aero",
     inherit: "@sight_mount/rifle:disable_sights",
-    type: "GUNMOD",
+    type: "ITEM",
+    subtypes: ["GUNMOD"],
 
     "//sources": [
       "https://www.wingtactical.com/accessories/optics-sights/optic-sight-mounts/aero-precision-cantilever-30mm-red-dot-scope-mount/",

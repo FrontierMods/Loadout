@@ -2,7 +2,8 @@
   {
     id: "upper_receiver/ar15/300blk/10.5in/ba/atlas",
     inherit: "@upper_receiver/ar15/300blk",
-    type: "GUNMOD",
+    type: "ITEM",
+    subtypes: ["GUNMOD"],
 
     "//sources": [
       "https://www.ballisticadvantage.com/10-5-300-blackout-pistol-length-w-9-ar15-atlas-s-one-m-lok-handguard-complete-upper.html",
@@ -68,7 +69,8 @@
   {
     id: "upper_receiver/ar15/300blk/7.5in/bca/bc15",
     inherit: "@upper_receiver/ar15/300blk",
-    type: "GUNMOD",
+    type: "ITEM",
+    subtypes: ["GUNMOD"],
 
     "//sources": [
       "https://www.bearcreekarsenal.com/300-blackout-7-5-parkerized-hb-barrel-1-8-twist-pistol-7-handguard-rc-nrail-upper.html",
@@ -135,7 +137,8 @@
   {
     id: "upper_receiver/ar15/300blk/16in/bca/bc15",
     inherit: "@upper_receiver/ar15/300blk",
-    type: "GUNMOD",
+    type: "ITEM",
+    subtypes: ["GUNMOD"],
 
     "//sources": [
       "https://www.bearcreekarsenal.com/300-blackout-16-stainless-steel-hb-barrel-1-8-twist-carbine-15-mlok-upper.html",

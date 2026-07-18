@@ -2,7 +2,8 @@
   {
     id: "upper_receiver/ar15/762x39/16in/radical/pabu16",
     inherit: "@upper_receiver/ar15/762x39",
-    type: "GUNMOD",
+    type: "ITEM",
+    subtypes: ["GUNMOD"],
 
     "//sources": [
       "https://www.primaryarms.com/radical-firearms-762x39mm-barreled-upper-16in-primary-arms-exclusive",

@@ -2,7 +2,8 @@
   {
     id: "upper_receiver/ar15/450/10.5in/bca/bc15",
     inherit: "@upper_receiver/ar15/450",
-    type: "GUNMOD",
+    type: "ITEM",
+    subtypes: ["GUNMOD"],
 
     "//sources": [
       "https://www.bearcreekarsenal.com/450-bushmaster-10-5-parkerized-heavy-barrel-carbine-1-24-twist-w-10-mlok-rail-upper.html",
@@ -67,7 +68,8 @@
   {
     id: "upper_receiver/ar15/450/18in/bca/bc15",
     inherit: "@upper_receiver/ar15/450",
-    type: "GUNMOD",
+    type: "ITEM",
+    subtypes: ["GUNMOD"],
 
     "//sources": [
       "https://www.bearcreekarsenal.com/450-bushmaster-18-stainless-hb-barrel-1-24-twist-mid-length-15-nrail-rc-upper.html",

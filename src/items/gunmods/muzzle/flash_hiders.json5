@@ -2,7 +2,8 @@
   {
     id: "flash_hider/colt/a2",
     inherit: "@muzzle/flash_hider",
-    type: "GUNMOD",
+    type: "ITEM",
+    subtypes: ["GUNMOD"],
 
     "//sources": [
       [
@@ -78,7 +79,8 @@
   {
     id: "flash_hider/kac/m4qd",
     inherit: "@muzzle/flash_hider",
-    type: "GUNMOD",
+    type: "ITEM",
+    subtypes: ["GUNMOD"],
 
     "//sources": [
       "https://www.knightarmco.com/12806/shop/signature-reduction/muzzle-devices/12-28/5-56mm-m4qd-flash-suppressor-kit",
@@ -136,7 +138,8 @@
   {
     id: "flash_hider/surefire/4_prong",
     inherit: "@muzzle/flash_hider",
-    type: "GUNMOD",
+    type: "ITEM",
+    subtypes: ["GUNMOD"],
 
     "//sources": ["https://www.surefire.com/socom-4-prong-flash-hider/"],
 

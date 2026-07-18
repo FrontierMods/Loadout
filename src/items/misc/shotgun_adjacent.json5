@@ -2,7 +2,8 @@
   {
     id: "standalone_assembly/m26",
     inherit: ["@part", "@parkerized"],
-    type: "GENERIC",
+    type: "ITEM",
+
     category: "spare_parts",
 
     "//sources": [
@@ -110,7 +111,8 @@
     id: "shotgun/c-more/m26",
     inherit: ["@gun"],
     "copy-from": "shotgun_base",
-    type: "GUN",
+    type: "ITEM",
+    subtypes: ["GUN"],
 
     "//sources": [
       ["TM 9-1005-341-10", "weight", "length"],

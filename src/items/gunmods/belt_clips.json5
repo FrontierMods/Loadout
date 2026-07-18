@@ -2,7 +2,8 @@
   {
     id: "belt_clip/clipdraw/universal",
     inherit: "@gunmod",
-    type: "GUNMOD",
+    type: "ITEM",
+    subtypes: ["GUNMOD"],
 
     "//sources": [
       "https://www.clipdraw.com/product/sa-b-black-s-silver/",

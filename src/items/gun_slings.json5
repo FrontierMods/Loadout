@@ -2,7 +2,8 @@
   {
     id: "sling/single/magpul/ms3",
     inherit: "@sling",
-    type: "ARMOR",
+    type: "ITEM",
+    subtypes: ["ARMOR"],
 
     "//sources": [
       "https://magpul.com/ms3-single-qd-sling-gen-2.html",
@@ -73,7 +74,8 @@
   {
     id: "sling/double/bfg/vickers",
     inherit: ["@gunmod", "@camo", "@mod_target/long_guns"],
-    type: "GUNMOD",
+    type: "ITEM",
+    subtypes: ["GUNMOD"],
 
     "//sources": [
       "https://www.blueforcegear.com/nsn-vickers-combat-applications-sling.html",
@@ -161,7 +163,8 @@
   {
     id: "sling/double/bfg/vickers:front",
     "copy-from": "sling/double/bfg/vickers",
-    type: "GUNMOD",
+    type: "ITEM",
+    subtypes: ["GUNMOD"],
 
     name: {
       str: "two-point sling (front)",
@@ -229,7 +232,8 @@
   {
     id: "sling/improvised",
     inherit: "@sling",
-    type: "ARMOR",
+    type: "ITEM",
+    subtypes: ["ARMOR"],
 
     name: { str: "improvised gun sling" },
     description: "An improvised strap to carry your gun in.  Worse than factory-made slings, but better than a random rope.  <sling/position:back>",
@@ -285,7 +289,8 @@
   {
     id: "sling/improvised:front",
     "copy-from": "sling/improvised",
-    type: "ARMOR",
+    type: "ITEM",
+    subtypes: ["ARMOR"],
 
     name: {
       str: "improvised gun sling (front)",

@@ -3,7 +3,8 @@
     id: "grenade_launcher/underbarrel/lmt/l2b",
     inherit: ["@underbarrel/weapon"],
     "copy-from": "underbarrel_base",
-    type: "GUNMOD",
+    type: "ITEM",
+    subtypes: ["GUNMOD"],
 
     "//sources": [
       "https://lmtdefense.com/product/9-rail-mounted-m203/",
@@ -97,7 +98,8 @@
     id: "grenade_launcher/underbarrel/hk/m320",
     inherit: ["@underbarrel/weapon"],
     "copy-from": "underbarrel_base",
-    type: "GUNMOD",
+    type: "ITEM",
+    subtypes: ["GUNMOD"],
 
     "//sources": [
       ["TM 3-22.31", "dimensions", "weight", "barrel length"],

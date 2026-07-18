@@ -2,7 +2,8 @@
   {
     id: "muzzle_brake/surefire/socom",
     inherit: "@muzzle/brake",
-    type: "GUNMOD",
+    type: "ITEM",
+    subtypes: ["GUNMOD"],
 
     "//sources": [
       "https://www.surefire.com/socom-muzzle-brake/",
@@ -85,7 +86,8 @@
   {
     id: "muzzle_brake/thunder_beast/sr",
     inherit: "@muzzle/brake",
-    type: "GUNMOD",
+    type: "ITEM",
+    subtypes: ["GUNMOD"],
 
     "//sources": [
       "https://thunderbeastarms.com/products/dominus-sr",

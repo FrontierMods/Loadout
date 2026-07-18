@@ -2,7 +2,7 @@
   {
     id: "magazine/body/glock/9x19mm/15",
     inherit: "@magazine/body",
-    type: "GENERIC",
+    type: "ITEM",
 
     "//sources": ["magazine/glock/9x19mm/15", "baseplate/glock/oem"],
 
@@ -47,7 +47,7 @@
   {
     id: "magazine/body/glock/9x19mm/17",
     inherit: "@magazine/body",
-    type: "GENERIC",
+    type: "ITEM",
 
     "//sources": ["magazine/glock/9x19mm/17", "baseplate/glock/oem"],
 
@@ -92,7 +92,7 @@
   {
     id: "magazine/body/glock/9x19mm/24",
     inherit: "@magazine/body",
-    type: "GENERIC",
+    type: "ITEM",
 
     "//sources": ["magazine/glock/9x19mm/24", "baseplate/glock/oem"],
 
@@ -134,7 +134,7 @@
   {
     id: "magazine/body/glock/9x19mm/31",
     inherit: "@magazine/body",
-    type: "GENERIC",
+    type: "ITEM",
 
     "//sources": ["magazine/glock/9x19mm/31", "baseplate/glock/oem"],
 

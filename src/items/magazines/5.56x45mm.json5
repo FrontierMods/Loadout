@@ -2,7 +2,8 @@
   {
     id: "magazine/magpul/pmag/10",
     inherit: ["@magazine/5.56x45mm", "@magazine/compact"],
-    type: "MAGAZINE",
+    type: "ITEM",
+    subtypes: ["MAGAZINE"],
 
     "//sources": ["https://magpul.com/pmag-10-ar-m4-gen-m3.html"],
 
@@ -67,7 +68,8 @@
   {
     id: "magazine/magpul/pmag/10:ranger_plate",
     "copy-from": "magazine/magpul/pmag/10",
-    type: "MAGAZINE",
+    type: "ITEM",
+    subtypes: ["MAGAZINE"],
 
     name: {
       str: "PMAG STANAG 10-round magazine (ranger plate)",
@@ -111,7 +113,8 @@
   {
     id: "magazine/magpul/pmag/20",
     inherit: ["@magazine/5.56x45mm", "@magazine/compact"],
-    type: "MAGAZINE",
+    type: "ITEM",
+    subtypes: ["MAGAZINE"],
 
     "//sources": [
       "https://magpul.com/pmag-20-ar-m4-gen-m3.html",
@@ -171,7 +174,8 @@
   {
     id: "magazine/magpul/pmag/20:ranger_plate",
     "copy-from": "magazine/magpul/pmag/20",
-    type: "MAGAZINE",
+    type: "ITEM",
+    subtypes: ["MAGAZINE"],
 
     name: {
       str: "PMAG STANAG 20-round magazine (ranger plate)",
@@ -215,7 +219,8 @@
   {
     id: "magazine/magpul/pmag/20:extended/taran",
     "copy-from": "magazine/magpul/pmag/20",
-    type: "MAGAZINE",
+    type: "ITEM",
+    subtypes: ["MAGAZINE"],
 
     name: {
       str: "PMAG STANAG 20-round magazine (extension plate)",
@@ -278,7 +283,8 @@
   {
     id: "magazine/colt/stanag/30",
     inherit: ["@magazine/5.56x45mm", "@magazine/compact"],
-    type: "MAGAZINE",
+    type: "ITEM",
+    subtypes: ["MAGAZINE"],
 
     "//sources": [
       ["M4 Technical Data Package", "dimensions"],
@@ -377,7 +383,8 @@
   {
     id: "magazine/colt/stanag/30:ranger_plate",
     "copy-from": "magazine/colt/stanag/30",
-    type: "MAGAZINE",
+    type: "ITEM",
+    subtypes: ["MAGAZINE"],
 
     "//sources": [
       ["M16 Technical Data Package", "dimensions"],
@@ -461,7 +468,8 @@
   {
     id: "magazine/magpul/pmag/30",
     inherit: ["@magazine/5.56x45mm", "@magazine/compact"],
-    type: "MAGAZINE",
+    type: "ITEM",
+    subtypes: ["MAGAZINE"],
 
     "//sources": [
       "https://magpul.com/pmag-30-ar-m4-gen-m3.html",
@@ -535,7 +543,8 @@
   {
     id: "magazine/magpul/pmag/30:ranger_plate",
     "copy-from": "magazine/magpul/pmag/30",
-    type: "MAGAZINE",
+    type: "ITEM",
+    subtypes: ["MAGAZINE"],
 
     name: {
       str: "PMAG STANAG 30-round magazine (ranger plate)",
@@ -579,7 +588,8 @@
   {
     id: "magazine/magpul/pmag/30:extended/taran",
     "copy-from": "magazine/magpul/pmag/30",
-    type: "MAGAZINE",
+    type: "ITEM",
+    subtypes: ["MAGAZINE"],
 
     "//notes": [
       "HAHO review of the PMAG 30 with Taran Tactical magazine extension lists modified PMAG 30's weight as 201.5 g",
@@ -647,7 +657,8 @@
   {
     id: "magazine/magpul/pmag/40",
     inherit: ["@magazine/5.56x45mm", "@magazine/compact"],
-    type: "MAGAZINE",
+    type: "ITEM",
+    subtypes: ["MAGAZINE"],
 
     "//sources": [
       "https://magpul.com/pmag-40-ar-m4-gen-m3.html",
@@ -710,7 +721,8 @@
   {
     id: "magazine/magpul/pmag/40:ranger_plate",
     "copy-from": "magazine/magpul/pmag/40",
-    type: "MAGAZINE",
+    type: "ITEM",
+    subtypes: ["MAGAZINE"],
 
     name: {
       str: "PMAG STANAG 40-round magazine (ranger plate)",
@@ -754,7 +766,8 @@
   {
     id: "magazine/magpul/pmag/40:extended/taran",
     "copy-from": "magazine/magpul/pmag/40",
-    type: "MAGAZINE",
+    type: "ITEM",
+    subtypes: ["MAGAZINE"],
 
     name: {
       str: "PMAG STANAG 40-round magazine (extension plate)",
@@ -817,7 +830,8 @@
   {
     id: "magazine/kci/5.56x45mm/50",
     inherit: ["@magazine/5.56x45mm", "@magazine/bulky"],
-    type: "MAGAZINE",
+    type: "ITEM",
+    subtypes: ["MAGAZINE"],
 
     "//sources": [
       "https://www.kcius.com/products/ar15/ar-15-50rd-magazine",
@@ -902,7 +916,8 @@
   {
     id: "magazine/magpul/pmag/d-60",
     inherit: ["@magazine/5.56x45mm", "@magazine/bulky"],
-    type: "MAGAZINE",
+    type: "ITEM",
+    subtypes: ["MAGAZINE"],
 
     "//sources": [
       "https://magpul.com/pmag-d-60-ar-m4-gen-m3.html",
@@ -988,7 +1003,8 @@
   {
     id: "magazine/surefire/60",
     inherit: ["@magazine/5.56x45mm", "@magazine/bulky"],
-    type: "MAGAZINE",
+    type: "ITEM",
+    subtypes: ["MAGAZINE"],
 
     "//sources": [
       [
@@ -1067,7 +1083,8 @@
   {
     id: "magazine/schmeisser/s60",
     inherit: ["@magazine/5.56x45mm", "@magazine/bulky"],
-    type: "MAGAZINE",
+    type: "ITEM",
+    subtypes: ["MAGAZINE"],
 
     "//sources": [
       [
@@ -1137,7 +1154,8 @@
   {
     id: "magazine/mwg/90",
     inherit: ["@magazine/5.56x45mm", "@magazine/bulky"],
-    type: "MAGAZINE",
+    type: "ITEM",
+    subtypes: ["MAGAZINE"],
 
     "//sources": [
       "https://www.mwgco.com/MWG-223-90A.html",
@@ -1222,7 +1240,8 @@
   {
     id: "magazine/surefire/100",
     inherit: ["@magazine/5.56x45mm", "@magazine/bulky"],
-    type: "MAGAZINE",
+    type: "ITEM",
+    subtypes: ["MAGAZINE"],
 
     "//sources": [
       [
@@ -1300,7 +1319,8 @@
   {
     id: "magazine/beta/c-mag/m16",
     inherit: ["@magazine/5.56x45mm", "@magazine/bulky"],
-    type: "MAGAZINE",
+    type: "ITEM",
+    subtypes: ["MAGAZINE"],
 
     "//sources": [
       ["https://betaco.com/technical-manuals/", "dimensions", "weight"],
@@ -1369,7 +1389,8 @@
   {
     id: "magazine/armatac/saw-mag",
     inherit: ["@magazine/5.56x45mm", "@magazine/bulky"],
-    type: "MAGAZINE",
+    type: "ITEM",
+    subtypes: ["MAGAZINE"],
 
     "//sources": [
       "https://www.armatac.com/product/products-saw-mag/",
