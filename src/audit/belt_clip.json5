@@ -12,7 +12,9 @@
     variants: [
       {
         id: "ruger_lcr_22",
-        name: { str_sp: "Ruger LCR .22" },
+        name: {
+          str: "Ruger LCR .22 revolver",
+        },
         description: "A compact, double-action-only revolver designed for easy concealment, with a stainless steel cylinder and aluminum frame.",
       },
     ],
@@ -54,7 +56,7 @@
     type: "GUN",
 
     name: {
-      str: "2 Shot Special",
+      str: "double barrel .38 pistol",
     },
     valid_mod_locations: [
       ["grip", 1],
@@ -71,7 +73,7 @@
     type: "GUN",
 
     name: {
-      str: "5.7mm pistol",
+      str: "FN 5.7mm pistol",
     },
 
     variant_type: "gun",
@@ -79,7 +81,7 @@
       {
         id: "fn57",
         name: {
-          str: "FN Five-seveN",
+          str: "FN Five-seveN pistol",
         },
         description: "Designed to work with FN's proprietary 5.7x28mm round, the Five-seveN is a lightweight pistol with a very high capacity, best used against armored opponents.",
       },
@@ -103,7 +105,7 @@
     type: "GUN",
 
     name: {
-      str: "Beretta Px4 Storm",
+      str: "Beretta Px4 Storm pistol",
     },
 
     valid_mod_locations: [
@@ -147,9 +149,18 @@
     type: "GUN",
 
     name: {
-      str: "Bond Arms Derringer",
+      str: "double-barrel derringer",
     },
 
+    variant_type: "gun",
+    variants: [
+      {
+        id: "bond_410",
+        name: {
+          str: "Bond Arms Derringer",
+        },
+        description: "Derringers are old-fashioned conceal carry weapons, usually sporting one or two barrels.  The Bond Arms Derringer is a modern series of multi-barrel compact pistols.  Most commonly chambered for .45 Colt, with chambers long enough to accept .410 shotgun shells.  Though, with modern handguns, derringers have become less and less practical as a conceal carry option.",
+      },
     valid_mod_locations: [
       ["barrel", 1],
       ["bore", 1],
@@ -167,7 +178,7 @@
     type: "GUN",
 
     name: {
-      str: "Broomhandle pistol",
+      str: "Mauser pistol",
     },
 
     variant_type: "gun",
@@ -175,9 +186,9 @@
       {
         id: "mauser_c96",
         name: {
-          str: "Mauser C96 Broomhandle",
+          str: "Mauser C96 Broomhandle pistol",
         },
-        description: "A late 19th century semi-automatic German pistol with an integral magazine loaded from the top via stripper clips, and quite possibly the most steampunk gun one could ever possibly lay their hands on.  A red number '9' burned and painted into the weapon's broom handle-shaped grip marks it as a variant chambered for 9x19mm rounds.  Both exported for commercial use and produced for the German military during the First World War to make up for production shortages of the standard Luger, this example likely entered the US as a holdover from the Great War.  You suppose that it’s only fitting that one of the globe’s first produced and oldest semi-automatic handguns gets reinstated into service now that the planet’s facing its end.",
+        description: "A late 19th century semi-automatic German pistol with an integral magazine loaded from the top via stripper clips, and quite possibly the most steampunk gun one could ever possibly lay their hands on.  A red number '9' burned and painted into the weapon's broom handle-shaped grip marks it as a variant chambered for 9x19mm rounds.  Both exported for commercial use and produced for the German military during the First World War to make up for production shortages of the standard Luger, this example likely entered the US as a holdover from the Great War.  You suppose that it's only fitting that one of the globe's first produced and oldest semi-automatic handguns gets reinstated into service now that the planet's facing its end.",
       },
     ],
 
@@ -222,7 +233,7 @@
     type: "GUN",
 
     name: {
-      str: "Browning Hi-Power 9x19mm",
+      str: "Browning Hi-Power 9x19mm handgun",
     },
 
     valid_mod_locations: [
@@ -252,7 +263,7 @@
       {
         id: "m1911_10",
         name: {
-          str: "Colt Delta Elite",
+          str: "Colt Delta Elite pistol",
         },
         description: "A modernized, match-grade variant of the venerable M1911 chambered in hard-hitting 10mm Auto.  Early variants were known to crack frames; modern 1911s, like this one, are slotted to prevent such crack formation.",
       },
@@ -284,7 +295,7 @@
       {
         id: "glock_29",
         name: {
-          str: "Glock 29",
+          str: "Glock 29 pistol",
         },
         description: "A modestly sized version of the highly successful Glock, chambered in hard-hitting 10mm Auto.  It is easy to carry because of its small size, but also recoils fiercely.",
       },
@@ -317,7 +328,7 @@
       {
         id: "m18",
         name: {
-          str: "M18",
+          str: "M18 pistol",
         },
         description: "The M18 is a compact, semi-automatic, short recoil operated pistol derived from the SIG Sauer P320 Carry, used by US Armed Forces.  Practically the same as its big brother, the M17, in every respect, the M18 features a moderately shorter slide and barrel which terminates at the end of the frame rather than extending partway beyond it like the M17.",
       },
@@ -342,7 +353,7 @@
     type: "GUN",
 
     name: {
-      str: "CZ 75 B",
+      str: "CZ 75 B pistol",
     },
 
     valid_mod_locations: [
@@ -372,7 +383,7 @@
       {
         id: "witness_10",
         name: {
-          str: "EAA Witness 10mm",
+          str: "EAA Witness 10mm pistol",
         },
         description: "The EAA Witness is a modified variant of the CZ-75, produced in Italy by Tanfoglio.  This is the standard steel framed version chambered in 10mm Auto.",
       },
@@ -436,7 +447,7 @@
     type: "GUN",
 
     name: {
-      str_sp: "Glock 31",
+      str: "Glock 31",
     },
 
     valid_mod_locations: [
@@ -466,7 +477,7 @@
       {
         id: "glock_20",
         name: {
-          str: "Glock 20",
+          str: "Glock 20 pistol",
         },
         description: "A full-sized version of the highly successful Glock, chambered in hard-hitting 10mm Auto.  The third model of Glock designed, all other full-sized, large framed Glocks are adaptations of this one.",
       },
@@ -499,7 +510,7 @@
       {
         id: "glock_21",
         name: {
-          str: "Glock 21",
+          str: "Glock 21 pistol",
         },
         description: "A full-sized version of the highly successful Glock.  This model is chambered in .45 ACP.",
       },
@@ -524,7 +535,7 @@
     type: "GUN",
 
     name: {
-      str: "Hi-Point C-9",
+      str: "Hi-Point C-9 pistol",
     },
 
     valid_mod_locations: [
@@ -546,7 +557,7 @@
     type: "GUN",
 
     name: {
-      str: "Hi-Point CF-380",
+      str: "Hi-Point CF-380 pistol",
     },
 
     valid_mod_locations: [
@@ -568,7 +579,7 @@
     type: "GUN",
 
     name: {
-      str: "Hi-Point Model JCP",
+      str_sp: "Hi-Point Model JCP",
     },
 
     valid_mod_locations: [
@@ -590,7 +601,7 @@
     type: "GUN",
 
     name: {
-      str: "Hi-Point pistol",
+      str: "Model JHP pistol",
     },
 
     variant_type: "gun",
@@ -598,7 +609,7 @@
       {
         id: "hptjhp",
         name: {
-          str: "Hi-Point Model JHP",
+          str: "Hi-Point Model JHP pistol",
         },
         description: "The Hi-Point Model JHP is a blowback operated semi-automatic pistol designed by Hi-Point Firearms, which is known for making inexpensive firearms, and for making said firearms bulky and uncomfortable.  Hi-Points have slides made with a zinc pot-metal which is relatively fragile compared to steel slides.",
       },
@@ -623,7 +634,7 @@
     type: "GUN",
 
     name: {
-      str: "high-capacity 5.7mm handgun",
+      str: "high-capacity P90 handgun",
     },
 
     variant_type: "gun",
@@ -631,9 +642,9 @@
       {
         id: "p50",
         name: {
-          str: "Kel-Tec P50",
+          str: "Kel-Tec P50 pistol",
         },
-        description: "Unique, adaptable, and extremely retro, the Kel-Tec P50 is a truly bizarre semi-automatic pistol.  Having been regarded as possibly one of the most innovative firearms from Kel-Tec’s entire line-up of guns, the P50 makes use of the high velocity 5.7x28mm cartridge, and feeds from standard FN P90 magazines.  Boasting ambidextrous controls, an AR-15-like T-shaped charging handle, and a reload which involves swinging the receiver and barrel assemblies up and away from the frame to insert the magazine horizontally over the grip, this weapon lends a decidedly retro-futuristic touch to almost any situation.",
+        description: "Unique, adaptable, and extremely retro, the Kel-Tec P50 is a truly bizarre semi-automatic pistol.  Having been regarded as possibly one of the most innovative firearms from Kel-Tec's entire line-up of guns, the P50 makes use of the high velocity 5.7x28mm cartridge, and feeds from standard FN P90 magazines.  Boasting ambidextrous controls, an AR-15-like T-shaped charging handle, and a reload which involves swinging the receiver and barrel assemblies up and away from the frame to insert the magazine horizontally over the grip, this weapon lends a decidedly retro-futuristic touch to almost any situation.",
       },
     ],
 
@@ -663,7 +674,7 @@
       {
         id: "glock_40",
         name: {
-          str: "Glock 40",
+          str: "Glock 40 pistol",
         },
         description: "A full-sized, long-slide version of the highly successful Glock, chambered in hard-hitting 10mm Auto.  The extra barrel length makes for slightly more accurate and powerful shots, and the extra slide length means the sights are a little easier to use.",
       },
@@ -688,7 +699,7 @@
     type: "GUN",
 
     name: {
-      str: "Luger P08",
+      str: "Luger P08 pistol",
     },
 
     valid_mod_locations: [
@@ -710,7 +721,7 @@
     type: "GUN",
 
     name: {
-      str: "M11",
+      str: "M11 pistol",
     },
 
     valid_mod_locations: [
@@ -740,7 +751,7 @@
       {
         id: "m1911",
         name: {
-          str: "M1911",
+          str: "M1911 pistol",
         },
         "//": "You can get 'em for over US$1K if you want.  This is a fairly cheap remake.",
         description: "The M1911 was the US Military standard-issue sidearm for most of the 20th Century.  It remains one of the most popular .45 pistols today.",
@@ -748,7 +759,7 @@
       {
         id: "m1911_MEU",
         name: {
-          str: "M45A1",
+          str: "M45A1 pistol",
         },
         description: "The M45A1 supplanted earlier M45 MEUSOC pistols in use by Force Recon elements of Marine Expeditionary Units.  Where the original M45 pistols were gutted M1911A1s hand-fitted by USMC armorers, the updated M45A1s are hardly different from any other commercial 1911 design, save for their dual recoil springs.  Most were replaced in 2016 with Glock 19s due to logistics issues.",
       },
@@ -803,14 +814,14 @@
       {
         id: "m9",
         name: {
-          str_sp: "Beretta M9A1",
+          str: "Beretta M9A1 pistol",
         },
-        description: "An iconic 9x19mm pistol, the M9 was the standard issue sidearm of the US armed forces from 1985 until only recently.  It was formerly popular amongst law enforcement before the advent of commercially available polymer-framed handguns and the FBI's adoption of .40 S&W.",
+        description: "An iconic 9x19mm pistol, the M9 was the standard issue sidearm of the US armed forces from 1985 until only recently.  It was formerly popular among law enforcement before the advent of commercially available polymer-framed handguns and the FBI's adoption of .40 S&W.",
       },
       {
         id: "90two",
         name: {
-          str: "Beretta 90-two",
+          str: "Beretta 90-two pistol",
         },
         description: "A more modern version of Beretta's popular 92 series of handguns, the 90-two performs largely the same.  The main difference is a sleeker, almost futuristic-looking design owed in large part to the polymer underbarrel rail cover.",
       },
@@ -843,9 +854,10 @@
       {
         id: "makarov",
         name: {
-          str: "Makarov PM",
+          str: "Makarov PM pistol",
         },
-        description: "A svelte, Cold War era handgun of Russian heritage, this former military pistol fires the Soviet 9x18mm cartridge.  Constructed completely out of steel components and experiencing relative popularity throughout eastern European countries, it was a favored backup weapon amongst USSR security forces, soldiers, and covert units.",
+        "//": "10 and 12-round magazines exist, but were made for the newer PMM, and are not compatible with the old PM.",
+        description: "A svelte, Cold War era handgun of Russian heritage, this former military pistol fires the Soviet 9x18mm cartridge.  Constructed completely out of steel components and experiencing relative popularity throughout eastern European countries, it was a favored backup weapon among USSR security forces, soldiers, and covert units.",
       },
     ],
 
@@ -876,7 +888,7 @@
       {
         id: "walther_ppq_45",
         name: {
-          str: "Walther PPQ 45",
+          str: "Walther PPQ 45 pistol",
         },
         description: "The Walther PPQ is a semi-automatic pistol originating from the Walther P99QA, and maintains compatibility with some of its predecessor's accessories.  This model is chambered in .45 ACP.",
       },
@@ -909,9 +921,9 @@
       {
         id: "ruger_57",
         name: {
-          str: "Ruger-57",
+          str: "Ruger-57 handgun",
         },
-        description: "A full-sized polymer framed handgun chambered in the unusual 5.7x28mm cartridge, the Ruger-57 was one of the first commercially available 5.7mm pistols on the market, with its main competitor being FN’s decades-old, and far pricier, Five-seveN pistol.  Featuring a lightweight ergonomic design, 1911-style thumb-safety, a high visibility green front-sight with adjustable black rear iron-sights, and a price point which hovered a good 500 dollars below its competition, the Ruger-57 made the comparatively niche 5.7x28mm round far more accessible to a wider margin of potential shooters.",
+        description: "A full-sized polymer framed handgun chambered in the unusual 5.7x28mm cartridge, the Ruger-57 was one of the first commercially available 5.7mm pistols on the market, with its main competitor being FN's decades-old, and far pricier, Five-seveN pistol.  Featuring a lightweight ergonomic design, 1911-style thumb-safety, a high visibility green front-sight with adjustable black rear iron-sights, and a price point which hovered a good 500 dollars below its competition, the Ruger-57 made the comparatively niche 5.7x28mm round far more accessible to a wider margin of potential shooters.",
       },
     ],
 
@@ -941,7 +953,7 @@
       {
         id: "m17",
         name: {
-          str: "M17",
+          str: "M17 pistol",
         },
         description: "The M17 is an army issued semi-automatic, short recoil operated pistol derived from the SIG Sauer P320.",
       },
@@ -988,7 +1000,7 @@
     type: "GUN",
 
     name: {
-      str: "SIG P226 MK25",
+      str: "SIG P226 MK25 pistol",
     },
 
     valid_mod_locations: [
@@ -1040,7 +1052,7 @@
       {
         id: "p220_10",
         name: {
-          str: "SIG P220 10mm",
+          str: "SIG P220 10mm pistol",
         },
         description: "The SIG Sauer P220 was developed for the Swiss military in 1975, and its simplified action was later used in most other SIG Sauer designs, including the P226.  The all-steel construction adds heft to this model, which is chambered in hard-hitting 10mm Auto.",
       },
@@ -1065,7 +1077,7 @@
     type: "GUN",
 
     name: {
-      str: "SIG Pro .40",
+      str_sp: "SIG Pro .40",
     },
 
     valid_mod_locations: [
@@ -1087,7 +1099,7 @@
     type: "GUN",
 
     name: {
-      str: "SIG Pro SP2022 9mm",
+      str: "SIG Pro SP2022 9mm pistol",
     },
 
     valid_mod_locations: [
@@ -1109,7 +1121,7 @@
     type: "GUN",
 
     name: {
-      str: "SIG training pistol",
+      str: "firefly training pistol",
     },
 
     variant_type: "gun",
@@ -1117,9 +1129,10 @@
       {
         id: "sig_mosquito",
         name: {
-          str_sp: "SIG Mosquito",
+          str: "GSG Firefly",
+          str_pl: "GSG Fireflies",
         },
-        description: "A medium sized, .22 caliber semi-automatic pistol, for training with a pistol similar to more powerful pistols.  Built from aluminum and polymer components, the weapon is lightweight and concealable, but its chambering is not very powerful.",
+        description: "The GSG firefly is a .22 semi-automatic handgun.  While the GSG Firefly started off as the SIG Mosquito, after the Mosquito ceased production, German Sport Guns picked it up and renamed it to the Firefly.",
       },
     ],
 
@@ -1161,7 +1174,7 @@
       {
         id: "tokarev",
         name: {
-          str_sp: "Tokarev TT-33",
+          str: "Tokarev TT-33 pistol",
         },
         description: "The Tokarev TT-33 is an antique Russian semiautomatic pistol, famous for its durability, accuracy, and uncomfortable grip angle.  It was chambered for the 7.62x25mm due to the popularity of the C96 pistol among Russian revolutionaries.",
       },
@@ -1186,7 +1199,7 @@
     type: "GUN",
 
     name: {
-      str: "USP 9x19mm",
+      str: "USP 9x19mm pistol",
     },
 
     valid_mod_locations: [
@@ -1216,14 +1229,14 @@
       {
         id: "usp_45",
         name: {
-          str: "USP .45",
+          str: ".45 USP pistol",
         },
         description: "A popular pistol, widely used among law enforcement.  Extensively tested for durability, it has been found to stay accurate even after being subjected to extreme abuse.",
       },
       {
         id: "mk23",
         name: {
-          str: "MK 23 MOD 0",
+          str: "MK 23 MOD 0 pistol",
         },
         description: 'Jokingly referred to as "The World\'s Only Crew-Served Pistol", this massive pistol was designed as a primary weapon for select "special operators".  Its cumbersome nature, the introduction of the derivative HK USP series, and the logistics of getting .45 ACP ammunition in theater doomed this behemoth to US SOCOM armories.  Like the USP, the MK 23 is a remarkably reliable gun; someone could probably take out a nuclear-equipped walking tank with this in their holster.',
       },
@@ -1248,7 +1261,7 @@
     type: "GUN",
 
     name: {
-      str: "Walther CCP",
+      str: "Walther CCP pistol",
     },
 
     valid_mod_locations: [
@@ -1270,7 +1283,7 @@
     type: "GUN",
 
     name: {
-      str: "Walther P38",
+      str: "Walther P38 handgun",
     },
 
     valid_mod_locations: [
@@ -1292,7 +1305,7 @@
     type: "GUN",
 
     name: {
-      str: "Walther PPK",
+      str_sp: "Walther PPK pistol",
     },
 
     valid_mod_locations: [
@@ -1314,7 +1327,7 @@
     type: "GUN",
 
     name: {
-      str: "Walther PPQ 9mm",
+      str: "Walther PPQ 9mm pistol",
     },
 
     valid_mod_locations: [
@@ -1344,7 +1357,7 @@
       {
         id: "walther_p22",
         name: {
-          str: "Walther P22",
+          str: "Walther P22 pistol",
         },
         description: "The Walther P22 is a blowback operated semi-automatic pistol intended for training with a platform very similar to more defensive handguns.  It is about half the size of most Walthers.  It is made mostly with plastic, with the slide and key components (other than the barrel) being made of die-cast zinc alloy.",
       },
@@ -1377,7 +1390,7 @@
       {
         id: "xd_10",
         name: {
-          str: "XD-M Competition 10mm",
+          str: "XD-M Competition 10mm pistol",
         },
         description: "Designed by HS Produkt in Croatia, the HS2000 has become a commercial success for Springfield Armory, who imports and markets it as the eXtreme Duty.  The XD has since been offered in a variety of chamberings and sizes, including this full-sized match grade variant in 10mm Auto.",
       },
