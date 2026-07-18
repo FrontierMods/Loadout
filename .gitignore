@@ -1,6 +1,4 @@
-.vscode
-.prettierrc
 *.todo
 *.old
 TODO
-TEMP.*
+json/
