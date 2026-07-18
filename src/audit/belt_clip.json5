@@ -30,36 +30,6 @@
     ],
   },
   {
-    id: "moss_brownie",
-    "copy-from": "moss_brownie",
-    type: "GUN",
-
-    name: {
-      str: ".22 deringer pistol",
-    },
-
-    variant_type: "gun",
-    variants: [
-      {
-        id: "moss_brownie",
-        name: { str_sp: "Mossberg Brownie" },
-        description: "The first gun produced by O.F. Mossberg & Sons, the Brownie is a small pocket pistol marketed to trappers during the early 20th century.  Its four barrels can accept .22 Short and .22 LR cartridges.",
-      },
-    ],
-
-    valid_mod_locations: [
-      ["barrel", 1],
-      ["belt clip", 1],
-      ["bore", 1],
-      ["grip", 1],
-      ["mechanism", 2],
-      ["belt clip", 1],
-      ["sights mount", 1],
-      ["stock mount", 1],
-      ["underbarrel mount", 1],
-    ],
-  },
-  {
     id: "ashot",
     "copy-from": "ashot",
     type: "GUN",
@@ -76,42 +46,6 @@
       ["sights mount", 1],
       ["rail mount", 1],
       ["underbarrel mount", 1],
-    ],
-  },
-  {
-    id: "m1911-460",
-    "copy-from": "m1911-460",
-    type: "GUN",
-
-    name: {
-      str: "1911-460",
-    },
-
-    variant_type: "gun",
-    variants: [
-      {
-        id: "m1911",
-        name: { str: "M1911" },
-        description: "The M1911 was the US Military standard-issue sidearm for most of the 20th Century.  It remains one of the most popular .45 pistols today.",
-      },
-      {
-        id: "m1911_MEU",
-        name: { str: "M45A1" },
-        description: "The M45A1 supplanted earlier M45 MEUSOC pistols in use by Force Recon elements of Marine Expeditionary Units.  Where the original M45 pistols were gutted M1911A1s hand-fitted by USMC armorers, the updated M45A1s are hardly different from any other commercial 1911 design, save for their dual recoil springs.  Most were replaced in 2016 with Glock 19s due to logistics issues.",
-      },
-    ],
-
-    valid_mod_locations: [
-      ["barrel", 1],
-      ["bore", 1],
-      ["grip", 1],
-      ["mechanism", 4],
-      ["belt clip", 1],
-      ["muzzle", 1],
-      ["rail", 1],
-      ["sights", 1],
-      ["stock", 1],
-      ["underbarrel", 1],
     ],
   },
   {
@@ -153,60 +87,6 @@
 
     valid_mod_locations: [
       ["barrel", 1],
-      ["grip", 1],
-      ["mechanism", 4],
-      ["belt clip", 1],
-      ["muzzle", 1],
-      ["rail", 1],
-      ["sights", 1],
-      ["stock", 1],
-      ["underbarrel", 1],
-    ],
-  },
-  {
-    id: "af2011a1_38super",
-    "copy-from": "af2011a1_38super",
-    type: "GUN",
-
-    name: {
-      str_sp: "AF2011A1 .38 Super",
-    },
-
-    variant_type: "gun",
-    variants: [
-      {
-        id: "fn57",
-        name: {
-          str: "FN Five-seveN",
-        },
-        description: "Designed to work with FN's proprietary 5.7x28mm round, the Five-seveN is a lightweight pistol with a very high capacity, best used against armored opponents.",
-      },
-    ],
-
-    valid_mod_locations: [
-      ["barrel", 1],
-      ["bore", 1],
-      ["grip", 1],
-      ["mechanism", 4],
-      ["belt clip", 1],
-      ["rail", 1],
-      ["sights", 1],
-      ["stock", 1],
-      ["underbarrel", 1],
-    ],
-  },
-  {
-    id: "90two40",
-    "copy-from": "90two40",
-    type: "GUN",
-
-    name: {
-      str: "Beretta 90-two .40 S&W",
-    },
-
-    valid_mod_locations: [
-      ["barrel", 1],
-      ["bore", 1],
       ["grip", 1],
       ["mechanism", 4],
       ["belt clip", 1],
@@ -479,40 +359,6 @@
     ],
   },
   {
-    id: "STI_DS_10",
-    "copy-from": "STI_DS_10",
-    type: "GUN",
-
-    name: {
-      str: "double-stack 10mm 1911",
-    },
-
-    variant_type: "gun",
-    variants: [
-      {
-        id: "STI_DS_10",
-        name: {
-          str: "STI Tactical 2011 DS 10mm",
-        },
-        description: "A next-gen model of the venerable 1911, ready to win World War Z.  Modernized and manufactured by Staccato, sporting a double-stack magwell, sleek solid-steel frame, and ergonomic grip; favored by certain dog-loving assassins.  This model is chambered in 10mm Auto.",
-        weight: 1,
-      },
-    ],
-
-    valid_mod_locations: [
-      ["barrel", 1],
-      ["bore", 1],
-      ["grip", 1],
-      ["mechanism", 4],
-      ["belt clip", 1],
-      ["muzzle", 1],
-      ["rail", 1],
-      ["sights", 1],
-      ["stock", 1],
-      ["underbarrel", 1],
-    ],
-  },
-  {
     id: "witness_10",
     "copy-from": "witness_10",
     type: "GUN",
@@ -670,26 +516,6 @@
       ["sights", 1],
       ["stock", 1],
       ["underbarrel", 1],
-    ],
-  },
-  {
-    id: "surv_six_shooter",
-    "copy-from": "surv_six_shooter",
-    type: "GUN",
-
-    name: {
-      str: "handmade six-shooter",
-    },
-
-    valid_mod_locations: [
-      ["barrel", 1],
-      ["bore", 1],
-      ["grip", 1],
-      ["sights", 1],
-      ["stock", 1],
-      ["belt clip", 1],
-      ["underbarrel", 1],
-      ["rail mount", 1],
     ],
   },
   {
@@ -1070,39 +896,6 @@
     ],
   },
   {
-    id: "mauser_m714",
-    "copy-from": "mauser_m714",
-    type: "GUN",
-
-    name: {
-      str: "reproduction Broomhandle pistol",
-    },
-
-    variant_type: "gun",
-    variants: [
-      {
-        id: "mauser_m714",
-        name: {
-          str: "M714 Broomhandle",
-        },
-        description: "Recognized the world over as one of the first practical self-loading pistols, the Mauser C96 and its derivatives are nearly universally regarded as some of the most classic and rugged guns in history, with the model being praised as a true marvel of industrial craftsmanship.  However, what rests before you is not an original production C96, but rather a modern American spin on the original Mauser recipe.  Feeding from detachable box magazines rather than an internal clip, the M714 is crafted out of a mix of modern and surplus parts, being chambered for 9x19mm rounds, with some other models being offered in the Mauser’s own 7.63x25mm cartridge.",
-      },
-    ],
-
-    valid_mod_locations: [
-      ["barrel", 1],
-      ["bore", 1],
-      ["grip", 1],
-      ["mechanism", 4],
-      ["belt clip", 1],
-      ["muzzle", 1],
-      ["rail mount", 1],
-      ["sights mount", 1],
-      ["stock mount", 1],
-      ["underbarrel mount", 1],
-    ],
-  },
-  {
     id: "ruger_57",
     "copy-from": "ruger_57",
     type: "GUN",
@@ -1132,39 +925,6 @@
       ["sights", 1],
       ["stock", 1],
       ["underbarrel", 1],
-    ],
-  },
-  {
-    id: "sw_22",
-    "copy-from": "sw_22",
-    type: "GUN",
-
-    name: {
-      str: "S&W target pistol",
-    },
-
-    variant_type: "gun",
-    variants: [
-      {
-        id: "sw_22",
-        name: {
-          str_sp: "S&W 22A",
-        },
-        description: "A modest offering from the Smith and Wesson (S&W) gun company, this is a medium sized pistol that fires the .22 LR cartridge.  Featuring an integrated rail for optics mounting, it was a popular .22 handgun amongst target shooters.",
-      },
-    ],
-
-    valid_mod_locations: [
-      ["barrel", 1],
-      ["bore", 1],
-      ["grip", 1],
-      ["mechanism", 4],
-      ["belt clip", 1],
-      ["muzzle", 1],
-      ["rail mount", 1],
-      ["sights", 1],
-      ["stock", 1],
-      ["underbarrel mount", 1],
     ],
   },
   {
@@ -1328,28 +1088,6 @@
 
     name: {
       str: "SIG Pro SP2022 9mm",
-    },
-
-    valid_mod_locations: [
-      ["barrel", 1],
-      ["bore", 1],
-      ["grip", 1],
-      ["mechanism", 4],
-      ["belt clip", 1],
-      ["muzzle", 1],
-      ["rail", 1],
-      ["sights", 1],
-      ["stock", 1],
-      ["underbarrel", 1],
-    ],
-  },
-  {
-    id: "sig_p230",
-    "copy-from": "sig_p230",
-    type: "GUN",
-
-    name: {
-      str: "SIG Sauer P230",
     },
 
     valid_mod_locations: [
@@ -1555,28 +1293,6 @@
 
     name: {
       str: "Walther PPK",
-    },
-
-    valid_mod_locations: [
-      ["barrel", 1],
-      ["bore", 1],
-      ["grip", 1],
-      ["mechanism", 4],
-      ["belt clip", 1],
-      ["muzzle", 1],
-      ["rail", 1],
-      ["sights", 1],
-      ["stock", 1],
-      ["underbarrel", 1],
-    ],
-  },
-  {
-    id: "walther_ppq_40",
-    "copy-from": "walther_ppq_40",
-    type: "GUN",
-
-    name: {
-      str: "Walther PPQ .40 S&W",
     },
 
     valid_mod_locations: [
