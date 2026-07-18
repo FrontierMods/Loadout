@@ -870,4 +870,28 @@
 
     extend: { valid_mod_locations: [["belt clip", 1]] },
   },
+  {
+    id: "kp32",
+    "copy-from": "kp32",
+    type: "ITEM",
+    subtypes: ["GUN"],
+
+    name: {
+      str_sp: "Kel-Tec P-32 pistol",
+    },
+
+    extend: { valid_mod_locations: [["belt clip", 1]] },
+  },
+  {
+    id: "rugerlcp",
+    "copy-from": "rugerlcp",
+    type: "ITEM",
+    subtypes: ["GUN"],
+
+    name: {
+      str_sp: "Ruger LCP pistol",
+    },
+
+    extend: { valid_mod_locations: [["belt clip", 1]] },
+  },
 ]
