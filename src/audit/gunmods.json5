@@ -4,18 +4,14 @@
     "copy-from": "wooden_grip",
     type: "GUNMOD",
 
-    "//notes": [
-      "this is meant to be a basic foregrip carved from nearby objects out of desperation",
-      "it's intended to only go on guns that have enough wooden furniture to nail the foregrip into",
-    ],
+    // * this is meant to be a basic foregrip carved from nearby objects out of desperation
+    // * it's intended to only go on guns that have enough wooden furniture to nail the foregrip into
 
     name: { str: "jury-rigged wooden foregrip" },
-    description: "A wooden grip placed forward on the firearm furniture allows for greater control.  Not as effective as a bipod, but usable under all conditions.  This one was hastily hand-made by a desperate survivor or a miserly enthusiast, and can only be attached to guns that have wooden furniture.",
+    description: "A wooden grip placed forward on the firearm furniture allows for greater control.  Not as effective as a bipod, but usable under all conditions.  This one was hastily crafted by a desperate survivor or a miserly enthusiast, and can only be attached to guns that have wooden furniture.",
 
-    "//mod_targets": [
-      "for Mosin rifles specifically, we can't actively separate between regular old wooden ones and EBR polymer ones",
-      "for now, we presume that someone is desperate enough to permanently damage EBR Mosins",
-    ],
+    // * for Mosin rifles specifically, we can't actively separate between regular old wooden ones and EBR polymer ones
+    // * for now, we presume that someone is desperate enough to permanently damage EBR Mosins
     mod_targets: [
       "winchester_1897",
       "ak74_semi",
@@ -57,30 +53,32 @@
     },
     handling_modifier: 2,
 
-    "//flags": "not PUMP_RAIL_COMPATIBLE because it has no rail adapter",
+    // * not `PUMP_RAIL_COMPATIBLE` because it has no rail adapter
     flags: ["IRREMOVABLE"],
   },
 
   {
     id: "shoulder_strap_simple",
-    type: "GUNMOD",
+    "copy-from": "shoulder_strap_simple",
+    type: "ITEM",
+    subtypes: ["GUNMOD"],
 
-    "//sources": [
-      [
-        "https://www.cheungscenter.com/product-page/peavey-2-nylon-blue-accent-guitar-strap",
-        "weight",
-      ],
-      [
-        "https://www.amazon.ae/Perris-Nylon-Guitar-Strap-Black/dp/B005F4EJZ8",
-        "dimensions",
-      ],
-    ],
+    /**
+     * SOURCES
+     *
+     * https://www.cheungscenter.com/product-page/peavey-2-nylon-blue-accent-guitar-strap
+     * - weight
+     * https://www.amazon.ae/Perris-Nylon-Guitar-Strap-Black/dp/B005F4EJZ8
+     * - dimensions
+     */
 
-    "//notes": [
-      "this is nothing like a gun strap, given that it breaks down from electric guitars",
-      "thus, it cannot possibly have a gun-appropriate connection",
-      "we adjust the sling to behave like an improvised one: tied around two points of a gun, rather than attached to a specialized connector",
-    ],
+    /**
+     * NOTES
+     *
+     * this is nothing like a gun strap, given that it breaks down from electric guitars
+     * thus, it cannot possibly have a gun-appropriate connection
+     * we adjust the sling to behave like an improvised one: tied around two points of a gun, rather than attached to a specialized connector
+     */
 
     name: {
       str: "guitar sling",
@@ -99,9 +97,6 @@
     volume: "56 ml",
 
     material: ["nylon"],
-
-    symbol: ":",
-    color: "green",
 
     mod_targets: ["rifle", "shotgun", "smg", "launcher"],
     location: "sling",
