@@ -4,8 +4,6 @@
     inherit: "@magazine/body",
     type: "ITEM",
 
-    "//sources": ["https://magpul.com/pmag-10-ar-m4-gen-m3.html"],
-
     name: {
       str: "PMAG STANAG 10-round magazine body",
       str_pl: "PMAG STANAG 10-round magazine bodies",
@@ -21,32 +19,36 @@
           str: "Magpul PMAG M3 5.56mm 10-round magazine body",
           str_pl: "Magpul PMAG M3 5.56mm 10-round magazine bodies",
         },
-        description: "The polymer body of a Magpul magazine.  Currently without use because it is missing the base plate, which keeps the spring interior and functional.  Currently missing a base plate, which prevents it from being used for its intended purpose. <variant:black>",
+        description: "The polymer body of a Magpul magazine.  Currently without use because it is missing the base plate, which keeps the spring interior and functional.  Should you find a PMAG base plate or extension, you can assemble the body into a usable magazine.  <variant:black>",
         expand_snippets: true,
         weight: 1,
       },
     ],
 
-    "//weight": "PMAG 10 (3 oz = 85.05 g) - baseplate (9.98 g) = 75.07 g",
-    weight: "75 g",
-    "//dimensions": {
-      area: "7.87 in2",
-      width: "0.87 in",
-      raw: "112.2 ml",
-      trim: 0,
+    weight: {
+      math: [
+        { ref: "magazine/magpul/pmag/10", key: "weight" },
+        {
+          op: "subtract",
+          value: { ref: "magazine/baseplate/magpul/pmag", key: "weight" },
+        },
+      ],
     },
-    volume: "112 ml",
-    "//longest_side": "4.13 in = 104.9 mm",
-    longest_side: "105 mm",
+    dimensions: {
+      type: "area",
+
+      area: "7.87 in2",
+      length: "0.87 in",
+    },
+    longest_side: "4.13 in",
 
     material: ["plastic"],
+    price_postapoc: { utility: "low", longevity: "high", scarcity: "none" },
   },
   {
     id: "magazine/body/magpul/pmag/20",
     inherit: "@magazine/body",
     type: "ITEM",
-
-    "//sources": ["https://magpul.com/pmag-20-ar-m4-gen-m3.html"],
 
     name: {
       str: "PMAG STANAG 20-round magazine body",
@@ -69,26 +71,30 @@
       },
     ],
 
-    "//weight": "PMAG 20 (4.1 oz = 116.24 g) - baseplate (9.98 g) = 106.26 g",
-    weight: "106 g",
-    "//dimensions": {
-      area: "12.37 in2",
-      width: "0.87 in",
-      raw: "176.36 ml",
-      trim: 0,
+    weight: {
+      math: [
+        { ref: "magazine/magpul/pmag/20", key: "weight" },
+        {
+          op: "subtract",
+          value: { ref: "magazine/baseplate/magpul/pmag", key: "weight" },
+        },
+      ],
     },
-    volume: "176 ml",
-    "//longest_side": "5.59 in = 141.99 mm",
-    longest_side: "142 mm",
+    dimensions: {
+      type: "area",
+
+      area: "12.37 in2",
+      length: "0.87 in",
+    },
+    longest_side: "5.59 in",
 
     material: ["plastic"],
+    price_postapoc: { utility: "low", longevity: "high", scarcity: "none" },
   },
   {
     id: "magazine/body/magpul/pmag/30",
     inherit: "@magazine/body",
     type: "ITEM",
-
-    "//sources": ["https://magpul.com/pmag-30-ar-m4-gen-m3.html"],
 
     name: {
       str: "PMAG STANAG 30-round magazine body",
@@ -111,26 +117,30 @@
       },
     ],
 
-    "//weight": "PMAG 30 (5.1 oz = 144.58 g) - baseplate (9.98 g) = 134.6 g",
-    weight: "135 g",
-    "//dimensions": {
-      area: "17.36 in2",
-      width: "0.87 in",
-      raw: "247.5 ml",
-      trim: 0,
+    weight: {
+      math: [
+        { ref: "magazine/magpul/pmag/30", key: "weight" },
+        {
+          op: "subtract",
+          value: { ref: "magazine/baseplate/magpul/pmag", key: "weight" },
+        },
+      ],
     },
-    volume: "248 ml",
-    "//longest_side": "7.35 in = 186.69 mm",
-    longest_side: "187 mm",
+    dimensions: {
+      type: "area",
+
+      area: "17.36 in2",
+      length: "0.87 in",
+    },
+    longest_side: "7.35 in",
 
     material: ["plastic"],
+    price_postapoc: { utility: "low", longevity: "high", scarcity: "none" },
   },
   {
     id: "magazine/body/colt/stanag/30",
     inherit: "@magazine/body",
     type: "ITEM",
-
-    "//notes": ["based on the STANAG magazine"],
 
     name: {
       str: "STANAG 30-round magazine body",
@@ -147,7 +157,7 @@
           str: "Colt M16 30-round magazine body",
           str_pl: "Colt M16 30-round magazine bodies",
         },
-        description: "The aluminum body of a magazine for STANAG-compatible rifles.  Currently without use because it is missing the base plate, which keeps the spring interior and functional.  Should you find a PMAG base plate or extension, you can assemble the body into a usable magazine.  <variant:steel>",
+        description: "The aluminum body of a magazine for STANAG-compatible rifles.  Currently without use because it is missing the base plate, which keeps the spring interior and functional.  Should you find a STANAG base plate, you can assemble the body into a usable magazine.  <variant:steel>",
         expand_snippets: true,
         weight: 1,
       },
@@ -155,26 +165,40 @@
 
     material: ["aluminum"],
 
-    "//weight": "Colt mag (4 oz = 113.4 g) - base plate (9.98 g) = 103.42 g",
-    weight: "103 g",
-    "//volume": "same volume as the magazine: the base plate is tiny and already fits into the magazine's silhouette",
-    volume: "249 ml",
-    "//longest_side": "same longest side as the magazine: the base plate is tiny and already fits into the magazine's silhouette",
-    longest_side: "182 mm",
+    weight: {
+      math: [
+        { ref: "magazine/colt/stanag/30", key: "weight" },
+        {
+          op: "subtract",
+          value: { ref: "magazine/baseplate/colt/stanag", key: "weight" },
+        },
+      ],
+    },
+    volume: {
+      math: [
+        { ref: "magazine/colt/stanag/30", key: "volume" },
+        {
+          op: "subtract",
+          value: { ref: "magazine/baseplate/colt/stanag", key: "volume" },
+        },
+      ],
+    },
+    longest_side: { ref: "magazine/colt/stanag/30", key: "longest_side" },
+    price_postapoc: { utility: "low", longevity: "high", scarcity: "none" },
   },
   {
     id: "magazine/body/magpul/pmag/40",
     inherit: "@magazine/body",
     type: "ITEM",
 
-    "//sources": [
-      "https://magpul.com/pmag-40-ar-m4-gen-m3.html",
-      [
-        "https://www.trex-arms.com/store/MAGPUL-ARM4-PMAG/",
-        "weight",
-        "dimensions",
-      ],
-    ],
+    /*
+      SOURCES
+        https://magpul.com/pmag-40-ar-m4-gen-m3.html
+
+        https://www.trex-arms.com/store/MAGPUL-ARM4-PMAG/
+          - weight
+          - dimensions
+    */
 
     name: { str: "PMAG STANAG 40-round magazine body" },
     description: "The polymer body of a PMAG magazine.  Currently missing a base plate, which prevents it from being used for its intended purpose.  You can assemble it into a usable magazine if you have an appropriate base plate.",
@@ -196,16 +220,23 @@
 
     material: ["plastic"],
 
-    "//weight": "PMAG 40 (6.2 oz = 175.77 g) - baseplate (9.98 g) = 165.79 g",
-    weight: "166 g",
-    "//dimensions": {
-      area: "22.50 in2",
-      width: "0.87 in",
-      raw: "320.78 ml",
-      trim: 0,
+    weight: {
+      math: [
+        { ref: "magazine/magpul/pmag/40", key: "weight" },
+        {
+          op: "subtract",
+          value: { ref: "magazine/baseplate/magpul/pmag", key: "weight" },
+        },
+      ],
     },
-    volume: "321 ml",
-    "//longest_side": ["9.22 in = 234.19 mm", "Feret distance"],
-    longest_side: "234 mm",
+    dimensions: {
+      type: "area",
+
+      area: "22.50 in2",
+      length: "0.87 in",
+    },
+    // * Feret distance
+    longest_side: "9.22 in",
+    price_postapoc: { utility: "low", longevity: "high", scarcity: "low" },
   },
 ]

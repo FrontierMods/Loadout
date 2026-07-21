@@ -4,7 +4,10 @@
     inherit: "@magmod",
     type: "ITEM",
 
-    "//sources": ["M4 Technical Data Package"],
+    /*
+      SOURCES
+        M4 Technical Data Package
+    */
 
     name: {
       str: "STANAG magazine baseplate",
@@ -25,39 +28,57 @@
       },
     ],
 
-    "//weight": ["estimated based on the weight of the PMAG baseplate"],
-    weight: "10 g",
-    "//dimensions": {
-      area: "1.91 in2",
-      width: "0.04 in",
-      raw: "1.25 ml",
-      trim: 0,
-    },
-    volume: "1 ml",
-    "//longest_side": "2.59 in = 65.79 mm",
-    longest_side: "66 mm",
+    // * precalculated from volume and density; sources are scarce
+    // TODO: calculate properly
+    weight: "7.5 g",
+    dimensions: [
+      {
+        // * main plate
+        type: "rectangle",
+
+        length: "2.31 in",
+        width: "0.786 in",
+        height: "0.04 in",
+        // * a mixed trim for two rounded corners countered by the 0.07-inch teeth on the opposite end
+        trim: -0.025,
+      },
+      {
+        // * tongue
+        type: "rectangle",
+
+        length: "0.15 in",
+        width: "0.43 in",
+        height: "0.04 in",
+        // * two rounded corners
+        trim: 0.025,
+      },
+    ],
+    longest_side: "2.59 in",
 
     material: ["aluminum"],
 
     price: "1 cent",
+    price_postapoc: { utility: "none", longevity: "medium", scarcity: "none" },
   },
   {
     id: "magazine/baseplate/magpul/pmag",
     inherit: "@magmod",
     type: "ITEM",
 
-    "//sources": [
-      [
-        "https://www.amazon.com/Magpul-PMAG-Floor-Plate-Pack/dp/B07K55YYHX",
-        "weight reference",
-      ],
-      ["https://magpul.com/pmag-30-ar-m4-gen-m3.html", "visual reference"],
-    ],
+    /*
+      SOURCES
+        https://www.amazon.com/Magpul-PMAG-Floor-Plate-Pack/dp/B07K55YYHX
+          - weight reference
 
-    "//notes": [
-      "the base plate is said to be 69 mm in length",
-      "https://www.haho.online/post/review-taran-tactical-innovations-pmag-extension",
-    ],
+        https://magpul.com/pmag-30-ar-m4-gen-m3.html
+          - visual reference
+    */
+
+    /*
+      NOTES
+        - the base plate is said to be 69 mm in length
+          > https://www.haho.online/post/review-taran-tactical-innovations-pmag-extension
+    */
 
     name: {
       str: "PMAG magazine baseplate",
@@ -78,43 +99,38 @@
       },
     ],
 
-    "//weight": [
-      "0.11 lbs = 49.9 g",
-      "we assume that the value is given per 5 plates in the package",
-      "49.9 g / 5 = 9.98 g",
-    ],
-    weight: "10 g",
-    "//dimensions": {
+    // * we assume the listed value is given per 5 plates in the package
+    weight: "9 g 979 mg",
+    dimensions: {
+      type: "area",
+
       area: "0.75 in2",
-      width: "0.87 in",
-      raw: "10.69 ml",
+      length: "0.87 in",
       trim: 0.7,
     },
-    volume: "3 ml",
-    "//longest_side": "2.63 in = 66.8 mm",
-    longest_side: "67 mm",
+    longest_side: "2.63 in",
 
     material: ["plastic"],
 
     price: "5 cent",
+    price_postapoc: { utility: "none", longevity: "medium", scarcity: "none" },
   },
   {
     id: "magazine/baseplate/magpul/ranger",
     inherit: "@magmod",
     type: "ITEM",
 
-    "//sources": [
-      "https://magpul.com/pmagrangerplate-genm35-56x45-3pack.html",
-      [
-        "https://www.armamat.ch/en-ch/p/pmag-gen-m3-ranger-plate-3-pack-103802/",
-        "https://www.varusteleka.com/en/product/magpul-pmag-ranger-plate-ak-akm-3-pack/68659",
-        "weight",
-      ],
-      [
-        "https://www.armamat.com/en/p/usgi-ranger-floorplate-3-pack-102951/",
-        "materials",
-      ],
-    ],
+    /*
+      SOURCES
+        https://magpul.com/pmagrangerplate-genm35-56x45-3pack.html
+
+        https://www.armamat.ch/en-ch/p/pmag-gen-m3-ranger-plate-3-pack-103802/
+        https://www.varusteleka.com/en/product/magpul-pmag-ranger-plate-ak-akm-3-pack/68659
+          - weight
+
+        https://www.armamat.com/en/p/usgi-ranger-floorplate-3-pack-102951/
+          - materials
+    */
 
     name: {
       str: "PMAG magazine ranger plate",
@@ -135,38 +151,43 @@
       },
     ],
 
-    "//weight": [
-      "two sources state roughly the same value between two different models of ranger plates: 52 g / 3 = 17.33 g, or 0.6 oz = 17.01 g",
-      "even though this references two different models, we assume the difference between the two is negligible, and thus use the latter value for all ranger plates",
-    ],
-    weight: "17 g",
-    "//dimensions": {
+    /*
+      WEIGHT
+        two sources state roughly the same value between two different models of ranger plates: 52 g / 3 = 17.33 g, or 0.6 oz = 17.01 g
+        even though this references two different models, we assume the difference between the two is negligible, and thus use the latter value for all ranger plates
+    */
+    weight: "0.6 oz",
+    dimensions: {
+      type: "area",
+
       area: "1.52 in2",
-      width: "0.87 in",
-      raw: "21.67 ml",
+      length: "0.87 in",
       trim: 0.25,
     },
-    volume: "16 ml",
-    "//longest_side": ["2.65 in = 67.31 mm", "Feret distance"],
-    longest_side: "67 mm",
+    // * Feret distance
+    longest_side: "2.65 in",
 
     material: ["stainless_steel", "rubber"],
 
-    "//price": "we assume the price is for three pieces",
+    // * we assume the price is for three pieces
     price: "8 USD 33 cent",
+    price_postapoc: { utility: "none", longevity: "medium", scarcity: "none" },
   },
   {
     id: "magazine/baseplate/magpul/ranger/usgi",
     inherit: "@magmod",
     type: "ITEM",
 
-    "//sources": [
-      "https://magpul.com/rangerplate-usgi5-56x45-3pack.html",
-      [
-        "https://tacticalproductscanada.com/products/mpimag020b-magpul-ranger-floor-plate-5-56-nato-3-pack-mag020",
-        "visual reference",
-      ],
-    ],
+    /*
+      SOURCES
+        https://magpul.com/rangerplate-usgi5-56x45-3pack.html
+
+        https://www.armamat.com/en/p/usgi-ranger-floorplate-3-pack-102951/
+          - weight
+
+        https://tacticalproductscanada.com/products/mpimag020b-magpul-ranger-floor-plate-5-56-nato-3-pack-mag020
+          - visual reference
+    */
 
     name: {
       str: "STANAG magazine ranger plate",
@@ -187,46 +208,47 @@
       },
     ],
 
-    "//weight": "presuming the same weight as the PMAG ranger plate",
-    weight: "17 g",
-    "//dimensions": {
+    // * we assume the listed value is given per 3 plates in the package
+    // * Big Tex Ordnance reports total weight of 136 g in oz
+    // > https://www.bigtexordnance.com/product/magpul-ranger-plate-usgi-5-56x45-3-pack-black-odg-fde/
+    weight: "19 g 666 mg",
+    dimensions: {
+      type: "area",
+
       area: "2.34 in2",
-      width: "0.87 in",
-      raw: "33.36 ml",
+      length: "0.87 in",
       trim: 0.25,
     },
-    volume: "25 ml",
-    "//longest_side": "2.48 in = 62.99 mm",
-    longest_side: "63 mm",
+    longest_side: "2.48 in",
 
     material: ["stainless_steel", "rubber"],
 
-    "//price": "we assume the price is for three pieces",
+    // * we assume the price is for three pieces
     price: "8 USD 33 cent",
+    price_postapoc: { utility: "none", longevity: "medium", scarcity: "none" },
   },
   {
     id: "magazine/baseplate/taran/extended/pmag",
     inherit: "@magmod",
     type: "ITEM",
 
-    "//sources": [
-      "https://tarantacticalinnovations.com/5-6-base-pad-for-ar-15-223-30-40-round-pmag-magazines/",
-      [
-        "https://www.haho.online/post/review-taran-tactical-innovations-pmag-extension",
-        "dimensions",
-        "weight",
-      ],
-    ],
+    /*
+      SOURCES
+        https://tarantacticalinnovations.com/5-6-base-pad-for-ar-15-223-30-40-round-pmag-magazines/
 
-    "//notes": [
-      "there is a lot more colors of the plate, but we only implement the black one for the sake of simplicity for now",
-      "advertised as +5 on 30-round magazines, +6 on 40-round magazines",
-      [
-        "according to The Mag Shack, the extension is compatible with the 20-, 30-, and 40-round PMAGs, but not 10-rounders",
-        "it's also not compatible with the .300 Blackout-exclusive PMAGs",
-        "https://themagshack.com/shop/accessories/magazine-extensions/taran-tactical-magpul-pmag-ar-15-223-5-56-5-6-extension/",
-      ],
-    ],
+        https://www.haho.online/post/review-taran-tactical-innovations-pmag-extension
+          - dimensions
+          - weight
+    */
+
+    /*
+      NOTES
+        - there is a lot more colors of the plate, but we only implement the black one for the sake of simplicity for now
+        - advertised as +5 on 30-round magazines, +6 on 40-round magazines
+        - according to The Mag Shack, the extension is compatible with the 20-, 30-, and 40-round PMAGs, but not 10-rounders
+          - it's also not compatible with the .300 Blackout-exclusive PMAGs
+          > https://themagshack.com/shop/accessories/magazine-extensions/taran-tactical-magpul-pmag-ar-15-223-5-56-5-6-extension/
+    */
 
     name: {
       str: "PMAG magazine extension",
@@ -247,20 +269,19 @@
       },
     ],
 
-    "//weight": "59.5 g originally",
-    weight: "60 g",
-    "//dimensions": {
+    weight: "59.5 g",
+    dimensions: {
+      type: "rectangle",
+
       length: "73 mm",
-      height: "25 mm",
       width: "29 mm",
-      raw: "52.93 ml",
+      height: "25 mm",
       trim: 0.0625,
     },
-    volume: "50 ml",
-    longest_side: "73 mm",
 
     material: ["aluminum"],
 
     price: "43 USD 99 cent",
+    price_postapoc: { utility: "none", longevity: "high", scarcity: "medium" },
   },
 ]

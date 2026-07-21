@@ -4,7 +4,11 @@
     inherit: "@magazine/body",
     type: "ITEM",
 
-    "//sources": ["magazine/glock/9x19mm/15", "baseplate/glock/oem"],
+    /*
+      SOURCES
+        https://www.northeastshooters.com/xen/threads/anyone-have-glock-dimensions-n00b-questions.181051/
+          - dimensions
+    */
 
     name: {
       str: "Glock 9x19mm 15-round magazine body",
@@ -27,29 +31,40 @@
       },
     ],
 
-    "//weight": [
-      "Glock 19 with empty magazine (23.63 oz = 669.9 g) - Glock 19 without magazine (21.16 oz = 599.88 g) = 70.02 g",
-      "- Glock base plate (3.5 g) = 66.52 g",
-    ],
-    weight: "66 g 520 mg",
-    "//dimensions": {
-      area: "5.23 in2",
-      width: "0.888 in",
-      raw: "76.11 ml",
-      trim: 0,
+    weight: {
+      math: [
+        { ref: "magazine/glock/9x19mm/15", key: "weight" },
+        {
+          op: "subtract",
+          value: {
+            ref: "magazine/baseplate/glock/9x19mm/oem",
+            key: "weight",
+          },
+        },
+      ],
     },
-    volume: "76 ml",
-    "//longest_side": ["4.43 in = 112.52 mm", "Feret distance"],
-    longest_side: "113 mm",
+    dimensions: {
+      type: "area",
+
+      area: "5.23 in2",
+      length: "0.888 in",
+    },
+    // * Feret distance
+    longest_side: "4.43 in",
 
     material: ["plastic"],
+    price_postapoc: { utility: "low", longevity: "high", scarcity: "none" },
   },
   {
     id: "magazine/body/glock/9x19mm/17",
     inherit: "@magazine/body",
     type: "ITEM",
 
-    "//sources": ["magazine/glock/9x19mm/17", "baseplate/glock/oem"],
+    /*
+      SOURCES
+        https://www.northeastshooters.com/xen/threads/anyone-have-glock-dimensions-n00b-questions.181051/
+          - dimensions
+    */
 
     name: {
       str: "Glock 9x19mm 17-round magazine body",
@@ -72,29 +87,40 @@
       },
     ],
 
-    "//weight": [
-      "Glock 17 with empty magazine (24.87 oz = 705.05 g) - Glock 17 without magazine (22.05 oz = 625.11 g) = 79.94 g",
-      "- Glock base plate (3.5 g) = 76.44 g",
-    ],
-    weight: "76 g 440 mg",
-    "//dimensions": {
-      area: "5.73 in2",
-      width: "0.888 in",
-      raw: "83.38 ml",
-      trim: 0,
+    weight: {
+      math: [
+        { ref: "magazine/glock/9x19mm/17", key: "weight" },
+        {
+          op: "subtract",
+          value: {
+            ref: "magazine/baseplate/glock/9x19mm/oem",
+            key: "weight",
+          },
+        },
+      ],
     },
-    volume: "83 ml",
-    "//longest_side": ["4.92 in = 124.97 mm", "Feret distance"],
-    longest_side: "125 mm",
+    dimensions: {
+      type: "area",
+
+      area: "5.73 in2",
+      length: "0.888 in",
+    },
+    // * Feret distance
+    longest_side: "4.92 in",
 
     material: ["plastic"],
+    price_postapoc: { utility: "low", longevity: "high", scarcity: "none" },
   },
   {
     id: "magazine/body/glock/9x19mm/24",
     inherit: "@magazine/body",
     type: "ITEM",
 
-    "//sources": ["magazine/glock/9x19mm/24", "baseplate/glock/oem"],
+    /*
+      SOURCES
+        https://www.northeastshooters.com/xen/threads/anyone-have-glock-dimensions-n00b-questions.181051/
+          - dimensions
+    */
 
     name: {
       str: "Glock 9x19mm 24-round magazine body",
@@ -117,26 +143,40 @@
       },
     ],
 
-    "//weight": "complete magazine (105 g) - Glock base plate (3.5 g) = 101.5 g",
-    weight: "101 g 500 mg",
-    "//dimensions": {
-      area: "8.07 in2",
-      width: "0.888 in",
-      raw: "117.43 ml",
-      trim: 0,
+    weight: {
+      math: [
+        { ref: "magazine/glock/9x19mm/24", key: "weight" },
+        {
+          op: "subtract",
+          value: {
+            ref: "magazine/baseplate/glock/9x19mm/oem",
+            key: "weight",
+          },
+        },
+      ],
     },
-    volume: "117 ml",
-    "//longest_side": ["6.71 in = 170.43 mm", "Feret distance"],
-    longest_side: "170 mm",
+    dimensions: {
+      type: "area",
+
+      area: "8.07 in2",
+      length: "0.888 in",
+    },
+    // * Feret distance
+    longest_side: "6.71 in",
 
     material: ["plastic"],
+    price_postapoc: { utility: "low", longevity: "high", scarcity: "low" },
   },
   {
     id: "magazine/body/glock/9x19mm/31",
     inherit: "@magazine/body",
     type: "ITEM",
 
-    "//sources": ["magazine/glock/9x19mm/31", "baseplate/glock/oem"],
+    /*
+      SOURCES
+        https://www.northeastshooters.com/xen/threads/anyone-have-glock-dimensions-n00b-questions.181051/
+          - dimensions
+    */
 
     name: {
       str: "Glock 9x19mm 31-round magazine body",
@@ -159,18 +199,28 @@
       },
     ],
 
-    "//weight": "complete magazine (117 g) - Glock base plate (3.5 g) = 113.5 g",
-    weight: "113 g 500 mg",
-    "//dimensions": {
-      area: "9.72 in2",
-      width: "0.888 in",
-      raw: "141.44 ml",
-      trim: 0,
+    weight: {
+      math: [
+        { ref: "magazine/glock/9x19mm/31", key: "weight" },
+        {
+          op: "subtract",
+          value: {
+            ref: "magazine/baseplate/glock/9x19mm/oem",
+            key: "weight",
+          },
+        },
+      ],
     },
-    volume: "141 ml",
-    "//longest_side": ["7.99 in = 202.95 mm", "Feret distance"],
-    longest_side: "203 mm",
+    dimensions: {
+      type: "area",
+
+      area: "9.72 in2",
+      length: "0.888 in",
+    },
+    // * Feret distance
+    longest_side: "7.99 in",
 
     material: ["plastic"],
+    price_postapoc: { utility: "low", longevity: "high", scarcity: "low" },
   },
 ]
