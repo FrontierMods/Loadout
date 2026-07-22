@@ -611,6 +611,10 @@
     material: ["plastic"],
 
     reload_time: 140,
+    // * reviews report it feeding without a malfunction
+    // > https://athlonoutdoors.com/article/magpul-d-50-gl9-pcc-review/
+    // * we settle on 1.5, halfway between a regular drum and a box magazine
+    mag_jam_mult: 1.5,
 
     pocket_data: [
       {
@@ -678,6 +682,7 @@
     material: ["plastic", "hc_steel"],
 
     reload_time: 140,
+    mag_jam_mult: 2,
 
     pocket_data: [
       {
@@ -734,6 +739,9 @@
     material: ["plastic"],
 
     reload_time: 200,
+    // * this magazine has a mixed history of performance: early (2003) reports suggest poor performance, while later (2008 and beyond) ones suggest i to be excellent
+    // * we assume that later issues of this magazine saw improvements, and rate it the same as most drum magazines
+    mag_jam_mult: 2,
 
     pocket_data: [
       {
