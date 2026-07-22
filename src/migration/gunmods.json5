@@ -30,11 +30,6 @@
     replace: "sight/vortex/viper_pst/1-6x",
   },
   {
-    id: ["magnifier"],
-    type: "MIGRATION",
-    replace: "magnifier/eotech/g33",
-  },
-  {
     id: ["offset_sight_rail"],
     type: "MIGRATION",
     replace: "sight_mount/offset/si/ambush",
