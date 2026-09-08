@@ -25,11 +25,6 @@
     obsolete: true,
   },
   {
-    result: "arredondo_chute",
-    type: "recipe",
-    obsolete: true,
-  },
-  {
     result: "improve_sights",
     type: "recipe",
     obsolete: true,
@@ -55,22 +50,7 @@
     obsolete: true,
   },
   {
-    result: "suppressor",
-    type: "recipe",
-    obsolete: true,
-  },
-  {
     result: "brass_catcher",
-    type: "recipe",
-    obsolete: true,
-  },
-  {
-    result: "folding_stock",
-    type: "recipe",
-    obsolete: true,
-  },
-  {
-    result: "barrel_ported",
     type: "recipe",
     obsolete: true,
   },
@@ -90,7 +70,8 @@
     obsolete: true,
   },
   {
-    result: "pistol_grip",
+    result: "muzzle_brake",
+    id_suffix: "welded_thread",
     type: "recipe",
     obsolete: true,
   },
@@ -121,22 +102,12 @@
     obsolete: true,
   },
   {
-    result: "gun_crossbow",
-    type: "recipe",
-    obsolete: true,
-  },
-  {
     result: "ugl_buttstock",
     type: "recipe",
     obsolete: true,
   },
   {
     result: "pistol_bayonet",
-    type: "recipe",
-    obsolete: true,
-  },
-  {
-    result: "bipod_mod",
     type: "recipe",
     obsolete: true,
   },
@@ -162,56 +133,6 @@
   },
   {
     result: "m26_mass_mod",
-    type: "recipe",
-    obsolete: true,
-  },
-  {
-    result: "rm121aux_mod",
-    type: "recipe",
-    obsolete: true,
-  },
-  {
-    result: "u_shotgun_mod",
-    type: "recipe",
-    obsolete: true,
-  },
-  {
-    result: "knife_combat_mod",
-    type: "recipe",
-    obsolete: true,
-  },
-  {
-    result: "sword_bayonet_mod",
-    type: "recipe",
-    obsolete: true,
-  },
-  {
-    result: "offset_sight_rail_mod",
-    type: "recipe",
-    obsolete: true,
-  },
-  {
-    result: "stabilizer_mod",
-    type: "recipe",
-    obsolete: true,
-  },
-  {
-    result: "muzzle_brake_mod",
-    type: "recipe",
-    obsolete: true,
-  },
-  {
-    result: "rifle_scope_mod",
-    type: "recipe",
-    obsolete: true,
-  },
-  {
-    result: "acog_scope_mod",
-    type: "recipe",
-    obsolete: true,
-  },
-  {
-    result: "offset_sights_mod",
     type: "recipe",
     obsolete: true,
   },
