@@ -1,4 +1,6 @@
 [
+  // `hybrid_sight_4x` cannot be migrated as is: its migration requires multipart assembly (ACOG + ACOG RMR mount + RMR)
+  // * `rifle_scope_high_end_mount` cannot be migrated as is: it's supposed to be a scope with a mount on top of which is an extra sight mount, and these are modelled individually in Loadout
   {
     id: ["red_dot_sight"],
     type: "MIGRATION",
