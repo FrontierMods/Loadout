@@ -24,6 +24,7 @@
     id: "nested_m2010_no_ammo",
     type: "item_group",
     subtype: "collection",
+
     items: [{ group: "m2010" }, { item: "m2010mag", count: [1, 3] }],
   },
   {
@@ -41,9 +42,10 @@
     ],
   },
   {
-    type: "item_group",
     id: "military_standard_sniper_rifles",
+    type: "item_group",
     subtype: "distribution",
+
     entries: [
       { group: "m2010", prob: 20, charges: [0, 5] },
       { group: "m110a1", prob: 80, charges: [0, 20] },
