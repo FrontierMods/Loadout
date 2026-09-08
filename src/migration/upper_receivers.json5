@@ -1,12 +1,10 @@
 [
   {
-    "//": [
-      "the 7.5-inch assembly appears to be so exceedingly rare that very few stores even sell it",
-      "this includes whatever apparent upper from Bear Creek Arsenal the original PR introduced it from",
-    ],
+    // * the 7.5-inch assembly appears to be so exceedingly rare that very few stores even sell it
+    // * this includes whatever apparent upper from Bear Creek Arsenal the original PR introduced it from
     id: ["retool_ar15_450_short"],
     type: "MIGRATION",
-    replace: "retool_ar15_450_medium",
+    replace: "upper_receiver/ar15/450/10.5in/bca/bc15",
   },
 
   {
