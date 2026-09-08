@@ -739,7 +739,7 @@
     material: ["plastic"],
 
     reload_time: 200,
-    // * this magazine has a mixed history of performance: early (2003) reports suggest poor performance, while later (2008 and beyond) ones suggest i to be excellent
+    // * this magazine has a mixed history of performance: early (2003) reports suggest poor performance, while later (2008 and beyond) ones suggest it to be excellent
     // * we assume that later issues of this magazine saw improvements, and rate it the same as most drum magazines
     mag_jam_mult: 2,
 
