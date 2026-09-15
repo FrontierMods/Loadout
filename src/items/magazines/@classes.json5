@@ -28,4 +28,11 @@
 
     ammo_type: ["9mm"],
   },
+  {
+    id: "@magazine/22lr",
+    inherit: "@magazine",
+    type: "PARTIAL",
+
+    ammo_type: ["22"],
+  },
 ]

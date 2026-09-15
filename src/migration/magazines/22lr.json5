@@ -1,0 +1,13 @@
+[
+  {
+    id: ["22_ar15mag_10"],
+    type: "MIGRATION",
+    // * we assume that this magazine is the original, now-discontinued short 10-rounder, rather than a reduced 28-rounder
+    replace: "magazine/chiappa/22lr/10",
+  },
+  {
+    id: ["22_ar15mag_28"],
+    type: "MIGRATION",
+    replace: "magazine/chiappa/22lr/28",
+  },
+]

@@ -75,4 +75,10 @@
     type: "MIGRATION",
     replace: "upper_receiver/ar15/7.62x39mm/16in/radical/pabu16",
   },
+
+  {
+    id: ["retool_ar15_22"],
+    type: "MIGRATION",
+    replace: "upper_receiver/ar15/22lr/16in/chiappa/m4-22",
+  },
 ]

@@ -259,4 +259,34 @@
       },
     ],
   },
+  {
+    id: "@upper_receiver/ar15/22lr",
+    inherit: "@upper_receiver/ar15",
+    type: "PARTIAL",
+
+    // * copied from `retool_ar15_22`
+    overwrite_min_cycle_recoil: 83,
+
+    ammo_modifier: ["22"],
+    magazine_adaptor: [
+      [
+        "22",
+        [
+          "magazine/chiappa/22lr/10",
+          "magazine/chiappa/22lr/28",
+          "magazine/chiappa/22lr/28:reduced",
+        ],
+      ],
+    ],
+    pocket_mods: [
+      {
+        pocket_type: "MAGAZINE_WELL",
+        item_restriction: [
+          "magazine/chiappa/22lr/10",
+          "magazine/chiappa/22lr/28",
+          "magazine/chiappa/22lr/28:reduced",
+        ],
+      },
+    ],
+  },
 ]

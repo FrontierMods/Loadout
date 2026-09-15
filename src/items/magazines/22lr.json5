@@ -1,0 +1,115 @@
+[
+  {
+    id: "magazine/chiappa/22lr/10",
+    inherit: ["@magazine/22lr", "@magazine/compact"],
+    type: "ITEM",
+    subtypes: ["MAGAZINE"],
+
+    /*
+        SOURCES
+            https://gunmagwarehouse.com/chiappa-m4-22lr-10-round-polymer-black-magazine.html
+                - price
+
+            https://chiappausa.com/shop/shop/shop-magazines/magazine-m4-22-10-rd/
+                - weight
+     */
+
+    /*
+        NOTES
+            - discontinued, most likely replaced by reduced 28-round ones
+     */
+
+    name: {
+      str: "Chiappa .22 LR 10-round AR-15 magazine",
+    },
+    description: "Made for .22 LR-converted AR-15s, this compact magazine holds 10 rounds.",
+
+    // * source likely unreliable: it lists this tiny magazine at 10.5 inches in length
+    weight: "0.12579 lbs",
+    // * until a good source of dimensions comes in, we assume that this magazine is roughly the size of the PMAG 10
+    volume: { ref: "magazine/magpul/pmag/10", key: "volume" },
+    longest_side: { ref: "magazine/magpul/pmag/10", key: "longest_side" },
+
+    material: ["plastic"],
+
+    pocket_data: [
+      {
+        pocket_type: "MAGAZINE",
+
+        rigid: true,
+
+        ammo_restriction: {
+          "22": 10,
+        },
+      },
+    ],
+
+    price: "18.99 USD",
+    price_postapoc: { utility: "medium", longevity: "high", scarcity: "none" },
+  },
+  {
+    id: "magazine/chiappa/22lr/28",
+    inherit: ["@magazine/22lr", "@magazine/compact"],
+    type: "ITEM",
+    subtypes: ["MAGAZINE"],
+
+    /*
+        SOURCES
+            https://gunmagwarehouse.com/chiappa-m4-22-lr-10-round-magazine.html
+                - price
+
+            https://truenortharms.com/ar15_default_store_view/chiappa-10-28-round-22lr-magazine.html
+                - weight
+     */
+
+    name: {
+      str: "Chiappa .22 LR 28-round AR-15 magazine",
+    },
+    description: "Made for .22 LR-converted AR-15s, this magazine holds 28 rounds.",
+
+    weight: "185 g",
+    // * until a good source of dimensions comes in, we assume this magazine is roughly the size of the Colt AR-15 magazine
+    volume: { ref: "magazine/colt/stanag/30", key: "volume" },
+    longest_side: { ref: "magazine/colt/stanag/30", key: "longest_side" },
+
+    material: ["plastic"],
+
+    pocket_data: [
+      {
+        pocket_type: "MAGAZINE",
+
+        rigid: true,
+
+        ammo_restriction: {
+          "22": 28,
+        },
+      },
+    ],
+
+    price: "22.99 USD",
+    price_postapoc: { utility: "medium", longevity: "high", scarcity: "none" },
+  },
+  {
+    id: "magazine/chiappa/22lr/28:reduced",
+    "copy-from": "magazine/chiappa/22lr/28",
+    type: "ITEM",
+    subtypes: ["MAGAZINE"],
+
+    name: {
+      str: "Chiappa .22 LR 10/28-round AR-15 magazine",
+    },
+    description: "Made for .22 LR-converted AR-15s, this magazine originally held 28 rounds, but has been converted to only hold 10.",
+
+    pocket_data: [
+      {
+        pocket_type: "MAGAZINE",
+
+        rigid: true,
+
+        ammo_restriction: {
+          "22": 10,
+        },
+      },
+    ],
+  },
+]
