@@ -4,28 +4,28 @@
     // * this includes whatever apparent upper from Bear Creek Arsenal the original PR introduced it from
     id: ["retool_ar15_450_short"],
     type: "MIGRATION",
-    replace: "upper_receiver/ar15/450/10.5in/bca/bc15",
+    replace: "upper_receiver/ar15/450bushmaster/10.5in/bca/bc15",
   },
 
   {
     id: ["retool_ar15_223rem_short"],
     type: "MIGRATION",
-    replace: "upper_receiver/ar15/556/10.3in/lmt/cqbr",
+    replace: "upper_receiver/ar15/5.56x45mm/10.3in/lmt/cqbr",
   },
   {
     id: ["retool_ar15_223rem"],
     type: "MIGRATION",
-    replace: "upper_receiver/ar15/556/16in/aero/mod_4",
+    replace: "upper_receiver/ar15/5.56x45mm/16in/aero/mod_4",
   },
   {
     id: ["retool_ar15_223rem_medium"],
     type: "MIGRATION",
-    replace: "upper_receiver/ar15/556/14.5in/colt/m4a1",
+    replace: "upper_receiver/ar15/5.56x45mm/14.5in/colt/m4a1",
   },
   {
     id: ["retool_ar15_223rem_extended"],
     type: "MIGRATION",
-    replace: "upper_receiver/ar15/556/20in/colt/m16a3",
+    replace: "upper_receiver/ar15/5.56x45mm/20in/colt/m16a3",
   },
   {
     id: ["retool_ar15_300blk_short"],
@@ -45,12 +45,12 @@
   {
     id: ["retool_ar15_450_medium"],
     type: "MIGRATION",
-    replace: "upper_receiver/ar15/450/10.5in/bca/bc15",
+    replace: "upper_receiver/ar15/450bushmaster/10.5in/bca/bc15",
   },
   {
     id: ["retool_ar15_450"],
     type: "MIGRATION",
-    replace: "upper_receiver/ar15/450/18in/bca/bc15",
+    replace: "upper_receiver/ar15/450bushmaster/18in/bca/bc15",
   },
   {
     id: ["retool_ar15_50beowulf_short"],
@@ -70,6 +70,6 @@
   {
     id: ["retool_ar15_762"],
     type: "MIGRATION",
-    replace: "upper_receiver/ar15/762x39/16in/radical/pabu16",
+    replace: "upper_receiver/ar15/7.62x39mm/16in/radical/pabu16",
   },
 ]

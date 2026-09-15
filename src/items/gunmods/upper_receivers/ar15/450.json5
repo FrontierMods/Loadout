@@ -1,7 +1,7 @@
 [
   {
-    id: "upper_receiver/ar15/450/10.5in/bca/bc15",
-    inherit: "@upper_receiver/ar15/450",
+    id: "upper_receiver/ar15/450bushmaster/10.5in/bca/bc15",
+    inherit: "@upper_receiver/ar15/450bushmaster",
     type: "ITEM",
     subtypes: ["GUNMOD"],
 
@@ -16,7 +16,7 @@
     name: {
       str: "10.5″ .450 Bushmaster AR-15 upper receiver",
     },
-    description: "<upper_receiver/ar15>  <upper_receiver>  <upper_receiver/caliber:450>  <upper_receiver/barrel:10.5>",
+    description: "<upper_receiver/ar15>  <upper_receiver>  <upper_receiver/caliber:450bushmaster>  <upper_receiver/barrel:10.5>",
     expand_snippets: true,
 
     variant_type: "gun",
@@ -66,8 +66,8 @@
     price: "299 USD 60 cent",
   },
   {
-    id: "upper_receiver/ar15/450/18in/bca/bc15",
-    inherit: "@upper_receiver/ar15/450",
+    id: "upper_receiver/ar15/450bushmaster/18in/bca/bc15",
+    inherit: "@upper_receiver/ar15/450bushmaster",
     type: "ITEM",
     subtypes: ["GUNMOD"],
 
@@ -82,7 +82,7 @@
     name: {
       str: "18″ .450 Bushmaster AR-15 upper receiver",
     },
-    description: "<upper_receiver/ar15>  <upper_receiver>  <upper_receiver/caliber:450>  <upper_receiver/barrel:18>",
+    description: "<upper_receiver/ar15>  <upper_receiver>  <upper_receiver/caliber:450bushmaster>  <upper_receiver/barrel:18>",
     expand_snippets: true,
 
     variant_type: "gun",

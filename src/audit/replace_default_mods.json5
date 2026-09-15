@@ -51,7 +51,7 @@
     ],
 
     // * removed `adjustable_stock`: the M16A3 has a fixed stock
-    default_mods: ["upper_receiver/ar15/556/20in/colt/m16a3"],
+    default_mods: ["upper_receiver/ar15/5.56x45mm/20in/colt/m16a3"],
   },
   {
     id: "modular_m16a4",
@@ -75,7 +75,7 @@
     ],
 
     // * removed `adjustable_stock`: the M16A4 has a fixed stock
-    default_mods: ["upper_receiver/ar15/556/20in/colt/m16a4"],
+    default_mods: ["upper_receiver/ar15/5.56x45mm/20in/colt/m16a4"],
   },
   {
     id: "modular_m27_assault_rifle",
@@ -115,6 +115,6 @@
 
     // * this is clearly not the right upper for this gun, but in the absence of any information about the real one, this will have to do
     // * H&K has a 16.5-in. upper under the label of MR556, some models of which have Picatinny railing
-    default_mods: ["upper_receiver/ar15/556/16in/aero/mod_4"],
+    default_mods: ["upper_receiver/ar15/5.56x45mm/16in/aero/mod_4"],
   },
 ]

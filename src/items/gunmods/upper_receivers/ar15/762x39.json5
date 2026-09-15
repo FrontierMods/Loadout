@@ -1,7 +1,7 @@
 [
   {
-    id: "upper_receiver/ar15/762x39/16in/radical/pabu16",
-    inherit: "@upper_receiver/ar15/762x39",
+    id: "upper_receiver/ar15/7.62x39mm/16in/radical/pabu16",
+    inherit: "@upper_receiver/ar15/7.62x39mm",
     type: "ITEM",
     subtypes: ["GUNMOD"],
 
@@ -20,7 +20,7 @@
     name: {
       str: "16″ 7.62×39mm AR-15 upper receiver",
     },
-    description: "<upper_receiver/ar15>  <upper_receiver>  <upper_receiver/caliber:762x39>  <upper_receiver/barrel:16>",
+    description: "<upper_receiver/ar15>  <upper_receiver>  <upper_receiver/caliber:7.62x39mm>  <upper_receiver/barrel:16>",
     expand_snippets: true,
 
     variant_type: "gun",

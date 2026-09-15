@@ -1,0 +1,41 @@
+// * migrating from an old simple-caliber format to the new and cool full-caliber format
+
+[
+  {
+    id: ["upper_receiver/ar15/556/10.3in/lmt/cqbr"],
+    type: "MIGRATION",
+    replace: "upper_receiver/ar15/5.56x45mm/10.3in/lmt/cqbr",
+  },
+  {
+    id: ["upper_receiver/ar15/556/16in/aero/mod_4"],
+    type: "MIGRATION",
+    replace: "upper_receiver/ar15/5.56x45mm/16in/aero/mod_4",
+  },
+  {
+    id: ["upper_receiver/ar15/556/14.5in/colt/m4a1"],
+    type: "MIGRATION",
+    replace: "upper_receiver/ar15/5.56x45mm/14.5in/colt/m4a1",
+  },
+  {
+    id: ["upper_receiver/ar15/556/20in/colt/m16a3"],
+    type: "MIGRATION",
+    replace: "upper_receiver/ar15/5.56x45mm/20in/colt/m16a3",
+  },
+
+  {
+    id: ["upper_receiver/ar15/450/10.5in/bca/bc15"],
+    type: "MIGRATION",
+    replace: "upper_receiver/ar15/450bushmaster/10.5in/bca/bc15",
+  },
+  {
+    id: ["upper_receiver/ar15/450/18in/bca/bc15"],
+    type: "MIGRATION",
+    replace: "upper_receiver/ar15/450bushmaster/18in/bca/bc15",
+  },
+
+  {
+    id: ["upper_receiver/ar15/762/16in/radical/pabu16"],
+    type: "MIGRATION",
+    replace: "upper_receiver/ar15/7.62x39mm/16in/radical/pabu16",
+  },
+]

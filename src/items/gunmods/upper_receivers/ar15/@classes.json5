@@ -27,7 +27,7 @@
     price_postapoc: "10 USD",
   },
   {
-    id: "@upper_receiver/ar15/556",
+    id: "@upper_receiver/ar15/5.56x45mm",
     inherit: "@upper_receiver/ar15",
     type: "PARTIAL",
 
@@ -186,7 +186,7 @@
     ],
   },
   {
-    id: "@upper_receiver/ar15/450",
+    id: "@upper_receiver/ar15/450bushmaster",
     inherit: "@upper_receiver/ar15",
     type: "PARTIAL",
 
@@ -231,7 +231,7 @@
     ],
   },
   {
-    id: "@upper_receiver/ar15/762x39",
+    id: "@upper_receiver/ar15/7.62x39mm",
     inherit: "@upper_receiver/ar15",
     type: "PARTIAL",
 

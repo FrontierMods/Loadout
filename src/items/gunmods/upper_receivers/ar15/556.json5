@@ -1,7 +1,7 @@
 [
   {
-    id: "upper_receiver/ar15/556/16in/aero/mod_4",
-    inherit: "@upper_receiver/ar15/556",
+    id: "upper_receiver/ar15/5.56x45mm/16in/aero/mod_4",
+    inherit: "@upper_receiver/ar15/5.56x45mm",
     type: "ITEM",
     subtypes: ["GUNMOD"],
 
@@ -26,7 +26,7 @@
     name: {
       str: "16″ 5.56mm AR-15 upper receiver",
     },
-    description: "<upper_receiver/ar15>  <upper_receiver>  <upper_receiver/caliber:556>  <upper_receiver/barrel:16>",
+    description: "<upper_receiver/ar15>  <upper_receiver>  <upper_receiver/caliber:5.56x45mm>  <upper_receiver/barrel:16>",
     expand_snippets: true,
 
     variant_type: "gun",
@@ -107,8 +107,8 @@
     price: "995 USD",
   },
   {
-    id: "upper_receiver/ar15/556/20in/colt/m16a3",
-    inherit: "@upper_receiver/ar15/556",
+    id: "upper_receiver/ar15/5.56x45mm/20in/colt/m16a3",
+    inherit: "@upper_receiver/ar15/5.56x45mm",
     type: "ITEM",
     subtypes: ["GUNMOD"],
 
@@ -136,7 +136,7 @@
     name: {
       str: "20″ 5.56mm AR-15 upper receiver",
     },
-    description: "<upper_receiver/ar15>  <upper_receiver>  <upper_receiver/caliber:556>  <upper_receiver/barrel:20>",
+    description: "<upper_receiver/ar15>  <upper_receiver>  <upper_receiver/caliber:5.56x45mm>  <upper_receiver/barrel:20>",
     expand_snippets: true,
 
     variant_type: "gun",
@@ -227,8 +227,8 @@
     price: "1057 USD",
   },
   {
-    id: "upper_receiver/ar15/556/20in/colt/m16a4",
-    inherit: "@upper_receiver/ar15/556",
+    id: "upper_receiver/ar15/5.56x45mm/20in/colt/m16a4",
+    inherit: "@upper_receiver/ar15/5.56x45mm",
     type: "ITEM",
     subtypes: ["GUNMOD"],
 
@@ -255,7 +255,7 @@
     name: {
       str: "20″ quad-rail 5.56mm AR-15 upper receiver",
     },
-    description: "<upper_receiver/ar15>  <upper_receiver>  <upper_receiver/caliber:556>  <upper_receiver/barrel:20>",
+    description: "<upper_receiver/ar15>  <upper_receiver>  <upper_receiver/caliber:5.56x45mm>  <upper_receiver/barrel:20>",
     expand_snippets: true,
 
     variant_type: "gun",
@@ -347,8 +347,8 @@
     price: "1682 USD",
   },
   {
-    id: "upper_receiver/ar15/556/14.5in/colt/m4a1",
-    inherit: "@upper_receiver/ar15/556",
+    id: "upper_receiver/ar15/5.56x45mm/14.5in/colt/m4a1",
+    inherit: "@upper_receiver/ar15/5.56x45mm",
     type: "ITEM",
     subtypes: ["GUNMOD"],
 
@@ -375,7 +375,7 @@
     name: {
       str: "14.5″ 5.56mm AR-15 upper receiver",
     },
-    description: "<upper_receiver/ar15>  <upper_receiver>  <upper_receiver/caliber:556>  <upper_receiver/barrel:14.5>",
+    description: "<upper_receiver/ar15>  <upper_receiver>  <upper_receiver/caliber:5.56x45mm>  <upper_receiver/barrel:14.5>",
     expand_snippets: true,
 
     variant_type: "gun",
@@ -442,8 +442,8 @@
     price: "899 USD",
   },
   {
-    id: "upper_receiver/ar15/556/10.3in/lmt/cqbr",
-    inherit: "@upper_receiver/ar15/556",
+    id: "upper_receiver/ar15/5.56x45mm/10.3in/lmt/cqbr",
+    inherit: "@upper_receiver/ar15/5.56x45mm",
     type: "ITEM",
     subtypes: ["GUNMOD"],
 
@@ -462,7 +462,7 @@
     name: {
       str: "10.3″ 5.56mm AR-15 upper receiver",
     },
-    description: "<upper_receiver/ar15>  <upper_receiver>  <upper_receiver/caliber:556>  <upper_receiver/barrel:10.3>",
+    description: "<upper_receiver/ar15>  <upper_receiver>  <upper_receiver/caliber:5.56x45mm>  <upper_receiver/barrel:10.3>",
     expand_snippets: true,
 
     variant_type: "gun",

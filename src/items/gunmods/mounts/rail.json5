@@ -87,9 +87,9 @@
       "we count the bottom rail as `underbarrel`",
     ],
     blacklist_mod: [
-      "upper_receiver/ar15/556/16in/aero/mod_4",
+      "upper_receiver/ar15/5.56x45mm/16in/aero/mod_4",
       "upper_receiver/ar15/300blk/7.5in/bca/bc15",
-      "upper_receiver/ar15/762x39/16in/radical/pabu16",
+      "upper_receiver/ar15/7.62x39mm/16in/radical/pabu16",
 
       "stock/glock/bt/usw",
     ],
