@@ -1,25 +1,22 @@
 # Loadout
 
-*Loadout* (`loadout`) is a mod for *Cataclysm: Dark Days Ahead*.
+_Loadout_ (`loadout`) is a mod for _Cataclysm: Dark Days Ahead_.
 
 It adds a variety of firearm attachments, while expanding balance considerations around said attachments, making tinkering with your gun loadout a little more interesting and realistic.
 
-Like other Frontier Mods, *Loadout* is built for and tested on the latest stable build only.
+Like other Frontier Mods, _Loadout_ is built for and tested on the latest stable build only.
 
-Requires [Frontiers *Core*](https://github.com/FrontierMods/Core).
-
+Requires [Frontiers _Core_](https://github.com/FrontierMods/Core).
 
 ## Status
 
-*Loadout* is currently **in development**.
+_Loadout_ is currently **in development**.
 
 The latest supported version of the game is **0.I**.
-
 
 ## Roadmap
 
 See [`ROADMAP.md`](/documentation/ROADMAP.md).
-
 
 # License
 
