@@ -6,6 +6,9 @@
 
     /*
       SOURCES
+        https://us.glock.com/en/products/commercial-firearms/pistols/g19-v
+          - weight reference
+
         https://www.northeastshooters.com/xen/threads/anyone-have-glock-dimensions-n00b-questions.181051/
           - dimensions
     */
@@ -33,7 +36,8 @@
 
     weight: {
       math: [
-        { ref: "magazine/glock/9x19mm/15", key: "weight" },
+        // * weight of Glock 19 with empty magazine minus Glock 19 without empty magazine
+        "70 g",
         {
           op: "subtract",
           value: {
@@ -87,9 +91,10 @@
       },
     ],
 
+    // * complete magazine weighs 80 g: weight of Glock 17 with empty magazine minus Glock 17 without empty magazine
     weight: {
       math: [
-        { ref: "magazine/glock/9x19mm/17", key: "weight" },
+        "80 g",
         {
           op: "subtract",
           value: {
@@ -143,9 +148,13 @@
       },
     ],
 
+    // * complete magazine weighs 105 g
+    // * Aawee says 77 g:
+    // > https://www.aawee.fi/en/parts-and-accessories/glock-17-9mm-24-rnd-magazine-gen4-erva-24ptr-erva-magazine-glock-gen4/p/4911680/
+    // * (also contains length values for OEM and +2 plates)
     weight: {
       math: [
-        { ref: "magazine/glock/9x19mm/24", key: "weight" },
+        "105 g",
         {
           op: "subtract",
           value: {
@@ -199,9 +208,10 @@
       },
     ],
 
+    // * complete magazine weighs 117 g
     weight: {
       math: [
-        { ref: "magazine/glock/9x19mm/31", key: "weight" },
+        "117 g",
         {
           op: "subtract",
           value: {

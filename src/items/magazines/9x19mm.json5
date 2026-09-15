@@ -7,6 +7,8 @@
 
     /*
       SOURCES
+        https://us.glock.com/en/products/commercial-firearms/pistols/g19-v
+
         https://www.northeastshooters.com/xen/threads/anyone-have-glock-dimensions-n00b-questions.181051/
           - longest side
 
@@ -19,7 +21,18 @@
     },
     description: "Made for the Glock 19, this magazine holds 15 rounds.",
 
-    weight: { ref: "glockmag", key: "weight" },
+    weight: {
+      math: [
+        { ref: "magazine/body/glock/9x19mm/15", key: "weight" },
+        {
+          op: "add",
+          value: {
+            ref: "magazine/baseplate/glock/9x19mm/oem",
+            key: "weight",
+          },
+        },
+      ],
+    },
     volume: {
       math: [
         { ref: "magazine/body/glock/9x19mm/15", key: "volume" },
@@ -118,6 +131,8 @@
 
     /*
       SOURCES
+        https://us.glock.com/en/products/commercial-firearms/pistols/g17-v
+
         https://www.northeastshooters.com/xen/threads/anyone-have-glock-dimensions-n00b-questions.181051/
           - longest side
 
@@ -135,7 +150,18 @@
     },
     description: "Made for the Glock 17, this magazine holds 17 rounds.",
 
-    weight: { ref: "glock17_17", key: "weight" },
+    weight: {
+      math: [
+        { ref: "magazine/body/glock/9x19mm/17", key: "weight" },
+        {
+          op: "add",
+          value: {
+            ref: "magazine/baseplate/glock/9x19mm/oem",
+            key: "weight",
+          },
+        },
+      ],
+    },
     volume: {
       math: [
         { ref: "magazine/body/glock/9x19mm/17", key: "volume" },
@@ -287,7 +313,18 @@
     },
     description: "Made for the Glock 17, this magazine holds 24 rounds.",
 
-    weight: "105 g",
+    weight: {
+      math: [
+        { ref: "magazine/body/glock/9x19mm/24", key: "weight" },
+        {
+          op: "add",
+          value: {
+            ref: "magazine/baseplate/glock/9x19mm/oem",
+            key: "weight",
+          },
+        },
+      ],
+    },
     volume: {
       math: [
         { ref: "magazine/body/glock/9x19mm/24", key: "volume" },
@@ -391,6 +428,9 @@
 
     /*
       SOURCES
+        https://en.specshop.pl/product-eng-41776-Glock-Pistol-Magazine-for-Glock-9x19-mm-Luger-Parabellum-31-2-rounds-4450.html
+          - weight
+
         https://www.northeastshooters.com/xen/threads/anyone-have-glock-dimensions-n00b-questions.181051/
           - longest side
 
@@ -403,7 +443,18 @@
     },
     description: "Made for the Glock 17, this magazine holds 31 rounds.",
 
-    weight: { ref: "glockbigmag", key: "weight" },
+    weight: {
+      math: [
+        { ref: "magazine/body/glock/9x19mm/31", key: "weight" },
+        {
+          op: "add",
+          value: {
+            ref: "magazine/baseplate/glock/9x19mm/oem",
+            key: "weight",
+          },
+        },
+      ],
+    },
     volume: {
       math: [
         { ref: "magazine/body/glock/9x19mm/31", key: "volume" },
