@@ -54,11 +54,11 @@
     ],
   },
   {
+    // * for use with item-group-spawn kitted guns where sights must spawn with their respective mounts
+
     id: "sights/reflex/mounted",
     type: "item_group",
     subtype: "distribution",
-
-    "//": "for use with item-group-spawn kitted guns where sights must spawn with their respective mounts",
 
     entries: [
       { group: "sight/trijicon/rmr" },
@@ -90,13 +90,11 @@
   },
 
   {
+    // * for gun stores and other locations where you may see a variety of different attachments
+
     id: "sights/reflex/all",
     type: "item_group",
     subtype: "collection",
-
-    "//notes": [
-      "for gun stores and other locations where you may see a variety of different attachments",
-    ],
 
     entries: [
       { group: "sights/reflex/mounted:maybe", prob: 75 },
@@ -105,30 +103,24 @@
   },
 
   {
+    // * for gun stores and other locations where you may see a variety of different attachments
+
     id: "sights/iron/all",
     type: "item_group",
     subtype: "collection",
 
-    "//notes": [
-      "for gun stores and other locations where you may see a variety of different attachments",
-      [
-        "iron sights do not spawn currently due to not having the infrastructure to use them meaningfully",
-        "they used to spawn with 80% chance in this group",
-      ],
-    ],
-
+    // * iron sights do not spawn currently due to not having the infrastructure to use them meaningfully
+    // * they used to spawn with 80% chance in this group
     entries: [{ group: "sights/offset", prob: 100 }],
   },
 
   {
+    // * sights that are better than iron sights
+    // * for gun stores and other locations where you may see a variety of different attachments
+
     id: "sights/enhanced/all",
     type: "item_group",
     subtype: "collection",
-
-    "//notes": [
-      "sights that are better than iron sights",
-      "for gun stores and other locations where you may see a variety of different attachments",
-    ],
 
     entries: [
       { group: "sights/magnifiers", prob: 16 },
@@ -140,14 +132,12 @@
   },
 
   {
+    // * all new sights
+    // * for gun stores and other locations where you may see a variety of different attachments
+
     id: "sights/all",
     type: "item_group",
     subtype: "collection",
-
-    "//notes": [
-      "all new sights",
-      "for gun stores and other locations where you may see a variety of different attachments",
-    ],
 
     entries: [
       { group: "sights/iron/all", prob: 5 },

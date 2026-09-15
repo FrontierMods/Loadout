@@ -1,10 +1,8 @@
+// * sights affixed to a specific mount
+// * mounts in non-guaranteed are set to high, but not absolute, spawn chance, to emulate real-life situations where one is likely, but may not always, come with its required mount
+
 [
   {
-    "//": [
-      "sights affixed to a specific mount",
-      "mounts in non-guaranteed are set to high, but not absolute, spawn chance, to emulate real-life situations where one is likely, but may not always, come with its required mount",
-    ],
-
     id: "sight/trijicon/rmr:maybe",
     type: "item_group",
     subtype: "collection",
@@ -126,13 +124,11 @@
   },
 
   {
+    // * the primary sight with chance to also provide an auxiliary sight
+
     id: "sight/elcan/specterdr",
     type: "item_group",
     subtype: "collection",
-
-    "//notes": [
-      "the primary sight with chance to also provide an auxiliary sight",
-    ],
 
     entries: [
       { item: "sight/elcan/specterdr/legacy" },
@@ -140,13 +136,11 @@
     ],
   },
   {
+    // * the primary sight with chance to also provide an auxiliary sight
+
     id: "sight/trijicon/ta01",
     type: "item_group",
     subtype: "collection",
-
-    "//notes": [
-      "the primary sight with chance to also provide an auxiliary sight",
-    ],
 
     entries: [
       { item: "sight_mount/ta01/trijicon/ta51" },

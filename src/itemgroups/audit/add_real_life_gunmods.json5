@@ -4,18 +4,16 @@
     type: "item_group",
     subtype: "collection",
 
-    "//sources": ["https://en.wikipedia.org/wiki/M27_Infantry_Automatic_Rifle"],
+    /*
+        SOURCES
+            https://en.wikipedia.org/wiki/M27_Infantry_Automatic_Rifle
+     */
 
-    "//TODO": [
-      [
-        "use Trijicon VCOG when available",
-        "https://www.trijicon.com/products/details/vc16-c-1600000",
-        "VCOGs (aka Squad Common Optic, SCO) were often issued with M38",
-        "ACOG and VCOG use the same mounting solution",
-        "VCOG even comes with ACOG's TA51 mount",
-      ],
-    ],
-
+    // TODO: use Trijicon VCOG when available
+    // > https://www.trijicon.com/products/details/vc16-c-1600000
+    // * VCOGs (aka Squad Common Optic, SCO) were often issued with M38
+    // * ACOG and VCOG use the same mounting solution
+    // * VCOG even comes with ACOG's TA51 mount
     entries: [
       { item: "flash_hider/kac/m4qd" },
       { item: "suppressor/kac/qdss" },
@@ -67,10 +65,12 @@
     type: "item_group",
     subtype: "distribution",
 
-    "//sources": ["https://clonerifles.com/cqbrblockii/"],
+    /*
+        SOURCES
+            https://clonerifles.com/cqbrblockii/
+     */
 
-    "//TODO": ["Tango Down stubby foregrip"],
-
+    // TODO: Tango Down stubby foregrip
     entries: [
       { item: "foregrip/kac/vertical" },
       { item: "foregrip/magpul/afg2" },
@@ -81,12 +81,13 @@
     type: "item_group",
     subtype: "distribution",
 
-    "//sources": ["https://clonerifles.com/cqbrblockii/"],
+    /*
+        SOURCES
+            https://clonerifles.com/cqbrblockii/
+     */
 
-    "//TODO": [
-      ["MIPIM aka AN/PEQ-16", "apparently used in limited quantities"],
-    ],
-
+    // TODO: MIPIM aka AN/PEQ-16
+    // * apparently used in limited quantities
     entries: [
       { item: "laser_sight/l3harris/atpial-c" },
       { item: "laser_sight/l3harris/la-5b/peq" },
@@ -97,8 +98,8 @@
     type: "item_group",
     subtype: "collection",
 
-    "//TODO": ["use rail covers", "use flashlights"],
-
+    // TODO: use rail covers
+    // TODO: use flashlights
     entries: [
       {
         item: "modular_mk18_cqbr",
@@ -118,27 +119,22 @@
     type: "item_group",
     subtype: "collection",
 
-    "//sources": [
-      "https://charliescustomclones.com/remington-defense-xm2010-enhanced-sniper-rifle-racs-deployment-kit-demo/",
-    ],
+    /*
+        SOURCES
+            https://charliescustomclones.com/remington-defense-xm2010-enhanced-sniper-rifle-racs-deployment-kit-demo/
+     */
 
-    "//notes": [
-      "sight is supposed to be Mark 4 6.5×20, but we don't have that in Loadout and, unless reality bubble diameter increases dramatically, never will",
-      "the original scope is mounted onto a pair of rings, but we don't have those yet",
-      [
-        "M2010 uses AAC Titan QD suppressor mounted atop AAC Blackout 90-tooth flash hider",
-        "https://advanced-armament.com/shop/silencers/precision/titan-qd-fde/",
-        "https://advanced-armament.com/shop/accessories/flash-hiders/blackout-flash-hider-90t/",
-        [
-          "https://www.joeboboutfitters.com/AAC-BLACKOUT-FH-51T-1-2X28-5-56MM-p/aac-64141.htm",
-          "length (2.5 in., closer to the bottom of the list) and weight of the same flash hider in 51-tooth variant",
-          "they should have the same stats",
-        ],
-        "we have neither at the moment",
-      ],
-    ],
-
-    "//TODO": ["refactor sight + mount spawn to be a single group"],
+    /*
+        NOTES
+        - sight is supposed to be Mark 4 6.5×20
+        - the original scope is mounted onto a pair of rings
+        - M2010 uses AAC Titan QD suppressor mounted atop AAC Blackout 90-tooth flash hider
+            > https://advanced-armament.com/shop/silencers/precision/titan-qd-fde/
+            > https://advanced-armament.com/shop/accessories/flash-hiders/blackout-flash-hider-90t/
+            > https://www.joeboboutfitters.com/AAC-BLACKOUT-FH-51T-1-2X28-5-56MM-p/aac-64141.htm
+                - length (2.5 in., closer to the bottom of the list) and weight of the same flash hider in 51-tooth variant
+                - they should have the same stats
+     */
 
     entries: [
       {
@@ -149,6 +145,7 @@
           "flash_hider/surefire/4_prong",
           "suppressor/surefire/socom556_rc2",
 
+          // TODO: use a proper group here
           "sight_mount/30mm/aero",
           "sight/leupold/mark_4",
         ],
@@ -160,24 +157,25 @@
     type: "item_group",
     subtype: "collection",
 
-    "//sources": [
-      "https://www.hkpro.com/threads/m110a1-csass-sdmr-build-list-answered-in-edited-post.564570/",
-      "https://en.wikipedia.org/wiki/M110A1_rifle",
-      ["KAC MAN-00011", "M110 manual"],
-    ],
+    /*
+        SOURCES
+            https://www.hkpro.com/threads/m110a1-csass-sdmr-build-list-answered-in-edited-post.564570/
 
-    "//notes": [
-      "muzzle brake is supposed to be OSS QD 7.62mm 5/8×24",
-      "suppressor is supposed to be OSS SRM6",
-      [
-        "bipod was Harris S-LM (aka LM-S) on M110 aka Mk 11",
-        "a reasonable approximation in price, appearance, and functionality would be Harris S-BRM",
-      ],
-      "CSASS variant has Schmidt & Bender 3–20×50 PM II Ultra Short scope instead of SDMR's TANGO6T",
-      "uses lots of Geissele parts, including the optics mount",
-    ],
+            https://en.wikipedia.org/wiki/M110A1_rifle
 
-    "//TODO": ["refactor sight + mount spawn to be a single group"],
+            KAC MAN-00011
+            M110 manual
+     */
+
+    /*
+        NOTES
+        - muzzle brake is supposed to be OSS QD 7.62mm 5/8×24
+        - suppressor is supposed to be OSS SRM6
+        - bipod was Harris S-LM (aka LM-S) on M110 aka Mk 11
+            - a reasonable approximation in price, appearance, and functionality would be Harris S-BRM
+        - CSASS variant has Schmidt & Bender 3–20×50 PM II Ultra Short scope instead of SDMR's TANGO6T
+        - uses lots of Geissele parts, including the optics mount
+     */
 
     entries: [
       {
@@ -187,6 +185,7 @@
           "muzzle_brake/thunder_beast/sr",
           "suppressor/thunder_beast/dominus_sr",
 
+          // TODO: use a proper group here
           "sight_mount/30mm/aero",
           "sight/sig/tango6t/1-6x",
         ],

@@ -1,10 +1,8 @@
+// * these are the scopes and their relevant mounts
+// * this structure is necessary because there may be multiple kinds of the same mount
+
 [
   {
-    "//": [
-      "these are the scopes and their relevant mounts",
-      "this structure is necessary because there may be multiple kinds of the same mount",
-    ],
-
     id: "sight_mounts/30mm",
     type: "item_group",
     subtype: "distribution",
@@ -32,7 +30,7 @@
   },
 
   {
-    "//": "this group doesn't need a randomized variant because the Alpha4 mount is unlikely to ever surface in a private collection, on accounts of both being current (still rare) military issue and not being available on the aftermarket",
+    // * this group doesn't need a randomized variant because the Alpha4 mount is unlikely to ever surface in a private collection, on accounts of both being current (still rare) military issue and not being available on the aftermarket
 
     id: "sight/sig/tango6t/1-6x",
     type: "item_group",

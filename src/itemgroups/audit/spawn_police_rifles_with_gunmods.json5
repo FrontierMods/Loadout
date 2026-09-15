@@ -43,11 +43,8 @@
     type: "item_group",
     subtype: "collection",
 
-    "//": [
-      "since all of the AR-15 uppers are now M-LOK-only, the police AR-15 must spawn with a Picatinny mount",
-    ],
-
     entries: [
+      // * since all of the AR-15 uppers are now M-LOK-only, the police AR-15 must spawn with a Picatinny mount
       { item: "mount/underbarrel/magpul" },
       {
         distribution: [

@@ -59,10 +59,8 @@
     type: "item_group",
     subtype: "collection",
 
-    "//": [
-      "see also",
-      "https://www.marines.mil/News/Messages/Messages-Display/Article/1151682/authorized-individual-weapons-optics-modular-attachments-and-modifications-for/",
-    ],
+    // * see also:
+    // > https://www.marines.mil/News/Messages/Messages-Display/Article/1151682/authorized-individual-weapons-optics-modular-attachments-and-modifications-for/
 
     entries: [
       {
@@ -97,8 +95,7 @@
     type: "item_group",
     subtype: "distribution",
 
-    "//TODO": "Add VCOG when it becomes available",
-
+    // TODO: Add VCOG when it becomes available
     entries: [
       { group: "sight/trijicon/ta01" },
       { group: "sight/elcan/specterdr" },
