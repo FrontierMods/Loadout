@@ -5,23 +5,23 @@
     type: "ITEM",
     subtypes: ["GUNMOD"],
 
-    "//sources": [
-      "https://www.aeroprecisionusa.com/m4e1-threaded-complete-upper-16-in-5pt-56-mid-length-gov-w-15-mod-4-handguard",
-      [
-        "https://www.wingtactical.com/firearm-parts/ar-15-parts/complete-upper-receiver-assemblies/5-56-223-complete-uppers/aero-precision-16-m4e1-5-56-enhanced-complete-upper-with-vg6-gamma-556/",
-        "weight reference",
-      ],
-    ],
+    /*
+        SOURCES
+            https://www.aeroprecisionusa.com/m4e1-threaded-complete-upper-16-in-5pt-56-mid-length-gov-w-15-mod-4-handguard
 
-    "//notes": [
-      "the version with the charging handle and the BCG in the same package",
-      [
-        "https://www.aeroprecisionusa.com/556-bolt-carrier-group-no-logo-phosphate-rh",
-        "https://www.aeroprecisionusa.com/ar15-breach-ambi-charging-handle-w-small-lever-black",
-        "if ever the weight of this upper is recalculated from constituent parts, these are likely the components for the upper",
-      ],
-      "all mounts should be M-LOK",
-    ],
+            https://www.wingtactical.com/firearm-parts/ar-15-parts/complete-upper-receiver-assemblies/5-56-223-complete-uppers/aero-precision-16-m4e1-5-56-enhanced-complete-upper-with-vg6-gamma-556/
+                - weight reference
+                - length reference
+     */
+
+    /*
+        NOTES
+        - the version with the charging handle and the BCG in the same package
+        - if ever the weight of this upper is recalculated from constituent parts, these are likely the components for the upper:
+            > https://www.aeroprecisionusa.com/556-bolt-carrier-group-no-logo-phosphate-rh
+            > https://www.aeroprecisionusa.com/ar15-breach-ambi-charging-handle-w-small-lever-black
+        - all mounts should be M-LOK
+     */
 
     name: {
       str: "16″ 5.56mm AR-15 upper receiver",
@@ -32,69 +32,40 @@
     variant_type: "gun",
     variants: [
       {
-        id: "black",
+        from: [["black", 4], "brown", "olive"],
 
         name: {
           str: "Aero Precision 16″ 5.56mm AR-15 upper receiver",
         },
-        description: "A complete upper receiver assembly for AR-15-style firearms.  Includes a 16-inch barrel chambered in 5.56mm NATO, an unremarkable bolt carrier group, a BREACH changing handle, and a MOD 4 M-LOK handguard with a full top rail sitting flush with the upper receiver itself.  <variant:black>",
-        expand_snippets: true,
-        weight: 4,
-      },
-      {
-        id: "olive",
-
-        name: {
-          str: "Aero Precision 16″ 5.56mm AR-15 upper receiver",
-        },
-        description: "A complete upper receiver assembly for AR-15-style firearms.  Includes a 16-inch barrel chambered in 5.56mm NATO, an unremarkable bolt carrier group, a BREACH changing handle, and a MOD 4 M-LOK handguard with a full top rail sitting flush with the upper receiver itself.  <variant:olive>",
-        expand_snippets: true,
-        weight: 1,
-      },
-      {
-        id: "brown",
-
-        name: {
-          str: "Aero Precision 16″ 5.56mm AR-15 upper receiver",
-        },
-        description: "A complete upper receiver assembly for AR-15-style firearms.  Includes a 16-inch barrel chambered in 5.56mm NATO, an unremarkable bolt carrier group, a BREACH changing handle, and a MOD 4 M-LOK handguard with a full top rail sitting flush with the upper receiver itself.  <variant:brown>",
-        expand_snippets: true,
-        weight: 1,
+        description: "A complete upper receiver assembly for AR-15-style firearms.  Includes a 16-inch barrel chambered in 5.56mm NATO, an unremarkable bolt carrier group, a BREACH changing handle, and a MOD 4 M-LOK handguard with a full top rail sitting flush with the upper receiver itself.",
       },
     ],
 
-    "//weight": "4.25 lbs = 1927.8 g",
-    weight: "1928 g",
-    "//dimensions": {
+    weight: "4.25 lbs",
+    dimensions: {
+      // * while not the most accurate, we model the upper as a pseudo-cylinder based on the handguard's stated outer diameter, presuming that the uneven parts even out throughout the model
+      type: "area",
+
       area: "29517.37 mm2",
-      width: "1.5 in",
-      raw: "1124.15 ml",
+      length: "1.5 in",
+      // * trim is only for the part where the barrel sticks ahead of the handguard
       trim: 0.07,
-      notes: [
-        "trim is only for the part where the barrel sticks ahead of the handguard",
-        "while not the most accurate, we model the upper as a cylinder based on the handguard's stated outer diameter, presuming that the uneven parts even out throughout the model",
+    },
+    longest_side: "24.56 in",
+    integral_longest_side: {
+      math: [
+        { ref: "$", key: "longest_side" },
+        {
+          op: "subtract",
+          value: { ref: "@constants/uppers", key: "upper_length" },
+        },
       ],
     },
-    volume: "1046 ml",
-    longest_side: "615 mm",
-    "//integral_longest_side": [
-      "on average, an AR-15 lower receiver has exactly 7 in. = 177.8 mm of space for an upper receiver",
-      "615.15 - 177.8 = 437.35 mm",
-    ],
-    integral_longest_side: "437 mm",
-    "//barrel_length": "16 in. = 406.4 mm",
-    barrel_length: "406 mm",
+    barrel_length: "16 in",
 
-    "//add_mod": [
-      "no slot for bayonet lug because the handguard leaves no space to attach a bayonet",
-      [
-        "only one slot for rail attachments because only the top rail exists on this handguard",
-        "two rail mount slots added here to model the handguard realistically",
-      ],
-      [
-        "slot for underbarrel replaced with slot for underbarrel mount because there's no bottom rail on the handguard",
-      ],
-    ],
+    // * no slot for bayonet lug because the handguard leaves no space to attach a bayonet
+    // * only one slot for rail attachments because only the top rail exists on this handguard, two rail mount slots added here to model the handguard realistically
+    // * slot for underbarrel replaced with slot for underbarrel mount because there's no bottom rail on the handguard
     add_mod: [
       ["brass catcher", 1],
       ["rail", 1],
@@ -112,26 +83,25 @@
     type: "ITEM",
     subtypes: ["GUNMOD"],
 
-    "//sources": [
-      [
-        "https://www.wingtactical.com/firearm-parts/ar-15-parts/complete-upper-receiver-assemblies/5-56-223-complete-uppers/aero-precision-20-rifle-length-5-56-complete-upper-w-pinned-fsb/",
-        "weight reference",
-      ],
-      [
-        "https://reddit.com/r/canadaguns/comments/d5xzgi/lengths_guide_for_ar15_handguard_muzzle_devices/",
-        "length of handguard",
-        "length of leftover barrel",
-      ],
-      [
-        "M4A1 Technical Data Package",
-        "diameter of upper receiver",
-        "length of upper receiver",
-        "diameter of handguard",
-        "front sight post dimensions",
-        "carry handle width",
-      ],
-      ["https://retrorifles.com/colt-m16a2/", "price"],
-    ],
+    /*
+        SOURCES
+            M4A1 Technical Data Package
+                - diameter of upper receiver
+                - length of upper receiver
+                - diameter of handguard
+                - front sight post dimensions
+                - carry handle width
+
+            https://www.wingtactical.com/firearm-parts/ar-15-parts/complete-upper-receiver-assemblies/5-56-223-complete-uppers/aero-precision-20-rifle-length-5-56-complete-upper-w-pinned-fsb/
+                - weight reference
+
+            https://reddit.com/r/canadaguns/comments/d5xzgi/lengths_guide_for_ar15_handguard_muzzle_devices/
+                - length of handguard
+                - length of leftover barrel
+
+            https://retrorifles.com/colt-m16a2/
+                - price
+     */
 
     name: {
       str: "20″ 5.56mm AR-15 upper receiver",
@@ -163,58 +133,54 @@
       },
     ],
 
-    "//weight": "4.43 lbs = 2009.4 g",
-    weight: "2009 g",
-    "//dimensions": [
+    weight: "4.43 lbs",
+    dimensions: [
       {
-        description: "upper receiver",
+        // * UPPER RECEIVER
+        type: "cylinder",
 
         length: "8.26 in",
         diameter: "1.39 in",
-        raw: "205.4 ml",
-        trim: 0,
-        result: "205.4 ml",
-        notes: [
-          "we assume that any irregularities in volume even out over the cylinder volume of the receiver",
-        ],
+        // * we assume that any irregularities in volume even out over the cylinder volume of the receiver
       },
       {
-        description: "handguard",
+        // * HANDGUARD
+        type: "cylinder",
 
         length: "12.7 in",
         diameter: "2.17 in",
-        raw: "769.69 ml",
         trim: 0.25,
-        result: "577.27 ml",
       },
       {
-        description: "front sight",
+        // * FRONT SIGHT
+        type: "rectangle",
 
         length: "1.948 in",
         width: "0.88 in",
         height: "3.669 in",
-        raw: "103.07 ml",
         trim: 0.25,
-        result: "77.3 ml",
       },
       {
-        description: "leftover barrel",
+        // * LEFTOVER BARREL
+        type: "cylinder",
 
         length: "5.125 in",
         diameter: "0.75 in",
-        raw: "37.1 ml",
         trim: 0.12,
-        result: "32.65 ml",
       },
     ],
-    volume: "893 ml",
-    "//longest_side": [
-      "28.03 in = 711.96 mm",
-      "calculated from component lengths",
-    ],
-    longest_side: "712 mm",
-    integral_longest_side: "534 mm",
-    barrel_length: "508 mm",
+    // * from component lengths
+    longest_side: "28.03 in",
+    integral_longest_side: {
+      math: [
+        { ref: "$", key: "longest_side" },
+        {
+          op: "subtract",
+          value: { ref: "@constants/uppers", key: "upper_length" },
+        },
+      ],
+    },
+    barrel_length: "20 in",
 
     add_mod: [
       ["sights", 1],
@@ -223,7 +189,7 @@
       ["muzzle", 1],
     ],
 
-    "//price": "for the model with BCG and changing handle",
+    // * for the model with BCG and changing handle
     price: "1057 USD",
   },
   {
@@ -232,25 +198,25 @@
     type: "ITEM",
     subtypes: ["GUNMOD"],
 
-    "//sources": [
-      [
-        "https://fnamerica.com/products/accessories/fn-15-m16-upper-assembly/",
-        "weight reference",
-        "price reference",
-      ],
-      [
-        "https://reddit.com/r/canadaguns/comments/d5xzgi/lengths_guide_for_ar15_handguard_muzzle_devices/",
-        "length of handguard",
-        "length of leftover barrel",
-      ],
-      [
-        "M4A1 Technical Data Package",
-        "diameter of upper receiver",
-        "length of upper receiver",
-        "diameter of handguard",
-        "front sight post dimensions",
-      ],
-    ],
+    /*
+        SOURCES
+            M4A1 Technical Data Package
+                - diameter of upper receiver
+                - length of upper receiver
+                - diameter of handguard
+                - front sight post dimensions
+
+            https://fnamerica.com/products/accessories/fn-15-m16-upper-assembly/
+                - weight reference
+                - price reference
+
+            https://reddit.com/r/canadaguns/comments/d5xzgi/lengths_guide_for_ar15_handguard_muzzle_devices/
+                - length of handguard
+                - length of leftover barrel
+
+            https://retrorifles.com/colt-m16a2/
+                - price
+     */
 
     name: {
       str: "20″ quad-rail 5.56mm AR-15 upper receiver",
@@ -282,58 +248,54 @@
       },
     ],
 
-    "//weight": "5.61 lbs = 2544.7 g",
-    weight: "2545 g",
+    weight: "5.61 lbs",
     "//dimensions": [
       {
-        description: "upper receiver",
+        //* UPPER RECEIVER
+        type: "cylinder",
 
         length: "8.26 in",
         diameter: "1.39 in",
-        raw: "205.4 ml",
-        trim: 0,
-        result: "205.4 ml",
-        notes: [
-          "we assume that any irregularities in volume even out over the cylinder volume of the receiver",
-        ],
+        // * we assume that any irregularities in volume even out over the cylinder volume of the receiver
       },
       {
-        description: "handguard",
+        // * HANDGUARD
+        type: "cylinder",
 
         length: "12.7 in",
         diameter: "1.974 in",
-        raw: "636.93 ml",
         trim: 0.25,
-        result: "477.7 ml",
       },
       {
-        description: "front sight",
+        // * FRONT SIGHT
+        type: "rectangle",
 
         length: "1.948 in",
         width: "0.88 in",
         height: "3.669 in",
-        raw: "103.07 ml",
         trim: 0.25,
-        result: "77.3 ml",
       },
       {
-        description: "leftover barrel",
+        // * LEFTOVER BARREL
+        type: "cylinder",
 
         length: "5.125 in",
         diameter: "0.75 in",
-        raw: "37.1 ml",
         trim: 0.12,
-        result: "32.65 ml",
       },
     ],
-    volume: "793 ml",
-    "//longest_side": [
-      "28.03 in = 711.96 mm",
-      "calculated from component lengths",
-    ],
-    longest_side: "712 mm",
-    integral_longest_side: "534 mm",
-    barrel_length: "508 mm",
+    // * from component lengths
+    longest_side: "28.03 in",
+    integral_longest_side: {
+      math: [
+        { ref: "$", key: "longest_side" },
+        {
+          op: "subtract",
+          value: { ref: "@constants/uppers", key: "upper_length" },
+        },
+      ],
+    },
+    barrel_length: "20 in",
 
     add_mod: [
       ["sights", 1],
@@ -352,25 +314,22 @@
     type: "ITEM",
     subtypes: ["GUNMOD"],
 
-    "//sources": [
-      "M4A1 Technical Data Package",
-      [
-        "https://fnamerica.com/products/accessories/fn-15-m4-upper-assembly/",
-        "weight reference",
-      ],
-      [
-        "https://www.specializedarmament.com/ar-15-upper-receiver-groups/upper-receiver-group-colt-m4a1-se/",
-        "price",
-      ],
-      [
-        "https://www.ar15.com/forums/ar-15/Rail_covers_and_added_weight_/118-545494/",
-        "weight of 11-rib rail cover",
-      ],
-      [
-        "https://www.venturesurplus.com/products/knights-armament-5-rib-rail-cover/",
-        "weight reference for 6-rib rail cover",
-      ],
-    ],
+    /*
+        SOURCES
+            M4A1 Technical Data Package
+
+            https://fnamerica.com/products/accessories/fn-15-m4-upper-assembly/
+                - weight reference
+
+            https://www.specializedarmament.com/ar-15-upper-receiver-groups/upper-receiver-group-colt-m4a1-se/
+                - price
+
+            https://www.ar15.com/forums/ar-15/Rail_covers_and_added_weight_/118-545494/
+                - weight of 11-rib rail cover
+
+            https://www.venturesurplus.com/products/knights-armament-5-rib-rail-cover/
+                - weight reference for 6-rib rail cover
+     */
 
     name: {
       str: "14.5″ 5.56mm AR-15 upper receiver",
@@ -402,33 +361,53 @@
       },
     ],
 
-    "//weight": [
-      "4.98 lbs = 2258.9 g",
-      [
-        "excluding the following weights",
-        "KAC foregrip: 70.874 g",
-        "A2 birdcage: 50.746 g",
-        "11-rib rail cover: 0.9 oz = 25.515 g × 3 = 76.545 g",
-        "6-rib rail cover: 0.75 oz = 21.262 g",
-      ],
-      "2258.9 g - 70.874 g - 50.746 g - 76.545 g - 21.262 g = 2039.47 g",
-    ],
-    weight: "2040 g",
-    "//dimensions": {
-      area: "66.35 in2",
-      width: "1.35 in",
-      raw: "1087.28 ml",
-      trim: 0.07,
-      notes: [
-        "trim is only for the part where the barrel sticks ahead of the handguard",
-        "while not the most accurate, we model the upper as a cylinder based on the handguard's stated outer diameter, presuming that the uneven parts even out throughout the model",
+    weight: {
+      math: [
+        "4.98 lbs",
+        {
+          op: "subtract",
+          value: { ref: "foregrip/kac/vertical", key: "weight" },
+        },
+        {
+          op: "subtract",
+          value: { ref: "flash_hider/colt/a2", key: "weight" },
+        },
+        {
+          op: "subtract",
+          value: {
+            // * 11-rib rail cover ×3
+            // TODO: replace with actual weight once rail covers are in
+            math: ["0.9 oz", { op: "multiply", value: 3 }],
+          },
+        },
+        {
+          op: "subtract",
+          // * 6-rib rail cover
+          // TODO: replace with actual weight once rail covers are in
+          value: "0.75 oz",
+        },
       ],
     },
-    volume: "1011 ml",
-    "//longest_side": ["24.46 in = 621.28 mm", "Feret's distance"],
-    longest_side: "621 mm",
-    integral_longest_side: "444 mm",
-    barrel_length: "368 mm",
+    dimensions: {
+      type: "area",
+
+      area: "66.35 in2",
+      length: "1.35 in",
+      // * trim is only for the part where the barrel sticks ahead of the handguard
+      trim: 0.07,
+    },
+    // * Feret's distance
+    longest_side: "24.46 in",
+    integral_longest_side: {
+      math: [
+        { ref: "$", key: "longest_side" },
+        {
+          op: "subtract",
+          value: { ref: "@constants/uppers", key: "upper_length" },
+        },
+      ],
+    },
+    barrel_length: "14.5 in",
 
     add_mod: [
       ["brass catcher", 1],
@@ -447,17 +426,16 @@
     type: "ITEM",
     subtypes: ["GUNMOD"],
 
-    "//sources": [
-      "M4A1 Technical Data Package",
-      [
-        "https://en.wikipedia.org/wiki/Close_Quarters_Battle_Receiver",
-        "longest side",
-      ],
-      [
-        "https://charliescustomclones.com/mk18-cqbr-upper-receiver-group-mod-0-lmt-10-5-urg/",
-        "price",
-      ],
-    ],
+    /*
+        SOURCES
+            M4A1 Technical Data Package
+
+            https://en.wikipedia.org/wiki/Close_Quarters_Battle_Receiver
+                - longest side
+
+            https://charliescustomclones.com/mk18-cqbr-upper-receiver-group-mod-0-lmt-10-5-urg/
+                - price
+     */
 
     name: {
       str: "10.3″ 5.56mm AR-15 upper receiver",
@@ -479,30 +457,50 @@
       },
     ],
 
-    "//weight": [
-      "2.93 lbs = 1329 g",
-      "calculated as (weight of M16A2 unloaded − weight of M16A2 upper from Loadout) − weight of CQBR unloaded",
-    ],
-    weight: "1329 g",
-    "//dimensions": {
-      area: "40.42 in2",
-      width: "1.35 in",
-      raw: "894.24 ml",
-      trim: 0.035,
-      notes: [
-        "trim is only for the part where the barrel sticks ahead of the handguard",
-        "while not the most accurate, we model the upper as a cylinder based on the handguard's stated outer diameter, presuming that the uneven parts even out throughout the model",
+    // * compute weight as:
+    // * 1. subtracting the weight of M4A1 upper from its full unloaded weight (to get the chassis weight)
+    // * 2. subtracting the weight of the chassis (CQBR uses the same one) from the weight of the unloaded weight of the CQBR
+    weight: {
+      math: [
+        { ref: "@constants/uppers", path: ["weight", "cqbr_unloaded"] },
+        {
+          op: "subtract",
+          value: {
+            math: [
+              { ref: "@constants/uppers", path: ["weight", "m4a1_unloaded"] },
+              {
+                op: "subtract",
+                value: {
+                  ref: "upper_receiver/ar15/5.56x45mm/14.5in/colt/m4a1",
+                  key: "weight",
+                },
+              },
+            ],
+          },
+        },
       ],
     },
-    volume: "863 ml",
-    "//longest_side": "19.25 in = 488.95 mm",
-    longest_side: "489 mm",
-    integral_longest_side: "311 mm",
-    barrel_length: "262 mm",
+    dimensions: {
+      type: "area",
 
-    "//add_mod": [
-      "no slot for bayonet lug because the barrel is not long enough to hold a bayonet",
-    ],
+      area: "40.42 in2",
+      length: "1.35 in",
+      // * trim is only for the part where the barrel sticks ahead of the handguard
+      trim: 0.035,
+    },
+    longest_side: "19.25 in",
+    integral_longest_side: {
+      math: [
+        { ref: "$", key: "longest_side" },
+        {
+          op: "subtract",
+          value: { ref: "@constants/uppers", key: "upper_length" },
+        },
+      ],
+    },
+    barrel_length: "10.3 in",
+
+    // * no slot for bayonet lug because the barrel is not long enough to hold a bayonet
     add_mod: [
       ["brass catcher", 1],
       ["underbarrel", 1],

@@ -1,0 +1,17 @@
+[
+  {
+    id: "@constants/uppers",
+    type: "PARTIAL",
+
+    upper_length: "7 in",
+
+    weight: {
+      // * weight of fully-assembled M4A1 unloaded
+      // > https://en.wikipedia.org/wiki/M4_carbine
+      m4a1_unloaded: "6.43 lbs",
+      // * weight of complete CQBR unloaded
+      // > https://www.americanspecialops.com/special-ops-weapons/cqbr.php
+      cqbr_unloaded: "5.9 lbs",
+    },
+  },
+]
