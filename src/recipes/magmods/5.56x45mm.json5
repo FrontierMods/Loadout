@@ -10,7 +10,7 @@
     ],
   },
   {
-    result: "magazine/magpul/pmag/10:ranger_plate",
+    result: "magazine/magpul/pmag/10:ranger",
     "copy-from": "@magmod",
     type: "recipe",
 
@@ -31,7 +31,7 @@
     ],
   },
   {
-    result: "magazine/magpul/pmag/20:ranger_plate",
+    result: "magazine/magpul/pmag/20:ranger",
     "copy-from": "@magmod",
     type: "recipe",
 
@@ -62,7 +62,7 @@
     ],
   },
   {
-    result: "magazine/colt/stanag/30:ranger_plate",
+    result: "magazine/colt/stanag/30:ranger",
     "copy-from": "@magmod",
     type: "recipe",
 
@@ -83,7 +83,7 @@
     ],
   },
   {
-    result: "magazine/magpul/pmag/30:ranger_plate",
+    result: "magazine/magpul/pmag/30:ranger",
     "copy-from": "@magmod",
     type: "recipe",
 
@@ -114,7 +114,7 @@
     ],
   },
   {
-    result: "magazine/magpul/pmag/40:ranger_plate",
+    result: "magazine/magpul/pmag/40:ranger",
     "copy-from": "@magmod",
     type: "recipe",
 

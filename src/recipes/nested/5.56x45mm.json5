@@ -42,12 +42,12 @@
     skill_used: "fabrication",
 
     nested_category_data: [
-      "magazine/magpul/pmag/10:ranger_plate",
-      "magazine/magpul/pmag/20:ranger_plate",
-      "magazine/magpul/pmag/30:ranger_plate",
-      "magazine/magpul/pmag/40:ranger_plate",
+      "magazine/magpul/pmag/10:ranger",
+      "magazine/magpul/pmag/20:ranger",
+      "magazine/magpul/pmag/30:ranger",
+      "magazine/magpul/pmag/40:ranger",
 
-      "magazine/colt/stanag/30:ranger_plate",
+      "magazine/colt/stanag/30:ranger",
     ],
   },
   {

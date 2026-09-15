@@ -68,7 +68,7 @@
     price_postapoc: { utility: "low", longevity: "high", scarcity: "none" },
   },
   {
-    id: "magazine/magpul/pmag/10:ranger_plate",
+    id: "magazine/magpul/pmag/10:ranger",
     "copy-from": "magazine/magpul/pmag/10",
     type: "ITEM",
     subtypes: ["MAGAZINE"],
@@ -196,7 +196,7 @@
     price_postapoc: { utility: "medium", longevity: "high", scarcity: "none" },
   },
   {
-    id: "magazine/magpul/pmag/20:ranger_plate",
+    id: "magazine/magpul/pmag/20:ranger",
     "copy-from": "magazine/magpul/pmag/20",
     type: "ITEM",
     subtypes: ["MAGAZINE"],
@@ -458,7 +458,7 @@
     price_postapoc: { utility: "medium", longevity: "high", scarcity: "none" },
   },
   {
-    id: "magazine/colt/stanag/30:ranger_plate",
+    id: "magazine/colt/stanag/30:ranger",
     "copy-from": "magazine/colt/stanag/30",
     type: "ITEM",
     subtypes: ["MAGAZINE"],
@@ -648,7 +648,7 @@
     price_postapoc: { utility: "medium", longevity: "high", scarcity: "none" },
   },
   {
-    id: "magazine/magpul/pmag/30:ranger_plate",
+    id: "magazine/magpul/pmag/30:ranger",
     "copy-from": "magazine/magpul/pmag/30",
     type: "ITEM",
     subtypes: ["MAGAZINE"],
@@ -872,7 +872,7 @@
     price_postapoc: { utility: "medium", longevity: "high", scarcity: "low" },
   },
   {
-    id: "magazine/magpul/pmag/40:ranger_plate",
+    id: "magazine/magpul/pmag/40:ranger",
     "copy-from": "magazine/magpul/pmag/40",
     type: "ITEM",
     subtypes: ["MAGAZINE"],

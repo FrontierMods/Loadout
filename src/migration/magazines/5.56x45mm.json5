@@ -13,7 +13,7 @@
   {
     id: ["stanag5ranger"],
     type: "MIGRATION",
-    replace: "magazine/magpul/pmag/10:ranger_plate",
+    replace: "magazine/magpul/pmag/10:ranger",
   },
 
   {
@@ -24,7 +24,7 @@
   {
     id: ["stanag10ranger"],
     type: "MIGRATION",
-    replace: "magazine/magpul/pmag/10:ranger_plate",
+    replace: "magazine/magpul/pmag/10:ranger",
   },
   {
     id: ["stanag20"],
@@ -34,7 +34,7 @@
   {
     id: ["stanag20ranger"],
     type: "MIGRATION",
-    replace: "magazine/magpul/pmag/20:ranger_plate",
+    replace: "magazine/magpul/pmag/20:ranger",
   },
   {
     id: ["stanag30"],
@@ -44,7 +44,7 @@
   {
     id: ["stanag30ranger"],
     type: "MIGRATION",
-    replace: "magazine/colt/stanag/30:ranger_plate",
+    replace: "magazine/colt/stanag/30:ranger",
   },
   {
     id: ["stanag40"],
@@ -54,7 +54,7 @@
   {
     id: ["stanag40ranger"],
     type: "MIGRATION",
-    replace: "magazine/magpul/pmag/40:ranger_plate",
+    replace: "magazine/magpul/pmag/40:ranger",
   },
   {
     id: ["stanag50"],
