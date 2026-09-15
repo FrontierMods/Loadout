@@ -1,85 +1,268 @@
 [
   {
     id: "gunmod_common",
+    inherit: "gunmod_common",
     type: "item_group",
 
-    "//changes": [
-      "removed `improve_sights`",
-      "removed `shoulder_strap_simple`: shouldn't be a common gunmod",
-      "removed `match_trigger`",
-      "removed `pistol_grip`",
-      "replaced `muzzle_brake`, `compensator`, and `choke` with muzzle device group",
-      "replaced `rail_laser_sight` with laser sight group",
-      "replaced `rifle_scope`, `red_dot_sight`, and `offset_sights` with sights group",
-    ],
+    patch: [
+      {
+        op: "drop",
+        key: "items",
+        filter: [{ item: "improve_sights" }],
+      },
+      {
+        op: "drop",
+        key: "items",
+        filter: [{ item: "masterkey" }],
+      },
+      {
+        op: "drop",
+        key: "items",
+        filter: [{ item: "sword_bayonet" }],
+      },
+      {
+        op: "drop",
+        key: "items",
+        filter: [{ item: "match_trigger" }],
+      },
+      {
+        op: "drop",
+        key: "items",
+        filter: [{ item: "shoulder_strap_simple" }],
+      },
 
-    items: [
-      ["belt_clip", 1],
-      ["brass_catcher", 30],
-      ["shoulder_strap", 50],
-      ["single_sling", 40],
-      ["butt_hook", 30],
-      ["offset_sight_rail", 30],
-      ["cheek_pad", 25],
+      {
+        op: "drop",
+        key: "items",
+        filter: [{ item: "muzzle_brake" }],
+      },
+      {
+        op: "drop",
+        key: "items",
+        filter: [{ item: "compensator" }],
+      },
+      {
+        op: "drop",
+        key: "items",
+        filter: [{ item: "choke" }],
+      },
+      {
+        op: "push",
+        key: "items",
+        value: { group: "muzzle_devices/all", prob: 30 },
+      },
 
-      { group: "foregrips/angled", prob: 40 },
-      { group: "foregrips/tall", prob: 30 },
+      {
+        op: "drop",
+        key: "items",
+        filter: [{ item: "rifle_scope" }],
+      },
+      {
+        op: "drop",
+        key: "items",
+        filter: [{ item: "red_dot_sight" }],
+      },
+      {
+        op: "drop",
+        key: "items",
+        filter: [{ item: "offset_sights" }],
+      },
+      {
+        op: "push",
+        key: "items",
+        value: { group: "sights/all", prob: 50 },
+      },
 
-      { group: "muzzle_devices/all", prob: 30 },
+      {
+        op: "replace",
+        key: "items",
+        filter: [{ item: "rail_laser_sight" }],
+        value: { group: "laser_sights/bottom_rail", prob: 40 },
+      },
 
-      { group: "laser_sights/bottom_rail", prob: 40 },
-
-      { group: "sights/all", prob: 50 },
+      {
+        op: "push",
+        key: "items",
+        value: { group: "foregrips/angled", prob: 40 },
+      },
+      {
+        op: "push",
+        key: "items",
+        value: { group: "foregrips/tall", prob: 30 },
+      },
     ],
   },
 
   {
     id: "gunmod_rare",
+    inherit: "gunmod_rare",
     type: "item_group",
 
-    "//changes": [
-      "removed `adjustable_stock`",
-      "removed `folding_stock`",
-      "removed `barrel_ported`",
-      "removed `gun_crossbow`",
-      "removed `stabilizer`",
-      "removed `pistol_bayonet`",
-      "removed `recoil_stock`",
-      "removed `retool_ar15_300blk`",
-      "removed `hybrid_sight_4x`",
-      "removed `rifle_scope_high_end_mount`",
-      "removed `modern_handguard`",
-      "removed `bipod_handguard`",
-      "removed `high_end_folding_stock`",
-      "removed `u_shotgun`",
-      "removed `suppressor`",
-      "removed `suppressor_compact`",
-      "removed `tail_hook_stock`",
-      "removed `light_grip`",
-      "replaced `grip` with foregrip groups",
-      "replaced `laser_sight` with laser sight groups",
-      "removed `holo_sight`, `holo_magnifier`, `acog_scope`, and `pistol_scope` in favor of all sights group in `gunmod_common`",
-    ],
+    patch: [
+      // * stocks may not spawn until a proper replacement mechanism is implemented
+      {
+        op: "drop",
+        key: "items",
+        filter: [{ item: "adjustable_stock" }],
+      },
+      {
+        op: "drop",
+        key: "items",
+        filter: [{ item: "recoil_stock" }],
+      },
+      {
+        op: "drop",
+        key: "items",
+        filter: [{ item: "folding_stock" }],
+      },
+      {
+        op: "drop",
+        key: "items",
+        filter: [{ item: "high_end_folding_stock" }],
+      },
+      {
+        op: "drop",
+        key: "items",
+        filter: [{ item: "tail_hook_stock" }],
+      },
+      {
+        op: "drop",
+        key: "items",
+        filter: [{ item: "butt_hook" }],
+      },
 
-    items: [
-      ["bipod", 20],
-      ["wooden_grip", 1],
-      ["waterproof_gunmod", 5],
-      ["pistol_stock", 10],
-      ["butt_hook", 20],
-      ["arredondo_chute", 20],
-      ["shot_suppressor", 10],
+      {
+        op: "drop",
+        key: "items",
+        filter: [{ item: "barrel_ported" }],
+      },
+      {
+        op: "drop",
+        key: "items",
+        filter: [{ item: "pistol_bayonet" }],
+      },
+      {
+        op: "drop",
+        key: "items",
+        filter: [{ item: "pistol_bayonet" }],
+      },
+      {
+        op: "drop",
+        key: "items",
+        filter: [{ item: "retool_ar15_300blk" }],
+      },
+      {
+        op: "drop",
+        key: "items",
+        filter: [{ item: "modern_handguard" }],
+      },
+      {
+        op: "drop",
+        key: "items",
+        filter: [{ item: "bipod_handguard" }],
+      },
+      {
+        op: "drop",
+        key: "items",
+        filter: [{ item: "u_shotgun" }],
+      },
 
-      { group: "foregrips/short", prob: 40 },
-      { group: "foregrips/tiny", prob: 30 },
+      {
+        op: "drop",
+        key: "items",
+        filter: [{ item: "suppressor" }],
+      },
+      {
+        op: "drop",
+        key: "items",
+        filter: [{ item: "suppressor_compact" }],
+      },
 
-      { group: "laser_sights/rail:civilian", prob: 40 },
-      { group: "laser_sights/rail:military", prob: 5 },
+      // * dropping in favor of the sights group in `gunmod_common`
+      {
+        op: "drop",
+        key: "items",
+        filter: [{ item: "hybrid_sight_4x" }],
+      },
+      {
+        op: "drop",
+        key: "items",
+        filter: [{ item: "rifle_scope_high_end_mount" }],
+      },
+      {
+        op: "drop",
+        key: "items",
+        filter: [{ item: "rifle_scope_high_end_mount" }],
+      },
+      {
+        op: "drop",
+        key: "items",
+        filter: [{ item: "holo_sight" }],
+      },
+      {
+        op: "drop",
+        key: "items",
+        filter: [{ item: "holo_magnifier" }],
+      },
+      {
+        op: "drop",
+        key: "items",
+        filter: [{ item: "acog_scope" }],
+      },
+      {
+        op: "drop",
+        key: "items",
+        filter: [{ item: "pistol_scope" }],
+      },
+
+      {
+        op: "drop",
+        key: "items",
+        filter: [{ item: "grip" }],
+      },
+      {
+        op: "push",
+        key: "items",
+        value: [{ group: "foregrips/short", prob: 40 }],
+      },
+      {
+        op: "push",
+        key: "items",
+        value: [{ group: "foregrips/tiny", prob: 30 }],
+      },
+
+      {
+        op: "drop",
+        key: "items",
+        filter: [{ item: "arredondo_chute" }],
+      },
+      {
+        op: "push",
+        key: "items",
+        value: [{ group: "chutes", prob: 40 }],
+      },
+
+      {
+        op: "drop",
+        key: "items",
+        filter: [{ item: "laser_sight" }],
+      },
+      {
+        op: "push",
+        key: "items",
+        value: [{ group: "laser_sights/rail:civilian", prob: 40 }],
+      },
+      {
+        op: "push",
+        key: "items",
+        value: [{ group: "laser_sights/rail:military", prob: 5 }],
+      },
     ],
   },
 
   {
     id: "gunmod_milspec",
+    inherit: "gunmod_milspec",
     type: "item_group",
 
     "//changes": [
@@ -88,15 +271,39 @@
       "added military laser sights group",
     ],
 
-    items: [
-      ["acog_scope", 100],
-      ["holo_magnifier", 80],
-      ["m320_mod", 10],
-      ["m26_mass", 35],
+    patch: [
+      // * only the Marines have bayonets as part of their doctrine
+      // * even then, the bayonets are knife-size, not sword-size
+      {
+        op: "drop",
+        key: "items",
+        filter: [{ item: "sword_bayonet" }],
+      },
 
-      { group: "laser_sights/rail:military", prob: 30 },
-      { item: "sight/eotech/553", prob: 100 },
-      { group: "sight/elcan/specterdr", prob: 50 },
+      // * replaced by M26-MASS, which already spawns in this group
+      {
+        op: "drop",
+        key: "items",
+        filter: [{ item: "masterkey" }],
+      },
+
+      {
+        op: "replace",
+        key: "items",
+        filter: [{ item: "holo_sight" }],
+        value: { item: "sight/eotech/553", prob: 100 },
+      },
+
+      {
+        op: "push",
+        key: "items",
+        value: [{ group: "laser_sights/rail:military", prob: 30 }],
+      },
+      {
+        op: "push",
+        key: "items",
+        value: [{ group: "sights:military", prob: 50 }],
+      },
     ],
   },
 ]
