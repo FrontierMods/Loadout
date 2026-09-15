@@ -51,22 +51,7 @@
 
     entries: [
       { item: "sight/iron/carry_handle" },
-      {
-        "//TODO": "Add VCOG when it becomes available",
-        collection: [
-          {
-            distribution: [
-              { item: "sight/eotech/553" },
-              { item: "sight/eotech/exps3" },
-              { group: "sight/aimpoint/compm2" },
-              { group: "sight/aimpoint/compm4" },
-            ],
-          },
-          { item: "magnifier/eotech/g33", prob: 45 },
-        ],
-      },
-      { group: "sight/trijicon/ta01" },
-      { group: "sight/elcan/specterdr" },
+      { group: "sights:military" },
     ],
   },
   {

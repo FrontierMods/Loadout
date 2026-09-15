@@ -1,0 +1,105 @@
+[
+  {
+    id: "sights/magnifiers:military",
+    type: "item_group",
+    subtype: "distribution",
+
+    // TODO: add EOTech G23
+    entries: [
+      // * G33 has been in use with the US SOF
+      // > https://www.eotechinc.com/products/eotech-magnifier-g33
+      { group: "magnifier/eotech/g33" },
+    ],
+  },
+
+  {
+    id: "sights/reflex:military",
+    type: "item_group",
+    subtype: "distribution",
+
+    entries: [
+      { group: "sight/aimpoint/compm4", prob: 40 },
+      { group: "sight/aimpoint/compm2", prob: 30 },
+      { group: "sight/noblex/sight_ii", prob: 5 },
+    ],
+  },
+  {
+    id: "sights/reflex:military/magnified",
+    type: "item_group",
+    subtype: "collection",
+
+    entries: [
+      { group: "sights/reflex:military" },
+      { group: "sights/magnifiers:military" },
+    ],
+  },
+
+  {
+    id: "sights/holographic:military",
+    type: "item_group",
+    subtype: "distribution",
+
+    entries: [
+      // * aka SU-231A/PEQ
+      { group: "sight/eotech/exps3", prob: 60 },
+      // * aka SU-231/PEQ
+      { group: "sight/eotech/553", prob: 20 },
+    ],
+  },
+  {
+    id: "sights/holographic:military/magnified",
+    type: "item_group",
+    subtype: "collection",
+
+    entries: [
+      { group: "sights/holographic:military" },
+      { group: "sights/magnifiers:military" },
+    ],
+  },
+
+  {
+    id: "sight/leupold/mark_4:mounted",
+    type: "item_group",
+    subtype: "collection",
+
+    entries: [
+      // * TODO: use an appropriate issue mount
+      { item: "sight_mount/30mm/aero" },
+      { item: "sight/leupold/mark_4" },
+    ],
+  },
+  {
+    id: "sights/optical:military",
+    type: "item_group",
+    subtype: "distribution",
+
+    // TODO: add VCOG when it becomes available
+    entries: [
+      // * aka AN/PVQ-31 (ish)
+      // * the actual AN/PVQ-31 is TA31
+      { group: "sight/trijicon/ta01", prob: 55 },
+      // * aka SU-230/PVS
+      { group: "sight/elcan/specterdr", prob: 25 },
+      // TODO: replace with an issue LPVO group
+      { group: "sight/leupold/mark_4:mounted", prob: 15 },
+      // TODO: move to the M7 mods only
+      // * this shouldn't be in general pool, but this is just about the only way to have this sight in player's hands at all
+      { group: "sight/sig/tango6t/1-6x", prob: 5 },
+    ],
+  },
+
+  {
+    // * renders a sight for a military-issue rifle
+    id: "sights:military",
+    type: "item_group",
+    subtype: "collection",
+
+    entries: [
+      { group: "sights/reflex:military", prob: 45 },
+      { group: "sights/reflex:military/magnified", prob: 35 },
+      { group: "sights/holographic:military", prob: 35 },
+      { group: "sights/holographic:military/magnified", prob: 20 },
+      { group: "sights/optical:military", prob: 25 },
+    ],
+  },
+]
