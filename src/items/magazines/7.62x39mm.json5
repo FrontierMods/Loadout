@@ -1,0 +1,257 @@
+[
+  {
+    id: "magazine/asc/ar15/7.62x39mm/5",
+    "copy-from": "magazine/asc/ar15/7.62x39mm/10",
+    type: "ITEM",
+    subtypes: ["MAGAZINE"],
+
+    /*
+        SOURCES
+            https://www.ammosc.com/ar-15-5-rd-7-62-x-39-stainless-steel-magazine
+     */
+
+    name: { str: "AR-15 7.62x39mm 5-round magazine" },
+    description: "A stainless-steel magazine for STANAG-compatible rifles chambered in 7.62x39mm.  Straight as a nail.",
+
+    variant_type: "gun",
+    variants: [
+      {
+        from: ["black", "fde"],
+
+        name: {
+          str: "ASC AR-15 7.62x39mm 5-round magazine",
+        },
+        description: "An stainless-steel magazine for STANAG-compatible rifles chambered in 7.62x39mm.  Like other AR-15 magazines of similar capacity, this one is quite straight.",
+      },
+    ],
+
+    pocket_data: [
+      {
+        pocket_type: "MAGAZINE",
+
+        rigid: true,
+
+        ammo_restriction: {
+          "762": 5,
+        },
+      },
+    ],
+
+    price: "19.99 USD",
+  },
+  {
+    id: "magazine/asc/ar15/7.62x39mm/10",
+    inherit: ["@magazine/7.62x39mm", "@magazine/compact"],
+    type: "ITEM",
+    subtypes: ["MAGAZINE"],
+
+    /*
+        SOURCES
+            https://www.ammosc.com/ar-15-10-rd-7-62-x-39-stainless-steel-magazine
+                - price
+
+            https://gunmagwarehouse.com/asc-ar-15-7-62x39mm-5-round-stainless-steel-magazine.html
+                - dimensions reference
+
+            https://ar15parts.com/products/7-62x39-10-round-magazine-asc/
+                - weight
+
+            https://truenortharms.com/ar15_default_store_view/asc-5-20-7-62x39-magazine.html
+                - depth
+     */
+
+    /*
+        NOTES
+            - 10- and 5-rounder are the exact same size
+     */
+
+    name: { str: "AR-15 7.62x39mm 10-round magazine" },
+    description: "A stainless-steel magazine for STANAG-compatible rifles chambered in 7.62x39mm.  Straight as a nail.",
+
+    variant_type: "gun",
+    variants: [
+      {
+        from: ["black", "fde"],
+
+        name: {
+          str: "ASC AR-15 7.62x39mm 10-round magazine",
+        },
+        description: "An stainless-steel magazine for STANAG-compatible rifles chambered in 7.62x39mm.  Like other AR-15 magazines of similar capacity, this one is quite straight.",
+      },
+    ],
+
+    weight: "3.9 oz",
+    dimensions: {
+      type: "area",
+
+      area: "7.062 in2",
+      length: "0.883 in",
+    },
+    // * Feret distance
+    longest_side: "3.804 in",
+
+    material: ["stainless_steel"],
+
+    pocket_data: [
+      {
+        pocket_type: "MAGAZINE",
+
+        rigid: true,
+
+        ammo_restriction: {
+          "762": 10,
+        },
+      },
+    ],
+
+    // * the 10-rounder appears to be cheaper than the 5-rounder
+    price: "17.99 USD",
+    price_postapoc: { utility: "medium", longevity: "high", scarcity: "none" },
+  },
+  {
+    id: "magazine/asc/ar15/7.62x39mm/20",
+    inherit: ["@magazine/7.62x39mm", "@magazine/compact"],
+    type: "ITEM",
+    subtypes: ["MAGAZINE"],
+
+    /*
+        SOURCES
+            https://www.ammosc.com/ar15-20rd-762x39-SS-magazine.html
+                - price
+
+            https://gunmagwarehouse.com/asc-ar-15-7-62x39mm-20-round-stainless-steel-magazine.html
+                - dimensions reference
+
+            https://truenortharms.com/ar15_default_store_view/asc-5-20-7-62x39-magazine.html
+                - depth
+     */
+
+    name: { str: "AR-15 7.62x39mm 20-round magazine" },
+    description: "A stainless-steel magazine for STANAG-compatible rifles chambered in 7.62x39mm.  Somewhat curved.",
+
+    variant_type: "gun",
+    variants: [
+      {
+        from: ["black", "fde"],
+
+        name: {
+          str: "ASC AR-15 7.62x39mm 20-round magazine",
+        },
+        description: "An stainless-steel magazine for STANAG-compatible rifles chambered in 7.62x39mm.  Unlike many AR-15 magazines, this one's shape is subject to a peculiar curve.",
+      },
+    ],
+
+    // * no accurate source appears to be available for the magazine's weight
+    // * sources that report weight differ wildly
+    // * we compute this magazine's weight as the average between the reported weights of the 30-rounder and the 10-rounder
+    weight: {
+      math: [
+        { ref: "magazine/asc/ar15/7.62x39mm/30", key: "weight" },
+        {
+          op: "add",
+          value: { ref: "magazine/asc/ar15/7.62x39mm/10", key: "weight" },
+        },
+        { op: "divide", value: 2 },
+      ],
+    },
+    dimensions: {
+      type: "area",
+
+      area: "13.468 in2",
+      length: "0.883 in",
+    },
+    // * Feret distance
+    longest_side: "6.04 in",
+
+    material: ["stainless_steel"],
+
+    pocket_data: [
+      {
+        pocket_type: "MAGAZINE",
+
+        rigid: true,
+
+        ammo_restriction: {
+          "762": 20,
+        },
+      },
+    ],
+
+    price: "20.99 USD",
+    price_postapoc: { utility: "medium", longevity: "high", scarcity: "none" },
+  },
+  {
+    id: "magazine/asc/ar15/7.62x39mm/30",
+    inherit: ["@magazine/7.62x39mm", "@magazine/compact"],
+    type: "ITEM",
+    subtypes: ["MAGAZINE"],
+
+    /*
+        SOURCES
+            https://www.ammosc.com/ar15-30rd-762x39-stainless-steel-magazine
+                - price
+
+            https://kmtactical.net/product/asc-76239-30-round-ar-15-magazine/
+                - weight
+
+            https://themagshack.com/shop/rifle-magazines/ar-15-magazines/c-products-ar-15-7-62x39-30-rd-magazine/
+                - dimensions reference
+
+            https://truenortharms.com/ar15_default_store_view/asc-5-20-7-62x39-magazine.html
+                - depth
+     */
+
+    name: { str: "AR-15 7.62x39mm 30-round magazine" },
+    description: "A stainless-steel magazine for STANAG-compatible rifles chambered in 7.62x39mm.  Suspiciously curved.",
+
+    variant_type: "gun",
+    variants: [
+      {
+        from: ["black", "fde"],
+
+        name: {
+          str: "ASC AR-15 7.62x39mm 30-round magazine",
+        },
+        description: "An stainless-steel magazine for STANAG-compatible rifles chambered in 7.62x39mm.  Unlike many AR-15 magazines, this one's shape is subject to a steep curve.",
+      },
+    ],
+
+    // * other sources report weights between 0.4 lbs = 6.4 oz and 0.5 lbs = 8 oz
+    // * e.g. MidwayUSA reports shipping weight of 0.435 lbs: https://www.midwayusa.com/product/1025261042
+    // * we settle on 8 oz until a more-precise source is available
+    weight: "8 oz",
+    /*
+     * we use a similar but different magazine to derive dimensions:
+     > https://themagshack.com/shop/rifle-magazines/ar-15-magazines/c-products-ar-15-7-62x39-30-rd-magazine/
+     * we use it because
+     * (1) a clean flat image of the ASC one is hard to find
+     * (2) all 7.62x39mm magazines for the AR-15 seen have almost the same shape due to the nature of the round and AR-15's magazine well
+     */
+    // * we assume Colt magazine's width (0.883 in) is correct for this magazine too
+    dimensions: {
+      type: "area",
+
+      area: "16.178 in2",
+      length: "0.883 in",
+    },
+    // * Feret distance
+    longest_side: "7.699 in",
+
+    material: ["stainless_steel"],
+
+    pocket_data: [
+      {
+        pocket_type: "MAGAZINE",
+
+        rigid: true,
+
+        ammo_restriction: {
+          "762": 30,
+        },
+      },
+    ],
+
+    price: "23.99 USD",
+    price_postapoc: { utility: "medium", longevity: "high", scarcity: "none" },
+  },
+]

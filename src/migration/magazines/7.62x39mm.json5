@@ -1,0 +1,22 @@
+[
+  {
+    id: ["762_ar15mag_5rd"],
+    type: "MIGRATION",
+    replace: "magazine/asc/ar15/7.62x39mm/5",
+  },
+  {
+    id: ["762_ar15mag_10rd"],
+    type: "MIGRATION",
+    replace: "magazine/asc/ar15/7.62x39mm/10",
+  },
+  {
+    id: ["762_ar15mag_20rd"],
+    type: "MIGRATION",
+    replace: "magazine/asc/ar15/7.62x39mm/20",
+  },
+  {
+    id: ["762_ar15mag_30rd"],
+    type: "MIGRATION",
+    replace: "magazine/asc/ar15/7.62x39mm/30",
+  },
+]

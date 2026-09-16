@@ -35,4 +35,11 @@
 
     ammo_type: ["22"],
   },
+  {
+    id: "@magazine/7.62x39mm",
+    inherit: "@magazine",
+    type: "PARTIAL",
+
+    ammo_type: ["762"],
+  },
 ]
