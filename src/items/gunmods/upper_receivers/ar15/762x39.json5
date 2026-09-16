@@ -5,17 +5,18 @@
     type: "ITEM",
     subtypes: ["GUNMOD"],
 
-    "//sources": [
-      "https://www.primaryarms.com/radical-firearms-762x39mm-barreled-upper-16in-primary-arms-exclusive",
-      [
-        "http://shop.the-armory-llc.com/rifles/semi-automatic-rifles/rad-rad-15-rdr-762x39-16-30rdrf01628",
-        "weight",
-      ],
-    ],
+    /*
+        SOURCES
+            https://radicalfirearms.com/shop/upper_receivers/radical-firearms-16-762x39-complete-ar15-upper-hbar-15-shr/
 
-    "//notes": [
-      "handguard length (15 in.) used as reference length for area calculation",
-    ],
+            https://blackstoneshooting.com/radical-firearms-fr16-7-62x39hbar-15rpr-7-62x39mm-16-00-barrel-10-1-rds-black/
+                - weight reference
+     */
+
+    /*
+        NOTES
+            - handguard length (15 in.) used as reference length for area calculation
+     */
 
     name: {
       str: "16″ 7.62×39mm AR-15 upper receiver",
@@ -37,28 +38,39 @@
       },
     ],
 
-    "//weight": "8 lbs = 3628.7 g",
-    weight: "3629 g",
-    "//dimensions": {
-      area: "44.5 in2",
-      width: "1.35 in",
-      raw: "984.45 ml",
-      trim: 0.005,
-      notes: [
-        "trim is for the part where the barrel sticks ahead of the handguard",
+    // * compute weight as weight of rifle assembled with the upper minus the weight of the standard M4A1 lower receiver
+    weight: {
+      math: [
+        "6.8 lbs",
+        {
+          op: "subtract",
+          value: { ref: "@constants/lowers", key: "weight" },
+        },
       ],
     },
-    volume: "980 ml",
-    "//longest_side": "23 in = 584 mm",
-    longest_side: "584 mm",
-    integral_longest_side: "406 mm",
-    barrel_length: "406 mm",
+    dimensions: {
+      type: "area",
 
-    "//add_mod": [
-      "no slot for bayonet lug because the barrel is not long enough to hold a bayonet",
-      "the M-LOK handguard requires mounts",
-      "there is a ful top rail",
-    ],
+      area: "44.5 in2",
+      length: "1.35 in",
+      // * for the part where the barrel sticks ahead of the handguard
+      trim: 0.025,
+    },
+    longest_side: "23 in",
+    integral_longest_side: {
+      math: [
+        { ref: "$", key: "longest_side" },
+        {
+          op: "subtract",
+          value: { ref: "@constants/uppers", key: "length" },
+        },
+      ],
+    },
+    barrel_length: "16 in",
+
+    // * no slot for bayonet lug because the barrel has none
+    // * the M-LOK handguard requires mounts
+    // * there is a full top rail
     add_mod: [
       ["brass catcher", 1],
       ["underbarrel mount", 1],
@@ -68,6 +80,6 @@
       ["sights", 1],
     ],
 
-    price: "369 USD 99 cent",
+    price: "399 USD 99 cent",
   },
 ]
