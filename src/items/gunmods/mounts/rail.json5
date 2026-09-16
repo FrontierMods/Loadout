@@ -5,17 +5,22 @@
     type: "ITEM",
     subtypes: ["GUNMOD"],
 
-    "//sources": [
-      "https://magpul.com/m-lokaluminumrail-9slots.html",
-      ["https://magpul.com/m-lok", "height reference"],
-      [
-        "https://www.aawee.fi/en/parts-and-accessories/magpul-m-lok-rail-section-9-slot-picatinny-rail/p/MAG583-BLK/",
-        "weight",
-        "width reference",
-      ],
-    ],
+    /*
+        SOURCES
+            https://magpul.com/m-lokaluminumrail-9slots.html
 
-    "//notes": ["the 9-slot/4.1-inch version"],
+            https://magpul.com/m-lok
+                - height reference
+
+            https://www.aawee.fi/en/parts-and-accessories/magpul-m-lok-rail-section-9-slot-picatinny-rail/p/MAG583-BLK/
+                - weight
+                - width reference
+     */
+
+    /*
+        NOTES
+            - the 9-slot/4.1-inch version
+     */
 
     name: {
       str: "rail mount",
@@ -23,20 +28,19 @@
     description: "An aluminum adapter which allows attaching rail-mounted devices to guns without rails.",
 
     weight: "36 g",
-    "//dimensions": {
+    dimensions: {
+      type: "rectangle",
+
       length: "4.1 in",
+      // * derived from visual reference
       width: "0.8 in",
+      // * derived from visual reference
+      // * without screws
       height: "13.1 mm",
-      raw: "27.72 ml",
+      // * accounts for the screws, which usually come attached to the mount when the mount is detached
       trim: 0.05,
-      notes: [
-        "width and height derived from visual reference",
-        "height taken without screws",
-        "trim accounts for the screws, which usually come attached to the mount when the mount is detached",
-      ],
     },
-    volume: "26 ml",
-    longest_side: "104 mm",
+    longest_side: "4.1 in",
 
     material: ["aluminum"],
 
@@ -59,13 +63,33 @@
     },
     description: "A pair of aluminum adapters which allow attaching rail-mounted devices to guns without rails.",
 
-    weight: "72 g",
-    volume: "53 ml",
+    weight: {
+      math: [
+        { ref: "mount/rail/magpul", key: "weight" },
+        { op: "multiply", value: 2 },
+      ],
+    },
+    volume: {
+      math: [
+        { ref: "mount/rail/magpul", key: "volume" },
+        { op: "multiply", value: 2 },
+      ],
+    },
 
     add_mod: [["rail", 2]],
 
-    price: "49 USD 90 cent",
-    price_postapoc: "2 USD",
+    price: {
+      math: [
+        { ref: "mount/rail/magpul", key: "price" },
+        { op: "multiply", value: 2 },
+      ],
+    },
+    price_postapoc: {
+      math: [
+        { ref: "mount/rail/magpul", key: "price_postapoc" },
+        { op: "multiply", value: 2 },
+      ],
+    },
   },
   {
     id: "mount/rail/magpul:triple",
@@ -78,14 +102,22 @@
     },
     description: "A triplet of aluminum adapters which allow attaching rail-mounted devices to guns without rails.",
 
-    weight: "108 g",
-    volume: "79 ml",
+    weight: {
+      math: [
+        { ref: "mount/rail/magpul", key: "weight" },
+        { op: "multiply", value: 3 },
+      ],
+    },
+    volume: {
+      math: [
+        { ref: "mount/rail/magpul", key: "volume" },
+        { op: "multiply", value: 3 },
+      ],
+    },
 
     add_mod: [["rail", 3]],
-    "//blacklist_mod": [
-      "these gunmods have only two slots for side rails",
-      "we count the bottom rail as `underbarrel`",
-    ],
+    // * these gunmods have only two slots for side rails
+    // * we count the bottom rail as `underbarrel`
     blacklist_mod: [
       "upper_receiver/ar15/5.56x45mm/16in/aero/mod_4",
       "upper_receiver/ar15/300blk/7.5in/bca/bc15",
@@ -94,7 +126,17 @@
       "stock/glock/bt/usw",
     ],
 
-    price: "89 USD 95 cent",
-    price_postapoc: "3 USD",
+    price: {
+      math: [
+        { ref: "mount/rail/magpul", key: "price" },
+        { op: "multiply", value: 3 },
+      ],
+    },
+    price_postapoc: {
+      math: [
+        { ref: "mount/rail/magpul", key: "price_postapoc" },
+        { op: "multiply", value: 3 },
+      ],
+    },
   },
 ]
