@@ -576,6 +576,76 @@
     },
     price_postapoc: { utility: "medium", longevity: "high", scarcity: "none" },
   },
+  {
+    id: "magazine/colt/stanag/30:reduced",
+    "copy-from": "magazine/colt/stanag/30",
+    type: "ITEM",
+    subtypes: ["MAGAZINE"],
+
+    name: { str: "STANAG 10/30-round magazine" },
+    description: "An aluminum magazine for STANAG-compatible rifles, reduced to 10 rounds of capacity in the same 30-round shape.  Commonly used with the M16, the M4, and other similar rifles, particularly in the U.S. military.",
+
+    variant_type: "gun",
+    variants: [
+      {
+        id: "steel/black",
+
+        name: {
+          str: "Colt M16 10/30-round magazine",
+        },
+        description: "An aluminum magazine for STANAG-compatible rifles, serving as the primary issued magazine throughout the majority of the U.S. military.  <magazine/reduced:10>  <variant:steel>  Its follower is all black, indicating it to be an obsolete model.",
+        expand_snippets: true,
+        weight: 1,
+      },
+      {
+        id: "steel/green",
+
+        name: {
+          str: "Colt M16 10/30-round magazine",
+        },
+        description: "An aluminum magazine for STANAG-compatible rifles, serving as the primary issued magazine throughout the majority of the U.S. military.  <magazine/reduced:10>  <variant:steel>  Its follower is colored dull green.",
+        expand_snippets: true,
+        weight: 1,
+      },
+      {
+        id: "steel/fde",
+
+        name: {
+          str: "Colt M16 10/30-round magazine",
+        },
+        description: "An aluminum magazine for STANAG-compatible rifles, serving as the primary issued magazine throughout the majority of the U.S. military.  <magazine/reduced:10>  <variant:steel>  Its follower is colored pale brown.",
+        expand_snippets: true,
+        weight: 1,
+      },
+      {
+        id: "fde/blue",
+
+        name: {
+          str: "Colt M16 10/30-round magazine",
+        },
+        description: "An aluminum magazine for STANAG-compatible rifles, serving as the primary issued magazine throughout the majority of the U.S. military.  <magazine/reduced:10>  <variant:fde>  Its follower is blue; both of these color indicate the magazine to be the newer Enhanced Performance Round (EPR) model of the magazine.",
+        expand_snippets: true,
+        weight: 1,
+      },
+    ],
+
+    // * we assume no other property is different from its full-capacity sibling
+
+    pocket_data: [
+      {
+        pocket_type: "MAGAZINE",
+
+        rigid: true,
+
+        allowed_speedloaders: ["clip223_10rd"],
+
+        ammo_restriction: {
+          "223": 10,
+          "300blk": 10,
+        },
+      },
+    ],
+  },
 
   {
     id: "magazine/magpul/pmag/30",
@@ -807,6 +877,44 @@
       ],
     },
     price_postapoc: { utility: "medium", longevity: "high", scarcity: "low" },
+  },
+  {
+    id: "magazine/magpul/pmag/30:reduced",
+    "copy-from": "magazine/magpul/pmag/30",
+    type: "ITEM",
+    subtypes: ["MAGAZINE"],
+
+    name: { str: "PMAG STANAG 10/30-round magazine" },
+    description: "A polymer magazine for the STANAG-compatible rifles, reduced to 10 rounds of capacity in the same 30-round shape.  Has an elaborate texture that should make it easier to handle.  Its standard capacity makes it useful for firefights… or dealing with a group of zombies.",
+
+    variant_type: "gun",
+    variants: [
+      {
+        from: ["black"],
+
+        name: {
+          str: "Magpul PMAG 10/30-round magazine",
+        },
+        description: "A polymer magazine for 5.56mm and .300 Blackout rifles.  Its texture is intended to make it handle better than conventional aluminum magazines.  <magazine/reduced:10>",
+      },
+    ],
+
+    // * we assume no other property is different from its full-capacity sibling
+
+    pocket_data: [
+      {
+        pocket_type: "MAGAZINE",
+
+        rigid: true,
+
+        allowed_speedloaders: ["clip223_10rd"],
+
+        ammo_restriction: {
+          "223": 10,
+          "300blk": 10,
+        },
+      },
+    ],
   },
 
   {
