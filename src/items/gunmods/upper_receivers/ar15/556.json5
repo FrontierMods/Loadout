@@ -57,7 +57,7 @@
         { ref: "$", key: "longest_side" },
         {
           op: "subtract",
-          value: { ref: "@constants/uppers", key: "upper_length" },
+          value: { ref: "@constants/uppers", key: "length" },
         },
       ],
     },
@@ -176,7 +176,7 @@
         { ref: "$", key: "longest_side" },
         {
           op: "subtract",
-          value: { ref: "@constants/uppers", key: "upper_length" },
+          value: { ref: "@constants/uppers", key: "length" },
         },
       ],
     },
@@ -291,7 +291,7 @@
         { ref: "$", key: "longest_side" },
         {
           op: "subtract",
-          value: { ref: "@constants/uppers", key: "upper_length" },
+          value: { ref: "@constants/uppers", key: "length" },
         },
       ],
     },
@@ -403,7 +403,7 @@
         { ref: "$", key: "longest_side" },
         {
           op: "subtract",
-          value: { ref: "@constants/uppers", key: "upper_length" },
+          value: { ref: "@constants/uppers", key: "length" },
         },
       ],
     },
@@ -462,21 +462,12 @@
     // * 2. subtracting the weight of the chassis (CQBR uses the same one) from the weight of the unloaded weight of the CQBR
     weight: {
       math: [
-        { ref: "@constants/uppers", path: ["weight", "cqbr_unloaded"] },
+        // * weight of complete CQBR unloaded
+        // > https://www.americanspecialops.com/special-ops-weapons/cqbr.php
+        "5.9 lbs",
         {
           op: "subtract",
-          value: {
-            math: [
-              { ref: "@constants/uppers", path: ["weight", "m4a1_unloaded"] },
-              {
-                op: "subtract",
-                value: {
-                  ref: "upper_receiver/ar15/5.56x45mm/14.5in/colt/m4a1",
-                  key: "weight",
-                },
-              },
-            ],
-          },
+          value: { ref: "@constants/lowers", key: "weight" },
         },
       ],
     },
@@ -494,7 +485,7 @@
         { ref: "$", key: "longest_side" },
         {
           op: "subtract",
-          value: { ref: "@constants/uppers", key: "upper_length" },
+          value: { ref: "@constants/uppers", key: "length" },
         },
       ],
     },

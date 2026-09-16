@@ -1,17 +1,37 @@
 [
   {
+    id: "@constants/assembled",
+    type: "PARTIAL",
+
+    length: "7 in",
+
+    // * weight of fully-assembled M4A1 unloaded
+    // > https://en.wikipedia.org/wiki/M4_carbine
+    weight: "6.43 lbs",
+  },
+  {
     id: "@constants/uppers",
     type: "PARTIAL",
 
-    upper_length: "7 in",
+    // * average length of upper receivers
+    length: "7 in",
+  },
+  {
+    id: "@constants/lowers",
+    type: "PARTIAL",
 
+    // * reference weight of the M4A1 lower receiver in standard configuration
     weight: {
-      // * weight of fully-assembled M4A1 unloaded
-      // > https://en.wikipedia.org/wiki/M4_carbine
-      m4a1_unloaded: "6.43 lbs",
-      // * weight of complete CQBR unloaded
-      // > https://www.americanspecialops.com/special-ops-weapons/cqbr.php
-      cqbr_unloaded: "5.9 lbs",
+      math: [
+        { ref: "@constants/assembled", key: "weight" },
+        {
+          op: "subtract",
+          value: {
+            ref: "upper_receiver/ar15/5.56x45mm/14.5in/colt/m4a1",
+            key: "weight",
+          },
+        },
+      ],
     },
   },
 ]

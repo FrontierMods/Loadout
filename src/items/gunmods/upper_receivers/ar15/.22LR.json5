@@ -48,7 +48,7 @@
         { ref: "$", key: "longest_side" },
         {
           op: "subtract",
-          value: { ref: "@constants/uppers", key: "upper_length" },
+          value: { ref: "@constants/uppers", key: "length" },
         },
       ],
     },
