@@ -1440,8 +1440,6 @@
     // * Feret distance
     longest_side: "9.74 in",
 
-    material: ["aluminum"],
-
     reload_time: 150,
 
     pocket_data: [
