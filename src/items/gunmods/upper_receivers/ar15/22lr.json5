@@ -38,7 +38,7 @@
 
       area: "95028.86 mm2",
       // * we assume it has the same exact width as the KAC handguard on the M4A1 until proven otherwise
-      width: "1.35 in",
+      length: "1.35 in",
       // * trim is only for the part where the barrel sticks ahead of the handguard
       trim: 0.075,
     },
