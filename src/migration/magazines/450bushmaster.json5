@@ -1,0 +1,7 @@
+[
+  {
+    id: ["450_ar15mag"],
+    type: "MIGRATION",
+    replace: "magazine/d&h/450bushmaster/4",
+  },
+]

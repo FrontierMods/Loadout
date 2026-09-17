@@ -1,0 +1,69 @@
+[
+  {
+    id: "magazine/d&h/450bushmaster/4",
+    inherit: ["@magazine/450bushmaster", "@magazine/compact"],
+    type: "ITEM",
+    subtypes: ["MAGAZINE"],
+
+    /*
+        SOURCES
+            https://www.cabelas.com/p/dh-tactical-ar-15-450-bushmaster-4-round-rifle-magazine
+                - price
+
+            https://centerfiresystems.com/products/e-lander-450-bushmaster-4-rd-ar-15-steel-magazine
+                - weight reference
+                - dimensions reference
+     */
+
+    /*
+        NOTES
+            - we use a different magazine of the same caliber and capacity as reference
+                - information on the actual magazine seems non-existent online
+     */
+
+    name: {
+      str: "STANAG .450 Bushmaster 4-round magazine",
+    },
+    description: "An aluminum magazine for AR-15 chambered in .450 Bushmaster, holding 4 rounds.",
+
+    variant_type: "gun",
+    variants: [
+      {
+        from: ["black"],
+
+        name: {
+          str: "D&H .450 Bushmaster 4-round magazine",
+        },
+        description: "An aluminum magazine for AR-15s chambered in .450 Bushmaster.  Roughly the size of a 10-round magazine in 5.56mm, it is designed specifically to handle the large-bore caliber, and has no reliability issues associated with feeding it from common 5.56mm magazines.",
+      },
+    ],
+
+    weight: "4 oz",
+    dimensions: {
+      type: "rectangle",
+
+      length: "3.45 in",
+      width: "0.95 in",
+      height: "2.5 in",
+      // * we assume all irregularities of shape roughly come out to an even cuboid in the end, hence no `trim`
+    },
+    longest_side: "3.45 in",
+
+    material: ["aluminum"],
+
+    pocket_data: [
+      {
+        pocket_type: "MAGAZINE",
+
+        rigid: true,
+
+        ammo_restriction: {
+          "450": 4,
+        },
+      },
+    ],
+
+    price: "23.99 USD",
+    price_postapoc: { utility: "low", longevity: "high", scarcity: "none" },
+  },
+]

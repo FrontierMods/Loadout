@@ -42,4 +42,11 @@
 
     ammo_type: ["762"],
   },
+  {
+    id: "@magazine/450bushmaster",
+    inherit: "@magazine",
+    type: "PARTIAL",
+
+    ammo_type: ["450"],
+  },
 ]
