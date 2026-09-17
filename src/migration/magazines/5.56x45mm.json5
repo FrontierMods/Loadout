@@ -1,11 +1,7 @@
 [
   {
-    "//": [
-      "no state in New England restricts magazine capacity below 10 rounds",
-      "the sole restrictor in the region is MA, with 10-round limits on all magazines",
-      "aside from that all of the magazines on the market are 10-rounders restricted down to 5 rounds anyway",
-      "Magpul sells magazine limiters, which are easy to remove with very little tooling",
-    ],
+    // * 5-round magazines are 10-round magazines with a plastic limiter
+    // * once magazine internals are modelled, it may be worth rewiring this migration
     id: ["stanag5"],
     type: "MIGRATION",
     replace: "magazine/magpul/pmag/10",
