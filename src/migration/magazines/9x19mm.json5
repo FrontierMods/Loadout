@@ -15,9 +15,19 @@
     replace: "magazine/glock/9x19mm/15",
   },
   {
+    id: ["glockmag_10"],
+    type: "MIGRATION",
+    replace: "magazine/glock/9x19mm/10/15",
+  },
+  {
     id: ["glock17_17"],
     type: "MIGRATION",
     replace: "magazine/glock/9x19mm/17",
+  },
+  {
+    id: ["glock17_10"],
+    type: "MIGRATION",
+    replace: "magazine/glock/9x19mm/10/17",
   },
   {
     id: ["glock17_22"],
