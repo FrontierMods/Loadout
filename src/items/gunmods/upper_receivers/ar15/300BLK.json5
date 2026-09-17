@@ -5,13 +5,15 @@
     type: "ITEM",
     subtypes: ["GUNMOD"],
 
-    "//sources": [
-      "https://www.ballisticadvantage.com/10-5-300-blackout-pistol-length-w-9-ar15-atlas-s-one-m-lok-handguard-complete-upper.html",
-    ],
+    /*
+        SOURCES
+            https://www.ballisticadvantage.com/10-5-300-blackout-pistol-length-w-9-ar15-atlas-s-one-m-lok-handguard-complete-upper.html
+     */
 
-    "//notes": [
-      "ejection port door length of M4A1 (3.1 in.) used as reference length for area calculation",
-    ],
+    /*
+        NOTES
+            - ejection port door length of M4A1 (3.1 in.) used as reference length for area calculation
+     */
 
     name: {
       str: "10.5″ .300 Blackout AR-15 upper receiver",
@@ -22,39 +24,39 @@
     variant_type: "gun",
     variants: [
       {
-        id: "black",
+        from: ["black"],
 
         name: {
           str: "BA Atlas S-One 10.5″ .300 Blackout AR-15 upper receiver",
         },
-        description: "A complete upper receiver assembly for AR-15-style firearms.  Includes a 10.5-inch barrel chambered in .300 Blackout, standard-issue internal components, and an M-LOK handguard with most of its upper rail between the start and the end of the handguard missing.  <variant:black>",
-        expand_snippets: true,
-        weight: 1,
+        description: "A complete upper receiver assembly for AR-15-style firearms.  Includes a 10.5-inch barrel chambered in .300 Blackout, standard-issue internal components, and an M-LOK handguard with most of its upper rail between the start and the end of the handguard missing.",
       },
     ],
 
-    "//weight": "52.8 oz = 1496.9 g",
-    weight: "1497 g",
-    "//dimensions": {
+    weight: "52.8 oz",
+    dimensions: {
+      type: "area",
+
       area: "35.37 in2",
-      width: "1.35 in",
-      raw: "782.47 ml",
+      length: "1.35 in",
       trim: 0.07,
-      notes: [
-        "trim is for the part where the barrel sticks ahead of the handguard, including the area of the flash hider",
+      // * for the part where the barrel sticks ahead of the handguard, including the area of the flash hider
+    },
+    longest_side: "17.5 in",
+    integral_longest_side: {
+      math: [
+        { ref: "$", key: "longest_side" },
+        {
+          op: "subtract",
+          value: { ref: "@constants/uppers", key: "length" },
+        },
       ],
     },
-    volume: "728 ml",
-    "//longest_side": "17.5 in = 444.5 mm",
-    longest_side: "445 mm",
-    integral_longest_side: "267 mm",
-    barrel_length: "267 mm",
+    barrel_length: "10.5 in",
 
-    "//add_mod": [
-      "no slot for bayonet lug because the barrel is not long enough to hold a bayonet",
-      "the M-LOK handguard requires mounts",
-      "we presume the two upper rails to be usable as full-on side rails",
-    ],
+    // * no slot for bayonet lug because the barrel is not long enough to hold a bayonet
+    // * the M-LOK handguard requires mounts
+    // * we presume the two upper rails to be usable as full-on side rails
     add_mod: [
       ["brass catcher", 1],
       ["underbarrel mount", 1],
@@ -72,13 +74,15 @@
     type: "ITEM",
     subtypes: ["GUNMOD"],
 
-    "//sources": [
-      "https://www.bearcreekarsenal.com/300-blackout-7-5-parkerized-hb-barrel-1-8-twist-pistol-7-handguard-rc-nrail-upper.html",
-    ],
+    /*
+        SOURCES
+            https://www.bearcreekarsenal.com/300-blackout-7-5-parkerized-hb-barrel-1-8-twist-pistol-7-handguard-rc-nrail-upper.html
+     */
 
-    "//notes": [
-      "handguard length (6.5 in.) used as reference length for area calculation",
-    ],
+    /*
+        NOTES
+            - handguard length (6.5 in.) used as reference length for area calculation
+     */
 
     name: {
       str: "7.5″ .300 Blackout AR-15 upper receiver",
@@ -89,40 +93,40 @@
     variant_type: "gun",
     variants: [
       {
-        id: "black",
+        from: ["black"],
 
         name: {
           str: "BCA 7.5″ .300 Blackout AR-15 upper receiver",
         },
-        description: "A complete upper receiver assembly for AR-15-style firearms.  Includes a 7.5-inch barrel chambered in .300 Blackout, standard-issue internal components, and an M-LOK handguard with most of its upper rail between the start and the end of the handguard missing.  <variant:black>",
-        expand_snippets: true,
-        weight: 1,
+        description: "A complete upper receiver assembly for AR-15-style firearms.  Includes a 7.5-inch barrel chambered in .300 Blackout, standard-issue internal components, and an M-LOK handguard with most of its upper rail between the start and the end of the handguard missing.",
       },
     ],
 
-    "//weight": "3.5 lbs = 1587.6 g",
-    weight: "1588 g",
-    "//dimensions": {
+    weight: "3.5 lbs",
+    dimensions: {
+      type: "area",
+
       area: "26.06 in2",
-      width: "1.35 in",
-      raw: "576.51 ml",
+      length: "1.35 in",
+      // * for the part where the barrel sticks ahead of the handguard
       trim: 0.02,
-      notes: [
-        "trim is only for the part where the barrel sticks ahead of the handguard",
+    },
+    longest_side: "14.5 in",
+    integral_longest_side: {
+      math: [
+        { ref: "$", key: "longest_side" },
+        {
+          op: "subtract",
+          value: { ref: "@constants/uppers", key: "length" },
+        },
       ],
     },
-    volume: "565 ml",
-    "//longest_side": "14.5 in = 368.3 mm",
-    longest_side: "368 mm",
-    integral_longest_side: "191 mm",
-    barrel_length: "191 mm",
+    barrel_length: "7.5 in",
 
-    "//add_mod": [
-      "no slot for bayonet lug because the barrel is not long enough to hold a bayonet",
-      "the M-LOK handguard requires mounts",
-      "we're not positive that the upper spot has a slot for an M-LOK adapter, so this upper will be excluded from the triple rail mount's list",
-      "we presume the two upper rails to be usable as full-on side rails",
-    ],
+    // * no slot for bayonet lug because the barrel is not long enough to hold a bayonet
+    // * the M-LOK handguard requires mounts
+    // * we're not positive that the upper spot has a slot for an M-LOK adapter, so this upper will be excluded from the triple rail mount's list
+    // * we presume the two upper rails to be usable as full-on side rails
     add_mod: [
       ["brass catcher", 1],
       ["underbarrel mount", 1],
@@ -132,7 +136,7 @@
       ["sights", 1],
     ],
 
-    price: "270 USD 15 cent",
+    price: "270.15 USD",
   },
   {
     id: "upper_receiver/ar15/300blk/16in/bca/bc15",
@@ -140,13 +144,15 @@
     type: "ITEM",
     subtypes: ["GUNMOD"],
 
-    "//sources": [
-      "https://www.bearcreekarsenal.com/300-blackout-16-stainless-steel-hb-barrel-1-8-twist-carbine-15-mlok-upper.html",
-    ],
+    /*
+        SOURCES
+            https://www.bearcreekarsenal.com/300-blackout-16-stainless-steel-hb-barrel-1-8-twist-carbine-15-mlok-upper.html
+     */
 
-    "//notes": [
-      "handguard length (15 in.) used as reference length for area calculation",
-    ],
+    /*
+        NOTES
+            - handguard length (15 in.) used as reference length for area calculation
+     */
 
     name: {
       str: "16″ .300 Blackout AR-15 upper receiver",
@@ -157,38 +163,37 @@
     variant_type: "gun",
     variants: [
       {
-        id: "black",
+        from: ["black"],
 
         name: {
           str: "BCA 16″ .300 Blackout AR-15 upper receiver",
         },
-        description: "A complete upper receiver assembly for AR-15-style firearms.  Includes a 16-inch barrel chambered in .300 Blackout, standard-issue internal components, and an M-LOK handguard with most of its upper rail between the start and the end of the handguard missing.  <variant:black>",
-        expand_snippets: true,
-        weight: 1,
+        description: "A complete upper receiver assembly for AR-15-style firearms.  Includes a 16-inch barrel chambered in .300 Blackout, standard-issue internal components, and an M-LOK handguard with most of its upper rail between the start and the end of the handguard missing.",
       },
     ],
 
-    "//weight": "6.25 lbs = 2835 g",
-    weight: "2835 g",
-    "//dimensions": {
+    weight: "6.25 lbs",
+    dimensions: {
+      type: "area",
+
       area: "40 in2",
-      width: "1.35 in",
-      raw: "884.9 ml",
+      length: "1.35 in",
+      // * for the minuscule part where the barrel sticks ahead of the handguard
       trim: 0.01,
-      notes: [
-        "trim is only for the minuscule part where the barrel sticks ahead of the handguard",
+    },
+    longest_side: "23 in",
+    integral_longest_side: {
+      math: [
+        { ref: "$", key: "longest_side" },
+        {
+          op: "subtract",
+          value: { ref: "@constants/uppers", key: "length" },
+        },
       ],
     },
-    volume: "876 ml",
-    "//longest_side": "23 in = 584.2 mm",
-    longest_side: "584 mm",
-    integral_longest_side: "406 mm",
-    barrel_length: "406 mm",
-
-    "//add_mod": [
-      "no slot for bayonet lug because the handguard leaves no space to attach a bayonet",
-      "the M-LOK handguard requires mounts",
-    ],
+    barrel_length: "16 in",
+    // * no slot for bayonet lug because the handguard leaves no space to attach a bayonet
+    // * the M-LOK handguard requires mounts
     add_mod: [
       ["brass catcher", 1],
       ["underbarrel mount", 1],
@@ -198,6 +203,6 @@
       ["sights", 1],
     ],
 
-    price: "291 USD 03 cent",
+    price: "291.03 USD",
   },
 ]
