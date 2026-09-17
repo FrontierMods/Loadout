@@ -1,0 +1,23 @@
+[
+  {
+    id: "chutes",
+    type: "item_group",
+    subtype: "distribution",
+
+    entries: [{ group: "chutes/arredondo" }],
+  },
+  {
+    id: "chutes/arredondo",
+    type: "item_group",
+    subtype: "distribution",
+
+    entries: [
+      { item: "chute/arredondo/mossberg/500" },
+      { item: "chute/arredondo/mossberg/590" },
+      { item: "chute/arredondo/mossberg/930" },
+      { item: "chute/arredondo/remington/870" },
+      { item: "chute/arredondo/remington/870:breacher" },
+      { item: "chute/arredondo/benelli/sa" },
+    ],
+  },
+]
