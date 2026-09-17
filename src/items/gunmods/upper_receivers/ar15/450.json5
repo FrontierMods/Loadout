@@ -5,13 +5,15 @@
     type: "ITEM",
     subtypes: ["GUNMOD"],
 
-    "//sources": [
-      "https://www.bearcreekarsenal.com/450-bushmaster-10-5-parkerized-heavy-barrel-carbine-1-24-twist-w-10-mlok-rail-upper.html",
-    ],
+    /*
+        SOURCES
+            https://www.bearcreekarsenal.com/450-bushmaster-10-5-parkerized-heavy-barrel-carbine-1-24-twist-w-10-mlok-rail-upper.html
+     */
 
-    "//notes": [
-      "handguard length (10 in.) used as reference length for area calculation",
-    ],
+    /*
+        NOTES
+            - handguard length (10 in.) used as reference length for area calculation
+     */
 
     name: {
       str: "10.5″ .450 Bushmaster AR-15 upper receiver",
@@ -22,38 +24,38 @@
     variant_type: "gun",
     variants: [
       {
-        id: "black",
+        from: ["black"],
 
         name: {
           str: "BCA 10.5″ .450 Bushmaster AR-15 upper receiver",
         },
-        description: "A complete upper receiver assembly for AR-15-style firearms.  Includes a 10.5-inch barrel chambered in .450 Bushmaster, standard-issue internal components, and an M-LOK handguard with most of its upper rail between the start and the end of the handguard missing.  <variant:black>",
-        expand_snippets: true,
-        weight: 1,
+        description: "A complete upper receiver assembly for AR-15-style firearms.  Includes a 10.5-inch barrel chambered in .450 Bushmaster, standard-issue internal components, and an M-LOK handguard with most of its upper rail between the start and the end of the handguard missing.",
       },
     ],
 
-    "//weight": "5.5 lbs = 2494.8 g",
-    weight: "2495 g",
-    "//dimensions": {
+    weight: "5.5 lbs",
+    dimensions: {
+      type: "area",
+
       area: "34.64 in2",
-      width: "1.35 in",
-      raw: "766.32 ml",
+      length: "1.35 in",
+      // * for the part where the barrel sticks ahead of the handguard
       trim: 0.02,
-      notes: [
-        "trim is for the part where the barrel sticks ahead of the handguard",
+    },
+    longest_side: "17.5 in",
+    integral_longest_side: {
+      math: [
+        { ref: "$", key: "longest_side" },
+        {
+          op: "subtract",
+          value: { ref: "@constants/uppers", key: "length" },
+        },
       ],
     },
-    volume: "751 ml",
-    "//longest_side": "17.5 in = 444.5 mm",
-    longest_side: "445 mm",
-    integral_longest_side: "267 mm",
-    barrel_length: "267 mm",
+    barrel_length: "10.5 in",
 
-    "//add_mod": [
-      "no slot for bayonet lug because the barrel is not long enough to hold a bayonet",
-      "the M-LOK handguard requires mounts",
-    ],
+    // * no slot for bayonet lug because the barrel is not long enough to hold a bayonet
+    // * the M-LOK handguard requires mounts
     add_mod: [
       ["brass catcher", 1],
       ["underbarrel mount", 1],
@@ -71,13 +73,15 @@
     type: "ITEM",
     subtypes: ["GUNMOD"],
 
-    "//sources": [
-      "https://www.bearcreekarsenal.com/450-bushmaster-18-stainless-hb-barrel-1-24-twist-mid-length-15-nrail-rc-upper.html",
-    ],
+    /*
+        SOURCES
+            https://www.bearcreekarsenal.com/450-bushmaster-18-stainless-hb-barrel-1-24-twist-mid-length-15-nrail-rc-upper.html
+     */
 
-    "//notes": [
-      "handguard length (15 in.) used as reference length for area calculation",
-    ],
+    /*
+        NOTES
+            - handguard length (15 in.) used as reference length for area calculation
+     */
 
     name: {
       str: "18″ .450 Bushmaster AR-15 upper receiver",
@@ -88,38 +92,38 @@
     variant_type: "gun",
     variants: [
       {
-        id: "black",
+        from: ["black"],
 
         name: {
           str: "BCA 18″ .450 Bushmaster AR-15 upper receiver",
         },
-        description: "A complete upper receiver assembly for AR-15-style firearms.  Includes a 18-inch barrel chambered in .450 Bushmaster, standard-issue internal components, and an M-LOK handguard with most of its upper rail between the start and the end of the handguard missing.  <variant:black>",
-        expand_snippets: true,
-        weight: 1,
+        description: "A complete upper receiver assembly for AR-15-style firearms.  Includes a 18-inch barrel chambered in .450 Bushmaster, standard-issue internal components, and an M-LOK handguard with most of its upper rail between the start and the end of the handguard missing.",
       },
     ],
 
-    "//weight": "6 lbs = 2721.6 g",
-    weight: "2722 g",
-    "//dimensions": {
+    weight: "6 lbs",
+    dimensions: {
+      type: "area",
+
       area: "42.27 in2",
-      width: "1.35 in",
-      raw: "935.12 ml",
+      length: "1.35 in",
+      // * for the part where the barrel sticks ahead of the handguard
       trim: 0.045,
-      notes: [
-        "trim is for the part where the barrel sticks ahead of the handguard",
+    },
+    longest_side: "25 in",
+    integral_longest_side: {
+      math: [
+        { ref: "$", key: "longest_side" },
+        {
+          op: "subtract",
+          value: { ref: "@constants/uppers", key: "length" },
+        },
       ],
     },
-    volume: "893 ml",
-    "//longest_side": "25 in = 635 mm",
-    longest_side: "635 mm",
-    integral_longest_side: "457 mm",
-    barrel_length: "457 mm",
+    barrel_length: "18 in",
 
-    "//add_mod": [
-      "no slot for bayonet lug because the barrel is not long enough to hold a bayonet",
-      "the M-LOK handguard requires mounts",
-    ],
+    // * no slot for bayonet lug because the barrel is not long enough to hold a bayonet
+    // * the M-LOK handguard requires mounts
     add_mod: [
       ["brass catcher", 1],
       ["underbarrel mount", 1],
@@ -129,6 +133,6 @@
       ["sights", 1],
     ],
 
-    price: "320 USD 37 cent",
+    price: "320.37 USD",
   },
 ]
