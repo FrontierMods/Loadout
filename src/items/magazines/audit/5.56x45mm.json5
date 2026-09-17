@@ -1,0 +1,281 @@
+[
+  {
+    id: "rdb_223",
+    "copy-from": "rdb_223",
+    type: "ITEM",
+    subtypes: ["GUN"],
+
+    name: { ref: "rdb_223", scope: "dda", key: "name" },
+
+    variant_type: "gun",
+    variants: { ref: "rdb_223", scope: "dda", key: "variants" },
+
+    pocket_data: [
+      {
+        pocket_type: "MAGAZINE_WELL",
+
+        // * images online tend to show the rifle with a 20-round PMAG loaded, of which roughly 45% peek out from the well
+        magazine_well: {
+          math: [
+            { ref: "magazine/magpul/pmag/10", key: "volume" },
+            { op: "multiply", value: 0.9 },
+          ],
+        },
+
+        item_restriction: { ref: "list/magazines/stanag", key: "list" },
+      },
+    ],
+  },
+  {
+    id: "bren2_556",
+    "copy-from": "bren2_556",
+    type: "ITEM",
+    subtypes: ["GUN"],
+
+    name: { ref: "bren2_556", scope: "dda", key: "name" },
+
+    variant_type: "gun",
+    variants: { ref: "bren2_556", scope: "dda", key: "variants" },
+
+    pocket_data: [
+      {
+        pocket_type: "MAGAZINE_WELL",
+
+        // * a 10-rounder PMAG just about sticks out from the well
+        // * roughly the same well volume as SCAR-L
+        magazine_well: {
+          math: [
+            { ref: "magazine/magpul/pmag/10", key: "volume" },
+            { op: "multiply", value: 0.85 },
+          ],
+        },
+
+        item_restriction: { ref: "list/magazines/stanag", key: "list" },
+      },
+    ],
+  },
+  {
+    id: "scar_16s",
+    "copy-from": "scar_16s",
+    type: "ITEM",
+    subtypes: ["GUN"],
+
+    name: { ref: "scar_16s", scope: "dda", key: "name" },
+
+    variant_type: "gun",
+    variants: { ref: "scar_16s", scope: "dda", key: "variants" },
+
+    pocket_data: [
+      {
+        pocket_type: "MAGAZINE_WELL",
+
+        magazine_well: {
+          math: [
+            { ref: "magazine/magpul/pmag/10", key: "volume" },
+            { op: "multiply", value: 0.75 },
+          ],
+        },
+
+        item_restriction: { ref: "list/magazines/stanag", key: "list" },
+      },
+    ],
+  },
+  {
+    id: "mdrx",
+    "copy-from": "mdrx",
+    type: "ITEM",
+    subtypes: ["GUN"],
+
+    name: { ref: "mdrx", scope: "dda", key: "name" },
+
+    variant_type: "gun",
+    variants: { ref: "mdrx", scope: "dda", key: "variants" },
+
+    pocket_data: [
+      {
+        pocket_type: "MAGAZINE_WELL",
+
+        // * roughly the same well volume as the RDB
+        magazine_well: {
+          math: [
+            { ref: "magazine/magpul/pmag/10", key: "volume" },
+            { op: "multiply", value: 0.9 },
+          ],
+        },
+
+        item_restriction: { ref: "list/magazines/stanag", key: "list" },
+      },
+    ],
+  },
+  {
+    id: "scar_l",
+    "copy-from": "scar_l",
+    type: "ITEM",
+    subtypes: ["GUN"],
+
+    name: { ref: "scar_l", scope: "dda", key: "name" },
+
+    pocket_data: [
+      {
+        pocket_type: "MAGAZINE_WELL",
+
+        magazine_well: {
+          math: [
+            { ref: "magazine/magpul/pmag/10", key: "volume" },
+            { op: "multiply", value: 0.85 },
+          ],
+        },
+
+        item_restriction: { ref: "list/magazines/stanag", key: "list" },
+      },
+    ],
+  },
+  {
+    id: "iwi_tavor_x95_300blk",
+    "copy-from": "iwi_tavor_x95_300blk",
+    type: "ITEM",
+    subtypes: ["GUN"],
+
+    name: { ref: "iwi_tavor_x95_300blk", scope: "dda", key: "name" },
+
+    pocket_data: [
+      {
+        pocket_type: "MAGAZINE_WELL",
+
+        magazine_well: {
+          math: [
+            { ref: "magazine/magpul/pmag/10", key: "volume" },
+            { op: "multiply", value: 0.55 },
+          ],
+        },
+
+        item_restriction: { ref: "list/magazines/stanag", key: "list" },
+      },
+    ],
+  },
+  {
+    id: "m249",
+    "copy-from": "m249",
+    type: "ITEM",
+    subtypes: ["GUN"],
+
+    name: { ref: "m249", scope: "dda", key: "name" },
+
+    pocket_data: [
+      {
+        pocket_type: "MAGAZINE_WELL",
+
+        magazine_well: {
+          math: [
+            { ref: "magazine/magpul/pmag/10", key: "volume" },
+            // * presumed
+            // * unable find a clear reference with smaller magazines
+            { op: "multiply", value: 0.9 },
+          ],
+        },
+
+        item_restriction: { ref: "list/magazines/stanag:belted", key: "list" },
+      },
+    ],
+  },
+  {
+    id: "m249_semi",
+    "copy-from": "m249_semi",
+    type: "ITEM",
+    subtypes: ["GUN"],
+
+    name: { ref: "m249_semi", scope: "dda", key: "name" },
+
+    pocket_data: [
+      {
+        pocket_type: "MAGAZINE_WELL",
+
+        magazine_well: {
+          math: [
+            { ref: "magazine/magpul/pmag/10", key: "volume" },
+            // * presumed
+            // * unable find a clear reference with smaller magazines
+            { op: "multiply", value: 0.9 },
+          ],
+        },
+
+        item_restriction: { ref: "list/magazines/stanag:belted", key: "list" },
+      },
+    ],
+  },
+  {
+    id: "sig_assault_rifle",
+    "copy-from": "sig_assault_rifle",
+    type: "ITEM",
+    subtypes: ["GUN"],
+
+    name: { ref: "sig_assault_rifle", scope: "dda", key: "name" },
+
+    variant_type: "gun",
+    variants: { ref: "sig_assault_rifle", scope: "dda", key: "variants" },
+
+    pocket_data: [
+      {
+        pocket_type: "MAGAZINE_WELL",
+
+        magazine_well: {
+          math: [
+            { ref: "magazine/magpul/pmag/10", key: "volume" },
+            { op: "multiply", value: 0.9 },
+          ],
+        },
+
+        item_restriction: { ref: "list/magazines/stanag", key: "list" },
+      },
+    ],
+  },
+  {
+    id: "sig_mcx_rattler_sbr",
+    "copy-from": "sig_mcx_rattler_sbr",
+    type: "ITEM",
+    subtypes: ["GUN"],
+
+    name: { ref: "sig_mcx_rattler_sbr", scope: "dda", key: "name" },
+
+    pocket_data: [
+      {
+        pocket_type: "MAGAZINE_WELL",
+
+        magazine_well: {
+          math: [
+            { ref: "magazine/magpul/pmag/10", key: "volume" },
+            { op: "multiply", value: 0.9 },
+          ],
+        },
+
+        item_restriction: { ref: "list/magazines/stanag", key: "list" },
+      },
+    ],
+  },
+  {
+    id: "mp_15",
+    "copy-from": "mp_15",
+    type: "ITEM",
+    subtypes: ["GUN"],
+
+    name: { ref: "mp_15", scope: "dda", key: "name" },
+
+    variant_type: "gun",
+    variants: { ref: "mp_15", scope: "dda", key: "variants" },
+
+    pocket_data: [
+      {
+        pocket_type: "MAGAZINE_WELL",
+
+        magazine_well: {
+          math: [
+            { ref: "magazine/magpul/pmag/10", key: "volume" },
+            { op: "multiply", value: 0.9 },
+          ],
+        },
+
+        item_restriction: { ref: "list/magazines/stanag", key: "list" },
+      },
+    ],
+  },
+]

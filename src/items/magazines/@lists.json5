@@ -46,4 +46,81 @@
       "magazine/kriss/9x19mm",
     ],
   },
+
+  {
+    id: "list/magazines/stanag",
+    type: "PARTIAL",
+
+    list: [
+      "stanag20_beowulf",
+      "stanag20ranger_beowulf",
+      "stanag30_beowulf",
+      "stanag30ranger_beowulf",
+      "survivor223mag",
+
+      "magazine/magpul/pmag/10",
+      "magazine/magpul/pmag/10:ranger",
+      "magazine/magpul/pmag/10",
+      "magazine/magpul/pmag/20:ranger",
+      "magazine/magpul/pmag/20+5/taran",
+      "magazine/magpul/pmag/30",
+      "magazine/magpul/pmag/30:ranger",
+      "magazine/magpul/pmag/30+5/taran",
+      "magazine/magpul/pmag/40",
+      "magazine/magpul/pmag/40:ranger",
+      "magazine/magpul/pmag/40+6/taran",
+
+      "magazine/colt/stanag/30",
+      "magazine/colt/stanag/30:ranger",
+
+      "magazine/kci/5.56x45mm/50",
+      "magazine/surefire/60",
+      "magazine/schmeisser/s60",
+      "magazine/magpul/pmag/d-60",
+      "magazine/mwg/90",
+      "magazine/surefire/100",
+      "magazine/beta/c-mag/m16",
+      "magazine/armatac/saw-mag",
+    ],
+  },
+  {
+    id: "list/magazines/stanag:belted",
+    type: "PARTIAL",
+
+    // * adds the 5.56mm ammo belt
+    // * for use with LMGs
+    list: [
+      "belt223",
+
+      "stanag20_beowulf",
+      "stanag20ranger_beowulf",
+      "stanag30_beowulf",
+      "stanag30ranger_beowulf",
+      "survivor223mag",
+
+      "magazine/magpul/pmag/10",
+      "magazine/magpul/pmag/10:ranger",
+      "magazine/magpul/pmag/10",
+      "magazine/magpul/pmag/20:ranger",
+      "magazine/magpul/pmag/20+5/taran",
+      "magazine/magpul/pmag/30",
+      "magazine/magpul/pmag/30:ranger",
+      "magazine/magpul/pmag/30+5/taran",
+      "magazine/magpul/pmag/40",
+      "magazine/magpul/pmag/40:ranger",
+      "magazine/magpul/pmag/40+6/taran",
+
+      "magazine/colt/stanag/30",
+      "magazine/colt/stanag/30:ranger",
+
+      "magazine/kci/5.56x45mm/50",
+      "magazine/surefire/60",
+      "magazine/schmeisser/s60",
+      "magazine/magpul/pmag/d-60",
+      "magazine/mwg/90",
+      "magazine/surefire/100",
+      "magazine/beta/c-mag/m16",
+      "magazine/armatac/saw-mag",
+    ],
+  },
 ]
