@@ -5,64 +5,21 @@
     type: "ITEM",
     subtypes: ["GUN"],
 
-    name: {
-      str: "Glock carry pistol",
-    },
+    name: { ref: "glock_19", scope: "dda", key: "name" },
 
     variant_type: "gun",
-    variants: [
-      {
-        id: "glock_19",
-        name: {
-          str: "Glock 19",
-        },
-        description: "Possibly the most popular pistol in existence, the Glock 19 can be summed up as being fundamentally a more compact brother to the full-sized Glock 17 pistol.  Sporting a mainly polymer-based design, the Glock 19 is often derided for its plastic construction which lends the handgun a deceptively flimsy feel.  Even so, the Glock 19 remains both a remarkably reliable firearm and a quite shootable gun in its own right.",
-      },
-    ],
+    variants: { ref: "glock_19", scope: "dda", key: "variants" },
 
-    "//valid_mod_locations": "audit belt clip location",
-    valid_mod_locations: [
-      ["barrel", 1],
-      ["bore", 1],
-      ["grip", 1],
-      ["mechanism", 4],
-      ["belt clip", 1],
-      ["muzzle", 1],
-      ["rail", 1],
-      ["sights", 1],
-      ["stock", 1],
-      ["underbarrel", 1],
-    ],
+    extend: { valid_mod_locations: [["belt clip", 1]] },
 
-    "//pocket_data": "audit accepted magazines",
     pocket_data: [
       {
         pocket_type: "MAGAZINE_WELL",
 
-        "//magazine_well": [
-          "volume of the standard 15-round Glock magazine's body",
-          "base plate sticks outside of the well",
-        ],
-        magazine_well: "76 ml",
+        // * only the body: base plate stands outside the well
+        magazine_well: { ref: "magazine/body/glock/9x19mm/15", key: "volume" },
 
-        item_restriction: [
-          "magazine/glock/9x19mm/15",
-          "magazine/glock/9x19mm/15+2",
-          "magazine/glock/9x19mm/17",
-          "magazine/glock/9x19mm/17+2",
-          "magazine/glock/9x19mm/24",
-          "magazine/glock/9x19mm/24+2",
-          "magazine/glock/9x19mm/31",
-          "magazine/glock/9x19mm/31+2",
-
-          "magazine/magpul/pmag/d-50",
-          "magazine/kci/9x19mm/glock",
-          "magazine/beta/c-mag/glock",
-
-          "magazine/torkmag/glock",
-
-          "magazine/kriss/9x19mm",
-        ],
+        item_restriction: { ref: "list/magazines/glock/15+", key: "list" },
       },
     ],
   },
@@ -72,62 +29,21 @@
     type: "ITEM",
     subtypes: ["GUN"],
 
-    name: {
-      str: "Glock duty pistol",
-    },
+    name: { ref: "glock_17", scope: "dda", key: "name" },
 
     variant_type: "gun",
-    variants: [
-      {
-        id: "glock_17",
-        name: {
-          str: "Glock 17",
-        },
-        description: "Commonly seen tucked away in the holsters of police officers, certain military professionals, and civilian shooters, this is a larger, older, service-oriented version of the popular Glock 19.  Similarly firing the 9x19mm cartridge and using higher capacity magazines, it performs largely the same, but due to the longer magazine well, it can't fit magazines shorter than the standard 17-round ones.",
-      },
-    ],
+    variants: { ref: "glock_17", scope: "dda", key: "variants" },
 
-    "//valid_mod_locations": "audit belt clip location",
-    valid_mod_locations: [
-      ["barrel", 1],
-      ["bore", 1],
-      ["grip", 1],
-      ["mechanism", 4],
-      ["belt clip", 1],
-      ["muzzle", 1],
-      ["rail", 1],
-      ["sights", 1],
-      ["stock", 1],
-      ["underbarrel", 1],
-    ],
+    extend: { valid_mod_locations: [["belt clip", 1]] },
 
-    "//pocket_data": "audit accepted magazines",
     pocket_data: [
       {
         pocket_type: "MAGAZINE_WELL",
 
-        "//magazine_well": [
-          "volume of the standard 17-round Glock magazine's body",
-          "base plate sticks outside of the well",
-        ],
-        magazine_well: "83 ml",
+        // * only the body: base plate stands outside the well
+        magazine_well: { ref: "magazine/body/glock/9x19mm/17", key: "volume" },
 
-        item_restriction: [
-          "magazine/glock/9x19mm/17",
-          "magazine/glock/9x19mm/17+2",
-          "magazine/glock/9x19mm/24",
-          "magazine/glock/9x19mm/24+2",
-          "magazine/glock/9x19mm/31",
-          "magazine/glock/9x19mm/31+2",
-
-          "magazine/magpul/pmag/d-50",
-          "magazine/kci/9x19mm/glock",
-          "magazine/beta/c-mag/glock",
-
-          "magazine/torkmag/glock",
-
-          "magazine/kriss/9x19mm",
-        ],
+        item_restriction: { ref: "list/magazines/glock/17+", key: "list" },
       },
     ],
   },
@@ -137,62 +53,21 @@
     type: "ITEM",
     subtypes: ["GUN"],
 
-    name: {
-      str: "Glock machine pistol",
-    },
+    name: { ref: "glock_18c", scope: "dda", key: "name" },
 
     variant_type: "gun",
-    variants: [
-      {
-        id: "glock_18c",
-        name: {
-          str: "Glock 18C",
-        },
-        description: "A selective-fire variation on the Glock 17, originally designed for Austria's EKO Cobra unit.  It has compensator cuts along its barrel to make recoil more manageable.",
-      },
-    ],
+    variants: { ref: "glock_18c", scope: "dda", key: "variants" },
 
-    "//valid_mod_locations": "audit belt clip location",
-    valid_mod_locations: [
-      ["barrel", 1],
-      ["bore", 1],
-      ["grip", 1],
-      ["mechanism", 4],
-      ["belt clip", 1],
-      ["muzzle", 1],
-      ["rail", 1],
-      ["sights", 1],
-      ["stock", 1],
-      ["underbarrel", 1],
-    ],
+    extend: { valid_mod_locations: [["belt clip", 1]] },
 
-    "//pocket_data": "audit accepted magazines",
     pocket_data: [
       {
         pocket_type: "MAGAZINE_WELL",
 
-        "//magazine_well": [
-          "volume of the standard 17-round Glock magazine's body",
-          "base plate sticks outside of the well",
-        ],
-        magazine_well: "83 ml",
+        // * only the body: base plate stands outside the well
+        magazine_well: { ref: "magazine/body/glock/9x19mm/17", key: "volume" },
 
-        item_restriction: [
-          "magazine/glock/9x19mm/17",
-          "magazine/glock/9x19mm/17+2",
-          "magazine/glock/9x19mm/24",
-          "magazine/glock/9x19mm/24+2",
-          "magazine/glock/9x19mm/31",
-          "magazine/glock/9x19mm/31+2",
-
-          "magazine/magpul/pmag/d-50",
-          "magazine/kci/9x19mm/glock",
-          "magazine/beta/c-mag/glock",
-
-          "magazine/torkmag/glock",
-
-          "magazine/kriss/9x19mm",
-        ],
+        item_restriction: { ref: "list/magazines/glock/17+", key: "list" },
       },
     ],
   },
@@ -202,6 +77,11 @@
     type: "ITEM",
     subtypes: ["GUN"],
 
+    name: { ref: "ksub2000", scope: "dda", key: "name" },
+
+    variant_type: "gun",
+    variants: { ref: "ksub2000", scope: "dda", key: "variants" },
+
     name: {
       str_sp: "Kel-Tec SUB-2000",
     },
@@ -210,36 +90,10 @@
       {
         pocket_type: "MAGAZINE_WELL",
 
-        "//magazine_well": [
-          [
-            "volume of the standard 15-round Glock magazine's body",
-            "base plate sticks outside of the well",
-          ],
-          [
-            "we assume this the model with a grip that allows 15-round Glock magazines in",
-            "there are grip models which only allows 17-rounders and up",
-          ],
-        ],
-        magazine_well: "76 ml",
+        // * only the body: base plate stands outside the well
+        magazine_well: { ref: "magazine/body/glock/9x19mm/15", key: "volume" },
 
-        item_restriction: [
-          "magazine/glock/9x19mm/15",
-          "magazine/glock/9x19mm/15+2",
-          "magazine/glock/9x19mm/17",
-          "magazine/glock/9x19mm/17+2",
-          "magazine/glock/9x19mm/24",
-          "magazine/glock/9x19mm/24+2",
-          "magazine/glock/9x19mm/31",
-          "magazine/glock/9x19mm/31+2",
-
-          "magazine/magpul/pmag/d-50",
-          "magazine/kci/9x19mm/glock",
-          "magazine/beta/c-mag/glock",
-
-          "magazine/torkmag/glock",
-
-          "magazine/kriss/9x19mm",
-        ],
+        item_restriction: { ref: "list/magazines/glock/15+", key: "list" },
       },
     ],
   },
