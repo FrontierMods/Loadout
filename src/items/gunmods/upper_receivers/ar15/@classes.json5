@@ -274,7 +274,7 @@
         [
           "magazine/chiappa/22lr/10",
           "magazine/chiappa/22lr/28",
-          "magazine/chiappa/22lr/28:reduced",
+          "magazine/chiappa/22lr/10/28",
         ],
       ],
     ],
@@ -284,7 +284,7 @@
         item_restriction: [
           "magazine/chiappa/22lr/10",
           "magazine/chiappa/22lr/28",
-          "magazine/chiappa/22lr/28:reduced",
+          "magazine/chiappa/22lr/10/28",
         ],
       },
     ],

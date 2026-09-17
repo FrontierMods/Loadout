@@ -90,7 +90,7 @@
     price_postapoc: { utility: "medium", longevity: "high", scarcity: "none" },
   },
   {
-    id: "magazine/chiappa/22lr/28:reduced",
+    id: "magazine/chiappa/22lr/10/28",
     "copy-from": "magazine/chiappa/22lr/28",
     type: "ITEM",
     subtypes: ["MAGAZINE"],
