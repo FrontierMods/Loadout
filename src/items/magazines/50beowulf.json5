@@ -1,0 +1,55 @@
+[
+  {
+    id: "magazine/d&h/50beowulf/10",
+    inherit: ["@magazine/50beowulf", "@magazine/compact"],
+    type: "ITEM",
+    subtypes: ["MAGAZINE"],
+
+    /*
+        SOURCES
+            https://pro2a-tactical.com/d-h-tactical-ar-15-12-7x42-50-beowulf-10rd-magazine.html
+                - price
+     */
+
+    name: {
+      str: "STANAG .50 Beowulf 10-round magazine",
+    },
+    description: "An aluminum magazine for AR-15 chambered in .50 Beowulf, holding 10 rounds.",
+
+    variant_type: "gun",
+    variants: [
+      {
+        from: ["black"],
+
+        name: {
+          str: "D&H .50 Beowulf 10-round magazine",
+        },
+        description: "An aluminum magazine for AR-15s chambered in .50 Beowulf.  It is effectively the same 30-round STANAG magazine with a custom follower and a divot in the front to allow the larger cartridge to feed correctly.",
+      },
+    ],
+
+    // * we assume this magazine is literally the STANAG magazine with minor alternations until proven otherwise
+    weight: { ref: "magazine/colt/stanag/30", key: "weight" },
+    volume: { ref: "magazine/colt/stanag/30", key: "volume" },
+    longest_side: { ref: "magazine/colt/stanag/30", key: "longest_side" },
+
+    material: ["aluminum"],
+
+    pocket_data: [
+      {
+        pocket_type: "MAGAZINE",
+
+        rigid: true,
+
+        // * because this magazine works with a single-stack follower, we assume using smaller rounds otherwise compatible with the form factor (like 5.56mm or .300 Blackout) is not viable here
+        // TODO: research whether .450 Bushmaster would work with this form factor
+        ammo_restriction: {
+          "50beowulf": 10,
+        },
+      },
+    ],
+
+    price: "29.99 USD",
+    price_postapoc: { utility: "low", longevity: "high", scarcity: "none" },
+  },
+]

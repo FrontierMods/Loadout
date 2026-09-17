@@ -1,0 +1,7 @@
+[
+  {
+    id: ["50beowulf_ar15mag"],
+    type: "MIGRATION",
+    replace: "magazine/d&h/50beowulf/10",
+  },
+]

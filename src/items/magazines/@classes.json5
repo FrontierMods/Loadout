@@ -49,4 +49,11 @@
 
     ammo_type: ["450"],
   },
+  {
+    id: "@magazine/50beowulf",
+    inherit: "@magazine",
+    type: "PARTIAL",
+
+    ammo_type: ["50beowulf"],
+  },
 ]
