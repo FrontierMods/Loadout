@@ -66,9 +66,9 @@
     skill_used: "fabrication",
 
     nested_category_data: [
-      "magazine/magpul/pmag/20:extended/taran",
-      "magazine/magpul/pmag/30:extended/taran",
-      "magazine/magpul/pmag/40:extended/taran",
+      "magazine/magpul/pmag/20+5/taran",
+      "magazine/magpul/pmag/30+5/taran",
+      "magazine/magpul/pmag/40+6/taran",
     ],
   },
 ]

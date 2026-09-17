@@ -41,7 +41,7 @@
     ],
   },
   {
-    result: "magazine/magpul/pmag/20:extended/taran",
+    result: "magazine/magpul/pmag/20+5/taran",
     "copy-from": "@magmod",
     type: "recipe",
 
@@ -93,7 +93,7 @@
     ],
   },
   {
-    result: "magazine/magpul/pmag/30:extended/taran",
+    result: "magazine/magpul/pmag/30+5/taran",
     "copy-from": "@magmod",
     type: "recipe",
 
@@ -124,7 +124,7 @@
     ],
   },
   {
-    result: "magazine/magpul/pmag/40:extended/taran",
+    result: "magazine/magpul/pmag/40+6/taran",
     "copy-from": "@magmod",
     type: "recipe",
 

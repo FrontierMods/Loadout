@@ -262,7 +262,7 @@
     price_postapoc: { utility: "medium", longevity: "high", scarcity: "none" },
   },
   {
-    id: "magazine/magpul/pmag/20:extended/taran",
+    id: "magazine/magpul/pmag/20+5/taran",
     "copy-from": "magazine/magpul/pmag/20",
     type: "ITEM",
     subtypes: ["MAGAZINE"],
@@ -577,7 +577,7 @@
     price_postapoc: { utility: "medium", longevity: "high", scarcity: "none" },
   },
   {
-    id: "magazine/colt/stanag/30:reduced",
+    id: "magazine/colt/stanag/10/30",
     "copy-from": "magazine/colt/stanag/30",
     type: "ITEM",
     subtypes: ["MAGAZINE"],
@@ -784,7 +784,7 @@
     price_postapoc: { utility: "medium", longevity: "high", scarcity: "none" },
   },
   {
-    id: "magazine/magpul/pmag/30:extended/taran",
+    id: "magazine/magpul/pmag/30+5/taran",
     "copy-from": "magazine/magpul/pmag/30",
     type: "ITEM",
     subtypes: ["MAGAZINE"],
@@ -879,7 +879,7 @@
     price_postapoc: { utility: "medium", longevity: "high", scarcity: "low" },
   },
   {
-    id: "magazine/magpul/pmag/30:reduced",
+    id: "magazine/magpul/pmag/10/30",
     "copy-from": "magazine/magpul/pmag/30",
     type: "ITEM",
     subtypes: ["MAGAZINE"],
@@ -1046,7 +1046,7 @@
     price_postapoc: { utility: "medium", longevity: "high", scarcity: "low" },
   },
   {
-    id: "magazine/magpul/pmag/40:extended/taran",
+    id: "magazine/magpul/pmag/40+6/taran",
     "copy-from": "magazine/magpul/pmag/40",
     type: "ITEM",
     subtypes: ["MAGAZINE"],
