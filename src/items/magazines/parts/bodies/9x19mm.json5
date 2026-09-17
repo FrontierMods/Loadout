@@ -1,5 +1,65 @@
 [
   {
+    id: "magazine/body/glock/9x19mm/6",
+    inherit: "@magazine/body",
+    type: "ITEM",
+
+    /*
+      SOURCES
+        https://us.glock.com/en/products/commercial-firearms/pistols/g43
+          - weight reference
+
+        https://www.reddit.com/r/Glocks/comments/3p1fv0/glock_43_owners_magazine_dimensions/
+          - dimensions
+    */
+
+    name: {
+      str: "Glock 9x19mm 6-round magazine body",
+      str_pl: "Glock 9x19mm 6-round magazine bodies",
+    },
+    description: "The polymer body of a Glock 43 magazine.  It's missing the base plate, which makes it unusable as a magazine.  Attach a base plate to it to make it usable.",
+
+    variant_type: "gun",
+    variants: [
+      {
+        id: "black",
+
+        name: {
+          str: "Glock 9x19mm 6-round magazine body",
+          str_pl: "Glock 9x19mm 6-round magazine bodies",
+        },
+        description: "The polymer body of a Glock 43 magazine.  Without a base plate to hold up the spring inside, it cannot be used as a proper magazine.  Attach a base plate to make it usable.  <variant:black>",
+        expand_snippets: true,
+        weight: 1,
+      },
+    ],
+
+    weight: {
+      math: [
+        // * weight of Glock 43 with empty magazine minus Glock 43 without empty magazine
+        "50 g",
+        {
+          op: "subtract",
+          value: {
+            ref: "magazine/baseplate/glock/9x19mm/oem",
+            key: "weight",
+          },
+        },
+      ],
+    },
+    dimensions: {
+      type: "area",
+
+      area: "461.435 mm2",
+      length: "17.3 mm",
+    },
+    // * Feret distance
+    longest_side: "39.944 mm",
+
+    material: ["plastic"],
+    price_postapoc: { utility: "low", longevity: "high", scarcity: "none" },
+  },
+  {
     id: "magazine/body/glock/9x19mm/15",
     inherit: "@magazine/body",
     type: "ITEM",

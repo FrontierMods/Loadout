@@ -1,5 +1,15 @@
 [
   {
+    result: "magazine/glock/9x19mm/6",
+    "copy-from": "@magmod",
+    type: "recipe",
+
+    using: [
+      ["requirement/magazine/body/glock/9x19mm/6", 1],
+      ["requirement/magazine/baseplate/glock/9x19mm/oem", 1],
+    ],
+  },
+  {
     result: "magazine/glock/9x19mm/15",
     "copy-from": "@magmod",
     type: "recipe",

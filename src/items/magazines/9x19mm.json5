@@ -1,5 +1,68 @@
 [
   {
+    id: "magazine/glock/9x19mm/6",
+    inherit: ["@magazine/9x19mm", "@magazine/compact"],
+    type: "ITEM",
+    subtypes: ["MAGAZINE"],
+
+    /*
+    SOURCES
+      https://us.glock.com/en/products/commercial-firearms/pistols/g43
+
+      https://gunmagwarehouse.com/glock-43-9mm-6-round-factory-magazine.html
+        - price
+  */
+
+    name: {
+      str: "Glock 9x19mm 6-round magazine",
+    },
+    description: "Made for the subcompact Glock 43, this magazine holds 6 rounds.",
+
+    weight: {
+      math: [
+        { ref: "magazine/body/glock/9x19mm/6", key: "weight" },
+        {
+          op: "add",
+          value: {
+            ref: "magazine/baseplate/glock/9x19mm/oem",
+            key: "weight",
+          },
+        },
+      ],
+    },
+    volume: {
+      math: [
+        { ref: "magazine/body/glock/9x19mm/6", key: "volume" },
+        {
+          op: "add",
+          value: {
+            ref: "magazine/baseplate/glock/9x19mm/oem",
+            key: "volume",
+          },
+        },
+      ],
+    },
+    // * Feret distance
+    longest_side: "42.492 mm",
+
+    material: ["plastic"],
+
+    pocket_data: [
+      {
+        pocket_type: "MAGAZINE",
+
+        rigid: true,
+
+        ammo_restriction: {
+          "9mm": 6,
+        },
+      },
+    ],
+
+    price: "24.99 USD",
+    price_postapoc: { utility: "medium", longevity: "high", scarcity: "none" },
+  },
+  {
     id: "magazine/glock/9x19mm/15",
     inherit: ["@magazine/9x19mm", "@magazine/compact"],
     type: "ITEM",
