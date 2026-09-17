@@ -5,6 +5,11 @@
     replace: "magazine/glock/9x19mm/6",
   },
   {
+    id: ["glock43x/48_mag"],
+    type: "MIGRATION",
+    replace: "magazine/glock/9x19mm/10",
+  },
+  {
     id: ["glockmag"],
     type: "MIGRATION",
     replace: "magazine/glock/9x19mm/15",

@@ -62,6 +62,73 @@
     price: "24.99 USD",
     price_postapoc: { utility: "medium", longevity: "high", scarcity: "none" },
   },
+
+  {
+    id: "magazine/glock/9x19mm/10",
+    inherit: ["@magazine/9x19mm", "@magazine/compact"],
+    type: "ITEM",
+    subtypes: ["MAGAZINE"],
+
+    /*
+    SOURCES
+      https://us.glock.com/en/products/commercial-firearms/pistols/g19-v
+
+      https://www.reddit.com/r/Glock43X/comments/uocvdh/glock_43x_mag_dimensions_please/
+        - dimensions
+
+      https://gunmagwarehouse.com/glock-43x-48-9mm-10-round-factory-magazine.html
+        - price
+  */
+
+    name: {
+      str: "Glock 9x19mm 10-round magazine",
+    },
+    description: "Made for the Glock 43X, this magazine holds 10 rounds.",
+
+    weight: {
+      math: [
+        { ref: "magazine/body/glock/9x19mm/10", key: "weight" },
+        {
+          op: "add",
+          value: {
+            ref: "magazine/baseplate/glock/9x19mm/oem",
+            key: "weight",
+          },
+        },
+      ],
+    },
+    volume: {
+      math: [
+        { ref: "magazine/body/glock/9x19mm/10", key: "volume" },
+        {
+          op: "add",
+          value: {
+            ref: "magazine/baseplate/glock/9x19mm/oem",
+            key: "volume",
+          },
+        },
+      ],
+    },
+    // * Feret distance
+    longest_side: "4.73 in",
+
+    material: ["plastic"],
+
+    pocket_data: [
+      {
+        pocket_type: "MAGAZINE",
+
+        rigid: true,
+
+        ammo_restriction: {
+          "9mm": 15,
+        },
+      },
+    ],
+
+    price: "29.99 USD",
+    price_postapoc: { utility: "medium", longevity: "high", scarcity: "none" },
+  },
   {
     id: "magazine/glock/9x19mm/15",
     inherit: ["@magazine/9x19mm", "@magazine/compact"],

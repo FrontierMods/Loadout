@@ -60,6 +60,66 @@
     price_postapoc: { utility: "low", longevity: "high", scarcity: "none" },
   },
   {
+    id: "magazine/body/glock/9x19mm/10",
+    inherit: "@magazine/body",
+    type: "ITEM",
+
+    /*
+      SOURCES
+        https://us.glock.com/en/products/commercial-firearms/pistols/g43x-us
+          - weight reference
+
+        https://www.reddit.com/r/Glocks/comments/3p1fv0/glock_43_owners_magazine_dimensions/
+          - dimensions
+    */
+
+    name: {
+      str: "Glock 9x19mm 10-round magazine body",
+      str_pl: "Glock 9x19mm 10-round magazine bodies",
+    },
+    description: "The polymer body of a Glock 43X magazine.  It's missing the base plate, which makes it unusable as a magazine.  Attach a base plate to it to make it usable.",
+
+    variant_type: "gun",
+    variants: [
+      {
+        id: "black",
+
+        name: {
+          str: "Glock 9x19mm 10-round magazine body",
+          str_pl: "Glock 9x19mm 10-round magazine bodies",
+        },
+        description: "The polymer body of a Glock 43X magazine.  Without a base plate to hold up the spring inside, it cannot be used as a proper magazine.  Attach a base plate to make it usable.  <variant:black>",
+        expand_snippets: true,
+        weight: 1,
+      },
+    ],
+
+    weight: {
+      math: [
+        // * weight of Glock 43X with empty magazine minus Glock 43X without empty magazine
+        "65 g",
+        {
+          op: "subtract",
+          value: {
+            ref: "magazine/baseplate/glock/9x19mm/oem",
+            key: "weight",
+          },
+        },
+      ],
+    },
+    dimensions: {
+      type: "area",
+
+      area: "5.202 in2",
+      length: "0.793 in",
+    },
+    // * Feret distance
+    longest_side: "4.46 in",
+
+    material: ["plastic"],
+    price_postapoc: { utility: "low", longevity: "high", scarcity: "none" },
+  },
+  {
     id: "magazine/body/glock/9x19mm/15",
     inherit: "@magazine/body",
     type: "ITEM",

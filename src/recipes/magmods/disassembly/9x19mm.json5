@@ -12,6 +12,18 @@
     ],
   },
   {
+    result: "magazine/glock/9x19mm/10",
+    "copy-from": "@magmod/disassembly",
+    type: "uncraft",
+
+    using: [
+      ["requirement/magmod/disassembly", 1],
+
+      ["requirement/magazine/body/glock/9x19mm/10", 1],
+      ["requirement/magazine/baseplate/glock/9x19mm/oem", 1],
+    ],
+  },
+  {
     result: "magazine/glock/9x19mm/15",
     "copy-from": "@magmod/disassembly",
     type: "uncraft",
