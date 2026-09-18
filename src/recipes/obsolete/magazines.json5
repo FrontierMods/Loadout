@@ -1,0 +1,22 @@
+[
+  {
+    result: "stanag20_beowulf",
+    type: "recipe",
+    obsolete: true,
+  },
+  {
+    result: "stanag20ranger_beowulf",
+    type: "recipe",
+    obsolete: true,
+  },
+  {
+    result: "stanag30_beowulf",
+    type: "recipe",
+    obsolete: true,
+  },
+  {
+    result: "stanag30ranger_beowulf",
+    type: "recipe",
+    obsolete: true,
+  },
+]
