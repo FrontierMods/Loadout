@@ -78,6 +78,7 @@
       str_pl: "PMAG STANAG 10-round magazines (ranger plate)",
     },
     description: "A polymer magazine for the STANAG-compatible rifles.  Has an elaborate texture that should make it easier to handle.  Its low capacity becomes an asset for cases of hunting or recreational shooting.  <magazine/ranger_plate:generic>",
+    expand_snippets: true,
 
     variant_type: "gun",
     variants: [
@@ -206,6 +207,7 @@
       str_pl: "PMAG STANAG 20-round magazines (ranger plate)",
     },
     description: "A polymer magazine for the STANAG-compatible rifles.  Has an elaborate texture that should make it easier to handle.  Its reduced capacity makes it commonly used for recreational shooting.  <magazine/ranger_plate:generic>",
+    expand_snippets: true,
 
     variant_type: "gun",
     variants: [
@@ -271,6 +273,7 @@
       str: "PMAG STANAG 20+5-round magazine",
     },
     description: "A polymer magazine for the STANAG-compatible rifles.  Has an elaborate texture that should make it easier to handle.  Its reduced capacity makes it commonly used for recreational shooting.  <magazine/extension_plate:generic>",
+    expand_snippets: true,
 
     variant_type: "gun",
     variants: [
@@ -435,6 +438,7 @@
       str_pl: "STANAG 20-round magazines (ranger plate)",
     },
     description: "A compact aluminum magazine for the STANAG-compatible rifles.  Its reduced capacity makes it commonly used for recreational shooting.  <magazine/ranger_plate:generic>",
+    expand_snippets: true,
 
     variant_type: "gun",
     variants: [
@@ -593,6 +597,7 @@
       str_pl: "STANAG 30-round magazines (ranger plate)",
     },
     description: "An aluminum magazine for STANAG-compatible rifles.  Commonly used with the M16, the M4, and other similar rifles, particularly in the U.S. military.  <magazine/ranger_plate:generic>",
+    expand_snippets: true,
 
     variant_type: "gun",
     variants: [
@@ -773,6 +778,7 @@
       str_pl: "PMAG STANAG 30-round magazines (ranger plate)",
     },
     description: "A polymer magazine for the STANAG-compatible rifles.  Has an elaborate texture that should make it easier to handle.  <magazine/ranger_plate:generic>",
+    expand_snippets: true,
 
     variant_type: "gun",
     variants: [
@@ -844,6 +850,7 @@
       str: "PMAG STANAG 30+5-round magazine",
     },
     description: "A polymer magazine for the STANAG-compatible rifles.  Has an elaborate texture that should make it easier to handle.  <magazine/extension_plate:generic>",
+    expand_snippets: true,
 
     variant_type: "gun",
     variants: [
@@ -1033,6 +1040,7 @@
       str_pl: "PMAG STANAG 40-round magazines (ranger plate)",
     },
     description: "A polymer magazine for the STANAG-compatible rifles.  Has an elaborate texture that should make it easier to handle.  Intended for competition shooting, to save time on reloads.  Would probably help in a firefight, all the same.  <magazine/ranger_plate:generic>",
+    expand_snippets: true,
 
     variant_type: "gun",
     variants: [
@@ -1098,6 +1106,7 @@
       str: "PMAG STANAG 40+6-round magazine",
     },
     description: "A polymer magazine for the STANAG-compatible rifles.  Has an elaborate texture that should make it easier to handle.  Intended for competition shooting, to save time on reloads.  Would probably help in a firefight, all the same.  <magazine/extension_plate:generic>",
+    expand_snippets: true,
 
     variant_type: "gun",
     variants: [
