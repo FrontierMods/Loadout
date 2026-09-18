@@ -1,5 +1,17 @@
 [
   {
+    id: "requirement/magazine/body/glock/9x19mm/6",
+    type: "requirement",
+
+    components: [[["magazine/body/glock/9x19mm/6", 1]]],
+  },
+  {
+    id: "requirement/magazine/body/glock/9x19mm/10",
+    type: "requirement",
+
+    components: [[["magazine/body/glock/9x19mm/10", 1]]],
+  },
+  {
     id: "requirement/magazine/body/glock/9x19mm/15",
     type: "requirement",
 
