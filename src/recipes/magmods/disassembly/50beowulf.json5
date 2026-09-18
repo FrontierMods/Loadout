@@ -1,0 +1,187 @@
+[
+  {
+    result: "magazine/conversion/50beowulf/magpul/pmag/10",
+    "copy-from": "@magmod/disassembly",
+    type: "uncraft",
+
+    using: [
+      ["requirement/magmod/disassembly", 1],
+
+      ["requirement/magazine/body/conversion/50beowulf/magpul/pmag/10", 1],
+      ["requirement/magazine/baseplate/magpul/pmag", 1],
+    ],
+  },
+  {
+    result: "magazine/conversion/50beowulf/magpul/pmag/10:ranger",
+    "copy-from": "@magmod/disassembly",
+    type: "uncraft",
+
+    using: [
+      ["requirement/magmod/disassembly", 1],
+
+      ["requirement/magazine/body/conversion/50beowulf/magpul/pmag/10", 1],
+      ["requirement/magazine/baseplate/magpul/ranger", 1],
+    ],
+  },
+
+  {
+    result: "magazine/conversion/50beowulf/magpul/pmag/20",
+    "copy-from": "@magmod/disassembly",
+    type: "uncraft",
+
+    using: [
+      ["requirement/magmod/disassembly", 1],
+
+      ["requirement/magazine/body/conversion/50beowulf/magpul/pmag/20", 1],
+      ["requirement/magazine/baseplate/magpul/pmag", 1],
+    ],
+  },
+  {
+    result: "magazine/conversion/50beowulf/magpul/pmag/20:ranger",
+    "copy-from": "@magmod/disassembly",
+    type: "uncraft",
+
+    using: [
+      ["requirement/magmod/disassembly", 1],
+
+      ["requirement/magazine/body/conversion/50beowulf/magpul/pmag/20", 1],
+      ["requirement/magazine/baseplate/magpul/ranger", 1],
+    ],
+  },
+  {
+    result: "magazine/conversion/50beowulf/magpul/pmag/20+5/taran",
+    "copy-from": "@magmod/disassembly",
+    type: "uncraft",
+
+    using: [
+      ["requirement/magmod/disassembly", 1],
+
+      ["requirement/magazine/body/conversion/50beowulf/magpul/pmag/20", 1],
+      ["requirement/magazine/baseplate/taran/extended/pmag", 1],
+    ],
+  },
+
+  {
+    result: "magazine/conversion/50beowulf/colt/stanag/20",
+    "copy-from": "@magmod/disassembly",
+    type: "uncraft",
+
+    using: [
+      ["requirement/magmod/disassembly", 1],
+
+      ["requirement/magazine/body/conversion/50beowulf/colt/stanag/20", 1],
+      ["requirement/magazine/baseplate/colt/stanag", 1],
+    ],
+  },
+  {
+    result: "magazine/conversion/50beowulf/colt/stanag/20:ranger",
+    "copy-from": "@magmod/disassembly",
+    type: "uncraft",
+
+    using: [
+      ["requirement/magmod/disassembly", 1],
+
+      ["requirement/magazine/body/conversion/50beowulf/colt/stanag/20", 1],
+      ["requirement/magazine/baseplate/magpul/ranger/usgi", 1],
+    ],
+  },
+
+  {
+    result: "magazine/conversion/50beowulf/magpul/pmag/30",
+    "copy-from": "@magmod/disassembly",
+    type: "uncraft",
+
+    using: [
+      ["requirement/magmod/disassembly", 1],
+
+      ["requirement/magazine/body/conversion/50beowulf/magpul/pmag/30", 1],
+      ["requirement/magazine/baseplate/magpul/pmag", 1],
+    ],
+  },
+  {
+    result: "magazine/conversion/50beowulf/magpul/pmag/30:ranger",
+    "copy-from": "@magmod/disassembly",
+    type: "uncraft",
+
+    using: [
+      ["requirement/magmod/disassembly", 1],
+
+      ["requirement/magazine/body/conversion/50beowulf/magpul/pmag/30", 1],
+      ["requirement/magazine/baseplate/magpul/ranger", 1],
+    ],
+  },
+  {
+    result: "magazine/conversion/50beowulf/magpul/pmag/30+5/taran",
+    "copy-from": "@magmod/disassembly",
+    type: "uncraft",
+
+    using: [
+      ["requirement/magmod/disassembly", 1],
+
+      ["requirement/magazine/body/conversion/50beowulf/magpul/pmag/30", 1],
+      ["requirement/magazine/baseplate/taran/extended/pmag", 1],
+    ],
+  },
+
+  {
+    result: "magazine/conversion/50beowulf/colt/stanag/30",
+    "copy-from": "@magmod/disassembly",
+    type: "uncraft",
+
+    using: [
+      ["requirement/magmod/disassembly", 1],
+
+      ["requirement/magazine/body/conversion/50beowulf/colt/stanag/30", 1],
+      ["requirement/magazine/baseplate/colt/stanag", 1],
+    ],
+  },
+  {
+    result: "magazine/conversion/50beowulf/colt/stanag/30:ranger",
+    "copy-from": "@magmod/disassembly",
+    type: "uncraft",
+
+    using: [
+      ["requirement/magmod/disassembly", 1],
+
+      ["requirement/magazine/body/conversion/50beowulf/colt/stanag/30", 1],
+      ["requirement/magazine/baseplate/magpul/ranger/usgi", 1],
+    ],
+  },
+
+  {
+    result: "magazine/conversion/50beowulf/magpul/pmag/40",
+    "copy-from": "@magmod/disassembly",
+    type: "uncraft",
+
+    using: [
+      ["requirement/magmod/disassembly", 1],
+
+      ["requirement/magazine/body/conversion/50beowulf/magpul/pmag/40", 1],
+      ["requirement/magazine/baseplate/magpul/pmag", 1],
+    ],
+  },
+  {
+    result: "magazine/conversion/50beowulf/magpul/pmag/40:ranger",
+    "copy-from": "@magmod/disassembly",
+    type: "uncraft",
+
+    using: [
+      ["requirement/magmod/disassembly", 1],
+
+      ["requirement/magazine/body/conversion/50beowulf/magpul/pmag/40", 1],
+      ["requirement/magazine/baseplate/magpul/ranger", 1],
+    ],
+  },
+  {
+    result: "magazine/conversion/50beowulf/magpul/pmag/40+6/taran",
+    "copy-from": "@magmod/disassembly",
+    type: "uncraft",
+
+    using: [
+      ["requirement/magmod/disassembly", 1],
+
+      ["requirement/magazine/body/conversion/50beowulf/magpul/pmag/40", 1],
+      ["requirement/magazine/baseplate/taran/extended/pmag", 1],
+    ],
+  },
+]

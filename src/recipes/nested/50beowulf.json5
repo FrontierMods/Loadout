@@ -1,0 +1,76 @@
+[
+  {
+    id: "recipes/magazines/50beowulf",
+    type: "nested_category",
+
+    name: ".50 Beowulf magazines",
+    description: "Recipes that turn magazine bodies and base plates into usable magazines.",
+
+    activity_level: "NO_EXERCISE",
+
+    category: "CC_WEAPON",
+    subcategory: "CSC_WEAPON_MAGAZINES",
+
+    difficulty: 0,
+    skill_used: "fabrication",
+
+    nested_category_data: [
+      "magazine/conversion/50beowulf/colt/stanag/20",
+      "magazine/conversion/50beowulf/colt/stanag/30",
+
+      "magazine/conversion/50beowulf/magpul/pmag/10",
+      "magazine/conversion/50beowulf/magpul/pmag/20",
+      "magazine/conversion/50beowulf/magpul/pmag/30",
+      "magazine/conversion/50beowulf/magpul/pmag/40",
+
+      "recipes/magazines/50beowulf/ranger_plate",
+      "recipes/magazines/50beowulf/extended",
+    ],
+  },
+  {
+    id: "recipes/magazines/50beowulf/ranger_plate",
+    type: "nested_category",
+
+    name: "ranger plate magazines",
+    description: "Recipes that turn magazine bodies and ranger plates into ranged-plate magazines.",
+
+    activity_level: "NO_EXERCISE",
+
+    category: "CC_*",
+    subcategory: "CSC_*_NESTED",
+
+    difficulty: 0,
+    skill_used: "fabrication",
+
+    nested_category_data: [
+      "magazine/conversion/50beowulf/colt/stanag/20:ranger",
+      "magazine/conversion/50beowulf/colt/stanag/30:ranger",
+
+      "magazine/conversion/50beowulf/magpul/pmag/10:ranger",
+      "magazine/conversion/50beowulf/magpul/pmag/20:ranger",
+      "magazine/conversion/50beowulf/magpul/pmag/30:ranger",
+      "magazine/conversion/50beowulf/magpul/pmag/40:ranger",
+    ],
+  },
+  {
+    id: "recipes/magazines/50beowulf/extended",
+    type: "nested_category",
+
+    name: "extended magazines",
+    description: "Recipes that turn magazine bodies and extension plates into extended magazines.",
+
+    activity_level: "NO_EXERCISE",
+
+    category: "CC_*",
+    subcategory: "CSC_*_NESTED",
+
+    difficulty: 0,
+    skill_used: "fabrication",
+
+    nested_category_data: [
+      "magazine/conversion/50beowulf/magpul/pmag/20+5/taran",
+      "magazine/conversion/50beowulf/magpul/pmag/30+5/taran",
+      "magazine/conversion/50beowulf/magpul/pmag/40+6/taran",
+    ],
+  },
+]

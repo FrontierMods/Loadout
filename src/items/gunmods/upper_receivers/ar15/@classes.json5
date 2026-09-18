@@ -77,27 +77,15 @@
 
     ammo_modifier: ["50beowulf"],
     magazine_adaptor: [
-      [
-        "50beowulf",
-        [
-          "stanag20_beowulf",
-          "stanag20ranger_beowulf",
-          "stanag30_beowulf",
-          "stanag30ranger_beowulf",
-          "50beowulf_ar15mag",
-        ],
-      ],
+      ["50beowulf", { ref: "list/magazines/stanag/50beowulf", key: "list" }],
     ],
     pocket_mods: [
       {
         pocket_type: "MAGAZINE_WELL",
-        item_restriction: [
-          "stanag20_beowulf",
-          "stanag20ranger_beowulf",
-          "stanag30_beowulf",
-          "stanag30ranger_beowulf",
-          "50beowulf_ar15mag",
-        ],
+        item_restriction: {
+          ref: "list/magazines/stanag/50beowulf",
+          key: "list",
+        },
       },
     ],
   },

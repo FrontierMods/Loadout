@@ -1,0 +1,633 @@
+[
+  {
+    id: "magazine/conversion/50beowulf/magpul/pmag/10",
+    inherit: ["magazine/magpul/pmag/10", "@magazine/50beowulf~5.56x45mm"],
+    type: "ITEM",
+    subtypes: ["MAGAZINE"],
+
+    name: {
+      str: "PMAG 5.56mm/.50 Beowulf 10/3-round magazine",
+    },
+    description: "A polymer magazine for the STANAG-compatible rifles, converted to feed .50 Beowulf rounds in addition to 5.56mm and .300 Blackout.  Has an elaborate texture that should make it easier to handle.  Its low capacity becomes an asset for cases of hunting or recreational shooting.",
+
+    variant_type: "gun",
+    variants: [
+      {
+        from: ["black"],
+
+        name: {
+          str: "Magpul PMAG 5.56mm/.50 Beowulf 10/3-round magazine",
+        },
+        description: "A polymer magazine for 5.56mm and .300 Blackout rifles, converted to feed .50 Beowulf as well.  Its texture is intended to make it handle better than conventional aluminum magazines.  Intended for hunting and recreational shooting, as its low capacity means less ammunition to weigh you down.  Its reduced capacity also makes it the only legal Magpul magazine in the state of Massachusetts.",
+      },
+    ],
+
+    pocket_data: [
+      {
+        pocket_type: "MAGAZINE",
+
+        rigid: true,
+
+        allowed_speedloaders: ["clip223_10rd"],
+
+        ammo_restriction: {
+          "223": 10,
+          "300blk": 10,
+          // * the magazine might be able to fit 4 with some application of force, but is unlikely to feed afterwards
+          // > https://www.youtube.com/watch?v=01QuPFce0Gc
+          "50beowulf": 3,
+        },
+      },
+    ],
+  },
+  {
+    id: "magazine/conversion/50beowulf/magpul/pmag/10:ranger",
+    inherit: [
+      "magazine/magpul/pmag/10:ranger",
+      "@magazine/50beowulf~5.56x45mm",
+    ],
+    type: "ITEM",
+    subtypes: ["MAGAZINE"],
+
+    name: {
+      str: "PMAG 5.56mm/.50 Beowulf 10/3-round magazine (ranger plate)",
+      str_pl: "PMAG 5.56mm/.50 Beowulf 10/3-round magazines (ranger plate)",
+    },
+    description: "A polymer magazine for the STANAG-compatible rifles, converted to feed .50 Beowulf rounds in addition to 5.56mm and .300 Blackout.  Has an elaborate texture that should make it easier to handle.  Its low capacity becomes an asset for cases of hunting or recreational shooting.  <magazine/ranger_plate:generic>",
+
+    variant_type: "gun",
+    variants: [
+      {
+        from: ["black"],
+
+        name: {
+          str: "Magpul PMAG 5.56mm/.50 Beowulf 10/3-round magazine (ranger plate)",
+          str_pl: "Magpul PMAG 5.56mm/.50 Beowulf 10/3-round magazines (ranger plate)",
+        },
+        description: "A polymer magazine for 5.56mm and .300 Blackout rifles, converted to feed .50 Beowulf as well.  Its texture is intended to make it handle better than conventional aluminum magazines.  Intended for hunting and recreational shooting, as its low capacity means less ammunition to weigh you down.  Its reduced capacity also makes it the only legal Magpul magazine in the state of Massachusetts.  <magazine/ranger_plate>",
+      },
+    ],
+
+    pocket_data: [
+      {
+        pocket_type: "MAGAZINE",
+
+        rigid: true,
+
+        allowed_speedloaders: ["clip223_10rd"],
+
+        ammo_restriction: {
+          "223": 10,
+          "300blk": 10,
+          "50beowulf": 3,
+        },
+      },
+    ],
+  },
+
+  {
+    id: "magazine/conversion/50beowulf/magpul/pmag/20",
+    inherit: ["magazine/magpul/pmag/20", "@magazine/50beowulf~5.56x45mm"],
+    type: "ITEM",
+    subtypes: ["MAGAZINE"],
+
+    name: {
+      str: "PMAG 5.56mm/.50 Beowulf 20/7-round magazine",
+    },
+    description: "A polymer magazine for the STANAG-compatible rifles, converted to feed .50 Beowulf rounds in addition to 5.56mm and .300 Blackout.  Has an elaborate texture that should make it easier to handle.  Intended for recreational shooting, as its reduced size makes shooting prone a lot easier.",
+
+    variant_type: "gun",
+    variants: [
+      {
+        from: ["black"],
+
+        name: {
+          str: "Magpul PMAG 5.56mm/.50 Beowulf 20/7-round magazine",
+        },
+        description: "A polymer magazine for 5.56mm and .300 Blackout rifles, converted to feed .50 Beowulf as well.  Its texture is intended to make it handle better than conventional aluminum magazines.  Intended for recreational shooting, as its reduced size makes shooting prone a lot easier.",
+      },
+    ],
+
+    pocket_data: [
+      {
+        pocket_type: "MAGAZINE",
+
+        rigid: true,
+
+        allowed_speedloaders: ["clip223_10rd"],
+
+        ammo_restriction: {
+          "223": 20,
+          "300blk": 20,
+          "50beowulf": 7,
+        },
+      },
+    ],
+  },
+  {
+    id: "magazine/conversion/50beowulf/magpul/pmag/20:ranger",
+    inherit: [
+      "magazine/magpul/pmag/20:ranger",
+      "@magazine/50beowulf~5.56x45mm",
+    ],
+    type: "ITEM",
+    subtypes: ["MAGAZINE"],
+
+    name: {
+      str: "PMAG 5.56mm/.50 Beowulf 20/7-round magazine (ranger plate)",
+      str_pl: "PMAG 5.56mm/.50 Beowulf 20/7-round magazines (ranger plate)",
+    },
+    description: "A polymer magazine for the STANAG-compatible rifles, converted to feed .50 Beowulf rounds in addition to 5.56mm and .300 Blackout.  Has an elaborate texture that should make it easier to handle.  Intended for recreational shooting, as its reduced size makes shooting prone a lot easier.  <magazine/ranger_plate:generic>",
+
+    variant_type: "gun",
+    variants: [
+      {
+        from: ["black"],
+
+        name: {
+          str: "Magpul PMAG 5.56mm/.50 Beowulf 20/7-round magazine (ranger plate)",
+          str_pl: "Magpul PMAG 5.56mm/.50 Beowulf 20/7-round magazines (ranger plate)",
+        },
+        description: "A polymer magazine for 5.56mm and .300 Blackout rifles, converted to feed .50 Beowulf as well.  Its texture is intended to make it handle better than conventional aluminum magazines.  Intended for recreational shooting, as its reduced size makes shooting prone a lot easier.  <magazine/ranger_plate>",
+      },
+    ],
+
+    pocket_data: [
+      {
+        pocket_type: "MAGAZINE",
+
+        rigid: true,
+
+        allowed_speedloaders: ["clip223_10rd"],
+
+        ammo_restriction: {
+          "223": 20,
+          "300blk": 20,
+          "50beowulf": 7,
+        },
+      },
+    ],
+  },
+  {
+    id: "magazine/conversion/50beowulf/magpul/pmag/20+5/taran",
+    inherit: [
+      "magazine/magpul/pmag/20+5/taran",
+      "@magazine/50beowulf~5.56x45mm",
+    ],
+    type: "ITEM",
+    subtypes: ["MAGAZINE"],
+
+    name: {
+      str: "PMAG 5.56mm/.50 Beowulf 20+5/7+1-round magazine",
+    },
+    description: "A polymer magazine for the STANAG-compatible rifles, converted to feed .50 Beowulf rounds in addition to 5.56mm and .300 Blackout.  Has an elaborate texture that should make it easier to handle.  Intended for recreational shooting, as its reduced size makes shooting prone a lot easier.  <magazine/extension_plate:generic>",
+
+    variant_type: "gun",
+    variants: [
+      {
+        from: ["black"],
+
+        name: {
+          str: "Magpul PMAG 5.56mm/.50 Beowulf 20+5/7+1-round magazine",
+        },
+        description: "A polymer magazine for 5.56mm and .300 Blackout rifles, converted to feed .50 Beowulf as well.  Its texture is intended to make it handle better than conventional aluminum magazines.  Intended for recreational shooting, as its reduced size makes shooting prone a lot easier.  <magazine/extension_plate:5>",
+      },
+    ],
+
+    pocket_data: [
+      {
+        pocket_type: "MAGAZINE",
+
+        rigid: true,
+
+        allowed_speedloaders: ["clip223_10rd"],
+
+        ammo_restriction: {
+          "223": 25,
+          "300blk": 25,
+          "50beowulf": 8,
+        },
+      },
+    ],
+  },
+
+  {
+    id: "magazine/conversion/50beowulf/colt/stanag/20",
+    inherit: ["magazine/colt/stanag/20", "@magazine/50beowulf~5.56x45mm"],
+    type: "ITEM",
+    subtypes: ["MAGAZINE"],
+
+    name: {
+      str: "STANAG 5.56mm/.50 Beowulf 20/7-round magazine",
+    },
+    description: "A compact aluminum magazine for the STANAG-compatible rifles, converted to feed .50 Beowulf rounds in addition to 5.56mm and .300 Blackout.  Its reduced capacity makes it commonly used for recreational shooting.",
+
+    variant_type: "gun",
+    variants: [
+      {
+        from: [["steel", 4], ["black", 2], "fde"],
+
+        name: {
+          str: "Colt M16 5.56mm/.50 Beowulf 20/7-round magazine",
+        },
+        description: "An aluminum magazine for 5.56mm and .300 Blackout rifles, converted to feed .50 Beowulf as well.  The same model used with M16s in Vietnam, save for the fact that this was manufactured in the new millennium.",
+      },
+    ],
+
+    pocket_data: [
+      {
+        pocket_type: "MAGAZINE",
+
+        rigid: true,
+
+        allowed_speedloaders: ["clip223_10rd"],
+
+        ammo_restriction: {
+          "223": 20,
+          "300blk": 20,
+          "50beowulf": 7,
+        },
+      },
+    ],
+  },
+  {
+    id: "magazine/conversion/50beowulf/colt/stanag/20:ranger",
+    inherit: [
+      "magazine/colt/stanag/20:ranger",
+      "@magazine/50beowulf~5.56x45mm",
+    ],
+    type: "ITEM",
+    subtypes: ["MAGAZINE"],
+
+    name: {
+      str: "STANAG 5.56mm/.50 Beowulf 20/7-round magazine (ranger plate)",
+      str_pl: "STANAG 5.56mm/.50 Beowulf 20/7-round magazines (ranger plate)",
+    },
+    description: "A compact aluminum magazine for the STANAG-compatible rifles, converted to feed .50 Beowulf rounds in addition to 5.56mm and .300 Blackout.  Its reduced capacity makes it commonly used for recreational shooting.  <magazine/ranger_plate:generic>",
+
+    variant_type: "gun",
+    variants: [
+      {
+        from: [["steel", 4], ["black", 2], "fde"],
+
+        name: {
+          str: "Colt M16 5.56mm/.50 Beowulf 20/7-round magazine (ranger plate)",
+          str_pl: "Colt M16 5.56mm/.50 Beowulf 20/7-round magazines (ranger plate)",
+        },
+        description: "An aluminum magazine for 5.56mm and .300 Blackout rifles, converted to feed .50 Beowulf as well.  The same model used with M16s in Vietnam, save for the fact that this was manufactured in the new millennium.  <magazine/ranger_plate>",
+      },
+    ],
+
+    pocket_data: [
+      {
+        pocket_type: "MAGAZINE",
+
+        rigid: true,
+
+        allowed_speedloaders: ["clip223_10rd"],
+
+        ammo_restriction: {
+          "223": 20,
+          "300blk": 20,
+          "50beowulf": 7,
+        },
+      },
+    ],
+  },
+
+  {
+    id: "magazine/conversion/50beowulf/magpul/pmag/30",
+    inherit: ["magazine/magpul/pmag/30", "@magazine/50beowulf~5.56x45mm"],
+    type: "ITEM",
+    subtypes: ["MAGAZINE"],
+
+    name: {
+      str: "PMAG 5.56mm/.50 Beowulf 30/10-round magazine",
+    },
+    description: "A polymer magazine for the STANAG-compatible rifles, converted to feed .50 Beowulf rounds in addition to 5.56mm and .300 Blackout.  Has an elaborate texture that should make it easier to handle.",
+
+    variant_type: "gun",
+    variants: [
+      {
+        from: ["black"],
+
+        name: {
+          str: "Magpul PMAG 5.56mm/.50 Beowulf 30/10-round magazine",
+        },
+        description: "A polymer magazine for 5.56mm and .300 Blackout rifles, converted to feed .50 Beowulf as well.  Its texture is intended to make it handle better than conventional aluminum magazines.  Intended for conventional warfare, supplementing its ammo capacity with high reliability.",
+      },
+    ],
+
+    pocket_data: [
+      {
+        pocket_type: "MAGAZINE",
+
+        rigid: true,
+
+        allowed_speedloaders: ["clip223_10rd"],
+
+        ammo_restriction: {
+          "223": 30,
+          "300blk": 30,
+          "50beowulf": 10,
+        },
+      },
+    ],
+  },
+  {
+    id: "magazine/conversion/50beowulf/magpul/pmag/30:ranger",
+    inherit: [
+      "magazine/magpul/pmag/30:ranger",
+      "@magazine/50beowulf~5.56x45mm",
+    ],
+    type: "ITEM",
+    subtypes: ["MAGAZINE"],
+
+    name: {
+      str: "PMAG 5.56mm/.50 Beowulf 30/10-round magazine (ranger plate)",
+      str_pl: "PMAG 5.56mm/.50 Beowulf 30/10-round magazines (ranger plate)",
+    },
+    description: "A polymer magazine for the STANAG-compatible rifles, converted to feed .50 Beowulf rounds in addition to 5.56mm and .300 Blackout.  Has an elaborate texture that should make it easier to handle.  <magazine/ranger_plate:generic>",
+
+    variant_type: "gun",
+    variants: [
+      {
+        from: ["black"],
+
+        name: {
+          str: "Magpul PMAG 5.56mm/.50 Beowulf 30/10-round magazine (ranger plate)",
+          str_pl: "Magpul PMAG 5.56mm/.50 Beowulf 30/10-round magazines (ranger plate)",
+        },
+        description: "A polymer magazine for 5.56mm and .300 Blackout rifles, converted to feed .50 Beowulf as well.  Its texture is intended to make it handle better than conventional aluminum magazines.  <magazine/ranger_plate>",
+      },
+    ],
+
+    pocket_data: [
+      {
+        pocket_type: "MAGAZINE",
+
+        rigid: true,
+
+        allowed_speedloaders: ["clip223_10rd"],
+
+        ammo_restriction: {
+          "223": 30,
+          "300blk": 30,
+          "50beowulf": 10,
+        },
+      },
+    ],
+  },
+  {
+    id: "magazine/conversion/50beowulf/magpul/pmag/30+5/taran",
+    inherit: [
+      "magazine/magpul/pmag/30+5/taran",
+      "@magazine/50beowulf~5.56x45mm",
+    ],
+    type: "ITEM",
+    subtypes: ["MAGAZINE"],
+
+    name: {
+      str: "PMAG 5.56mm/.50 Beowulf 30+5/10+2-round magazine",
+    },
+    description: "A polymer magazine for the STANAG-compatible rifles, converted to feed .50 Beowulf rounds in addition to 5.56mm and .300 Blackout.  Has an elaborate texture that should make it easier to handle.  <magazine/extension_plate:generic>",
+
+    variant_type: "gun",
+    variants: [
+      {
+        from: ["black"],
+
+        name: {
+          str: "Magpul PMAG 5.56mm/.50 Beowulf 30+5/10+2-round magazine",
+        },
+        description: "A polymer magazine for 5.56mm and .300 Blackout rifles, converted to feed .50 Beowulf as well.  Its texture is intended to make it handle better than conventional aluminum magazines.  <magazine/extension_plate:5>",
+      },
+    ],
+
+    pocket_data: [
+      {
+        pocket_type: "MAGAZINE",
+
+        rigid: true,
+
+        allowed_speedloaders: ["clip223_10rd"],
+
+        ammo_restriction: {
+          "223": 35,
+          "300blk": 35,
+          "50beowulf": 12,
+        },
+      },
+    ],
+  },
+
+  {
+    id: "magazine/conversion/50beowulf/colt/stanag/30",
+    inherit: ["magazine/colt/stanag/30", "@magazine/50beowulf~5.56x45mm"],
+    type: "ITEM",
+    subtypes: ["MAGAZINE"],
+
+    name: {
+      str: "STANAG 5.56mm/.50 Beowulf 30/10-round magazine",
+    },
+    description: "An aluminum magazine for the STANAG-compatible rifles, converted to feed .50 Beowulf rounds in addition to 5.56mm and .300 Blackout.  Commonly used with the M16, the M4, and other similar rifles, particularly in the U.S. military.",
+
+    variant_type: "gun",
+    variants: [
+      {
+        from: [["steel", 4], "fde"],
+
+        name: {
+          str: "Colt M16 5.56mm/.50 Beowulf 30/10-round magazine",
+        },
+        description: "An aluminum magazine for 5.56mm and .300 Blackout rifles, converted to feed .50 Beowulf as well.",
+      },
+    ],
+
+    pocket_data: [
+      {
+        pocket_type: "MAGAZINE",
+
+        rigid: true,
+
+        allowed_speedloaders: ["clip223_10rd"],
+
+        ammo_restriction: {
+          "223": 30,
+          "300blk": 30,
+          "50beowulf": 10,
+        },
+      },
+    ],
+  },
+  {
+    id: "magazine/conversion/50beowulf/colt/stanag/30:ranger",
+    inherit: [
+      "magazine/colt/stanag/30:ranger",
+      "@magazine/50beowulf~5.56x45mm",
+    ],
+    type: "ITEM",
+    subtypes: ["MAGAZINE"],
+
+    name: {
+      str: "STANAG 5.56mm/.50 Beowulf 30/10-round magazine (ranger plate)",
+      str_pl: "STANAG 5.56mm/.50 Beowulf 30/10-round magazines (ranger plate)",
+    },
+    description: "An aluminum magazine for the STANAG-compatible rifles, converted to feed .50 Beowulf rounds in addition to 5.56mm and .300 Blackout.  <magazine/ranger_plate:generic>",
+
+    variant_type: "gun",
+    variants: [
+      {
+        from: [["steel", 4], "fde"],
+
+        name: {
+          str: "Colt M16 5.56mm/.50 Beowulf 30/10-round magazine (ranger plate)",
+          str_pl: "Colt M16 5.56mm/.50 Beowulf 30/10-round magazines (ranger plate)",
+        },
+        description: "An aluminum magazine for 5.56mm and .300 Blackout rifles, converted to feed .50 Beowulf as well.  <magazine/ranger_plate>",
+      },
+    ],
+
+    pocket_data: [
+      {
+        pocket_type: "MAGAZINE",
+
+        rigid: true,
+
+        allowed_speedloaders: ["clip223_10rd"],
+
+        ammo_restriction: {
+          "223": 30,
+          "300blk": 30,
+          "50beowulf": 10,
+        },
+      },
+    ],
+  },
+
+  {
+    id: "magazine/conversion/50beowulf/magpul/pmag/40",
+    inherit: ["magazine/magpul/pmag/40", "@magazine/50beowulf~5.56x45mm"],
+    type: "ITEM",
+    subtypes: ["MAGAZINE"],
+
+    name: {
+      str: "PMAG 5.56mm/.50 Beowulf 40/14-round magazine",
+    },
+    description: "A polymer magazine for the STANAG-compatible rifles, converted to feed .50 Beowulf rounds in addition to 5.56mm and .300 Blackout.  Has an elaborate texture that should make it easier to handle.  Intended for competition shooting, to save time on reloads.  Would probably help in a firefight, all the same.",
+
+    variant_type: "gun",
+    variants: [
+      {
+        from: ["black"],
+
+        name: {
+          str: "Magpul PMAG 5.56mm/.50 Beowulf 40/14-round magazine",
+        },
+        description: "A polymer magazine for 5.56mm and .300 Blackout rifles, converted to feed .50 Beowulf as well.  Its texture is intended to make it handle better than conventional aluminum magazines.  Intended for competition shooting, where saving a few seconds on reloading can make or break your time.  Would probably help in a firefight, all the same.",
+      },
+    ],
+
+    pocket_data: [
+      {
+        pocket_type: "MAGAZINE",
+
+        rigid: true,
+
+        allowed_speedloaders: ["clip223_10rd"],
+
+        ammo_restriction: {
+          "223": 40,
+          "300blk": 40,
+          "50beowulf": 14,
+        },
+      },
+    ],
+  },
+  {
+    id: "magazine/conversion/50beowulf/magpul/pmag/40:ranger",
+    inherit: [
+      "magazine/magpul/pmag/40:ranger",
+      "@magazine/50beowulf~5.56x45mm",
+    ],
+    type: "ITEM",
+    subtypes: ["MAGAZINE"],
+
+    name: {
+      str: "PMAG 5.56mm/.50 Beowulf 40/14-round magazine (ranger plate)",
+      str_pl: "PMAG 5.56mm/.50 Beowulf 40/14-round magazines (ranger plate)",
+    },
+    description: "A polymer magazine for the STANAG-compatible rifles, converted to feed .50 Beowulf rounds in addition to 5.56mm and .300 Blackout.  Has an elaborate texture that should make it easier to handle.  Intended for competition shooting, to save time on reloads.  Would probably help in a firefight, all the same.  <magazine/ranger_plate:generic>",
+
+    variant_type: "gun",
+    variants: [
+      {
+        from: ["black"],
+
+        name: {
+          str: "Magpul PMAG 5.56mm/.50 Beowulf 40/14-round magazine (ranger plate)",
+          str_pl: "Magpul PMAG 5.56mm/.50 Beowulf 40/14-round magazines (ranger plate)",
+        },
+        description: "A polymer magazine for 5.56mm and .300 Blackout rifles, converted to feed .50 Beowulf as well.  Its texture is intended to make it handle better than conventional aluminum magazines.  Intended for competition shooting, where saving a few seconds on reloading can make or break your time.  Would probably help in a firefight, all the same.  <magazine/ranger_plate>",
+      },
+    ],
+
+    pocket_data: [
+      {
+        pocket_type: "MAGAZINE",
+
+        rigid: true,
+
+        allowed_speedloaders: ["clip223_10rd"],
+
+        ammo_restriction: {
+          "223": 40,
+          "300blk": 40,
+          "50beowulf": 14,
+        },
+      },
+    ],
+  },
+  {
+    id: "magazine/conversion/50beowulf/magpul/pmag/40+6/taran",
+    inherit: [
+      "magazine/magpul/pmag/40+6/taran",
+      "@magazine/50beowulf~5.56x45mm",
+    ],
+    type: "ITEM",
+    subtypes: ["MAGAZINE"],
+
+    name: {
+      str: "PMAG 5.56mm/.50 Beowulf 40+6/14+2-round magazine",
+    },
+    description: "A polymer magazine for the STANAG-compatible rifles, converted to feed .50 Beowulf rounds in addition to 5.56mm and .300 Blackout.  Has an elaborate texture that should make it easier to handle.  Intended for competition shooting, to save time on reloads.  Would probably help in a firefight, all the same.  <magazine/extension_plate:generic>",
+
+    variant_type: "gun",
+    variants: [
+      {
+        from: ["black"],
+
+        name: {
+          str: "Magpul PMAG 5.56mm/.50 Beowulf 40+6/14+2-round magazine",
+        },
+        description: "A polymer magazine for 5.56mm and .300 Blackout rifles, converted to feed .50 Beowulf as well.  Its texture is intended to make it handle better than conventional aluminum magazines.  Intended for competition shooting, where saving a few seconds on reloading can make or break your time.  Would probably help in a firefight, all the same.  <magazine/extension_plate:6>",
+      },
+    ],
+
+    pocket_data: [
+      {
+        pocket_type: "MAGAZINE",
+
+        rigid: true,
+
+        allowed_speedloaders: ["clip223_10rd"],
+
+        ammo_restriction: {
+          "223": 46,
+          "300blk": 46,
+          "50beowulf": 16,
+        },
+      },
+    ],
+  },
+]

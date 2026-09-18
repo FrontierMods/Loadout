@@ -56,4 +56,11 @@
 
     ammo_type: ["50beowulf"],
   },
+  {
+    id: "@magazine/50beowulf~5.56x45mm",
+    inherit: "@magazine",
+    type: "PARTIAL",
+
+    ammo_type: ["50beowulf", "223", "300blk"],
+  },
 ]

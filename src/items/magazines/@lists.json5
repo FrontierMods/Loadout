@@ -52,10 +52,23 @@
     type: "PARTIAL",
 
     list: [
-      "stanag20_beowulf",
-      "stanag20ranger_beowulf",
-      "stanag30_beowulf",
-      "stanag30ranger_beowulf",
+      "magazine/conversion/50beowulf/colt/stanag/20",
+      "magazine/conversion/50beowulf/colt/stanag/20:ranger",
+      "magazine/conversion/50beowulf/colt/stanag/30",
+      "magazine/conversion/50beowulf/colt/stanag/30:ranger",
+
+      "magazine/conversion/50beowulf/magpul/pmag/10",
+      "magazine/conversion/50beowulf/magpul/pmag/10:ranger",
+      "magazine/conversion/50beowulf/magpul/pmag/20",
+      "magazine/conversion/50beowulf/magpul/pmag/20:ranger",
+      "magazine/conversion/50beowulf/magpul/pmag/20+5/taran",
+      "magazine/conversion/50beowulf/magpul/pmag/30",
+      "magazine/conversion/50beowulf/magpul/pmag/30:ranger",
+      "magazine/conversion/50beowulf/magpul/pmag/30+5/taran",
+      "magazine/conversion/50beowulf/magpul/pmag/40",
+      "magazine/conversion/50beowulf/magpul/pmag/40:ranger",
+      "magazine/conversion/50beowulf/magpul/pmag/40+6/taran",
+
       "survivor223mag",
 
       "magazine/magpul/pmag/10",
@@ -94,10 +107,23 @@
     list: [
       "belt223",
 
-      "stanag20_beowulf",
-      "stanag20ranger_beowulf",
-      "stanag30_beowulf",
-      "stanag30ranger_beowulf",
+      "magazine/conversion/50beowulf/colt/stanag/20",
+      "magazine/conversion/50beowulf/colt/stanag/20:ranger",
+      "magazine/conversion/50beowulf/colt/stanag/30",
+      "magazine/conversion/50beowulf/colt/stanag/30:ranger",
+
+      "magazine/conversion/50beowulf/magpul/pmag/10",
+      "magazine/conversion/50beowulf/magpul/pmag/10:ranger",
+      "magazine/conversion/50beowulf/magpul/pmag/20",
+      "magazine/conversion/50beowulf/magpul/pmag/20:ranger",
+      "magazine/conversion/50beowulf/magpul/pmag/20+5/taran",
+      "magazine/conversion/50beowulf/magpul/pmag/30",
+      "magazine/conversion/50beowulf/magpul/pmag/30:ranger",
+      "magazine/conversion/50beowulf/magpul/pmag/30+5/taran",
+      "magazine/conversion/50beowulf/magpul/pmag/40",
+      "magazine/conversion/50beowulf/magpul/pmag/40:ranger",
+      "magazine/conversion/50beowulf/magpul/pmag/40+6/taran",
+
       "survivor223mag",
 
       "magazine/magpul/pmag/10",
@@ -123,6 +149,32 @@
       "magazine/surefire/100",
       "magazine/beta/c-mag/m16",
       "magazine/armatac/saw-mag",
+    ],
+  },
+  {
+    id: "list/magazines/stanag/50beowulf",
+    type: "PARTIAL",
+
+    // * list specifically for .50 Beowulf AR-15 uppers and rifles
+    list: [
+      "magazine/d&h/50beowulf/10",
+
+      "magazine/conversion/50beowulf/colt/stanag/20",
+      "magazine/conversion/50beowulf/colt/stanag/20:ranger",
+      "magazine/conversion/50beowulf/colt/stanag/30",
+      "magazine/conversion/50beowulf/colt/stanag/30:ranger",
+
+      "magazine/conversion/50beowulf/magpul/pmag/10",
+      "magazine/conversion/50beowulf/magpul/pmag/10:ranger",
+      "magazine/conversion/50beowulf/magpul/pmag/20",
+      "magazine/conversion/50beowulf/magpul/pmag/20:ranger",
+      "magazine/conversion/50beowulf/magpul/pmag/20+5/taran",
+      "magazine/conversion/50beowulf/magpul/pmag/30",
+      "magazine/conversion/50beowulf/magpul/pmag/30:ranger",
+      "magazine/conversion/50beowulf/magpul/pmag/30+5/taran",
+      "magazine/conversion/50beowulf/magpul/pmag/40",
+      "magazine/conversion/50beowulf/magpul/pmag/40:ranger",
+      "magazine/conversion/50beowulf/magpul/pmag/40+6/taran",
     ],
   },
 ]

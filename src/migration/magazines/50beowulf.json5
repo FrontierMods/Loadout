@@ -4,4 +4,25 @@
     type: "MIGRATION",
     replace: "magazine/d&h/50beowulf/10",
   },
+
+  {
+    id: ["stanag20_beowulf"],
+    type: "MIGRATION",
+    replace: "magazine/conversion/50beowulf/colt/stanag/20",
+  },
+  {
+    id: ["stanag20ranger_beowulf"],
+    type: "MIGRATION",
+    replace: "magazine/conversion/50beowulf/colt/stanag/20:ranger",
+  },
+  {
+    id: ["stanag30_beowulf"],
+    type: "MIGRATION",
+    replace: "magazine/conversion/50beowulf/colt/stanag/30",
+  },
+  {
+    id: ["stanag30ranger_beowulf"],
+    type: "MIGRATION",
+    replace: "magazine/conversion/50beowulf/colt/stanag/30:ranger",
+  },
 ]

@@ -1,0 +1,153 @@
+[
+  {
+    id: "magazine/body/conversion/50beowulf/magpul/pmag/10",
+    inherit: "magazine/body/magpul/pmag/10",
+    type: "ITEM",
+
+    name: {
+      str: "PMAG 5.56mm/.50 Beowulf 10/3-round magazine body",
+      str_pl: "PMAG 5.56mm/.50 Beowulf 10/3-round magazine body",
+    },
+    description: "The polymer body of a PMAG magazine.  <magazine/body/converted:50beowulf~5.56x45mm>  <magazine/body:generic>",
+    expand_snippets: true,
+
+    variant_type: "gun",
+    variants: [
+      {
+        from: ["black"],
+
+        name: {
+          str: "Magpul PMAG 5.56mm/.50 Beowulf 10/3-round magazine body",
+          str_pl: "Magpul PMAG 5.56mm/.50 Beowulf 10/3-round magazine bodies",
+        },
+        description: "The polymer body of a Magpul magazine.  <magazine/body/converted:50beowulf~5.56x45mm>  <magazine/body:pmag>",
+      },
+    ],
+  },
+  {
+    id: "magazine/body/conversion/50beowulf/magpul/pmag/20",
+    inherit: "magazine/body/magpul/pmag/20",
+    type: "ITEM",
+
+    name: {
+      str: "PMAG 5.56mm/.50 Beowulf 20/7-round magazine body",
+      str_pl: "PMAG 5.56mm/.50 Beowulf 20/7-round magazine bodies",
+    },
+    description: "The polymer body of a PMAG magazine.  <magazine/body/converted:50beowulf~5.56x45mm>  <magazine/body:generic>",
+    expand_snippets: true,
+
+    variant_type: "gun",
+    variants: [
+      {
+        from: ["black"],
+
+        name: {
+          str: "Magpul PMAG 5.56mm/.50 Beowulf 20/7-round magazine body",
+          str_pl: "Magpul PMAG 5.56mm/.50 Beowulf 20/7-round magazine bodies",
+        },
+        description: "The polymer body of a Magpul magazine.  <magazine/body/converted:50beowulf~5.56x45mm>  <magazine/body:pmag>",
+      },
+    ],
+  },
+  {
+    id: "magazine/body/conversion/50beowulf/magpul/pmag/30",
+    inherit: "magazine/body/magpul/pmag/30",
+    type: "ITEM",
+
+    name: {
+      str: "PMAG 5.56mm/.50 Beowulf 30/10-round magazine body",
+      str_pl: "PMAG STANAG 5.56mm/.50 Beowulf 30/10-round magazine bodies",
+    },
+    description: "The polymer body of a PMAG magazine.  <magazine/body/converted:50beowulf~5.56x45mm>  <magazine/body:generic>",
+    expand_snippets: true,
+
+    variant_type: "gun",
+    variants: [
+      {
+        from: ["black"],
+
+        name: {
+          str: "Magpul PMAG 5.56mm/.50 Beowulf 30/10-round magazine body",
+          str_pl: "Magpul PMAG 5.56mm/.50 Beowulf 30/10-round magazine bodies",
+        },
+        description: "The polymer body of a Magpul magazine.  <magazine/body/converted:50beowulf~5.56x45mm>  <magazine/body:pmag>",
+      },
+    ],
+  },
+  {
+    id: "magazine/body/conversion/50beowulf/magpul/pmag/40",
+    inherit: "magazine/body/magpul/pmag/40",
+    type: "ITEM",
+
+    name: {
+      str: "PMAG STANAG 5.56mm/.50 Beowulf 40/14-round magazine body",
+      str_pl: "PMAG STANAG 5.56mm/.50 Beowulf 40/14-round magazine bodies",
+    },
+    description: "The polymer body of a PMAG magazine.  <magazine/body/converted:50beowulf~5.56x45mm>  <magazine/body:generic>",
+    expand_snippets: true,
+
+    variant_type: "gun",
+    variants: [
+      {
+        from: ["black"],
+
+        name: {
+          str: "Magpul PMAG 5.56mm/.50 Beowulf 40/14-round magazine body",
+          str_pl: "Magpul PMAG 5.56mm/.50 Beowulf 40/14-round magazine bodies",
+        },
+        description: "The polymer body of a Magpul magazine.  <magazine/body/converted:50beowulf~5.56x45mm>  <magazine/body:pmag>",
+      },
+    ],
+  },
+
+  {
+    id: "magazine/body/conversion/50beowulf/colt/stanag/20",
+    inherit: "magazine/body/colt/stanag/20",
+    type: "ITEM",
+
+    name: {
+      str: "STANAG 5.56mm/.50 Beowulf 20/7-round magazine body",
+      str_pl: "STANAG 5.56mm/.50 Beowulf 20/7-round magazine bodies",
+    },
+    description: "The aluminum body of a compact magazine for STANAG-compatible rifles.  <magazine/body/converted:50beowulf~5.56x45mm>  <magazine/body:generic>",
+    expand_snippets: true,
+
+    variant_type: "gun",
+    variants: [
+      {
+        from: ["steel"],
+
+        name: {
+          str: "Colt M16 5.56mm/.50 Beowulf 20/7-round magazine body",
+          str_pl: "Colt M16 5.56mm/.50 Beowulf 20/7-round magazine bodies",
+        },
+        description: "The aluminum body of a compact magazine for STANAG-compatible rifles.  <magazine/body/converted:50beowulf~5.56x45mm>  <magazine/body:stanag>",
+      },
+    ],
+  },
+  {
+    id: "magazine/body/conversion/50beowulf/colt/stanag/30",
+    inherit: "magazine/body/colt/stanag/30",
+    type: "ITEM",
+
+    name: {
+      str: "STANAG 5.56mm/.50 Beowulf 30/10-round magazine body",
+      str_pl: "STANAG 5.56mm/.50 Beowulf 30/10-round magazine bodies",
+    },
+    description: "The aluminum body of a magazine for STANAG-compatible rifles.  <magazine/body/converted:50beowulf~5.56x45mm>  <magazine/body:generic>",
+    expand_snippets: true,
+
+    variant_type: "gun",
+    variants: [
+      {
+        from: ["steel"],
+
+        name: {
+          str: "Colt M16 5.56mm/.50 Beowulf 30/10-round magazine body",
+          str_pl: "Colt M16 5.56mm/.50 Beowulf 30/10-round magazine bodies",
+        },
+        description: "The aluminum body of a magazine for STANAG-compatible rifles.  <magazine/body/converted:50beowulf~5.56x45mm>  <magazine/body:stanag>",
+      },
+    ],
+  },
+]

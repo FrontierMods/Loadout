@@ -25,4 +25,29 @@
 
     flags: ["BLIND_EASY"],
   },
+
+  {
+    abstract: "@magmod/conversion/50beowulf",
+    type: "recipe",
+
+    category: "CC_WEAPON",
+    subcategory: "CSC_WEAPON_MAGAZINES",
+
+    activity_level: "MODERATE_EXERCISE",
+    difficulty: 2,
+    time: "5 m",
+
+    skill_used: "fabrication",
+    skills_required: ["rifle", 1],
+    book_learn: [
+      ["recipe_bullets", 2],
+      ["mag_rifle", 2],
+    ],
+
+    using: [["50beowulf_casehead", 1]],
+    qualities: [
+      { id: "FILE", level: 2 },
+      { id: "GRIND", level: 1 },
+    ],
+  },
 ]
