@@ -22,6 +22,7 @@
     type: "MIGRATION",
     replace: "magazine/magpul/pmag/10:ranger",
   },
+  // * even though we have 20-round aluminum rounds, which would make sense against the aluminum 30-rounder, we choose to migrate these to PMAGs because we believe aftermarket options will be much more common due to their present-day popularity
   {
     id: ["stanag20"],
     type: "MIGRATION",
