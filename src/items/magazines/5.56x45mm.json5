@@ -530,44 +530,12 @@
     variant_type: "gun",
     variants: [
       {
-        id: "steel/black",
+        from: [["steel", 4], "fde"],
 
         name: {
           str: "Colt M16 30-round magazine",
         },
-        description: "An aluminum magazine for STANAG-compatible rifles, serving as the primary issued magazine throughout the majority of the U.S. military.  <variant:steel>  Its follower is all black, indicating it to be an obsolete model.",
-        expand_snippets: true,
-        weight: 1,
-      },
-      {
-        id: "steel/green",
-
-        name: {
-          str: "Colt M16 30-round magazine",
-        },
-        description: "An aluminum magazine for STANAG-compatible rifles, serving as the primary issued magazine throughout the majority of the U.S. military.  <variant:steel>  Its follower is colored dull green.",
-        expand_snippets: true,
-        weight: 1,
-      },
-      {
-        id: "steel/fde",
-
-        name: {
-          str: "Colt M16 30-round magazine",
-        },
-        description: "An aluminum magazine for STANAG-compatible rifles, serving as the primary issued magazine throughout the majority of the U.S. military.  <variant:steel>  Its follower is colored pale brown.",
-        expand_snippets: true,
-        weight: 1,
-      },
-      {
-        id: "fde/blue",
-
-        name: {
-          str: "Colt M16 30-round magazine",
-        },
-        description: "An aluminum magazine for STANAG-compatible rifles, serving as the primary issued magazine throughout the majority of the U.S. military.  <variant:fde>  Its follower is blue; both of these color indicate the magazine to be the newer Enhanced Performance Round (EPR) model of the magazine.",
-        expand_snippets: true,
-        weight: 1,
+        description: "An aluminum magazine for STANAG-compatible rifles, serving as the primary issued magazine throughout the majority of the U.S. military.",
       },
     ],
 
@@ -630,48 +598,13 @@
     variant_type: "gun",
     variants: [
       {
-        id: "steel/black",
+        from: [["steel", 4], "fde"],
 
         name: {
           str: "Colt M16 30-round magazine (ranger plate)",
           str_pl: "Colt M16 30-round magazines (ranger plate)",
         },
-        description: "An aluminum magazine for STANAG-compatible rifles, serving as the primary issued magazine throughout the majority of the U.S. military.  <magazine/ranger_plate>  <variant:steel>  Its follower is all black, indicating it to be an obsolete model.",
-        expand_snippets: true,
-        weight: 1,
-      },
-      {
-        id: "steel/green",
-
-        name: {
-          str: "Colt M16 30-round magazine (ranger plate)",
-          str_pl: "Colt M16 30-round magazines (ranger plate)",
-        },
-        description: "An aluminum magazine for STANAG-compatible rifles, serving as the primary issued magazine throughout the majority of the U.S. military.  <magazine/ranger_plate>  <variant:steel>  Its follower is colored dull green.",
-        expand_snippets: true,
-        weight: 1,
-      },
-      {
-        id: "steel/fde",
-
-        name: {
-          str: "Colt M16 30-round magazine (ranger plate)",
-          str_pl: "Colt M16 30-round magazines (ranger plate)",
-        },
-        description: "An aluminum magazine for STANAG-compatible rifles, serving as the primary issued magazine throughout the majority of the U.S. military.  <magazine/ranger_plate>  <variant:steel>  Its follower is colored pale brown.",
-        expand_snippets: true,
-        weight: 1,
-      },
-      {
-        id: "fde/blue",
-
-        name: {
-          str: "Colt M16 30-round magazine (ranger plate)",
-          str_pl: "Colt M16 30-round magazines (ranger plate)",
-        },
-        description: "An aluminum magazine for STANAG-compatible rifles, serving as the primary issued magazine throughout the majority of the U.S. military.  <magazine/ranger_plate>  <variant:fde>  Its follower is blue; both of these color indicate the magazine to be the newer Enhanced Performance Round (EPR) model of the magazine.",
-        expand_snippets: true,
-        weight: 1,
+        description: "An aluminum magazine for STANAG-compatible rifles, serving as the primary issued magazine throughout the majority of the U.S. military.  <magazine/ranger_plate>",
       },
     ],
 
@@ -733,44 +666,12 @@
     variant_type: "gun",
     variants: [
       {
-        id: "steel/black",
+        from: [["steel", 4], "fde"],
 
         name: {
           str: "Colt M16 10/30-round magazine",
         },
-        description: "An aluminum magazine for STANAG-compatible rifles, serving as the primary issued magazine throughout the majority of the U.S. military.  <magazine/reduced:10>  <variant:steel>  Its follower is all black, indicating it to be an obsolete model.",
-        expand_snippets: true,
-        weight: 1,
-      },
-      {
-        id: "steel/green",
-
-        name: {
-          str: "Colt M16 10/30-round magazine",
-        },
-        description: "An aluminum magazine for STANAG-compatible rifles, serving as the primary issued magazine throughout the majority of the U.S. military.  <magazine/reduced:10>  <variant:steel>  Its follower is colored dull green.",
-        expand_snippets: true,
-        weight: 1,
-      },
-      {
-        id: "steel/fde",
-
-        name: {
-          str: "Colt M16 10/30-round magazine",
-        },
-        description: "An aluminum magazine for STANAG-compatible rifles, serving as the primary issued magazine throughout the majority of the U.S. military.  <magazine/reduced:10>  <variant:steel>  Its follower is colored pale brown.",
-        expand_snippets: true,
-        weight: 1,
-      },
-      {
-        id: "fde/blue",
-
-        name: {
-          str: "Colt M16 10/30-round magazine",
-        },
-        description: "An aluminum magazine for STANAG-compatible rifles, serving as the primary issued magazine throughout the majority of the U.S. military.  <magazine/reduced:10>  <variant:fde>  Its follower is blue; both of these color indicate the magazine to be the newer Enhanced Performance Round (EPR) model of the magazine.",
-        expand_snippets: true,
-        weight: 1,
+        description: "An aluminum magazine for STANAG-compatible rifles, serving as the primary issued magazine throughout the majority of the U.S. military.  <magazine/reduced:10>",
       },
     ],
 
