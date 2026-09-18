@@ -1,5 +1,13 @@
 [
   {
+    // * this is an item that's highly unlikely to exist as is
+    // * as such, we migrate it to an item that is effectively an upgrade
+    // * magazines will likely be plentiful, and the current model of this jury-rigged magazine is insufficient to justify its existence
+    id: ["survivor223mag"],
+    type: "MIGRATION",
+    replace: "magazine/magpul/pmag/10",
+  },
+  {
     // * 5-round magazines are 10-round magazines with a plastic limiter
     // * once magazine internals are modelled, it may be worth rewiring this migration
     id: ["stanag5"],

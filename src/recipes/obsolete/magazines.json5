@@ -19,4 +19,12 @@
     type: "recipe",
     obsolete: true,
   },
+
+  // * we drop the way to make this jury-rigged magazine with no replacement
+  // * in its current form, it does not hold enough weight to justify its existence
+  {
+    result: "survivor223mag",
+    type: "recipe",
+    obsolete: true,
+  },
 ]
