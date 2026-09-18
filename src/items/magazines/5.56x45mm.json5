@@ -134,6 +134,7 @@
     },
     price_postapoc: { utility: "low", longevity: "high", scarcity: "none" },
   },
+
   {
     id: "magazine/magpul/pmag/20",
     inherit: ["@magazine/5.56x45mm", "@magazine/compact"],
