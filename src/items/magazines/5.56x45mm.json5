@@ -389,7 +389,7 @@
         name: {
           str: "Colt M16 20-round magazine",
         },
-        description: "An aluminum magazine for 5.56mm and .300 Blackout rifles.  The same model used with M16s in Vietnam, save for the fact that this was manufactured in the new millenium.",
+        description: "An aluminum magazine for 5.56mm and .300 Blackout rifles.  The same model used with M16s in Vietnam, save for the fact that this was manufactured in the new millennium.",
       },
     ],
 
@@ -445,7 +445,7 @@
           str: "Colt M16 20-round magazine (ranger plate)",
           str_pl: "Colt M16 20-round magazines (ranger plate)",
         },
-        description: "An aluminum magazine for 5.56mm and .300 Blackout rifles.  The same model used with M16s in Vietnam, save for the fact that this was manufactured in the new millenium.  <magazine/ranger_plate>",
+        description: "An aluminum magazine for 5.56mm and .300 Blackout rifles.  The same model used with M16s in Vietnam, save for the fact that this was manufactured in the new millennium.  <magazine/ranger_plate>",
       },
     ],
 
