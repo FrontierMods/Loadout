@@ -252,7 +252,10 @@
           - dimensions
     */
 
-    name: { str: "PMAG 40-round magazine body" },
+    name: {
+      str: "PMAG 40-round magazine body",
+      str_pl: "PMAG 40-round magazine bodies",
+    },
     description: "The polymer body of a PMAG magazine.  Currently missing a base plate, which prevents it from being used for its intended purpose.  You can assemble it into a usable magazine if you have an appropriate base plate.",
 
     variant_type: "gun",
