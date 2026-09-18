@@ -249,7 +249,7 @@
     ],
 
     weight: "5.61 lbs",
-    "//dimensions": [
+    dimensions: [
       {
         //* UPPER RECEIVER
         type: "cylinder",
