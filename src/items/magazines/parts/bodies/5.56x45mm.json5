@@ -89,6 +89,55 @@
     longest_side: "5.59 in",
 
     material: ["plastic"],
+
+    price_postapoc: { utility: "low", longevity: "high", scarcity: "none" },
+  },
+  {
+    id: "magazine/body/colt/stanag/20",
+    inherit: "@magazine/body",
+    type: "ITEM",
+
+    name: {
+      str: "STANAG 20-round magazine body",
+      str_pl: "STANAG 20-round magazine bodies",
+    },
+    description: "The aluminum body of a compact magazine for STANAG-compatible rifles.  Currently missing a base plate, which prevents it from being used for its intended purpose.  You can assemble it into a usable magazine if you have an appropriate base plate.",
+
+    variant_type: "gun",
+    variants: [
+      {
+        from: ["steel"],
+
+        name: {
+          str: "Colt M16 20-round magazine body",
+          str_pl: "Colt M16 20-round magazine bodies",
+        },
+        description: "The aluminum body of a compact magazine for STANAG-compatible rifles.  Currently without use because it is missing the base plate, which keeps the spring interior and functional.  Should you find a STANAG base plate, you can assemble the body into a usable magazine.",
+      },
+    ],
+
+    weight: {
+      math: [
+        { ref: "magazine/colt/stanag/20", key: "weight" },
+        {
+          op: "subtract",
+          value: { ref: "magazine/baseplate/colt/stanag", key: "weight" },
+        },
+      ],
+    },
+    volume: {
+      math: [
+        { ref: "magazine/colt/stanag/20", key: "volume" },
+        {
+          op: "subtract",
+          value: { ref: "magazine/baseplate/colt/stanag", key: "volume" },
+        },
+      ],
+    },
+    longest_side: { ref: "magazine/colt/stanag/20", key: "longest_side" },
+
+    material: ["aluminum"],
+
     price_postapoc: { utility: "low", longevity: "high", scarcity: "none" },
   },
   {

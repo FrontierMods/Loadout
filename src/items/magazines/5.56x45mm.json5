@@ -352,6 +352,148 @@
   },
 
   {
+    // * yes, the magazine is not made by Colt
+    // * apparently, Okay Industries made these mags for Colt, among other AR-15 companies
+    // > https://charliescustomclones.com/mil-spec-usgi-m4-m16-20-round-gray-magazine-from-okay-industries-nhmtg/
+    // > https://charliescustomclones.com/colt-usgi-20-round-aluminum-magazine-for-ar15-m4-m16/
+    // * we want to keep the IDs aligned until there's a good reason to deviate
+    id: "magazine/colt/stanag/20",
+    inherit: ["@magazine/5.56x45mm", "@magazine/compact"],
+    type: "ITEM",
+    subtypes: ["MAGAZINE"],
+
+    /*
+      SOURCES
+        https://charliescustomclones.com/mil-spec-usgi-m4-m16-20-round-gray-magazine-from-okay-industries-nhmtg/
+            - price
+
+        https://www.m14forum.com/threads/20-round-m16-mag.59375/
+            - dimensions
+
+        https://www.thehighroad.org/index.php?threads/ar-magazine-weight-difference.790557/
+            - weight
+    */
+
+    name: {
+      str: "STANAG 20-round magazine",
+    },
+    description: "A compact aluminum magazine for the STANAG-compatible rifles.  Its reduced capacity makes it commonly used for recreational shooting.",
+
+    variant_type: "gun",
+    variants: [
+      {
+        // * we are not currently modelling distinct types of this magazine by manufacturer or stamping details
+        from: ["steel"],
+
+        name: {
+          str: "Colt M16 20-round magazine",
+        },
+        description: "An aluminum magazine for 5.56mm and .300 Blackout rifles.  The same model used with M16s in Vietnam, save for the fact that this was manufactured in the new millenium.",
+      },
+    ],
+
+    // * comment mentions "with metal follower"
+    weight: "2.9 oz",
+    dimensions: {
+      type: "area",
+
+      area: "11.718 in2",
+      length: "0.887 in",
+    },
+    // * Feret distance
+    longest_side: "5.22 in",
+
+    material: ["aluminum"],
+
+    pocket_data: [
+      {
+        pocket_type: "MAGAZINE",
+
+        rigid: true,
+
+        allowed_speedloaders: ["clip223_10rd"],
+
+        ammo_restriction: {
+          "223": 20,
+          "300blk": 20,
+        },
+      },
+    ],
+
+    price: "23.50 USD",
+    price_postapoc: { utility: "medium", longevity: "high", scarcity: "none" },
+  },
+  {
+    id: "magazine/colt/stanag/20:ranger",
+    "copy-from": "magazine/colt/stanag/20",
+    type: "ITEM",
+    subtypes: ["MAGAZINE"],
+
+    name: {
+      str: "STANAG 20-round magazine (ranger plate)",
+      str_pl: "STANAG 20-round magazines (ranger plate)",
+    },
+    description: "A compact aluminum magazine for the STANAG-compatible rifles.  Its reduced capacity makes it commonly used for recreational shooting.  <magazine/ranger_plate:generic>",
+
+    variant_type: "gun",
+    variants: [
+      {
+        from: ["steel"],
+
+        name: {
+          str: "Colt M16 20-round magazine",
+        },
+        description: "An aluminum magazine for 5.56mm and .300 Blackout rifles.  The same model used with M16s in Vietnam, save for the fact that this was manufactured in the new millenium.  <magazine/ranger_plate>",
+      },
+    ],
+
+    weight: {
+      math: [
+        { ref: "magazine/colt/stanag/20", key: "weight" },
+        {
+          op: "subtract",
+          value: { ref: "magazine/baseplate/colt/stanag", key: "weight" },
+        },
+        {
+          op: "add",
+          value: {
+            ref: "magazine/baseplate/magpul/ranger/usgi",
+            key: "weight",
+          },
+        },
+      ],
+    },
+    dimensions: {
+      type: "area",
+
+      area: "13.368 in2",
+      length: "0.887 in",
+    },
+    // * Feret distance
+    longest_side: "5.889 in",
+
+    material: ["aluminum", "stainless_steel", "rubber"],
+
+    price: {
+      math: [
+        { ref: "magazine/colt/stanag/20", key: "price" },
+        {
+          op: "subtract",
+          value: { ref: "magazine/baseplate/colt/stanag", key: "price" },
+        },
+        {
+          op: "add",
+          value: {
+            ref: "magazine/baseplate/magpul/ranger/usgi",
+            key: "price",
+          },
+        },
+      ],
+    },
+    price_postapoc: { utility: "medium", longevity: "high", scarcity: "none" },
+  },
+
+  {
     id: "magazine/colt/stanag/30",
     inherit: ["@magazine/5.56x45mm", "@magazine/compact"],
     type: "ITEM",
