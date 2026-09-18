@@ -268,8 +268,7 @@
     subtypes: ["MAGAZINE"],
 
     name: {
-      str: "PMAG STANAG 20-round magazine (extension plate)",
-      str_pl: "PMAG STANAG 20-round magazines (extension plate)",
+      str: "PMAG STANAG 20+5-round magazine",
     },
     description: "A polymer magazine for the STANAG-compatible rifles.  Has an elaborate texture that should make it easier to handle.  Its reduced capacity makes it commonly used for recreational shooting.  <magazine/extension_plate:generic>",
 
@@ -279,8 +278,7 @@
         id: "black",
 
         name: {
-          str: "Magpul PMAG 20-round magazine (extension plate)",
-          str_pl: "Magpul PMAG 20-round magazines (extension plate)",
+          str: "Magpul PMAG 20+5-round magazine",
         },
         description: "A polymer magazine for 5.56mm and .300 Blackout rifles.  Its texture is intended to make it handle better than conventional aluminum magazines.  Intended for recreational shooting, as its reduced size makes shooting prone a lot easier.  <magazine/extension_plate:5>  <variant:black>",
         expand_snippets: true,
@@ -842,8 +840,7 @@
     */
 
     name: {
-      str: "PMAG STANAG 30-round magazine (extension plate)",
-      str_pl: "PMAG STANAG 30-round magazines (extension plate)",
+      str: "PMAG STANAG 30+5-round magazine",
     },
     description: "A polymer magazine for the STANAG-compatible rifles.  Has an elaborate texture that should make it easier to handle.  <magazine/extension_plate:generic>",
 
@@ -853,8 +850,7 @@
         id: "black",
 
         name: {
-          str: "Magpul PMAG 30-round magazine (extension plate)",
-          str_pl: "Magpul PMAG 30-round magazines (extension plate)",
+          str: "Magpul PMAG 30+5-round magazine",
         },
         description: "A polymer magazine for 5.56mm and .300 Blackout rifles.  Its texture is intended to make it handle better than conventional aluminum magazines.  Intended for conventional warfare, supplementing its ammo capacity with high reliability.  <magazine/extension_plate:5>  <variant:black>",
         expand_snippets: true,
@@ -1098,8 +1094,7 @@
     subtypes: ["MAGAZINE"],
 
     name: {
-      str: "PMAG STANAG 40-round magazine (extension plate)",
-      str_pl: "PMAG STANAG 40-round magazines (extension plate)",
+      str: "PMAG STANAG 40+6-round magazine",
     },
     description: "A polymer magazine for the STANAG-compatible rifles.  Has an elaborate texture that should make it easier to handle.  Intended for competition shooting, to save time on reloads.  Would probably help in a firefight, all the same.  <magazine/extension_plate:generic>",
 
@@ -1109,8 +1104,7 @@
         id: "black",
 
         name: {
-          str: "Magpul PMAG 40-round magazine (extension plate)",
-          str_pl: "Magpul PMAG 40-round magazines (extension plate)",
+          str: "Magpul PMAG 40+6-round magazine",
         },
         description: "A polymer magazine for 5.56mm and .300 Blackout rifles.  Its texture is intended to make it handle better than conventional aluminum magazines.  Intended for competition shooting, where saving a few seconds on reloading can make or break your time.  Would probably help in a firefight, all the same.  <magazine/extension_plate:6>  <variant:black>",
         expand_snippets: true,
