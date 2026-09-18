@@ -816,7 +816,7 @@
     */
 
     name: { str: "PMAG STANAG 30-round magazine" },
-    description: "A polymer magazine for the STANAG-compatible rifles.  Has an elaborate texture that should make it easier to handle.  Its standard capacity makes it useful for firefights… or dealing with a group of zombies.",
+    description: "A polymer magazine for the STANAG-compatible rifles.  Has an elaborate texture that should make it easier to handle.",
 
     variant_type: "gun",
     variants: [
@@ -872,7 +872,7 @@
       str: "PMAG STANAG 30-round magazine (ranger plate)",
       str_pl: "PMAG STANAG 30-round magazines (ranger plate)",
     },
-    description: "A polymer magazine for the STANAG-compatible rifles.  Has an elaborate texture that should make it easier to handle.  Its standard capacity makes it useful for firefights… or dealing with a group of zombies.  <magazine/ranger_plate:generic>",
+    description: "A polymer magazine for the STANAG-compatible rifles.  Has an elaborate texture that should make it easier to handle.  <magazine/ranger_plate:generic>",
 
     variant_type: "gun",
     variants: [
@@ -944,7 +944,7 @@
       str: "PMAG STANAG 30-round magazine (extension plate)",
       str_pl: "PMAG STANAG 30-round magazines (extension plate)",
     },
-    description: "A polymer magazine for the STANAG-compatible rifles.  Has an elaborate texture that should make it easier to handle.  Its standard capacity makes it useful for firefights… or dealing with a group of zombies.  <magazine/extension_plate:generic>",
+    description: "A polymer magazine for the STANAG-compatible rifles.  Has an elaborate texture that should make it easier to handle.  <magazine/extension_plate:generic>",
 
     variant_type: "gun",
     variants: [
