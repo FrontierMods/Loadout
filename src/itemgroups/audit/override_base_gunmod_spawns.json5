@@ -223,12 +223,12 @@
       {
         op: "push",
         key: "items",
-        value: [{ group: "foregrips/short", prob: 40 }],
+        value: { group: "foregrips/short", prob: 40 },
       },
       {
         op: "push",
         key: "items",
-        value: [{ group: "foregrips/tiny", prob: 30 }],
+        value: { group: "foregrips/tiny", prob: 30 },
       },
 
       {
@@ -239,7 +239,7 @@
       {
         op: "push",
         key: "items",
-        value: [{ group: "chutes", prob: 40 }],
+        value: { group: "chutes", prob: 40 },
       },
 
       {
@@ -250,12 +250,12 @@
       {
         op: "push",
         key: "items",
-        value: [{ group: "laser_sights/rail:civilian", prob: 40 }],
+        value: { group: "laser_sights/rail:civilian", prob: 40 },
       },
       {
         op: "push",
         key: "items",
-        value: [{ group: "laser_sights/rail:military", prob: 5 }],
+        value: { group: "laser_sights/rail:military", prob: 5 },
       },
     ],
   },
@@ -297,12 +297,12 @@
       {
         op: "push",
         key: "items",
-        value: [{ group: "laser_sights/rail:military", prob: 30 }],
+        value: { group: "laser_sights/rail:military", prob: 30 },
       },
       {
         op: "push",
         key: "items",
-        value: [{ group: "sights:military", prob: 50 }],
+        value: { group: "sights:military", prob: 50 },
       },
     ],
   },
