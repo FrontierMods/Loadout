@@ -8,7 +8,7 @@
     entries: [
       // * G33 has been in use with the US SOF
       // > https://www.eotechinc.com/products/eotech-magnifier-g33
-      { group: "magnifier/eotech/g33" },
+      { item: "magnifier/eotech/g33" },
     ],
   },
 
@@ -41,9 +41,9 @@
 
     entries: [
       // * aka SU-231A/PEQ
-      { group: "sight/eotech/exps3", prob: 60 },
+      { item: "sight/eotech/exps3", prob: 60 },
       // * aka SU-231/PEQ
-      { group: "sight/eotech/553", prob: 20 },
+      { item: "sight/eotech/553", prob: 20 },
     ],
   },
   {
