@@ -146,4 +146,19 @@
     type: "recipe",
     obsolete: true,
   },
+  {
+    result: "grip_mount",
+    type: "recipe",
+    obsolete: true,
+  },
+  {
+    result: "stock_mount",
+    type: "recipe",
+    obsolete: true,
+  },
+  {
+    result: "sights_mount_launcher",
+    type: "recipe",
+    obsolete: true,
+  },
 ]
