@@ -1,0 +1,123 @@
+[
+  {
+    id: "magazines_9mm_glock",
+    inherit: "magazines_9mm_glock",
+    type: "item_group",
+
+    patch: [
+      {
+        op: "push",
+        key: "items",
+        value: { item: "magazine/glock/9x19mm/15+2", prob: 200 },
+      },
+      {
+        op: "push",
+        key: "items",
+        value: { item: "magazine/glock/9x19mm/17+2", prob: 150 },
+      },
+      {
+        op: "push",
+        key: "items",
+        value: { item: "magazine/glock/9x19mm/31", prob: 50 },
+      },
+      {
+        op: "push",
+        key: "items",
+        value: { item: "magazine/glock/9x19mm/24+2", prob: 30 },
+      },
+      {
+        op: "push",
+        key: "items",
+        value: { item: "magazine/kriss/9x19mm", prob: 10 },
+      },
+    ],
+  },
+
+  {
+    id: "magazines_22_ar",
+    inherit: "magazines_22_ar",
+    type: "item_group",
+
+    patch: [
+      {
+        op: "push",
+        key: "items",
+        value: { item: "magazine/chiappa/22lr/10/28", prob: 400 },
+      },
+    ],
+  },
+  {
+    id: "magazines_stanag",
+    inherit: "magazines_stanag",
+    type: "item_group",
+
+    patch: [
+      {
+        op: "push",
+        key: "items",
+        value: { item: "magazine/colt/stanag/20", prob: 75 },
+      },
+
+      {
+        op: "push",
+        key: "items",
+        value: { item: "magazine/magpul/pmag/20+5/taran", prob: 100 },
+      },
+      {
+        op: "push",
+        key: "items",
+        value: { item: "magazine/magpul/pmag/30+5/taran", prob: 150 },
+      },
+      {
+        op: "push",
+        key: "items",
+        value: { item: "magazine/magpul/pmag/40+6/taran", prob: 50 },
+      },
+
+      {
+        op: "push",
+        key: "items",
+        value: { item: "magazine/magpul/pmag/10/30", prob: 200 },
+      },
+      {
+        op: "push",
+        key: "items",
+        value: { item: "magazine/colt/stanag/10/30", prob: 250 },
+      },
+
+      {
+        op: "push",
+        key: "items",
+        value: { item: "magazine/kci/5.56x45mm/50", prob: 5 },
+      },
+      {
+        op: "push",
+        key: "items",
+        value: { item: "magazine/surefire/60", prob: 5 },
+      },
+      {
+        op: "push",
+        key: "items",
+        value: { item: "magazine/schmeisser/s60", prob: 3 },
+      },
+    ],
+  },
+  {
+    id: "magazines_restricted_stanag",
+    inherit: "magazines_restricted_stanag",
+    type: "item_group",
+
+    patch: [
+      {
+        op: "push",
+        key: "items",
+        value: { item: "magazine/magpul/pmag/10/30", prob: 200 },
+      },
+      {
+        op: "push",
+        key: "items",
+        value: { item: "magazine/colt/stanag/10/30", prob: 250 },
+      },
+    ],
+  },
+]
