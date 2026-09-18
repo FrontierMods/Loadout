@@ -20,6 +20,7 @@
       "magazine/magpul/pmag/30",
       "magazine/magpul/pmag/40",
 
+      "magazine/colt/stanag/20",
       "magazine/colt/stanag/30",
 
       "recipes/magazines/5.56x45mm/ranger_plate",
@@ -47,6 +48,7 @@
       "magazine/magpul/pmag/30:ranger",
       "magazine/magpul/pmag/40:ranger",
 
+      "magazine/colt/stanag/20:ranger",
       "magazine/colt/stanag/30:ranger",
     ],
   },

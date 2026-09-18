@@ -25,6 +25,12 @@
   },
 
   {
+    id: "requirement/magazine/body/colt/stanag/20",
+    type: "requirement",
+
+    components: [[["magazine/body/colt/stanag/20", 1]]],
+  },
+  {
     id: "requirement/magazine/body/colt/stanag/30",
     type: "requirement",
 

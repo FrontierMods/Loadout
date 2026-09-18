@@ -62,11 +62,34 @@
   },
 
   {
+    result: "magazine/colt/stanag/20",
+    "copy-from": "@magmod/disassembly",
+    type: "uncraft",
+
+    using: [
+      ["requirement/magmod/disassembly", 1],
+
+      ["requirement/magazine/body/colt/stanag/20", 1],
+      ["requirement/magazine/baseplate/colt/stanag", 1],
+    ],
+  },
+  {
+    result: "magazine/colt/stanag/20:ranger",
+    "copy-from": "@magmod/disassembly",
+    type: "uncraft",
+
+    using: [
+      ["requirement/magmod/disassembly", 1],
+
+      ["requirement/magazine/body/colt/stanag/20", 1],
+      ["requirement/magazine/baseplate/magpul/ranger/usgi", 1],
+    ],
+  },
+  {
     result: "magazine/colt/stanag/30",
     "copy-from": "@magmod/disassembly",
     type: "uncraft",
 
-    ],
     // SOURCE: https://magpul.com/media/wysiwyg/Instructions/MAG020_USGI_Ranger_Plate_INSRT.pdf
 
     using: [
