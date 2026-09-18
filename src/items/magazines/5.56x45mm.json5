@@ -372,6 +372,9 @@
 
         https://www.thehighroad.org/index.php?threads/ar-magazine-weight-difference.790557/
             - weight
+
+        https://www.bigtexordnance.com/product/okay-industries-surefeed-ar-15-magazine-5-56-20rd/
+            - variants reference
     */
 
     name: {
@@ -383,7 +386,7 @@
     variants: [
       {
         // * we are not currently modelling distinct types of this magazine by manufacturer or stamping details
-        from: ["steel"],
+        from: [["steel", 4], ["black", 2], "fde"],
 
         name: {
           str: "Colt M16 20-round magazine",
@@ -438,7 +441,7 @@
     variant_type: "gun",
     variants: [
       {
-        from: ["steel"],
+        from: [["steel", 4], ["black", 2], "fde"],
 
         name: {
           str: "Colt M16 20-round magazine",
