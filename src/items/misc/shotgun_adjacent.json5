@@ -26,6 +26,7 @@
 
     name: {
       str: "M26 stock assembly",
+      str_pl: "M26 stock assemblies",
     },
     description: "A grip and a stock attached to a joining mount.  Can be attached to the M26 underbarrel shotgun to make it usable as a standalone shotgun, without requiring another gun to mount it on.",
 
@@ -36,6 +37,7 @@
 
         name: {
           str: "M26-MASS stock assembly",
+          str_pl: "M26-MASS stock assemblies",
         },
         description: "A modular assembly of a pistol grip and a stock mounted on top of an inert AR-15-style buffer tube.  Can be attached to the M26-MASS in its underbarrel configuration in order to run it as a standalone shotgun.  <variant:black>",
         expand_snippets: true,
