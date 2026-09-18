@@ -43,6 +43,7 @@
     longest_side: "4.13 in",
 
     material: ["plastic"],
+
     price_postapoc: { utility: "low", longevity: "high", scarcity: "none" },
   },
   {
@@ -184,6 +185,7 @@
     longest_side: "7.35 in",
 
     material: ["plastic"],
+
     price_postapoc: { utility: "low", longevity: "high", scarcity: "none" },
   },
   {
@@ -212,8 +214,6 @@
       },
     ],
 
-    material: ["aluminum"],
-
     weight: {
       math: [
         { ref: "magazine/colt/stanag/30", key: "weight" },
@@ -233,6 +233,9 @@
       ],
     },
     longest_side: { ref: "magazine/colt/stanag/30", key: "longest_side" },
+
+    material: ["aluminum"],
+
     price_postapoc: { utility: "low", longevity: "high", scarcity: "none" },
   },
   {
@@ -267,8 +270,6 @@
       },
     ],
 
-    material: ["plastic"],
-
     weight: {
       math: [
         { ref: "magazine/magpul/pmag/40", key: "weight" },
@@ -286,6 +287,9 @@
     },
     // * Feret distance
     longest_side: "9.22 in",
+
+    material: ["plastic"],
+
     price_postapoc: { utility: "low", longevity: "high", scarcity: "low" },
   },
 ]
