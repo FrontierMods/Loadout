@@ -66,9 +66,8 @@
     "copy-from": "@magmod/disassembly",
     type: "uncraft",
 
-    "//sources": [
-      "https://magpul.com/media/wysiwyg/Instructions/MAG020_USGI_Ranger_Plate_INSRT.pdf",
     ],
+    // SOURCE: https://magpul.com/media/wysiwyg/Instructions/MAG020_USGI_Ranger_Plate_INSRT.pdf
 
     using: [
       ["requirement/magmod/disassembly", 1],
@@ -82,9 +81,7 @@
     "copy-from": "@magmod/disassembly",
     type: "uncraft",
 
-    "//sources": [
-      "https://magpul.com/media/wysiwyg/Instructions/MAG020_USGI_Ranger_Plate_INSRT.pdf",
-    ],
+    // SOURCE: https://magpul.com/media/wysiwyg/Instructions/MAG020_USGI_Ranger_Plate_INSRT.pdf
 
     using: [
       ["requirement/magmod/disassembly", 1],
