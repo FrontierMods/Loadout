@@ -77,6 +77,15 @@
       "m320_mod_mod",
       "masterkey_mod",
       "m26_mass_mod",
+
+      /**
+       * these chutes do not exist IRL
+       * they also cannot be adopted or coerced into existing from a real-life model: each of the shotguns listed has its own attachment model
+       */
+      "chute/arredondo/mossberg/500",
+      "chute/arredondo/mossberg/590",
+      "chute/arredondo/remington/870",
+      "chute/arredondo/remington/870:breacher",
     ],
   },
 ]
