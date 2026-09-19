@@ -859,4 +859,132 @@
       msg: "You turn the scope's zoom all the way down.",
     },
   },
+
+  {
+    id: "sight/trijicon/tenmile/3-18x",
+    inherit: "@sight/30mm",
+    type: "ITEM",
+    subtypes: ["GUNMOD"],
+
+    /*
+        SOURCES
+            https://www.trijicon.com/products/details/tm1844-c-3000002
+     */
+
+    /**
+        NOTES
+            - comes with a magnification knob and a sunshade
+     */
+
+    name: {
+      str: "long-range 30mm variable scope",
+    },
+    description: "A modern, high-performance variable scope for long ranges.  <sight/optical/magnification:low>",
+    expand_snippets: true,
+
+    variant_type: "gun",
+    variants: [
+      {
+        id: "black",
+
+        name: {
+          str: "Trijicon Tenmile 3-18×44 30mm scope",
+        },
+        description: "A modern variable scope sporting a high magnification rate.  Its reticle makes long-range shooting easier.  <variant:black>  <sight/optical/magnification:low>",
+        expand_snippets: true,
+        weight: 1,
+      },
+    ],
+
+    weight: "24.4 oz",
+    dimensions: [
+      {
+        // * FRONT PIECE
+        type: "cylinder",
+
+        length: "5.1 in",
+        diameter: "2.1 in",
+        trim: 0.35,
+      },
+      {
+        // * MAIN TUBE
+        type: "cylinder",
+
+        length: "6.2 in",
+        diameter: "30 mm",
+        trim: -0.125,
+      },
+      {
+        // * EYEPIECE
+        type: "cylinder",
+
+        length: "3.7 in",
+        diameter: "1.7 in",
+        trim: -0.025,
+      },
+    ],
+    longest_side: "15.02 in",
+
+    field_of_view: { height: "35.3 ft", distance: "100 yds" },
+    // * 0.06 mrad = 0.206 MOA
+    sight_dispersion: 1,
+    aim_speed_modifier: -1,
+
+    /* power: {
+      source: [["CR2032"]],
+      // * red reticle: 39 hours
+      // * green reticle: 94 hours
+      lifetime: "39 h",
+    }, */
+
+    use_action: {
+      type: "transform",
+      target: "sight/trijicon/tenmile/3-18x:magnified",
+      moves: 230,
+
+      menu_text: "Magnify",
+      msg: "You turn the scope's zoom all the way up.",
+    },
+
+    price: "2462 USD",
+  },
+  {
+    id: "sight/trijicon/tenmile/3-18x:magnified",
+    "copy-from": "sight/trijicon/tenmile/3-18x",
+    type: "ITEM",
+    subtypes: ["GUNMOD"],
+
+    name: {
+      str: "long-range 30mm variable scope (magnified)",
+      str_pl: "long-range 30mm variable scopes (magnified)",
+    },
+    description: "A modern, high-performance variable scope for long ranges.  <sight/optical/magnification:high>",
+    expand_snippets: true,
+
+    variant_type: "gun",
+    variants: [
+      {
+        id: "black",
+
+        name: {
+          str: "Trijicon Tenmile 3-18×44 30mm scope (magnified)",
+          str_pl: "Trijicon Tenmile 3-18×44 30mm scopes (magnified)",
+        },
+        description: "A modern variable scope sporting a high magnification rate.  Its reticle makes long-range shooting easier.  <variant:black>  <sight/optical/magnification:high>",
+        expand_snippets: true,
+        weight: 1,
+      },
+    ],
+
+    field_of_view: { height: "5.9 ft", distance: "100 yds" },
+
+    use_action: {
+      type: "transform",
+      target: "sight/trijicon/tenmile/3-18x",
+      moves: 230,
+
+      menu_text: "Demagnify",
+      msg: "You turn the scope's zoom all the way down.",
+    },
+  },
 ]

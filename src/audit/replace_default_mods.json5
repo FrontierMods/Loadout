@@ -77,4 +77,23 @@
     // * H&K has a 16.5-in. upper under the label of MR556, some models of which have Picatinny railing
     default_mods: ["upper_receiver/ar15/5.56x45mm/16in/aero/mod_4"],
   },
+  {
+    id: "scar_h_mk20",
+    inherit: "scar_h_mk20",
+    "copy-from": "scar_h_mk20",
+    type: "ITEM",
+    subtypes: ["GUN"],
+
+    patch: [
+      { op: "drop", key: "default_mods", value: "rifle_scope_high_end_mount" },
+
+      // TODO: replace with an appropriate sight
+      { op: "push", key: "default_mods", value: "sight_mount/30mm/aero" },
+      {
+        op: "push",
+        key: "default_mods",
+        value: "sight/trijicon/tenmile/3-18x",
+      },
+    ],
+  },
 ]
