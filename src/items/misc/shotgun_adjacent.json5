@@ -3,26 +3,29 @@
     id: "standalone_assembly/m26",
     inherit: ["@part", "@parkerized"],
     type: "ITEM",
-
     category: "spare_parts",
 
-    "//sources": [
-      ["TM 9-1005-341-10", "weight", "length"],
-      [
-        "https://www.brownells.co.uk/AR-15-A2-STYLE-PISTOL-GRIP-A2-Style-Pistol-Grip-Polymer-Black-CAVALRY-MANUFACTURING-LLC-100002830",
-        "dimensions of pistol grip",
-      ],
-      [
-        "https://www.brownells.no/AR-15-GEN-3-FOLDING-STOCK-ADAPTER-W/M4-STOCK-ASSEMBLY-AR-15-Gen-3-Folding-Stock-Adapter-w-M4-Stock-Assembly-BROWNELLS-Black-Mil-Spec-Carbine-078000323",
-        "dimensions of buffer tube and buttstock",
-      ],
-      ["M4A1 Technical Data Package", "width for buttstock"],
-    ],
+    /*
+        SOURCES
+            TM 9-1005-341-10
+                - weight
+                - length
 
-    "//notes": [
-      "we're using the M4 stock as a dimensions reference, but the one the M26 uses is clearly not that",
-      "we stick to the M4 stock until we identify the model the M26 uses and acquire its dimensions",
-    ],
+            https://www.brownells.co.uk/AR-15-A2-STYLE-PISTOL-GRIP-A2-Style-Pistol-Grip-Polymer-Black-CAVALRY-MANUFACTURING-LLC-100002830
+                - dimensions of pistol grip
+
+            https://www.brownells.no/AR-15-GEN-3-FOLDING-STOCK-ADAPTER-W/M4-STOCK-ASSEMBLY-AR-15-Gen-3-Folding-Stock-Adapter-w-M4-Stock-Assembly-BROWNELLS-Black-Mil-Spec-Carbine-078000323
+                - dimensions of buffer tube and buttstock
+
+            M4A1 Technical Data Package
+                - width of buttstock
+     */
+
+    /*
+        NOTES
+            - we're using the M4 stock as a dimensions reference, but the one the M26 uses is clearly not that
+            - we stick to the M4 stock until we identify the model the M26 uses and acquire its dimensions
+     */
 
     name: {
       str: "M26 stock assembly",
@@ -33,7 +36,7 @@
     variant_type: "gun",
     variants: [
       {
-        id: "black",
+        from: "black",
 
         name: {
           str: "M26-MASS stock assembly",
