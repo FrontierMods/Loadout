@@ -75,6 +75,12 @@
     inherit: "@upper_receiver/ar15",
     type: "PARTIAL",
 
+    // * computing capacity: `floor( ( n / 2 ) * 9.58 mm / 13.6 mm )`
+    // * where `n` is magazine capacity for 5.56mm
+    // * 9.58mm is the base diameter of 5.56mm
+    // * 13.6 mm is the base diameter of .50 Beowulf
+    // * rounded down, the calculation gives the number of .50 Beowulf rounds fitting into the magazine
+
     ammo_modifier: ["50beowulf"],
     magazine_adaptor: [
       ["50beowulf", { ref: "list/magazines/stanag/50beowulf", key: "list" }],
