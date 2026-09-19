@@ -1,21 +1,22 @@
 [
   {
     id: "robofac_gun",
+    inherit: "robofac_gun",
+    // * preserve inheritance for in-game display
     "copy-from": "robofac_gun",
     type: "ITEM",
     subtypes: ["GUN"],
 
-    name: { str: "Hub 01 HWP" },
+    patch: [
+      { op: "drop", key: "default_mods", value: "hybrid_sight_4x" },
 
-    // * replace hybrid 4x sight with an ACOG and an RMR mounted atop it
-    default_mods: [
-      "robofac_handguard",
-      "robofac_laser_sight",
-      "robofac_stock",
-
-      "sight/trijicon/ta01",
-      "sight_mount/rmr/trijicon/rm35",
-      "sight/trijicon/rmr",
+      { op: "push", key: "default_mods", value: "sight/trijicon/ta01" },
+      {
+        op: "push",
+        key: "default_mods",
+        value: "sight_mount/rmr/trijicon/rm35",
+      },
+      { op: "push", key: "default_mods", value: "sight/trijicon/rmr" },
     ],
   },
   {
@@ -35,20 +36,10 @@
     type: "ITEM",
     subtypes: ["GUN"],
 
-    name: {
-      str: "M16 auto rifle",
-    },
+    name: { ref: "modular_m16_auto_rifle", scope: "dda", key: "name" },
 
     variant_type: "gun",
-    variants: [
-      {
-        id: "modular_m16a3",
-        name: {
-          str: "M16A3 rifle",
-        },
-        description: "The M16 is a very common assault rifle descended from the AR-15, used by militaries across the world for over 50 years.  It is a gas-operated, rotating bolt rifle known for its accuracy and controllable recoil.  This one is a relatively rare M16A3, with full auto capability.",
-      },
-    ],
+    variants: { ref: "modular_m16_auto_rifle", scope: "dda", key: "variants" },
 
     // * removed `adjustable_stock`: the M16A3 has a fixed stock
     default_mods: ["upper_receiver/ar15/5.56x45mm/20in/colt/m16a3"],
@@ -59,20 +50,10 @@
     type: "ITEM",
     subtypes: ["GUN"],
 
-    name: {
-      str: "M16 burst rifle",
-    },
+    name: { ref: "modular_m16a4", scope: "dda", key: "name" },
 
     variant_type: "gun",
-    variants: [
-      {
-        id: "modular_m16a4",
-        name: {
-          str: "M16A4",
-        },
-        description: "The M16 is a very common assault rifle descended from the AR-15, used by militaries across the world for over 50 years.  It is a gas-operated, rotating bolt rifle known for its accuracy and controllable recoil.",
-      },
-    ],
+    variants: { ref: "modular_m16a4", scope: "dda", key: "variants" },
 
     // * removed `adjustable_stock`: the M16A4 has a fixed stock
     default_mods: ["upper_receiver/ar15/5.56x45mm/20in/colt/m16a4"],
@@ -83,35 +64,14 @@
     type: "ITEM",
     subtypes: ["GUN"],
 
-    name: {
-      str: "M27 assault rifle",
-    },
+    name: { ref: "modular_m27_assault_rifle", scope: "dda", key: "name" },
 
     variant_type: "gun",
-    variants: [
-      {
-        id: "modular_h&k416a5",
-        name: {
-          str: "H&K416 A5 rifle",
-        },
-        description: "Designed to replace the M4A1, the Heckler and Koch 416A5 features most of the former's strengths, while being considerably more durable.",
-      },
-      {
-        id: "modular_m27iar",
-        name: {
-          str: "M27 IAR carbine",
-        },
-        description: "A H&K416 carbine outfitted with a heavier barrel to enable higher amounts of suppressive fire while retaining a good degree of mobility.",
-        ascii_picture: "m27_iar",
-      },
-      {
-        id: "modular_m38dmr",
-        name: {
-          str: "M38 DMR rifle",
-        },
-        description: "The M38 Designated Marksman Rifle is an M27 IAR, itself derived from a H&K416, selected for accuracy, and outfitted with a variable power scope and a QDSS suppressor.",
-      },
-    ],
+    variants: {
+      ref: "modular_m27_assault_rifle",
+      scope: "dda",
+      key: "variants",
+    },
 
     // * this is clearly not the right upper for this gun, but in the absence of any information about the real one, this will have to do
     // * H&K has a 16.5-in. upper under the label of MR556, some models of which have Picatinny railing

@@ -5,7 +5,7 @@
     type: "ITEM",
     subtypes: ["GUNMOD"],
 
-    name: { str: "adjustable stock" },
+    name: { ref: "adjustable_stock", scope: "dda", key: "name" },
 
     extend: {
       flags: ["IRREMOVABLE"],
@@ -17,7 +17,7 @@
     type: "ITEM",
     subtypes: ["GUNMOD"],
 
-    name: { str: "folding stock" },
+    name: { ref: "folding_stock", scope: "dda", key: "name" },
 
     extend: {
       flags: ["IRREMOVABLE"],
@@ -29,10 +29,7 @@
     type: "ITEM",
     subtypes: ["GUNMOD"],
 
-    name: {
-      str: "folding stock (folded)",
-      str_pl: "folding stocks (folded)",
-    },
+    name: { ref: "folding_stock_folded", scope: "dda", key: "name" },
 
     extend: {
       flags: ["IRREMOVABLE"],
@@ -44,7 +41,7 @@
     type: "ITEM",
     subtypes: ["GUNMOD"],
 
-    name: { str: "modular folding stock" },
+    name: { ref: "high_end_folding_stock", scope: "dda", key: "name" },
 
     extend: {
       flags: ["IRREMOVABLE"],
@@ -56,10 +53,7 @@
     type: "ITEM",
     subtypes: ["GUNMOD"],
 
-    name: {
-      str: "modular folding stock (folded)",
-      str_pl: "modular folding stocks (folded)",
-    },
+    name: { ref: "high_end_folding_stock_folded", scope: "dda", key: "name" },
 
     extend: {
       flags: ["IRREMOVABLE"],
@@ -71,7 +65,7 @@
     type: "ITEM",
     subtypes: ["GUNMOD"],
 
-    name: { str: "recoil stock" },
+    name: { ref: "recoil_stock", scope: "dda", key: "name" },
 
     extend: {
       flags: ["IRREMOVABLE"],
@@ -83,7 +77,7 @@
     type: "ITEM",
     subtypes: ["GUNMOD"],
 
-    name: { str: "match trigger" },
+    name: { ref: "match_trigger", scope: "dda", key: "name" },
 
     extend: {
       flags: ["IRREMOVABLE"],

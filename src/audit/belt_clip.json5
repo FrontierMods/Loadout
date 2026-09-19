@@ -5,20 +5,10 @@
     type: "ITEM",
     subtypes: ["GUN"],
 
-    name: {
-      str: ".22 caliber revolver",
-    },
+    name: { ref: "ruger_lcr_22", scope: "dda", key: "name" },
 
     variant_type: "gun",
-    variants: [
-      {
-        id: "ruger_lcr_22",
-        name: {
-          str: "Ruger LCR .22 revolver",
-        },
-        description: "A compact, double-action-only revolver designed for easy concealment, with a stainless steel cylinder and aluminum frame.",
-      },
-    ],
+    variants: { ref: "ruger_lcr_22", scope: "dda", key: "variants" },
 
     extend: { valid_mod_locations: [["belt clip", 1]] },
   },
@@ -28,9 +18,7 @@
     type: "ITEM",
     subtypes: ["GUN"],
 
-    name: {
-      str: "12 gauge pistol",
-    },
+    name: { ref: "ashot", scope: "dda", key: "name" },
 
     extend: { valid_mod_locations: [["belt clip", 1]] },
   },
@@ -40,9 +28,7 @@
     type: "ITEM",
     subtypes: ["GUN"],
 
-    name: {
-      str: "double barrel .38 pistol",
-    },
+    name: { ref: "2_shot_special", scope: "dda", key: "name" },
 
     extend: { valid_mod_locations: [["belt clip", 1]] },
   },
@@ -52,20 +38,10 @@
     type: "ITEM",
     subtypes: ["GUN"],
 
-    name: {
-      str: "FN 5.7mm pistol",
-    },
+    name: { ref: "fn57", scope: "dda", key: "name" },
 
     variant_type: "gun",
-    variants: [
-      {
-        id: "fn57",
-        name: {
-          str: "FN Five-seveN pistol",
-        },
-        description: "Designed to work with FN's proprietary 5.7x28mm round, the Five-seveN is a lightweight pistol with a very high capacity, best used against armored opponents.",
-      },
-    ],
+    variants: { ref: "fn57", scope: "dda", key: "variants" },
 
     extend: { valid_mod_locations: [["belt clip", 1]] },
   },
@@ -75,9 +51,7 @@
     type: "ITEM",
     subtypes: ["GUN"],
 
-    name: {
-      str: "Beretta Px4 Storm pistol",
-    },
+    name: { ref: "px4", scope: "dda", key: "name" },
 
     extend: { valid_mod_locations: [["belt clip", 1]] },
   },
@@ -87,9 +61,7 @@
     type: "ITEM",
     subtypes: ["GUN"],
 
-    name: {
-      str: "Beretta Px4 Storm .40 S&W",
-    },
+    name: { ref: "px4_40", scope: "dda", key: "name" },
 
     extend: { valid_mod_locations: [["belt clip", 1]] },
   },
@@ -99,20 +71,10 @@
     type: "ITEM",
     subtypes: ["GUN"],
 
-    name: {
-      str: "double-barrel derringer",
-    },
+    name: { ref: "bond_410", scope: "dda", key: "name" },
 
     variant_type: "gun",
-    variants: [
-      {
-        id: "bond_410",
-        name: {
-          str: "Bond Arms Derringer",
-        },
-        description: "Derringers are old-fashioned conceal carry weapons, usually sporting one or two barrels.  The Bond Arms Derringer is a modern series of multi-barrel compact pistols.  Most commonly chambered for .45 Colt, with chambers long enough to accept .410 shotgun shells.  Though, with modern handguns, derringers have become less and less practical as a conceal carry option.",
-      },
-    ],
+    variants: { ref: "bond_410", scope: "dda", key: "variants" },
 
     extend: { valid_mod_locations: [["belt clip", 1]] },
   },
@@ -122,20 +84,10 @@
     type: "ITEM",
     subtypes: ["GUN"],
 
-    name: {
-      str: "Mauser pistol",
-    },
+    name: { ref: "mauser_c96", scope: "dda", key: "name" },
 
     variant_type: "gun",
-    variants: [
-      {
-        id: "mauser_c96",
-        name: {
-          str: "Mauser C96 Broomhandle pistol",
-        },
-        description: "A late 19th century semi-automatic German pistol with an integral magazine loaded from the top via stripper clips, and quite possibly the most steampunk gun one could ever possibly lay their hands on.  A red number '9' burned and painted into the weapon's broom handle-shaped grip marks it as a variant chambered for 9x19mm rounds.  Both exported for commercial use and produced for the German military during the First World War to make up for production shortages of the standard Luger, this example likely entered the US as a holdover from the Great War.  You suppose that it's only fitting that one of the globe's first produced and oldest semi-automatic handguns gets reinstated into service now that the planet's facing its end.",
-      },
-    ],
+    variants: { ref: "mauser_c96", scope: "dda", key: "variants" },
 
     extend: { valid_mod_locations: [["belt clip", 1]] },
   },
@@ -145,9 +97,7 @@
     type: "ITEM",
     subtypes: ["GUN"],
 
-    name: {
-      str: "Browning Hi-Power .40 S&W",
-    },
+    name: { ref: "hi_power_40", scope: "dda", key: "name" },
 
     extend: { valid_mod_locations: [["belt clip", 1]] },
   },
@@ -157,9 +107,7 @@
     type: "ITEM",
     subtypes: ["GUN"],
 
-    name: {
-      str: "Browning Hi-Power 9x19mm handgun",
-    },
+    name: { ref: "hi_power_9mm", scope: "dda", key: "name" },
 
     extend: { valid_mod_locations: [["belt clip", 1]] },
   },
@@ -169,20 +117,10 @@
     type: "ITEM",
     subtypes: ["GUN"],
 
-    name: {
-      str: "Colt Delta Elite pistol",
-    },
+    name: { ref: "m1911_10", scope: "dda", key: "name" },
 
     variant_type: "gun",
-    variants: [
-      {
-        id: "m1911_10",
-        name: {
-          str: "Colt Delta Elite pistol",
-        },
-        description: "A modernized, match-grade variant of the venerable M1911 chambered in hard-hitting 10mm Auto.  Early variants were known to crack frames; modern 1911s, like this one, are slotted to prevent such crack formation.",
-      },
-    ],
+    variants: { ref: "m1911_10", scope: "dda", key: "variants" },
 
     extend: { valid_mod_locations: [["belt clip", 1]] },
   },
@@ -192,20 +130,10 @@
     type: "ITEM",
     subtypes: ["GUN"],
 
-    name: {
-      str: "compact Glock pistol",
-    },
+    name: { ref: "glock_29", scope: "dda", key: "name" },
 
     variant_type: "gun",
-    variants: [
-      {
-        id: "glock_29",
-        name: {
-          str: "Glock 29 pistol",
-        },
-        description: "A modestly sized version of the highly successful Glock, chambered in hard-hitting 10mm Auto.  It is easy to carry because of its small size, but also recoils fiercely.",
-      },
-    ],
+    variants: { ref: "glock_29", scope: "dda", key: "variants" },
 
     extend: { valid_mod_locations: [["belt clip", 1]] },
   },
@@ -215,20 +143,10 @@
     type: "ITEM",
     subtypes: ["GUN"],
 
-    name: {
-      str: "compact service handgun",
-    },
+    name: { ref: "m18", scope: "dda", key: "name" },
 
     variant_type: "gun",
-    variants: [
-      {
-        id: "m18",
-        name: {
-          str: "M18 pistol",
-        },
-        description: "The M18 is a compact, semi-automatic, short recoil operated pistol derived from the SIG Sauer P320 Carry, used by US Armed Forces.  Practically the same as its big brother, the M17, in every respect, the M18 features a moderately shorter slide and barrel which terminates at the end of the frame rather than extending partway beyond it like the M17.",
-      },
-    ],
+    variants: { ref: "m18", scope: "dda", key: "variants" },
 
     extend: { valid_mod_locations: [["belt clip", 1]] },
   },
@@ -238,9 +156,7 @@
     type: "ITEM",
     subtypes: ["GUN"],
 
-    name: {
-      str: "CZ 75 B pistol",
-    },
+    name: { ref: "cz75", scope: "dda", key: "name" },
 
     extend: { valid_mod_locations: [["belt clip", 1]] },
   },
@@ -250,20 +166,10 @@
     type: "ITEM",
     subtypes: ["GUN"],
 
-    name: {
-      str: "EAA Witness pistol",
-    },
+    name: { ref: "witness_10", scope: "dda", key: "name" },
 
     variant_type: "gun",
-    variants: [
-      {
-        id: "witness_10",
-        name: {
-          str: "EAA Witness 10mm pistol",
-        },
-        description: "The EAA Witness is a modified variant of the CZ-75, produced in Italy by Tanfoglio.  This is the standard steel framed version chambered in 10mm Auto.",
-      },
-    ],
+    variants: { ref: "witness_10", scope: "dda", key: "variants" },
 
     extend: { valid_mod_locations: [["belt clip", 1]] },
   },
@@ -273,9 +179,7 @@
     type: "ITEM",
     subtypes: ["GUN"],
 
-    name: {
-      str: "flaregun",
-    },
+    name: { ref: "flaregun", scope: "dda", key: "name" },
 
     extend: { valid_mod_locations: [["belt clip", 1]] },
   },
@@ -285,9 +189,7 @@
     type: "ITEM",
     subtypes: ["GUN"],
 
-    name: {
-      str_sp: "Glock 22",
-    },
+    name: { ref: "glock_22", scope: "dda", key: "name" },
 
     extend: { valid_mod_locations: [["belt clip", 1]] },
   },
@@ -297,9 +199,7 @@
     type: "ITEM",
     subtypes: ["GUN"],
 
-    name: {
-      str: "Glock 31",
-    },
+    name: { ref: "glock_31", scope: "dda", key: "name" },
 
     extend: { valid_mod_locations: [["belt clip", 1]] },
   },
@@ -309,20 +209,10 @@
     type: "ITEM",
     subtypes: ["GUN"],
 
-    name: {
-      str: "Glock pistol",
-    },
+    name: { ref: "glock_20", scope: "dda", key: "name" },
 
     variant_type: "gun",
-    variants: [
-      {
-        id: "glock_20",
-        name: {
-          str: "Glock 20 pistol",
-        },
-        description: "A full-sized version of the highly successful Glock, chambered in hard-hitting 10mm Auto.  The third model of Glock designed, all other full-sized, large framed Glocks are adaptations of this one.",
-      },
-    ],
+    variants: { ref: "glock_20", scope: "dda", key: "variants" },
 
     extend: { valid_mod_locations: [["belt clip", 1]] },
   },
@@ -332,20 +222,10 @@
     type: "ITEM",
     subtypes: ["GUN"],
 
-    name: {
-      str: "Glock pistol",
-    },
+    name: { ref: "glock_21", scope: "dda", key: "name" },
 
     variant_type: "gun",
-    variants: [
-      {
-        id: "glock_21",
-        name: {
-          str: "Glock 21 pistol",
-        },
-        description: "A full-sized version of the highly successful Glock.  This model is chambered in .45 ACP.",
-      },
-    ],
+    variants: { ref: "glock_21", scope: "dda", key: "variants" },
 
     extend: { valid_mod_locations: [["belt clip", 1]] },
   },
@@ -355,9 +235,7 @@
     type: "ITEM",
     subtypes: ["GUN"],
 
-    name: {
-      str: "Hi-Point C-9 pistol",
-    },
+    name: { ref: "hptc9", scope: "dda", key: "name" },
 
     extend: { valid_mod_locations: [["belt clip", 1]] },
   },
@@ -367,9 +245,7 @@
     type: "ITEM",
     subtypes: ["GUN"],
 
-    name: {
-      str: "Hi-Point CF-380 pistol",
-    },
+    name: { ref: "hptcf380", scope: "dda", key: "name" },
 
     extend: { valid_mod_locations: [["belt clip", 1]] },
   },
@@ -379,9 +255,7 @@
     type: "ITEM",
     subtypes: ["GUN"],
 
-    name: {
-      str_sp: "Hi-Point Model JCP",
-    },
+    name: { ref: "hptjcp", scope: "dda", key: "name" },
 
     extend: { valid_mod_locations: [["belt clip", 1]] },
   },
@@ -391,20 +265,10 @@
     type: "ITEM",
     subtypes: ["GUN"],
 
-    name: {
-      str: "Model JHP pistol",
-    },
+    name: { ref: "hptjhp", scope: "dda", key: "name" },
 
     variant_type: "gun",
-    variants: [
-      {
-        id: "hptjhp",
-        name: {
-          str: "Hi-Point Model JHP pistol",
-        },
-        description: "The Hi-Point Model JHP is a blowback operated semi-automatic pistol designed by Hi-Point Firearms, which is known for making inexpensive firearms, and for making said firearms bulky and uncomfortable.  Hi-Points have slides made with a zinc pot-metal which is relatively fragile compared to steel slides.",
-      },
-    ],
+    variants: { ref: "hptjhp", scope: "dda", key: "variants" },
 
     extend: { valid_mod_locations: [["belt clip", 1]] },
   },
@@ -414,20 +278,10 @@
     type: "ITEM",
     subtypes: ["GUN"],
 
-    name: {
-      str: "high-capacity P90 handgun",
-    },
+    name: { ref: "p50", scope: "dda", key: "name" },
 
     variant_type: "gun",
-    variants: [
-      {
-        id: "p50",
-        name: {
-          str: "Kel-Tec P50 pistol",
-        },
-        description: "Unique, adaptable, and extremely retro, the Kel-Tec P50 is a truly bizarre semi-automatic pistol.  Having been regarded as possibly one of the most innovative firearms from Kel-Tec's entire line-up of guns, the P50 makes use of the high velocity 5.7x28mm cartridge, and feeds from standard FN P90 magazines.  Boasting ambidextrous controls, an AR-15-like T-shaped charging handle, and a reload which involves swinging the receiver and barrel assemblies up and away from the frame to insert the magazine horizontally over the grip, this weapon lends a decidedly retro-futuristic touch to almost any situation.",
-      },
-    ],
+    variants: { ref: "p50", scope: "dda", key: "variants" },
 
     extend: { valid_mod_locations: [["belt clip", 1]] },
   },
@@ -437,20 +291,10 @@
     type: "ITEM",
     subtypes: ["GUN"],
 
-    name: {
-      str: "hunter Glock pistol",
-    },
+    name: { ref: "glock_40", scope: "dda", key: "name" },
 
     variant_type: "gun",
-    variants: [
-      {
-        id: "glock_40",
-        name: {
-          str: "Glock 40 pistol",
-        },
-        description: "A full-sized, long-slide version of the highly successful Glock, chambered in hard-hitting 10mm Auto.  The extra barrel length makes for slightly more accurate and powerful shots, and the extra slide length means the sights are a little easier to use.",
-      },
-    ],
+    variants: { ref: "glock_40", scope: "dda", key: "variants" },
 
     extend: { valid_mod_locations: [["belt clip", 1]] },
   },
@@ -460,9 +304,7 @@
     type: "ITEM",
     subtypes: ["GUN"],
 
-    name: {
-      str: "Luger P08 pistol",
-    },
+    name: { ref: "p08", scope: "dda", key: "name" },
 
     extend: { valid_mod_locations: [["belt clip", 1]] },
   },
@@ -472,9 +314,7 @@
     type: "ITEM",
     subtypes: ["GUN"],
 
-    name: {
-      str: "M11 pistol",
-    },
+    name: { ref: "m11", scope: "dda", key: "name" },
 
     extend: { valid_mod_locations: [["belt clip", 1]] },
   },
@@ -484,28 +324,10 @@
     type: "ITEM",
     subtypes: ["GUN"],
 
-    name: {
-      str: "M1911 pistol",
-    },
+    name: { ref: "m1911", scope: "dda", key: "name" },
 
     variant_type: "gun",
-    variants: [
-      {
-        id: "m1911",
-        name: {
-          str: "M1911 pistol",
-        },
-        "//": "You can get 'em for over US$1K if you want.  This is a fairly cheap remake.",
-        description: "The M1911 was the US Military standard-issue sidearm for most of the 20th Century.  It remains one of the most popular .45 pistols today.",
-      },
-      {
-        id: "m1911_MEU",
-        name: {
-          str: "M45A1 pistol",
-        },
-        description: "The M45A1 supplanted earlier M45 MEUSOC pistols in use by Force Recon elements of Marine Expeditionary Units.  Where the original M45 pistols were gutted M1911A1s hand-fitted by USMC armorers, the updated M45A1s are hardly different from any other commercial 1911 design, save for their dual recoil springs.  Most were replaced in 2016 with Glock 19s due to logistics issues.",
-      },
-    ],
+    variants: { ref: "m1911", scope: "dda", key: "variants" },
 
     extend: { valid_mod_locations: [["belt clip", 1]] },
   },
@@ -515,9 +337,7 @@
     type: "ITEM",
     subtypes: ["GUN"],
 
-    name: {
-      str: "M1911A1",
-    },
+    name: { ref: "m1911a1_38super", scope: "dda", key: "name" },
 
     extend: { valid_mod_locations: [["belt clip", 1]] },
   },
@@ -527,27 +347,10 @@
     type: "ITEM",
     subtypes: ["GUN"],
 
-    name: {
-      str: "M9 combat pistol",
-    },
+    name: { ref: "m9", scope: "dda", key: "name" },
 
     variant_type: "gun",
-    variants: [
-      {
-        id: "m9",
-        name: {
-          str: "Beretta M9A1 pistol",
-        },
-        description: "An iconic 9x19mm pistol, the M9 was the standard issue sidearm of the US armed forces from 1985 until only recently.  It was formerly popular among law enforcement before the advent of commercially available polymer-framed handguns and the FBI's adoption of .40 S&W.",
-      },
-      {
-        id: "90two",
-        name: {
-          str: "Beretta 90-two pistol",
-        },
-        description: "A more modern version of Beretta's popular 92 series of handguns, the 90-two performs largely the same.  The main difference is a sleeker, almost futuristic-looking design owed in large part to the polymer underbarrel rail cover.",
-      },
-    ],
+    variants: { ref: "m9", scope: "dda", key: "variants" },
 
     extend: { valid_mod_locations: [["belt clip", 1]] },
   },
@@ -557,21 +360,10 @@
     type: "ITEM",
     subtypes: ["GUN"],
 
-    name: {
-      str: "Makarov pistol",
-    },
+    name: { ref: "makarov", scope: "dda", key: "name" },
 
     variant_type: "gun",
-    variants: [
-      {
-        id: "makarov",
-        name: {
-          str: "Makarov PM pistol",
-        },
-        "//": "10 and 12-round magazines exist, but were made for the newer PMM, and are not compatible with the old PM.",
-        description: "A svelte, Cold War era handgun of Russian heritage, this former military pistol fires the Soviet 9x18mm cartridge.  Constructed completely out of steel components and experiencing relative popularity throughout eastern European countries, it was a favored backup weapon among USSR security forces, soldiers, and covert units.",
-      },
-    ],
+    variants: { ref: "makarov", scope: "dda", key: "variants" },
 
     extend: { valid_mod_locations: [["belt clip", 1]] },
   },
@@ -581,20 +373,10 @@
     type: "ITEM",
     subtypes: ["GUN"],
 
-    name: {
-      str: "PPQ pistol",
-    },
+    name: { ref: "walther_ppq_45", scope: "dda", key: "name" },
 
     variant_type: "gun",
-    variants: [
-      {
-        id: "walther_ppq_45",
-        name: {
-          str: "Walther PPQ 45 pistol",
-        },
-        description: "The Walther PPQ is a semi-automatic pistol originating from the Walther P99QA, and maintains compatibility with some of its predecessor's accessories.  This model is chambered in .45 ACP.",
-      },
-    ],
+    variants: { ref: "walther_ppq_45", scope: "dda", key: "variants" },
 
     extend: { valid_mod_locations: [["belt clip", 1]] },
   },
@@ -604,20 +386,10 @@
     type: "ITEM",
     subtypes: ["GUN"],
 
-    name: {
-      str: "Ruger-57 handgun",
-    },
+    name: { ref: "ruger_57", scope: "dda", key: "name" },
 
     variant_type: "gun",
-    variants: [
-      {
-        id: "ruger_57",
-        name: {
-          str: "Ruger-57 handgun",
-        },
-        description: "A full-sized polymer framed handgun chambered in the unusual 5.7x28mm cartridge, the Ruger-57 was one of the first commercially available 5.7mm pistols on the market, with its main competitor being FN's decades-old, and far pricier, Five-seveN pistol.  Featuring a lightweight ergonomic design, 1911-style thumb-safety, a high visibility green front-sight with adjustable black rear iron-sights, and a price point which hovered a good 500 dollars below its competition, the Ruger-57 made the comparatively niche 5.7x28mm round far more accessible to a wider margin of potential shooters.",
-      },
-    ],
+    variants: { ref: "ruger_57", scope: "dda", key: "variants" },
 
     extend: { valid_mod_locations: [["belt clip", 1]] },
   },
@@ -627,20 +399,10 @@
     type: "ITEM",
     subtypes: ["GUN"],
 
-    name: {
-      str: "service handgun",
-    },
+    name: { ref: "m17", scope: "dda", key: "name" },
 
     variant_type: "gun",
-    variants: [
-      {
-        id: "m17",
-        name: {
-          str: "M17 pistol",
-        },
-        description: "The M17 is an army issued semi-automatic, short recoil operated pistol derived from the SIG Sauer P320.",
-      },
-    ],
+    variants: { ref: "m17", scope: "dda", key: "variants" },
 
     extend: { valid_mod_locations: [["belt clip", 1]] },
   },
@@ -650,9 +412,7 @@
     type: "ITEM",
     subtypes: ["GUN"],
 
-    name: {
-      str: "SIG P226",
-    },
+    name: { ref: "p226_357sig", scope: "dda", key: "name" },
 
     extend: { valid_mod_locations: [["belt clip", 1]] },
   },
@@ -662,9 +422,7 @@
     type: "ITEM",
     subtypes: ["GUN"],
 
-    name: {
-      str: "SIG P226 MK25 pistol",
-    },
+    name: { ref: "p226_9mm", scope: "dda", key: "name" },
 
     extend: { valid_mod_locations: [["belt clip", 1]] },
   },
@@ -674,9 +432,7 @@
     type: "ITEM",
     subtypes: ["GUN"],
 
-    name: {
-      str: "SIG P320 Compact",
-    },
+    name: { ref: "p320_357sig", scope: "dda", key: "name" },
 
     extend: { valid_mod_locations: [["belt clip", 1]] },
   },
@@ -686,20 +442,10 @@
     type: "ITEM",
     subtypes: ["GUN"],
 
-    name: {
-      str: "SIG pistol",
-    },
+    name: { ref: "p220_10", scope: "dda", key: "name" },
 
     variant_type: "gun",
-    variants: [
-      {
-        id: "p220_10",
-        name: {
-          str: "SIG P220 10mm pistol",
-        },
-        description: "The SIG Sauer P220 was developed for the Swiss military in 1975, and its simplified action was later used in most other SIG Sauer designs, including the P226.  The all-steel construction adds heft to this model, which is chambered in hard-hitting 10mm Auto.",
-      },
-    ],
+    variants: { ref: "p220_10", scope: "dda", key: "variants" },
 
     extend: { valid_mod_locations: [["belt clip", 1]] },
   },
@@ -709,9 +455,7 @@
     type: "ITEM",
     subtypes: ["GUN"],
 
-    name: {
-      str_sp: "SIG Pro .40",
-    },
+    name: { ref: "sig_40", scope: "dda", key: "name" },
 
     extend: { valid_mod_locations: [["belt clip", 1]] },
   },
@@ -721,9 +465,7 @@
     type: "ITEM",
     subtypes: ["GUN"],
 
-    name: {
-      str: "SIG Pro SP2022 9mm pistol",
-    },
+    name: { ref: "sp2022", scope: "dda", key: "name" },
 
     extend: { valid_mod_locations: [["belt clip", 1]] },
   },
@@ -733,21 +475,10 @@
     type: "ITEM",
     subtypes: ["GUN"],
 
-    name: {
-      str: "firefly training pistol",
-    },
+    name: { ref: "sig_mosquito", scope: "dda", key: "name" },
 
     variant_type: "gun",
-    variants: [
-      {
-        id: "sig_mosquito",
-        name: {
-          str: "GSG Firefly",
-          str_pl: "GSG Fireflies",
-        },
-        description: "The GSG firefly is a .22 semi-automatic handgun.  While the GSG Firefly started off as the SIG Mosquito, after the Mosquito ceased production, German Sport Guns picked it up and renamed it to the Firefly.",
-      },
-    ],
+    variants: { ref: "sig_mosquito", scope: "dda", key: "variants" },
 
     extend: { valid_mod_locations: [["belt clip", 1]] },
   },
@@ -757,9 +488,7 @@
     type: "ITEM",
     subtypes: ["GUN"],
 
-    name: {
-      str_sp: "the Pressin",
-    },
+    name: { ref: "pressin", scope: "dda", key: "name" },
 
     extend: { valid_mod_locations: [["belt clip", 1]] },
   },
@@ -769,20 +498,10 @@
     type: "ITEM",
     subtypes: ["GUN"],
 
-    name: {
-      str: "Tokarev handgun",
-    },
+    name: { ref: "tokarev", scope: "dda", key: "name" },
 
     variant_type: "gun",
-    variants: [
-      {
-        id: "tokarev",
-        name: {
-          str: "Tokarev TT-33 pistol",
-        },
-        description: "The Tokarev TT-33 is an antique Russian semiautomatic pistol, famous for its durability, accuracy, and uncomfortable grip angle.  It was chambered for the 7.62x25mm due to the popularity of the C96 pistol among Russian revolutionaries.",
-      },
-    ],
+    variants: { ref: "tokarev", scope: "dda", key: "variants" },
 
     extend: { valid_mod_locations: [["belt clip", 1]] },
   },
@@ -792,9 +511,7 @@
     type: "ITEM",
     subtypes: ["GUN"],
 
-    name: {
-      str: "USP 9x19mm pistol",
-    },
+    name: { ref: "usp_9mm", scope: "dda", key: "name" },
 
     extend: { valid_mod_locations: [["belt clip", 1]] },
   },
@@ -804,27 +521,10 @@
     type: "ITEM",
     subtypes: ["GUN"],
 
-    name: {
-      str: "USP pistol",
-    },
+    name: { ref: "usp_45", scope: "dda", key: "name" },
 
     variant_type: "gun",
-    variants: [
-      {
-        id: "usp_45",
-        name: {
-          str: ".45 USP pistol",
-        },
-        description: "A popular pistol, widely used among law enforcement.  Extensively tested for durability, it has been found to stay accurate even after being subjected to extreme abuse.",
-      },
-      {
-        id: "mk23",
-        name: {
-          str: "MK 23 MOD 0 pistol",
-        },
-        description: 'Jokingly referred to as "The World\'s Only Crew-Served Pistol", this massive pistol was designed as a primary weapon for select "special operators".  Its cumbersome nature, the introduction of the derivative HK USP series, and the logistics of getting .45 ACP ammunition in theater doomed this behemoth to US SOCOM armories.  Like the USP, the MK 23 is a remarkably reliable gun; someone could probably take out a nuclear-equipped walking tank with this in their holster.',
-      },
-    ],
+    variants: { ref: "usp_45", scope: "dda", key: "variants" },
 
     extend: { valid_mod_locations: [["belt clip", 1]] },
   },
@@ -834,9 +534,7 @@
     type: "ITEM",
     subtypes: ["GUN"],
 
-    name: {
-      str: "Walther CCP pistol",
-    },
+    name: { ref: "walther_ccp", scope: "dda", key: "name" },
 
     extend: { valid_mod_locations: [["belt clip", 1]] },
   },
@@ -846,9 +544,7 @@
     type: "ITEM",
     subtypes: ["GUN"],
 
-    name: {
-      str: "Walther P38 handgun",
-    },
+    name: { ref: "walther_p38", scope: "dda", key: "name" },
 
     extend: { valid_mod_locations: [["belt clip", 1]] },
   },
@@ -858,9 +554,7 @@
     type: "ITEM",
     subtypes: ["GUN"],
 
-    name: {
-      str_sp: "Walther PPK pistol",
-    },
+    name: { ref: "walther_ppk", scope: "dda", key: "name" },
 
     extend: { valid_mod_locations: [["belt clip", 1]] },
   },
@@ -870,9 +564,7 @@
     type: "ITEM",
     subtypes: ["GUN"],
 
-    name: {
-      str: "Walther PPQ 9mm pistol",
-    },
+    name: { ref: "walther_ppq_9mm", scope: "dda", key: "name" },
 
     extend: { valid_mod_locations: [["belt clip", 1]] },
   },
@@ -882,20 +574,10 @@
     type: "ITEM",
     subtypes: ["GUN"],
 
-    name: {
-      str: "Walther training pistol",
-    },
+    name: { ref: "walther_p22", scope: "dda", key: "name" },
 
     variant_type: "gun",
-    variants: [
-      {
-        id: "walther_p22",
-        name: {
-          str: "Walther P22 pistol",
-        },
-        description: "The Walther P22 is a blowback operated semi-automatic pistol intended for training with a platform very similar to more defensive handguns.  It is about half the size of most Walthers.  It is made mostly with plastic, with the slide and key components (other than the barrel) being made of die-cast zinc alloy.",
-      },
-    ],
+    variants: { ref: "walther_p22", scope: "dda", key: "variants" },
 
     extend: { valid_mod_locations: [["belt clip", 1]] },
   },
@@ -905,20 +587,10 @@
     type: "ITEM",
     subtypes: ["GUN"],
 
-    name: {
-      str: "XD-M pistol",
-    },
+    name: { ref: "xd_10", scope: "dda", key: "name" },
 
     variant_type: "gun",
-    variants: [
-      {
-        id: "xd_10",
-        name: {
-          str: "XD-M Competition 10mm pistol",
-        },
-        description: "Designed by HS Produkt in Croatia, the HS2000 has become a commercial success for Springfield Armory, who imports and markets it as the eXtreme Duty.  The XD has since been offered in a variety of chamberings and sizes, including this full-sized match grade variant in 10mm Auto.",
-      },
-    ],
+    variants: { ref: "xd_10", scope: "dda", key: "variants" },
 
     extend: { valid_mod_locations: [["belt clip", 1]] },
   },
@@ -928,9 +600,7 @@
     type: "ITEM",
     subtypes: ["GUN"],
 
-    name: {
-      str_sp: "Kel-Tec P-32 pistol",
-    },
+    name: { ref: "kp32", scope: "dda", key: "name" },
 
     extend: { valid_mod_locations: [["belt clip", 1]] },
   },
@@ -940,9 +610,7 @@
     type: "ITEM",
     subtypes: ["GUN"],
 
-    name: {
-      str_sp: "Ruger LCP pistol",
-    },
+    name: { ref: "rugerlcp", scope: "dda", key: "name" },
 
     extend: { valid_mod_locations: [["belt clip", 1]] },
   },
